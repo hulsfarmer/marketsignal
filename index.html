@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketSignal - AI 주식 뉴스 스코어</title>
+    <meta name="description" content="AI가 매일 분석하는 한국 주식 상위 100개 종목 뉴스 점수">
+    <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
+    .container { max-width: 920px; margin: 0 auto; padding: 20px; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header { text-align: center; padding: 35px 0 25px; border-bottom: 2px solid #e2e8f0; }
+    header h1 { font-size: 2.2em; color: #1a365d; margin-bottom: 5px; letter-spacing: -0.5px; }
+    header .date { color: #718096; font-size: 1.05em; }
+    header .accuracy { color: #38a169; margin-top: 8px; font-size: 0.95em; font-weight: 500; }
+
+    .nav { text-align: center; padding: 12px 0; background: #fff; border-radius: 8px; margin: 15px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; }
+
+    .section { margin: 25px 0; }
+    .section h2 { color: #1a365d; margin-bottom: 15px; font-size: 1.25em; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
+
+    .top-card { background: #fff; border-radius: 10px; padding: 18px 20px; margin-bottom: 12px;
+                border-left: 4px solid #3182ce; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .top-card .rank { color: #3182ce; font-size: 1.4em; font-weight: bold; float: left; margin-right: 15px; width: 35px; }
+    .top-card .name { font-size: 1.1em; font-weight: 600; color: #2d3748; }
+    .top-card .score { font-size: 1.4em; font-weight: bold; float: right; }
+    .top-card .score.high { color: #e53e3e; }
+    .top-card .score.mid { color: #dd6b20; }
+    .top-card .score.low { color: #3182ce; }
+    .top-card .score.danger { color: #a0aec0; }
+    .top-card .change { font-size: 0.8em; margin-left: 4px; }
+    .change.up { color: #e53e3e; }
+    .change.down { color: #3182ce; }
+    .top-card .news { color: #4a5568; margin-top: 8px; font-size: 0.9em; }
+    .top-card .comment { color: #718096; margin-top: 4px; font-size: 0.85em; font-style: italic; }
+    .top-card .meta { color: #a0aec0; font-size: 0.8em; margin-top: 4px; }
+    .clearfix::after { content: ""; display: table; clear: both; }
+
+    .warning-card { border-left-color: #e53e3e; background: #fff5f5; }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    th { background: #edf2f7; color: #2d3748; padding: 10px 12px; text-align: left; font-size: 0.85em; font-weight: 600; }
+    td { padding: 8px 12px; border-bottom: 1px solid #edf2f7; font-size: 0.85em; }
+    tr:hover { background: #f7fafc; }
+    .score-cell { font-weight: bold; text-align: center; }
+    .score-high { color: #e53e3e; }
+    .score-mid { color: #dd6b20; }
+    .score-low { color: #a0aec0; }
+
+    .footer { text-align: center; padding: 25px 0; color: #a0aec0; font-size: 0.85em; border-top: 1px solid #e2e8f0; margin-top: 30px; }
+    .footer a { color: #3182ce; }
+
+    .promo { background: #ebf8ff; border: 1px solid #bee3f8; border-radius: 8px; padding: 14px; margin: 20px 0; text-align: center; }
+    .promo a { color: #2b6cb0; font-weight: bold; }
+
+        h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; letter-spacing: -0.5px; }
+        .subtitle { text-align: center; color: #718096; margin-bottom: 25px; font-size: 1.05em; }
+        .today { background: #fff; border-radius: 10px; padding: 25px; margin: 20px 0; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .today a { color: #1a365d; font-size: 1.2em; font-weight: 600; }
+        .today .preview { margin-top: 12px; }
+        .accuracy { text-align: center; color: #38a169; margin: 10px 0; font-weight: 500; }
+        .archive { margin-top: 30px; }
+        .archive h2 { color: #1a365d; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
+        .archive ul { list-style: none; }
+        .archive li { padding: 10px 0; border-bottom: 1px solid #edf2f7; }
+        .archive a { color: #2d3748; font-weight: 500; }
+        .archive a:hover { color: #3182ce; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>MarketSignal</h1>
+    <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 스코어</div>
+    <div class="accuracy">분석 정확도: 0.0% (최근 30일)</div>
+
+    <div class="today">
+        <a href="posts/2026-03-22.html">오늘의 스코어 (2026-03-22)</a>
+        <div class="preview"><span style="margin-right:15px; color:#2d3748;">HD한국조선해양 <b style="color:#e53e3e;">82점</b></span><span style="margin-right:15px; color:#2d3748;">우리금융지주 <b style="color:#e53e3e;">78점</b></span><span style="margin-right:15px; color:#2d3748;">삼성전기 <b style="color:#e53e3e;">78점</b></span></div>
+    </div>
+
+    <div class="promo">
+        유튜브 쇼츠를 AI로 자동 생성! <a href="https://shortsai.kr" target="_blank">ShortsAI.kr</a>
+    </div>
+
+    <div class="archive">
+        <h2>지난 스코어</h2>
+        <ul>
+            <li><a href="posts/2026-03-22.html">2026-03-22 뉴스 스코어</a></li>
+
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>MarketSignal - AI 뉴스 기반 주식 스코어</p>
+        <p>본 자료는 투자 참고용이며, 투자 판단의 책임은 본인에게 있습니다.</p>
+        <p style="margin-top: 10px;"><a href="https://shortsai.kr">ShortsAI</a></p>
+    </div>
+</div>
+</body>
+</html>
