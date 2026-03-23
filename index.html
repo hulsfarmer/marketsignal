@@ -40,6 +40,10 @@
     .top-card .meta { color: #a0aec0; font-size: 0.8em; margin-top: 4px; }
     .clearfix::after { content: ""; display: table; clear: both; }
 
+    .warning-badge { display: inline-block; background: #fed7d7; color: #c53030; font-size: 0.75em;
+                     padding: 2px 8px; border-radius: 10px; margin-left: 8px; font-weight: 500; }
+    .penalty-info { color: #e53e3e; font-size: 0.8em; margin-top: 2px; }
+    .overheat-card { border-left-color: #ed8936; background: #fffaf0; }
     .warning-card { border-left-color: #e53e3e; background: #fff5f5; }
 
     table { width: 100%; border-collapse: collapse; margin-top: 10px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
@@ -74,12 +78,12 @@
 <body>
 <div class="container">
     <h1>MarketSignal</h1>
-    <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 스코어</div>
+    <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 + 주가 데이터 스코어</div>
     <div class="accuracy">분석 정확도: 0.0% (최근 30일)</div>
 
     <div class="today">
         <a href="posts/2026-03-23.html">오늘의 스코어 (2026-03-23)</a>
-        <div class="preview"><span style="margin-right:15px; color:#2d3748;">HD한국조선해양 <b style="color:#e53e3e;">82점</b></span><span style="margin-right:15px; color:#2d3748;">크래프톤 <b style="color:#e53e3e;">78점</b></span><span style="margin-right:15px; color:#2d3748;">신한지주 <b style="color:#e53e3e;">75점</b></span></div>
+        <div class="preview"><span style="margin-right:15px; color:#2d3748;">GS리테일 <b style="color:#e53e3e;">58점</b></span><span style="margin-right:15px; color:#2d3748;">크래프톤 <b style="color:#e53e3e;">55점</b></span><span style="margin-right:15px; color:#2d3748;">현대차 <b style="color:#e53e3e;">52점</b></span></div>
     </div>
 
     <div class="promo">
@@ -96,7 +100,7 @@
     </div>
 
     <div class="footer">
-        <p>MarketSignal - AI 뉴스 기반 주식 스코어</p>
+        <p>MarketSignal v2.0 - AI 뉴스 + 주가 데이터 기반 주식 스코어</p>
         <p>본 자료는 투자 참고용이며, 투자 판단의 책임은 본인에게 있습니다.</p>
         <p style="margin-top: 10px;"><a href="https://shortsai.kr">ShortsAI</a></p>
     </div>
