@@ -64,9 +64,13 @@
         h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; letter-spacing: -0.5px; }
         .subtitle { text-align: center; color: #718096; margin-bottom: 25px; font-size: 1.05em; }
         .today { background: #fff; border-radius: 10px; padding: 25px; margin: 20px 0; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-        .today a { color: #1a365d; font-size: 1.2em; font-weight: 600; }
-        .today .preview { margin-top: 12px; }
+        .today a { color: #fff; font-size: 1.05em; font-weight: 700; text-decoration: none; }
+        .today .preview { margin-top: 16px; }
         .accuracy { text-align: center; color: #38a169; margin: 10px 0; font-weight: 500; }
+        .update-badge { display: inline-block; background: #ebf8ff; color: #2b6cb0; border: 1px solid #bee3f8; padding: 4px 14px; border-radius: 20px; font-size: 0.85em; font-weight: 600; margin: 6px 0 18px; }
+        .score-btn { display: inline-block; background: linear-gradient(135deg, #2b6cb0, #3182ce); color: #fff; padding: 13px 32px; border-radius: 30px; font-size: 1.1em; font-weight: 700; text-decoration: none; box-shadow: 0 4px 14px rgba(49,130,206,0.35); transition: transform 0.15s, box-shadow 0.15s; letter-spacing: -0.3px; }
+        .score-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(49,130,206,0.45); text-decoration: none; }
+        .click-hint { color: #a0aec0; font-size: 0.8em; margin-top: 8px; }
         .archive { margin-top: 30px; }
         .archive h2 { color: #1a365d; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
         .archive ul { list-style: none; }
@@ -79,12 +83,34 @@
 <div class="container">
     <h1>MarketSignal</h1>
     <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 + 주가 데이터 스코어</div>
+    <div style="text-align:center"><span class="update-badge">🕖 매일 아침 7시 업데이트</span></div>
     <div class="accuracy">분석 정확도: 69.0% (최근 30일)</div>
 
     <div class="today">
-        <a href="posts/2026-03-27.html">오늘의 스코어 (2026-03-27)</a>
+        <div style="color:#718096; font-size:0.9em; margin-bottom:10px;">오늘의 스코어 (2026-03-27)</div>
+        <a class="score-btn" href="posts/2026-03-27.html">📊 100개 종목 점수 보기 →</a>
+        <div class="click-hint">클릭하면 전체 종목 AI 점수를 확인할 수 있어요</div>
         <div class="preview"><span style="margin-right:15px; color:#2d3748;">SK하이닉스 <b style="color:#e53e3e;">47점</b></span><span style="margin-right:15px; color:#2d3748;">SK텔레콤 <b style="color:#e53e3e;">47점</b></span><span style="margin-right:15px; color:#2d3748;">신세계 <b style="color:#e53e3e;">40점</b></span></div>
     </div>
+
+    
+    <div style="display:flex; gap:12px; margin:18px 0; flex-wrap:wrap;">
+        <div style="flex:1; min-width:200px; background:#fff5f5; border:2px solid #e53e3e; border-radius:12px; padding:16px; text-align:center;">
+            <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📊 시장 영향력 점수</div>
+            <div style="font-size:2.2em; font-weight:800; color:#e53e3e;">37<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:1em; font-weight:600; color:#e53e3e;">다소 부정적</div>
+            <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">금리·물가 부담이 있는 환경, 방어적 투자 권장</div>
+            <div style="margin-top:8px; font-size:0.75em;"><a href="#indicators" style="color:#e53e3e;">상세 보기 ↓</a></div>
+        </div>
+        <div style="flex:1; min-width:200px; background:#fff5f5; border:2px solid #e53e3e; border-radius:12px; padding:16px; text-align:center;">
+            <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📰 뉴스 분위기</div>
+            <div style="font-size:2.2em; font-weight:800; color:#e53e3e;">34<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:1em; font-weight:600; color:#e53e3e;">부정적</div>
+            <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">오늘 주요 뉴스 종합</div>
+            <div style="margin-top:8px; font-size:0.75em;"><a href="#news" style="color:#e53e3e;">상세 보기 ↓</a></div>
+        </div>
+    </div>
+
 
     
     <div class="section" id="indicators">
@@ -118,17 +144,17 @@
             </div>
     </div>
 
-        <div style="background:#fff5f5; border:2px solid #e53e3e; border-radius:12px; padding:20px; margin-bottom:15px; text-align:center;">
-            <div style="font-size:0.9em; color:#718096; margin-bottom:5px;">시장 영향력 점수</div>
-            <div style="font-size:2.5em; font-weight:800; color:#e53e3e;">37<span style="font-size:0.4em; font-weight:400;">점</span></div>
-            <div style="font-size:1.1em; font-weight:600; color:#e53e3e; margin:3px 0;">다소 부정적</div>
-            <div style="font-size:0.85em; color:#4a5568;">금리·물가 부담이 있는 환경, 방어적 투자 권장</div>
-            <div style="margin-top:10px; background:#e2e8f0; border-radius:10px; height:10px; overflow:hidden;">
-                <div style="background:#e53e3e; height:100%; width:37%; border-radius:10px; transition:width 0.5s;"></div>
-            </div>
-            <div style="display:flex; justify-content:space-between; font-size:0.7em; color:#a0aec0; margin-top:3px;">
-                <span>0 (매우 부정)</span><span>50 (중립)</span><span>100 (매우 긍정)</span>
-            </div>
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:12px; text-align:center;">
+            <span style="color:#718096; font-size:0.85em;">시장 영향력 점수</span>
+            <span style="color:#e53e3e; font-weight:700; font-size:1.1em; margin-left:8px;">다소 부정적</span>
+            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(37점)</span>
+            <span style="color:#cbd5e0; font-size:0.75em; margin-left:8px;">— 금리·물가 부담이 있는 환경, 방어적 투자 권장</span>
+        </div>
+
+        <div style="background:#ebf8ff; border:1px solid #bee3f8; border-radius:8px; padding:14px; margin-bottom:15px; font-size:0.9em; color:#2c5282;">
+            <b>이 숫자들이 왜 중요할까?</b><br>
+            미국 경제 지표 → 금리 방향 결정 → 한국 주식시장 영향<br>
+            특히 <b>기준금리</b>·<b>물가(CPI)</b>·<b>환율</b>이 코스피에 가장 큰 영향을 줍니다.
         </div>
 
         <div style="margin-bottom:12px;">
@@ -151,6 +177,7 @@
                         <span>3/26 기준</span>
                         <span>60점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 중앙은행(연준)이 설정한 금리 범위</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -169,6 +196,7 @@
                         <span>2/1 기준</span>
                         <span>59점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 물건값이 1년간 얼마나 올랐는지</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -187,6 +215,7 @@
                         <span>2/1 기준</span>
                         <span>58점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국에서 일자리를 구하지 못한 사람의 비율</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -205,6 +234,7 @@
                         <span>10/1 기준</span>
                         <span>42점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 경제가 얼마나 성장하고 있는지 (분기별)</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -223,6 +253,7 @@
                         <span>3/26 기준</span>
                         <span>43점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 정부가 10년간 빌릴 때 금리 (시장금리의 기준)</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -241,6 +272,7 @@
                         <span>1/1 기준</span>
                         <span>37점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">연준이 가장 중시하는 물가지표 (식품·에너지 제외)</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -259,6 +291,7 @@
                         <span>3/26 기준</span>
                         <span>35점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">시장의 불안감 수치 (높을수록 공포, 낮을수록 안심)</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -277,6 +310,7 @@
                         <span>3/26 기준</span>
                         <span>18점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">전일 나스닥 종가 등락률 → 다음날 코스피에 직접 영향</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -295,6 +329,7 @@
                         <span>3/26 기준</span>
                         <span>27점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">전일 S&P 500 종가 등락률 → 다음날 코스피에 직접 영향</div>
                 </div>
             </div>
         </div>
@@ -319,6 +354,7 @@
                         <span>2/1 기준</span>
                         <span>69점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">한국 단기금리 (한국은행 기준금리와 연동)</div>
                 </div>
 
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
@@ -337,8 +373,14 @@
                         <span>3/26 기준</span>
                         <span>23점</span>
                     </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">1달러에 한국 원화가 얼마인지 (높을수록 원화 약세)</div>
                 </div>
             </div>
+        </div>
+
+        <div style="font-size:0.8em; color:#a0aec0; margin-top:10px; text-align:center;">
+            * 시장 영향력 점수 = 각 지표의 코스피 영향도를 가중 평균 (0~100점)<br>
+            * 데이터: FRED (미국 연준) + fawazahmed0 (환율) | 각 지표별 기준일 표시
         </div>
     </div>
 
@@ -350,21 +392,29 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:12px; text-align:center;">
             <span style="color:#718096; font-size:0.85em;">뉴스 분위기</span>
             <span style="color:#e53e3e; font-weight:700; font-size:1.1em; margin-left:8px;">부정적</span>
-            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(40점)</span>
-        </div>
-
-        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
-            <div style="display:flex; align-items:center; gap:8px;">
-                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
-                <span style="color:#2d3748; font-size:0.9em;">반도체주 긍정 신호</span>
-            </div>
-            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">005930</span> <span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">000660</span></div>
+            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(34점)</span>
         </div>
 
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">나스닥 급락으로 글로벌 약세</span>
+                <span style="color:#2d3748; font-size:0.9em;">외인 6거래일 연속 순매도, 삼성전자 2조 매도</span>
+            </div>
+            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">005930</span></div>
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">나스닥 조정, 트럼프 협상기한 연장으로 불확실성</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
+                <span style="color:#2d3748; font-size:0.9em;">스페이스X 상장 임박, 관련 업종 수혜 기대</span>
             </div>
             
         </div>
@@ -372,7 +422,15 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">레버리지 ETF 손실 심화</span>
+                <span style="color:#2d3748; font-size:0.9em;">마이크론, 터보퀀트 기술로 7% 급락</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">개인투자자 수수료 부담 증가, 시장 왜곡 우려</span>
             </div>
             
         </div>
