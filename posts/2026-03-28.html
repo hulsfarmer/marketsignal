@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketSignal - 2026-03-28 뉴스 스코어</title>
+    <meta name="description" content="AI가 분석한 한국 주식 상위 100개 종목 뉴스 점수 (2026-03-28)">
+    <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
+    .container { max-width: 920px; margin: 0 auto; padding: 20px; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header { text-align: center; padding: 35px 0 25px; border-bottom: 2px solid #e2e8f0; }
+    header h1 { font-size: 2.2em; color: #1a365d; margin-bottom: 5px; letter-spacing: -0.5px; }
+    header .date { color: #718096; font-size: 1.05em; }
+    header .accuracy { color: #38a169; margin-top: 8px; font-size: 0.95em; font-weight: 500; }
+
+    .nav { text-align: center; padding: 12px 0; background: #fff; border-radius: 8px; margin: 15px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; }
+
+    .section { margin: 25px 0; }
+    .section h2 { color: #1a365d; margin-bottom: 15px; font-size: 1.25em; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
+
+    .top-card { background: #fff; border-radius: 10px; padding: 18px 20px; margin-bottom: 12px;
+                border-left: 4px solid #3182ce; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .top-card .rank { color: #3182ce; font-size: 1.4em; font-weight: bold; float: left; margin-right: 15px; width: 35px; }
+    .top-card .name { font-size: 1.1em; font-weight: 600; color: #2d3748; }
+    .top-card .score { font-size: 1.4em; font-weight: bold; float: right; }
+    .top-card .score.high { color: #e53e3e; }
+    .top-card .score.mid { color: #dd6b20; }
+    .top-card .score.low { color: #3182ce; }
+    .top-card .score.danger { color: #a0aec0; }
+    .top-card .change { font-size: 0.8em; margin-left: 4px; }
+    .change.up { color: #e53e3e; }
+    .change.down { color: #3182ce; }
+    .top-card .news { color: #4a5568; margin-top: 8px; font-size: 0.9em; }
+    .top-card .comment { color: #718096; margin-top: 4px; font-size: 0.85em; font-style: italic; }
+    .top-card .meta { color: #a0aec0; font-size: 0.8em; margin-top: 4px; }
+    .clearfix::after { content: ""; display: table; clear: both; }
+
+    .warning-badge { display: inline-block; background: #fed7d7; color: #c53030; font-size: 0.75em;
+                     padding: 2px 8px; border-radius: 10px; margin-left: 8px; font-weight: 500; }
+    .penalty-info { color: #e53e3e; font-size: 0.8em; margin-top: 2px; }
+    .overheat-card { border-left-color: #ed8936; background: #fffaf0; }
+    .warning-card { border-left-color: #e53e3e; background: #fff5f5; }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    th { background: #edf2f7; color: #2d3748; padding: 10px 12px; text-align: left; font-size: 0.85em; font-weight: 600; }
+    td { padding: 8px 12px; border-bottom: 1px solid #edf2f7; font-size: 0.85em; }
+    tr:hover { background: #f7fafc; }
+    .score-cell { font-weight: bold; text-align: center; }
+    .score-high { color: #e53e3e; }
+    .score-mid { color: #dd6b20; }
+    .score-low { color: #a0aec0; }
+
+    .footer { text-align: center; padding: 25px 0; color: #a0aec0; font-size: 0.85em; border-top: 1px solid #e2e8f0; margin-top: 30px; }
+    .footer a { color: #3182ce; }
+
+    .promo { background: #ebf8ff; border: 1px solid #bee3f8; border-radius: 8px; padding: 14px; margin: 20px 0; text-align: center; }
+    .promo a { color: #2b6cb0; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>MarketSignal</h1>
+        <div class="date">2026년 03월 28일 (토) 뉴스 스코어</div>
+        <div class="accuracy">AI 분석 정확도: 82.0% (최근 30일)</div>
+    </header>
+
+    <div class="nav">
+        <a href="../index.html">홈</a> |
+        <a href="#top10">상위 10</a> |
+        <a href="#warning">주의 종목</a> |
+        <a href="#all">전체 100</a> |
+        <a href="#indicators">경제 지표</a> |
+        <a href="#news">주요 뉴스</a> |
+        <a href="#calendar">발표 일정</a>
+    </div>
+
+    
+    <div style="display:flex; gap:12px; margin:18px 0; flex-wrap:wrap;">
+        <div style="flex:1; min-width:200px; background:#fff5f5; border:2px solid #e53e3e; border-radius:12px; padding:16px; text-align:center;">
+            <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📊 시장 영향력 점수</div>
+            <div style="font-size:2.2em; font-weight:800; color:#e53e3e;">37<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:1em; font-weight:600; color:#e53e3e;">다소 부정적</div>
+            <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">금리·물가 부담이 있는 환경, 방어적 투자 권장</div>
+            <div style="margin-top:8px; font-size:0.75em;"><a href="#indicators" style="color:#e53e3e;">상세 보기 ↓</a></div>
+        </div>
+        <div style="flex:1; min-width:200px; background:#fff5f5; border:2px solid #e53e3e; border-radius:12px; padding:16px; text-align:center;">
+            <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📰 뉴스 분위기</div>
+            <div style="font-size:2.2em; font-weight:800; color:#e53e3e;">30<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:1em; font-weight:600; color:#e53e3e;">부정적</div>
+            <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">오늘 주요 뉴스 종합</div>
+            <div style="margin-top:8px; font-size:0.75em;"><a href="#news" style="color:#e53e3e;">상세 보기 ↓</a></div>
+        </div>
+    </div>
+
+
+    <div style="background:#fffaf0; border:1px solid #fbd38d; border-radius:8px; padding:12px; margin:15px 0; font-size:0.9em; color:#744210;">
+        <b>과열 감지:</b> 4개 종목에 과열 페널티가 적용되었습니다.
+        급등주의 긍정 뉴스는 이미 주가에 반영되었을 가능성이 높습니다.
+    </div>
+
+    <div class="section" id="top10">
+        <h2>상위 10 종목 (매수 긍정)</h2>
+<div class="top-card clearfix">
+  <span class="rank">1</span>
+  <span class="score low">37점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">삼성바이오로직스 (207940)</div>
+  <div class="news">미국 법인에 3.5억 달러(약 5,249억원) 추가 출자로 국제 확장 가속화</div>
+  <div class="comment">미국 시장 확장과 수주 활동 강화는 긍정적이나, 약세장(37점) 속에서 이미 단기 상승(2.46%)을 보인 후 거래량 저조(0.5배)로 전환된 상황입니다. 분할 이후 주가 약세 지속과 20일 수익률 -9.1%을 감안하면, 호재가 반영되고 있으나 시장 약세 압력에 상쇄될 가능성이 높습니다.</div>
+  <div class="meta">긍정 3건 / 부정 1건 / 중립 1건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">2</span>
+  <span class="score low">37점
+    <span class="change up">(+14)</span>
+  </span>
+  <div class="name">현대차 (005380)</div>
+  <div class="news">주식 고수들의 원픽으로 현대차 부상, 피지컬 AI 시대 주도주 평가</div>
+  <div class="comment">긍정적 뉴스(저평가 평가, 고수 매수)가 있으나, 현재 약세장(37점) 하에서 시장 심리 악화가 우선하고 있습니다. 거래량 부진(0.6배), 5일 -4.3% 약세, RSI 47(중립)로 추가 상승 동력이 약해 보입니다. 단기적으로는 시장 리스크 회피 심리에 주가가 좌우될 가능성이 높습니다.</div>
+  <div class="meta">긍정 3건 / 부정 0건 / 중립 2건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">3</span>
+  <span class="score low">37점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">POSCO홀딩스 (005490)</div>
+  <div class="news">아르헨티나 리튬 상업생산 + 장기공급 계약 가시화로 신사업 반전 신호, 자사주 소각으로 주주환원 이행</div>
+  <div class="comment">약세장(VIX 31.1) 환경에서 긍정 뉴스가 있으나, 주가는 20일 -15.8% 약세 중이고 거래량도 저조(0.6배)해 실질적 매수세 부족. 리튬 사업의 장기공급 계약 가시화는 신규 호재이나, 철강 약세와 시장 리스크오프 압력이 상쇄 가능성 높음.</div>
+  <div class="meta">긍정 3건 / 부정 0건 / 중립 2건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">4</span>
+  <span class="score low">37점
+    <span class="change up">(+4)</span>
+  </span>
+  <div class="name">신한지주 (055550)</div>
+  <div class="news">3분기 누적 순이익 4조4천609억원 역대 최대 달성 및 국민연금의 신한지주 지분율 9%대 진입</div>
+  <div class="comment">강력한 실적 호재(역대 최대 순이익, ISS 반대→찬성)와 기관 매수 신호가 있으나, 이미 주가가 금융그룹 랠리에 반영된 상태(4대 금융지주 2배 상승 기사)입니다. 약세장 심화(VIX 31.1, 나스닥 -2.15%)로 호재 효과가 제한적이며, 거래량 부족(0.7배)은 차익실현 신호로 해석됩니다.</div>
+  <div class="meta">긍정 4건 / 부정 0건 / 중립 1건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">5</span>
+  <span class="score low">37점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">KB금융 (105560)</div>
+  <div class="news">KB금융, 비과세배당 재원 7.5조 확정···주총 안건 모두 통과</div>
+  <div class="comment">비과세배당 도입으로 배당여력 강화는 배당주로서의 매력도를 높이는 긍정재료이나, 전일비 0.0%, 5일 수익률 -1.9%로 주가가 약세장 영향을 크게 받고 있습니다. 약세장(37점) 하에서 배당 정책 개선만으로는 상승 동력이 제한적이며, 차익실현 우려와 저조한 거래량(0.8배)이 추가 상승을 제약할 가능성이 높습니다.</div>
+  <div class="meta">긍정 1건 / 부정 0건 / 중립 4건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">6</span>
+  <span class="score low">37점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">포스코퓨처엠 (003670)</div>
+  <div class="news">포스코퓨처엠-금호석유화학-BEI, 차세대 배터리 기술 개발 업무협약</div>
+  <div class="comment">차세대 배터리 기술 협약은 미래 성장성을 시사하는 긍정 재료이나, 주가가 이미 5일 +4.9%, 어제 +3.11% 상승하며 단기 호재를 상당 부분 선반영했을 가능성이 높습니다. 약세장(37점) 환경에서 기술협약 같은 중장기 재료만으로 추가 상승을 주도하기는 제한적이며, RSI 54는 중립 수준이나 차익실현 매물이 나올 수 있는 구간입니다.</div>
+  <div class="meta">긍정 3건 / 부정 0건 / 중립 2건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">7</span>
+  <span class="score low">37점
+    <span class="change up">(+7)</span>
+  </span>
+  <div class="name">셀트리온 (068270)</div>
+  <div class="news">서정진 회장의 저평가 지적과 2500억원 추가 매입 검토로 경영진 신뢰도 강화</div>
+  <div class="comment">주주환원 정책(1.7조 자사주 소각, 현금배당 확대) 및 경영진의 적극적 매입 의향 등 긍정 뉴스가 다수지만, 약세장(VIX 31.1, 나스닥 -2.15%) 속에서 개별 호재의 파급력은 제한적입니다. 5일 수익률 +2.0%, RSI 52로 과매수 없으나, 20일 -14.9%의 낙폭 대비 기술적 회복 단계로 보여 추가 상승은 시장 심리 개선 필요</div>
+  <div class="meta">긍정 4건 / 부정 0건 / 중립 1건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">8</span>
+  <span class="score low">37점
+    <span class="change up">(+4)</span>
+  </span>
+  <div class="name">현대모비스 (012330)</div>
+  <div class="news">연기금이 국내 주식 비중 한계 속에서도 현대모비스를 추가 매수하며 기관의 강한 수급 지지 신호</div>
+  <div class="comment">연기금의 추가 매수와 로보틱스 신사업 기대감이 긍정 요인이나, 약세장(VIX 31.1) 속에서 이들 호재가 시장 낙심을 충분히 상쇄하기엔 약합니다. 20일 수익률 -22.8%의 낙폭으로 인한 차익실현 매물과 거래량 부족(0.8배)이 단기 상승을 제약할 가능성이 높습니다.</div>
+  <div class="meta">긍정 3건 / 부정 0건 / 중립 2건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">9</span>
+  <span class="score low">37점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">KT (030200)</div>
+  <div class="news">하나증권 45% 상향 목표가와 NH투자증권 8만원 목표가 상향 vs 약세장 환경에서의 제한적 상승 여력</div>
+  <div class="comment">밸류업 수혜 및 글로벌 통신사 대비 저평가 재평가 논리는 긍정적이나, 현재 시장이 약세장(37점)인 상황에서 이러한 호재들이 충분히 소화되기 어렵습니다. 거래량 0.5배 수준과 RSI 54의 중립적 기술지표를 고려하면 단기 추가 상승보다는 박스권 유지 가능성이 높으며, 시장 심리 개선 시점까지 대기 자세가 권장됩니다.</div>
+  <div class="meta">긍정 3건 / 부정 0건 / 중립 2건</div>
+</div>
+<div class="top-card clearfix">
+  <span class="rank">10</span>
+  <span class="score low">37점
+    <span class="change up">(+10)</span>
+  </span>
+  <div class="name">하나금융지주 (086790)</div>
+  <div class="news">국민연금이 하나금융지주 지분을 8.72%로 확대 매수하며 기관의 신뢰도 제고</div>
+  <div class="comment">국민연금의 지분 확대와 주주환원 긍정 뉴스가 있으나, 전일 나스닥 -2.15%, VIX 31.1의 약세장 환경에서 5일 -2.5%, 20일 -11.6%의 약세 추세와 거래량 0.8배의 낮은 관심도가 상승을 제약합니다. 단기적으로는 시장 약세 압력이 우위로 작용할 가능성이 높습니다.</div>
+  <div class="meta">긍정 3건 / 부정 0건 / 중립 2건</div>
+</div>
+
+    </div>
+
+    <div class="section" id="warning">
+        <h2>주의 종목 (리스크)</h2>
+<div class="top-card clearfix warning-card">
+  <span class="score danger">3점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">한화솔루션 (009830)</div>
+  <div class="news">유상증자 발표 후 주가 18% 급락, 증권가 부정적 평가 - 경영진 42억 자사주 매입도 시장 신뢰 회복 실패</div>
+  <div class="comment">주가가 이미 5일간 -31% 급락한 상황에서 경영진의 자사주 매입은 '주주 달래기'에 불과하다는 평가입니다. 약세장(시장 영향력 37점)에서 유증 부담이 기업 펀더멘털 개선보다 더 크게 작용하고 있으며, RSI 28의 과매도 상태에도 불구하고 증권가의 싸늘한 반응이 단기 반등 가능성을 제한할 것으로 보입니다.</div>
+</div>
+<div class="top-card clearfix warning-card">
+  <span class="score danger">3점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">CJ제일제당 (097950) <span class="warning-badge">과열주의</span></div>
+  <div class="news">국민연금 보유 CJ제일제당 주식가치 1년새 2340억 증발…5년째 내리막 지속</div>
+  <div class="comment">약세장 환경에서 장중 소폭 상승(+0.23%)했으나 종가 -0.9%로 마감하며 시장의 부정적 평가가 우세합니다. RSI 72의 과매수 상태와 거래량 저조(0.5배)는 반등 지속성이 약하며, 국민연금 손실 확대 뉴스가 기관투자자 심리를 악화시키고 있습니다. 5년 연속 하락세 속 차익실현 매물 출현 가능성이 높습니다.</div>
+  <div class="penalty-info">AI 원점수 28점 → 과열 페널티 -10점 적용</div>
+  <div class="penalty-info">RSI 72 과매수</div>
+</div>
+<div class="top-card clearfix warning-card">
+  <span class="score danger">7점
+    <span class="change down">(-6)</span>
+  </span>
+  <div class="name">고려아연 (010130)</div>
+  <div class="news">고려아연 주총에서 감사위원 분리선출 확대 안건 부결 - 경영진과 대주주의 지배구조 개선 시도 실패</div>
+  <div class="comment">경영권 분쟁으로 인한 내부 갈등이 심화되었으며, 선제적 상법 적용 무산은 지배구조 우려를 심화시킵니다. 약세장(VIX 31.1) 환경에서 주가 -4.1% 추락, RSI 42로 약세 심화 중이므로 추가 하락 압력이 높습니다.</div>
+</div>
+<div class="top-card clearfix warning-card">
+  <span class="score danger">7점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">하이브 (352820)</div>
+  <div class="news">BTS 광화문 공연 종료 후 '재료 소멸' 인식으로 하이브 주가 17% 급락, 기대치(26만명) vs 실적(4만명) 괴리</div>
+  <div class="comment">이미 5일 -10.8%, 20일 -21.5%로 큰 낙폭을 기록했으며, RSI 36으로 과매도 영역이지만 부정적 심리가 지배적입니다. BTS 공연이 주요 단기 재료였는데 기대 미달로 '재료 소멸' 인식이 강해지고 있으며, 약세장(37점) 환경에서 긍정 뉴스(방시혁 자산 언급)도 주가 반등을 견인하지 못하고 있습니다. 거래량도 저조(0.6배)해 추가 하락세가 이어질 가능성이 높습니다.</div>
+</div>
+<div class="top-card clearfix warning-card">
+  <span class="score danger">12점
+    <span class="change ">(0)</span>
+  </span>
+  <div class="name">GS리테일 (007070) <span class="warning-badge">과열주의</span></div>
+  <div class="news">미래에셋증권 매수 상향 vs RSI 84 과매수 + 배당금 19.21% 감소 악재</div>
+  <div class="comment">미래에셋증권의 긍정적 평가가 있으나, 이미 5일 +3.9% 상승했고 RSI 84의 과매수 영역에 진입한 상태입니다. 배당금 대폭 감소(19.21%)는 실적 부진을 시사하며, 약세장(37점) 환경에서 호재가 충분히 강력하지 못합니다. 단기 조정 위험이 높습니다.</div>
+  <div class="penalty-info">AI 원점수 42점 → 과열 페널티 -15점 적용</div>
+  <div class="penalty-info">RSI 84 극과매수</div>
+</div>
+
+    </div>
+
+    <div class="promo">
+        유튜브 쇼츠를 AI로 자동 생성하고 싶다면? <a href="https://shortsai.kr" target="_blank">ShortsAI.kr</a>
+    </div>
+
+    <div class="section" id="all">
+        <h2>전체 100 종목 점수표</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>순위</th>
+                    <th>종목</th>
+                    <th>코드</th>
+                    <th>점수</th>
+                    <th>전일비</th>
+                    <th>상태</th>
+                    <th>핵심 뉴스</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>삼성바이오로직스</td>
+                    <td>207940</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>미국 법인에 3.5억 달러(약 5,249억원) 추가 출자로 국제 확장 가</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>현대차</td>
+                    <td>005380</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+14</td>
+                    <td></td>
+                    <td>주식 고수들의 원픽으로 현대차 부상, 피지컬 AI 시대 주도주 평가</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>POSCO홀딩스</td>
+                    <td>005490</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>아르헨티나 리튬 상업생산 + 장기공급 계약 가시화로 신사업 반전 신호, </td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>신한지주</td>
+                    <td>055550</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>3분기 누적 순이익 4조4천609억원 역대 최대 달성 및 국민연금의 신한</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>KB금융</td>
+                    <td>105560</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>KB금융, 비과세배당 재원 7.5조 확정···주총 안건 모두 통과</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>포스코퓨처엠</td>
+                    <td>003670</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>포스코퓨처엠-금호석유화학-BEI, 차세대 배터리 기술 개발 업무협약</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>셀트리온</td>
+                    <td>068270</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+7</td>
+                    <td></td>
+                    <td>서정진 회장의 저평가 지적과 2500억원 추가 매입 검토로 경영진 신뢰도</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>현대모비스</td>
+                    <td>012330</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>연기금이 국내 주식 비중 한계 속에서도 현대모비스를 추가 매수하며 기관의</td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>KT</td>
+                    <td>030200</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>하나증권 45% 상향 목표가와 NH투자증권 8만원 목표가 상향 vs 약세</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>하나금융지주</td>
+                    <td>086790</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+10</td>
+                    <td></td>
+                    <td>국민연금이 하나금융지주 지분을 8.72%로 확대 매수하며 기관의 신뢰도 </td>
+                </tr>
+
+                <tr>
+                    <td>11</td>
+                    <td>SK텔레콤</td>
+                    <td>017670</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change down">-3</td>
+                    <td></td>
+                    <td>SK텔레콤, SK브로드밴드 100% 완전자회사 전환 및 1조7000억 원</td>
+                </tr>
+
+                <tr>
+                    <td>12</td>
+                    <td>삼성SDS</td>
+                    <td>018260</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>삼성SDS, 수년간의 저평가 요인 해소 신호와 6.4조 현금 활용 기대감</td>
+                </tr>
+
+                <tr>
+                    <td>13</td>
+                    <td>미래에셋증권</td>
+                    <td>006800</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>미래에셋증권, RIA 출시 4일 만에 입고금액 760억원 기록</td>
+                </tr>
+
+                <tr>
+                    <td>14</td>
+                    <td>한국타이어앤테크놀로지</td>
+                    <td>161390</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>삼성증권 목표가 상향 - '수익 견조, 모든 지표 호조'</td>
+                </tr>
+
+                <tr>
+                    <td>15</td>
+                    <td>한미약품</td>
+                    <td>128940</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>비만신약 멕시코 진출 성공으로 국제 확장 가시화, 하지만 국민연금 지분 </td>
+                </tr>
+
+                <tr>
+                    <td>16</td>
+                    <td>이마트</td>
+                    <td>139480</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>이마트, 신세계푸드를 포괄적 주식교환으로 완전 자회사화 추진</td>
+                </tr>
+
+                <tr>
+                    <td>17</td>
+                    <td>유한양행</td>
+                    <td>000100</td>
+                    <td class="score-cell score-low">37</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>유한양행 임원진의 자사주 매수 및 32만주 소각을 통한 주주가치 제고</td>
+                </tr>
+
+                <tr>
+                    <td>18</td>
+                    <td>삼성SDI</td>
+                    <td>006400</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>NH증권 목표가 상향 및 견조한 실적 흐름 평가, 하지만 약세장 속 터보</td>
+                </tr>
+
+                <tr>
+                    <td>19</td>
+                    <td>KT&G</td>
+                    <td>033780</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>KT·SKT, 3000억 규모 재난안전통신망 사업 우선협상자 낙찰</td>
+                </tr>
+
+                <tr>
+                    <td>20</td>
+                    <td>기업은행</td>
+                    <td>024110</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change up">+3</td>
+                    <td></td>
+                    <td>7월부터 분기 배당 실시 결정, 하지만 배당수익률 1위 역설과 국책은행 </td>
+                </tr>
+
+                <tr>
+                    <td>21</td>
+                    <td>HD한국조선해양</td>
+                    <td>009540</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change up">+10</td>
+                    <td></td>
+                    <td>HD현대重-미포 합병 후 MASGA 탑픽 선정으로 조선업 주도주 지위 강</td>
+                </tr>
+
+                <tr>
+                    <td>22</td>
+                    <td>롯데케미칼</td>
+                    <td>011170</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>롯데케미칼, 대산공장 분할 및 현대케미칼과 합병을 통한 구조조정 추진</td>
+                </tr>
+
+                <tr>
+                    <td>23</td>
+                    <td>메리츠금융지주</td>
+                    <td>138040</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>메리츠금융, 2천억 규모 자사주 소각 결정으로 주주가치 제고</td>
+                </tr>
+
+                <tr>
+                    <td>24</td>
+                    <td>LG유플러스</td>
+                    <td>032640</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change up">+6</td>
+                    <td></td>
+                    <td>배당정책 강화(660원)와 밸류업 자사주 소각으로 주주가치 제고 시도하나</td>
+                </tr>
+
+                <tr>
+                    <td>25</td>
+                    <td>SK바이오팜</td>
+                    <td>326030</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change up">+10</td>
+                    <td></td>
+                    <td>미국 분기 매출 1억달러 돌파 및 실적 기반 임직원 보상 강화 vs 모회</td>
+                </tr>
+
+                <tr>
+                    <td>26</td>
+                    <td>신세계</td>
+                    <td>004170</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>이마트·신세계푸드 주식교환으로 신세계푸드 상장폐지 진행, 계열사 구조 개</td>
+                </tr>
+
+                <tr>
+                    <td>27</td>
+                    <td>삼성증권</td>
+                    <td>016360</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>삼성증권, RIA 계좌개설 이벤트 및 국내주식 유턴 300억원 달성으로 </td>
+                </tr>
+
+                <tr>
+                    <td>28</td>
+                    <td>오리온</td>
+                    <td>271560</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change up">+6</td>
+                    <td></td>
+                    <td>주가 50% 하락 중에도 자사주 소각 615억으로 주주환원 강화하지만, </td>
+                </tr>
+
+                <tr>
+                    <td>29</td>
+                    <td>삼성카드</td>
+                    <td>029780</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change up">+3</td>
+                    <td></td>
+                    <td>상법개정 대응으로 정관 변경, 주주환원 유연성 확보 (자사주 소각 삭제)</td>
+                </tr>
+
+                <tr>
+                    <td>30</td>
+                    <td>NH투자증권</td>
+                    <td>005940</td>
+                    <td class="score-cell score-low">33</td>
+                    <td class="change up">+6</td>
+                    <td></td>
+                    <td>NH투자증권, RIA 계좌 출시 및 관련 이벤트 진행 중</td>
+                </tr>
+
+                <tr>
+                    <td>31</td>
+                    <td>SK하이닉스</td>
+                    <td>000660</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change down">-20</td>
+                    <td></td>
+                    <td>SK하이닉스 ADR 상장으로 현금 100조원 확보 추진하나, 주식 역유입</td>
+                </tr>
+
+                <tr>
+                    <td>32</td>
+                    <td>LG에너지솔루션</td>
+                    <td>373220</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>2차전지 섹터 강세에 힘입어 글로벌 투자자들의 관심 회복, 하지만 한 달</td>
+                </tr>
+
+                <tr>
+                    <td>33</td>
+                    <td>LG</td>
+                    <td>003550</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change up">+10</td>
+                    <td></td>
+                    <td>LG전자 자사주 전량 소각으로 감자 결정 - 주주가치 개선 신호</td>
+                </tr>
+
+                <tr>
+                    <td>34</td>
+                    <td>삼성전기</td>
+                    <td>009150</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>MLCC 판가 인상 가시화로 목표가 29.4% 상향 조정, 하지만 이미 </td>
+                </tr>
+
+                <tr>
+                    <td>35</td>
+                    <td>대한항공</td>
+                    <td>003490</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change up">+14</td>
+                    <td></td>
+                    <td>방산부문 기대감으로 목표주가 상향했으나, 고환율 영향과 최대주주 지분 감</td>
+                </tr>
+
+                <tr>
+                    <td>36</td>
+                    <td>엔씨소프트</td>
+                    <td>036570</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change down">-10</td>
+                    <td></td>
+                    <td>아이온2 출시 후 15% 급락으로 긍정 뉴스들이 이미 주가에 반영되었으며</td>
+                </tr>
+
+                <tr>
+                    <td>37</td>
+                    <td>SKC</td>
+                    <td>011790</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change down">-10</td>
+                    <td></td>
+                    <td>HBM 유리기판 차세대 기술 관련주로 주목받으나, 최대주주 주식 감소와 </td>
+                </tr>
+
+                <tr>
+                    <td>38</td>
+                    <td>SK바이오사이언스</td>
+                    <td>302440</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change down">-6</td>
+                    <td></td>
+                    <td>집중투표제 도입으로 지배구조 개선, 하지만 약세장 속 주가 반응 제한적</td>
+                </tr>
+
+                <tr>
+                    <td>39</td>
+                    <td>현대건설</td>
+                    <td>000720</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>임원 추가 매수와 SMR·원전 사업 기대감 있으나, 오늘 4.72% 하락</td>
+                </tr>
+
+                <tr>
+                    <td>40</td>
+                    <td>한화시스템</td>
+                    <td>272210</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>우주항공청장 임명 관련주 강세로 장중 25% 상승했으나, 현재가는 전일비</td>
+                </tr>
+
+                <tr>
+                    <td>41</td>
+                    <td>한미사이언스</td>
+                    <td>042700</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change down">-3</td>
+                    <td></td>
+                    <td>한미그룹 자사주 소각을 통한 주주가치 제고 정책 발표</td>
+                </tr>
+
+                <tr>
+                    <td>42</td>
+                    <td>DB손해보험</td>
+                    <td>005830</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change down">-10</td>
+                    <td></td>
+                    <td>DB손해보험, 17년 만에 DB증권 주식 장내 매수로 지분율 36.11%</td>
+                </tr>
+
+                <tr>
+                    <td>43</td>
+                    <td>LG디스플레이</td>
+                    <td>034220</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>1분기 깜짝실적 전망과 피지컬AI 기대감으로 장중 7% 상승했으나, 임원</td>
+                </tr>
+
+                <tr>
+                    <td>44</td>
+                    <td>현대오일뱅크</td>
+                    <td>307950</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change up">+4</td>
+                    <td></td>
+                    <td>아람코의 2대 주주 편입과 팔란티어 디지털전환 협력은 긍정적이나, 경영진</td>
+                </tr>
+
+                <tr>
+                    <td>45</td>
+                    <td>KODEX200</td>
+                    <td>069500</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change up">+7</td>
+                    <td></td>
+                    <td>KODEX 200미국채혼합 ETF 순자산 4000억원 돌파 및 1년 수익</td>
+                </tr>
+
+                <tr>
+                    <td>46</td>
+                    <td>KCC</td>
+                    <td>002380</td>
+                    <td class="score-cell score-low">27</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>KCC의 자사주 소각 확대와 삼성물산 주식 활용 검토로 주주친화 강화 추</td>
+                </tr>
+
+                <tr>
+                    <td>47</td>
+                    <td>삼성전자</td>
+                    <td>005930</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change up">+10</td>
+                    <td></td>
+                    <td>약세장 속 구글 터보퀀트 등 반도체 경쟁 심화로 삼성전자의 실질적 성장성</td>
+                </tr>
+
+                <tr>
+                    <td>48</td>
+                    <td>NAVER</td>
+                    <td>035420</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>약세장 속 미국 주식 시장 재하락으로 한국 IT주 전반적 약세 지속</td>
+                </tr>
+
+                <tr>
+                    <td>49</td>
+                    <td>삼성물산</td>
+                    <td>028260</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-14</td>
+                    <td></td>
+                    <td>주식소각과 경영진 증여 등 자산재편 뉴스가 나왔으나, 약세장 속 주가는 </td>
+                </tr>
+
+                <tr>
+                    <td>50</td>
+                    <td>LG전자</td>
+                    <td>066570</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>6개 증권사 목표주가 상향 및 자기주식 소각 승인, 하지만 주가는 약세장</td>
+                </tr>
+
+                <tr>
+                    <td>51</td>
+                    <td>SK이노베이션</td>
+                    <td>096770</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-7</td>
+                    <td></td>
+                    <td>한화투자 투자의견 중립 하향으로 SK온 회복 불투명성 대두, 대표의 토털</td>
+                </tr>
+
+                <tr>
+                    <td>52</td>
+                    <td>SK</td>
+                    <td>034730</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-10</td>
+                    <td></td>
+                    <td>SK증권의 사모재간접·혼합자산투자신탁·RIA계좌 등 신상품 출시로 자산관</td>
+                </tr>
+
+                <tr>
+                    <td>53</td>
+                    <td>한국전력</td>
+                    <td>015760</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change up">+10</td>
+                    <td></td>
+                    <td>한전 주가가 역사적 고가를 경신했으나, 이미 충분히 반영된 재료로 보이며</td>
+                </tr>
+
+                <tr>
+                    <td>54</td>
+                    <td>우리금융지주</td>
+                    <td>316140</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>우리금융 1년 새 주가 2배 상승했으나, 직원·임직원의 대량 매도(250</td>
+                </tr>
+
+                <tr>
+                    <td>55</td>
+                    <td>S-Oil</td>
+                    <td>010950</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-10</td>
+                    <td></td>
+                    <td>국제 유가 급등으로 정제마진 수혜 전망하나, 내부인 매도와 약세장이 상승</td>
+                </tr>
+
+                <tr>
+                    <td>56</td>
+                    <td>삼성화재</td>
+                    <td>000810</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change up">+6</td>
+                    <td></td>
+                    <td>삼성생명·화재의 삼성전자 주식 1.5조원 매각 결정으로 유동성 확보하나,</td>
+                </tr>
+
+                <tr>
+                    <td>57</td>
+                    <td>포스코인터내셔널</td>
+                    <td>047050</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-14</td>
+                    <td></td>
+                    <td>하이불스 투뿔 추천주로 1차 목표가 돌파했으나, 주가는 전일 -4.7%,</td>
+                </tr>
+
+                <tr>
+                    <td>58</td>
+                    <td>에코프로비엠</td>
+                    <td>247540</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>유럽 정책 수혜 기대와 삼성SDI 재고조정 마무리 수혜 vs. 밸류에이션</td>
+                </tr>
+
+                <tr>
+                    <td>59</td>
+                    <td>현대제철</td>
+                    <td>004020</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change up">+6</td>
+                    <td></td>
+                    <td>현대제철 500원 현금배당 결의했으나, 5일간 -6.5% 하락 및 저조한</td>
+                </tr>
+
+                <tr>
+                    <td>60</td>
+                    <td>코웨이</td>
+                    <td>021240</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>방준혁 의장의 100억원 규모 자사주 매수 계획 vs 행동주의 펀드와의 </td>
+                </tr>
+
+                <tr>
+                    <td>61</td>
+                    <td>한화</td>
+                    <td>000880</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>한화솔루션 유증 관련 경영진 주식 매입 발표하나, 동시에 오너 보수 증액</td>
+                </tr>
+
+                <tr>
+                    <td>62</td>
+                    <td>롯데지주</td>
+                    <td>004990</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change up">+3</td>
+                    <td></td>
+                    <td>자사주 활용안 주총 통과로 경영 유연성 확보했으나, 국민연금 등 기관투자</td>
+                </tr>
+
+                <tr>
+                    <td>63</td>
+                    <td>LS</td>
+                    <td>006260</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change up">+6</td>
+                    <td></td>
+                    <td>LS전선의 토큰증권 사업 추진으로 신규 수익 창출 기대, 다만 초기 단계</td>
+                </tr>
+
+                <tr>
+                    <td>64</td>
+                    <td>아모레G</td>
+                    <td>002790</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>액면분할 결정 및 경영권 승계 논란 속 RSI 70 과매수 상태에서 차익</td>
+                </tr>
+
+                <tr>
+                    <td>65</td>
+                    <td>F&F</td>
+                    <td>383220</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change up">+6</td>
+                    <td></td>
+                    <td>제로 ~붉은 나비~ REMAKE, SILENT HILL f 콜라보 진행 </td>
+                </tr>
+
+                <tr>
+                    <td>66</td>
+                    <td>삼성엔지니어링</td>
+                    <td>028050</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>블랙록 5% 지분 보유 등 긍정 신호 있으나, 경영진 주식 매도와 약세장</td>
+                </tr>
+
+                <tr>
+                    <td>67</td>
+                    <td>넷마블</td>
+                    <td>251270</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-7</td>
+                    <td></td>
+                    <td>넷마블네오 상장 철회 및 100% 자회사 편입 결정 - IPO 계획 중단</td>
+                </tr>
+
+                <tr>
+                    <td>68</td>
+                    <td>CJ</td>
+                    <td>001040</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>CJ제일제당 5년째 내리막세 지속 vs CJ CGV 자본구조 개편(희석 </td>
+                </tr>
+
+                <tr>
+                    <td>69</td>
+                    <td>두산밥캣</td>
+                    <td>241560</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>다올투자 중립 하향 조정 - 관세 영향으로 실적 전망치 하락</td>
+                </tr>
+
+                <tr>
+                    <td>70</td>
+                    <td>한온시스템</td>
+                    <td>018880</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>실적 개선에도 불구하고 주가는 5일 -4.8%, 20일 -17.7% 하락</td>
+                </tr>
+
+                <tr>
+                    <td>71</td>
+                    <td>일성신약</td>
+                    <td>020150</td>
+                    <td class="score-cell score-low">23</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>주주 친화 배당정책으로 상한가 기록했으나, 삼성물산 배당금 소송 마무리 </td>
+                </tr>
+
+                <tr>
+                    <td>72</td>
+                    <td>LG화학</td>
+                    <td>051910</td>
+                    <td class="score-cell score-low">20</td>
+                    <td class="change up">+3</td>
+                    <td></td>
+                    <td>석유화학 수익성 악화로 목표가 인하, 저평가 논쟁에도 실질적 개선 부재</td>
+                </tr>
+
+                <tr>
+                    <td>73</td>
+                    <td>HMM</td>
+                    <td>011200</td>
+                    <td class="score-cell score-low">20</td>
+                    <td class="change up">+3</td>
+                    <td></td>
+                    <td>국민연금공단 1,448만주 감소 및 운송주 동반급락 속 배당 1주당 70</td>
+                </tr>
+
+                <tr>
+                    <td>74</td>
+                    <td>크래프톤</td>
+                    <td>259960</td>
+                    <td class="score-cell score-low">20</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>조두인 대표 지속적인 주식 매도 vs 경영진 150억 자사주 매입 상반된</td>
+                </tr>
+
+                <tr>
+                    <td>75</td>
+                    <td>삼성중공업</td>
+                    <td>010140</td>
+                    <td class="score-cell score-low">20</td>
+                    <td class="change down">-17</td>
+                    <td></td>
+                    <td>증권사 목표가 상향에도 불구하고 약세장 속 주가는 -8.9% 하락, FL</td>
+                </tr>
+
+                <tr>
+                    <td>76</td>
+                    <td>LG생활건강</td>
+                    <td>051900</td>
+                    <td class="score-cell score-low">20</td>
+                    <td class="change down">-7</td>
+                    <td></td>
+                    <td>주가폭락 원인 분석 기사 대두 + 자기주식 소각 등 주주친화 정책 의결,</td>
+                </tr>
+
+                <tr>
+                    <td>77</td>
+                    <td>한미반도체</td>
+                    <td>180640</td>
+                    <td class="score-cell score-low">20</td>
+                    <td class="change down">-13</td>
+                    <td></td>
+                    <td>창사 이래 최대 규모 배당(760억원)과 HPSP 주식 매도(2750억원</td>
+                </tr>
+
+                <tr>
+                    <td>78</td>
+                    <td>삼성생명</td>
+                    <td>032830</td>
+                    <td class="score-cell score-low">17</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>삼성생명·화재, 삼성전자 주식 1.43조원 블록딜 매각 완료 - 자산 유</td>
+                </tr>
+
+                <tr>
+                    <td>79</td>
+                    <td>두산에너빌리티</td>
+                    <td>034020</td>
+                    <td class="score-cell score-low">17</td>
+                    <td class="change down">-20</td>
+                    <td></td>
+                    <td>급등한 주가가 어닝 쇼크 원인 - 실적 부진으로 인한 차익실현 매물 출현</td>
+                </tr>
+
+                <tr>
+                    <td>80</td>
+                    <td>아모레퍼시픽</td>
+                    <td>090430</td>
+                    <td class="score-cell score-low">17</td>
+                    <td class="change ">0</td>
+                    <td><span style="color:#dd6b20; font-size:0.8em;">주의</span></td>
+                    <td>6년 만 최대 영업이익 달성 및 52주 최고가 경신, 하지만 주가는 이미</td>
+                </tr>
+
+                <tr>
+                    <td>81</td>
+                    <td>쌍용C&E</td>
+                    <td>003410</td>
+                    <td class="score-cell score-low">17</td>
+                    <td class="change down">-3</td>
+                    <td></td>
+                    <td>뉴 스타일 코란도C 출시라는 긍정 신호가 있으나, 7만4천대 산소센서 불</td>
+                </tr>
+
+                <tr>
+                    <td>82</td>
+                    <td>GS</td>
+                    <td>078930</td>
+                    <td class="score-cell score-low">17</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>GS 오너가 지분을 담보로 제공하면서 지배력 약화 및 유동성 이슈 우려</td>
+                </tr>
+
+                <tr>
+                    <td>83</td>
+                    <td>SK아이이테크놀로지</td>
+                    <td>361610</td>
+                    <td class="score-cell score-low">17</td>
+                    <td class="change up">+10</td>
+                    <td></td>
+                    <td>NH투자증권, 올해 판매 역성장 불가피하다며 목표가 하향 조정</td>
+                </tr>
+
+                <tr>
+                    <td>84</td>
+                    <td>LG이노텍</td>
+                    <td>011070</td>
+                    <td class="score-cell score-low">17</td>
+                    <td class="change ">0</td>
+                    <td><span style="color:#dd6b20; font-size:0.8em;">주의</span></td>
+                    <td>3분기 호실적 발표로 52주 신고가 경신, 기판 완판 및 순매수 1위 달</td>
+                </tr>
+
+                <tr>
+                    <td>85</td>
+                    <td>한온시스템</td>
+                    <td>052690</td>
+                    <td class="score-cell score-low">17</td>
+                    <td class="change down">-6</td>
+                    <td></td>
+                    <td>실적 개선에도 불구하고 주가는 -4.2% 하락, 대주주·기관 지분정리 수</td>
+                </tr>
+
+                <tr>
+                    <td>86</td>
+                    <td>기아</td>
+                    <td>000270</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change down">-10</td>
+                    <td></td>
+                    <td>기아가 현대차 그늘에 가려지면서 투자자 외면 심화, 장중 1.55% 하락</td>
+                </tr>
+
+                <tr>
+                    <td>87</td>
+                    <td>카카오</td>
+                    <td>035720</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change down">-10</td>
+                    <td></td>
+                    <td>주주총회에서 주가 관리 미흡으로 질타받으며, 임원진의 자사주 매도 논란이</td>
+                </tr>
+
+                <tr>
+                    <td>88</td>
+                    <td>HD현대</td>
+                    <td>267250</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change down">-14</td>
+                    <td></td>
+                    <td>이란 전쟁 우려로 HD현대 계열사들 주가 부진, 최대주주 지분 감소 신호</td>
+                </tr>
+
+                <tr>
+                    <td>89</td>
+                    <td>HD현대중공업</td>
+                    <td>329180</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>약세장 속에서 5일 -10.8%, 20일 -15.8% 하락 중인 HD현대</td>
+                </tr>
+
+                <tr>
+                    <td>90</td>
+                    <td>에코프로</td>
+                    <td>377300</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>에코프로비엠, 세계에서 가장 비싼 주식으로 평가받으며 매수 자제 경고 발</td>
+                </tr>
+
+                <tr>
+                    <td>91</td>
+                    <td>포스코DX</td>
+                    <td>022100</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change down">-10</td>
+                    <td></td>
+                    <td>InvestingPro 공정가치 54% 하락 전 과대평가 경고 - 약세장</td>
+                </tr>
+
+                <tr>
+                    <td>92</td>
+                    <td>한국가스공사</td>
+                    <td>036460</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>14조 미수금으로 발목 잡힌 가스공사, 요금 인상 필요성 대두되며 실적 </td>
+                </tr>
+
+                <tr>
+                    <td>93</td>
+                    <td>한화생명</td>
+                    <td>088350</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change up">+6</td>
+                    <td></td>
+                    <td>주주환원 불가능한 한화생명, 규제 제약과 공적자금 회수 난항으로 장기간 </td>
+                </tr>
+
+                <tr>
+                    <td>94</td>
+                    <td>GS건설</td>
+                    <td>006360</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>최대주주 허창수, 35만 8천주 감소 매각으로 지분율 하락 (23.22%</td>
+                </tr>
+
+                <tr>
+                    <td>95</td>
+                    <td>태광산업</td>
+                    <td>003240</td>
+                    <td class="score-cell score-low">13</td>
+                    <td class="change down">-4</td>
+                    <td></td>
+                    <td>태광산업, 영업현금 적자에도 애경산업 인수 추진 중 주주 불만 속출</td>
+                </tr>
+
+                <tr>
+                    <td>96</td>
+                    <td>GS리테일</td>
+                    <td>007070</td>
+                    <td class="score-cell score-low">12</td>
+                    <td class="change ">0</td>
+                    <td><span style="color:#dd6b20; font-size:0.8em;">주의</span></td>
+                    <td>미래에셋증권 매수 상향 vs RSI 84 과매수 + 배당금 19.21% </td>
+                </tr>
+
+                <tr>
+                    <td>97</td>
+                    <td>고려아연</td>
+                    <td>010130</td>
+                    <td class="score-cell score-low">7</td>
+                    <td class="change down">-6</td>
+                    <td></td>
+                    <td>고려아연 주총에서 감사위원 분리선출 확대 안건 부결 - 경영진과 대주주의</td>
+                </tr>
+
+                <tr>
+                    <td>98</td>
+                    <td>하이브</td>
+                    <td>352820</td>
+                    <td class="score-cell score-low">7</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>BTS 광화문 공연 종료 후 '재료 소멸' 인식으로 하이브 주가 17% </td>
+                </tr>
+
+                <tr>
+                    <td>99</td>
+                    <td>한화솔루션</td>
+                    <td>009830</td>
+                    <td class="score-cell score-low">3</td>
+                    <td class="change ">0</td>
+                    <td></td>
+                    <td>유상증자 발표 후 주가 18% 급락, 증권가 부정적 평가 - 경영진 42</td>
+                </tr>
+
+                <tr>
+                    <td>100</td>
+                    <td>CJ제일제당</td>
+                    <td>097950</td>
+                    <td class="score-cell score-low">3</td>
+                    <td class="change ">0</td>
+                    <td><span style="color:#dd6b20; font-size:0.8em;">주의</span></td>
+                    <td>국민연금 보유 CJ제일제당 주식가치 1년새 2340억 증발…5년째 내리막</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    
+    <div class="section" id="indicators">
+        <h2>📊 경제 지표 현황 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">3월 28일 오전 6시 기준</span></h2>
+
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:15px;">
+        
+            <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
+                <div style="font-size:0.8em; color:#718096;">🇺🇸 나스닥</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">20,948</div>
+                <div style="font-size:0.85em; color:#3182ce; font-weight:600;">▼ -459.72 (-2.15%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">3/27 종가</div>
+            </div>
+            <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
+                <div style="font-size:0.8em; color:#718096;">🇺🇸 S&P 500</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">6,368.85</div>
+                <div style="font-size:0.85em; color:#3182ce; font-weight:600;">▼ -108.31 (-1.67%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">3/27 종가</div>
+            </div>
+            <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
+                <div style="font-size:0.8em; color:#718096;">🇰🇷 코스피</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">5,438.87</div>
+                <div style="font-size:0.85em; color:#3182ce; font-weight:600;">▼ -21.59 (-0.40%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">3/27 종가</div>
+            </div>
+            <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
+                <div style="font-size:0.8em; color:#718096;">🇰🇷 코스닥</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">1,141.51</div>
+                <div style="font-size:0.85em; color:#e53e3e; font-weight:600;">▲ +4.87 (+0.43%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">3/27 종가</div>
+            </div>
+    </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:12px; text-align:center;">
+            <span style="color:#718096; font-size:0.85em;">시장 영향력 점수</span>
+            <span style="color:#e53e3e; font-weight:700; font-size:1.1em; margin-left:8px;">다소 부정적</span>
+            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(37점)</span>
+            <span style="color:#cbd5e0; font-size:0.75em; margin-left:8px;">— 금리·물가 부담이 있는 환경, 방어적 투자 권장</span>
+        </div>
+
+        <div style="background:#ebf8ff; border:1px solid #bee3f8; border-radius:8px; padding:14px; margin-bottom:15px; font-size:0.9em; color:#2c5282;">
+            <b>이 숫자들이 왜 중요할까?</b><br>
+            미국 경제 지표 → 금리 방향 결정 → 한국 주식시장 영향<br>
+            특히 <b>기준금리</b>·<b>물가(CPI)</b>·<b>환율</b>이 코스피에 가장 큰 영향을 줍니다.
+        </div>
+
+        <div style="margin-bottom:12px;">
+            <div style="font-weight:600; color:#2d3748; font-size:0.95em; margin-bottom:8px; padding-left:4px;">🇺🇸 미국</div>
+            <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:10px;">
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">🏦 미국 기준금리</span>
+                        
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        3.75%
+                        <span style="color:#718096; font-size:0.55em;">➡️ 유지</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#38a169; height:100%; width:60%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>3/27 기준</span>
+                        <span>60점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 중앙은행(연준)이 설정한 금리 범위</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">🛒 미국 소비자물가(CPI)</span>
+                        
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        2.7%
+                        <span style="color:#718096; font-size:0.55em;">➡️ 유지</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#dd6b20; height:100%; width:59%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>2/1 기준</span>
+                        <span>59점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 물건값이 1년간 얼마나 올랐는지</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">👷 미국 실업률</span>
+                        
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        4.40%
+                        <span style="color:#e53e3e; font-size:0.55em;">⬆️ 상승 (+0.1)</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#dd6b20; height:100%; width:58%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>2/1 기준</span>
+                        <span>58점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국에서 일자리를 구하지 못한 사람의 비율</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">📊 미국 GDP 성장률</span>
+                        <span style="background:#fff5f5; color:#e53e3e; font-size:0.7em; padding:2px 6px; border-radius:8px; margin-left:5px;">부담</span>
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        0.70%
+                        <span style="color:#3182ce; font-size:0.55em;">⬇️ 하락 (-3.7)</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#dd6b20; height:100%; width:42%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>10/1 기준</span>
+                        <span>42점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 경제가 얼마나 성장하고 있는지 (분기별)</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">📈 미국 10년 국채금리</span>
+                        
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        4.44%
+                        <span style="color:#718096; font-size:0.55em;">➡️ 유지 (+0.024)</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#dd6b20; height:100%; width:42%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>3/27 기준</span>
+                        <span>42점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 정부가 10년간 빌릴 때 금리 (시장금리의 기준)</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">🎯 근원 PCE 물가</span>
+                        
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        3.1%
+                        <span style="color:#718096; font-size:0.55em;">➡️ 유지</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#e53e3e; height:100%; width:37%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>1/1 기준</span>
+                        <span>37점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">연준이 가장 중시하는 물가지표 (식품·에너지 제외)</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">😱 VIX 공포지수</span>
+                        <span style="background:#fff5f5; color:#e53e3e; font-size:0.7em; padding:2px 6px; border-radius:8px; margin-left:5px;">부담</span>
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        31.05%
+                        <span style="color:#e53e3e; font-size:0.55em;">⬆️ 상승 (+3.61)</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#e53e3e; height:100%; width:23%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>3/27 기준</span>
+                        <span>23점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">시장의 불안감 수치 (높을수록 공포, 낮을수록 안심)</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">🇺🇸 나스닥 등락</span>
+                        <span style="background:#fff5f5; color:#e53e3e; font-size:0.7em; padding:2px 6px; border-radius:8px; margin-left:5px;">부담</span>
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        -2.15%
+                        <span style="color:#3182ce; font-size:0.55em;">⬇️ 하락 (-2.15)</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#e53e3e; height:100%; width:21%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>3/27 기준</span>
+                        <span>21점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">전일 나스닥 종가 등락률 → 다음날 코스피에 직접 영향</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">🇺🇸 S&P 500 등락</span>
+                        <span style="background:#fff5f5; color:#e53e3e; font-size:0.7em; padding:2px 6px; border-radius:8px; margin-left:5px;">부담</span>
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        -1.67%
+                        <span style="color:#3182ce; font-size:0.55em;">⬇️ 하락 (-1.67)</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#e53e3e; height:100%; width:28%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>3/27 기준</span>
+                        <span>28점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">전일 S&P 500 종가 등락률 → 다음날 코스피에 직접 영향</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom:12px;">
+            <div style="font-weight:600; color:#2d3748; font-size:0.95em; margin-bottom:8px; padding-left:4px;">🇰🇷 한국</div>
+            <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:10px;">
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">🇰🇷 한국 시장금리</span>
+                        
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        2.54%
+                        <span style="color:#718096; font-size:0.55em;">➡️ 유지</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#38a169; height:100%; width:69%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>2/1 기준</span>
+                        <span>69점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">한국 단기금리 (한국은행 기준금리와 연동)</div>
+                </div>
+
+                <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <span style="font-weight:600; color:#2d3748; font-size:0.88em;">💵 원/달러 환율</span>
+                        <span style="background:#fff5f5; color:#e53e3e; font-size:0.7em; padding:2px 6px; border-radius:8px; margin-left:5px;">부담</span>
+                    </div>
+                    <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
+                        1,504원
+                        <span style="color:#e53e3e; font-size:0.55em;">⬆️ 상승 (+8.1)</span>
+                    </div>
+                    <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
+                        <div style="background:#e53e3e; height:100%; width:24%; border-radius:4px;"></div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
+                        <span>3/27 기준</span>
+                        <span>24점</span>
+                    </div>
+                    <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">1달러에 한국 원화가 얼마인지 (높을수록 원화 약세)</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="font-size:0.8em; color:#a0aec0; margin-top:10px; text-align:center;">
+            * 시장 영향력 점수 = 각 지표의 코스피 영향도를 가중 평균 (0~100점)<br>
+            * 데이터: FRED (미국 연준) + fawazahmed0 (환율) | 각 지표별 기준일 표시
+        </div>
+    </div>
+
+
+    
+    <div class="section" id="news">
+        <h2>📰 시장 주요 뉴스 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">3월 28일 오전 6시 기준</span></h2>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:12px; text-align:center;">
+            <span style="color:#718096; font-size:0.85em;">뉴스 분위기</span>
+            <span style="color:#e53e3e; font-weight:700; font-size:1.1em; margin-left:8px;">부정적</span>
+            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(30점)</span>
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">국제유가 급등, WTI 100달러 돌파</span>
+            </div>
+            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">011200</span> <span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">010140</span></div>
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">미국 증시 조정장 진입, 나스닥 2.2% 하락</span>
+            </div>
+            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">005930</span> <span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">000660</span> <span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">035720</span></div>
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">브렌트유 110달러 상회, 유가 지속 상승</span>
+            </div>
+            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">011200</span> <span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">010140</span></div>
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">골드만 공매도 청산 급등 경고</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
+                <span style="color:#2d3748; font-size:0.9em;">VIG파트너스 반도체 장비 PTC 투자</span>
+            </div>
+            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">000660</span> <span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">042600</span></div>
+        </div>
+    </div>
+
+
+    
+    <div class="section" id="calendar">
+        <h2>📅 오늘의 미국 경제 일정</h2>
+        <p style="color:#718096; padding:15px;">오늘 주요 경제 일정이 없습니다.</p>
+    </div>
+
+
+    <div class="footer">
+        <p>MarketSignal v3.1 - AI 뉴스 + 주가 데이터 + 경제 지표 기반 주식 스코어</p>
+        <p>본 자료는 투자 참고용이며, 투자 판단의 책임은 본인에게 있습니다.</p>
+        <p style="margin-top: 5px; font-size: 0.8em; color: #cbd5e0;">
+            과열 페널티: 급등주(5일 +10% 이상), 과매수(RSI 70+) 종목에 자동 감점 적용
+        </p>
+        <p style="margin-top: 10px;">
+            <a href="https://shortsai.kr">ShortsAI</a> |
+            Generated by AI · Updated 2026-03-28
+        </p>
+        <p style="margin-top:8px;"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fmarketsignal.kr&label=visitors&countColor=%233182ce" alt="visitors"/></p>
+    </div>
+</div>
+</body>
+</html>
