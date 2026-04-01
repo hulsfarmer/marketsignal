@@ -84,7 +84,7 @@
     <h1>MarketSignal</h1>
     <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 + 주가 데이터 스코어</div>
     <div style="text-align:center"><span class="update-badge">🕖 매일 아침 7시 업데이트</span></div>
-    <div class="accuracy">분석 정확도: 93.0% (최근 30일)</div>
+    <div class="accuracy">분석 정확도: 20.0% (최근 30일)</div>
 
     <div class="today">
         <div style="color:#718096; font-size:0.9em; margin-bottom:10px;">오늘의 스코어 (2026-04-01)</div>
@@ -115,7 +115,7 @@
     
 <div class="section" id="trend-chart" style="margin:25px 0;">
   <h2 style="color:#1a365d; margin-bottom:15px; font-size:1.25em; padding-bottom:8px; border-bottom:2px solid #e2e8f0;">
-    📈 시장 점수 추세 (8일)
+    📈 AI 예측 점수 vs 코스피 등락 (8일)
   </h2>
   <div style="background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
     <canvas id="trendChart" height="120"></canvas>
@@ -131,20 +131,10 @@
         labels: labels,
         datasets: [
           {
-            label: '시장 영향력 점수',
-            data: [53, 44, 51, 37, 37, 37, 37, 43],
-            borderColor: '#3182ce',
-            backgroundColor: 'rgba(49,130,206,0.08)',
-            borderWidth: 2.5,
-            pointRadius: 4,
-            tension: 0.3,
-            yAxisID: 'y',
-          },
-          {
-            label: '뉴스 분위기',
-            data: [52, 76, 74, 28, 30, 47, 34, 16],
-            borderColor: '#38a169',
-            backgroundColor: 'rgba(56,161,105,0.08)',
+            label: 'AI 합산 점수 (시장60%+뉴스40%)',
+            data: [53, 57, 60, 33, 34, 41, 36, 32],
+            borderColor: '#6366f1',
+            backgroundColor: 'rgba(99,102,241,0.08)',
             borderWidth: 2.5,
             pointRadius: 4,
             tension: 0.3,
@@ -176,7 +166,8 @@
                 return ctx.dataset.label + ': ' + v + '점';
               }
             }
-          }
+          },
+          annotation: {}
         },
         scales: {
           y: {
@@ -185,6 +176,18 @@
             min: 0, max: 100,
             title: { display: true, text: '점수 (0~100)', font: { size: 11 } },
             grid: { color: 'rgba(0,0,0,0.05)' },
+            ticks: {
+              callback: function(v) {
+                if (v === 55) return '▲상승 55';
+                if (v === 45) return '▼하락 45';
+                return v;
+              },
+              color: function(ctx) {
+                if (ctx.tick.value === 55) return '#38a169';
+                if (ctx.tick.value === 45) return '#e53e3e';
+                return '#718096';
+              }
+            }
           },
           y2: {
             type: 'linear',
@@ -200,7 +203,29 @@
             ticks: { font: { size: 11 } }
           }
         }
-      }
+      },
+      plugins: [{
+        afterDraw(chart) {
+          const ctx2 = chart.ctx;
+          const yAxis = chart.scales.y;
+          const xLeft = chart.chartArea.left;
+          const xRight = chart.chartArea.right;
+          [55, 45].forEach(function(val) {
+            const y = yAxis.getPixelForValue(val);
+            const color = val === 55 ? '#38a169' : '#e53e3e';
+            ctx2.save();
+            ctx2.setLineDash([6, 4]);
+            ctx2.strokeStyle = color;
+            ctx2.lineWidth = 1.2;
+            ctx2.globalAlpha = 0.6;
+            ctx2.beginPath();
+            ctx2.moveTo(xLeft, y);
+            ctx2.lineTo(xRight, y);
+            ctx2.stroke();
+            ctx2.restore();
+          });
+        }
+      }]
     });
   })();
   </script>
@@ -732,6 +757,20 @@
                 <div style="margin-top:6px; padding:6px 10px; background:#f7fafc; border-radius:4px; font-size:0.85em;">
                     예상: <b>74.0</b> | 이전: 70.5
                 </div>
+                
+            </div>
+
+            <div style="padding:12px 15px; border-bottom:1px solid #f0f0f0;">
+                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                    <span style="background:#fefcbf; color:#dd6b20; font-size:0.75em; padding:2px 8px; border-radius:10px; font-weight:500; white-space:nowrap;">
+                        🟡 중요
+                    </span>
+                    <span style="font-weight:600; color:#2d3748;">📌 President Trump Speaks</span>
+                </div>
+                <div style="color:#718096; font-size:0.85em; margin-top:4px;">
+                    
+                </div>
+                
                 
             </div>
         </div>
