@@ -84,27 +84,27 @@
     <h1>MarketSignal</h1>
     <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 + 주가 데이터 스코어</div>
     <div style="text-align:center"><span class="update-badge">🕖 매일 아침 7시 업데이트</span></div>
-    <div class="accuracy">분석 정확도: 37.0% (최근 30일)</div>
+    <div class="accuracy">분석 정확도: 19.0% (최근 30일)</div>
 
     <div class="today">
-        <div style="color:#718096; font-size:0.9em; margin-bottom:10px;">오늘의 스코어 (2026-04-03)</div>
-        <a class="score-btn" href="posts/2026-04-03.html">📊 100개 종목 점수 보기 →</a>
+        <div style="color:#718096; font-size:0.9em; margin-bottom:10px;">오늘의 스코어 (2026-04-04)</div>
+        <a class="score-btn" href="posts/2026-04-04.html">📊 100개 종목 점수 보기 →</a>
         <div class="click-hint">클릭하면 전체 종목 AI 점수를 확인할 수 있어요</div>
-        <div class="preview"><span style="margin-right:15px; color:#2d3748;">삼성바이오로직스 <b style="color:#e53e3e;">62점</b></span><span style="margin-right:15px; color:#2d3748;">메리츠금융지주 <b style="color:#e53e3e;">62점</b></span><span style="margin-right:15px; color:#2d3748;">DB손해보험 <b style="color:#e53e3e;">62점</b></span></div>
+        <div class="preview"><span style="margin-right:15px; color:#2d3748;">SK하이닉스 <b style="color:#e53e3e;">62점</b></span><span style="margin-right:15px; color:#2d3748;">POSCO홀딩스 <b style="color:#e53e3e;">62점</b></span><span style="margin-right:15px; color:#2d3748;">SK텔레콤 <b style="color:#e53e3e;">62점</b></span></div>
     </div>
 
     
     <div style="display:flex; gap:12px; margin:18px 0; flex-wrap:wrap;">
         <div style="flex:1; min-width:200px; background:#fffaf0; border:2px solid #dd6b20; border-radius:12px; padding:16px; text-align:center;">
             <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📊 시장 영향력 점수</div>
-            <div style="font-size:2.2em; font-weight:800; color:#dd6b20;">49<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:2.2em; font-weight:800; color:#dd6b20;">50<span style="font-size:0.4em; font-weight:400;">점</span></div>
             <div style="font-size:1em; font-weight:600; color:#dd6b20;">중립</div>
             <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">긍정·부정 요인이 혼재, 개별 종목 선별 중요</div>
             <div style="margin-top:8px; font-size:0.75em;"><a href="#indicators" style="color:#dd6b20;">상세 보기 ↓</a></div>
         </div>
         <div style="flex:1; min-width:200px; background:#fff5f5; border:2px solid #e53e3e; border-radius:12px; padding:16px; text-align:center;">
             <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📰 뉴스 분위기</div>
-            <div style="font-size:2.2em; font-weight:800; color:#e53e3e;">32<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:2.2em; font-weight:800; color:#e53e3e;">35<span style="font-size:0.4em; font-weight:400;">점</span></div>
             <div style="font-size:1em; font-weight:600; color:#e53e3e;">부정적</div>
             <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">오늘 주요 뉴스 종합</div>
             <div style="margin-top:8px; font-size:0.75em;"><a href="#news" style="color:#e53e3e;">상세 보기 ↓</a></div>
@@ -115,7 +115,7 @@
     
 <div class="section" id="trend-chart" style="margin:25px 0;">
   <h2 style="color:#1a365d; margin-bottom:15px; font-size:1.25em; padding-bottom:8px; border-bottom:2px solid #e2e8f0;">
-    📈 AI 예측 점수 vs 코스피 등락 (10일)
+    📈 AI 예측 점수 vs 코스피 등락 (11일)
   </h2>
   <div style="background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
     <canvas id="trendChart" height="120"></canvas>
@@ -123,7 +123,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script>
   (function(){
-    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02'];
+    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03'];
     const ctx = document.getElementById('trendChart').getContext('2d');
     new Chart(ctx, {
       type: 'line',
@@ -132,7 +132,7 @@
         datasets: [
           {
             label: 'AI 합산 점수 (시장60%+뉴스40%)',
-            data: [53, 57, 60, 33, 34, 41, 36, 32, 60, 61],
+            data: [53, 57, 60, 33, 34, 41, 36, 32, 60, 61, 42],
             borderColor: '#6366f1',
             backgroundColor: 'rgba(99,102,241,0.08)',
             borderWidth: 2.5,
@@ -142,7 +142,7 @@
           },
           {
             label: '코스피 등락률(%)',
-            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47],
+            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47, 2.74],
             borderColor: '#e53e3e',
             backgroundColor: 'rgba(229,62,62,0.08)',
             borderWidth: 2,
@@ -234,7 +234,7 @@
 
     
     <div class="section" id="indicators">
-        <h2>📊 경제 지표 현황 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">4월 3일 오전 6시 기준</span></h2>
+        <h2>📊 경제 지표 현황 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">4월 4일 오전 6시 기준</span></h2>
 
     <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:15px;">
         
@@ -252,22 +252,22 @@
             </div>
             <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
                 <div style="font-size:0.8em; color:#718096;">🇰🇷 코스피</div>
-                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">5,234.05</div>
-                <div style="font-size:0.85em; color:#3182ce; font-weight:600;">▼ -244.65 (-4.47%)</div>
-                <div style="font-size:0.7em; color:#a0aec0;">4/2 종가</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">5,377.30</div>
+                <div style="font-size:0.85em; color:#e53e3e; font-weight:600;">▲ +143.25 (+2.74%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">4/3 종가</div>
             </div>
             <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
                 <div style="font-size:0.8em; color:#718096;">🇰🇷 코스닥</div>
-                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">1,056.34</div>
-                <div style="font-size:0.85em; color:#3182ce; font-weight:600;">▼ -59.84 (-5.36%)</div>
-                <div style="font-size:0.7em; color:#a0aec0;">4/2 종가</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">1,063.75</div>
+                <div style="font-size:0.85em; color:#e53e3e; font-weight:600;">▲ +7.41 (+0.70%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">4/3 종가</div>
             </div>
     </div>
 
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:12px; text-align:center;">
             <span style="color:#718096; font-size:0.85em;">시장 영향력 점수</span>
             <span style="color:#dd6b20; font-weight:700; font-size:1.1em; margin-left:8px;">중립</span>
-            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(49점)</span>
+            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(50점)</span>
             <span style="color:#cbd5e0; font-size:0.75em; margin-left:8px;">— 긍정·부정 요인이 혼재, 개별 종목 선별 중요</span>
         </div>
 
@@ -294,7 +294,7 @@
                         <div style="background:#38a169; height:100%; width:60%; border-radius:4px;"></div>
                     </div>
                     <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
-                        <span>4/2 기준</span>
+                        <span>4/3 기준</span>
                         <span>60점</span>
                     </div>
                     <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국 중앙은행(연준)이 설정한 금리 범위</div>
@@ -325,15 +325,15 @@
                         
                     </div>
                     <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
-                        4.40%
-                        <span style="color:#e53e3e; font-size:0.55em;">⬆️ 상승 (+0.1)</span>
+                        4.30%
+                        <span style="color:#3182ce; font-size:0.55em;">⬇️ 하락 (-0.1)</span>
                     </div>
                     <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
-                        <div style="background:#dd6b20; height:100%; width:58%; border-radius:4px;"></div>
+                        <div style="background:#38a169; height:100%; width:61%; border-radius:4px;"></div>
                     </div>
                     <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
-                        <span>2/1 기준</span>
-                        <span>58점</span>
+                        <span>3/1 기준</span>
+                        <span>61점</span>
                     </div>
                     <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">미국에서 일자리를 구하지 못한 사람의 비율</div>
                 </div>
@@ -483,15 +483,15 @@
                         <span style="background:#fff5f5; color:#e53e3e; font-size:0.7em; padding:2px 6px; border-radius:8px; margin-left:5px;">부담</span>
                     </div>
                     <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
-                        1,521원
-                        <span style="color:#e53e3e; font-size:0.55em;">⬆️ 상승 (+16.7)</span>
+                        1,510원
+                        <span style="color:#e53e3e; font-size:0.55em;">⬆️ 상승 (+5.7)</span>
                     </div>
                     <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
-                        <div style="background:#e53e3e; height:100%; width:21%; border-radius:4px;"></div>
+                        <div style="background:#e53e3e; height:100%; width:23%; border-radius:4px;"></div>
                     </div>
                     <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
-                        <span>4/2 기준</span>
-                        <span>21점</span>
+                        <span>4/3 기준</span>
+                        <span>23점</span>
                     </div>
                     <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">1달러에 한국 원화가 얼마인지 (높을수록 원화 약세)</div>
                 </div>
@@ -507,42 +507,18 @@
 
     
     <div class="section" id="news">
-        <h2>📰 시장 주요 뉴스 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">4월 3일 오전 6시 기준</span></h2>
+        <h2>📰 시장 주요 뉴스 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">4월 4일 오전 6시 기준</span></h2>
 
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:12px; text-align:center;">
             <span style="color:#718096; font-size:0.85em;">뉴스 분위기</span>
             <span style="color:#e53e3e; font-weight:700; font-size:1.1em; margin-left:8px;">부정적</span>
-            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(32점)</span>
+            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(35점)</span>
         </div>
 
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">유가 110달러 변동성 심화, 미증시 약세</span>
-            </div>
-            
-        </div>
-
-        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
-            <div style="display:flex; align-items:center; gap:8px;">
-                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">소폭 긍정</span>
-                <span style="color:#2d3748; font-size:0.9em;">삼성전자·SK하이닉스가 코스피 지탱</span>
-            </div>
-            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">005930</span> <span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">000660</span></div>
-        </div>
-
-        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
-            <div style="display:flex; align-items:center; gap:8px;">
-                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">증시 급락, 공포 장세 심화</span>
-            </div>
-            
-        </div>
-
-        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
-            <div style="display:flex; align-items:center; gap:8px;">
-                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">트럼프 발언으로 K증시 하락</span>
+                <span style="color:#2d3748; font-size:0.9em;">변동성 장세 속 포트폴리오 방어 전략 필요</span>
             </div>
             
         </div>
@@ -550,9 +526,9 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">소폭 부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">과열된 개미 투자심리 우려</span>
+                <span style="color:#2d3748; font-size:0.9em;">청호나이스 상속세 부담으로 PEF 매각 추진</span>
             </div>
-            
+            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">006060</span></div>
         </div>
     </div>
 
@@ -776,9 +752,9 @@
             </div>
         </div>
 
-        <div style="background:#fff5f5; border-radius:8px; margin-bottom:10px; border:1px solid #e2e8f0; overflow:hidden;">
+        <div style="background:#fff; border-radius:8px; margin-bottom:10px; border:1px solid #e2e8f0; overflow:hidden;">
             <div style="background:#edf2f7; padding:10px 15px; font-weight:600; color:#2d3748; font-size:0.95em;">
-                4월 3일 (금) <span style="background:#e53e3e; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px; margin-left:5px;">오늘</span>
+                4월 3일 (금)
             </div>
 
             <div style="padding:12px 15px; border-bottom:1px solid #f0f0f0;">
@@ -855,7 +831,8 @@
     <div class="archive">
         <h2>지난 스코어</h2>
         <ul>
-            <li><a href="posts/2026-04-03.html">2026-04-03 뉴스 스코어</a></li>
+            <li><a href="posts/2026-04-04.html">2026-04-04 뉴스 스코어</a></li>
+<li><a href="posts/2026-04-03.html">2026-04-03 뉴스 스코어</a></li>
 <li><a href="posts/2026-04-02.html">2026-04-02 뉴스 스코어</a></li>
 <li><a href="posts/2026-04-01.html">2026-04-01 뉴스 스코어</a></li>
 <li><a href="posts/2026-03-31.html">2026-03-31 뉴스 스코어</a></li>
