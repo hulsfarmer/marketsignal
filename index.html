@@ -84,7 +84,7 @@
     <h1>MarketSignal</h1>
     <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 + 주가 데이터 스코어</div>
     <div style="text-align:center"><span class="update-badge">🕖 매일 아침 7시 업데이트</span></div>
-    <div class="accuracy">분석 정확도: 54.0% (최근 30일)</div>
+    <div class="accuracy">분석 정확도: 32.3% (최근 30일)</div>
 
     <div class="today">
         <div style="color:#718096; font-size:0.9em; margin-bottom:10px;">오늘의 스코어 (2026-04-10)</div>
@@ -97,17 +97,17 @@
     <div style="display:flex; gap:12px; margin:18px 0; flex-wrap:wrap;">
         <div style="flex:1; min-width:200px; background:#f0fff4; border:2px solid #38a169; border-radius:12px; padding:16px; text-align:center;">
             <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📊 시장 영향력 점수</div>
-            <div style="font-size:2.2em; font-weight:800; color:#38a169;">63<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:2.2em; font-weight:800; color:#38a169;">60<span style="font-size:0.4em; font-weight:400;">점</span></div>
             <div style="font-size:1em; font-weight:600; color:#38a169;">다소 긍정적</div>
             <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">대체로 우호적이나 일부 부담 요인 존재</div>
             <div style="margin-top:8px; font-size:0.75em;"><a href="#indicators" style="color:#38a169;">상세 보기 ↓</a></div>
         </div>
-        <div style="flex:1; min-width:200px; background:#fffaf0; border:2px solid #dd6b20; border-radius:12px; padding:16px; text-align:center;">
+        <div style="flex:1; min-width:200px; background:#f0fff4; border:2px solid #38a169; border-radius:12px; padding:16px; text-align:center;">
             <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📰 뉴스 분위기</div>
-            <div style="font-size:2.2em; font-weight:800; color:#dd6b20;">57<span style="font-size:0.4em; font-weight:400;">점</span></div>
-            <div style="font-size:1em; font-weight:600; color:#dd6b20;">중립</div>
+            <div style="font-size:2.2em; font-weight:800; color:#38a169;">61<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:1em; font-weight:600; color:#38a169;">긍정적</div>
             <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">오늘 주요 뉴스 종합</div>
-            <div style="margin-top:8px; font-size:0.75em;"><a href="#news" style="color:#dd6b20;">상세 보기 ↓</a></div>
+            <div style="margin-top:8px; font-size:0.75em;"><a href="#news" style="color:#38a169;">상세 보기 ↓</a></div>
         </div>
     </div>
 
@@ -115,7 +115,7 @@
     
 <div class="section" id="trend-chart" style="margin:25px 0;">
   <h2 style="color:#1a365d; margin-bottom:15px; font-size:1.25em; padding-bottom:8px; border-bottom:2px solid #e2e8f0;">
-    📈 AI 예측 점수 vs 코스피 등락 (17일)
+    📈 AI 예측 점수 vs 코스피 등락 (18일)
   </h2>
   <div style="background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
     <canvas id="trendChart" height="120"></canvas>
@@ -123,7 +123,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script>
   (function(){
-    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03', '2026-04-04', '2026-04-05', '2026-04-06', '2026-04-07', '2026-04-08', '2026-04-09'];
+    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03', '2026-04-04', '2026-04-05', '2026-04-06', '2026-04-07', '2026-04-08', '2026-04-09', '2026-04-10'];
     const ctx = document.getElementById('trendChart').getContext('2d');
     new Chart(ctx, {
       type: 'line',
@@ -132,7 +132,7 @@
         datasets: [
           {
             label: 'AI 합산 점수 (시장60%+뉴스40%)',
-            data: [53, 57, 60, 33, 34, 41, 36, 32, 60, 61, 42, 44, 46, 55, 58, 59, 61],
+            data: [53, 57, 60, 33, 34, 41, 36, 32, 60, 61, 42, 44, 46, 55, 58, 59, 61, 61],
             borderColor: '#6366f1',
             backgroundColor: 'rgba(99,102,241,0.08)',
             borderWidth: 2.5,
@@ -142,7 +142,7 @@
           },
           {
             label: '코스피 등락률(%)',
-            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47, 2.74, 2.74, 2.74, 1.36, 0.82, 6.87, -1.61],
+            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47, 2.74, 2.74, 2.74, 1.36, 0.82, 6.87, -1.61, 1.4],
             borderColor: '#e53e3e',
             backgroundColor: 'rgba(229,62,62,0.08)',
             borderWidth: 2,
@@ -234,7 +234,7 @@
 
     
     <div class="section" id="indicators">
-        <h2>📊 경제 지표 현황 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">4월 10일 오전 6시 기준</span></h2>
+        <h2>📊 경제 지표 현황 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">4월 10일 오후 4시 기준</span></h2>
 
     <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:15px;">
         
@@ -252,28 +252,28 @@
             </div>
             <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
                 <div style="font-size:0.8em; color:#718096;">🇰🇷 코스피</div>
-                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">5,778.01</div>
-                <div style="font-size:0.85em; color:#3182ce; font-weight:600;">▼ -94.33 (-1.61%)</div>
-                <div style="font-size:0.7em; color:#a0aec0;">4/9 종가</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">5,858.87</div>
+                <div style="font-size:0.85em; color:#e53e3e; font-weight:600;">▲ +80.86 (+1.40%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">4/10 종가</div>
             </div>
             <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
                 <div style="font-size:0.8em; color:#718096;">🇰🇷 코스닥</div>
-                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">1,076.00</div>
-                <div style="font-size:0.85em; color:#3182ce; font-weight:600;">▼ -13.85 (-1.27%)</div>
-                <div style="font-size:0.7em; color:#a0aec0;">4/9 종가</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">1,093.63</div>
+                <div style="font-size:0.85em; color:#e53e3e; font-weight:600;">▲ +17.63 (+1.64%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">4/10 종가</div>
             </div>
             <div style="flex:1; min-width:140px; background:#fff; border-radius:8px; padding:12px; text-align:center; border:1px solid #e2e8f0;">
                 <div style="font-size:0.8em; color:#718096;">🇨🇳 상해종합</div>
-                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">3,995.00</div>
-                <div style="font-size:0.85em; color:#e53e3e; font-weight:600;">▲ +104.83 (+2.69%)</div>
-                <div style="font-size:0.7em; color:#a0aec0;">4/8 종가</div>
+                <div style="font-size:1.2em; font-weight:700; color:#1a365d; margin:4px 0;">3,986.22</div>
+                <div style="font-size:0.85em; color:#e53e3e; font-weight:600;">▲ +20.05 (+0.51%)</div>
+                <div style="font-size:0.7em; color:#a0aec0;">4/10 종가</div>
             </div>
     </div>
 
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:12px; text-align:center;">
             <span style="color:#718096; font-size:0.85em;">시장 영향력 점수</span>
             <span style="color:#38a169; font-weight:700; font-size:1.1em; margin-left:8px;">다소 긍정적</span>
-            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(63점)</span>
+            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(60점)</span>
             <span style="color:#cbd5e0; font-size:0.75em; margin-left:8px;">— 대체로 우호적이나 일부 부담 요인 존재</span>
         </div>
 
@@ -404,17 +404,17 @@
                 <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.05);">
                     <div style="display:flex; justify-content:space-between; align-items:center;">
                         <span style="font-weight:600; color:#2d3748; font-size:0.88em;">😱 VIX 공포지수</span>
-                        <span style="background:#f0fff4; color:#38a169; font-size:0.7em; padding:2px 6px; border-radius:8px; margin-left:5px;">긍정</span>
+                        <span style="background:#fff5f5; color:#e53e3e; font-size:0.7em; padding:2px 6px; border-radius:8px; margin-left:5px;">부담</span>
                     </div>
                     <div style="font-size:1.35em; font-weight:700; color:#1a365d; margin:6px 0 3px;">
-                        19.49%
-                        <span style="color:#3182ce; font-size:0.55em;">⬇️ 하락 (-1.55)</span>
+                        19.56%
+                        <span style="color:#e53e3e; font-size:0.55em;">⬆️ 상승 (+0.07)</span>
                     </div>
                     <div style="background:#e2e8f0; border-radius:4px; height:5px; margin:6px 0;">
                         <div style="background:#38a169; height:100%; width:67%; border-radius:4px;"></div>
                     </div>
                     <div style="display:flex; justify-content:space-between; font-size:0.75em; color:#a0aec0;">
-                        <span>4/9 기준</span>
+                        <span>4/10 기준</span>
                         <span>67점</span>
                     </div>
                     <div style="font-size:0.8em; color:#718096; margin-top:5px; padding-top:5px; border-top:1px solid #f0f0f0;">시장의 불안감 수치 (높을수록 공포, 낮을수록 안심)</div>
@@ -532,18 +532,18 @@
 
     
     <div class="section" id="news">
-        <h2>📰 시장 주요 뉴스 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">4월 10일 오전 6시 기준</span></h2>
+        <h2>📰 시장 주요 뉴스 <span style="font-size:0.55em; font-weight:400; color:#a0aec0;">4월 10일 오후 4시 기준</span></h2>
 
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:12px; text-align:center;">
             <span style="color:#718096; font-size:0.85em;">뉴스 분위기</span>
-            <span style="color:#dd6b20; font-weight:700; font-size:1.1em; margin-left:8px;">중립</span>
-            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(57점)</span>
+            <span style="color:#38a169; font-weight:700; font-size:1.1em; margin-left:8px;">긍정적</span>
+            <span style="color:#a0aec0; font-size:0.8em; margin-left:5px;">(60점)</span>
         </div>
 
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
-                <span style="color:#2d3748; font-size:0.9em;">아마존 295조 투자 계획으로 6% 강세</span>
+                <span style="color:#2d3748; font-size:0.9em;">외국인 1조 매수, 코스피 5900선 겨냥</span>
             </div>
             
         </div>
@@ -551,7 +551,7 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
-                <span style="color:#2d3748; font-size:0.9em;">중동 휴전 기대에 S&P500 7일째 상승</span>
+                <span style="color:#2d3748; font-size:0.9em;">미·이란 협상 앞두고 외국인 1조 순매수</span>
             </div>
             
         </div>
@@ -559,15 +559,15 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
-                <span style="color:#2d3748; font-size:0.9em;">현대차 시총 3위 도전, 목표가 80만원대</span>
+                <span style="color:#2d3748; font-size:0.9em;">삼성전자·하이닉스 4.2조 순매수</span>
             </div>
-            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">005380</span></div>
+            <div style="margin-top:4px;"><span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">005930</span> <span style="background:#edf2f7; color:#4a5568; font-size:0.7em; padding:1px 5px; border-radius:4px;">000660</span></div>
         </div>
 
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
-                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">소폭 긍정</span>
-                <span style="color:#2d3748; font-size:0.9em;">테슬라 4개월 하락에도 개미 매수 늘려</span>
+                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
+                <span style="color:#2d3748; font-size:0.9em;">코스피 1.4% 상승 5850대 마감</span>
             </div>
             
         </div>
@@ -575,7 +575,7 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
-                <span style="color:#2d3748; font-size:0.9em;">500조 퇴직연금 저수익률로 기금형 전환 논쟁</span>
+                <span style="color:#2d3748; font-size:0.9em;">소액주주 위한 고배당 세제 개편 검토</span>
             </div>
             
         </div>
@@ -583,7 +583,7 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">“전쟁 끝나도 이전으로 못 돌아간다”…유동성 장세 끝나</span>
+                <span style="color:#2d3748; font-size:0.9em;">이란전쟁 여파에 국내 주식 10개 중 7개는 하락 - </span>
             </div>
             
         </div>
@@ -591,7 +591,7 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">중동 전쟁에 외국인 3월 韓 주식·채권 54조원 팔아 </span>
+                <span style="color:#2d3748; font-size:0.9em;">전쟁과 주식시장 - 브런치</span>
             </div>
             
         </div>
@@ -599,7 +599,15 @@
         <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
-                <span style="color:#2d3748; font-size:0.9em;">크레이머 "전쟁 중이라도 채권이 증시 지배" - 연합인</span>
+                <span style="color:#2d3748; font-size:0.9em;">[일문일답] 한은총재 "중동 전쟁 없으면 환율 안정 국</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#edf2f7; color:#718096; font-size:0.75em; padding:2px 8px; border-radius:10px;">중립</span>
+                <span style="color:#2d3748; font-size:0.9em;">'육천피' 앞두고 트럼프 관세 변수에도 멈추지 않는다…</span>
             </div>
             
         </div>
@@ -608,14 +616,6 @@
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#edf2f7; color:#718096; font-size:0.75em; padding:2px 8px; border-radius:10px;">중립</span>
                 <span style="color:#2d3748; font-size:0.9em;">코스피 5000 회복…트럼프발 관세 쇼크에 주춤 뒤 반</span>
-            </div>
-            
-        </div>
-
-        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
-            <div style="display:flex; align-items:center; gap:8px;">
-                <span style="background:#edf2f7; color:#718096; font-size:0.75em; padding:2px 8px; border-radius:10px;">중립</span>
-                <span style="color:#2d3748; font-size:0.9em;">[포토]코스피, 관세 부담에도 1% 상승 마감 - 이데</span>
             </div>
             
         </div>
@@ -760,6 +760,70 @@
             <div style="display:flex; align-items:center; gap:8px;">
                 <span style="background:#edf2f7; color:#718096; font-size:0.75em; padding:2px 8px; border-radius:10px;">중립</span>
                 <span style="color:#2d3748; font-size:0.9em;">[LG에너지솔루션] LG에너지솔루션 주가, 4월 9일 장중 417</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
+                <span style="color:#2d3748; font-size:0.9em;">TSMC 생산 한계로 삼성전자 반사이익 기대</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
+                <span style="color:#2d3748; font-size:0.9em;">연준 기준금리 동결, 안정적 금통 기조 유지</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
+                <span style="color:#2d3748; font-size:0.9em;">국제유가 급락(58달러), 수입비용 감소</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#f0fff4; color:#38a169; font-size:0.75em; padding:2px 8px; border-radius:10px;">긍정</span>
+                <span style="color:#2d3748; font-size:0.9em;">AI 반도체 시대, 엔비디아·TSMC·브로드컴 투자기회</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">미국증시 횡보, 글로벌 리스크 고조</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">소폭 부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">OPEC+ 감산 결정도 유가 반등 실패</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">고용지표 주목 속 시장 리스크 증가</span>
+            </div>
+            
+        </div>
+
+        <div style="background:#fff; border-radius:8px; border:1px solid #e2e8f0; padding:12px; margin-bottom:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="background:#fff5f5; color:#e53e3e; font-size:0.75em; padding:2px 8px; border-radius:10px;">소폭 부정</span>
+                <span style="color:#2d3748; font-size:0.9em;">이란發 인플레 우려 제기</span>
             </div>
             
         </div>
