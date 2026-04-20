@@ -84,7 +84,7 @@
     <h1>MarketSignal</h1>
     <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 + 주가 데이터 스코어</div>
     <div style="text-align:center"><span class="update-badge">🕖 매일 아침 7시 업데이트</span></div>
-    <div class="accuracy">분석 정확도: 56.6% (최근 30일)</div>
+    <div class="accuracy">분석 정확도: 57.0% (최근 30일)</div>
 
     <div class="today">
         <div style="color:#718096; font-size:0.9em; margin-bottom:10px;">오늘의 스코어 (2026-04-20)</div>
@@ -104,7 +104,7 @@
         </div>
         <div style="flex:1; min-width:200px; background:#fffaf0; border:2px solid #dd6b20; border-radius:12px; padding:16px; text-align:center;">
             <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📰 뉴스 분위기</div>
-            <div style="font-size:2.2em; font-weight:800; color:#dd6b20;">58<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:2.2em; font-weight:800; color:#dd6b20;">56<span style="font-size:0.4em; font-weight:400;">점</span></div>
             <div style="font-size:1em; font-weight:600; color:#dd6b20;">중립</div>
             <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">오늘 주요 뉴스 종합</div>
             <div style="margin-top:8px; font-size:0.75em;"><a href="#news" style="color:#dd6b20;">상세 보기 ↓</a></div>
@@ -115,7 +115,7 @@
     
 <div class="section" id="trend-chart" style="margin:25px 0;">
   <h2 style="color:#1a365d; margin-bottom:15px; font-size:1.25em; padding-bottom:8px; border-bottom:2px solid #e2e8f0;">
-    📈 AI 예측 점수 vs 코스피 등락 (23일)
+    📈 AI 예측 점수 vs 코스피 등락 (24일)
   </h2>
   <div style="background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
     <canvas id="trendChart" height="120"></canvas>
@@ -123,7 +123,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script>
   (function(){
-    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03', '2026-04-04', '2026-04-05', '2026-04-06', '2026-04-07', '2026-04-08', '2026-04-09', '2026-04-10', '2026-04-13', '2026-04-14', '2026-04-15', '2026-04-16', '2026-04-17'];
+    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03', '2026-04-04', '2026-04-05', '2026-04-06', '2026-04-07', '2026-04-08', '2026-04-09', '2026-04-10', '2026-04-13', '2026-04-14', '2026-04-15', '2026-04-16', '2026-04-17', '2026-04-20'];
     const ctx = document.getElementById('trendChart').getContext('2d');
     new Chart(ctx, {
       type: 'line',
@@ -132,7 +132,7 @@
         datasets: [
           {
             label: 'AI 합산 점수 (시장60%+뉴스40%)',
-            data: [53, 57, 60, 33, 34, 41, 36, 32, 60, 61, 42, 44, 46, 55, 58, 59, 61, 61, 58, 56, 59, 59, 55],
+            data: [53, 57, 60, 33, 34, 41, 36, 32, 60, 61, 42, 44, 46, 55, 58, 59, 61, 61, 58, 56, 59, 59, 55, 59],
             borderColor: '#6366f1',
             backgroundColor: 'rgba(99,102,241,0.08)',
             borderWidth: 2.5,
@@ -142,7 +142,7 @@
           },
           {
             label: '코스피 등락률(%)',
-            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47, 2.74, 2.74, 2.74, 1.36, 0.82, 6.87, -1.61, 1.4, -0.86, 2.74, 2.07, 2.21, -0.55],
+            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47, 2.74, 2.74, 2.74, 1.36, 0.82, 6.87, -1.61, 1.4, -0.86, 2.74, 2.07, 2.21, -0.55, 0.44],
             borderColor: '#e53e3e',
             backgroundColor: 'rgba(229,62,62,0.08)',
             borderWidth: 2,
@@ -245,9 +245,9 @@
           📅 4/20 (월) <span style="background:#3182ce; color:#fff; font-size:0.7em; padding:1px 6px; border-radius:8px; margin-left:6px;">TODAY</span>
         </div>
         <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
-          <span>시장 <b style="color:#dd6b20;">50점</b></span>
-          <span>뉴스 <b style="color:#dd6b20;">50점</b></span>
-          <span><span style="color:#718096;">코스피 0.0%</span></span>
+          <span>시장 <b style="color:#dd6b20;">59점</b></span>
+          <span>뉴스 <b style="color:#dd6b20;">58점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +0.4%</span></span>
         </div>
       </div>
       <div style="margin-top:10px;">
@@ -411,81 +411,112 @@
 
       <div style="display:flex; gap:10px; margin-bottom:15px; flex-wrap:wrap;">
         <div style="background:#f7fafc; border:1px solid #e2e8f0; border-radius:8px; padding:8px 14px; font-size:0.85em;">
-          🏆 누적 적중률 <b style="color:#38a169;">65%</b> (11/17)
+          🏆 누적 적중률 <b style="color:#dd6b20;">59%</b> (13/22)
         </div>
         <div style="background:#f7fafc; border:1px solid #e2e8f0; border-radius:8px; padding:8px 14px; font-size:0.85em;">
-          📊 평균 수익률 <b style="color:#38a169;">+0.40%</b>
+          📊 평균 수익률 <b style="color:#38a169;">+0.35%</b>
         </div>
       </div>
 
+      <div style="background:#f7fafc; border:1px solid #e2e8f0; border-radius:10px; padding:14px; margin-bottom:15px;">
+        <div style="font-weight:600; color:#1a365d; margin-bottom:8px;">
+          📋 전일 추천 결과 (2026-04-17) — 적중 2/5 | 평균 <span style="color:#38a169;">+0.13%</span>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:4px 0; border-bottom:1px solid #edf2f7; font-size:0.88em;">
+          <span>✅ 포스코인터내셔널 🟡</span>
+          <span>72,800 → 74,800 <b style="color:#e53e3e;">+2.75%</b></span>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:4px 0; border-bottom:1px solid #edf2f7; font-size:0.88em;">
+          <span>✅ DB손해보험 🔴</span>
+          <span>170,000 → 173,300 <b style="color:#e53e3e;">+1.94%</b></span>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:4px 0; border-bottom:1px solid #edf2f7; font-size:0.88em;">
+          <span>❌ 미래에셋증권 🔴</span>
+          <span>71,300 → 70,400 <b style="color:#3182ce;">-1.26%</b></span>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:4px 0; border-bottom:1px solid #edf2f7; font-size:0.88em;">
+          <span>❌ 기업은행 🟡</span>
+          <span>22,850 → 22,550 <b style="color:#3182ce;">-1.31%</b></span>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:4px 0; border-bottom:1px solid #edf2f7; font-size:0.88em;">
+          <span>❌ 한국타이어앤테크놀로지 🟡</span>
+          <span>60,400 → 59,500 <b style="color:#3182ce;">-1.49%</b></span>
+        </div>
+</div>
+
       <div style="background:linear-gradient(135deg, #1a365d, #2d3748); border-radius:12px; padding:18px; color:#fff;">
         <div style="font-weight:700; font-size:1.1em; margin-bottom:6px;">🔥 오늘의 종가매수 추천 (2026-04-20)</div>
-        <div style="font-size:0.82em; color:#cbd5e0; margin-bottom:10px;">코스피 등락 0.0% 박스권 장세에서 시장 영향력 53점, 뉴스 분위기 57점으로 약중립 상황. 이러한 환경에서는 개별 호재가 충분히 반영되지 않은 저가 종목들이 다음날 재평가 받을 확률이 높음.</div>
-        <div style="font-size:0.8em; color:#90cdf4; margin-bottom:12px;">💡 당일 상승 폭이 작거나 하락한 상태에서 실적·주주가치환원 호재를 보유한 종목 5개를 선정하여 적중률 개선과 리스크 최소화를 동시에 추구.</div>
+        <div style="font-size:0.82em; color:#cbd5e0; margin-bottom:10px;">시장 영향력 59점, 뉴스 분위기 58점으로 중립에 가까운 환경이며 코스피 +0.4% 소폭 상승으로 전반적으로 안정적인 분위기입니다. 뚜렷한 모멘텀보다는 개별 종목의 펀더멘탈 재료가 아직 반영되지 않은 종목 위주의 선별적 접근이 유효합니다.</div>
+        <div style="font-size:0.8em; color:#90cdf4; margin-bottom:12px;">💡 호재 뉴스가 있으나 당일 주가 변동이 0%에 가깝고 RSI 55~62 구간의 종목을 우선 선정하는 '미반영 호재 포착' 전략을 중심으로, 과거 성공 패턴과 일치하는 포스코인터내셔널·DB손해보험을 핵심 종목으로 설정합니다.</div>
+
+        <div style="background:rgba(255,255,255,0.08); border-radius:8px; padding:12px; margin-bottom:8px; border-left:3px solid #fbd38d;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-weight:700;">포스코인터내셔널 (047050)</span>
+            <span>
+              <span style="font-size:0.8em; color:#a0aec0;">MS 62점</span>
+              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 68점</span>
+              <span style="font-size:0.7em; margin-left:4px;">🔴 HIGH</span>
+            </span>
+          </div>
+          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">역대 최고 실적(영업이익 1조 1,653억원)에도 5일 수익률 0%로 호재가 주가에 거의 반영되지 않은 전형적인 저평가 상태입니다. RSI 55로 중립 구간이며 국민연금 순매수가 확인되어 기관 수급도 우호적입니다. 4월 17일 동일 재료로 +2.75% 성공 사례가 있어 패턴 신뢰도가 높습니다.</div>
+          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 74,800원</div>
+        </div>
 
         <div style="background:rgba(255,255,255,0.08); border-radius:8px; padding:12px; margin-bottom:8px; border-left:3px solid #fbd38d;">
           <div style="display:flex; justify-content:space-between; align-items:center;">
             <span style="font-weight:700;">DB손해보험 (005830)</span>
             <span>
               <span style="font-size:0.8em; color:#a0aec0;">MS 62점</span>
-              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 62점</span>
+              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 65점</span>
               <span style="font-size:0.7em; margin-left:4px;">🔴 HIGH</span>
             </span>
           </div>
-          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">자사주 소각(1,752억원) + 해외 사업 확장이라는 이중 긍정재료를 보유했으나 당일과 5일 모두 거의 상승하지 않음(0.0%, +0.4%). 20일 -8.9% 약세 후 저가 형성된 상태로 종가매수 시 내일 뉴스 재평가 가능성 높음.</div>
-          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 170,000원</div>
-        </div>
-
-        <div style="background:rgba(255,255,255,0.08); border-radius:8px; padding:12px; margin-bottom:8px; border-left:3px solid #fbd38d;">
-          <div style="display:flex; justify-content:space-between; align-items:center;">
-            <span style="font-weight:700;">미래에셋증권 (006800)</span>
-            <span>
-              <span style="font-size:0.8em; color:#a0aec0;">MS 62점</span>
-              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 62점</span>
-              <span style="font-size:0.7em; margin-left:4px;">🔴 HIGH</span>
-            </span>
-          </div>
-          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">5일 +7.2% 상승으로 모멘텀이 살아있으면서도 당일 +0.0%로 안정화된 상태. 글로벌 디지털자산 진출이라는 신성장 재료가 아직 충분히 반영되지 않았으며, RSI 62는 종가매수에 적정 구간. 성공 사례(한화생명, 유한양행)처럼 호재+미반영 패턴과 일치.</div>
-          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 71,300원</div>
+          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">블랙록 주요 주주 편입, 자사주 소각 1,752억원 등 복수의 강력한 긍정 재료가 집중된 상태입니다. 4월 17일 동일 종목에서 +1.94% 성공 사례가 확인되며 긍정/부정 비율이 4/0으로 가장 우호적입니다. 5일 +3.6% 상승이 다소 부담이나 RSI 59로 과매수 영역이 아니어서 추가 상승 여력이 존재합니다.</div>
+          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 173,300원</div>
         </div>
 
         <div style="background:rgba(255,255,255,0.08); border-radius:8px; padding:12px; margin-bottom:8px; border-left:3px solid #fbd38d;">
           <div style="display:flex; justify-content:space-between; align-items:center;">
             <span style="font-weight:700;">기업은행 (024110)</span>
             <span>
-              <span style="font-size:0.8em; color:#a0aec0;">MS 55점</span>
-              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 55점</span>
+              <span style="font-size:0.8em; color:#a0aec0;">MS 62점</span>
+              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 62점</span>
               <span style="font-size:0.7em; margin-left:4px;">🟡 MED</span>
             </span>
           </div>
-          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">첫 분기배당 도입으로 배당정책 강화(배당 개시 재료) + RSI 59(중립권) + 당일 변동 없음(0.0%)으로 뉴스가 아직 주가에 반영되지 않은 상태. 금융주 특성상 배당 신호 공시 후 정책주 매력도 높아질 가능성.</div>
-          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 22,850원</div>
+          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">분기 배당 도입이라는 주주환원 강화 재료가 있으며 긍정/부정 비율 3/0으로 뉴스 환경이 깨끗합니다. 4월 16일 동일 종목 +1.78% 성공 사례가 있고 5일 +1.4%로 호재가 아직 일부만 반영된 상태입니다. 다만 RSI 64로 과매수 경계 수준이며 4월 17일 실패(-1.31%) 전례가 있어 신중한 접근이 필요합니다.</div>
+          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 22,550원</div>
         </div>
 
         <div style="background:rgba(255,255,255,0.08); border-radius:8px; padding:12px; margin-bottom:8px; border-left:3px solid #fbd38d;">
           <div style="display:flex; justify-content:space-between; align-items:center;">
-            <span style="font-weight:700;">포스코인터내셔널 (047050)</span>
+            <span style="font-weight:700;">대한항공 (003490)</span>
             <span>
-              <span style="font-size:0.8em; color:#a0aec0;">MS 55점</span>
-              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 55점</span>
+              <span style="font-size:0.8em; color:#a0aec0;">MS 62점</span>
+              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 60점</span>
               <span style="font-size:0.7em; margin-left:4px;">🟡 MED</span>
             </span>
           </div>
-          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">사상 최대 영업이익(1조 1,653억원) 달성과 증권사 목표가 상향이라는 실적 호재가 있음에도 5일 -3.2% 약세를 보임. RSI 46(저평가 구간)으로 과매도 수준이 아니면서도 뉴스가 충분히 주가에 반영되지 않은 저가 매수 기회. 국민연금 지분 확대로 기관 신뢰도 상승 중.</div>
-          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 72,800원</div>
+          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">1분기 역대 최대 실적(영업이익 +47.3%)과 방산 기대감으로 목표주가 상향 및 내부자 매수 신호가 나타났습니다. 당일 +0.0%로 오늘 주가가 안정화된 상태이며 RSI 59로 종가매수에 적합한 구간입니다. 다만 5일 +4.6% 상승으로 일부 반영된 상태이므로 고환율 리스크를 감안한 비중 조절이 필요합니다.</div>
+          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 25,050원</div>
         </div>
 
         <div style="background:rgba(255,255,255,0.08); border-radius:8px; padding:12px; margin-bottom:8px; border-left:3px solid #fbd38d;">
           <div style="display:flex; justify-content:space-between; align-items:center;">
             <span style="font-weight:700;">한국타이어앤테크놀로지 (161390)</span>
             <span>
-              <span style="font-size:0.8em; color:#a0aec0;">MS 55점</span>
-              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 55점</span>
-              <span style="font-size:0.7em; margin-left:4px;">🟡 MED</span>
+              <span style="font-size:0.8em; color:#a0aec0;">MS 62점</span>
+              <span style="font-size:1.2em; font-weight:800; color:#fbd38d; margin-left:6px;">AI 57점</span>
+              <span style="font-size:0.7em; margin-left:4px;">🟢 LOW</span>
             </span>
           </div>
-          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">5일 -7.1% 하락 후 저가 형성된 상태에서 삼성증권 목표가 상향, 수익성 호조 등 긍정 뉴스 다수. 당일 +0.0% 정체로 뉴스 반영 미흡, RSI 61(중립-약간 과매수 아님)로 종가매수 후 뉴스 재평가 기대. 약세 국면에서의 저가 매수 기회 전형.</div>
-          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 60,400원</div>
+          <div style="font-size:0.82em; color:#e2e8f0; margin-top:6px;">삼성증권 목표가 상향과 현금배당 1,500원 결정으로 실적 견조 및 주주환원 강화 재료가 있습니다. 5일 -3.1% 하락 후 오늘 보합으로 저가 매수 구간에 근접하며 RSI 61은 과매수 수준이 아닙니다. 단, 4월 17일 동일 패턴(-1.49%) 실패 전례가 있어 신뢰도가 낮으며 소량 비중으로만 접근해야 합니다.</div>
+          <div style="font-size:0.78em; color:#a0aec0; margin-top:4px;">매수가 기준: 59,500원</div>
         </div>
 
         <div style="font-size:0.7em; color:#718096; margin-top:10px; text-align:center;">
