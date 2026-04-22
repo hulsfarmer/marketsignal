@@ -103,6 +103,18 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 
 .empty { text-align: center; padding: 30px; color: #a0aec0; font-size: 0.9em; grid-column: 1 / -1; }
 
+.date-hero { background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%); color: #fff; border-radius: 12px; padding: 18px 22px; margin: 18px 0 22px; box-shadow: 0 2px 6px rgba(26,54,93,0.15); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.date-hero .dh-left { display: flex; flex-direction: column; gap: 4px; }
+.date-hero .dh-kicker { font-size: 0.78em; color: #bee3f8; letter-spacing: 0.5px; text-transform: uppercase; font-weight: 600; }
+.date-hero .dh-date { font-size: 1.8em; font-weight: 800; letter-spacing: -0.5px; font-variant-numeric: tabular-nums; }
+.date-hero .dh-date .dow { font-size: 0.75em; color: #bee3f8; margin-left: 6px; font-weight: 600; }
+.date-hero .dh-right { font-size: 0.85em; color: #e2e8f0; line-height: 1.5; text-align: right; }
+.date-hero .dh-right strong { color: #fff; }
+@media (max-width: 560px) { .date-hero { flex-direction: column; align-items: flex-start; } .date-hero .dh-right { text-align: left; } }
+
+.entry-tag { display: inline-block; background: #fff8e1; color: #744210; border: 1px solid #fbd38d; border-radius: 6px; padding: 3px 9px; font-size: 0.78em; font-weight: 600; margin-bottom: 10px; }
+.entry-tag .arrow { color: #c05621; margin: 0 4px; }
+
 .disclaimer { background: #fffaf0; border: 1px solid #fbd38d; border-radius: 8px; padding: 12px 14px; margin: 18px 0; font-size: 0.82em; color: #744210; text-align: center; }
 .disclaimer strong { color: #c05621; }
 
@@ -120,6 +132,17 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
     <a href="index.html">홈</a> |
     <a href="투자 아이디어.html" class="current">오늘의 추천</a> |
     <a href="경제방향.html">경제 방향</a>
+  </div>
+
+  <div class="date-hero" id="dateHero">
+    <div class="dh-left">
+      <div class="dh-kicker">오늘의 추천 · 기준일</div>
+      <div class="dh-date" id="heroDate">----년 --월 --일<span class="dow">(-)</span></div>
+    </div>
+    <div class="dh-right">
+      <strong>이 날 장 마감 즈음(15:20~15:30) 매수 → 익일 시초가/종가 청산</strong><br>
+      섹션별 진입 시간·로직은 아래 카드에서 확인
+    </div>
   </div>
 
   <section class="summary" aria-label="오늘의 요약">
@@ -146,6 +169,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
       </div>
     </div>
     <p class="section-desc">상위 100 종목 뉴스를 매일 AI가 분석해 <strong>1~100점</strong>으로 점수화. 점수 상위 종목을 오늘의 관심 종목으로 제시.</p>
+    <div class="entry-tag">📅 <span id="entryDateAI">기준일</span> 15:20~15:30 매수 <span class="arrow">→</span> 익일 09:00 청산</div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -181,6 +205,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
       </div>
     </div>
     <p class="section-desc">AI 없이 <strong>규칙 기반</strong>으로 TOP 2 실적신호(E) + TOP 3 기술신호(T)를 뽑아 종가배팅. 15:25 매수 → 익일 09:00 청산.</p>
+    <div class="entry-tag">📅 <span id="entryDateHybrid">기준일</span> 15:25 시장가 매수 <span class="arrow">→</span> 익일 09:00~09:02 시장가 청산</div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -222,6 +247,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
       </div>
     </div>
     <p class="section-desc">시총 10조 이하 중소형주 중 <strong>거래대금 2000억+ 양봉</strong>을 처음 터뜨린 종목을 포착. 차기 주도주 후보를 선별.</p>
+    <div class="entry-tag">📅 <span id="entryDateVol">기준일</span> 15:40 스캔 · 차기 주도주 후보 (눌림목 진입 대기 종목)</div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -279,6 +305,25 @@ function hhmm(iso) {
   const d = new Date(iso);
   if (isNaN(d)) return '--:--';
   return d.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', hour12: false });
+}
+const DOW = ['일','월','화','수','목','금','토'];
+function fmtKDate(iso) {
+  if (!iso) return { full: '----년 --월 --일', dow: '-', short: '--.--' };
+  const [y, m, d] = iso.split('-').map(Number);
+  const dt = new Date(y, m - 1, d);
+  return {
+    full:  `${y}년 ${m}월 ${d}일`,
+    dow:   DOW[dt.getDay()],
+    short: `${m}/${d}(${DOW[dt.getDay()]})`,
+  };
+}
+function renderDateHero(date) {
+  const k = fmtKDate(date);
+  document.getElementById('heroDate').innerHTML = `${k.full}<span class="dow">(${k.dow})</span>`;
+  ['entryDateAI','entryDateHybrid','entryDateVol'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = k.short;
+  });
 }
 function scoreClass(s) { return s >= 70 ? 'high' : s >= 50 ? 'mid' : 'low'; }
 function retClass(r) { return r > 0.1 ? 'up' : r < -0.1 ? 'down' : 'flat'; }
@@ -406,6 +451,7 @@ fetch(FEED, { cache: 'no-store' })
     return r.json();
   })
   .then(data => {
+    renderDateHero(data.date);
     const s = data.sections || {};
     renderAI(s.ai     || { count: 0, picks: [], updated_at: null });
     renderHybrid(s.hybrid || { count: 0, picks: [], updated_at: null });
