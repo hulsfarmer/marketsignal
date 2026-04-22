@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>경제 방향 · MarketSignal</title>
+<meta name="description" content="유튜브 경제 영상을 AI로 요약한 투자 아카이브 — 거시·주식·부동산·채권">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
+.container { max-width: 920px; margin: 0 auto; padding: 20px; }
+a { color: #3182ce; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; letter-spacing: -0.5px; }
+.subtitle { text-align: center; color: #718096; margin-bottom: 18px; font-size: 1.05em; }
+.update-badge { display: inline-block; background: #ebf8ff; color: #2b6cb0; border: 1px solid #bee3f8; padding: 4px 14px; border-radius: 20px; font-size: 0.85em; font-weight: 600; margin: 6px 0 18px; }
+
+.nav { text-align: center; padding: 12px 0; background: #fff; border-radius: 8px; margin: 15px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; }
+.nav a.current { color: #1a365d; font-weight: 700; }
+
+.hero-meta { text-align: center; margin: 8px 0 18px; font-size: 0.85em; color: #718096; display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+.hero-meta .chip { background: #fff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 4px 12px; }
+.hero-meta .chip strong { color: #2d3748; font-weight: 600; }
+
+.filters { display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 14px; background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); margin-bottom: 20px; align-items: center; }
+.filter-label { font-size: 0.8em; color: #a0aec0; font-weight: 600; letter-spacing: 0.05em; margin-right: 4px; }
+.filter-btn { padding: 6px 14px; border-radius: 20px; font-size: 0.88em; font-weight: 500; color: #4a5568; background: #edf2f7; border: 1px solid transparent; cursor: pointer; transition: all 0.15s; font-family: inherit; }
+.filter-btn:hover { background: #e2e8f0; }
+.filter-btn.active { background: #3182ce; color: #fff; }
+.filter-count { margin-left: auto; font-size: 0.82em; color: #a0aec0; }
+.filter-count strong { color: #2d3748; font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 30px; }
+@media (max-width: 760px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
+
+.card { background: #fff; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); overflow: hidden; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; display: flex; flex-direction: column; border-left: 4px solid #3182ce; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.card.cat-macro { border-left-color: #dd6b20; }
+.card.cat-stock { border-left-color: #e53e3e; }
+.card.cat-realestate { border-left-color: #805ad5; }
+.card.cat-bond { border-left-color: #38a169; }
+.card.cat-etc { border-left-color: #718096; }
+.card-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.card-feedback { font-size: 0.78em; color: #744210; background: #fffaf0; border-left: 3px solid #dd6b20; padding: 6px 8px; border-radius: 3px; margin-bottom: 8px; }
+.detail-content .stocks-line { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0; }
+.detail-content .stock-chip { background: #ebf8ff; color: #2b6cb0; border-radius: 4px; padding: 2px 10px; font-size: 0.85em; font-weight: 600; }
+
+.card-thumb { position: relative; aspect-ratio: 16/9; background: #edf2f7; display: flex; align-items: center; justify-content: center; color: #a0aec0; font-size: 0.78em; letter-spacing: 0.04em; background-image: repeating-linear-gradient(135deg, #edf2f7 0 10px, #e2e8f0 10px 11px); }
+.card-cat { position: absolute; top: 10px; left: 10px; font-size: 0.72em; font-weight: 600; padding: 3px 8px; border-radius: 4px; background: #fff; }
+.cat-macro .card-cat { color: #dd6b20; }
+.cat-stock .card-cat { color: #e53e3e; }
+.cat-realestate .card-cat { color: #805ad5; }
+.cat-bond .card-cat { color: #38a169; }
+
+.card-body { padding: 14px 16px; display: flex; flex-direction: column; flex: 1; }
+.card-meta { font-size: 0.78em; color: #a0aec0; margin-bottom: 8px; }
+.card-meta .channel { color: #4a5568; font-weight: 600; }
+.card-meta .dot-sep { margin: 0 5px; opacity: 0.6; }
+.card-title { font-size: 1em; font-weight: 700; color: #1a365d; line-height: 1.4; letter-spacing: -0.3px; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-summary { font-size: 0.85em; color: #4a5568; line-height: 1.55; margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card-footer { margin-top: auto; display: flex; justify-content: space-between; align-items: center; padding-top: 10px; border-top: 1px solid #edf2f7; }
+.card-cta { font-size: 0.82em; font-weight: 600; color: #3182ce; }
+.card-duration { font-size: 0.72em; color: #a0aec0; }
+
+/* Detail modal */
+.detail-overlay { position: fixed; inset: 0; background: rgba(26,54,93,0.45); z-index: 100; display: none; align-items: flex-start; justify-content: center; overflow-y: auto; padding: 30px 16px; }
+.detail-overlay.open { display: flex; }
+.detail-panel { background: #fff; max-width: 720px; width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2); overflow: hidden; animation: slideUp 0.2s ease-out; }
+@keyframes slideUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.detail-hero { aspect-ratio: 16/7; background: #edf2f7; position: relative; display: flex; align-items: center; justify-content: center; color: #a0aec0; font-size: 0.85em; background-image: repeating-linear-gradient(135deg, #edf2f7 0 10px, #e2e8f0 10px 11px); }
+.detail-close { position: absolute; top: 12px; right: 12px; width: 34px; height: 34px; border-radius: 8px; background: #fff; color: #2d3748; border: 1px solid #e2e8f0; font-size: 1.2em; cursor: pointer; font-family: inherit; }
+.detail-close:hover { background: #edf2f7; }
+.detail-body { padding: 26px 30px 32px; }
+.detail-cat { display: inline-block; font-size: 0.75em; font-weight: 700; padding: 3px 10px; border-radius: 4px; margin-bottom: 10px; background: #edf2f7; color: #4a5568; }
+.detail-cat.cat-macro { background: #fffaf0; color: #dd6b20; }
+.detail-cat.cat-stock { background: #fff5f5; color: #e53e3e; }
+.detail-cat.cat-realestate { background: #faf5ff; color: #805ad5; }
+.detail-cat.cat-bond { background: #f0fff4; color: #38a169; }
+.detail-title { color: #1a365d; font-size: 1.6em; font-weight: 700; line-height: 1.3; letter-spacing: -0.5px; margin-bottom: 12px; }
+.detail-meta { display: flex; align-items: center; gap: 10px; font-size: 0.88em; color: #718096; padding-bottom: 16px; margin-bottom: 20px; border-bottom: 1px solid #e2e8f0; flex-wrap: wrap; }
+.detail-meta .channel { font-weight: 600; color: #2d3748; }
+.detail-meta .yt-link { margin-left: auto; color: #3182ce; font-weight: 600; }
+.detail-content { font-size: 0.95em; line-height: 1.75; color: #2d3748; }
+.detail-content h2 { color: #1a365d; font-size: 1.15em; font-weight: 700; margin: 22px 0 10px; padding-bottom: 6px; border-bottom: 2px solid #e2e8f0; }
+.detail-content h3 { font-size: 1em; font-weight: 700; margin: 16px 0 8px; color: #2d3748; }
+.detail-content p { margin-bottom: 10px; color: #4a5568; }
+.detail-content strong { color: #1a365d; font-weight: 700; }
+.detail-content ul { margin: 0 0 10px 22px; color: #4a5568; }
+.detail-content li { margin-bottom: 4px; }
+.detail-content blockquote { border-left: 3px solid #3182ce; padding: 8px 14px; margin: 14px 0; background: #ebf8ff; border-radius: 0 6px 6px 0; font-size: 0.92em; color: #2d3748; }
+.detail-footer-note { margin-top: 26px; padding-top: 14px; border-top: 1px solid #e2e8f0; font-size: 0.78em; color: #a0aec0; line-height: 1.55; }
+@media (max-width: 520px) { .detail-overlay { padding: 0; } .detail-panel { border-radius: 0; min-height: 100vh; } .detail-body { padding: 20px 18px 32px; } .detail-title { font-size: 1.3em; } }
+
+.footer { text-align: center; padding: 25px 0; color: #a0aec0; font-size: 0.85em; border-top: 1px solid #e2e8f0; margin-top: 30px; }
+.footer a { color: #3182ce; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>MarketSignal</h1>
+  <div class="subtitle">경제 방향 · 유튜브 영상 요약 아카이브</div>
+  <div style="text-align:center"><span class="update-badge">📺 매일 아침 7시 업데이트</span></div>
+
+  <div class="nav">
+    <a href="index.html">홈</a> |
+    <a href="투자 아이디어.html">오늘의 추천</a> |
+    <a href="경제방향.html" class="current">경제 방향</a>
+  </div>
+
+  <div class="hero-meta">
+    <span class="chip">📅 마지막 업데이트 <strong id="lastUpdate">-</strong></span>
+    <span class="chip">📰 총 <strong id="totalCount">0</strong>개 강의</span>
+    <span class="chip">📝 유튜브 요약 아카이브</span>
+  </div>
+
+  <div class="filters" id="filters">
+    <span class="filter-label">카테고리</span>
+    <button class="filter-btn active" data-cat="all">전체</button>
+    <button class="filter-btn" data-cat="macro">거시</button>
+    <button class="filter-btn" data-cat="stock">주식</button>
+    <button class="filter-btn" data-cat="realestate">부동산</button>
+    <button class="filter-btn" data-cat="bond">채권</button>
+    <button class="filter-btn" data-cat="etc">기타</button>
+    <span class="filter-count"><strong id="countNum">0</strong>개</span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="footer">
+    <p>MarketSignal · 경제 방향</p>
+    <p>본 페이지는 유튜브 영상 요약이며, 투자 자문이 아닙니다. 투자 판단의 책임은 본인에게 있습니다.</p>
+    <p style="margin-top: 10px;"><a href="index.html">← 홈으로</a></p>
+  </div>
+</div>
+
+<div class="detail-overlay" id="detailOverlay">
+  <div class="detail-panel" id="detailPanel">
+    <div class="detail-hero" id="detailHero"></div>
+    <div class="detail-body" id="detailBody"></div>
+  </div>
+</div>
+
+<script>
+const FEED = 'economy_direction.json';
+const CAT_MAP = { '거시': 'macro', '주식': 'stock', '부동산': 'realestate', '채권': 'bond', '기타': 'etc' };
+const CAT_LABEL_KR = { macro: '거시', stock: '주식', realestate: '부동산', bond: '채권', etc: '기타' };
+
+let POSTS = [];
+let currentFilter = 'all';
+
+const grid = document.getElementById('grid');
+const countNum = document.getElementById('countNum');
+const totalCount = document.getElementById('totalCount');
+const lastUpdate = document.getElementById('lastUpdate');
+
+function esc(s) { return (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+function nl2br(s) { return esc(s).replace(/\n/g, '<br>'); }
+function thumb(yid) { return yid ? `https://img.youtube.com/vi/${encodeURIComponent(yid)}/mqdefault.jpg` : ''; }
+
+function render() {
+  const items = currentFilter === 'all' ? POSTS : POSTS.filter(p => CAT_MAP[p.category] === currentFilter);
+  countNum.textContent = items.length;
+  if (!items.length) {
+    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:40px;color:#a0aec0;">해당 카테고리 강의가 없습니다</div>';
+    return;
+  }
+  grid.innerHTML = items.map(p => {
+    const cat = CAT_MAP[p.category] || 'etc';
+    const tImg = thumb(p.youtube_id);
+    const thumbHtml = tImg
+      ? `<img src="${esc(tImg)}" alt="" loading="lazy">`
+      : `<span>YOUTUBE</span>`;
+    return `
+    <article class="card cat-${cat}" data-id="${p.id}">
+      <div class="card-thumb">
+        ${thumbHtml}
+        <span class="card-cat">${CAT_LABEL_KR[cat]}</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          ${p.channel ? `<span class="channel">${esc(p.channel)}</span><span class="dot-sep">·</span>` : ''}
+          <span>${esc(p.uploaded_on || '-')}</span>
+        </div>
+        <h2 class="card-title">${esc(p.title)}</h2>
+        ${p.summary ? `<p class="card-summary">${esc(p.summary)}</p>` : ''}
+        ${p.feedback ? `<div class="card-feedback">💡 ${esc(p.feedback).slice(0, 80)}${p.feedback.length > 80 ? '…' : ''}</div>` : ''}
+        <div class="card-footer">
+          <span class="card-cta">자세히 보기 →</span>
+          <span class="card-duration">#${p.id}</span>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+  grid.querySelectorAll('.card').forEach(el => {
+    el.addEventListener('click', () => openDetail(Number(el.dataset.id)));
+  });
+}
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.cat;
+    render();
+  });
+});
+
+const overlay = document.getElementById('detailOverlay');
+const detailHero = document.getElementById('detailHero');
+const detailBody = document.getElementById('detailBody');
+
+function openDetail(id) {
+  const p = POSTS.find(x => x.id === id);
+  if (!p) return;
+  const cat = CAT_MAP[p.category] || 'etc';
+  const tImg = thumb(p.youtube_id);
+  detailHero.innerHTML = `
+    ${tImg ? `<img src="${esc(tImg)}" alt="" style="width:100%;height:100%;object-fit:cover">` : `<span>YOUTUBE</span>`}
+    <button class="detail-close" id="detailClose" aria-label="닫기">×</button>`;
+  const stocksHtml = (p.stocks && p.stocks.length)
+    ? `<h2>언급 종목</h2><div class="stocks-line">${p.stocks.map(s => `<span class="stock-chip">${esc(s)}</span>`).join('')}</div>`
+    : '';
+  detailBody.innerHTML = `
+    <span class="detail-cat cat-${cat}">${CAT_LABEL_KR[cat]}</span>
+    <h1 class="detail-title">${esc(p.title)}</h1>
+    <div class="detail-meta">
+      ${p.channel ? `<span class="channel">📺 ${esc(p.channel)}</span><span>·</span>` : ''}
+      <span>${esc(p.uploaded_on || '-')}</span>
+      <a href="${esc(p.youtube_url)}" target="_blank" rel="noopener" class="yt-link">유튜브에서 보기 ↗</a>
+    </div>
+    <div class="detail-content">
+      ${p.summary ? `<h2>요약</h2><p>${nl2br(p.summary)}</p>` : ''}
+      ${p.feedback ? `<h2>피드백 · 투자 시사점</h2><blockquote>${nl2br(p.feedback)}</blockquote>` : ''}
+      ${stocksHtml}
+      <div class="detail-footer-note">본 요약은 관리자가 직접 정리한 것으로, 투자 자문이 아닙니다. 투자 판단의 책임은 본인에게 있습니다.</div>
+    </div>`;
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  document.getElementById('detailClose').addEventListener('click', closeDetail);
+}
+function closeDetail() {
+  overlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
+overlay.addEventListener('click', (e) => { if (e.target === overlay) closeDetail(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDetail(); });
+
+fetch(FEED, { cache: 'no-store' })
+  .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+  .then(data => {
+    POSTS = data.posts || [];
+    totalCount.textContent = POSTS.length;
+    if (POSTS.length) {
+      const latest = POSTS.map(p => p.uploaded_on).filter(Boolean).sort().pop();
+      lastUpdate.textContent = latest || (data.generated_at || '').slice(0, 10);
+    } else {
+      lastUpdate.textContent = '준비 중';
+    }
+    render();
+  })
+  .catch(err => {
+    grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:40px;color:#a0aec0;">아직 등록된 강의가 없습니다<br><small style="opacity:.6">(관리자 페이지에서 유튜브 강의를 추가해 주세요)</small></div>`;
+    console.error('[economy] feed load failed:', err);
+  });
+</script>
+</body>
+</html>
