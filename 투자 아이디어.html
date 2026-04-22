@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>투자 아이디어 · MarketSignal</title>
-<meta name="description" content="매일 자동 업데이트되는 오늘의 투자 아이디어 — Claude 추천 · MS 하이브리드 · vol_screener">
+<title>오늘의 추천 · MarketSignal</title>
+<meta name="description" content="매일 자동 업데이트되는 오늘의 추천 — AI 뉴스 점수 픽 · 실적·기술 하이브리드 · 거래대금 2000억 돌파. 결과·누적 적중률 공개.">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
@@ -58,6 +58,24 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 .logic-details .logic-body .note { font-size: 0.88em; color: #718096; margin-top: 8px; font-style: italic; }
 .logic-details .logic-body .stat { display: inline-block; background: #ebf8ff; color: #2b6cb0; padding: 2px 8px; border-radius: 4px; font-size: 0.88em; font-weight: 600; margin-right: 4px; }
 
+.result-panel { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 14px; margin-bottom: 14px; }
+.result-panel .metrics { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.result-panel .metric { display: flex; flex-direction: column; gap: 2px; }
+.result-panel .metric .k { font-size: 0.72em; color: #a0aec0; letter-spacing: 0.3px; text-transform: uppercase; }
+.result-panel .metric .v { font-size: 1.1em; font-weight: 700; color: #1a365d; font-variant-numeric: tabular-nums; }
+.result-panel .metric .v.good { color: #e53e3e; }
+.result-panel .metric .v.bad { color: #3182ce; }
+.result-panel .metric .sub { font-size: 0.75em; color: #718096; font-weight: 500; }
+.result-panel .yday-head { margin-top: 10px; font-size: 0.82em; color: #4a5568; font-weight: 600; }
+.result-panel .yday-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.result-panel .yday-item { background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 4px 10px; font-size: 0.8em; display: inline-flex; gap: 6px; align-items: center; }
+.result-panel .yday-item .n { color: #2d3748; font-weight: 600; }
+.result-panel .yday-item .r { font-variant-numeric: tabular-nums; font-weight: 700; }
+.result-panel .yday-item .r.up { color: #e53e3e; }
+.result-panel .yday-item .r.down { color: #3182ce; }
+.result-panel .yday-item .r.flat { color: #718096; }
+.result-panel.empty-panel { color: #a0aec0; font-size: 0.85em; text-align: center; }
+
 .pick-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 @media (max-width: 760px) { .pick-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .pick-grid { grid-template-columns: 1fr; } }
@@ -95,12 +113,12 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 <body>
 <div class="container">
   <h1>MarketSignal</h1>
-  <div class="subtitle">오늘의 투자 아이디어 — 3가지 시각으로 본 종목</div>
+  <div class="subtitle">오늘의 추천 — 3가지 시각으로 본 종목, 적중률 공개</div>
   <div style="text-align:center"><span class="update-badge">💡 매일 자동 업데이트</span></div>
 
   <div class="nav">
     <a href="index.html">홈</a> |
-    <a href="투자 아이디어.html" class="current">투자 아이디어</a> |
+    <a href="투자 아이디어.html" class="current">오늘의 추천</a> |
     <a href="경제방향.html">경제 방향</a>
   </div>
 
@@ -150,6 +168,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
         <p class="note">정확도(30일 기준) <span class="stat">약 70%</span> — AI 예측 점수와 실제 코스피 등락 상관.</p>
       </div>
     </details>
+    <div class="result-panel" id="resClaude"></div>
     <div class="pick-grid" id="gridClaude"></div>
   </section>
 
@@ -190,6 +209,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
         <p class="note">백테스트 17거래일 59건 <span class="stat">승률 69.5%</span> <span class="stat">총수익 +17.38%</span> · 랜덤 대비 +8.75%p 알파. 현재 100만원 모의거래 운영 중.</p>
       </div>
     </details>
+    <div class="result-panel" id="resHybrid"></div>
     <div class="pick-grid" id="gridHybrid"></div>
   </section>
 
@@ -226,6 +246,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
         <p class="note">백테스트 <span class="stat">연 +19.5%</span> <span class="stat">승률 57.7%</span> <span class="stat">PF 3.49</span> · 기반 아이디어: "거래대금 2000억이 처음 터진 중소형주가 차기 주도주" (유튜브 전략).</p>
       </div>
     </details>
+    <div class="result-panel empty-panel" id="resVol">결과 추적 준비 중 — 2026-05월 중 익일 수익률 집계 예정</div>
     <div class="pick-grid" id="gridVol"></div>
   </section>
 
@@ -234,7 +255,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
   </div>
 
   <div class="footer">
-    <p>MarketSignal · 오늘의 투자 아이디어</p>
+    <p>MarketSignal · 오늘의 추천</p>
     <p style="margin-top: 10px;"><a href="index.html">← 홈으로</a></p>
   </div>
 </div>
@@ -260,10 +281,50 @@ function hhmm(iso) {
   return d.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', hour12: false });
 }
 function scoreClass(s) { return s >= 70 ? 'high' : s >= 50 ? 'mid' : 'low'; }
+function retClass(r) { return r > 0.1 ? 'up' : r < -0.1 ? 'down' : 'flat'; }
+function sign(r) { return (r > 0 ? '+' : '') + r.toFixed(2) + '%'; }
+
+function renderAccuracy(panelId, acc) {
+  const el = document.getElementById(panelId);
+  if (!el) return;
+  if (!acc || !acc.total) {
+    el.className = 'result-panel empty-panel';
+    el.textContent = '결과 누적 중 — 첫 결과가 집계되면 적중률이 표시됩니다';
+    return;
+  }
+  el.className = 'result-panel';
+  const hitClass = acc.hit_rate >= 60 ? 'good' : acc.hit_rate >= 50 ? '' : 'bad';
+  const retC = retClass(acc.avg_return);
+  const yday = (acc.yesterday || []).map(r => {
+    const rc = retClass(r.return_pct);
+    return `<span class="yday-item"><span class="n">${r.name_kr}</span><span class="r ${rc}">${sign(r.return_pct)}</span></span>`;
+  }).join('');
+  el.innerHTML = `
+    <div class="metrics">
+      <div class="metric">
+        <span class="k">누적 적중률</span>
+        <span class="v ${hitClass}">${acc.hit_rate.toFixed(1)}%</span>
+        <span class="sub">${acc.correct} / ${acc.total} 종목</span>
+      </div>
+      <div class="metric">
+        <span class="k">평균 수익률</span>
+        <span class="v ${retC}">${sign(acc.avg_return)}</span>
+        <span class="sub">종가 기준</span>
+      </div>
+      <div class="metric">
+        <span class="k">시가 청산</span>
+        <span class="v ${retClass(acc.avg_return_open)}">${sign(acc.avg_return_open)}</span>
+        <span class="sub">익일 09:00</span>
+      </div>
+    </div>
+    ${yday ? `<div class="yday-head">최근 결과 · ${acc.yesterday_date || '-'}</div><div class="yday-list">${yday}</div>` : ''}
+  `;
+}
 
 function renderAI(sec) {
   document.getElementById('timeClaude').textContent = hhmm(sec.updated_at);
   document.getElementById('countClaude').innerHTML = `${sec.count}<span class="unit">종목</span>`;
+  renderAccuracy('resClaude', sec.accuracy);
   const grid = document.getElementById('gridClaude');
   if (!sec.picks.length) { grid.innerHTML = '<div class="empty">오늘 AI 픽이 없습니다</div>'; return; }
   grid.innerHTML = sec.picks.map(p => `
@@ -286,6 +347,7 @@ function renderAI(sec) {
 function renderHybrid(sec) {
   document.getElementById('timeHybrid').textContent = hhmm(sec.updated_at);
   document.getElementById('countHybrid').innerHTML = `${sec.count}<span class="unit">종목</span>`;
+  renderAccuracy('resHybrid', sec.accuracy);
   const grid = document.getElementById('gridHybrid');
   if (!sec.picks.length) { grid.innerHTML = '<div class="empty">오늘 하이브리드 진입 신호 없음</div>'; return; }
   grid.innerHTML = sec.picks.map(p => {
