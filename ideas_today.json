@@ -1,0 +1,96 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-04-23T08:17:50",
+  "sections": {
+    "ai": {
+      "label": "AI 뉴스 점수 픽",
+      "updated_at": "2026-04-23T08:17:50",
+      "count": 3,
+      "picks": [
+        {
+          "stock_code": "138040",
+          "name_kr": "메리츠금융지주",
+          "ms_score": 62,
+          "ai_score": 65,
+          "confidence": "MEDIUM",
+          "reason": "2천억 규모 자사주 소각과 임원 동시 매수는 강력한 주주가치 제고 신호이며, 5일 -0.4%로 호재가 거의 미반영된 상태입니다. RSI 62로 중립권이고 긍정 뉴스 5개로 후보 중 뉴스 밀도가 가장 높아 내일 반영 기대감이 있습니다.",
+          "entry_price": 116800.0
+        },
+        {
+          "stock_code": "005830",
+          "name_kr": "DB손해보험",
+          "ms_score": 55,
+          "ai_score": 60,
+          "confidence": "MEDIUM",
+          "reason": "20일 -12.3% 낙폭 이후 자사주 소각 1752억원 실행과 행동주의 투자자 밸류업 촉구라는 이중 호재가 아직 당일 0% 변동으로 미반영 상태입니다. RSI 59로 중립권이며 과거 자사주 소각+해외 확장 이중 재료로 +1.94% 성공 사례와 유사한 패턴입니다.",
+          "entry_price": 170700.0
+        },
+        {
+          "stock_code": "068270",
+          "name_kr": "셀트리온",
+          "ms_score": 55,
+          "ai_score": 52,
+          "confidence": "LOW",
+          "reason": "자사주 911만주 소각으로 주당가치 개선 효과가 있으나 지배구조 리스크가 동시에 부각되고 있어 투자심리가 상쇄됩니다. 과거 셀트리온 종가매수 실패 사례(-2.25%)가 있어 5순위로 배치하며 비중 축소를 권고합니다.",
+          "entry_price": 203000.0
+        }
+      ]
+    },
+    "hybrid": {
+      "label": "실적·기술 하이브리드",
+      "updated_at": "2026-04-23T08:17:50",
+      "count": 2,
+      "picks": [
+        {
+          "stock_code": "024110",
+          "name_kr": "기업은행",
+          "ms_score": 62,
+          "ai_score": 95,
+          "confidence": "HIGH",
+          "reason": "[E] tech 0 / earn 96 (RSI 64, 5일 +0.5%)",
+          "entry_price": 22550.0
+        },
+        {
+          "stock_code": "047050",
+          "name_kr": "포스코인터내셔널",
+          "ms_score": 62,
+          "ai_score": 21,
+          "confidence": "LOW",
+          "reason": "[T] tech 22 / earn 0 (RSI 46, 5일 +6.6%)",
+          "entry_price": 77500.0
+        }
+      ]
+    },
+    "vol": {
+      "label": "거래대금 2000억 돌파",
+      "updated_at": "2026-04-23T08:17:50",
+      "count": 2,
+      "picks": [
+        {
+          "stock_code": "097230",
+          "name_kr": "HJ중공업",
+          "open_price": 27600,
+          "close_price": 30450,
+          "trade_value": 314510172850,
+          "market_cap": 2749493224800,
+          "sector": "건설",
+          "rarity_months": 3,
+          "score": 6.1,
+          "notes": "KOSPI | 등락 +8.8% | 턴오버 11.4% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "082740",
+          "name_kr": "한화엔진",
+          "open_price": 59400,
+          "close_price": 67200,
+          "trade_value": 227371673950,
+          "market_cap": 5607647942400,
+          "sector": "기계·장비",
+          "rarity_months": 0,
+          "score": -3.6,
+          "notes": "KOSPI | 등락 +10.9% | 턴오버 4.1% | ★ 섹터 대장주"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>투자 아이디어 · MarketSignal</title>
+<meta name="description" content="매일 자동 업데이트되는 오늘의 투자 아이디어 — Claude 추천 · MS 하이브리드 · vol_screener">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
+.container { max-width: 920px; margin: 0 auto; padding: 20px; }
+a { color: #3182ce; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; letter-spacing: -0.5px; }
+.subtitle { text-align: center; color: #718096; margin-bottom: 18px; font-size: 1.05em; }
+.update-badge { display: inline-block; background: #ebf8ff; color: #2b6cb0; border: 1px solid #bee3f8; padding: 4px 14px; border-radius: 20px; font-size: 0.85em; font-weight: 600; margin: 6px 0 18px; }
+
+.nav { text-align: center; padding: 12px 0; background: #fff; border-radius: 8px; margin: 15px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; }
+.nav a.current { color: #1a365d; font-weight: 700; }
+
+.summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 18px 0 22px; }
+@media (max-width: 640px) { .summary { grid-template-columns: 1fr; } }
+.summary-card { background: #fff; border-radius: 10px; padding: 16px 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border-left: 4px solid #3182ce; text-align: center; }
+.summary-card.claude { border-left-color: #6366f1; }
+.summary-card.hybrid { border-left-color: #3182ce; }
+.summary-card.vol { border-left-color: #dd6b20; }
+.summary-card .lbl { font-size: 0.8em; color: #718096; margin-bottom: 4px; }
+.summary-card .num { font-size: 2em; font-weight: 800; color: #1a365d; letter-spacing: -0.5px; }
+.summary-card .num .unit { font-size: 0.4em; font-weight: 400; color: #718096; margin-left: 2px; }
+
+.section { margin: 30px 0; background: #fff; border-radius: 12px; padding: 20px 22px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.section-head { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; gap: 12px; flex-wrap: wrap; }
+.section-head h2 { color: #1a365d; font-size: 1.25em; font-weight: 700; letter-spacing: -0.3px; margin: 0; }
+.section-head h2 .accent { color: #3182ce; }
+.section-head h2 .code { font-family: ui-monospace, 'SF Mono', monospace; font-size: 0.75em; color: #a0aec0; font-weight: 500; margin-left: 4px; }
+.section.claude h2 .accent { color: #6366f1; }
+.section.hybrid h2 .accent { color: #3182ce; }
+.section.vol h2 .accent { color: #dd6b20; }
+.section-head .meta { font-size: 0.82em; color: #718096; display: flex; align-items: center; gap: 8px; }
+.section-head .meta .lbl { color: #a0aec0; }
+.section-head .meta .time { font-weight: 600; color: #2d3748; }
+
+.section-desc { font-size: 0.88em; color: #718096; margin-bottom: 10px; line-height: 1.55; }
+
+.logic-details { margin-bottom: 14px; border-top: 1px dashed #e2e8f0; }
+.logic-details summary { cursor: pointer; font-size: 0.82em; color: #3182ce; padding: 10px 0 8px; font-weight: 600; list-style: none; user-select: none; }
+.logic-details summary::-webkit-details-marker { display: none; }
+.logic-details summary::before { content: '▶'; display: inline-block; margin-right: 6px; font-size: 0.7em; transition: transform 0.15s; color: #a0aec0; }
+.logic-details[open] summary::before { transform: rotate(90deg); }
+.logic-details .logic-body { background: #f7fafc; border-radius: 8px; padding: 14px 16px; font-size: 0.85em; color: #4a5568; line-height: 1.7; margin-bottom: 4px; }
+.logic-details .logic-body h4 { color: #1a365d; font-size: 0.95em; font-weight: 700; margin: 10px 0 4px; }
+.logic-details .logic-body h4:first-child { margin-top: 0; }
+.logic-details .logic-body ul { margin: 4px 0 6px 20px; }
+.logic-details .logic-body li { margin-bottom: 2px; }
+.logic-details .logic-body code { background: #edf2f7; padding: 1px 6px; border-radius: 4px; font-family: ui-monospace, monospace; font-size: 0.88em; color: #2d3748; }
+.logic-details .logic-body .note { font-size: 0.88em; color: #718096; margin-top: 8px; font-style: italic; }
+.logic-details .logic-body .stat { display: inline-block; background: #ebf8ff; color: #2b6cb0; padding: 2px 8px; border-radius: 4px; font-size: 0.88em; font-weight: 600; margin-right: 4px; }
+
+.pick-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 760px) { .pick-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .pick-grid { grid-template-columns: 1fr; } }
+
+.pick { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px; border-left: 4px solid #3182ce; }
+.section.claude .pick { border-left-color: #6366f1; }
+.section.hybrid .pick { border-left-color: #3182ce; }
+.section.vol .pick { border-left-color: #dd6b20; }
+
+.pick-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 8px; }
+.pick-name { font-size: 1.05em; font-weight: 700; color: #1a365d; letter-spacing: -0.3px; }
+.pick-code { font-family: ui-monospace, monospace; font-size: 0.78em; color: #a0aec0; }
+.pick-score { font-size: 1.3em; font-weight: 700; }
+.pick-score.high { color: #e53e3e; }
+.pick-score.mid { color: #dd6b20; }
+.pick-score.low { color: #3182ce; }
+
+.pick-row { display: flex; justify-content: space-between; font-size: 0.85em; padding: 3px 0; color: #4a5568; }
+.pick-row .k { color: #a0aec0; }
+.pick-row .v { font-weight: 600; color: #2d3748; font-variant-numeric: tabular-nums; }
+.pick-row .v.up { color: #e53e3e; }
+.pick-row .v.down { color: #3182ce; }
+
+.pick-comment { font-size: 0.85em; color: #4a5568; margin-top: 8px; padding-top: 8px; border-top: 1px dashed #e2e8f0; font-style: italic; }
+
+.empty { text-align: center; padding: 30px; color: #a0aec0; font-size: 0.9em; grid-column: 1 / -1; }
+
+.disclaimer { background: #fffaf0; border: 1px solid #fbd38d; border-radius: 8px; padding: 12px 14px; margin: 18px 0; font-size: 0.82em; color: #744210; text-align: center; }
+.disclaimer strong { color: #c05621; }
+
+.footer { text-align: center; padding: 25px 0; color: #a0aec0; font-size: 0.85em; border-top: 1px solid #e2e8f0; margin-top: 30px; }
+.footer a { color: #3182ce; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>MarketSignal</h1>
+  <div class="subtitle">오늘의 투자 아이디어 — 3가지 시각으로 본 종목</div>
+  <div style="text-align:center"><span class="update-badge">💡 매일 자동 업데이트</span></div>
+
+  <div class="nav">
+    <a href="index.html">홈</a> |
+    <a href="투자 아이디어.html" class="current">투자 아이디어</a> |
+    <a href="경제방향.html">경제 방향</a>
+  </div>
+
+  <section class="summary" aria-label="오늘의 요약">
+    <div class="summary-card claude">
+      <div class="lbl">AI 뉴스 점수 픽</div>
+      <div class="num" id="countClaude">0<span class="unit">종목</span></div>
+    </div>
+    <div class="summary-card hybrid">
+      <div class="lbl">실적·기술 하이브리드</div>
+      <div class="num" id="countHybrid">0<span class="unit">종목</span></div>
+    </div>
+    <div class="summary-card vol">
+      <div class="lbl">거래대금 2000억 돌파</div>
+      <div class="num" id="countVol">0<span class="unit">종목</span></div>
+    </div>
+  </section>
+
+  <section class="section claude" id="sec-claude">
+    <div class="section-head">
+      <h2>AI <span class="accent">뉴스 점수 픽</span> <span class="code">/ Claude Haiku</span></h2>
+      <div class="meta">
+        <span class="lbl">마지막 업데이트</span>
+        <span class="time" id="timeClaude">06:05</span>
+      </div>
+    </div>
+    <p class="section-desc">상위 100 종목 뉴스를 매일 AI가 분석해 <strong>1~100점</strong>으로 점수화. 점수 상위 종목을 오늘의 관심 종목으로 제시.</p>
+    <details class="logic-details">
+      <summary>로직 자세히</summary>
+      <div class="logic-body">
+        <h4>데이터 수집</h4>
+        <ul>
+          <li>매일 05:00 KST: 상위 100 종목에 대해 네이버 검색 API로 뉴스 수집</li>
+          <li>주가 데이터(현재가·5일 변화율·RSI) + 경제지표 병합</li>
+        </ul>
+        <h4>AI 점수화 (Claude Haiku)</h4>
+        <ul>
+          <li>종목별 뉴스 헤드라인·요약을 프롬프트로 구성</li>
+          <li>Claude Haiku가 <code>sentiment</code>(positive/neutral/negative) + <code>ai_score</code>(1~100) + 한줄평 생성</li>
+          <li>점수 기준: 70+ 강력 긍정 · 55~69 긍정 · 40~54 중립 · &lt;40 회피</li>
+        </ul>
+        <h4>선별 기준</h4>
+        <ul>
+          <li><code>ai_score</code> 상위 종목 (현재 샘플 표시: 3종목)</li>
+          <li>과열 경고 · 경고 플래그 반영</li>
+        </ul>
+        <p class="note">정확도(30일 기준) <span class="stat">약 70%</span> — AI 예측 점수와 실제 코스피 등락 상관.</p>
+      </div>
+    </details>
+    <div class="pick-grid" id="gridClaude"></div>
+  </section>
+
+  <section class="section hybrid" id="sec-hybrid">
+    <div class="section-head">
+      <h2>실적·기술 <span class="accent">하이브리드</span> <span class="code">/ E2+T3 · 15:25→익일 09:00</span></h2>
+      <div class="meta">
+        <span class="lbl">마지막 업데이트</span>
+        <span class="time" id="timeHybrid">15:30</span>
+      </div>
+    </div>
+    <p class="section-desc">AI 없이 <strong>규칙 기반</strong>으로 TOP 2 실적신호(E) + TOP 3 기술신호(T)를 뽑아 종가배팅. 15:25 매수 → 익일 09:00 청산.</p>
+    <details class="logic-details">
+      <summary>로직 자세히</summary>
+      <div class="logic-body">
+        <h4>E (Earnings Top 2) — 실적신호</h4>
+        <ul>
+          <li>오늘자 뉴스에 실적 키워드 포함: <code>실적·영업이익·매출·어닝·분기·호실적·역대 최대</code></li>
+          <li>sentiment이 positive 또는 neutral인 종목만</li>
+          <li>5일 변화율 <code>-5% ≤ ch5 ≤ +5%</code> (과열/급락 배제)</li>
+          <li>점수: <code>earn = 100 - |ch5| × 10</code> → 상위 2개 선정</li>
+        </ul>
+        <h4>T (Technical Top 3) — 기술신호</h4>
+        <ul>
+          <li>RSI(14) 조건: <code>25 ≤ RSI ≤ 50</code> (과매도 회복 구간)</li>
+          <li>5일 변화율: 음수 (단기 눌림)</li>
+          <li>점수: <code>tech = (RSI점수 + CH5점수) / 2</code></li>
+          <li>RSI점수 = <code>max(0, 100 - |RSI-35| × 5)</code></li>
+          <li>CH5점수 = <code>min(100, |ch5| × 20)</code>, ch5≤0일 때만</li>
+          <li>상위 3개 선정</li>
+        </ul>
+        <h4>최종 픽 & 체결</h4>
+        <ul>
+          <li>E2 ∪ T3 (중복 제거) → 최대 5개, 현재 자본 제약으로 상위 3개 슬롯 사용</li>
+          <li>15:25 KST 시장가 매수, 익일 09:00~09:02 시장가 청산</li>
+          <li>소스 태그: <code>E</code>(실적) / <code>T</code>(기술) / <code>E+T</code>(중복)</li>
+        </ul>
+        <p class="note">백테스트 17거래일 59건 <span class="stat">승률 69.5%</span> <span class="stat">총수익 +17.38%</span> · 랜덤 대비 +8.75%p 알파. 현재 100만원 모의거래 운영 중.</p>
+      </div>
+    </details>
+    <div class="pick-grid" id="gridHybrid"></div>
+  </section>
+
+  <section class="section vol" id="sec-vol">
+    <div class="section-head">
+      <h2>거래대금 <span class="accent">2000억 돌파</span> <span class="code">/ 중소형·희소성</span></h2>
+      <div class="meta">
+        <span class="lbl">마지막 업데이트</span>
+        <span class="time" id="timeVol">15:45</span>
+      </div>
+    </div>
+    <p class="section-desc">시총 10조 이하 중소형주 중 <strong>거래대금 2000억+ 양봉</strong>을 처음 터뜨린 종목을 포착. 차기 주도주 후보를 선별.</p>
+    <details class="logic-details">
+      <summary>로직 자세히</summary>
+      <div class="logic-body">
+        <h4>스크리닝 순서 (매일 15:40 KST)</h4>
+        <ul>
+          <li>FDR로 KOSPI + KOSDAQ 전 종목 조회</li>
+          <li>시총 <code>≤ 10조</code> 필터 (중소형주 집중)</li>
+          <li>거래대금 <code>≥ 2,000억</code> + <strong>양봉</strong> 필터</li>
+          <li>KIS API로 희소성 체크: 최근 10개월 내 돌파 <code>≤ 3회</code></li>
+        </ul>
+        <h4>점수</h4>
+        <ul>
+          <li>희소성 <code>+10</code> · 거래대금 <code>+5</code> · 턴오버 <code>+5</code> · 반복패널티 <code>−N</code></li>
+        </ul>
+        <h4>눌림목 진입 감지 (자동매매 D전략 v13)</h4>
+        <ul>
+          <li>돌파 종가 대비 <code>-3% ~ -15%</code> 조정 구간 → "조정"</li>
+          <li>5일선 근처 <code>±2%</code> + 하락중 → "5일선 지지"</li>
+          <li>돌파봉 시가 <code>-5%</code> 눌림 + 양봉 → 매수</li>
+          <li>손절 <code>-2%</code> · TP1 <code>+10%</code>(50% 매도 + 본전 이동) · 잔여 트레일 <code>-10%</code></li>
+        </ul>
+        <p class="note">백테스트 <span class="stat">연 +19.5%</span> <span class="stat">승률 57.7%</span> <span class="stat">PF 3.49</span> · 기반 아이디어: "거래대금 2000억이 처음 터진 중소형주가 차기 주도주" (유튜브 전략).</p>
+      </div>
+    </details>
+    <div class="pick-grid" id="gridVol"></div>
+  </section>
+
+  <div class="disclaimer">
+    <strong>⚠️ 참고용</strong> · 본 페이지는 AI·규칙 기반 자동 분석 결과이며, 특정 종목 매수·매도 추천이 아닙니다. 투자 판단의 책임은 본인에게 있습니다.
+  </div>
+
+  <div class="footer">
+    <p>MarketSignal · 오늘의 투자 아이디어</p>
+    <p style="margin-top: 10px;"><a href="index.html">← 홈으로</a></p>
+  </div>
+</div>
+
+<script>
+const FEED = 'ideas_today.json';
+
+function fmt(n) {
+  if (n == null || n === '') return '-';
+  if (typeof n === 'string') return n;
+  return Number(n).toLocaleString('ko-KR');
+}
+function fmtWon(n) {
+  if (!n) return '-';
+  if (n >= 1e12) return (n / 1e12).toFixed(1) + '조';
+  if (n >= 1e8)  return (n / 1e8).toFixed(0)  + '억';
+  return fmt(n);
+}
+function hhmm(iso) {
+  if (!iso) return '--:--';
+  const d = new Date(iso);
+  if (isNaN(d)) return '--:--';
+  return d.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', hour12: false });
+}
+function scoreClass(s) { return s >= 70 ? 'high' : s >= 50 ? 'mid' : 'low'; }
+
+function renderAI(sec) {
+  document.getElementById('timeClaude').textContent = hhmm(sec.updated_at);
+  document.getElementById('countClaude').innerHTML = `${sec.count}<span class="unit">종목</span>`;
+  const grid = document.getElementById('gridClaude');
+  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">오늘 AI 픽이 없습니다</div>'; return; }
+  grid.innerHTML = sec.picks.map(p => `
+    <div class="pick">
+      <div class="pick-head">
+        <div>
+          <div class="pick-name">${p.name_kr || '-'}</div>
+          <div class="pick-code">${p.stock_code || ''}</div>
+        </div>
+        <div class="pick-score ${scoreClass(p.ai_score)}">${p.ai_score}</div>
+      </div>
+      <div class="pick-row"><span class="k">MS 점수</span><span class="v">${p.ms_score}</span></div>
+      <div class="pick-row"><span class="k">진입가</span><span class="v">${fmt(p.entry_price)}</span></div>
+      <div class="pick-row"><span class="k">확신도</span><span class="v">${p.confidence || '-'}</span></div>
+      <div class="pick-comment">${p.reason || '-'}</div>
+    </div>
+  `).join('');
+}
+
+function renderHybrid(sec) {
+  document.getElementById('timeHybrid').textContent = hhmm(sec.updated_at);
+  document.getElementById('countHybrid').innerHTML = `${sec.count}<span class="unit">종목</span>`;
+  const grid = document.getElementById('gridHybrid');
+  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">오늘 하이브리드 진입 신호 없음</div>'; return; }
+  grid.innerHTML = sec.picks.map(p => {
+    const src = (p.reason || '').match(/^\[(E\+?T?|T|E)\]/);
+    const tag = src ? src[1] : '';
+    return `
+    <div class="pick">
+      <div class="pick-head">
+        <div>
+          <div class="pick-name">${p.name_kr || '-'} ${tag ? `<span style="font-size:0.72em; color:#3182ce; background:#ebf8ff; padding:1px 6px; border-radius:4px; margin-left:4px;">${tag}</span>` : ''}</div>
+          <div class="pick-code">${p.stock_code || ''}</div>
+        </div>
+        <div class="pick-score ${scoreClass(p.ai_score)}">${p.ai_score}</div>
+      </div>
+      <div class="pick-row"><span class="k">진입가</span><span class="v">${fmt(p.entry_price)}</span></div>
+      <div class="pick-row"><span class="k">MS 점수</span><span class="v">${p.ms_score}</span></div>
+      <div class="pick-row"><span class="k">확신도</span><span class="v">${p.confidence || '-'}</span></div>
+      <div class="pick-comment">${p.reason || '-'}</div>
+    </div>
+    `;
+  }).join('');
+}
+
+function renderVol(sec) {
+  document.getElementById('timeVol').textContent = hhmm(sec.updated_at);
+  document.getElementById('countVol').innerHTML = `${sec.count}<span class="unit">종목</span>`;
+  const grid = document.getElementById('gridVol');
+  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">오늘 돌파 종목 없음</div>'; return; }
+  grid.innerHTML = sec.picks.map(p => `
+    <div class="pick">
+      <div class="pick-head">
+        <div>
+          <div class="pick-name">${p.name_kr || '-'}</div>
+          <div class="pick-code">${p.stock_code || ''}</div>
+        </div>
+        <div class="pick-score mid">${(p.score ?? 0).toFixed(1)}</div>
+      </div>
+      <div class="pick-row"><span class="k">돌파 시가</span><span class="v">${fmt(p.open_price)}</span></div>
+      <div class="pick-row"><span class="k">거래대금</span><span class="v">${fmtWon(p.trade_value)}</span></div>
+      <div class="pick-row"><span class="k">시총</span><span class="v">${fmtWon(p.market_cap)}</span></div>
+      <div class="pick-row"><span class="k">희소성</span><span class="v">${p.rarity_months ? p.rarity_months + '개월 내 돌파' : '첫 돌파'}</span></div>
+      <div class="pick-comment">${p.notes || '-'}</div>
+    </div>
+  `).join('');
+}
+
+function showError(msg) {
+  ['gridClaude', 'gridHybrid', 'gridVol'].forEach(id => {
+    document.getElementById(id).innerHTML = `<div class="empty">${msg}</div>`;
+  });
+}
+
+fetch(FEED, { cache: 'no-store' })
+  .then(r => {
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  })
+  .then(data => {
+    const s = data.sections || {};
+    renderAI(s.ai     || { count: 0, picks: [], updated_at: null });
+    renderHybrid(s.hybrid || { count: 0, picks: [], updated_at: null });
+    renderVol(s.vol    || { count: 0, picks: [], updated_at: null });
+  })
+  .catch(err => {
+    console.error('[ideas] feed load failed:', err);
+    showError('데이터 로딩 실패 — 잠시 후 다시 시도하세요.');
+  });
+</script>
+</body>
+</html>
