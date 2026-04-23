@@ -1,26 +1,17 @@
 {
-  "date": "2026-04-22",
+  "date": "2026-04-23",
   "strategy": "hybrid",
-  "generated_at": "2026-04-22T15:05:01",
-  "count": 2,
+  "generated_at": "2026-04-23T15:05:01",
+  "count": 1,
   "picks": [
     {
       "stock_code": "024110",
       "name_kr": "기업은행",
       "ms_score": 62,
-      "ai_score": 95,
-      "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 96 (RSI 64, 5일 +0.5%)",
-      "entry_price": 22550.0
-    },
-    {
-      "stock_code": "047050",
-      "name_kr": "포스코인터내셔널",
-      "ms_score": 62,
-      "ai_score": 21,
-      "confidence": "LOW",
-      "reason": "[T] tech 22 / earn 0 (RSI 46, 5일 +6.6%)",
-      "entry_price": 77500.0
+      "ai_score": 78,
+      "confidence": "MEDIUM",
+      "reason": "[E] tech 0 / earn 78 (RSI 66, 5일 -2.2%)",
+      "entry_price": 22350.0
     }
   ]
 }
