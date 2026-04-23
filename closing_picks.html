@@ -209,7 +209,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
     </div>
     <p class="section-desc">상위 100 종목 뉴스를 매일 AI가 분석해 <strong>1~100점</strong>으로 점수화. 점수 상위 종목을 오늘의 관심 종목으로 제시.</p>
     <div class="entry-tag">📅 <span id="entryDateAI">기준일</span> 15:20~15:30 매수 <span class="arrow">→</span> 익일 09:00 청산</div>
-    <div class="compound-tag" id="compAI"><span class="muted">수익 복리 환산 — 집계 대기</span></div>
+    <div class="compound-tag" id="compAI"><span class="muted">수익 집계 — 로딩 중</span></div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -230,6 +230,12 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
           <li>과열 경고 · 경고 플래그 반영</li>
         </ul>
         <p class="note">정확도(30일 기준) <span class="stat">약 70%</span> — AI 예측 점수와 실제 코스피 등락 상관.</p>
+        <h4>수익률 표시 방식</h4>
+        <ul>
+          <li>가정: 초기자본 <code>1,000,000원</code> · 슬롯 수 = 그날 픽 수 (동적 · 매수 시점에 확정)</li>
+          <li>일수익률 = 해당 날짜 픽 평균(시가 청산) · 금액 = 100만원 × 일수익률</li>
+          <li>월·연수익률 = 기간 내 일수익률 단순합(복리 아님) · 금액 = 100만원 × 합</li>
+        </ul>
       </div>
     </details>
     <div class="result-panel" id="resClaude"></div>
@@ -246,7 +252,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
     </div>
     <p class="section-desc">AI 없이 <strong>규칙 기반</strong>으로 TOP 2 실적신호(E) + TOP 3 기술신호(T)를 뽑아 종가배팅. 15:25 매수 → 익일 09:00 청산.</p>
     <div class="entry-tag">📅 <span id="entryDateHybrid">기준일</span> 15:25 시장가 매수 <span class="arrow">→</span> 익일 09:00~09:02 시장가 청산</div>
-    <div class="compound-tag" id="compHybrid"><span class="muted">수익 복리 환산 — 집계 대기</span></div>
+    <div class="compound-tag" id="compHybrid"><span class="muted">수익 집계 — 로딩 중</span></div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -273,6 +279,12 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
           <li>소스 태그: <code>E</code>(실적) / <code>T</code>(기술) / <code>E+T</code>(중복)</li>
         </ul>
         <p class="note">백테스트 17거래일 59건 <span class="stat">승률 69.5%</span> <span class="stat">총수익 +17.38%</span> · 랜덤 대비 +8.75%p 알파. 현재 100만원 모의거래 운영 중.</p>
+        <h4>수익률 표시 방식</h4>
+        <ul>
+          <li>가정: 초기자본 <code>1,000,000원</code> · 슬롯 수 = 그날 픽 수 (동적 · 매수 시점에 확정)</li>
+          <li>일수익률 = 해당 날짜 픽 평균(시가 청산) · 금액 = 100만원 × 일수익률</li>
+          <li>월·연수익률 = 기간 내 일수익률 단순합(복리 아님) · 금액 = 100만원 × 합</li>
+        </ul>
       </div>
     </details>
     <div class="result-panel" id="resHybrid"></div>
@@ -343,37 +355,50 @@ function signPct(r, digits) {
   return (r > 0 ? '+' : '') + r.toFixed(digits) + '%';
 }
 
-function realizedPeriod(strategyKey, periodStart) {
-  if (!historyData || !historyData.by_date) return null;
-  const dates = Object.keys(historyData.by_date).sort();
-  let cum = 1;
-  let n = 0;
-  for (const d of dates) {
-    if (d < periodStart) continue;
-    const sec = historyData.by_date[d] && historyData.by_date[d][strategyKey];
-    if (!sec) continue;
-    const ps = (sec.picks || []).filter(p => p.return_pct_open != null);
-    if (!ps.length) continue;
-    const avgOpen = ps.reduce((a, p) => a + p.return_pct_open, 0) / ps.length;
-    cum *= (1 + avgOpen / 100);
-    n++;
-  }
-  if (n === 0) return null;
-  return { days: n, cumPct: (cum - 1) * 100 };
+const AI_INITIAL_CAPITAL = 1_000_000;
+
+function dayReturnFor(strategyKey, date) {
+  if (!historyData || !historyData.by_date || !date) return null;
+  const sec = historyData.by_date[date] && historyData.by_date[date][strategyKey];
+  if (!sec) return null;
+  const ps = (sec.picks || []).filter(p => p.return_pct_open != null);
+  if (!ps.length) return null;
+  const avgOpen = ps.reduce((a, p) => a + p.return_pct_open, 0) / ps.length;
+  const pnl = Math.round(AI_INITIAL_CAPITAL * avgOpen / 100);
+  return { date, pct: avgOpen, n: ps.length, pnl };
 }
 
 function latestDayReturn(strategyKey) {
   if (!historyData || !historyData.by_date) return null;
   const dates = Object.keys(historyData.by_date).sort().reverse();
   for (const d of dates) {
-    const sec = historyData.by_date[d] && historyData.by_date[d][strategyKey];
-    if (!sec) continue;
-    const ps = (sec.picks || []).filter(p => p.return_pct_open != null);
-    if (!ps.length) continue;
-    const avgOpen = ps.reduce((a, p) => a + p.return_pct_open, 0) / ps.length;
-    return { date: d, pct: avgOpen };
+    const r = dayReturnFor(strategyKey, d);
+    if (r) return r;
   }
   return null;
+}
+
+function slotPeriod(strategyKey, periodStart) {
+  if (!historyData || !historyData.by_date) return null;
+  const dates = Object.keys(historyData.by_date).sort();
+  let pctSum = 0;
+  let pnlSum = 0;
+  let days = 0;
+  for (const d of dates) {
+    if (d < periodStart) continue;
+    const r = dayReturnFor(strategyKey, d);
+    if (!r) continue;
+    pctSum += r.pct;
+    pnlSum += r.pnl;
+    days++;
+  }
+  if (days === 0) return null;
+  return { days, pct: pctSum, pnl: pnlSum };
+}
+
+function fmtWonSigned(n) {
+  const v = Math.round(n);
+  return (v >= 0 ? '+' : '') + v.toLocaleString('ko-KR') + '원';
 }
 
 function renderCompound(id, strategyKey) {
@@ -384,23 +409,43 @@ function renderCompound(id, strategyKey) {
   const mm = String(now.getMonth() + 1).padStart(2, '0');
   const monthStart = `${yyyy}-${mm}-01`;
   const yearStart = `${yyyy}-01-01`;
-  const dRet = latestDayReturn(strategyKey);
-  const m = realizedPeriod(strategyKey, monthStart);
-  const y = realizedPeriod(strategyKey, yearStart);
-  if (!dRet && !m && !y) {
-    el.innerHTML = '<span class="muted">수익 복리 환산 — 집계 대기</span>';
-    return;
-  }
+  const dSel = selectedDate ? dayReturnFor(strategyKey, selectedDate) : null;
+  const dLatest = !dSel ? latestDayReturn(strategyKey) : null;
+  const m = slotPeriod(strategyKey, monthStart);
+  const y = slotPeriod(strategyKey, yearStart);
   const cls = v => v > 0.1 ? 'up' : v < -0.1 ? 'down' : 'flat';
-  const seg = (label, val, sub) => {
-    if (val == null) return `<span class="cseg"><span class="k">${label}</span><span class="sub">-</span></span>`;
-    return `<span class="cseg"><span class="k">${label}</span><span class="v ${cls(val)}">${signPct(val, 2)}</span><span class="sub">${sub}</span></span>`;
-  };
-  el.innerHTML =
-    seg('일수익률', dRet ? dRet.pct : null, dRet ? dRet.date.slice(5) : '') +
-    seg('월수익률', m ? m.cumPct : null, m ? `${m.days}일` : '') +
-    seg('연수익률', y ? y.cumPct : null, y ? `${y.days}일` : '') +
-    `<span class="cnote">시가 청산 기준</span>`;
+
+  const capSeg =
+    `<span class="cseg"><span class="k">초기자본</span>` +
+    `<span class="v">100만원</span>` +
+    `<span class="sub">슬롯 동적(픽 수)</span></span>`;
+
+  let daySeg;
+  if (dSel) {
+    daySeg =
+      `<span class="cseg"><span class="k">일수익률</span>` +
+      `<span class="v ${cls(dSel.pct)}">${signPct(dSel.pct, 2)}</span>` +
+      `<span class="sub">${fmtWonSigned(dSel.pnl)} · ${dSel.n}픽</span></span>`;
+  } else if (dLatest) {
+    daySeg =
+      `<span class="cseg"><span class="k">일수익률</span>` +
+      `<span class="sub">집계 대기 · 최근 ${dLatest.date.slice(5)} ${signPct(dLatest.pct, 2)}</span></span>`;
+  } else {
+    daySeg =
+      `<span class="cseg"><span class="k">일수익률</span>` +
+      `<span class="sub">집계 대기</span></span>`;
+  }
+  const mSeg = m
+    ? `<span class="cseg"><span class="k">월수익률</span>` +
+      `<span class="v ${cls(m.pct)}">${signPct(m.pct, 2)}</span>` +
+      `<span class="sub">${m.days}일 · ${fmtWonSigned(m.pnl)}</span></span>`
+    : `<span class="cseg"><span class="k">월수익률</span><span class="sub">집계 대기</span></span>`;
+  const ySeg = y
+    ? `<span class="cseg"><span class="k">연수익률</span>` +
+      `<span class="v ${cls(y.pct)}">${signPct(y.pct, 2)}</span>` +
+      `<span class="sub">${y.days}일 · ${fmtWonSigned(y.pnl)}</span></span>`
+    : `<span class="cseg"><span class="k">연수익률</span><span class="sub">집계 대기</span></span>`;
+  el.innerHTML = capSeg + daySeg + mSeg + ySeg + `<span class="cnote">시가 청산 · 100만원 기준</span>`;
 }
 
 function renderAccuracy(panelId, acc) {
