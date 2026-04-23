@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>거래대금 돌파 종목 추천 · MarketSignal</title>
+<meta name="description" content="시총 10조 이하 중소형주 중 거래대금 2000억 이상이 처음 터진 종목을 매일 포착. 차기 주도주 후보 · 눌림목 진입 대기 종목.">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
+.container { max-width: 920px; margin: 0 auto; padding: 20px; }
+a { color: #3182ce; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; letter-spacing: -0.5px; }
+.subtitle { text-align: center; color: #718096; margin-bottom: 18px; font-size: 1.05em; }
+.update-badge { display: inline-block; background: #fff8e1; color: #744210; border: 1px solid #fbd38d; padding: 4px 14px; border-radius: 20px; font-size: 0.85em; font-weight: 600; margin: 6px 0 18px; }
+
+.nav { text-align: center; padding: 12px 0; background: #fff; border-radius: 8px; margin: 15px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; }
+.nav a.current { color: #1a365d; font-weight: 700; }
+
+.section { margin: 22px 0; background: #fff; border-radius: 12px; padding: 20px 22px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border-left: 4px solid #dd6b20; }
+.section-head { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; gap: 12px; flex-wrap: wrap; }
+.section-head h2 { color: #1a365d; font-size: 1.25em; font-weight: 700; letter-spacing: -0.3px; margin: 0; }
+.section-head h2 .accent { color: #dd6b20; }
+.section-head .meta { font-size: 0.82em; color: #718096; display: flex; align-items: center; gap: 8px; }
+.section-head .meta .lbl { color: #a0aec0; }
+.section-head .meta .time { font-weight: 600; color: #2d3748; }
+
+.section-desc { font-size: 0.88em; color: #718096; margin-bottom: 10px; line-height: 1.55; }
+
+.entry-tag { display: inline-block; background: #fff8e1; color: #744210; border: 1px solid #fbd38d; border-radius: 6px; padding: 3px 9px; font-size: 0.78em; font-weight: 600; margin-bottom: 12px; }
+
+.logic-details { margin-bottom: 14px; border-top: 1px dashed #e2e8f0; }
+.logic-details summary { cursor: pointer; font-size: 0.82em; color: #3182ce; padding: 10px 0 8px; font-weight: 600; list-style: none; user-select: none; }
+.logic-details summary::-webkit-details-marker { display: none; }
+.logic-details summary::before { content: '▶'; display: inline-block; margin-right: 6px; font-size: 0.7em; transition: transform 0.15s; color: #a0aec0; }
+.logic-details[open] summary::before { transform: rotate(90deg); }
+.logic-details .logic-body { background: #f7fafc; border-radius: 8px; padding: 14px 16px; font-size: 0.85em; color: #4a5568; line-height: 1.7; margin-bottom: 4px; }
+.logic-details .logic-body h4 { color: #1a365d; font-size: 0.95em; font-weight: 700; margin: 10px 0 4px; }
+.logic-details .logic-body h4:first-child { margin-top: 0; }
+.logic-details .logic-body ul { margin: 4px 0 6px 20px; }
+.logic-details .logic-body li { margin-bottom: 2px; }
+.logic-details .logic-body code { background: #edf2f7; padding: 1px 6px; border-radius: 4px; font-family: ui-monospace, monospace; font-size: 0.88em; color: #2d3748; }
+.logic-details .logic-body .note { font-size: 0.88em; color: #718096; margin-top: 8px; font-style: italic; }
+.logic-details .logic-body .stat { display: inline-block; background: #fffaf0; color: #c05621; padding: 2px 8px; border-radius: 4px; font-size: 0.88em; font-weight: 600; margin-right: 4px; }
+
+.pick-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 760px) { .pick-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .pick-grid { grid-template-columns: 1fr; } }
+
+.pick { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px; border-left: 4px solid #dd6b20; }
+.pick-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 8px; }
+.pick-name { font-size: 1.05em; font-weight: 700; color: #1a365d; letter-spacing: -0.3px; }
+.pick-code { font-family: ui-monospace, monospace; font-size: 0.78em; color: #a0aec0; }
+.pick-score { font-size: 1.3em; font-weight: 700; color: #dd6b20; }
+.pick-row { display: flex; justify-content: space-between; font-size: 0.85em; padding: 3px 0; color: #4a5568; }
+.pick-row .k { color: #a0aec0; }
+.pick-row .v { font-weight: 600; color: #2d3748; font-variant-numeric: tabular-nums; }
+.pick-comment { font-size: 0.85em; color: #4a5568; margin-top: 8px; padding-top: 8px; border-top: 1px dashed #e2e8f0; font-style: italic; }
+
+.empty { text-align: center; padding: 30px; color: #a0aec0; font-size: 0.9em; grid-column: 1 / -1; }
+
+.date-hero { background: linear-gradient(135deg, #c05621 0%, #dd6b20 100%); color: #fff; border-radius: 12px; padding: 18px 22px; margin: 18px 0 22px; box-shadow: 0 2px 6px rgba(192,86,33,0.15); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.date-hero .dh-left { display: flex; flex-direction: column; gap: 4px; }
+.date-hero .dh-kicker { font-size: 0.78em; color: #fed7aa; letter-spacing: 0.5px; text-transform: uppercase; font-weight: 600; }
+.date-hero .dh-date { font-size: 1.8em; font-weight: 800; letter-spacing: -0.5px; font-variant-numeric: tabular-nums; }
+.date-hero .dh-date .dow { font-size: 0.75em; color: #fed7aa; margin-left: 6px; font-weight: 600; }
+.date-hero .dh-right { font-size: 0.85em; color: #fff7ed; line-height: 1.5; text-align: right; }
+.date-hero .dh-right strong { color: #fff; }
+@media (max-width: 560px) { .date-hero { flex-direction: column; align-items: flex-start; } .date-hero .dh-right { text-align: left; } }
+
+.disclaimer { background: #fffaf0; border: 1px solid #fbd38d; border-radius: 8px; padding: 12px 14px; margin: 18px 0; font-size: 0.82em; color: #744210; text-align: center; }
+.disclaimer strong { color: #c05621; }
+
+.footer { text-align: center; padding: 25px 0; color: #a0aec0; font-size: 0.85em; border-top: 1px solid #e2e8f0; margin-top: 30px; }
+.footer a { color: #3182ce; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>MarketSignal</h1>
+  <div class="subtitle">거래대금 돌파 종목 추천 — 차기 주도주 후보 포착</div>
+  <div style="text-align:center"><span class="update-badge">📈 매일 15:40 자동 스캔</span></div>
+
+  <div class="nav">
+    <a href="index.html">홈</a> |
+    <a href="투자 아이디어.html">오늘의 종가매수 추천</a> |
+    <a href="breakout_picks.html" class="current">거래대금 돌파</a> |
+    <a href="경제방향.html">경제 방향</a>
+  </div>
+
+  <div class="date-hero" id="dateHero">
+    <div class="dh-left">
+      <div class="dh-kicker">거래대금 돌파 · 스캔일</div>
+      <div class="dh-date" id="heroDate">----년 --월 --일<span class="dow">(-)</span></div>
+    </div>
+    <div class="dh-right">
+      <strong>시총 ≤ 10조 · 거래대금 2,000억+ 양봉 · 최근 10개월 내 3회 이하 돌파</strong><br>
+      눌림목 진입 대기 · 종가매수 아님
+    </div>
+  </div>
+
+  <section class="section" id="sec-vol">
+    <div class="section-head">
+      <h2>거래대금 <span class="accent">2000억 돌파</span></h2>
+      <div class="meta">
+        <span class="lbl">마지막 업데이트</span>
+        <span class="time" id="timeVol">15:45</span>
+      </div>
+    </div>
+    <p class="section-desc">시총 10조 이하 중소형주 중 <strong>거래대금 2000억+ 양봉</strong>을 처음 터뜨린 종목을 포착. 차기 주도주 후보를 선별.</p>
+    <div class="entry-tag">📅 15:40 스캔 · 차기 주도주 후보 (눌림목 진입 대기)</div>
+    <details class="logic-details">
+      <summary>로직 자세히</summary>
+      <div class="logic-body">
+        <h4>스크리닝 순서 (매일 15:40 KST)</h4>
+        <ul>
+          <li>FDR로 KOSPI + KOSDAQ 전 종목 조회</li>
+          <li>시총 <code>≤ 10조</code> 필터 (중소형주 집중)</li>
+          <li>거래대금 <code>≥ 2,000억</code> + <strong>양봉</strong> 필터</li>
+          <li>KIS API로 희소성 체크: 최근 10개월 내 돌파 <code>≤ 3회</code></li>
+        </ul>
+        <h4>점수</h4>
+        <ul>
+          <li>희소성 <code>+10</code> · 거래대금 <code>+5</code> · 턴오버 <code>+5</code> · 반복패널티 <code>−N</code></li>
+        </ul>
+        <h4>눌림목 진입 감지 (자동매매 D전략 v13)</h4>
+        <ul>
+          <li>돌파 종가 대비 <code>-3% ~ -15%</code> 조정 구간 → "조정"</li>
+          <li>5일선 근처 <code>±2%</code> + 하락중 → "5일선 지지"</li>
+          <li>돌파봉 시가 <code>-5%</code> 눌림 + 양봉 → 매수</li>
+          <li>손절 <code>-2%</code> · TP1 <code>+10%</code>(50% 매도 + 본전 이동) · 잔여 트레일 <code>-10%</code></li>
+        </ul>
+        <p class="note">백테스트 <span class="stat">연 +19.5%</span> <span class="stat">승률 57.7%</span> <span class="stat">PF 3.49</span> · 기반 아이디어: "거래대금 2000억이 처음 터진 중소형주가 차기 주도주" (유튜브 전략).</p>
+      </div>
+    </details>
+    <div class="pick-grid" id="gridVol"></div>
+  </section>
+
+  <div class="disclaimer">
+    <strong>⚠️ 참고용</strong> · 본 페이지는 규칙 기반 자동 스크리닝 결과이며, 특정 종목 매수·매도 추천이 아닙니다. 눌림목 진입 타이밍은 종목별로 다르며, 투자 판단의 책임은 본인에게 있습니다.
+  </div>
+
+  <div class="footer">
+    <p>MarketSignal · 거래대금 돌파 종목 추천</p>
+    <p style="margin-top: 10px;"><a href="index.html">← 홈으로</a></p>
+  </div>
+</div>
+
+<script>
+const FEED = 'ideas_today.json';
+
+function fmt(n) {
+  if (n == null || n === '') return '-';
+  if (typeof n === 'string') return n;
+  return Number(n).toLocaleString('ko-KR');
+}
+function fmtWon(n) {
+  if (!n) return '-';
+  if (n >= 1e12) return (n / 1e12).toFixed(1) + '조';
+  if (n >= 1e8)  return (n / 1e8).toFixed(0)  + '억';
+  return fmt(n);
+}
+function hhmm(iso) {
+  if (!iso) return '--:--';
+  const d = new Date(iso);
+  if (isNaN(d)) return '--:--';
+  return d.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', hour12: false });
+}
+const DOW = ['일','월','화','수','목','금','토'];
+function fmtKDate(iso) {
+  if (!iso) return { full: '----년 --월 --일', dow: '-' };
+  const [y, m, d] = iso.split('-').map(Number);
+  const dt = new Date(y, m - 1, d);
+  return { full: `${y}년 ${m}월 ${d}일`, dow: DOW[dt.getDay()] };
+}
+
+function renderVol(sec, date) {
+  const k = fmtKDate(date);
+  document.getElementById('heroDate').innerHTML = `${k.full}<span class="dow">(${k.dow})</span>`;
+  document.getElementById('timeVol').textContent = hhmm(sec.updated_at);
+  const grid = document.getElementById('gridVol');
+  if (!sec.picks || !sec.picks.length) {
+    grid.innerHTML = '<div class="empty">오늘 돌파 종목 없음</div>';
+    return;
+  }
+  grid.innerHTML = sec.picks.map(p => `
+    <div class="pick">
+      <div class="pick-head">
+        <div>
+          <div class="pick-name">${p.name_kr || '-'}</div>
+          <div class="pick-code">${p.stock_code || ''}</div>
+        </div>
+        <div class="pick-score">${(p.score ?? 0).toFixed(1)}</div>
+      </div>
+      <div class="pick-row"><span class="k">돌파 시가</span><span class="v">${fmt(p.open_price)}</span></div>
+      <div class="pick-row"><span class="k">거래대금</span><span class="v">${fmtWon(p.trade_value)}</span></div>
+      <div class="pick-row"><span class="k">시총</span><span class="v">${fmtWon(p.market_cap)}</span></div>
+      <div class="pick-row"><span class="k">희소성</span><span class="v">${p.rarity_months ? p.rarity_months + '개월 내 돌파' : '첫 돌파'}</span></div>
+      <div class="pick-comment">${p.notes || '-'}</div>
+    </div>
+  `).join('');
+}
+
+fetch(FEED, { cache: 'no-store' })
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(data => {
+    const sec = (data.sections && data.sections.vol) || { picks: [], updated_at: null };
+    renderVol(sec, data.date);
+  })
+  .catch(err => {
+    console.error('[breakout] feed load failed:', err);
+    document.getElementById('gridVol').innerHTML = '<div class="empty">데이터 로딩 실패 — 잠시 후 다시 시도하세요.</div>';
+  });
+</script>
+</body>
+</html>
