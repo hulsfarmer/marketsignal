@@ -135,13 +135,22 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 .entry-tag { display: inline-block; background: #fff8e1; color: #744210; border: 1px solid #fbd38d; border-radius: 6px; padding: 3px 9px; font-size: 0.78em; font-weight: 600; margin-bottom: 6px; }
 .entry-tag .arrow { color: #c05621; margin: 0 4px; }
 
-.compound-tag { display: block; margin: 0 0 12px; font-size: 0.78em; color: #4a5568; }
-.compound-tag .k { color: #a0aec0; margin-right: 4px; letter-spacing: 0.3px; }
-.compound-tag .v { font-weight: 700; font-variant-numeric: tabular-nums; margin-right: 12px; }
+.compound-tag { display: flex; flex-wrap: wrap; align-items: center; gap: 0; margin: 0 0 12px; font-size: 0.78em; color: #4a5568; }
+.compound-tag .cseg { display: inline-flex; align-items: baseline; gap: 4px; padding: 0 12px; border-right: 1px solid #cbd5e0; }
+.compound-tag .cseg:first-child { padding-left: 0; }
+.compound-tag .cseg:last-child { border-right: none; }
+.compound-tag .cnote { color: #a0aec0; font-size: 0.95em; padding-left: 10px; }
+.compound-tag .k { color: #a0aec0; letter-spacing: 0.3px; }
+.compound-tag .v { font-weight: 700; font-variant-numeric: tabular-nums; }
 .compound-tag .v.up { color: #e53e3e; }
 .compound-tag .v.down { color: #3182ce; }
 .compound-tag .v.flat { color: #718096; }
-.compound-tag .muted { color: #a0aec0; font-size: 0.95em; }
+.compound-tag .sub { color: #a0aec0; font-size: 0.9em; }
+@media (max-width: 560px) {
+  .compound-tag .cseg { padding: 2px 8px; border-right: none; border-bottom: 1px dashed #e2e8f0; width: 100%; }
+  .compound-tag .cseg:last-child { border-bottom: none; }
+  .compound-tag .cnote { padding: 4px 0 0; width: 100%; }
+}
 
 .disclaimer { background: #fffaf0; border: 1px solid #fbd38d; border-radius: 8px; padding: 12px 14px; margin: 18px 0; font-size: 0.82em; color: #744210; text-align: center; }
 .disclaimer strong { color: #c05621; }
@@ -425,14 +434,15 @@ function renderCompound(id, strategyKey) {
     return;
   }
   const cls = v => v > 0.1 ? 'up' : v < -0.1 ? 'down' : 'flat';
-  const dVal = dRet ? `<span class="v ${cls(dRet.pct)}">${signPct(dRet.pct, 2)}</span><span class="muted">(${dRet.date.slice(5)})</span>` : '<span class="muted">-</span>';
-  const mVal = m ? `<span class="v ${cls(m.cumPct)}">${signPct(m.cumPct, 2)}</span><span class="muted">(${m.days}일)</span>` : '<span class="muted">-</span>';
-  const yVal = y ? `<span class="v ${cls(y.cumPct)}">${signPct(y.cumPct, 2)}</span><span class="muted">(${y.days}일)</span>` : '<span class="muted">-</span>';
+  const seg = (label, val, sub) => {
+    if (val == null) return `<span class="cseg"><span class="k">${label}</span><span class="sub">-</span></span>`;
+    return `<span class="cseg"><span class="k">${label}</span><span class="v ${cls(val)}">${signPct(val, 2)}</span><span class="sub">${sub}</span></span>`;
+  };
   el.innerHTML =
-    `<span class="k">일수익률</span>${dVal}  ` +
-    `<span class="k">월수익률</span>${mVal}  ` +
-    `<span class="k">연수익률</span>${yVal}  ` +
-    `<span class="muted">· 최신일/이달/올해 누적 복리 · 시가 청산 기준</span>`;
+    seg('일수익률', dRet ? dRet.pct : null, dRet ? dRet.date.slice(5) : '') +
+    seg('월수익률', m ? m.cumPct : null, m ? `${m.days}일` : '') +
+    seg('연수익률', y ? y.cumPct : null, y ? `${y.days}일` : '') +
+    `<span class="cnote">시가 청산 기준</span>`;
 }
 
 function renderAccuracy(panelId, acc) {
