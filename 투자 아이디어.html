@@ -376,12 +376,13 @@ function signPct(r, digits) {
   return (r > 0 ? '+' : '') + r.toFixed(digits) + '%';
 }
 
-function realizedCompound(strategyKey) {
+function realizedPeriod(strategyKey, periodStart) {
   if (!historyData || !historyData.by_date) return null;
   const dates = Object.keys(historyData.by_date).sort();
   let cum = 1;
   let n = 0;
   for (const d of dates) {
+    if (d < periodStart) continue;
     const sec = historyData.by_date[d] && historyData.by_date[d][strategyKey];
     if (!sec) continue;
     const ps = (sec.picks || []).filter(p => p.return_pct_open != null);
@@ -391,28 +392,30 @@ function realizedCompound(strategyKey) {
     n++;
   }
   if (n === 0) return null;
-  const dailyRate = Math.pow(cum, 1 / n) - 1;
-  return {
-    days: n,
-    cumPct: (cum - 1) * 100,
-    monthly: (Math.pow(1 + dailyRate, 21) - 1) * 100,
-    annual: (Math.pow(1 + dailyRate, 252) - 1) * 100,
-  };
+  return { days: n, cumPct: (cum - 1) * 100 };
 }
 
 function renderCompound(id, strategyKey) {
   const el = document.getElementById(id);
   if (!el) return;
-  const r = realizedCompound(strategyKey);
-  if (!r) {
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const monthStart = `${yyyy}-${mm}-01`;
+  const yearStart = `${yyyy}-01-01`;
+  const m = realizedPeriod(strategyKey, monthStart);
+  const y = realizedPeriod(strategyKey, yearStart);
+  if (!m && !y) {
     el.innerHTML = '<span class="muted">수익 복리 환산 — 집계 대기</span>';
     return;
   }
   const cls = v => v > 0.1 ? 'up' : v < -0.1 ? 'down' : 'flat';
+  const mVal = m ? `<span class="v ${cls(m.cumPct)}">${signPct(m.cumPct, 2)}</span><span class="muted">(${m.days}일)</span>` : '<span class="muted">-</span>';
+  const yVal = y ? `<span class="v ${cls(y.cumPct)}">${signPct(y.cumPct, 2)}</span><span class="muted">(${y.days}일)</span>` : '<span class="muted">-</span>';
   el.innerHTML =
-    `<span class="k">월수익률(복리)</span><span class="v ${cls(r.monthly)}">${signPct(r.monthly, 1)}</span>` +
-    `<span class="k">연수익률(복리)</span><span class="v ${cls(r.annual)}">${signPct(r.annual, 0)}</span>` +
-    `<span class="muted">· 실제 ${r.days}일 누적 ${signPct(r.cumPct, 2)} · 시가 청산 기준</span>`;
+    `<span class="k">월수익률</span>${mVal}  ` +
+    `<span class="k">연수익률</span>${yVal}  ` +
+    `<span class="muted">· 이달/올해 누적 복리 · 시가 청산 기준</span>`;
 }
 
 function renderAccuracy(panelId, acc) {
