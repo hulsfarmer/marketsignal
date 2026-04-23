@@ -18,7 +18,9 @@
     header .accuracy { color: #38a169; margin-top: 8px; font-size: 0.95em; font-weight: 500; }
 
     .nav { text-align: center; padding: 12px 0; background: #fff; border-radius: 8px; margin: 15px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-    .nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; }
+    .nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; text-decoration: none; }
+    .nav a.current { color: #1a365d; font-weight: 700; }
+    .nav a:hover { text-decoration: underline; }
 
     .section { margin: 25px 0; }
     .section h2 { color: #1a365d; margin-bottom: 15px; font-size: 1.25em; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
@@ -84,6 +86,11 @@
     <h1>MarketSignal</h1>
     <div class="subtitle">AI가 매일 분석하는 한국 주식 뉴스 + 주가 데이터 스코어</div>
     <div style="text-align:center"><span class="update-badge">🕖 매일 아침 7시 업데이트</span></div>
+    <div class="nav">
+        <a href="index.html" class="current">홈</a> |
+        <a href="투자 아이디어.html">오늘의 추천</a> |
+        <a href="경제방향.html">경제 방향</a>
+    </div>
     <div class="accuracy">분석 정확도: 36.0% (최근 30일)</div>
 
     <div class="today">
