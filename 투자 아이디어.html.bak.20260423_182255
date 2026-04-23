@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>오늘의 종가매수 추천 · MarketSignal</title>
-<meta name="description" content="매일 자동 업데이트되는 종가매수 추천 — AI 뉴스 점수 픽 · 실적·기술 하이브리드 · 거래대금 2000억 돌파. 날짜별 결과·누적 적중률 공개.">
+<title>오늘의 추천 · MarketSignal</title>
+<meta name="description" content="매일 자동 업데이트되는 오늘의 추천 — AI 뉴스 점수 픽 · 실적·기술 하이브리드 · 거래대금 2000억 돌파. 결과·누적 적중률 공개.">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
@@ -19,18 +19,6 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 .nav { text-align: center; padding: 12px 0; background: #fff; border-radius: 8px; margin: 15px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
 .nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; }
 .nav a.current { color: #1a365d; font-weight: 700; }
-
-.date-picker { background: #fff; border-radius: 10px; padding: 12px 14px; margin: 10px 0 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-.date-picker .dp-head { font-size: 0.78em; color: #718096; letter-spacing: 0.5px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; }
-.date-picker .dp-list { display: flex; gap: 6px; overflow-x: auto; padding: 2px; scrollbar-width: thin; }
-.date-picker .dp-list::-webkit-scrollbar { height: 6px; }
-.date-picker .dp-list::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 3px; }
-.date-pill { flex: 0 0 auto; padding: 6px 12px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 0.85em; color: #4a5568; cursor: pointer; font-weight: 600; white-space: nowrap; transition: all 0.15s; font-variant-numeric: tabular-nums; }
-.date-pill:hover { background: #edf2f7; border-color: #cbd5e0; }
-.date-pill.active { background: #1a365d; color: #fff; border-color: #1a365d; }
-.date-pill .dow { font-size: 0.85em; opacity: 0.75; margin-left: 3px; font-weight: 500; }
-.date-pill.today { background: #fff8e1; border-color: #fbd38d; color: #744210; }
-.date-pill.today.active { background: #c05621; border-color: #c05621; color: #fff; }
 
 .summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 18px 0 22px; }
 @media (max-width: 640px) { .summary { grid-template-columns: 1fr; } }
@@ -111,14 +99,6 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 .pick-row .v.up { color: #e53e3e; }
 .pick-row .v.down { color: #3182ce; }
 
-.pick-result { margin-top: 8px; padding: 8px 10px; background: #fff; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 1px solid #e2e8f0; }
-.pick-result .lbl { font-size: 0.72em; color: #a0aec0; letter-spacing: 0.3px; text-transform: uppercase; font-weight: 600; }
-.pick-result .ret { font-size: 1em; font-weight: 800; font-variant-numeric: tabular-nums; }
-.pick-result .ret.up { color: #e53e3e; }
-.pick-result .ret.down { color: #3182ce; }
-.pick-result .ret.flat { color: #718096; }
-.pick-result .exit { font-size: 0.78em; color: #718096; }
-
 .pick-comment { font-size: 0.85em; color: #4a5568; margin-top: 8px; padding-top: 8px; border-top: 1px dashed #e2e8f0; font-style: italic; }
 
 .empty { text-align: center; padding: 30px; color: #a0aec0; font-size: 0.9em; grid-column: 1 / -1; }
@@ -145,23 +125,18 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 <body>
 <div class="container">
   <h1>MarketSignal</h1>
-  <div class="subtitle">오늘의 종가매수 추천 — 3가지 시각으로 본 종목, 날짜별 결과 공개</div>
+  <div class="subtitle">오늘의 추천 — 3가지 시각으로 본 종목, 적중률 공개</div>
   <div style="text-align:center"><span class="update-badge">💡 매일 자동 업데이트</span></div>
 
   <div class="nav">
     <a href="index.html">홈</a> |
-    <a href="투자 아이디어.html" class="current">오늘의 종가매수 추천</a> |
+    <a href="투자 아이디어.html" class="current">오늘의 추천</a> |
     <a href="경제방향.html">경제 방향</a>
-  </div>
-
-  <div class="date-picker" id="datePicker" style="display:none;">
-    <div class="dp-head">📅 날짜 선택 — 클릭하면 해당 날짜의 추천 결과를 확인</div>
-    <div class="dp-list" id="dpList"></div>
   </div>
 
   <div class="date-hero" id="dateHero">
     <div class="dh-left">
-      <div class="dh-kicker" id="heroKicker">오늘의 종가매수 추천 · 기준일</div>
+      <div class="dh-kicker">오늘의 추천 · 기준일</div>
       <div class="dh-date" id="heroDate">----년 --월 --일<span class="dow">(-)</span></div>
     </div>
     <div class="dh-right">
@@ -306,18 +281,13 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
   </div>
 
   <div class="footer">
-    <p>MarketSignal · 오늘의 종가매수 추천</p>
+    <p>MarketSignal · 오늘의 추천</p>
     <p style="margin-top: 10px;"><a href="index.html">← 홈으로</a></p>
   </div>
 </div>
 
 <script>
-const FEED_TODAY   = 'ideas_today.json';
-const FEED_HISTORY = 'ideas_history.json';
-
-let todayData = null;
-let historyData = null;
-let selectedDate = null;
+const FEED = 'ideas_today.json';
 
 function fmt(n) {
   if (n == null || n === '') return '-';
@@ -345,13 +315,11 @@ function fmtKDate(iso) {
     full:  `${y}년 ${m}월 ${d}일`,
     dow:   DOW[dt.getDay()],
     short: `${m}/${d}(${DOW[dt.getDay()]})`,
-    mdDow: `${m}.${d}`,
   };
 }
-function renderDateHero(date, isToday) {
+function renderDateHero(date) {
   const k = fmtKDate(date);
   document.getElementById('heroDate').innerHTML = `${k.full}<span class="dow">(${k.dow})</span>`;
-  document.getElementById('heroKicker').textContent = isToday ? '오늘의 종가매수 추천 · 기준일' : '과거 종가매수 추천 · 결과 확인';
   ['entryDateAI','entryDateHybrid','entryDateVol'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.textContent = k.short;
@@ -398,68 +366,12 @@ function renderAccuracy(panelId, acc) {
   `;
 }
 
-function renderDaySummary(panelId, picks) {
-  const el = document.getElementById(panelId);
-  if (!el) return;
-  const withRet = (picks || []).filter(p => p.return_pct != null);
-  if (!withRet.length) {
-    el.className = 'result-panel empty-panel';
-    el.textContent = '이 날의 결과는 아직 집계되지 않았습니다';
-    return;
-  }
-  const avg = withRet.reduce((a, p) => a + p.return_pct, 0) / withRet.length;
-  const avgOpen = withRet.filter(p => p.return_pct_open != null).reduce((a, p) => a + p.return_pct_open, 0) / (withRet.filter(p => p.return_pct_open != null).length || 1);
-  const wins = withRet.filter(p => p.return_pct > 0).length;
-  const hit = wins / withRet.length * 100;
-  const hitClass = hit >= 60 ? 'good' : hit >= 50 ? '' : 'bad';
-  el.className = 'result-panel';
-  el.innerHTML = `
-    <div class="metrics">
-      <div class="metric">
-        <span class="k">이 날 승률</span>
-        <span class="v ${hitClass}">${hit.toFixed(1)}%</span>
-        <span class="sub">${wins} / ${withRet.length} 종목</span>
-      </div>
-      <div class="metric">
-        <span class="k">평균 수익률</span>
-        <span class="v ${retClass(avg)}">${sign(avg)}</span>
-        <span class="sub">종가 기준</span>
-      </div>
-      <div class="metric">
-        <span class="k">시가 청산</span>
-        <span class="v ${retClass(avgOpen)}">${sign(avgOpen)}</span>
-        <span class="sub">익일 09:00</span>
-      </div>
-    </div>
-  `;
-}
-
-function resultBadge(p) {
-  if (p.return_pct == null) return '';
-  const rc = retClass(p.return_pct);
-  const openLine = p.return_pct_open != null ? `<span class="exit">익일 09:00 ${sign(p.return_pct_open)}</span>` : '';
-  return `
-    <div class="pick-result">
-      <div><span class="lbl">청산 결과</span></div>
-      <div style="text-align:right;">
-        <div class="ret ${rc}">${sign(p.return_pct)}</div>
-        ${openLine}
-      </div>
-    </div>
-  `;
-}
-
-function renderAI(sec, opts) {
-  opts = opts || {};
-  document.getElementById('timeClaude').textContent = opts.isToday ? hhmm(sec.updated_at) : '결과 집계';
+function renderAI(sec) {
+  document.getElementById('timeClaude').textContent = hhmm(sec.updated_at);
   document.getElementById('countClaude').innerHTML = `${sec.count}<span class="unit">종목</span>`;
-  if (opts.isToday) {
-    renderAccuracy('resClaude', sec.accuracy);
-  } else {
-    renderDaySummary('resClaude', sec.picks);
-  }
+  renderAccuracy('resClaude', sec.accuracy);
   const grid = document.getElementById('gridClaude');
-  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 AI 픽이 없습니다</div>'; return; }
+  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">오늘 AI 픽이 없습니다</div>'; return; }
   grid.innerHTML = sec.picks.map(p => `
     <div class="pick">
       <div class="pick-head">
@@ -472,23 +384,17 @@ function renderAI(sec, opts) {
       <div class="pick-row"><span class="k">MS 점수</span><span class="v">${p.ms_score}</span></div>
       <div class="pick-row"><span class="k">진입가</span><span class="v">${fmt(p.entry_price)}</span></div>
       <div class="pick-row"><span class="k">확신도</span><span class="v">${p.confidence || '-'}</span></div>
-      ${resultBadge(p)}
       <div class="pick-comment">${p.reason || '-'}</div>
     </div>
   `).join('');
 }
 
-function renderHybrid(sec, opts) {
-  opts = opts || {};
-  document.getElementById('timeHybrid').textContent = opts.isToday ? hhmm(sec.updated_at) : '결과 집계';
+function renderHybrid(sec) {
+  document.getElementById('timeHybrid').textContent = hhmm(sec.updated_at);
   document.getElementById('countHybrid').innerHTML = `${sec.count}<span class="unit">종목</span>`;
-  if (opts.isToday) {
-    renderAccuracy('resHybrid', sec.accuracy);
-  } else {
-    renderDaySummary('resHybrid', sec.picks);
-  }
+  renderAccuracy('resHybrid', sec.accuracy);
   const grid = document.getElementById('gridHybrid');
-  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 하이브리드 진입 신호 없음</div>'; return; }
+  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">오늘 하이브리드 진입 신호 없음</div>'; return; }
   grid.innerHTML = sec.picks.map(p => {
     const src = (p.reason || '').match(/^\[(E\+?T?|T|E)\]/);
     const tag = src ? src[1] : '';
@@ -504,19 +410,17 @@ function renderHybrid(sec, opts) {
       <div class="pick-row"><span class="k">진입가</span><span class="v">${fmt(p.entry_price)}</span></div>
       <div class="pick-row"><span class="k">MS 점수</span><span class="v">${p.ms_score}</span></div>
       <div class="pick-row"><span class="k">확신도</span><span class="v">${p.confidence || '-'}</span></div>
-      ${resultBadge(p)}
       <div class="pick-comment">${p.reason || '-'}</div>
     </div>
     `;
   }).join('');
 }
 
-function renderVol(sec, opts) {
-  opts = opts || {};
-  document.getElementById('timeVol').textContent = opts.isToday ? hhmm(sec.updated_at) : '-';
+function renderVol(sec) {
+  document.getElementById('timeVol').textContent = hhmm(sec.updated_at);
   document.getElementById('countVol').innerHTML = `${sec.count}<span class="unit">종목</span>`;
   const grid = document.getElementById('gridVol');
-  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 돌파 종목 없음</div>'; return; }
+  if (!sec.picks.length) { grid.innerHTML = '<div class="empty">오늘 돌파 종목 없음</div>'; return; }
   grid.innerHTML = sec.picks.map(p => `
     <div class="pick">
       <div class="pick-head">
@@ -535,76 +439,28 @@ function renderVol(sec, opts) {
   `).join('');
 }
 
-function renderToday() {
-  if (!todayData) return;
-  selectedDate = todayData.date;
-  renderDateHero(todayData.date, true);
-  const s = todayData.sections || {};
-  renderAI(s.ai          || { count: 0, picks: [], updated_at: null }, { isToday: true });
-  renderHybrid(s.hybrid  || { count: 0, picks: [], updated_at: null }, { isToday: true });
-  renderVol(s.vol        || { count: 0, picks: [], updated_at: null }, { isToday: true });
-  renderPills();
-}
-
-function renderHistoryDate(date) {
-  if (!historyData) return;
-  const day = historyData.by_date[date];
-  if (!day) return;
-  selectedDate = date;
-  renderDateHero(date, false);
-  renderAI({ count: day.ai.count, picks: day.ai.picks, updated_at: null }, { isToday: false });
-  renderHybrid({ count: day.hybrid.count, picks: day.hybrid.picks, updated_at: null }, { isToday: false });
-  renderVol({ count: day.vol.count, picks: day.vol.picks, updated_at: null }, { isToday: false });
-  renderPills();
-}
-
-function renderPills() {
-  const list = document.getElementById('dpList');
-  const picker = document.getElementById('datePicker');
-  const dates = new Set();
-  if (todayData && todayData.date) dates.add(todayData.date);
-  if (historyData && historyData.dates) historyData.dates.forEach(d => dates.add(d));
-  const sorted = Array.from(dates).sort((a, b) => b.localeCompare(a));
-  if (!sorted.length) { picker.style.display = 'none'; return; }
-  picker.style.display = 'block';
-  const todayDate = todayData ? todayData.date : null;
-  list.innerHTML = sorted.map(d => {
-    const k = fmtKDate(d);
-    const isToday = d === todayDate;
-    const active = d === selectedDate ? 'active' : '';
-    const todayCls = isToday ? 'today' : '';
-    const label = isToday ? `오늘 ${k.mdDow}` : k.mdDow;
-    return `<div class="date-pill ${todayCls} ${active}" data-date="${d}"><span>${label}</span><span class="dow">(${k.dow})</span></div>`;
-  }).join('');
-  list.querySelectorAll('.date-pill').forEach(pill => {
-    pill.addEventListener('click', () => {
-      const d = pill.getAttribute('data-date');
-      if (d === todayDate && todayData) renderToday();
-      else renderHistoryDate(d);
-    });
-  });
-}
-
 function showError(msg) {
   ['gridClaude', 'gridHybrid', 'gridVol'].forEach(id => {
     document.getElementById(id).innerHTML = `<div class="empty">${msg}</div>`;
   });
 }
 
-Promise.allSettled([
-  fetch(FEED_TODAY,   { cache: 'no-store' }).then(r => r.ok ? r.json() : Promise.reject(r.status)),
-  fetch(FEED_HISTORY, { cache: 'no-store' }).then(r => r.ok ? r.json() : Promise.reject(r.status)),
-]).then(results => {
-  if (results[0].status === 'fulfilled') todayData = results[0].value;
-  if (results[1].status === 'fulfilled') historyData = results[1].value;
-  if (todayData) {
-    renderToday();
-  } else if (historyData && historyData.dates && historyData.dates.length) {
-    renderHistoryDate(historyData.dates[0]);
-  } else {
+fetch(FEED, { cache: 'no-store' })
+  .then(r => {
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  })
+  .then(data => {
+    renderDateHero(data.date);
+    const s = data.sections || {};
+    renderAI(s.ai     || { count: 0, picks: [], updated_at: null });
+    renderHybrid(s.hybrid || { count: 0, picks: [], updated_at: null });
+    renderVol(s.vol    || { count: 0, picks: [], updated_at: null });
+  })
+  .catch(err => {
+    console.error('[ideas] feed load failed:', err);
     showError('데이터 로딩 실패 — 잠시 후 다시 시도하세요.');
-  }
-});
+  });
 </script>
 </body>
 </html>
