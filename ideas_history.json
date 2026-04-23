@@ -1,0 +1,1105 @@
+{
+  "generated_at": "2026-04-23T18:23:37",
+  "dates": [
+    "2026-04-23",
+    "2026-04-22",
+    "2026-04-21",
+    "2026-04-20",
+    "2026-04-17",
+    "2026-04-16",
+    "2026-04-15",
+    "2026-04-14",
+    "2026-04-13",
+    "2026-04-12"
+  ],
+  "accuracy": {
+    "ai": {
+      "total": 31,
+      "correct": 17,
+      "hit_rate": 54.8,
+      "avg_return": 0.35,
+      "avg_return_open": 0.59
+    },
+    "hybrid": {
+      "total": 7,
+      "correct": 4,
+      "hit_rate": 57.1,
+      "avg_return": 0.56,
+      "avg_return_open": 0.56
+    }
+  },
+  "by_date": {
+    "2026-04-23": {
+      "ai": {
+        "count": 0,
+        "picks": []
+      },
+      "hybrid": {
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 62,
+            "ai_score": 78,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 0 / earn 78 (RSI 66, 5일 -2.2%)",
+            "entry_price": 22350.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "046120",
+            "name_kr": "오르비텍",
+            "open_price": 11210,
+            "close_price": 12440,
+            "trade_value": 243436505365,
+            "market_cap": 409639272880,
+            "sector": "일반서비스",
+            "rarity_months": 1,
+            "score": 2.0,
+            "notes": "KOSDAQ | 등락 +13.6% | 턴오버 59.4% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "097230",
+            "name_kr": "HJ중공업",
+            "open_price": 31150,
+            "close_price": 32850,
+            "trade_value": 268666418225,
+            "market_cap": 2966202050400,
+            "sector": "건설",
+            "rarity_months": 0,
+            "score": -1.1,
+            "notes": "KOSPI | 등락 +6.0% | 턴오버 9.1% | ★ 섹터 대장주"
+          }
+        ]
+      }
+    },
+    "2026-04-22": {
+      "ai": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "138040",
+            "name_kr": "메리츠금융지주",
+            "ms_score": 62,
+            "ai_score": 65,
+            "confidence": "MEDIUM",
+            "reason": "2천억 규모 자사주 소각과 임원 동시 매수는 강력한 주주가치 제고 신호이며, 5일 -0.4%로 호재가 거의 미반영된 상태입니다. RSI 62로 중립권이고 긍정 뉴스 5개로 후보 중 뉴스 밀도가 가장 높아 내일 반영 기대감이 있습니다.",
+            "entry_price": 116800.0,
+            "exit_price": 115500.0,
+            "return_pct": -1.11,
+            "return_pct_open": -1.11,
+            "correct": 0
+          },
+          {
+            "stock_code": "005830",
+            "name_kr": "DB손해보험",
+            "ms_score": 55,
+            "ai_score": 60,
+            "confidence": "MEDIUM",
+            "reason": "20일 -12.3% 낙폭 이후 자사주 소각 1752억원 실행과 행동주의 투자자 밸류업 촉구라는 이중 호재가 아직 당일 0% 변동으로 미반영 상태입니다. RSI 59로 중립권이며 과거 자사주 소각+해외 확장 이중 재료로 +1.94% 성공 사례와 유사한 패턴입니다.",
+            "entry_price": 170700.0,
+            "exit_price": 172100.0,
+            "return_pct": 0.82,
+            "return_pct_open": 0.82,
+            "correct": 1
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 55,
+            "ai_score": 52,
+            "confidence": "LOW",
+            "reason": "자사주 911만주 소각으로 주당가치 개선 효과가 있으나 지배구조 리스크가 동시에 부각되고 있어 투자심리가 상쇄됩니다. 과거 셀트리온 종가매수 실패 사례(-2.25%)가 있어 5순위로 배치하며 비중 축소를 권고합니다.",
+            "entry_price": 203000.0,
+            "exit_price": 204000.0,
+            "return_pct": 0.49,
+            "return_pct_open": 0.49,
+            "correct": 1
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 62,
+            "ai_score": 95,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 96 (RSI 64, 5일 +0.5%)",
+            "entry_price": 22550.0,
+            "exit_price": 22350.0,
+            "return_pct": -0.89,
+            "return_pct_open": -0.89,
+            "correct": 0
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 62,
+            "ai_score": 21,
+            "confidence": "LOW",
+            "reason": "[T] tech 22 / earn 0 (RSI 46, 5일 +6.6%)",
+            "entry_price": 77500.0,
+            "exit_price": 80600.0,
+            "return_pct": 4.0,
+            "return_pct_open": 4.0,
+            "correct": 1
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
+    "2026-04-21": {
+      "ai": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "005830",
+            "name_kr": "DB손해보험",
+            "ms_score": 62,
+            "ai_score": 64,
+            "confidence": "MEDIUM",
+            "reason": "1,752억원 자사주 소각과 미국 포테그라 자회사 승인이라는 이중 긍정 재료가 있으며 당일 0% 변동으로 호재가 미반영된 상태입니다. 과거 동일 종목 +1.94% 성공 사례와 동일한 조건이며, RSI 54 중립권과 20일 -6.0% 저가권 진입이 매수 매력을 높입니다.",
+            "entry_price": 172600.0,
+            "exit_price": 170700.0,
+            "return_pct": -1.1,
+            "return_pct_open": -1.1,
+            "correct": 0
+          },
+          {
+            "stock_code": "161390",
+            "name_kr": "한국타이어앤테크놀로지",
+            "ms_score": 58,
+            "ai_score": 60,
+            "confidence": "LOW",
+            "reason": "한온시스템 지분 51.1% 확보로 실질 지배력 완성과 현금배당 1,500원 결정이라는 구조적 호재가 있으며, 5일 -3.0% 하락으로 기술적 반등 구간에 진입했습니다. 과거 실패 사례가 있어 신중하나 RSI 56 중립권과 저가 형성이 기술적_반등 성공 패턴(100% 성공률)에 부합합니다.",
+            "entry_price": 59300.0,
+            "exit_price": 62100.0,
+            "return_pct": 4.72,
+            "return_pct_open": 4.72,
+            "correct": 1
+          },
+          {
+            "stock_code": "003490",
+            "name_kr": "대한항공",
+            "ms_score": 55,
+            "ai_score": 58,
+            "confidence": "LOW",
+            "reason": "1분기 역대 최대 실적(영업이익 +47%)과 아시아나 합병 후 배당정책 발표라는 실적 반영 재료가 있으나 당일 0% 변동으로 미반영 상태입니다. RSI 52로 중립 하단에 위치하고 5일 +1.4%로 과열 우려가 낮아 실적_반영 패턴(100% 성공률)의 수혜를 기대할 수 있습니다.",
+            "entry_price": 25050.0,
+            "exit_price": 25600.0,
+            "return_pct": 2.2,
+            "return_pct_open": 2.2,
+            "correct": 1
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "088350",
+            "name_kr": "한화생명",
+            "ms_score": 55,
+            "ai_score": 92,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 93 (RSI 53, 5일 +0.7%)",
+            "entry_price": 4840.0,
+            "exit_price": 4870.0,
+            "return_pct": 0.62,
+            "return_pct_open": 0.62,
+            "correct": 1
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 58,
+            "ai_score": 91,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 91 (RSI 58, 5일 +0.9%)",
+            "entry_price": 22600.0,
+            "exit_price": 22550.0,
+            "return_pct": -0.22,
+            "return_pct_open": -0.22,
+            "correct": 0
+          },
+          {
+            "stock_code": "259960",
+            "name_kr": "크래프톤",
+            "ms_score": 55,
+            "ai_score": 13,
+            "confidence": "LOW",
+            "reason": "[T] tech 14 / earn 0 (RSI 50, 5일 +9.4%)",
+            "entry_price": 261500.0,
+            "exit_price": 255000.0,
+            "return_pct": -2.49,
+            "return_pct_open": -2.49,
+            "correct": 0
+          }
+        ]
+      },
+      "vol": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "222080",
+            "name_kr": "씨아이에스",
+            "open_price": 12940,
+            "close_price": 16310,
+            "trade_value": 667033923045,
+            "market_cap": 1268594148640,
+            "sector": "기계·장비",
+            "rarity_months": 1,
+            "score": 9.0,
+            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 52.6% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "073490",
+            "name_kr": "LIG아큐버",
+            "open_price": 52000,
+            "close_price": 55700,
+            "trade_value": 223885225550,
+            "market_cap": 423534222200,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 8.0,
+            "notes": "KOSDAQ | 등락 +15.8% | 턴오버 52.9% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "077970",
+            "name_kr": "STX엔진",
+            "open_price": 45350,
+            "close_price": 50700,
+            "trade_value": 252488132350,
+            "market_cap": 2035506794100,
+            "sector": "기계·장비",
+            "rarity_months": 3,
+            "score": 4.2,
+            "notes": "KOSPI | 등락 +9.7% | 턴오버 12.4%"
+          },
+          {
+            "stock_code": "010060",
+            "name_kr": "OCI홀딩스",
+            "open_price": 273500,
+            "close_price": 299000,
+            "trade_value": 271587147250,
+            "market_cap": 5582399368000,
+            "sector": "금융",
+            "rarity_months": 0,
+            "score": -3.5,
+            "notes": "KOSPI | 등락 +9.5% | 턴오버 4.9% | ★ 섹터 대장주"
+          }
+        ]
+      }
+    },
+    "2026-04-20": {
+      "ai": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "005830",
+            "name_kr": "DB손해보험",
+            "ms_score": 62,
+            "ai_score": 65,
+            "confidence": "HIGH",
+            "reason": "블랙록 주요 주주 편입, 자사주 소각 1,752억원 등 복수의 강력한 긍정 재료가 집중된 상태입니다. 4월 17일 동일 종목에서 +1.94% 성공 사례가 확인되며 긍정/부정 비율이 4/0으로 가장 우호적입니다. 5일 +3.6% 상승이 다소 부담이나 RSI 59로 과매수 영역이 아니어서 추가 상승 여력이 존재합니다.",
+            "entry_price": 173300.0,
+            "exit_price": 172600.0,
+            "return_pct": -0.4,
+            "return_pct_open": -0.4,
+            "correct": 0
+          },
+          {
+            "stock_code": "003490",
+            "name_kr": "대한항공",
+            "ms_score": 62,
+            "ai_score": 60,
+            "confidence": "MEDIUM",
+            "reason": "1분기 역대 최대 실적(영업이익 +47.3%)과 방산 기대감으로 목표주가 상향 및 내부자 매수 신호가 나타났습니다. 당일 +0.0%로 오늘 주가가 안정화된 상태이며 RSI 59로 종가매수에 적합한 구간입니다. 다만 5일 +4.6% 상승으로 일부 반영된 상태이므로 고환율 리스크를 감안한 비중 조절이 필요합니다.",
+            "entry_price": 25050.0,
+            "exit_price": 25050.0,
+            "return_pct": 0.0,
+            "return_pct_open": 0.0,
+            "correct": 0
+          },
+          {
+            "stock_code": "161390",
+            "name_kr": "한국타이어앤테크놀로지",
+            "ms_score": 62,
+            "ai_score": 57,
+            "confidence": "LOW",
+            "reason": "삼성증권 목표가 상향과 현금배당 1,500원 결정으로 실적 견조 및 주주환원 강화 재료가 있습니다. 5일 -3.1% 하락 후 오늘 보합으로 저가 매수 구간에 근접하며 RSI 61은 과매수 수준이 아닙니다. 단, 4월 17일 동일 패턴(-1.49%) 실패 전례가 있어 신뢰도가 낮으며 소량 비중으로만 접근해야 합니다.",
+            "entry_price": 59500.0,
+            "exit_price": 59300.0,
+            "return_pct": -0.34,
+            "return_pct_open": -0.34,
+            "correct": 0
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 62,
+            "ai_score": 100,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 100 (RSI 55, 5일 +0.0%)",
+            "entry_price": 74800.0,
+            "exit_price": 76800.0,
+            "return_pct": 2.67,
+            "return_pct_open": 2.67,
+            "correct": 1
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 62,
+            "ai_score": 86,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 86 (RSI 64, 5일 +1.4%)",
+            "entry_price": 22550.0,
+            "exit_price": 22600.0,
+            "return_pct": 0.22,
+            "return_pct_open": 0.22,
+            "correct": 1
+          }
+        ]
+      },
+      "vol": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "356680",
+            "name_kr": "엑스게이트",
+            "open_price": 14950,
+            "close_price": 16480,
+            "trade_value": 420635816550,
+            "market_cap": 470396748160,
+            "sector": "IT 서비스",
+            "rarity_months": 0,
+            "score": 5.0,
+            "notes": "KOSDAQ | 등락 +9.9% | 턴오버 89.4% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "158430",
+            "name_kr": "아톤",
+            "open_price": 9100,
+            "close_price": 9930,
+            "trade_value": 237838838585,
+            "market_cap": 243107173560,
+            "sector": "IT 서비스",
+            "rarity_months": 0,
+            "score": 3.0,
+            "notes": "KOSDAQ | 등락 +12.7% | 턴오버 97.8%"
+          },
+          {
+            "stock_code": "067310",
+            "name_kr": "하나마이크론",
+            "open_price": 36050,
+            "close_price": 38500,
+            "trade_value": 239023870075,
+            "market_cap": 2558872701000,
+            "sector": "전기·전자",
+            "rarity_months": 2,
+            "score": -1.1,
+            "notes": "KOSDAQ | 등락 +6.8% | 턴오버 9.3% | ★ 섹터 대장주"
+          }
+        ]
+      }
+    },
+    "2026-04-17": {
+      "ai": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "005830",
+            "name_kr": "DB손해보험",
+            "ms_score": 62,
+            "ai_score": 62,
+            "confidence": "HIGH",
+            "reason": "자사주 소각(1,752억원) + 해외 사업 확장이라는 이중 긍정재료를 보유했으나 당일과 5일 모두 거의 상승하지 않음(0.0%, +0.4%). 20일 -8.9% 약세 후 저가 형성된 상태로 종가매수 시 내일 뉴스 재평가 가능성 높음.",
+            "entry_price": 170000.0,
+            "exit_price": 173300.0,
+            "return_pct": 1.94,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "006800",
+            "name_kr": "미래에셋증권",
+            "ms_score": 62,
+            "ai_score": 62,
+            "confidence": "HIGH",
+            "reason": "5일 +7.2% 상승으로 모멘텀이 살아있으면서도 당일 +0.0%로 안정화된 상태. 글로벌 디지털자산 진출이라는 신성장 재료가 아직 충분히 반영되지 않았으며, RSI 62는 종가매수에 적정 구간. 성공 사례(한화생명, 유한양행)처럼 호재+미반영 패턴과 일치.",
+            "entry_price": 71300.0,
+            "exit_price": 70400.0,
+            "return_pct": -1.26,
+            "return_pct_open": null,
+            "correct": 0
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 55,
+            "ai_score": 55,
+            "confidence": "MEDIUM",
+            "reason": "첫 분기배당 도입으로 배당정책 강화(배당 개시 재료) + RSI 59(중립권) + 당일 변동 없음(0.0%)으로 뉴스가 아직 주가에 반영되지 않은 상태. 금융주 특성상 배당 신호 공시 후 정책주 매력도 높아질 가능성.",
+            "entry_price": 22850.0,
+            "exit_price": 22550.0,
+            "return_pct": -1.31,
+            "return_pct_open": null,
+            "correct": 0
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 55,
+            "ai_score": 55,
+            "confidence": "MEDIUM",
+            "reason": "사상 최대 영업이익(1조 1,653억원) 달성과 증권사 목표가 상향이라는 실적 호재가 있음에도 5일 -3.2% 약세를 보임. RSI 46(저평가 구간)으로 과매도 수준이 아니면서도 뉴스가 충분히 주가에 반영되지 않은 저가 매수 기회. 국민연금 지분 확대로 기관 신뢰도 상승 중.",
+            "entry_price": 72800.0,
+            "exit_price": 74800.0,
+            "return_pct": 2.75,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "161390",
+            "name_kr": "한국타이어앤테크놀로지",
+            "ms_score": 55,
+            "ai_score": 55,
+            "confidence": "MEDIUM",
+            "reason": "5일 -7.1% 하락 후 저가 형성된 상태에서 삼성증권 목표가 상향, 수익성 호조 등 긍정 뉴스 다수. 당일 +0.0% 정체로 뉴스 반영 미흡, RSI 61(중립-약간 과매수 아님)로 종가매수 후 뉴스 재평가 기대. 약세 국면에서의 저가 매수 기회 전형.",
+            "entry_price": 60400.0,
+            "exit_price": 59500.0,
+            "return_pct": -1.49,
+            "return_pct_open": null,
+            "correct": 0
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 0,
+        "picks": []
+      },
+      "vol": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "456010",
+            "name_kr": "아이씨티케이",
+            "open_price": 23050,
+            "close_price": 25600,
+            "trade_value": 458029362350,
+            "market_cap": 355887462400,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 5.0,
+            "notes": "KOSDAQ | 등락 +19.9% | 턴오버 128.7% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "082740",
+            "name_kr": "한화엔진",
+            "open_price": 48700,
+            "close_price": 56200,
+            "trade_value": 259241297400,
+            "market_cap": 4689729380400,
+            "sector": "기계·장비",
+            "rarity_months": 3,
+            "score": 3.6,
+            "notes": "KOSPI | 등락 +16.6% | 턴오버 5.5% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "093370",
+            "name_kr": "후성",
+            "open_price": 12950,
+            "close_price": 13890,
+            "trade_value": 406104869825,
+            "market_cap": 1489776533700,
+            "sector": "화학",
+            "rarity_months": 0,
+            "score": 2.7,
+            "notes": "KOSPI | 등락 +22.9% | 턴오버 27.3% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "010820",
+            "name_kr": "퍼스텍",
+            "open_price": 11840,
+            "close_price": 13380,
+            "trade_value": 347972186110,
+            "market_cap": 652568530440,
+            "sector": "금속",
+            "rarity_months": 0,
+            "score": 1.0,
+            "notes": "KOSPI | 등락 +14.1% | 턴오버 53.3% | ★ 섹터 대장주"
+          }
+        ]
+      }
+    },
+    "2026-04-16": {
+      "ai": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "012330",
+            "name_kr": "현대모비스",
+            "ms_score": 62,
+            "ai_score": 64,
+            "confidence": "MEDIUM",
+            "reason": "역대 최대 실적과 관세 호재로 펀더멘탈 강력하나 5일 +3.5% 상승 후 거래량 약화. RSI 52(중립)로 과매수는 아니며, 내일 추가 강세 시 +1% 수익 가능성 있으나 이미 부분 반영된 점 감안.",
+            "entry_price": 415500.0,
+            "exit_price": 427000.0,
+            "return_pct": 2.77,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 58,
+            "ai_score": 62,
+            "confidence": "HIGH",
+            "reason": "목표가 상향과 기관 신뢰도 확대 뉴스가 있으나 5일 -1.6% 약세로 아직 주가에 덜 반영된 상태. RSI 47(중립)과 평년 거래량으로 안정적 진입점 제공. 성공 사례(삼성중공업)와 유사한 기관 매수 패턴.",
+            "entry_price": 72700.0,
+            "exit_price": 72800.0,
+            "return_pct": 0.14,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "072700",
+            "name_kr": "포스코인터내셔널 (재검토: 한국타이어)",
+            "ms_score": 0,
+            "ai_score": 62,
+            "confidence": "MEDIUM",
+            "reason": "배당정책 개선과 증권사 긍정평가로 호재 있으나 5일 -3.8% 약세로 종가매수 저점 형성. RSI 55(중립)로 과매수 아님. 다만 5일 낙폭이 크므로 단기 반등 노린 포지션. 당일 약세 + 펀더멘탈 우량 패턴 부합.",
+            "entry_price": 0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "000100",
+            "name_kr": "유한양행",
+            "ms_score": 58,
+            "ai_score": 61,
+            "confidence": "HIGH",
+            "reason": "밸류업 공약 이행(임원 매수, 주식소각)으로 신뢰도 강화되었으나 5일 +3.6% 후 현재 정체. RSI 44(저점)로 기술적 조정 완료 신호. 국민연금 감소 뉴스는 부분적 악재이나 경영진 신뢰 회복이 우선.",
+            "entry_price": 97200.0,
+            "exit_price": 97700.0,
+            "return_pct": 0.51,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 58,
+            "ai_score": 60,
+            "confidence": "HIGH",
+            "reason": "분기 배당 정책 확대 뉴스가 주주가치 제고 신호이나 당일 +0.0%로 덜 반영. RSI 40(저점)으로 과매도 회복 가능성 높음. 5일 +3.0% 후 조정 단계에서 종가매수 기회.",
+            "entry_price": 22450.0,
+            "exit_price": 22850.0,
+            "return_pct": 1.78,
+            "return_pct_open": null,
+            "correct": 1
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 0,
+        "picks": []
+      },
+      "vol": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "388050",
+            "name_kr": "지투파워",
+            "open_price": 14040,
+            "close_price": 15100,
+            "trade_value": 253541372910,
+            "market_cap": 282512498700,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 8.0,
+            "notes": "KOSDAQ | 등락 +8.0% | 턴오버 89.7% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "011790",
+            "name_kr": "SKC",
+            "open_price": 100400,
+            "close_price": 119200,
+            "trade_value": 240505547250,
+            "market_cap": 4513901121600,
+            "sector": "화학",
+            "rarity_months": 3,
+            "score": 3.5,
+            "notes": "KOSPI | 등락 +19.4% | 턴오버 5.3% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "010060",
+            "name_kr": "OCI홀딩스",
+            "open_price": 262500,
+            "close_price": 275000,
+            "trade_value": 200235008000,
+            "market_cap": 5134313800000,
+            "sector": "금융",
+            "rarity_months": 0,
+            "score": -1.6,
+            "notes": "KOSPI | 등락 +17.0% | 턴오버 3.9% | ★ 섹터 대장주"
+          }
+        ]
+      }
+    },
+    "2026-04-15": {
+      "ai": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "088350",
+            "name_kr": "한화생명",
+            "ms_score": 62,
+            "ai_score": 62,
+            "confidence": "MEDIUM",
+            "reason": "목표가 61% 상향 조정의 강력한 긍정 신호이나 주가는 5일 -0.3%로 거의 반영 안 됨. RSI 52 중립 구간에서 뉴스 재평가에 따른 반등 가능성 높음.",
+            "entry_price": 4805.0,
+            "exit_price": 4885.0,
+            "return_pct": 1.66,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "000100",
+            "name_kr": "유한양행",
+            "ms_score": 58,
+            "ai_score": 58,
+            "confidence": "MEDIUM",
+            "reason": "밸류업 약속 이행, 주식소각, 임원진 매수 등 긍정적 신호가 많으나 5일 -0.6%, 20일 -6.6% 약세로 뉴스가 덜 반영된 상태. RSI 40으로 과매도 구간 진입 전 저가 매수 기회.",
+            "entry_price": 93600.0,
+            "exit_price": 97200.0,
+            "return_pct": 3.85,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 58,
+            "ai_score": 58,
+            "confidence": "MEDIUM",
+            "reason": "분기 배당 도입 신호는 긍정적이나 현재 주가 반영도 낮은 상태. RSI 41로 과매도 구간에 진입하지 않은 저점 매수 기회로, 배당 소식의 추가 확산 가능성 있음.",
+            "entry_price": 22400.0,
+            "exit_price": 22450.0,
+            "return_pct": 0.22,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 58,
+            "ai_score": 58,
+            "confidence": "MEDIUM",
+            "reason": "내년부터 영업이익 본격 증가 전망과 국민연금 지분 확대는 호재이나 5일 -1.4%로 약세. RSI 42 저점 구간에서 실적 개선 기대감의 재평가 반등 기회.",
+            "entry_price": 72400.0,
+            "exit_price": 72700.0,
+            "return_pct": 0.41,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "131400",
+            "name_kr": "오리온",
+            "ms_score": 0,
+            "ai_score": 58,
+            "confidence": "LOW",
+            "reason": "지주사 디스카운트 해소 추진과 주주환원 확대는 구조적 긍정 신호이나 5일 +1.1% 이미 일부 반영. RSI 48 중립에서 단기 수익성은 제한적이나 가치 재평가 장기 관점에서 저점.",
+            "entry_price": 0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 0,
+        "picks": []
+      },
+      "vol": {
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "010060",
+            "name_kr": "OCI홀딩스",
+            "open_price": 219500,
+            "close_price": 235500,
+            "trade_value": 219688454000,
+            "market_cap": 4396839636000,
+            "sector": "금융",
+            "rarity_months": 3,
+            "score": 3.5,
+            "notes": "KOSPI | 등락 +25.2% | 턴오버 5.0% | ★ 섹터 대장주"
+          }
+        ]
+      }
+    },
+    "2026-04-14": {
+      "ai": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 62,
+            "ai_score": 72,
+            "confidence": "HIGH",
+            "reason": "서정진 회장의 2500억원 추가 매입 검토 + 자사주 4% 소각으로 주주가치환원이 집중된 긍정 뉴스가 있으나 당일 횡보(+0.0%)로 아직 미반영. RSI 42(저점)로 매수 타이밍이 적절하며 내일 상승 모멘텀 기대.",
+            "entry_price": 195200.0,
+            "exit_price": 199100.0,
+            "return_pct": 2.0,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 62,
+            "ai_score": 70,
+            "confidence": "HIGH",
+            "reason": "분기 배당 도입이라는 실질적 주주환원 신호가 있으나 당일 횡보로 시장 반영이 미흡. RSI 40(저점)으로 진입점 우수하며 배당 매력도 상승으로 기관·개인 매수 유입 기대.",
+            "entry_price": 22250.0,
+            "exit_price": 22400.0,
+            "return_pct": 0.67,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 62,
+            "ai_score": 68,
+            "confidence": "MEDIUM",
+            "reason": "삼성증권 목표가 상향 및 내년 영업이익 본격 증가 전망의 실적 개선 신호가 있으나 5일 -2.5%로 부진. RSI 49(중립)에서 시작하는 저가 매수 기회로, 호재가 아직 완전 반영되지 않음.",
+            "entry_price": 74800.0,
+            "exit_price": 72400.0,
+            "return_pct": -3.21,
+            "return_pct_open": null,
+            "correct": 0
+          },
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 62,
+            "ai_score": 66,
+            "confidence": "MEDIUM",
+            "reason": "블랙록의 5% 이상 지분 확보는 글로벌 투자심리 개선 신호이고 5일 +3.0% 부분반영 상태. RSI 54(중립)로 과매수 없으며 조선업 슈퍼사이클 스토리의 후속 상승 가능성 높음.",
+            "entry_price": 27600.0,
+            "exit_price": 27900.0,
+            "return_pct": 1.09,
+            "return_pct_open": null,
+            "correct": 1
+          },
+          {
+            "stock_code": "131400",
+            "name_kr": "오리온",
+            "ms_score": 0,
+            "ai_score": 64,
+            "confidence": "MEDIUM",
+            "reason": "주주환원 확대 및 지주사 디스카운트 해소가 중기 성장 동력이나 당일 횡보, 5일 +1.1%로 호재가 거의 미반영. RSI 44(저점)로 저가 매수 시점이며 내일 재평가 상승 기대.",
+            "entry_price": 0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 0,
+        "picks": []
+      },
+      "vol": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "432720",
+            "name_kr": "퀄리타스반도체",
+            "open_price": 16380,
+            "close_price": 20550,
+            "trade_value": 231113253675,
+            "market_cap": 290918376600,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 8.0,
+            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 79.4%"
+          },
+          {
+            "stock_code": "037030",
+            "name_kr": "파워넷",
+            "open_price": 7100,
+            "close_price": 8370,
+            "trade_value": 234972303380,
+            "market_cap": 213543743040,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 3.0,
+            "notes": "KOSDAQ | 등락 +19.6% | 턴오버 110.0%"
+          },
+          {
+            "stock_code": "490470",
+            "name_kr": "세미파이브",
+            "open_price": 37150,
+            "close_price": 37300,
+            "trade_value": 246450037600,
+            "market_cap": 1262933240000,
+            "sector": "일반서비스",
+            "rarity_months": 0,
+            "score": 0,
+            "notes": "KOSDAQ | 등락 +2.2% | 턴오버 19.5% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "069540",
+            "name_kr": "빛과전자",
+            "open_price": 6300,
+            "close_price": 6390,
+            "trade_value": 251810921700,
+            "market_cap": 623712289230,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": -2.0,
+            "notes": "KOSDAQ | 등락 +29.9% | 턴오버 40.4% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "062040",
+            "name_kr": "산일전기",
+            "open_price": 182900,
+            "close_price": 186600,
+            "trade_value": 221874509100,
+            "market_cap": 5712917610000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": -3.6,
+            "notes": "KOSPI | 등락 +7.9% | 턴오버 3.9%"
+          }
+        ]
+      }
+    },
+    "2026-04-13": {
+      "ai": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 58,
+            "ai_score": 72,
+            "confidence": "HIGH",
+            "reason": "영업이익 역대 최고 뉴스가 있으나 장중 급등 후 현재 +0.0%로 정체 중이고, 5일 -6.7% 조정으로 저가 매수 기회. RSI 49(중립)와 국민연금 매수 기관 신뢰도로 내일 반등 가능성 높음.",
+            "entry_price": 75200.0,
+            "exit_price": 74800.0,
+            "return_pct": -0.53,
+            "return_pct_open": null,
+            "correct": 0
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 62,
+            "ai_score": 68,
+            "confidence": "HIGH",
+            "reason": "영업이익 1조원 클럽 입성으로 실적 컨센서스 상회, 배당 750원 + 자사주 2500억 매입 검토로 주주환원 강화. 5일 +2.0%의 안정적 상승이지만 과매수 아닌 RSI 50으로 추가 상승 여력 있음.",
+            "entry_price": 199700.0,
+            "exit_price": 195200.0,
+            "return_pct": -2.25,
+            "return_pct_open": null,
+            "correct": 0
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 62,
+            "ai_score": 66,
+            "confidence": "MEDIUM",
+            "reason": "분기 배당 도입으로 주주환원 강화 신호가 명확하고, 5일 +3.5% 상승 후 현재 정체(+0.0%)로 조정 완료 단계. RSI 43으로 저가 영역이며 배당 매력도로 내일 재상승 가능.",
+            "entry_price": 22350.0,
+            "exit_price": 22250.0,
+            "return_pct": -0.45,
+            "return_pct_open": null,
+            "correct": 0
+          },
+          {
+            "stock_code": "012330",
+            "name_kr": "현대모비스",
+            "ms_score": 62,
+            "ai_score": 65,
+            "confidence": "MEDIUM",
+            "reason": "역대 최대 실적 달성과 국민연금 지분 확대(9.51%)로 기관 신뢰도 상승. 5일 +3.6% 상승 후 현재 +0.0% 정체로 일부 조정 예상되나, RSI 54의 중립 구간에서 로보틱스 성장성으로 내일 재반등 가능.",
+            "entry_price": 402500.0,
+            "exit_price": 391500.0,
+            "return_pct": -2.73,
+            "return_pct_open": null,
+            "correct": 0
+          },
+          {
+            "stock_code": "000100",
+            "name_kr": "유한양행",
+            "ms_score": 58,
+            "ai_score": 64,
+            "confidence": "MEDIUM",
+            "reason": "밸류업 약속 이행(주식 소각, 경영진 매수)과 실적·주주환원 목표 상회 달성이 긍정적. 5일 +1.2%의 완만한 상승으로 뉴스가 덜 반영되었고, RSI 45로 종가매수 적기.",
+            "entry_price": 92900.0,
+            "exit_price": 92100.0,
+            "return_pct": -0.86,
+            "return_pct_open": null,
+            "correct": 0
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 0,
+        "picks": []
+      },
+      "vol": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "490470",
+            "name_kr": "세미파이브",
+            "open_price": 31300,
+            "close_price": 36600,
+            "trade_value": 471192062175,
+            "market_cap": 1239232080000,
+            "sector": "일반서비스",
+            "rarity_months": 3,
+            "score": 8.8,
+            "notes": "KOSDAQ | 등락 +16.9% | 턴오버 38.0% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "025860",
+            "name_kr": "남해화학",
+            "open_price": 8250,
+            "close_price": 9330,
+            "trade_value": 264859539300,
+            "market_cap": 463503605190,
+            "sector": "화학",
+            "rarity_months": 3,
+            "score": 8.0,
+            "notes": "KOSPI | 등락 +17.5% | 턴오버 57.1% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "018470",
+            "name_kr": "조일알미늄",
+            "open_price": 1600,
+            "close_price": 1920,
+            "trade_value": 212859138205,
+            "market_cap": 243132904320,
+            "sector": "금속",
+            "rarity_months": 3,
+            "score": 8.0,
+            "notes": "KOSPI | 등락 +26.8% | 턴오버 87.5% | ★ 섹터 대장주"
+          }
+        ]
+      }
+    },
+    "2026-04-12": {
+      "ai": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "012330",
+            "name_kr": "현대모비스",
+            "ms_score": 62,
+            "ai_score": 64,
+            "confidence": "MEDIUM",
+            "reason": "국민연금의 지분 확대(9.51%)는 강력한 수급 지지. 당일 +0.2% 완만 상승으로 호재가 충분히 반영되지 않았으며, RSI 58(정상)과 거래량 1.1배로 안정적 진입 구간.",
+            "entry_price": 402500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 58,
+            "ai_score": 63,
+            "confidence": "MEDIUM",
+            "reason": "당일 -0.9% 하락했으나 경영진의 2500억원 자사주 매입 검토와 배당 확대는 강한 신뢰 신호. 5일 +2.2% 상승 후 조정 중이며 RSI 60(중립)에서 종가매수 후 반등 가능.",
+            "entry_price": 199700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "000100",
+            "name_kr": "유한양행",
+            "ms_score": 58,
+            "ai_score": 62,
+            "confidence": "HIGH",
+            "reason": "당일 -1.0% 하락했으나 배당·주식소각·경영진 매수 등 펀더멘탈 호조로 저가 매수 기회. 20일 -6.5% 하락으로 충분히 조정받았고 RSI 49(중립~저평가)에서 내일 반등 가능성 높음.",
+            "entry_price": 92900.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "022100",
+            "name_kr": "포스코DX",
+            "ms_score": 55,
+            "ai_score": 61,
+            "confidence": "MEDIUM",
+            "reason": "당일 -0.8% 조정으로 5일 +5.4% 상승 후 자연스러운 회수 국면. 대표이사 매수와 AI 전략 뉴스는 긍정적이며 RSI 61(과열 없음)에서 종가매수 후 거래량 회복 가능성.",
+            "entry_price": 32150.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 58,
+            "ai_score": 61,
+            "confidence": "HIGH",
+            "reason": "분기 배당 강화 긍정 신호에도 당일 +2.5% 소폭 상승으로 뉴스가 덜 반영된 상태. RSI 44(저평가)와 5일 +4.7% 상승 후 조정 여력 충분하여 종가매수 적기.",
+            "entry_price": 22350.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 0,
+        "picks": []
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    }
+  }
+}
