@@ -395,6 +395,20 @@ function realizedPeriod(strategyKey, periodStart) {
   return { days: n, cumPct: (cum - 1) * 100 };
 }
 
+function latestDayReturn(strategyKey) {
+  if (!historyData || !historyData.by_date) return null;
+  const dates = Object.keys(historyData.by_date).sort().reverse();
+  for (const d of dates) {
+    const sec = historyData.by_date[d] && historyData.by_date[d][strategyKey];
+    if (!sec) continue;
+    const ps = (sec.picks || []).filter(p => p.return_pct_open != null);
+    if (!ps.length) continue;
+    const avgOpen = ps.reduce((a, p) => a + p.return_pct_open, 0) / ps.length;
+    return { date: d, pct: avgOpen };
+  }
+  return null;
+}
+
 function renderCompound(id, strategyKey) {
   const el = document.getElementById(id);
   if (!el) return;
@@ -403,19 +417,22 @@ function renderCompound(id, strategyKey) {
   const mm = String(now.getMonth() + 1).padStart(2, '0');
   const monthStart = `${yyyy}-${mm}-01`;
   const yearStart = `${yyyy}-01-01`;
+  const dRet = latestDayReturn(strategyKey);
   const m = realizedPeriod(strategyKey, monthStart);
   const y = realizedPeriod(strategyKey, yearStart);
-  if (!m && !y) {
+  if (!dRet && !m && !y) {
     el.innerHTML = '<span class="muted">수익 복리 환산 — 집계 대기</span>';
     return;
   }
   const cls = v => v > 0.1 ? 'up' : v < -0.1 ? 'down' : 'flat';
+  const dVal = dRet ? `<span class="v ${cls(dRet.pct)}">${signPct(dRet.pct, 2)}</span><span class="muted">(${dRet.date.slice(5)})</span>` : '<span class="muted">-</span>';
   const mVal = m ? `<span class="v ${cls(m.cumPct)}">${signPct(m.cumPct, 2)}</span><span class="muted">(${m.days}일)</span>` : '<span class="muted">-</span>';
   const yVal = y ? `<span class="v ${cls(y.cumPct)}">${signPct(y.cumPct, 2)}</span><span class="muted">(${y.days}일)</span>` : '<span class="muted">-</span>';
   el.innerHTML =
+    `<span class="k">일수익률</span>${dVal}  ` +
     `<span class="k">월수익률</span>${mVal}  ` +
     `<span class="k">연수익률</span>${yVal}  ` +
-    `<span class="muted">· 이달/올해 누적 복리 · 시가 청산 기준</span>`;
+    `<span class="muted">· 최신일/이달/올해 누적 복리 · 시가 청산 기준</span>`;
 }
 
 function renderAccuracy(panelId, acc) {
