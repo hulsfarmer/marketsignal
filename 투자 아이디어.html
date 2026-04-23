@@ -132,8 +132,16 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 .date-hero .dh-right strong { color: #fff; }
 @media (max-width: 560px) { .date-hero { flex-direction: column; align-items: flex-start; } .date-hero .dh-right { text-align: left; } }
 
-.entry-tag { display: inline-block; background: #fff8e1; color: #744210; border: 1px solid #fbd38d; border-radius: 6px; padding: 3px 9px; font-size: 0.78em; font-weight: 600; margin-bottom: 10px; }
+.entry-tag { display: inline-block; background: #fff8e1; color: #744210; border: 1px solid #fbd38d; border-radius: 6px; padding: 3px 9px; font-size: 0.78em; font-weight: 600; margin-bottom: 6px; }
 .entry-tag .arrow { color: #c05621; margin: 0 4px; }
+
+.compound-tag { display: block; margin: 0 0 12px; font-size: 0.78em; color: #4a5568; }
+.compound-tag .k { color: #a0aec0; margin-right: 4px; letter-spacing: 0.3px; }
+.compound-tag .v { font-weight: 700; font-variant-numeric: tabular-nums; margin-right: 12px; }
+.compound-tag .v.up { color: #e53e3e; }
+.compound-tag .v.down { color: #3182ce; }
+.compound-tag .v.flat { color: #718096; }
+.compound-tag .muted { color: #a0aec0; font-size: 0.95em; }
 
 .disclaimer { background: #fffaf0; border: 1px solid #fbd38d; border-radius: 8px; padding: 12px 14px; margin: 18px 0; font-size: 0.82em; color: #744210; text-align: center; }
 .disclaimer strong { color: #c05621; }
@@ -195,6 +203,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
     </div>
     <p class="section-desc">상위 100 종목 뉴스를 매일 AI가 분석해 <strong>1~100점</strong>으로 점수화. 점수 상위 종목을 오늘의 관심 종목으로 제시.</p>
     <div class="entry-tag">📅 <span id="entryDateAI">기준일</span> 15:20~15:30 매수 <span class="arrow">→</span> 익일 09:00 청산</div>
+    <div class="compound-tag" id="compAI"><span class="muted">수익 복리 환산 — 집계 대기</span></div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -231,6 +240,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
     </div>
     <p class="section-desc">AI 없이 <strong>규칙 기반</strong>으로 TOP 2 실적신호(E) + TOP 3 기술신호(T)를 뽑아 종가배팅. 15:25 매수 → 익일 09:00 청산.</p>
     <div class="entry-tag">📅 <span id="entryDateHybrid">기준일</span> 15:25 시장가 매수 <span class="arrow">→</span> 익일 09:00~09:02 시장가 청산</div>
+    <div class="compound-tag" id="compHybrid"><span class="muted">수익 복리 환산 — 집계 대기</span></div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -273,6 +283,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
     </div>
     <p class="section-desc">시총 10조 이하 중소형주 중 <strong>거래대금 2000억+ 양봉</strong>을 처음 터뜨린 종목을 포착. 차기 주도주 후보를 선별.</p>
     <div class="entry-tag">📅 <span id="entryDateVol">기준일</span> 15:40 스캔 · 차기 주도주 후보 (눌림목 진입 대기 종목)</div>
+    <div class="compound-tag" id="compVol"><span class="muted">수익 복리 환산 — 집계 대기</span></div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -360,6 +371,33 @@ function renderDateHero(date, isToday) {
 function scoreClass(s) { return s >= 70 ? 'high' : s >= 50 ? 'mid' : 'low'; }
 function retClass(r) { return r > 0.1 ? 'up' : r < -0.1 ? 'down' : 'flat'; }
 function sign(r) { return (r > 0 ? '+' : '') + r.toFixed(2) + '%'; }
+function signPct(r, digits) {
+  digits = digits == null ? 1 : digits;
+  return (r > 0 ? '+' : '') + r.toFixed(digits) + '%';
+}
+
+function renderCompound(id, dailyPct, basis) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  if (dailyPct == null || isNaN(dailyPct)) {
+    el.innerHTML = '<span class="muted">수익 복리 환산 — 집계 대기</span>';
+    return;
+  }
+  const r = dailyPct / 100;
+  const m = (Math.pow(1 + r, 21) - 1) * 100;
+  const y = (Math.pow(1 + r, 252) - 1) * 100;
+  const cls = v => v > 0.1 ? 'up' : v < -0.1 ? 'down' : 'flat';
+  el.innerHTML =
+    `<span class="k">월수익률(복리)</span><span class="v ${cls(m)}">${signPct(m, 1)}</span>` +
+    `<span class="k">연수익률(복리)</span><span class="v ${cls(y)}">${signPct(y, 0)}</span>` +
+    `<span class="muted">· ${basis || '일평균 복리 환산'}</span>`;
+}
+
+function dayAvgOpen(picks) {
+  const ps = (picks || []).filter(p => p.return_pct_open != null);
+  if (!ps.length) return null;
+  return ps.reduce((a, p) => a + p.return_pct_open, 0) / ps.length;
+}
 
 function renderAccuracy(panelId, acc) {
   const el = document.getElementById(panelId);
@@ -455,8 +493,10 @@ function renderAI(sec, opts) {
   document.getElementById('countClaude').innerHTML = `${sec.count}<span class="unit">종목</span>`;
   if (opts.isToday) {
     renderAccuracy('resClaude', sec.accuracy);
+    renderCompound('compAI', sec.accuracy ? sec.accuracy.avg_return_open : null, '누적 일평균 · 시가 청산 기준');
   } else {
     renderDaySummary('resClaude', sec.picks);
+    renderCompound('compAI', dayAvgOpen(sec.picks), '이 날 일평균 · 시가 청산 기준');
   }
   const grid = document.getElementById('gridClaude');
   if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 AI 픽이 없습니다</div>'; return; }
@@ -484,8 +524,10 @@ function renderHybrid(sec, opts) {
   document.getElementById('countHybrid').innerHTML = `${sec.count}<span class="unit">종목</span>`;
   if (opts.isToday) {
     renderAccuracy('resHybrid', sec.accuracy);
+    renderCompound('compHybrid', sec.accuracy ? sec.accuracy.avg_return_open : null, '누적 일평균 · 시가 청산 기준');
   } else {
     renderDaySummary('resHybrid', sec.picks);
+    renderCompound('compHybrid', dayAvgOpen(sec.picks), '이 날 일평균 · 시가 청산 기준');
   }
   const grid = document.getElementById('gridHybrid');
   if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 하이브리드 진입 신호 없음</div>'; return; }
@@ -515,6 +557,7 @@ function renderVol(sec, opts) {
   opts = opts || {};
   document.getElementById('timeVol').textContent = opts.isToday ? hhmm(sec.updated_at) : '-';
   document.getElementById('countVol').innerHTML = `${sec.count}<span class="unit">종목</span>`;
+  renderCompound('compVol', dayAvgOpen(sec.picks), opts.isToday ? '집계 개시 후 표시' : '이 날 일평균 · 시가 청산 기준');
   const grid = document.getElementById('gridVol');
   if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 돌파 종목 없음</div>'; return; }
   grid.innerHTML = sec.picks.map(p => `
