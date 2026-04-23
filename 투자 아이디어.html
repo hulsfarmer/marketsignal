@@ -376,27 +376,43 @@ function signPct(r, digits) {
   return (r > 0 ? '+' : '') + r.toFixed(digits) + '%';
 }
 
-function renderCompound(id, dailyPct, basis) {
+function realizedCompound(strategyKey) {
+  if (!historyData || !historyData.by_date) return null;
+  const dates = Object.keys(historyData.by_date).sort();
+  let cum = 1;
+  let n = 0;
+  for (const d of dates) {
+    const sec = historyData.by_date[d] && historyData.by_date[d][strategyKey];
+    if (!sec) continue;
+    const ps = (sec.picks || []).filter(p => p.return_pct_open != null);
+    if (!ps.length) continue;
+    const avgOpen = ps.reduce((a, p) => a + p.return_pct_open, 0) / ps.length;
+    cum *= (1 + avgOpen / 100);
+    n++;
+  }
+  if (n === 0) return null;
+  const dailyRate = Math.pow(cum, 1 / n) - 1;
+  return {
+    days: n,
+    cumPct: (cum - 1) * 100,
+    monthly: (Math.pow(1 + dailyRate, 21) - 1) * 100,
+    annual: (Math.pow(1 + dailyRate, 252) - 1) * 100,
+  };
+}
+
+function renderCompound(id, strategyKey) {
   const el = document.getElementById(id);
   if (!el) return;
-  if (dailyPct == null || isNaN(dailyPct)) {
+  const r = realizedCompound(strategyKey);
+  if (!r) {
     el.innerHTML = '<span class="muted">수익 복리 환산 — 집계 대기</span>';
     return;
   }
-  const r = dailyPct / 100;
-  const m = (Math.pow(1 + r, 21) - 1) * 100;
-  const y = (Math.pow(1 + r, 252) - 1) * 100;
   const cls = v => v > 0.1 ? 'up' : v < -0.1 ? 'down' : 'flat';
   el.innerHTML =
-    `<span class="k">월수익률(복리)</span><span class="v ${cls(m)}">${signPct(m, 1)}</span>` +
-    `<span class="k">연수익률(복리)</span><span class="v ${cls(y)}">${signPct(y, 0)}</span>` +
-    `<span class="muted">· ${basis || '일평균 복리 환산'}</span>`;
-}
-
-function dayAvgOpen(picks) {
-  const ps = (picks || []).filter(p => p.return_pct_open != null);
-  if (!ps.length) return null;
-  return ps.reduce((a, p) => a + p.return_pct_open, 0) / ps.length;
+    `<span class="k">월수익률(복리)</span><span class="v ${cls(r.monthly)}">${signPct(r.monthly, 1)}</span>` +
+    `<span class="k">연수익률(복리)</span><span class="v ${cls(r.annual)}">${signPct(r.annual, 0)}</span>` +
+    `<span class="muted">· 실제 ${r.days}일 누적 ${signPct(r.cumPct, 2)} · 시가 청산 기준</span>`;
 }
 
 function renderAccuracy(panelId, acc) {
@@ -493,11 +509,10 @@ function renderAI(sec, opts) {
   document.getElementById('countClaude').innerHTML = `${sec.count}<span class="unit">종목</span>`;
   if (opts.isToday) {
     renderAccuracy('resClaude', sec.accuracy);
-    renderCompound('compAI', sec.accuracy ? sec.accuracy.avg_return_open : null, '누적 일평균 · 시가 청산 기준');
   } else {
     renderDaySummary('resClaude', sec.picks);
-    renderCompound('compAI', dayAvgOpen(sec.picks), '이 날 일평균 · 시가 청산 기준');
   }
+  renderCompound('compAI', 'ai');
   const grid = document.getElementById('gridClaude');
   if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 AI 픽이 없습니다</div>'; return; }
   grid.innerHTML = sec.picks.map(p => `
@@ -524,11 +539,10 @@ function renderHybrid(sec, opts) {
   document.getElementById('countHybrid').innerHTML = `${sec.count}<span class="unit">종목</span>`;
   if (opts.isToday) {
     renderAccuracy('resHybrid', sec.accuracy);
-    renderCompound('compHybrid', sec.accuracy ? sec.accuracy.avg_return_open : null, '누적 일평균 · 시가 청산 기준');
   } else {
     renderDaySummary('resHybrid', sec.picks);
-    renderCompound('compHybrid', dayAvgOpen(sec.picks), '이 날 일평균 · 시가 청산 기준');
   }
+  renderCompound('compHybrid', 'hybrid');
   const grid = document.getElementById('gridHybrid');
   if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 하이브리드 진입 신호 없음</div>'; return; }
   grid.innerHTML = sec.picks.map(p => {
@@ -557,7 +571,7 @@ function renderVol(sec, opts) {
   opts = opts || {};
   document.getElementById('timeVol').textContent = opts.isToday ? hhmm(sec.updated_at) : '-';
   document.getElementById('countVol').innerHTML = `${sec.count}<span class="unit">종목</span>`;
-  renderCompound('compVol', dayAvgOpen(sec.picks), opts.isToday ? '집계 개시 후 표시' : '이 날 일평균 · 시가 청산 기준');
+  renderCompound('compVol', 'vol');
   const grid = document.getElementById('gridVol');
   if (!sec.picks.length) { grid.innerHTML = '<div class="empty">이 날 돌파 종목 없음</div>'; return; }
   grid.innerHTML = sec.picks.map(p => `
