@@ -111,12 +111,134 @@
         </div>
         <div style="flex:1; min-width:200px; background:#fffaf0; border:2px solid #dd6b20; border-radius:12px; padding:16px; text-align:center;">
             <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📰 뉴스 분위기</div>
-            <div style="font-size:2.2em; font-weight:800; color:#dd6b20;">55<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:2.2em; font-weight:800; color:#dd6b20;">54<span style="font-size:0.4em; font-weight:400;">점</span></div>
             <div style="font-size:1em; font-weight:600; color:#dd6b20;">중립</div>
             <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">오늘 주요 뉴스 종합</div>
             <div style="margin-top:8px; font-size:0.75em;"><a href="#news" style="color:#dd6b20;">상세 보기 ↓</a></div>
         </div>
     </div>
+
+
+    
+
+    
+<div class="section" id="trend-chart" style="margin:25px 0;">
+  <h2 style="color:#1a365d; margin-bottom:15px; font-size:1.25em; padding-bottom:8px; border-bottom:2px solid #e2e8f0;">
+    📈 AI 예측 점수 vs 코스피 등락 (27일)
+  </h2>
+  <div style="background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
+    <canvas id="trendChart" height="120"></canvas>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script>
+  (function(){
+    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03', '2026-04-04', '2026-04-05', '2026-04-06', '2026-04-07', '2026-04-08', '2026-04-09', '2026-04-10', '2026-04-13', '2026-04-14', '2026-04-15', '2026-04-16', '2026-04-17', '2026-04-20', '2026-04-21', '2026-04-22', '2026-04-23'];
+    const ctx = document.getElementById('trendChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: 'AI 합산 점수 (시장60%+뉴스40%)',
+            data: [53, 57, 60, 33, 34, 41, 36, 32, 60, 61, 42, 44, 46, 55, 58, 59, 61, 61, 58, 56, 59, 59, 55, 59, 51, 54, 59],
+            borderColor: '#6366f1',
+            backgroundColor: 'rgba(99,102,241,0.08)',
+            borderWidth: 2.5,
+            pointRadius: 4,
+            tension: 0.3,
+            yAxisID: 'y',
+          },
+          {
+            label: '코스피 등락률(%)',
+            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47, 2.74, 2.74, 2.74, 1.36, 0.82, 6.87, -1.61, 1.4, -0.86, 2.74, 2.07, 2.21, -0.55, 0.44, 2.72, 0.46, 0.9],
+            borderColor: '#e53e3e',
+            backgroundColor: 'rgba(229,62,62,0.08)',
+            borderWidth: 2,
+            pointRadius: 4,
+            tension: 0.2,
+            borderDash: [5,3],
+            yAxisID: 'y2',
+          },
+        ]
+      },
+      options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'top', labels: { font: { size: 12 } } },
+          tooltip: {
+            callbacks: {
+              label: function(ctx) {
+                let v = ctx.parsed.y;
+                if (ctx.dataset.yAxisID === 'y2') return ctx.dataset.label + ': ' + v + '%';
+                return ctx.dataset.label + ': ' + v + '점';
+              }
+            }
+          },
+          annotation: {}
+        },
+        scales: {
+          y: {
+            type: 'linear',
+            position: 'left',
+            min: 0, max: 100,
+            title: { display: true, text: '점수 (0~100)', font: { size: 11 } },
+            grid: { color: 'rgba(0,0,0,0.05)' },
+            ticks: {
+              callback: function(v) {
+                if (v === 55) return '▲상승 55';
+                if (v === 45) return '▼하락 45';
+                return v;
+              },
+              color: function(ctx) {
+                if (ctx.tick.value === 55) return '#38a169';
+                if (ctx.tick.value === 45) return '#e53e3e';
+                return '#718096';
+              }
+            }
+          },
+          y2: {
+            type: 'linear',
+            position: 'right',
+            min: -11.83,
+            max: 11.83,
+            title: { display: true, text: '코스피 등락(%)', font: { size: 11 } },
+            grid: { drawOnChartArea: false },
+            ticks: { callback: function(v){ return v + '%'; } }
+          },
+          x: {
+            grid: { color: 'rgba(0,0,0,0.04)' },
+            ticks: { font: { size: 11 } }
+          }
+        }
+      },
+      plugins: [{
+        afterDraw(chart) {
+          const ctx2 = chart.ctx;
+          const yAxis = chart.scales.y;
+          const xLeft = chart.chartArea.left;
+          const xRight = chart.chartArea.right;
+          [55, 45].forEach(function(val) {
+            const y = yAxis.getPixelForValue(val);
+            const color = val === 55 ? '#38a169' : '#e53e3e';
+            ctx2.save();
+            ctx2.setLineDash([6, 4]);
+            ctx2.strokeStyle = color;
+            ctx2.lineWidth = 1.2;
+            ctx2.globalAlpha = 0.6;
+            ctx2.beginPath();
+            ctx2.moveTo(xLeft, y);
+            ctx2.lineTo(xRight, y);
+            ctx2.stroke();
+            ctx2.restore();
+          });
+        }
+      }]
+    });
+  })();
+  </script>
+</div>
 
 
     
@@ -418,220 +540,9 @@
 
 
     
-<div class="section" id="market-actual-chart" style="margin:25px 0;">
-  <h2 style="color:#1a365d; margin-bottom:15px; font-size:1.25em; padding-bottom:8px; border-bottom:2px solid #e2e8f0;">
-    📉 코스피·나스닥 일간 등락률 (27일)
-  </h2>
-  <div style="background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
-    <canvas id="marketActualChart" height="120"></canvas>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <script>
-  (function(){
-    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03', '2026-04-04', '2026-04-05', '2026-04-06', '2026-04-07', '2026-04-08', '2026-04-09', '2026-04-10', '2026-04-13', '2026-04-14', '2026-04-15', '2026-04-16', '2026-04-17', '2026-04-20', '2026-04-21', '2026-04-22', '2026-04-23'];
-    const ctx = document.getElementById('marketActualChart').getContext('2d');
-    new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: labels,
-        datasets: [
-          {
-            label: '코스피 (%)',
-            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47, 2.74, 2.74, 2.74, 1.36, 0.82, 6.87, -1.61, 1.4, -0.86, 2.74, 2.07, 2.21, -0.55, 0.44, 2.72, 0.46, 0.9],
-            borderColor: '#e53e3e',
-            backgroundColor: 'rgba(229,62,62,0.10)',
-            borderWidth: 2.5,
-            pointRadius: 3.5,
-            tension: 0.25,
-          },
-          {
-            label: '나스닥 (%)',
-            data: [1.38, -0.84, 0.77, -2.38, -2.15, -2.15, -2.15, -0.73, 3.83, 1.16, 0.18, 0.18, 0.18, 0.18, 0.54, 0.1, 2.8, 0.83, 0.35, 1.23, 1.96, 1.59, 0.36, 1.52, -0.26, -0.59, 1.64],
-            borderColor: '#3182ce',
-            backgroundColor: 'rgba(49,130,206,0.10)',
-            borderWidth: 2.5,
-            pointRadius: 3.5,
-            tension: 0.25,
-            borderDash: [5,3],
-          },
-        ]
-      },
-      options: {
-        responsive: true,
-        interaction: { mode: 'index', intersect: false },
-        plugins: {
-          legend: { position: 'top', labels: { font: { size: 12 } } },
-          tooltip: {
-            callbacks: {
-              label: function(ctx) {
-                return ctx.dataset.label + ': ' + ctx.parsed.y + '%';
-              }
-            }
-          }
-        },
-        scales: {
-          y: {
-            type: 'linear',
-            min: -10.1, max: 10.1,
-            title: { display: true, text: '등락률 (%)', font: { size: 11 } },
-            grid: { color: 'rgba(0,0,0,0.05)' },
-            ticks: { callback: function(v){ return v + '%'; } }
-          },
-          x: {
-            grid: { color: 'rgba(0,0,0,0.04)' },
-            ticks: { font: { size: 11 } }
-          }
-        }
-      },
-      plugins: [{
-        afterDraw(chart) {
-          const ctx2 = chart.ctx;
-          const yAxis = chart.scales.y;
-          const xLeft = chart.chartArea.left;
-          const xRight = chart.chartArea.right;
-          const y = yAxis.getPixelForValue(0);
-          ctx2.save();
-          ctx2.setLineDash([4, 3]);
-          ctx2.strokeStyle = '#718096';
-          ctx2.lineWidth = 1;
-          ctx2.globalAlpha = 0.6;
-          ctx2.beginPath();
-          ctx2.moveTo(xLeft, y);
-          ctx2.lineTo(xRight, y);
-          ctx2.stroke();
-          ctx2.restore();
-        }
-      }]
-    });
-  })();
-  </script>
-</div>
-
-
-    
-<div class="section" id="trend-chart" style="margin:25px 0;">
-  <h2 style="color:#1a365d; margin-bottom:15px; font-size:1.25em; padding-bottom:8px; border-bottom:2px solid #e2e8f0;">
-    📈 AI 예측 점수 vs 코스피 등락 (27일)
-  </h2>
-  <div style="background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
-    <canvas id="trendChart" height="120"></canvas>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <script>
-  (function(){
-    const labels = ['2026-03-24', '2026-03-25', '2026-03-26', '2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03', '2026-04-04', '2026-04-05', '2026-04-06', '2026-04-07', '2026-04-08', '2026-04-09', '2026-04-10', '2026-04-13', '2026-04-14', '2026-04-15', '2026-04-16', '2026-04-17', '2026-04-20', '2026-04-21', '2026-04-22', '2026-04-23'];
-    const ctx = document.getElementById('trendChart').getContext('2d');
-    new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: labels,
-        datasets: [
-          {
-            label: 'AI 합산 점수 (시장60%+뉴스40%)',
-            data: [53, 57, 60, 33, 34, 41, 36, 32, 60, 61, 42, 44, 46, 55, 58, 59, 61, 61, 58, 56, 59, 59, 55, 59, 51, 54, 59],
-            borderColor: '#6366f1',
-            backgroundColor: 'rgba(99,102,241,0.08)',
-            borderWidth: 2.5,
-            pointRadius: 4,
-            tension: 0.3,
-            yAxisID: 'y',
-          },
-          {
-            label: '코스피 등락률(%)',
-            data: [2.74, 1.59, -3.22, -0.4, -0.4, -0.4, -2.97, -4.26, 8.44, -4.47, 2.74, 2.74, 2.74, 1.36, 0.82, 6.87, -1.61, 1.4, -0.86, 2.74, 2.07, 2.21, -0.55, 0.44, 2.72, 0.46, 0.9],
-            borderColor: '#e53e3e',
-            backgroundColor: 'rgba(229,62,62,0.08)',
-            borderWidth: 2,
-            pointRadius: 4,
-            tension: 0.2,
-            borderDash: [5,3],
-            yAxisID: 'y2',
-          },
-        ]
-      },
-      options: {
-        responsive: true,
-        interaction: { mode: 'index', intersect: false },
-        plugins: {
-          legend: { position: 'top', labels: { font: { size: 12 } } },
-          tooltip: {
-            callbacks: {
-              label: function(ctx) {
-                let v = ctx.parsed.y;
-                if (ctx.dataset.yAxisID === 'y2') return ctx.dataset.label + ': ' + v + '%';
-                return ctx.dataset.label + ': ' + v + '점';
-              }
-            }
-          },
-          annotation: {}
-        },
-        scales: {
-          y: {
-            type: 'linear',
-            position: 'left',
-            min: 0, max: 100,
-            title: { display: true, text: '점수 (0~100)', font: { size: 11 } },
-            grid: { color: 'rgba(0,0,0,0.05)' },
-            ticks: {
-              callback: function(v) {
-                if (v === 55) return '▲상승 55';
-                if (v === 45) return '▼하락 45';
-                return v;
-              },
-              color: function(ctx) {
-                if (ctx.tick.value === 55) return '#38a169';
-                if (ctx.tick.value === 45) return '#e53e3e';
-                return '#718096';
-              }
-            }
-          },
-          y2: {
-            type: 'linear',
-            position: 'right',
-            min: -11.83,
-            max: 11.83,
-            title: { display: true, text: '코스피 등락(%)', font: { size: 11 } },
-            grid: { drawOnChartArea: false },
-            ticks: { callback: function(v){ return v + '%'; } }
-          },
-          x: {
-            grid: { color: 'rgba(0,0,0,0.04)' },
-            ticks: { font: { size: 11 } }
-          }
-        }
-      },
-      plugins: [{
-        afterDraw(chart) {
-          const ctx2 = chart.ctx;
-          const yAxis = chart.scales.y;
-          const xLeft = chart.chartArea.left;
-          const xRight = chart.chartArea.right;
-          [55, 45].forEach(function(val) {
-            const y = yAxis.getPixelForValue(val);
-            const color = val === 55 ? '#38a169' : '#e53e3e';
-            ctx2.save();
-            ctx2.setLineDash([6, 4]);
-            ctx2.strokeStyle = color;
-            ctx2.lineWidth = 1.2;
-            ctx2.globalAlpha = 0.6;
-            ctx2.beginPath();
-            ctx2.moveTo(xLeft, y);
-            ctx2.lineTo(xRight, y);
-            ctx2.stroke();
-            ctx2.restore();
-          });
-        }
-      }]
-    });
-  })();
-  </script>
-</div>
-
-
-    
     <div class="section" id="daily-scores" style="margin:25px 0;">
       <h2 style="color:#1a365d; margin-bottom:15px; font-size:1.25em; padding-bottom:8px; border-bottom:2px solid #e2e8f0;">
-        📋 최근 7일 뉴스 스코어
+        📋 최근 30일 뉴스 스코어
       </h2>
       
     <a href="posts/2026-04-23.html" style="text-decoration:none; color:inherit;">
@@ -749,6 +660,8 @@
     </div>
     </a>
 
+      
+      <div id="dailyScoresMore" style="display:none;">
     <a href="posts/2026-04-18.html" style="text-decoration:none; color:inherit;">
     <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
@@ -794,6 +707,539 @@
       </div>
     </div>
     </a>
+
+    <a href="posts/2026-04-16.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/16 (목)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">59점</b></span>
+          <span>뉴스 <b style="color:#38a169;">60점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +2.2%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">KB금융 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">현대모비스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">미래에셋증권 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">10점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-15.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/15 (수)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">55점</b></span>
+          <span>뉴스 <b style="color:#38a169;">64점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +2.1%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">롯데케미칼 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">한국타이어앤테크놀로지 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">13점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-14.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/14 (화)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">53점</b></span>
+          <span>뉴스 <b style="color:#38a169;">61점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +2.7%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">셀트리온 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">KT&G <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">기업은행 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">GS건설 <b style="color:#3182ce;">10점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-13.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/13 (월)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">57점</b></span>
+          <span>뉴스 <b style="color:#dd6b20;">59점</b></span>
+          <span><span style="color:#3182ce;">코스피 -0.9%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">셀트리온 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">현대모비스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">기업은행 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">3점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-12.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/12 (일)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">57점</b></span>
+          <span>뉴스 <b style="color:#dd6b20;">54점</b></span>
+          <span><span style="color:#718096;">코스피 0.0%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">현대모비스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성중공업 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">셀트리온 <b style="color:#e53e3e;">58점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">1점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-11.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/11 (토)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">54점</b></span>
+          <span>뉴스 <b style="color:#dd6b20;">57점</b></span>
+          <span><span style="color:#718096;">코스피 0.0%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">셀트리온 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">현대모비스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">기업은행 <b style="color:#e53e3e;">58점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">3점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-10.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/10 (금)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#38a169;">63점</b></span>
+          <span>뉴스 <b style="color:#dd6b20;">57점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +1.4%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">셀트리온 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">현대모비스 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">3점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-09.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/9 (목)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#38a169;">65점</b></span>
+          <span>뉴스 <b style="color:#dd6b20;">56점</b></span>
+          <span><span style="color:#3182ce;">코스피 -1.6%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성중공업 <b style="color:#e53e3e;">68점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">7점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-08.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/8 (수)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">47점</b></span>
+          <span>뉴스 <b style="color:#38a169;">76점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +6.9%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">셀트리온 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">1점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-07.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/7 (화)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">49점</b></span>
+          <span>뉴스 <b style="color:#38a169;">72점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +0.8%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">POSCO홀딩스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">3점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-06.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/6 (월)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">50점</b></span>
+          <span>뉴스 <b style="color:#38a169;">62점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +1.4%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK하이닉스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">10점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-05.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/5 (일)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">50점</b></span>
+          <span>뉴스 <b style="color:#e53e3e;">40점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +2.7%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK하이닉스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">LG전자 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">1점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-04.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/4 (토)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">50점</b></span>
+          <span>뉴스 <b style="color:#e53e3e;">35점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +2.7%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK하이닉스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">POSCO홀딩스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK텔레콤 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성엔지니어링 <b style="color:#3182ce;">1점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-03.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/3 (금)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">49점</b></span>
+          <span>뉴스 <b style="color:#e53e3e;">32점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +2.7%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">메리츠금융지주 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">DB손해보험 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">HD현대중공업 <b style="color:#3182ce;">22점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-02.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/2 (목)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">53점</b></span>
+          <span>뉴스 <b style="color:#38a169;">74점</b></span>
+          <span><span style="color:#3182ce;">코스피 -4.5%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK하이닉스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">POSCO홀딩스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">포스코퓨처엠 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">LG이노텍 <b style="color:#3182ce;">12점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-04-01.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 4/1 (수)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#38a169;">62점</b></span>
+          <span>뉴스 <b style="color:#dd6b20;">56점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +8.4%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">한국타이어앤테크놀로지 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">POSCO홀딩스 <b style="color:#e53e3e;">58점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">셀트리온 <b style="color:#e53e3e;">58점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">GS건설 <b style="color:#3182ce;">25점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-03-31.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 3/31 (화)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#e53e3e;">43점</b></span>
+          <span>뉴스 <b style="color:#e53e3e;">16점</b></span>
+          <span><span style="color:#3182ce;">코스피 -4.3%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK텔레콤 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">롯데케미칼 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">한국타이어앤테크놀로지 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">쌍용C&E <b style="color:#3182ce;">25점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-03-30.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 3/30 (월)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#e53e3e;">37점</b></span>
+          <span>뉴스 <b style="color:#e53e3e;">34점</b></span>
+          <span><span style="color:#3182ce;">코스피 -3.0%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">POSCO홀딩스 <b style="color:#e53e3e;">37점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">37점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">현대모비스 <b style="color:#e53e3e;">37점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">한화솔루션 <b style="color:#3182ce;">7점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-03-29.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 3/29 (일)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#e53e3e;">37점</b></span>
+          <span>뉴스 <b style="color:#dd6b20;">47점</b></span>
+          <span><span style="color:#3182ce;">코스피 -0.4%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">37점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">POSCO홀딩스 <b style="color:#e53e3e;">37점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">신한지주 <b style="color:#e53e3e;">37점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">CJ제일제당 <b style="color:#3182ce;">3점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-03-28.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 3/28 (토)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#e53e3e;">37점</b></span>
+          <span>뉴스 <b style="color:#e53e3e;">30점</b></span>
+          <span><span style="color:#3182ce;">코스피 -0.4%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">37점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">현대차 <b style="color:#e53e3e;">37점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">POSCO홀딩스 <b style="color:#e53e3e;">37점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">한화솔루션 <b style="color:#3182ce;">3점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-03-27.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 3/27 (금)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#e53e3e;">37점</b></span>
+          <span>뉴스 <b style="color:#e53e3e;">28점</b></span>
+          <span><span style="color:#3182ce;">코스피 -0.4%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK하이닉스 <b style="color:#e53e3e;">47점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK텔레콤 <b style="color:#e53e3e;">40점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">37점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">한화솔루션 <b style="color:#3182ce;">3점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-03-26.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 3/26 (목)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#dd6b20;">51점</b></span>
+          <span>뉴스 <b style="color:#38a169;">74점</b></span>
+          <span><span style="color:#3182ce;">코스피 -3.2%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성바이오로직스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">KT <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">삼성전기 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">하이브 <b style="color:#3182ce;">25점</b></span>
+      </div>
+    </div>
+    </a>
+
+    <a href="posts/2026-03-25.html" style="text-decoration:none; color:inherit;">
+    <div style="background:#fff; border-radius:10px; padding:16px 18px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,0.06); transition:transform 0.15s, box-shadow 0.15s; cursor:pointer;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='none';this.style.boxShadow='0 1px 3px rgba(0,0,0,0.06)';">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="font-weight:700; color:#1a365d; font-size:1.05em;">
+          📅 3/25 (수)
+        </div>
+        <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
+          <span>시장 <b style="color:#e53e3e;">44점</b></span>
+          <span>뉴스 <b style="color:#38a169;">76점</b></span>
+          <span><span style="color:#e53e3e;">코스피 +1.6%</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">🔥 주목</div>
+        <span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">SK하이닉스 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">미래에셋증권 <b style="color:#e53e3e;">62점</b></span><span style="display:inline-block; margin-right:6px; margin-bottom:4px; background:#f0fff4; border:1px solid #c6f6d5; border-radius:6px; padding:2px 8px; font-size:0.82em;">한국타이어앤테크놀로지 <b style="color:#e53e3e;">62점</b></span>
+      </div>
+      <div style="margin-top:6px;">
+        <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">⚠️ 주의</div>
+        <span style="display:inline-block; background:#fff5f5; border:1px solid #fed7d7; border-radius:6px; padding:2px 8px; font-size:0.82em;">하이브 <b style="color:#3182ce;">28점</b></span>
+      </div>
+    </div>
+    </a>
+</div>
+      <div style="text-align:center; margin-top:6px;">
+        <button type="button" id="dailyScoresToggle" onclick="(function(){var m=document.getElementById('dailyScoresMore'),b=document.getElementById('dailyScoresToggle');var open=m.style.display!=='none';m.style.display=open?'none':'block';b.textContent=open?'▼ 25일 더보기':'▲ 접기';})();" style="background:#fff; border:1px solid #cbd5e0; border-radius:8px; padding:8px 18px; font-size:0.9em; color:#2d3748; cursor:pointer; font-weight:600;">▼ 25일 더보기</button>
+      </div>
 
     </div>
 
