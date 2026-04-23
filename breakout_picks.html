@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>거래대금 돌파 종목 추천 · MarketSignal</title>
-<meta name="description" content="시총 10조 이하 중소형주 중 거래대금 2000억 이상이 처음 터진 종목을 매일 포착. 차기 주도주 후보 · 눌림목 진입 대기 종목.">
+<title>거래대금 돌파매수 추천 · MarketSignal</title>
+<meta name="description" content="시총 10조 이하 중소형주 중 거래대금 2000억 이상이 처음 터진 종목을 매일 포착. 감시·진입·매도 상태별 추적 및 복리 수익률 공개.">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #f5f7fa; color: #2d3748; line-height: 1.6; }
-.container { max-width: 920px; margin: 0 auto; padding: 20px; }
+.container { max-width: 960px; margin: 0 auto; padding: 20px; }
 a { color: #3182ce; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
@@ -20,17 +20,47 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 .nav a { color: #3182ce; margin: 0 12px; font-weight: 500; font-size: 0.95em; }
 .nav a.current { color: #1a365d; font-weight: 700; }
 
+.date-hero { background: linear-gradient(135deg, #c05621 0%, #dd6b20 100%); color: #fff; border-radius: 12px; padding: 18px 22px; margin: 18px 0 22px; box-shadow: 0 2px 6px rgba(192,86,33,0.15); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.date-hero .dh-left { display: flex; flex-direction: column; gap: 4px; }
+.date-hero .dh-kicker { font-size: 0.78em; color: #fed7aa; letter-spacing: 0.5px; text-transform: uppercase; font-weight: 600; }
+.date-hero .dh-date { font-size: 1.8em; font-weight: 800; letter-spacing: -0.5px; font-variant-numeric: tabular-nums; }
+.date-hero .dh-date .dow { font-size: 0.75em; color: #fed7aa; margin-left: 6px; font-weight: 600; }
+.date-hero .dh-right { font-size: 0.85em; color: #fff7ed; line-height: 1.5; text-align: right; }
+.date-hero .dh-right strong { color: #fff; }
+@media (max-width: 560px) { .date-hero { flex-direction: column; align-items: flex-start; } .date-hero .dh-right { text-align: left; } }
+
 .section { margin: 22px 0; background: #fff; border-radius: 12px; padding: 20px 22px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border-left: 4px solid #dd6b20; }
+.section.entered { border-left-color: #3182ce; }
+.section.sold { border-left-color: #718096; }
 .section-head { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; gap: 12px; flex-wrap: wrap; }
 .section-head h2 { color: #1a365d; font-size: 1.25em; font-weight: 700; letter-spacing: -0.3px; margin: 0; }
 .section-head h2 .accent { color: #dd6b20; }
+.section.entered .section-head h2 .accent { color: #3182ce; }
+.section.sold .section-head h2 .accent { color: #718096; }
+.section-head h2 .count { font-size: 0.8em; color: #a0aec0; margin-left: 6px; font-weight: 500; }
 .section-head .meta { font-size: 0.82em; color: #718096; display: flex; align-items: center; gap: 8px; }
 .section-head .meta .lbl { color: #a0aec0; }
 .section-head .meta .time { font-weight: 600; color: #2d3748; }
 
 .section-desc { font-size: 0.88em; color: #718096; margin-bottom: 10px; line-height: 1.55; }
+.entry-tag { display: inline-block; background: #fff8e1; color: #744210; border: 1px solid #fbd38d; border-radius: 6px; padding: 3px 9px; font-size: 0.78em; font-weight: 600; margin-bottom: 10px; }
+.section.entered .entry-tag { background: #ebf8ff; color: #2c5282; border-color: #90cdf4; }
+.section.sold .entry-tag { background: #edf2f7; color: #2d3748; border-color: #cbd5e0; }
 
-.entry-tag { display: inline-block; background: #fff8e1; color: #744210; border: 1px solid #fbd38d; border-radius: 6px; padding: 3px 9px; font-size: 0.78em; font-weight: 600; margin-bottom: 12px; }
+.compound-tag { display: flex; flex-wrap: wrap; align-items: center; gap: 0; margin: 0 0 12px; font-size: 0.82em; color: #4a5568; }
+.compound-tag .cseg { display: inline-flex; align-items: baseline; gap: 4px; padding: 0 14px; border-right: 1px solid #cbd5e0; }
+.compound-tag .cseg:first-child { padding-left: 0; }
+.compound-tag .cseg:last-child { border-right: none; }
+.compound-tag .cseg .k { color: #a0aec0; font-size: 0.95em; }
+.compound-tag .cseg .v { font-weight: 700; color: #2d3748; font-variant-numeric: tabular-nums; }
+.compound-tag .cseg .v.pos { color: #22543d; }
+.compound-tag .cseg .v.neg { color: #822727; }
+.compound-tag .cseg .sub { color: #a0aec0; font-size: 0.9em; margin-left: 2px; }
+@media (max-width: 560px) {
+  .compound-tag { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .compound-tag .cseg { padding: 4px 0; border-right: none; border-bottom: 1px dashed #e2e8f0; width: 100%; }
+  .compound-tag .cseg:last-child { border-bottom: none; }
+}
 
 .logic-details { margin-bottom: 14px; border-top: 1px dashed #e2e8f0; }
 .logic-details summary { cursor: pointer; font-size: 0.82em; color: #3182ce; padding: 10px 0 8px; font-weight: 600; list-style: none; user-select: none; }
@@ -50,26 +80,32 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 @media (max-width: 760px) { .pick-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .pick-grid { grid-template-columns: 1fr; } }
 
-.pick { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px; border-left: 4px solid #dd6b20; }
+.pick { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px; border-left: 4px solid #dd6b20; position: relative; }
+.pick.entered { border-left-color: #3182ce; background: #f7fafd; }
+.pick.sold { border-left-color: #a0aec0; background: #edf2f7; opacity: 0.95; }
+.pick.expired { border-left-color: #cbd5e0; background: #edf2f7; opacity: 0.7; }
 .pick-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 8px; }
 .pick-name { font-size: 1.05em; font-weight: 700; color: #1a365d; letter-spacing: -0.3px; }
+.pick.sold .pick-name, .pick.expired .pick-name { color: #4a5568; }
 .pick-code { font-family: ui-monospace, monospace; font-size: 0.78em; color: #a0aec0; }
-.pick-score { font-size: 1.3em; font-weight: 700; color: #dd6b20; }
 .pick-row { display: flex; justify-content: space-between; font-size: 0.85em; padding: 3px 0; color: #4a5568; }
 .pick-row .k { color: #a0aec0; }
 .pick-row .v { font-weight: 600; color: #2d3748; font-variant-numeric: tabular-nums; }
-.pick-comment { font-size: 0.85em; color: #4a5568; margin-top: 8px; padding-top: 8px; border-top: 1px dashed #e2e8f0; font-style: italic; }
+.pick.sold .pick-row .v, .pick.expired .pick-row .v { color: #4a5568; }
+.pick-comment { font-size: 0.82em; color: #4a5568; margin-top: 8px; padding-top: 8px; border-top: 1px dashed #e2e8f0; font-style: italic; }
+
+.pnl-badge { position: absolute; top: 10px; right: 12px; padding: 3px 10px; border-radius: 14px; font-size: 0.82em; font-weight: 700; font-variant-numeric: tabular-nums; }
+.pnl-badge.pos { background: #c6f6d5; color: #22543d; }
+.pnl-badge.neg { background: #fed7d7; color: #822727; }
+.pnl-badge.neu { background: #e2e8f0; color: #4a5568; }
+
+.status-chip { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.72em; font-weight: 600; margin-left: 6px; vertical-align: middle; }
+.status-chip.watching { background: #fff8e1; color: #744210; }
+.status-chip.entered { background: #ebf8ff; color: #2c5282; }
+.status-chip.expired { background: #e2e8f0; color: #4a5568; }
+.status-chip.cancelled { background: #e2e8f0; color: #4a5568; }
 
 .empty { text-align: center; padding: 30px; color: #a0aec0; font-size: 0.9em; grid-column: 1 / -1; }
-
-.date-hero { background: linear-gradient(135deg, #c05621 0%, #dd6b20 100%); color: #fff; border-radius: 12px; padding: 18px 22px; margin: 18px 0 22px; box-shadow: 0 2px 6px rgba(192,86,33,0.15); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
-.date-hero .dh-left { display: flex; flex-direction: column; gap: 4px; }
-.date-hero .dh-kicker { font-size: 0.78em; color: #fed7aa; letter-spacing: 0.5px; text-transform: uppercase; font-weight: 600; }
-.date-hero .dh-date { font-size: 1.8em; font-weight: 800; letter-spacing: -0.5px; font-variant-numeric: tabular-nums; }
-.date-hero .dh-date .dow { font-size: 0.75em; color: #fed7aa; margin-left: 6px; font-weight: 600; }
-.date-hero .dh-right { font-size: 0.85em; color: #fff7ed; line-height: 1.5; text-align: right; }
-.date-hero .dh-right strong { color: #fff; }
-@media (max-width: 560px) { .date-hero { flex-direction: column; align-items: flex-start; } .date-hero .dh-right { text-align: left; } }
 
 .disclaimer { background: #fffaf0; border: 1px solid #fbd38d; border-radius: 8px; padding: 12px 14px; margin: 18px 0; font-size: 0.82em; color: #744210; text-align: center; }
 .disclaimer strong { color: #c05621; }
@@ -81,8 +117,8 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 <body>
 <div class="container">
   <h1>MarketSignal</h1>
-  <div class="subtitle">거래대금 돌파 종목 추천 — 차기 주도주 후보 포착</div>
-  <div style="text-align:center"><span class="update-badge">📈 매일 15:40 자동 스캔</span></div>
+  <div class="subtitle">거래대금 돌파매수 추천 — 감시·진입·매도 상태별 추적</div>
+  <div style="text-align:center"><span class="update-badge">📈 매일 15:40 자동 스캔 · 3개월간 감시</span></div>
 
   <div class="nav">
     <a href="index.html">홈</a> |
@@ -93,25 +129,29 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
 
   <div class="date-hero" id="dateHero">
     <div class="dh-left">
-      <div class="dh-kicker">거래대금 돌파 · 스캔일</div>
+      <div class="dh-kicker">거래대금 돌파 · 기준일</div>
       <div class="dh-date" id="heroDate">----년 --월 --일<span class="dow">(-)</span></div>
     </div>
     <div class="dh-right">
-      <strong>시총 ≤ 10조 · 거래대금 2,000억+ 양봉 · 최근 10개월 내 3회 이하 돌파</strong><br>
-      눌림목 진입 대기 · 종가매수 아님
+      <strong>시총 ≤ 10조 · 거래대금 2,000억+ 양봉 · 최근 3개월 내 첫 돌파</strong><br>
+      눌림목 진입 대기 · 최대 3개월 감시 후 만료
     </div>
   </div>
 
-  <section class="section" id="sec-vol">
+  <section class="section" id="sec-watching">
     <div class="section-head">
-      <h2>거래대금 <span class="accent">2000억 돌파</span></h2>
+      <h2>감시 중 <span class="accent">종목</span><span class="count" id="countWatching"></span></h2>
       <div class="meta">
         <span class="lbl">마지막 업데이트</span>
-        <span class="time" id="timeVol">15:45</span>
+        <span class="time" id="timeVol">--:--</span>
       </div>
     </div>
-    <p class="section-desc">시총 10조 이하 중소형주 중 <strong>거래대금 2000억+ 양봉</strong>을 처음 터뜨린 종목을 포착. 차기 주도주 후보를 선별.</p>
-    <div class="entry-tag">📅 15:40 스캔 · 차기 주도주 후보 (눌림목 진입 대기)</div>
+    <p class="section-desc">시총 10조 이하 중소형주 중 <strong>거래대금 2000억+ 양봉</strong>을 처음 터뜨린 종목. 돌파봉 시가 -5% 눌림 시 매수 대기.</p>
+    <div class="entry-tag">📅 15:40 스캔 · 3개월 이내 진입 조건 충족 대기</div>
+    <div class="compound-tag" id="compVol">
+      <span class="cseg"><span class="k">월수익률</span><span class="v" id="volMonth">-</span><span class="sub" id="volMonthSub"></span></span>
+      <span class="cseg"><span class="k">연수익률</span><span class="v" id="volYear">-</span><span class="sub" id="volYearSub"></span></span>
+    </div>
     <details class="logic-details">
       <summary>로직 자세히</summary>
       <div class="logic-body">
@@ -120,31 +160,51 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
           <li>FDR로 KOSPI + KOSDAQ 전 종목 조회</li>
           <li>시총 <code>≤ 10조</code> 필터 (중소형주 집중)</li>
           <li>거래대금 <code>≥ 2,000억</code> + <strong>양봉</strong> 필터</li>
-          <li>KIS API로 희소성 체크: 최근 10개월 내 돌파 <code>≤ 3회</code></li>
+          <li>KIS API로 희소성 체크: 최근 3개월 내 돌파 <code>≤ 3회</code></li>
         </ul>
-        <h4>점수</h4>
+        <h4>D전략 진입/청산 (v13)</h4>
         <ul>
-          <li>희소성 <code>+10</code> · 거래대금 <code>+5</code> · 턴오버 <code>+5</code> · 반복패널티 <code>−N</code></li>
+          <li>진입: 돌파봉 시가 <code>-5% 눌림</code> 후 양봉</li>
+          <li>손절: 돌파봉 시가 <code>-2%</code></li>
+          <li>1차 익절: <code>+10%</code> → 50% 매도 + 본전 스탑</li>
+          <li>잔여: 고점 대비 <code>-10%</code> 트레일링</li>
+          <li>만료: 감시 등록 후 <code>3개월</code> 내 진입 없으면 종료</li>
         </ul>
-        <h4>눌림목 진입 감지 (자동매매 D전략 v13)</h4>
+        <h4>수익률 (복리)</h4>
         <ul>
-          <li>돌파 종가 대비 <code>-3% ~ -15%</code> 조정 구간 → "조정"</li>
-          <li>5일선 근처 <code>±2%</code> + 하락중 → "5일선 지지"</li>
-          <li>돌파봉 시가 <code>-5%</code> 눌림 + 양봉 → 매수</li>
-          <li>손절 <code>-2%</code> · TP1 <code>+10%</code>(50% 매도 + 본전 이동) · 잔여 트레일 <code>-10%</code></li>
+          <li>매도 체결된 종목의 PnL을 순차 복리 누적: <code>Π(1 + pnl/100) − 1</code></li>
+          <li>월수익률: 이번 달 1일 이후 매도분만 / 연수익률: 올해 1월 1일 이후</li>
         </ul>
         <p class="note">백테스트 <span class="stat">연 +19.5%</span> <span class="stat">승률 57.7%</span> <span class="stat">PF 3.49</span> · 기반 아이디어: "거래대금 2000억이 처음 터진 중소형주가 차기 주도주" (유튜브 전략).</p>
       </div>
     </details>
-    <div class="pick-grid" id="gridVol"></div>
+    <div class="pick-grid" id="gridWatching"></div>
+  </section>
+
+  <section class="section entered" id="sec-entered">
+    <div class="section-head">
+      <h2>매수 <span class="accent">진입 (보유 중)</span><span class="count" id="countEntered"></span></h2>
+    </div>
+    <p class="section-desc">감시 중 진입 조건 충족으로 모의 매수된 포지션. 실시간 현재가 기준 손익 표시.</p>
+    <div class="entry-tag">💙 D전략 Phase 1/2 · 손절 / 트레일링 모니터링 중</div>
+    <div class="pick-grid" id="gridEntered"></div>
+  </section>
+
+  <section class="section sold" id="sec-sold">
+    <div class="section-head">
+      <h2>매도 <span class="accent">완료</span><span class="count" id="countSold"></span></h2>
+    </div>
+    <p class="section-desc">청산된 포지션. 수익/손실 확정 금액과 사유(손절/익절/트레일링) 표시.</p>
+    <div class="entry-tag">🏁 청산 완료 · 복리 수익률 계산에 반영</div>
+    <div class="pick-grid" id="gridSold"></div>
   </section>
 
   <div class="disclaimer">
-    <strong>⚠️ 참고용</strong> · 본 페이지는 규칙 기반 자동 스크리닝 결과이며, 특정 종목 매수·매도 추천이 아닙니다. 눌림목 진입 타이밍은 종목별로 다르며, 투자 판단의 책임은 본인에게 있습니다.
+    <strong>⚠️ 참고용</strong> · 본 페이지는 규칙 기반 자동 스크리닝 + 모의거래 결과이며, 특정 종목 매수·매도 추천이 아닙니다. 실매매 슬리피지·수수료·유동성 제약은 반영되지 않았습니다. 투자 판단의 책임은 본인에게 있습니다.
   </div>
 
   <div class="footer">
-    <p>MarketSignal · 거래대금 돌파 종목 추천</p>
+    <p>MarketSignal · 거래대금 돌파매수 추천</p>
     <p style="margin-top: 10px;"><a href="index.html">← 홈으로</a></p>
   </div>
 </div>
@@ -176,43 +236,146 @@ function fmtKDate(iso) {
   const dt = new Date(y, m - 1, d);
   return { full: `${y}년 ${m}월 ${d}일`, dow: DOW[dt.getDay()] };
 }
+function pctFmt(v) {
+  const n = Number(v) || 0;
+  const sign = n > 0 ? '+' : '';
+  return `${sign}${n.toFixed(2)}%`;
+}
+function setPctEl(el, v) {
+  const n = Number(v) || 0;
+  el.textContent = pctFmt(n);
+  el.classList.remove('pos','neg');
+  if (n > 0) el.classList.add('pos');
+  else if (n < 0) el.classList.add('neg');
+}
 
-function renderVol(sec, date) {
-  const k = fmtKDate(date);
-  document.getElementById('heroDate').innerHTML = `${k.full}<span class="dow">(${k.dow})</span>`;
-  document.getElementById('timeVol').textContent = hhmm(sec.updated_at);
-  const grid = document.getElementById('gridVol');
-  if (!sec.picks || !sec.picks.length) {
-    grid.innerHTML = '<div class="empty">오늘 돌파 종목 없음</div>';
-    return;
-  }
-  grid.innerHTML = sec.picks.map(p => `
-    <div class="pick">
+const SELL_REASON_KR = {
+  stop_loss: '손절',
+  tp1_50pct: '1차익절',
+  take_profit: '익절',
+  take_profit_20pct: '익절 +20%',
+  breakeven_stop: '본전스탑',
+  trailing_stop: '트레일링',
+  expired: '만료',
+};
+function sellReasonLabel(r) {
+  if (!r) return '-';
+  const base = r.replace(/_paper$|_live$/, '');
+  return SELL_REASON_KR[base] || base;
+}
+
+function renderWatching(items) {
+  const grid = document.getElementById('gridWatching');
+  document.getElementById('countWatching').textContent = items.length ? ` · ${items.length}개` : '';
+  const active = items.filter(x => !x.is_expired && x.status === 'watching');
+  const inactive = items.filter(x => x.is_expired || x.status !== 'watching');
+  const render = (p) => {
+    const cls = p.is_expired ? 'pick expired' : 'pick';
+    const chip = p.is_expired
+      ? '<span class="status-chip expired">만료</span>'
+      : (p.status === 'watching' ? '<span class="status-chip watching">감시</span>' : `<span class="status-chip ${p.status}">${p.status}</span>`);
+    return `
+    <div class="${cls}">
       <div class="pick-head">
         <div>
-          <div class="pick-name">${p.name_kr || '-'}</div>
-          <div class="pick-code">${p.stock_code || ''}</div>
+          <div class="pick-name">${p.name || '-'}${chip}</div>
+          <div class="pick-code">${p.ticker || ''}</div>
         </div>
-        <div class="pick-score">${(p.score ?? 0).toFixed(1)}</div>
       </div>
-      <div class="pick-row"><span class="k">돌파 시가</span><span class="v">${fmt(p.open_price)}</span></div>
-      <div class="pick-row"><span class="k">거래대금</span><span class="v">${fmtWon(p.trade_value)}</span></div>
-      <div class="pick-row"><span class="k">시총</span><span class="v">${fmtWon(p.market_cap)}</span></div>
-      <div class="pick-row"><span class="k">희소성</span><span class="v">${p.rarity_months ? p.rarity_months + '개월 내 돌파' : '첫 돌파'}</span></div>
-      <div class="pick-comment">${p.notes || '-'}</div>
-    </div>
-  `).join('');
+      <div class="pick-row"><span class="k">돌파일</span><span class="v">${p.scan_date || '-'}</span></div>
+      <div class="pick-row"><span class="k">돌파 시가</span><span class="v">${fmt(p.breakout_open)}</span></div>
+      <div class="pick-row"><span class="k">진입 목표</span><span class="v">${fmt(p.entry_price)}</span></div>
+      <div class="pick-row"><span class="k">손절</span><span class="v">${fmt(p.stop_loss)}</span></div>
+      <div class="pick-row"><span class="k">만료일</span><span class="v">${p.expires_at || '-'}</span></div>
+      ${p.memo ? `<div class="pick-comment">${p.memo}</div>` : ''}
+    </div>`;
+  };
+  const html = [...active.map(render), ...inactive.map(render)].join('');
+  grid.innerHTML = html || '<div class="empty">감시 중 종목 없음</div>';
+}
+
+function renderEntered(items) {
+  const grid = document.getElementById('gridEntered');
+  document.getElementById('countEntered').textContent = items.length ? ` · ${items.length}개` : '';
+  if (!items.length) {
+    grid.innerHTML = '<div class="empty">현재 진입된 포지션 없음</div>';
+    return;
+  }
+  grid.innerHTML = items.map(p => {
+    const pnl = Number(p.pnl_rate) || 0;
+    const badgeCls = pnl > 0 ? 'pnl-badge pos' : (pnl < 0 ? 'pnl-badge neg' : 'pnl-badge neu');
+    return `
+    <div class="pick entered">
+      <div class="${badgeCls}">${pctFmt(pnl)}</div>
+      <div class="pick-head">
+        <div>
+          <div class="pick-name">${p.name || '-'}<span class="status-chip entered">보유</span></div>
+          <div class="pick-code">${p.ticker || ''}</div>
+        </div>
+      </div>
+      <div class="pick-row"><span class="k">매수일</span><span class="v">${p.buy_date || '-'}</span></div>
+      <div class="pick-row"><span class="k">매수가</span><span class="v">${fmt(p.avg_price)}</span></div>
+      <div class="pick-row"><span class="k">현재가</span><span class="v">${fmt(p.current_price)}</span></div>
+      <div class="pick-row"><span class="k">수량</span><span class="v">${fmt(p.quantity)}주</span></div>
+      <div class="pick-row"><span class="k">손절</span><span class="v">${fmt(p.stop_loss)}</span></div>
+      <div class="pick-row"><span class="k">Phase</span><span class="v">${p.phase}${p.phase === 2 ? ' (본전+트레일)' : ''}</span></div>
+    </div>`;
+  }).join('');
+}
+
+function renderSold(items) {
+  const grid = document.getElementById('gridSold');
+  document.getElementById('countSold').textContent = items.length ? ` · ${items.length}개` : '';
+  if (!items.length) {
+    grid.innerHTML = '<div class="empty">매도 완료 종목 없음</div>';
+    return;
+  }
+  grid.innerHTML = items.map(p => {
+    const pnl = Number(p.pnl_rate) || 0;
+    const badgeCls = pnl > 0 ? 'pnl-badge pos' : (pnl < 0 ? 'pnl-badge neg' : 'pnl-badge neu');
+    return `
+    <div class="pick sold">
+      <div class="${badgeCls}">${pctFmt(pnl)}</div>
+      <div class="pick-head">
+        <div>
+          <div class="pick-name">${p.name || '-'}</div>
+          <div class="pick-code">${p.ticker || ''}</div>
+        </div>
+      </div>
+      <div class="pick-row"><span class="k">매수일</span><span class="v">${p.buy_date || '-'}</span></div>
+      <div class="pick-row"><span class="k">매도일</span><span class="v">${p.sell_date || '-'}</span></div>
+      <div class="pick-row"><span class="k">매수가</span><span class="v">${fmt(p.avg_price)}</span></div>
+      <div class="pick-row"><span class="k">매도가</span><span class="v">${fmt(p.sell_price)}</span></div>
+      <div class="pick-row"><span class="k">손익</span><span class="v">${p.pnl_amount >= 0 ? '+' : ''}${fmt(p.pnl_amount)}원</span></div>
+      <div class="pick-row"><span class="k">사유</span><span class="v">${sellReasonLabel(p.sell_reason)}</span></div>
+    </div>`;
+  }).join('');
+}
+
+function renderCompound(sec) {
+  const mEl = document.getElementById('volMonth');
+  const yEl = document.getElementById('volYear');
+  setPctEl(mEl, sec.month_return);
+  setPctEl(yEl, sec.year_return);
+  document.getElementById('volMonthSub').textContent = sec.month_count ? `(${sec.month_count}건)` : '(매도 0건)';
+  document.getElementById('volYearSub').textContent = sec.year_count ? `(${sec.year_count}건)` : '(매도 0건)';
 }
 
 fetch(FEED, { cache: 'no-store' })
   .then(r => r.ok ? r.json() : Promise.reject(r.status))
   .then(data => {
-    const sec = (data.sections && data.sections.vol) || { picks: [], updated_at: null };
-    renderVol(sec, data.date);
+    const sec = (data.sections && data.sections.vol) || {};
+    const k = fmtKDate(sec.pick_date || data.date);
+    document.getElementById('heroDate').innerHTML = `${k.full}<span class="dow">(${k.dow})</span>`;
+    document.getElementById('timeVol').textContent = hhmm(sec.updated_at);
+    renderWatching(sec.watching || []);
+    renderEntered(sec.holding || []);
+    renderSold(sec.history || []);
+    renderCompound(sec);
   })
   .catch(err => {
     console.error('[breakout] feed load failed:', err);
-    document.getElementById('gridVol').innerHTML = '<div class="empty">데이터 로딩 실패 — 잠시 후 다시 시도하세요.</div>';
+    document.getElementById('gridWatching').innerHTML = '<div class="empty">데이터 로딩 실패 — 잠시 후 다시 시도하세요.</div>';
   });
 </script>
 </body>
