@@ -149,6 +149,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
     <p class="section-desc">시총 10조 이하 중소형주 중 <strong>거래대금 2000억+ 양봉</strong>을 처음 터뜨린 종목. 돌파봉 시가 -5% 눌림 시 매수 대기.</p>
     <div class="entry-tag">📅 15:40 스캔 · 3개월 이내 진입 조건 충족 대기</div>
     <div class="compound-tag" id="compVol">
+      <span class="cseg"><span class="k">초기자본</span><span class="v" id="volCapital">-</span><span class="sub" id="volSlots"></span></span>
       <span class="cseg"><span class="k">월수익률</span><span class="v" id="volMonth">-</span><span class="sub" id="volMonthSub"></span></span>
       <span class="cseg"><span class="k">연수익률</span><span class="v" id="volYear">-</span><span class="sub" id="volYearSub"></span></span>
     </div>
@@ -170,9 +171,11 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
           <li>잔여: 고점 대비 <code>-10%</code> 트레일링</li>
           <li>만료: 감시 등록 후 <code>3개월</code> 내 진입 없으면 종료</li>
         </ul>
-        <h4>수익률 (복리)</h4>
+        <h4>수익률 (정액 슬롯 가정)</h4>
         <ul>
-          <li>매도 체결된 종목의 PnL을 순차 복리 누적: <code>Π(1 + pnl/100) − 1</code></li>
+          <li>가정: <strong>초기자본 2,000,000원 · 5슬롯</strong> → 슬롯당 <code>400,000원</code> 고정 투입</li>
+          <li>각 매도건 손익 = <code>400,000 × pnl%</code>, 기간 수익률 = <code>Σ손익 / 2,000,000 × 100</code></li>
+          <li>복리가 아닌 단순 누적 (실제 슬리피지·수수료·세금 미반영)</li>
           <li>월수익률: 이번 달 1일 이후 매도분만 / 연수익률: 올해 1월 1일 이후</li>
         </ul>
         <p class="note">백테스트 <span class="stat">연 +19.5%</span> <span class="stat">승률 57.7%</span> <span class="stat">PF 3.49</span> · 기반 아이디어: "거래대금 2000억이 처음 터진 중소형주가 차기 주도주" (유튜브 전략).</p>
@@ -353,12 +356,27 @@ function renderSold(items) {
 }
 
 function renderCompound(sec) {
+  const capital = sec.initial_capital || 0;
+  const slots = sec.slots || 0;
+  const slotSize = sec.slot_size || (slots ? Math.round(capital / slots) : 0);
+  document.getElementById('volCapital').textContent = capital ? `${(capital/10000).toLocaleString('ko-KR')}만원` : '-';
+  document.getElementById('volSlots').textContent = slots ? `(${slots}슬롯 · ${(slotSize/10000).toLocaleString('ko-KR')}만원/슬롯)` : '';
+
   const mEl = document.getElementById('volMonth');
   const yEl = document.getElementById('volYear');
   setPctEl(mEl, sec.month_return);
   setPctEl(yEl, sec.year_return);
-  document.getElementById('volMonthSub').textContent = sec.month_count ? `(${sec.month_count}건)` : '(매도 0건)';
-  document.getElementById('volYearSub').textContent = sec.year_count ? `(${sec.year_count}건)` : '(매도 0건)';
+
+  const mPnl = Number(sec.month_pnl) || 0;
+  const yPnl = Number(sec.year_pnl) || 0;
+  const mSign = mPnl > 0 ? '+' : '';
+  const ySign = yPnl > 0 ? '+' : '';
+  document.getElementById('volMonthSub').textContent = sec.month_count
+    ? `(${mSign}${mPnl.toLocaleString('ko-KR')}원 · ${sec.month_count}건)`
+    : '(매도 0건)';
+  document.getElementById('volYearSub').textContent = sec.year_count
+    ? `(${ySign}${yPnl.toLocaleString('ko-KR')}원 · ${sec.year_count}건)`
+    : '(매도 0건)';
 }
 
 fetch(FEED, { cache: 'no-store' })

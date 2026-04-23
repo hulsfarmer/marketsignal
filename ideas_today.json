@@ -1,10 +1,10 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23T20:50:07",
+  "generated_at": "2026-04-23T20:55:23",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-04-23T20:50:07",
+      "updated_at": "2026-04-23T20:55:23",
       "pick_date": "2026-04-22",
       "count": 3,
       "picks": [
@@ -76,7 +76,7 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-04-23T20:50:07",
+      "updated_at": "2026-04-23T20:55:23",
       "pick_date": "2026-04-23",
       "count": 1,
       "picks": [
@@ -121,7 +121,7 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-04-23T20:50:07",
+      "updated_at": "2026-04-23T20:55:23",
       "pick_date": "2026-04-23",
       "count": 2,
       "picks": [
@@ -377,11 +377,16 @@
           "pnl_amount": 206635
         }
       ],
-      "month_return": 20.75,
+      "initial_capital": 2000000,
+      "slots": 5,
+      "slot_size": 400000,
+      "month_return": 4.15,
       "month_count": 1,
+      "month_pnl": 83000,
       "month_start": "2026-04-01",
-      "year_return": 20.75,
+      "year_return": 4.15,
       "year_count": 1,
+      "year_pnl": 83000,
       "year_start": "2026-01-01",
       "accuracy": null
     }
