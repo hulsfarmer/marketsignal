@@ -234,7 +234,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
         <ul>
           <li>가정: 초기자본 <code>1,000,000원</code> · 슬롯 수 = 그날 픽 수 (동적 · 매수 시점에 확정)</li>
           <li>일수익률 = 해당 날짜 픽 평균(시가 청산) · 금액 = 100만원 × 일수익률</li>
-          <li>월·연수익률 = 기간 내 일수익률 단순합(복리 아님) · 금액 = 100만원 × 합</li>
+          <li>월수익률 = 월 1일~선택된 날짜 일수익률 합 · 연수익률 = 연 1월 1일~선택된 날짜 일수익률 합 (복리 아님) · 금액 = 100만원 × 합</li>
         </ul>
       </div>
     </details>
@@ -283,7 +283,7 @@ h1 { text-align: center; color: #1a365d; font-size: 2.5em; margin-bottom: 10px; 
         <ul>
           <li>가정: 초기자본 <code>1,000,000원</code> · 슬롯 수 = 그날 픽 수 (동적 · 매수 시점에 확정)</li>
           <li>일수익률 = 해당 날짜 픽 평균(시가 청산) · 금액 = 100만원 × 일수익률</li>
-          <li>월·연수익률 = 기간 내 일수익률 단순합(복리 아님) · 금액 = 100만원 × 합</li>
+          <li>월수익률 = 월 1일~선택된 날짜 일수익률 합 · 연수익률 = 연 1월 1일~선택된 날짜 일수익률 합 (복리 아님) · 금액 = 100만원 × 합</li>
         </ul>
       </div>
     </details>
@@ -378,7 +378,7 @@ function latestDayReturn(strategyKey) {
   return null;
 }
 
-function slotPeriod(strategyKey, periodStart) {
+function slotPeriod(strategyKey, periodStart, periodEnd) {
   if (!historyData || !historyData.by_date) return null;
   const dates = Object.keys(historyData.by_date).sort();
   let pctSum = 0;
@@ -386,6 +386,7 @@ function slotPeriod(strategyKey, periodStart) {
   let days = 0;
   for (const d of dates) {
     if (d < periodStart) continue;
+    if (periodEnd && d > periodEnd) continue;
     const r = dayReturnFor(strategyKey, d);
     if (!r) continue;
     pctSum += r.pct;
@@ -404,15 +405,15 @@ function fmtWonSigned(n) {
 function renderCompound(id, strategyKey) {
   const el = document.getElementById(id);
   if (!el) return;
-  const now = new Date();
-  const yyyy = now.getFullYear();
-  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const anchor = selectedDate || (todayData && todayData.date) || null;
+  const yyyy = anchor ? anchor.slice(0, 4) : String(new Date().getFullYear());
+  const mm = anchor ? anchor.slice(5, 7) : String(new Date().getMonth() + 1).padStart(2, '0');
   const monthStart = `${yyyy}-${mm}-01`;
   const yearStart = `${yyyy}-01-01`;
   const dSel = selectedDate ? dayReturnFor(strategyKey, selectedDate) : null;
   const dLatest = !dSel ? latestDayReturn(strategyKey) : null;
-  const m = slotPeriod(strategyKey, monthStart);
-  const y = slotPeriod(strategyKey, yearStart);
+  const m = slotPeriod(strategyKey, monthStart, anchor);
+  const y = slotPeriod(strategyKey, yearStart, anchor);
   const cls = v => v > 0.1 ? 'up' : v < -0.1 ? 'down' : 'flat';
 
   const capSeg =
