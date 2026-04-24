@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T16:00:03",
+  "generated_at": "2026-04-24T16:34:40",
   "dates": [
     "2026-04-23",
     "2026-04-22",
@@ -21,11 +21,11 @@
       "avg_return_open": 0.59
     },
     "hybrid": {
-      "total": 7,
+      "total": 8,
       "correct": 4,
-      "hit_rate": 57.1,
-      "avg_return": 0.56,
-      "avg_return_open": 0.56
+      "hit_rate": 50.0,
+      "avg_return": 0.46,
+      "avg_return_open": 0.46
     }
   },
   "by_date": {
@@ -45,10 +45,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 78 (RSI 66, 5일 -2.2%)",
             "entry_price": 22350.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 22300.0,
+            "return_pct": -0.22,
+            "return_pct_open": -0.22,
+            "correct": 0
           }
         ]
       },
