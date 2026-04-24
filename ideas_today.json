@@ -1,10 +1,10 @@
 {
   "date": "2026-04-24",
-  "generated_at": "2026-04-24T15:10:02",
+  "generated_at": "2026-04-24T16:00:01",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-04-24T15:10:02",
+      "updated_at": "2026-04-24T16:00:01",
       "pick_date": "2026-04-22",
       "count": 3,
       "picks": [
@@ -76,7 +76,7 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-04-24T15:10:02",
+      "updated_at": "2026-04-24T16:00:01",
       "pick_date": "2026-04-23",
       "count": 1,
       "picks": [
@@ -121,36 +121,102 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-04-24T15:10:02",
-      "pick_date": "2026-04-23",
-      "count": 2,
+      "updated_at": "2026-04-24T16:00:01",
+      "pick_date": "2026-04-24",
+      "count": 5,
       "picks": [
         {
-          "stock_code": "046120",
-          "name_kr": "오르비텍",
-          "open_price": 11210,
-          "close_price": 12440,
-          "trade_value": 243436505365,
-          "market_cap": 409639272880,
-          "sector": "일반서비스",
-          "rarity_months": 1,
-          "score": 2.0,
-          "notes": "KOSDAQ | 등락 +13.6% | 턴오버 59.4% | ★ 섹터 대장주"
+          "stock_code": "092220",
+          "name_kr": "KEC",
+          "open_price": 1663,
+          "close_price": 1852,
+          "trade_value": 217046224325,
+          "market_cap": 371813337132,
+          "sector": "전기·전자",
+          "rarity_months": 3,
+          "score": 8.0,
+          "notes": "KOSPI | 등락 +15.7% | 턴오버 58.4%"
         },
         {
-          "stock_code": "097230",
-          "name_kr": "HJ중공업",
-          "open_price": 31150,
-          "close_price": 32850,
-          "trade_value": 268666418225,
-          "market_cap": 2966202050400,
-          "sector": "건설",
+          "stock_code": "209640",
+          "name_kr": "와이제이링크",
+          "open_price": 6910,
+          "close_price": 7590,
+          "trade_value": 238014294745,
+          "market_cap": 215883478140,
+          "sector": "기계·장비",
           "rarity_months": 0,
-          "score": -1.1,
-          "notes": "KOSPI | 등락 +6.0% | 턴오버 9.1% | ★ 섹터 대장주"
+          "score": 3.0,
+          "notes": "KOSDAQ | 등락 +18.8% | 턴오버 110.3% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "036540",
+          "name_kr": "SFA반도체",
+          "open_price": 7900,
+          "close_price": 9780,
+          "trade_value": 411907329655,
+          "market_cap": 1608421763340,
+          "sector": "전기·전자",
+          "rarity_months": 1,
+          "score": 1.6,
+          "notes": "KOSDAQ | 등락 +23.9% | 턴오버 25.6% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "010060",
+          "name_kr": "OCI홀딩스",
+          "open_price": 322000,
+          "close_price": 382000,
+          "trade_value": 459506519500,
+          "market_cap": 7132028624000,
+          "sector": "금융",
+          "rarity_months": 0,
+          "score": -3.4,
+          "notes": "KOSPI | 등락 +18.6% | 턴오버 6.4% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "082740",
+          "name_kr": "한화엔진",
+          "open_price": 71600,
+          "close_price": 75300,
+          "trade_value": 215639621650,
+          "market_cap": 6283569792600,
+          "sector": "기계·장비",
+          "rarity_months": 0,
+          "score": -5.7,
+          "notes": "KOSPI | 등락 +7.4% | 턴오버 3.4%"
         }
       ],
       "watching": [
+        {
+          "ticker": "036540",
+          "name": "SFA반도체",
+          "scan_date": "2026-04-24",
+          "breakout_open": 7900,
+          "breakout_close": 9590,
+          "entry_price": 7505,
+          "stop_loss": 7742,
+          "box_top": 7068,
+          "box_bottom": 6749,
+          "expires_at": "2026-07-23",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리0% 양봉24% | 진입:시가-5% 손절:시가-2%"
+        },
+        {
+          "ticker": "092220",
+          "name": "KEC",
+          "scan_date": "2026-04-24",
+          "breakout_open": 1663,
+          "breakout_close": 1863,
+          "entry_price": 1579,
+          "stop_loss": 1629,
+          "box_top": 1604,
+          "box_bottom": 1423,
+          "expires_at": "2026-07-23",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리1% 양봉11% | 진입:시가-5% 손절:시가-2%"
+        },
         {
           "ticker": "046120",
           "name": "오르비텍",
