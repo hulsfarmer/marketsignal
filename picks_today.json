@@ -1,7 +1,18 @@
 {
   "date": "2026-04-24",
+  "pick_date": "2026-04-23",
   "strategy": "hybrid",
-  "generated_at": "2026-04-24T15:05:01",
-  "count": 0,
-  "picks": []
+  "generated_at": "2026-04-24T16:01:44",
+  "count": 1,
+  "picks": [
+    {
+      "stock_code": "024110",
+      "name_kr": "기업은행",
+      "ms_score": 62,
+      "ai_score": 78,
+      "confidence": "MEDIUM",
+      "reason": "[E] tech 0 / earn 78 (RSI 66, 5일 -2.2%)",
+      "entry_price": 22350.0
+    }
+  ]
 }
