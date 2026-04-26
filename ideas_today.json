@@ -1,11 +1,11 @@
 {
-  "date": "2026-04-24",
-  "generated_at": "2026-04-24T16:34:38",
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T06:30:02",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-04-24T16:34:38",
-      "pick_date": "2026-04-24",
+      "updated_at": "2026-04-27T06:30:02",
+      "pick_date": "2026-04-27",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -48,8 +48,8 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-04-24T16:34:38",
-      "pick_date": "2026-04-24",
+      "updated_at": "2026-04-27T06:30:02",
+      "pick_date": "2026-04-27",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -74,7 +74,7 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-04-24T16:34:38",
+      "updated_at": "2026-04-27T06:30:02",
       "pick_date": "2026-04-24",
       "count": 5,
       "picks": [
