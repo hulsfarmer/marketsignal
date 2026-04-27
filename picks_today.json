@@ -1,7 +1,26 @@
 {
-  "date": "2026-04-24",
+  "date": "2026-04-27",
   "strategy": "hybrid",
-  "generated_at": "2026-04-24T16:29:41",
-  "count": 0,
-  "picks": []
+  "generated_at": "2026-04-27T15:05:01",
+  "count": 2,
+  "picks": [
+    {
+      "stock_code": "024110",
+      "name_kr": "기업은행",
+      "ms_score": 55,
+      "ai_score": 88,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 89 (RSI 68, 5일 -1.1%)",
+      "entry_price": 22350.0
+    },
+    {
+      "stock_code": "000100",
+      "name_kr": "유한양행",
+      "ms_score": 62,
+      "ai_score": 76,
+      "confidence": "MEDIUM",
+      "reason": "[E] tech 0 / earn 76 (RSI 62, 5일 -2.4%)",
+      "entry_price": 94800.0
+    }
+  ]
 }
