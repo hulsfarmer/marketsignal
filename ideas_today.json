@@ -1,10 +1,10 @@
 {
   "date": "2026-04-27",
-  "generated_at": "2026-04-27T15:10:01",
+  "generated_at": "2026-04-27T16:00:01",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-04-27T15:10:01",
+      "updated_at": "2026-04-27T16:00:01",
       "pick_date": "2026-04-27",
       "count": 4,
       "picks": [
@@ -85,7 +85,7 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-04-27T15:10:01",
+      "updated_at": "2026-04-27T16:00:01",
       "pick_date": "2026-04-27",
       "count": 2,
       "picks": [
@@ -130,72 +130,102 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-04-27T15:10:01",
-      "pick_date": "2026-04-24",
+      "updated_at": "2026-04-27T16:00:01",
+      "pick_date": "2026-04-27",
       "count": 5,
       "picks": [
         {
-          "stock_code": "092220",
-          "name_kr": "KEC",
-          "open_price": 1663,
-          "close_price": 1852,
-          "trade_value": 217046224325,
-          "market_cap": 371813337132,
-          "sector": "전기·전자",
+          "stock_code": "030530",
+          "name_kr": "원익홀딩스",
+          "open_price": 32700,
+          "close_price": 35000,
+          "trade_value": 251502774300,
+          "market_cap": 2703329335000,
+          "sector": "화학",
           "rarity_months": 3,
-          "score": 8.0,
-          "notes": "KOSPI | 등락 +15.7% | 턴오버 58.4%"
+          "score": 3.9,
+          "notes": "KOSDAQ | 등락 +9.9% | 턴오버 9.3% | ★ 섹터 대장주"
         },
         {
           "stock_code": "209640",
           "name_kr": "와이제이링크",
-          "open_price": 6910,
-          "close_price": 7590,
-          "trade_value": 238014294745,
-          "market_cap": 215883478140,
+          "open_price": 7860,
+          "close_price": 9330,
+          "trade_value": 220860556665,
+          "market_cap": 265374552180,
           "sector": "기계·장비",
           "rarity_months": 0,
-          "score": 3.0,
-          "notes": "KOSDAQ | 등락 +18.8% | 턴오버 110.3% | ★ 섹터 대장주"
+          "score": 1.0,
+          "notes": "KOSDAQ | 등락 +24.1% | 턴오버 83.2%"
         },
         {
-          "stock_code": "036540",
-          "name_kr": "SFA반도체",
-          "open_price": 7900,
-          "close_price": 9780,
-          "trade_value": 411907329655,
-          "market_cap": 1608421763340,
-          "sector": "전기·전자",
-          "rarity_months": 1,
-          "score": 1.6,
-          "notes": "KOSDAQ | 등락 +23.9% | 턴오버 25.6% | ★ 섹터 대장주"
+          "stock_code": "108490",
+          "name_kr": "로보티즈",
+          "open_price": 301500,
+          "close_price": 343000,
+          "trade_value": 428214096250,
+          "market_cap": 5027360604000,
+          "sector": "기계·장비",
+          "rarity_months": 2,
+          "score": -1.1,
+          "notes": "KOSDAQ | 등락 +17.3% | 턴오버 8.5% | ★ 섹터 대장주"
         },
         {
-          "stock_code": "010060",
-          "name_kr": "OCI홀딩스",
-          "open_price": 322000,
-          "close_price": 382000,
-          "trade_value": 459506519500,
-          "market_cap": 7132028624000,
-          "sector": "금융",
+          "stock_code": "011790",
+          "name_kr": "SKC",
+          "open_price": 118900,
+          "close_price": 123700,
+          "trade_value": 222269131700,
+          "market_cap": 4684308462600,
+          "sector": "화학",
           "rarity_months": 0,
-          "score": -3.4,
-          "notes": "KOSPI | 등락 +18.6% | 턴오버 6.4% | ★ 섹터 대장주"
+          "score": -1.5,
+          "notes": "KOSPI | 등락 +6.5% | 턴오버 4.7%"
         },
         {
-          "stock_code": "082740",
-          "name_kr": "한화엔진",
-          "open_price": 71600,
-          "close_price": 75300,
-          "trade_value": 215639621650,
-          "market_cap": 6283569792600,
+          "stock_code": "222080",
+          "name_kr": "씨아이에스",
+          "open_price": 16720,
+          "close_price": 17050,
+          "trade_value": 230587050930,
+          "market_cap": 1326151455200,
           "sector": "기계·장비",
           "rarity_months": 0,
-          "score": -5.7,
-          "notes": "KOSPI | 등락 +7.4% | 턴오버 3.4%"
+          "score": -4.3,
+          "notes": "KOSDAQ | 등락 +3.4% | 턴오버 17.4%"
         }
       ],
       "watching": [
+        {
+          "ticker": "108490",
+          "name": "로보티즈",
+          "scan_date": "2026-04-27",
+          "breakout_open": 301500,
+          "breakout_close": 347500,
+          "entry_price": 286425,
+          "stop_loss": 295470,
+          "box_top": 265111,
+          "box_bottom": 248166,
+          "expires_at": "2026-07-26",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리3% 양봉14% | 진입:시가-5% 손절:시가-2%"
+        },
+        {
+          "ticker": "209640",
+          "name": "와이제이링크",
+          "scan_date": "2026-04-27",
+          "breakout_open": 7860,
+          "breakout_close": 9100,
+          "entry_price": 7467,
+          "stop_loss": 7702,
+          "box_top": 4822,
+          "box_bottom": 4405,
+          "expires_at": "2026-07-26",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리6% 양봉19% | 진입:시가-5% 손절:시가-2%"
+        },
         {
           "ticker": "036540",
           "name": "SFA반도체",

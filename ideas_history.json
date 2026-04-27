@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T15:10:03",
+  "generated_at": "2026-04-27T16:00:03",
   "dates": [
     "2026-04-27",
     "2026-04-23",
@@ -120,8 +120,69 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "030530",
+            "name_kr": "원익홀딩스",
+            "open_price": 32700,
+            "close_price": 35000,
+            "trade_value": 251502774300,
+            "market_cap": 2703329335000,
+            "sector": "화학",
+            "rarity_months": 3,
+            "score": 3.9,
+            "notes": "KOSDAQ | 등락 +9.9% | 턴오버 9.3% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "209640",
+            "name_kr": "와이제이링크",
+            "open_price": 7860,
+            "close_price": 9330,
+            "trade_value": 220860556665,
+            "market_cap": 265374552180,
+            "sector": "기계·장비",
+            "rarity_months": 0,
+            "score": 1.0,
+            "notes": "KOSDAQ | 등락 +24.1% | 턴오버 83.2%"
+          },
+          {
+            "stock_code": "108490",
+            "name_kr": "로보티즈",
+            "open_price": 301500,
+            "close_price": 343000,
+            "trade_value": 428214096250,
+            "market_cap": 5027360604000,
+            "sector": "기계·장비",
+            "rarity_months": 2,
+            "score": -1.1,
+            "notes": "KOSDAQ | 등락 +17.3% | 턴오버 8.5% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "011790",
+            "name_kr": "SKC",
+            "open_price": 118900,
+            "close_price": 123700,
+            "trade_value": 222269131700,
+            "market_cap": 4684308462600,
+            "sector": "화학",
+            "rarity_months": 0,
+            "score": -1.5,
+            "notes": "KOSPI | 등락 +6.5% | 턴오버 4.7%"
+          },
+          {
+            "stock_code": "222080",
+            "name_kr": "씨아이에스",
+            "open_price": 16720,
+            "close_price": 17050,
+            "trade_value": 230587050930,
+            "market_cap": 1326151455200,
+            "sector": "기계·장비",
+            "rarity_months": 0,
+            "score": -4.3,
+            "notes": "KOSDAQ | 등락 +3.4% | 턴오버 17.4%"
+          }
+        ]
       }
     },
     "2026-04-23": {
