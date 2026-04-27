@@ -159,6 +159,8 @@ const lastUpdate = document.getElementById('lastUpdate');
 
 function esc(s) { return (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
 function nl2br(s) { return esc(s).replace(/\n/g, '<br>'); }
+function stripHtml(s) { return (s||'').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(); }
+function renderSummary(s) { s = s||''; return /<[a-z][^>]*>/i.test(s) ? s : ('<p>' + nl2br(s) + '</p>'); }
 function thumb(yid) { return yid ? `https://img.youtube.com/vi/${encodeURIComponent(yid)}/mqdefault.jpg` : ''; }
 
 function render() {
@@ -186,7 +188,7 @@ function render() {
           <span>${esc(p.uploaded_on || '-')}</span>
         </div>
         <h2 class="card-title">${esc(p.title)}</h2>
-        ${p.summary ? `<p class="card-summary">${esc(p.summary)}</p>` : ''}
+        ${p.summary ? `<p class="card-summary">${esc(stripHtml(p.summary))}</p>` : ''}
         ${p.feedback ? `<div class="card-feedback">💡 ${esc(p.feedback).slice(0, 80)}${p.feedback.length > 80 ? '…' : ''}</div>` : ''}
         <div class="card-footer">
           <span class="card-cta">자세히 보기 →</span>
@@ -233,7 +235,7 @@ function openDetail(id) {
       <a href="${esc(p.youtube_url)}" target="_blank" rel="noopener" class="yt-link">유튜브에서 보기 ↗</a>
     </div>
     <div class="detail-content">
-      ${p.summary ? `<h2>요약</h2><p>${nl2br(p.summary)}</p>` : ''}
+      ${p.summary ? `<h2>요약</h2><div class="summary-html">${renderSummary(p.summary)}</div>` : ''}
       ${p.feedback ? `<h2>피드백 · 투자 시사점</h2><blockquote>${nl2br(p.feedback)}</blockquote>` : ''}
       ${stocksHtml}
       <div class="detail-footer-note">본 요약은 관리자가 직접 정리한 것으로, 투자 자문이 아닙니다. 투자 판단의 책임은 본인에게 있습니다.</div>
