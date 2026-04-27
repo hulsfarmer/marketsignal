@@ -1,10 +1,10 @@
 {
   "date": "2026-04-27",
-  "generated_at": "2026-04-27T06:30:02",
+  "generated_at": "2026-04-27T09:10:01",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-04-27T06:30:02",
+      "updated_at": "2026-04-27T09:10:01",
       "pick_date": "2026-04-27",
       "count": 0,
       "picks": [],
@@ -48,7 +48,7 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-04-27T06:30:02",
+      "updated_at": "2026-04-27T09:10:01",
       "pick_date": "2026-04-27",
       "count": 0,
       "picks": [],
@@ -74,7 +74,7 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-04-27T06:30:02",
+      "updated_at": "2026-04-27T09:10:01",
       "pick_date": "2026-04-24",
       "count": 5,
       "picks": [
@@ -306,21 +306,6 @@
           "memo": "D전략 | 꼬리0% 양봉8% | 진입:시가-5% 손절:시가-2%"
         },
         {
-          "ticker": "037030",
-          "name": "파워넷",
-          "scan_date": "2026-04-14",
-          "breakout_open": 7100,
-          "breakout_close": 8470,
-          "entry_price": 6745,
-          "stop_loss": 6958,
-          "box_top": 4550,
-          "box_bottom": 3937,
-          "expires_at": "2026-07-13",
-          "status": "watching",
-          "is_expired": false,
-          "memo": "D전략 | 꼬리0% 양봉18% | 진입:시가-5% 손절:시가-2%"
-        },
-        {
           "ticker": "432720",
           "name": "퀄리타스반도체",
           "scan_date": "2026-04-14",
@@ -334,6 +319,21 @@
           "status": "watching",
           "is_expired": false,
           "memo": "D전략 | 꼬리5% 양봉26% | 진입:시가-5% 손절:시가-2%"
+        },
+        {
+          "ticker": "037030",
+          "name": "파워넷",
+          "scan_date": "2026-04-14",
+          "breakout_open": 7100,
+          "breakout_close": 8470,
+          "entry_price": 6745,
+          "stop_loss": 6958,
+          "box_top": 4550,
+          "box_bottom": 3937,
+          "expires_at": "2026-07-13",
+          "status": "entered",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리0% 양봉18% | 진입:시가-5% 손절:시가-2%"
         },
         {
           "ticker": "490470",
@@ -384,6 +384,18 @@
       "holding": [],
       "history": [
         {
+          "ticker": "037030",
+          "name": "파워넷",
+          "avg_price": 6110,
+          "sell_price": 6120,
+          "quantity": 245,
+          "buy_date": "2026-04-27",
+          "sell_date": "2026-04-27",
+          "sell_reason": "stop_loss",
+          "pnl_rate": 0.16,
+          "pnl_amount": 2450
+        },
+        {
           "ticker": "069540",
           "name": "빛과전자",
           "avg_price": 4505,
@@ -399,13 +411,13 @@
       "initial_capital": 2000000,
       "slots": 5,
       "slot_size": 400000,
-      "month_return": 4.15,
-      "month_count": 1,
-      "month_pnl": 83000,
+      "month_return": 4.18,
+      "month_count": 2,
+      "month_pnl": 83640,
       "month_start": "2026-04-01",
-      "year_return": 4.15,
-      "year_count": 1,
-      "year_pnl": 83000,
+      "year_return": 4.18,
+      "year_count": 2,
+      "year_pnl": 83640,
       "year_start": "2026-01-01",
       "accuracy": null
     }
