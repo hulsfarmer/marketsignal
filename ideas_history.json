@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T16:00:04",
+  "generated_at": "2026-04-29T06:30:04",
   "dates": [
     "2026-04-28",
     "2026-04-27",
@@ -16,18 +16,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 31,
-      "correct": 17,
-      "hit_rate": 54.8,
-      "avg_return": 0.35,
-      "avg_return_open": 0.59
+      "total": 35,
+      "correct": 18,
+      "hit_rate": 51.4,
+      "avg_return": 0.33,
+      "avg_return_open": 0.45
     },
     "hybrid": {
-      "total": 8,
+      "total": 10,
       "correct": 4,
-      "hit_rate": 50.0,
-      "avg_return": 0.46,
-      "avg_return_open": 0.46
+      "hit_rate": 40.0,
+      "avg_return": 0.23,
+      "avg_return_open": 0.23
     }
   },
   "by_date": {
@@ -175,10 +175,10 @@
             "confidence": "MEDIUM",
             "reason": "배당금 확정과 자사주 소각은 배당_효과 성공 패턴(100% 성공률)과 일치하며, 5일 -4.7% 낙폭으로 호재가 아직 충분히 반영되지 않은 저가 매수 기회입니다. RSI 60으로 과매수 부담이 없고, 외국인 순매수가 수급 측면에서 추가 상승을 뒷받침합니다. 긍정 3건/부정 0건으로 리스크 대비 기대수익이 양호합니다.",
             "entry_price": 16600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 16430.0,
+            "return_pct": -1.02,
+            "return_pct_open": -1.02,
+            "correct": 0
           },
           {
             "stock_code": "012330",
@@ -188,10 +188,10 @@
             "confidence": "MEDIUM",
             "reason": "5000억 자사주 소각이라는 대규모 주주환원 재료와 로보틱스 신사업 성장 동력이 동시에 부각되어 있습니다. 20일 +6.2% 상승이 부담이나, 당일 등락 0%로 추가 과열 징후가 없고 RSI 61로 아직 과매수 영역 진입 전입니다. 긍정 3건/부정 0건의 깨끗한 센티멘트와 배당_효과 패턴 적용 가능성이 있습니다.",
             "entry_price": 422500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 432500.0,
+            "return_pct": 2.37,
+            "return_pct_open": 2.37,
+            "correct": 1
           },
           {
             "stock_code": "251270",
@@ -201,10 +201,10 @@
             "confidence": "LOW",
             "reason": "5일 -2.1% 하락으로 코웨이 장내 매수와 넷마블네오 완전자회사 편입 호재가 아직 주가에 충분히 반영되지 않은 상태로, 실적_반영 패턴과 유사한 저평가 구간입니다. RSI 61로 과매수 부담이 없고 당일 등락 0%로 추가 급등 리스크가 없습니다. 다만 부정 뉴스 1건과 낮은 AI 원점수(55)를 감안해 LOW 신뢰도로 편입합니다.",
             "entry_price": 50400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 50000.0,
+            "return_pct": -0.79,
+            "return_pct_open": -0.79,
+            "correct": 0
           },
           {
             "stock_code": "047050",
@@ -214,10 +214,10 @@
             "confidence": "LOW",
             "reason": "과거 성공 사례(+4.00%, +2.75%, +2.67%)가 반복된 검증된 종목으로 삼성증권 목표가 상향과 국민연금 지분 확대라는 실적_반영 패턴이 유효합니다. 단, 5일 +5.9%, 20일 +7.8%로 호재_선반영 실패 패턴(72% 실패율) 위험이 높아 LOW 신뢰도로 편입하며 소액 비중 권고합니다. RSI 62와 이란 휴전 관련 변동성을 감안한 리스크 관리가 필요합니다.",
             "entry_price": 81300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 81300.0,
+            "return_pct": 0.0,
+            "return_pct_open": 0.0,
+            "correct": 0
           }
         ]
       },
@@ -232,10 +232,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 89 (RSI 68, 5일 -1.1%)",
             "entry_price": 22350.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 22200.0,
+            "return_pct": -0.67,
+            "return_pct_open": -0.67,
+            "correct": 0
           },
           {
             "stock_code": "000100",
@@ -245,10 +245,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 76 (RSI 62, 5일 -2.4%)",
             "entry_price": 94800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 94100.0,
+            "return_pct": -0.74,
+            "return_pct_open": -0.74,
+            "correct": 0
           }
         ]
       },
