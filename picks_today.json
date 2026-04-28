@@ -1,26 +1,53 @@
 {
-  "date": "2026-04-27",
+  "date": "2026-04-28",
   "strategy": "hybrid",
-  "generated_at": "2026-04-27T15:05:01",
-  "count": 2,
+  "generated_at": "2026-04-28T15:05:01",
+  "count": 5,
   "picks": [
+    {
+      "stock_code": "005830",
+      "name_kr": "DB손해보험",
+      "ms_score": 62,
+      "ai_score": 96,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 96 (RSI 54, 5일 +0.3%)",
+      "entry_price": 171300.0
+    },
     {
       "stock_code": "024110",
       "name_kr": "기업은행",
       "ms_score": 55,
-      "ai_score": 88,
+      "ai_score": 84,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 89 (RSI 68, 5일 -1.1%)",
-      "entry_price": 22350.0
+      "reason": "[E] tech 0 / earn 84 (RSI 54, 5일 -1.6%)",
+      "entry_price": 22200.0
     },
     {
       "stock_code": "000100",
       "name_kr": "유한양행",
       "ms_score": 62,
-      "ai_score": 76,
+      "ai_score": 75,
       "confidence": "MEDIUM",
-      "reason": "[E] tech 0 / earn 76 (RSI 62, 5일 -2.4%)",
-      "entry_price": 94800.0
+      "reason": "[T] tech 38 / earn 75 (RSI 50, 5일 -2.5%)",
+      "entry_price": 94100.0
+    },
+    {
+      "stock_code": "316140",
+      "name_kr": "우리금융지주",
+      "ms_score": 58,
+      "ai_score": 66,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 67 / earn 0 (RSI 48, 5일 -7.3%)",
+      "entry_price": 33200.0
+    },
+    {
+      "stock_code": "251270",
+      "name_kr": "넷마블",
+      "ms_score": 58,
+      "ai_score": 28,
+      "confidence": "LOW",
+      "reason": "[T] tech 28 / earn 0 (RSI 48, 5일 -1.2%)",
+      "entry_price": 50000.0
     }
   ]
 }
