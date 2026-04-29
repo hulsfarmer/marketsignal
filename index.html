@@ -112,7 +112,7 @@
         </div>
         <div style="flex:1; min-width:200px; background:#fff5f5; border:2px solid #e53e3e; border-radius:12px; padding:16px; text-align:center;">
             <div style="font-size:0.8em; color:#718096; margin-bottom:4px;">📰 뉴스 분위기</div>
-            <div style="font-size:2.2em; font-weight:800; color:#e53e3e;">40<span style="font-size:0.4em; font-weight:400;">점</span></div>
+            <div style="font-size:2.2em; font-weight:800; color:#e53e3e;">38<span style="font-size:0.4em; font-weight:400;">점</span></div>
             <div style="font-size:1em; font-weight:600; color:#e53e3e;">부정적</div>
             <div style="font-size:0.78em; color:#4a5568; margin-top:3px;">오늘 주요 뉴스 종합</div>
             <div style="margin-top:8px; font-size:0.75em;"><a href="#news" style="color:#e53e3e;">상세 보기 ↓</a></div>
@@ -128,8 +128,8 @@
   <div style="background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
     <canvas id="marketActualChart" height="120"></canvas>
     <div style="margin-top:10px; font-size:0.85em; color:#718096; text-align:right;">
-      코스피 <strong style="color:#e53e3e;">6,641.02</strong> ·
-      나스닥 <strong style="color:#3182ce;">24,887.10</strong>
+      코스피 <strong style="color:#e53e3e;">6,690.90</strong> ·
+      나스닥 <strong style="color:#3182ce;">24,663.80</strong>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -139,11 +139,11 @@
     new Chart(ctx, {
       type: 'line',
       data: {
-        labels: ["2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-28", "2026-03-29", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-03", "2026-04-04", "2026-04-05", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28"],
+        labels: ["2026-03-25", "2026-03-26", "2026-03-27", "2026-03-28", "2026-03-29", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-03", "2026-04-04", "2026-04-05", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29"],
         datasets: [
           {
             label: '코스피',
-            data: [5553.92, 5642.21, 5460.46, 5438.87, 5438.87, 5438.87, 5277.3, 5052.46, 5478.7, 5234.05, 5377.3, 5377.3, 5377.3, 5450.33, 5494.78, 5872.34, 5778.01, 5858.87, 5808.62, 5967.75, 6091.39, 6226.05, 6191.92, 6219.09, 6388.47, 6417.93, 6475.81, 6475.63, 6615.03, 6641.02],
+            data: [5642.21, 5460.46, 5438.87, 5438.87, 5438.87, 5277.3, 5052.46, 5478.7, 5234.05, 5377.3, 5377.3, 5377.3, 5450.33, 5494.78, 5872.34, 5778.01, 5858.87, 5808.62, 5967.75, 6091.39, 6226.05, 6191.92, 6219.09, 6388.47, 6417.93, 6475.81, 6475.63, 6615.03, 6641.02, 6690.9],
             borderColor: '#e53e3e',
             backgroundColor: 'rgba(229,62,62,0.10)',
             borderWidth: 2.5,
@@ -154,7 +154,7 @@
           },
           {
             label: '나스닥',
-            data: [21761.89, 21929.82, 21408.08, 20948.36, null, null, 20794.64, 21590.63, 21840.95, 21879.18, null, null, null, 21996.34, 22017.85, 22634.99, 22822.42, 22902.89, 23183.74, 23639.08, 24016.02, 24102.7, 24468.48, 24404.39, 24259.96, 24657.57, 24438.5, 24438.5, 24836.6, 24887.1],
+            data: [21929.82, 21408.08, 20948.36, null, null, 20794.64, 21590.63, 21840.95, 21879.18, null, null, null, 21996.34, 22017.85, 22634.99, 22822.42, 22902.89, 23183.74, 23639.08, 24016.02, 24102.7, 24468.48, 24404.39, 24259.96, 24657.57, 24438.5, 24438.5, 24836.6, 24887.1, 24663.8],
             borderColor: '#3182ce',
             backgroundColor: 'rgba(49,130,206,0.10)',
             borderWidth: 2.5,
@@ -638,7 +638,7 @@
         <div style="display:flex; gap:12px; align-items:center; font-size:0.9em;">
           <span>시장 <b style="color:#dd6b20;">49점</b></span>
           <span>뉴스 <b style="color:#e53e3e;">40점</b></span>
-          <span><span style="color:#718096;">코스피 0.0%</span></span>
+          <span><span style="color:#e53e3e;">코스피 +0.8%</span></span>
         </div>
       </div>
       <div style="margin-top:10px;">
