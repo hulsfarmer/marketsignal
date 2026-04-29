@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T15:10:04",
+  "generated_at": "2026-04-29T16:00:05",
   "dates": [
     "2026-04-29",
     "2026-04-28",
@@ -122,8 +122,21 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "0011T0",
+            "name_kr": "채비",
+            "open_price": 15250,
+            "close_price": 21300,
+            "trade_value": 2774107750660,
+            "market_cap": 996526464000,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 13.0,
+            "notes": "KOSDAQ | 등락 +73.2% | 턴오버 278.4% | ★ 섹터 대장주"
+          }
+        ]
       }
     },
     "2026-04-28": {
