@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-04-30T09:10:04",
+  "generated_at": "2026-04-30T15:10:04",
   "dates": [
+    "2026-04-30",
     "2026-04-29",
     "2026-04-28",
     "2026-04-27",
@@ -32,6 +33,87 @@
     }
   },
   "by_date": {
+    "2026-04-30": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "032640",
+            "name_kr": "LG유플러스",
+            "ms_score": 62,
+            "ai_score": 72,
+            "confidence": "HIGH",
+            "reason": "RSI 24로 극도의 과매도 구간이며, 5일 -4.1% 낙폭 후 배당금 확정(660원)이라는 주주환원 재료가 아직 주가에 충분히 반영되지 않은 상태입니다. 과거 '기술적_반등' 패턴(100% 성공률)과 RSI 저위험 구간 진입이 동시에 충족되어 단기 반등 가능성이 높습니다. 단, 직전 실패 사례(LG유플러스 -1.02%)를 고려해 비중 조절이 필요합니다.",
+            "entry_price": 16050.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "302440",
+            "name_kr": "SK바이오사이언스",
+            "ms_score": 55,
+            "ai_score": 58,
+            "confidence": "LOW",
+            "reason": "자사주 매입과 RSU 제도 도입은 주가 지지 및 장기 주주가치 제고 신호로, 5일 -1.1% 조정 상태에서 재료가 아직 충분히 반영되지 않았습니다. RSI 58로 과매수 구간 미진입이며 20일 +4.7%의 완만한 상승 추세가 유지되고 있습니다. 다만 뉴스 건수가 적고 모멘텀이 약해 LOW 신뢰도로 소량 진입을 권고합니다.",
+            "entry_price": 43650.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "055550",
+            "name_kr": "신한지주",
+            "ms_score": 62,
+            "ai_score": 99,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 99 (RSI 61, 5일 +0.1%)",
+            "entry_price": 100000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "000100",
+            "name_kr": "유한양행",
+            "ms_score": 62,
+            "ai_score": 84,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 84 (RSI 51, 5일 -1.6%)",
+            "entry_price": 93200.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "352820",
+            "name_kr": "하이브",
+            "ms_score": 58,
+            "ai_score": 75,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 15 / earn 76 (RSI 49, 5일 +2.4%)",
+            "entry_price": 252500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-04-29": {
       "ai": {
         "count": 2,
