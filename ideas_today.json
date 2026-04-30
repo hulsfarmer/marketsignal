@@ -1,10 +1,10 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-04-30T15:10:02",
+  "generated_at": "2026-04-30T16:00:02",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-04-30T15:10:02",
+      "updated_at": "2026-04-30T16:00:02",
       "pick_date": "2026-04-30",
       "count": 2,
       "picks": [
@@ -58,7 +58,7 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-04-30T15:10:02",
+      "updated_at": "2026-04-30T16:00:02",
       "pick_date": "2026-04-30",
       "count": 3,
       "picks": [
@@ -148,24 +148,129 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-04-30T15:10:02",
-      "pick_date": "2026-04-29",
-      "count": 1,
+      "updated_at": "2026-04-30T16:00:02",
+      "pick_date": "2026-04-30",
+      "count": 6,
       "picks": [
         {
-          "stock_code": "0011T0",
-          "name_kr": "채비",
-          "open_price": 15250,
-          "close_price": 21300,
-          "trade_value": 2774107750660,
-          "market_cap": 996526464000,
+          "stock_code": "199820",
+          "name_kr": "제일일렉트릭",
+          "open_price": 16890,
+          "close_price": 17510,
+          "trade_value": 349959228845,
+          "market_cap": 389072200000,
           "sector": "전기·전자",
           "rarity_months": 3,
-          "score": 13.0,
-          "notes": "KOSDAQ | 등락 +73.2% | 턴오버 278.4% | ★ 섹터 대장주"
+          "score": 10.0,
+          "notes": "KOSDAQ | 등락 +5.2% | 턴오버 89.9%"
+        },
+        {
+          "stock_code": "125020",
+          "name_kr": "티씨머티리얼즈",
+          "open_price": 7750,
+          "close_price": 8860,
+          "trade_value": 200794377690,
+          "market_cap": 310441553000,
+          "sector": "전기·전자",
+          "rarity_months": 3,
+          "score": 8.0,
+          "notes": "KOSDAQ | 등락 +21.4% | 턴오버 64.7%"
+        },
+        {
+          "stock_code": "046890",
+          "name_kr": "서울반도체",
+          "open_price": 16000,
+          "close_price": 16250,
+          "trade_value": 216050677545,
+          "market_cap": 947462750000,
+          "sector": "전기·전자",
+          "rarity_months": 3,
+          "score": 5.3,
+          "notes": "KOSDAQ | 등락 +13.5% | 턴오버 22.8%"
+        },
+        {
+          "stock_code": "025860",
+          "name_kr": "남해화학",
+          "open_price": 9590,
+          "close_price": 10880,
+          "trade_value": 399608258010,
+          "market_cap": 540505811840,
+          "sector": "화학",
+          "rarity_months": 0,
+          "score": 5.0,
+          "notes": "KOSPI | 등락 +15.2% | 턴오버 73.9% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "432720",
+          "name_kr": "퀄리타스반도체",
+          "open_price": 22100,
+          "close_price": 24800,
+          "trade_value": 223762454200,
+          "market_cap": 351083977600,
+          "sector": "전기·전자",
+          "rarity_months": 0,
+          "score": 3.0,
+          "notes": "KOSDAQ | 등락 +13.5% | 턴오버 63.7%"
+        },
+        {
+          "stock_code": "062040",
+          "name_kr": "산일전기",
+          "open_price": 222500,
+          "close_price": 268000,
+          "trade_value": 590143695250,
+          "market_cap": 8205047800000,
+          "sector": "전기·전자",
+          "rarity_months": 0,
+          "score": -0.3,
+          "notes": "KOSPI | 등락 +21.3% | 턴오버 7.2% | ★ 섹터 대장주"
         }
       ],
       "watching": [
+        {
+          "ticker": "025860",
+          "name": "남해화학",
+          "scan_date": "2026-04-30",
+          "breakout_open": 9590,
+          "breakout_close": 11850,
+          "entry_price": 9110,
+          "stop_loss": 9398,
+          "box_top": 8896,
+          "box_bottom": 8271,
+          "expires_at": "2026-07-29",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리2% 양봉14% | 진입:시가-5% 손절:시가-2%"
+        },
+        {
+          "ticker": "062040",
+          "name": "산일전기",
+          "scan_date": "2026-04-30",
+          "breakout_open": 222500,
+          "breakout_close": 265500,
+          "entry_price": 211375,
+          "stop_loss": 218050,
+          "box_top": 173483,
+          "box_bottom": 161833,
+          "expires_at": "2026-07-29",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리6% 양봉20% | 진입:시가-5% 손절:시가-2%"
+        },
+        {
+          "ticker": "125020",
+          "name": "티씨머티리얼즈",
+          "scan_date": "2026-04-30",
+          "breakout_open": 7750,
+          "breakout_close": 8450,
+          "entry_price": 7362,
+          "stop_loss": 7595,
+          "box_top": 5519,
+          "box_bottom": 5146,
+          "expires_at": "2026-07-29",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리0% 양봉14% | 진입:시가-5% 손절:시가-2%"
+        },
         {
           "ticker": "241520",
           "name": "DSC인베스트먼트",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T15:10:04",
+  "generated_at": "2026-04-30T16:00:04",
   "dates": [
     "2026-04-30",
     "2026-04-29",
@@ -110,8 +110,81 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 6,
+        "picks": [
+          {
+            "stock_code": "199820",
+            "name_kr": "제일일렉트릭",
+            "open_price": 16890,
+            "close_price": 17510,
+            "trade_value": 349959228845,
+            "market_cap": 389072200000,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 10.0,
+            "notes": "KOSDAQ | 등락 +5.2% | 턴오버 89.9%"
+          },
+          {
+            "stock_code": "125020",
+            "name_kr": "티씨머티리얼즈",
+            "open_price": 7750,
+            "close_price": 8860,
+            "trade_value": 200794377690,
+            "market_cap": 310441553000,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 8.0,
+            "notes": "KOSDAQ | 등락 +21.4% | 턴오버 64.7%"
+          },
+          {
+            "stock_code": "046890",
+            "name_kr": "서울반도체",
+            "open_price": 16000,
+            "close_price": 16250,
+            "trade_value": 216050677545,
+            "market_cap": 947462750000,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 5.3,
+            "notes": "KOSDAQ | 등락 +13.5% | 턴오버 22.8%"
+          },
+          {
+            "stock_code": "025860",
+            "name_kr": "남해화학",
+            "open_price": 9590,
+            "close_price": 10880,
+            "trade_value": 399608258010,
+            "market_cap": 540505811840,
+            "sector": "화학",
+            "rarity_months": 0,
+            "score": 5.0,
+            "notes": "KOSPI | 등락 +15.2% | 턴오버 73.9% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "432720",
+            "name_kr": "퀄리타스반도체",
+            "open_price": 22100,
+            "close_price": 24800,
+            "trade_value": 223762454200,
+            "market_cap": 351083977600,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 3.0,
+            "notes": "KOSDAQ | 등락 +13.5% | 턴오버 63.7%"
+          },
+          {
+            "stock_code": "062040",
+            "name_kr": "산일전기",
+            "open_price": 222500,
+            "close_price": 268000,
+            "trade_value": 590143695250,
+            "market_cap": 8205047800000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": -0.3,
+            "notes": "KOSPI | 등락 +21.3% | 턴오버 7.2% | ★ 섹터 대장주"
+          }
+        ]
       }
     },
     "2026-04-29": {
