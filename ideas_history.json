@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T16:00:04",
+  "generated_at": "2026-05-01T06:30:03",
   "dates": [
     "2026-04-30",
     "2026-04-29",
@@ -18,18 +18,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 37,
+      "total": 39,
       "correct": 20,
-      "hit_rate": 54.1,
-      "avg_return": 0.41,
-      "avg_return_open": 0.63
+      "hit_rate": 51.3,
+      "avg_return": 0.35,
+      "avg_return_open": 0.46
     },
     "hybrid": {
-      "total": 15,
-      "correct": 8,
-      "hit_rate": 53.3,
-      "avg_return": 0.44,
-      "avg_return_open": 0.44
+      "total": 19,
+      "correct": 9,
+      "hit_rate": 47.4,
+      "avg_return": 0.25,
+      "avg_return_open": 0.25
     }
   },
   "by_date": {
@@ -199,10 +199,10 @@
             "confidence": "MEDIUM",
             "reason": "역대 최대 실적(연매출 4조·영업이익 1조)이 컨센서스를 상회하며 실적_반영 패턴(100% 성공률)에 부합합니다. RSI 57로 과열 구간이 아니며 5일 +1.5%로 호재가 아직 완전히 반영되지 않은 상태입니다. 자사주 소각 재료까지 겹쳐 내일 추가 상승 여력이 있습니다.",
             "entry_price": 207000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 204000.0,
+            "return_pct": -1.45,
+            "return_pct_open": -1.45,
+            "correct": 0
           },
           {
             "stock_code": "051900",
@@ -212,10 +212,10 @@
             "confidence": "MEDIUM",
             "reason": "상상인증권 매수 상향과 대표이사 자사주 매수라는 경영진 신뢰 신호가 동시에 발생했습니다. RSI 58로 아직 과열 구간이 아니며 20일 +0.6%로 호재 반영이 제한적입니다. 과거 성공 패턴인 경영진 매수 + 애널리스트 상향 조합이 단기 모멘텀을 제공할 수 있습니다.",
             "entry_price": 255000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 254500.0,
+            "return_pct": -0.2,
+            "return_pct_open": -0.2,
+            "correct": 0
           }
         ]
       },
@@ -230,10 +230,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 94 (RSI 52, 5일 -0.6%)",
             "entry_price": 491500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 483000.0,
+            "return_pct": -1.73,
+            "return_pct_open": -1.73,
+            "correct": 0
           },
           {
             "stock_code": "000100",
@@ -243,10 +243,10 @@
             "confidence": "HIGH",
             "reason": "[E+T] tech 28 / earn 85 (RSI 50, 5일 -1.5%)",
             "entry_price": 93700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 93200.0,
+            "return_pct": -0.53,
+            "return_pct_open": -0.53,
+            "correct": 0
           },
           {
             "stock_code": "352820",
@@ -256,10 +256,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 32 / earn 0 (RSI 45, 5일 -0.6%)",
             "entry_price": 248500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 252500.0,
+            "return_pct": 1.61,
+            "return_pct_open": 1.61,
+            "correct": 1
           },
           {
             "stock_code": "138040",
@@ -269,10 +269,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 22 / earn 0 (RSI 47, 5일 -0.2%)",
             "entry_price": 115300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 113900.0,
+            "return_pct": -1.21,
+            "return_pct_open": -1.21,
+            "correct": 0
           }
         ]
       },
