@@ -1,13 +1,32 @@
 {
   "date": "2026-05-01",
-  "generated_at": "2026-05-01T09:10:02",
+  "generated_at": "2026-05-01T15:10:01",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-01T09:10:02",
+      "updated_at": "2026-05-01T15:10:01",
       "pick_date": "2026-05-01",
-      "count": 0,
-      "picks": [],
+      "count": 2,
+      "picks": [
+        {
+          "stock_code": "259960",
+          "name_kr": "크래프톤",
+          "ms_score": 62,
+          "ai_score": 58,
+          "confidence": "MEDIUM",
+          "reason": "1분기 역대 최대 영업이익(5,616억원, +22.8%)과 자사주 1,000억원 소각이라는 강력한 주주환원 신호가 동시에 발생했습니다. 과거 배당_효과 패턴(100% 성공률)과 유사하며, 게임업계 부정 뉴스로 인한 심리적 할인이 오히려 저가매수 기회를 제공합니다. 다만 RSI 데이터 미확인으로 MEDIUM 신뢰도를 부여합니다.",
+          "entry_price": 0
+        },
+        {
+          "stock_code": "055550",
+          "name_kr": "신한지주",
+          "ms_score": 58,
+          "ai_score": 48,
+          "confidence": "LOW",
+          "reason": "1분기 순이익 컨센서스 상회와 자사주 소각 호재가 존재하나, RSI 60으로 과열 경계권에 위치하고 20일 +8.9% 상승으로 호재 선반영 가능성이 높습니다. 과거 호재_선반영 실패 패턴(75% 실패율)에 해당하며, 국민연금 매각 물량도 부담 요인입니다. 4번째 선정이나 포지션 축소 또는 신중한 접근을 권장합니다.",
+          "entry_price": 99900.0
+        }
+      ],
       "accuracy": {
         "total": 39,
         "correct": 20,
@@ -39,10 +58,29 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-01T09:10:02",
+      "updated_at": "2026-05-01T15:10:01",
       "pick_date": "2026-05-01",
-      "count": 0,
-      "picks": [],
+      "count": 2,
+      "picks": [
+        {
+          "stock_code": "005940",
+          "name_kr": "NH투자증권",
+          "ms_score": 62,
+          "ai_score": 62,
+          "confidence": "MEDIUM",
+          "reason": "[E+T] tech 58 / earn 63 (RSI 47, 5일 -3.7%)",
+          "entry_price": 33650.0
+        },
+        {
+          "stock_code": "029780",
+          "name_kr": "삼성카드",
+          "ms_score": 55,
+          "ai_score": 62,
+          "confidence": "MEDIUM",
+          "reason": "[T] tech 62 / earn 0 (RSI 39, 5일 -2.2%)",
+          "entry_price": 53300.0
+        }
+      ],
       "accuracy": {
         "total": 19,
         "correct": 9,
@@ -92,7 +130,7 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-01T09:10:02",
+      "updated_at": "2026-05-01T15:10:01",
       "pick_date": "2026-04-30",
       "count": 6,
       "picks": [
