@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T15:10:03",
+  "generated_at": "2026-05-01T16:00:04",
   "dates": [
     "2026-05-01",
     "2026-04-30",
@@ -98,8 +98,69 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "025860",
+            "name_kr": "남해화학",
+            "open_price": 9590,
+            "close_price": 11740,
+            "trade_value": 509428622545,
+            "market_cap": 583229616820,
+            "sector": "화학",
+            "rarity_months": 0,
+            "score": 6.0,
+            "notes": "KOSPI | 등락 +24.4% | 턴오버 87.3% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "199820",
+            "name_kr": "제일일렉트릭",
+            "open_price": 16890,
+            "close_price": 17260,
+            "trade_value": 362315213205,
+            "market_cap": 383517200000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 5.0,
+            "notes": "KOSDAQ | 등락 +3.7% | 턴오버 94.5% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "125020",
+            "name_kr": "티씨머티리얼즈",
+            "open_price": 7750,
+            "close_price": 8430,
+            "trade_value": 214537812205,
+            "market_cap": 295374976500,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 3.0,
+            "notes": "KOSDAQ | 등락 +15.5% | 턴오버 72.6%"
+          },
+          {
+            "stock_code": "432720",
+            "name_kr": "퀄리타스반도체",
+            "open_price": 22100,
+            "close_price": 25050,
+            "trade_value": 234195354600,
+            "market_cap": 354623130600,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 1.0,
+            "notes": "KOSDAQ | 등락 +14.7% | 턴오버 66.0%"
+          },
+          {
+            "stock_code": "046890",
+            "name_kr": "서울반도체",
+            "open_price": 16000,
+            "close_price": 16510,
+            "trade_value": 232800391520,
+            "market_cap": 962622154000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 0.4,
+            "notes": "KOSDAQ | 등락 +15.3% | 턴오버 24.2%"
+          }
+        ]
       }
     },
     "2026-04-30": {
