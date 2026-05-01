@@ -1,35 +1,26 @@
 {
-  "date": "2026-04-30",
+  "date": "2026-05-01",
   "strategy": "hybrid",
-  "generated_at": "2026-04-30T15:05:01",
-  "count": 3,
+  "generated_at": "2026-05-01T15:05:01",
+  "count": 2,
   "picks": [
     {
-      "stock_code": "055550",
-      "name_kr": "신한지주",
+      "stock_code": "005940",
+      "name_kr": "NH투자증권",
       "ms_score": 62,
-      "ai_score": 99,
-      "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 99 (RSI 61, 5일 +0.1%)",
-      "entry_price": 100000.0
-    },
-    {
-      "stock_code": "000100",
-      "name_kr": "유한양행",
-      "ms_score": 62,
-      "ai_score": 84,
-      "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 84 (RSI 51, 5일 -1.6%)",
-      "entry_price": 93200.0
-    },
-    {
-      "stock_code": "352820",
-      "name_kr": "하이브",
-      "ms_score": 58,
-      "ai_score": 75,
+      "ai_score": 62,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 15 / earn 76 (RSI 49, 5일 +2.4%)",
-      "entry_price": 252500.0
+      "reason": "[E+T] tech 58 / earn 63 (RSI 47, 5일 -3.7%)",
+      "entry_price": 33650.0
+    },
+    {
+      "stock_code": "029780",
+      "name_kr": "삼성카드",
+      "ms_score": 55,
+      "ai_score": 62,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 62 / earn 0 (RSI 39, 5일 -2.2%)",
+      "entry_price": 53300.0
     }
   ]
 }
