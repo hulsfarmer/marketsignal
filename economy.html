@@ -60,12 +60,9 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
 .card.src-news{border-left-color:var(--src-news)}
 .card.src-youtube{border-left-color:var(--src-youtube)}
 .card-top{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:.78em;color:var(--muted);margin-bottom:6px}
-.imp-badge{font-weight:800;font-size:.95em;color:#fff;padding:1px 8px;border-radius:4px;letter-spacing:-.02em}
+.imp-badge{font-weight:800;font-size:.95em;color:#fff;padding:1px 8px;border-radius:4px;letter-spacing:-.02em;display:inline-flex;align-items:center;gap:3px}
 .imp-9{background:#c53030}.imp-7{background:#dd6b20}.imp-5{background:#3182ce}.imp-3{background:#a0aec0}.imp-0{background:#cbd5e0}
-.dir-badge{font-weight:700;font-size:.82em;padding:1px 7px;border-radius:4px;letter-spacing:-.02em}
-.dir-up{background:#fed7d7;color:#c53030}
-.dir-down{background:#c6f6d5;color:#22543d}
-.dir-neutral{background:#edf2f7;color:#718096}
+.dir-arrow{font-size:.85em;font-weight:700;opacity:.95}
 .src-label{font-weight:700;padding:1px 7px;border-radius:4px;font-size:.74em}
 .src-label.src-disclosure{background:#fff5f5;color:var(--src-disclosure)}
 .src-label.src-report{background:#ebf8ff;color:var(--src-report)}
@@ -267,7 +264,7 @@ function esc(s){return(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'
 function nl2br(s){return esc(s).replace(/\n/g,'<br>')}
 function stripHtml(s){return(s||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()}
 function impClass(s){const n=s==null?5:s;return n>=9?'imp-9':n>=7?'imp-7':n>=5?'imp-5':n>=3?'imp-3':'imp-0'}
-function dirBadge(d){if(d==='up')return '<span class="dir-badge dir-up">🔼 호재</span>';if(d==='down')return '<span class="dir-badge dir-down">🔽 악재</span>';if(d==='neutral')return '<span class="dir-badge dir-neutral">— 중립</span>';return '';}
+function dirArrow(d){if(d==='up')return '<span class="dir-arrow">▲</span>';if(d==='down')return '<span class="dir-arrow">▼</span>';return '';}
 
 function cardHtml(p){
   const sc=p.impact_score==null?5:p.impact_score;
@@ -279,8 +276,7 @@ function cardHtml(p){
   }).join('');
   return `<article class="card src-${src}" data-id="${p.id}">
     <div class="card-top">
-      <span class="imp-badge ${impClass(sc)}">★ ${sc}</span>
-      ${dirBadge(p.direction)}
+      <span class="imp-badge ${impClass(sc)}">★${sc}${dirArrow(p.direction)}</span>
       <span class="src-label src-${src}">${SRC_LABEL[src]||src}</span>
       <span class="cat-tag">${esc(p.category)}</span>
       ${p.uploaded_on?'<span>'+esc(p.uploaded_on)+'</span>':''}
