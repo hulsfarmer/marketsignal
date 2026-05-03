@@ -153,14 +153,23 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
     </div>
   </div>
 
-  <!-- 오늘 핵심 -->
+  <!-- 강한 시그널 (★≥7) -->
   <div class="section">
     <div class="section-head">
-      <div class="section-title">🚨 오늘 핵심</div>
+      <div class="section-title">🚨 강한 시그널</div>
       <div class="section-count">임팩트 7+ · <span id="topCount">0</span>건</div>
     </div>
     <div class="cards" id="topCards"></div>
     <div class="section-empty" id="topEmpty" style="display:none">오늘 임팩트 7+ 자료가 없습니다</div>
+  </div>
+
+  <!-- 주목 (★=6) -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-title">🔥 주목</div>
+      <div class="section-count">임팩트 6 · <span id="watchCount">0</span>건</div>
+    </div>
+    <div class="cards" id="watchCards"></div>
   </div>
 
   <!-- 내 종목 -->
@@ -183,6 +192,15 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
       <div class="section-count"><span id="macroCount">0</span>건</div>
     </div>
     <div class="cards" id="macroCards"></div>
+  </div>
+
+  <!-- 오늘의 공시 (DART) -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-title">📋 오늘의 공시</div>
+      <div class="section-count">DART · <span id="discCount">0</span>건</div>
+    </div>
+    <div class="cards" id="discCards"></div>
   </div>
 
   <!-- 산업·종목 -->
@@ -347,11 +365,18 @@ function applyFilter(post){
 }
 
 function renderTop(){
-  const items=POSTS.filter(p=>(p.impact_score||5)>=7).filter(applyFilter).slice(0,8);
+  const items=POSTS.filter(p=>(p.impact_score||5)>=7).filter(applyFilter).slice(0,12);
   $('topCount').textContent=items.length;
   $('topCards').innerHTML=items.map(cardHtml).join('');
   $('topEmpty').style.display=items.length?'none':'block';
   bindCards($('topCards'));
+}
+
+function renderWatch(){
+  const items=POSTS.filter(p=>(p.impact_score||5)===6).filter(applyFilter).slice(0,12);
+  $('watchCount').textContent=items.length;
+  $('watchCards').innerHTML=items.map(cardHtml).join('');
+  bindCards($('watchCards'));
 }
 
 function renderMacro(){
@@ -361,8 +386,15 @@ function renderMacro(){
   bindCards($('macroCards'));
 }
 
+function renderDisc(){
+  const items=POSTS.filter(p=>(p.source_type||'')==='disclosure').filter(applyFilter).slice(0,30);
+  $('discCount').textContent=items.length;
+  $('discCards').innerHTML=items.map(cardHtml).join('');
+  bindCards($('discCards'));
+}
+
 function renderStock(){
-  const items=POSTS.filter(p=>p.category==='주식').filter(applyFilter).slice(0,16);
+  const items=POSTS.filter(p=>p.category==='주식').filter(applyFilter).slice(0,30);
   $('stockCount').textContent=items.length;
   $('stockCards').innerHTML=items.map(cardHtml).join('');
   bindCards($('stockCards'));
@@ -398,7 +430,7 @@ function renderFav(){
   list.innerHTML=rows;
 }
 
-function renderAllSections(){renderTop();renderMacro();renderStock();renderAll();renderFav()}
+function renderAllSections(){renderTop();renderWatch();renderMacro();renderDisc();renderStock();renderAll();renderFav()}
 
 // Chip filter binding
 $('chips').querySelectorAll('.chip').forEach(c=>{
