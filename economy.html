@@ -144,7 +144,6 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
       <button class="chip" data-filter="cat:주식">주식</button>
       <button class="chip" data-filter="src:disclosure">🟥 공시</button>
       <button class="chip" data-filter="src:report">🟦 리포트</button>
-      <button class="chip" data-filter="src:conf_call">🟪 컨콜</button>
       <button class="chip" data-filter="src:news">🟢 뉴스</button>
       <button class="chip" data-filter="imp:7">🔥 임팩트 7+</button>
       <button class="chip" data-filter="dir:up">🔼 호재</button>
@@ -264,7 +263,7 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
 <script>
 const FEED='economy_direction.json';
 const $=id=>document.getElementById(id);
-const SRC_LABEL={youtube:'유튜브',report:'리포트',disclosure:'공시',conf_call:'컨콜',news:'뉴스'};
+const SRC_LABEL={youtube:'유튜브',report:'리포트',disclosure:'공시',news:'뉴스'};
 const FAV_KEY='ms_fav_stocks_v1';
 
 let POSTS=[]; let EVENTS=[]; let activeFilter='all'; let searchTerm='';
