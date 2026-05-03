@@ -81,6 +81,9 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
 .mystock-row:hover{background:#fffaf0}
 .mystock-name{font-weight:700;color:var(--navy)}
 .mystock-count{font-size:.82em;color:var(--muted)}
+.mystock-right{display:flex;align-items:center;gap:10px}
+.mystock-del{background:none;border:none;color:#a0aec0;font-size:1.1em;cursor:pointer;padding:2px 6px;border-radius:4px}
+.mystock-del:hover{background:#fed7d7;color:#c53030}
 .mystock-count strong{color:var(--src-disclosure);font-weight:700}
 .mystock-add{display:flex;gap:6px;margin-top:8px}
 .mystock-add input{flex:1;padding:7px 10px;border:1px solid var(--border);border-radius:6px;font-size:.9em}
@@ -348,7 +351,11 @@ function favStock(name){
 }
 
 function closeOverlay(id){$(id).classList.remove('open');document.body.style.overflow=''}
-window.openStock=openStock;window.closeOverlay=closeOverlay;window.favStock=favStock;
+function removeFav(name){
+  setFav(getFav().filter(s=>s!==name));
+  renderFav();renderAllSections();
+}
+window.openStock=openStock;window.closeOverlay=closeOverlay;window.favStock=favStock;window.removeFav=removeFav;
 
 function applyFilter(post){
   const term=searchTerm.trim().toLowerCase();
@@ -423,7 +430,10 @@ function renderFav(){
     const newCount=matches.filter(p=>(p.impact_score||5)>=7).length;
     return `<div class="mystock-row" onclick="openStock('${esc(name)}')">
       <div><span class="mystock-name">${esc(name)}</span></div>
-      <div class="mystock-count">${matches.length}건${newCount>0?' · <strong>임팩트 '+newCount+'</strong>':''}</div>
+      <div class="mystock-right">
+        <span class="mystock-count">${matches.length}건${newCount>0?' · <strong>임팩트 '+newCount+'</strong>':''}</span>
+        <button class="mystock-del" onclick="event.stopPropagation();removeFav('${esc(name)}')" title="삭제">×</button>
+      </div>
     </div>`;
   }).join('');
   $('favCount').textContent=fav.length+'개';
@@ -451,7 +461,8 @@ $('search').addEventListener('input',e=>{
 
 // Add fav
 $('favAdd').addEventListener('click',()=>{
-  const v=$('favInput').value.trim();if(!v)return;
+  const v=$('favInput').value.trim();
+  if(v.length<2){$('favInput').value='';return;}
   const f=getFav();if(!f.includes(v)){f.push(v);setFav(f)}
   $('favInput').value='';renderFav();renderAllSections();
 });
