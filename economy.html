@@ -86,6 +86,12 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
 .mystock-del{background:none;border:none;color:#a0aec0;font-size:1.1em;cursor:pointer;padding:2px 6px;border-radius:4px}
 .mystock-del:hover{background:#fed7d7;color:#c53030}
 .mystock-count strong{color:var(--src-disclosure);font-weight:700}
+.evt-row{display:flex;align-items:center;gap:12px;padding:8px 14px;background:var(--card);border-radius:8px;margin-bottom:5px;font-size:.9em;border-left:3px solid #4299e1;cursor:pointer}
+.evt-row:hover{background:#ebf8ff}
+.evt-dday{min-width:48px;font-weight:800;color:#2b6cb0;font-size:.92em}
+.evt-date{color:#718096;font-size:.85em;min-width:74px}
+.evt-name{font-weight:700;color:var(--navy);min-width:90px}
+.evt-type{color:#4a5568;flex:1}
 .mystock-add{display:flex;gap:6px;margin-top:8px}
 .mystock-add input{flex:1;padding:7px 10px;border:1px solid var(--border);border-radius:6px;font-size:.9em}
 .mystock-add button{background:var(--primary);color:#fff;border:none;padding:7px 14px;border-radius:6px;font-size:.85em;font-weight:600;cursor:pointer}
@@ -182,6 +188,16 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
     <div class="section-empty" id="topEmpty" style="display:none">오늘 임팩트 7+ 자료가 없습니다</div>
   </div>
 
+  <!-- 다가오는 일정 (D-30) -->
+  <div class="section topical">
+    <div class="section-head">
+      <div class="section-title">📅 다가오는 일정</div>
+      <div class="section-count">D-30 · <span id="evtCount">0</span>건</div>
+    </div>
+    <div id="evtList"></div>
+    <div class="section-empty" id="evtEmpty" style="display:none">예정 이벤트가 아직 수집되지 않았습니다</div>
+  </div>
+
   <!-- 주목 (★=6) -->
   <div class="section topical">
     <div class="section-head">
@@ -254,7 +270,7 @@ const $=id=>document.getElementById(id);
 const SRC_LABEL={youtube:'유튜브',report:'리포트',disclosure:'공시',conf_call:'컨콜',news:'뉴스'};
 const FAV_KEY='ms_fav_stocks_v1';
 
-let POSTS=[]; let activeFilter='all'; let searchTerm='';
+let POSTS=[]; let EVENTS=[]; let activeFilter='all'; let searchTerm='';
 
 function getFav(){try{return JSON.parse(localStorage.getItem(FAV_KEY)||'[]')}catch{return[]}}
 function setFav(arr){localStorage.setItem(FAV_KEY,JSON.stringify(arr))}
@@ -445,12 +461,36 @@ function renderFav(){
   list.innerHTML=rows;
 }
 
+function renderEvents(){
+  const fav=getFav();
+  const today=new Date(); today.setHours(0,0,0,0);
+  const items=EVENTS.filter(e=>{
+    if(activeFilter==='fav'&&!fav.includes(e.stock_name))return false;
+    return true;
+  }).slice(0,30);
+  $('evtCount').textContent=items.length;
+  const list=$('evtList');
+  if(!items.length){$('evtEmpty').style.display='block';list.innerHTML='';return}
+  $('evtEmpty').style.display='none';
+  list.innerHTML=items.map(e=>{
+    const d=new Date(e.event_date+'T00:00:00');
+    const dd=Math.round((d-today)/86400000);
+    const ddLabel=dd===0?'D-DAY':(dd>0?'D-'+dd:'D+'+(-dd));
+    return `<div class="evt-row" onclick="openStock('${esc(e.stock_name)}')">
+      <span class="evt-dday">${ddLabel}</span>
+      <span class="evt-date">${esc(e.event_date)}</span>
+      <span class="evt-name">${esc(e.stock_name)}</span>
+      <span class="evt-type">${esc(e.event_type)}</span>
+    </div>`;
+  }).join('');
+}
+
 function renderAllSections(){
   const favMode=activeFilter==='fav';
   $('favSection').style.display=favMode?'block':'none';
   document.querySelectorAll('.section.topical').forEach(el=>{el.style.display=favMode?'none':'block'});
-  if(favMode){renderFav();renderAll();return}
-  renderTop();renderWatch();renderMacro();renderDisc();renderStock();renderAll();
+  if(favMode){renderFav();renderEvents();renderAll();return}
+  renderTop();renderEvents();renderWatch();renderMacro();renderDisc();renderStock();renderAll();
 }
 
 // Chip filter binding
@@ -490,7 +530,7 @@ document.addEventListener('keydown',e=>{
 // Load
 fetch(FEED,{cache:'no-store'})
   .then(r=>r.json())
-  .then(data=>{POSTS=data.posts||[];renderAllSections()})
+  .then(data=>{POSTS=data.posts||[];EVENTS=data.events||[];renderAllSections()})
   .catch(err=>{
     document.querySelectorAll('.cards').forEach(c=>c.innerHTML='<div class="section-empty">데이터 로드 실패</div>');
     console.error(err);
