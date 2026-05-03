@@ -142,6 +142,8 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
       <button class="chip active" data-filter="all">전체</button>
       <button class="chip" data-filter="cat:거시">거시</button>
       <button class="chip" data-filter="cat:주식">주식</button>
+      <button class="chip" data-filter="cat:부동산">부동산</button>
+      <button class="chip" data-filter="cat:채권">채권</button>
       <button class="chip" data-filter="src:disclosure">🟥 공시</button>
       <button class="chip" data-filter="src:report">🟦 리포트</button>
       <button class="chip" data-filter="src:conf_call">🟪 컨콜</button>
