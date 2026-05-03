@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T03:05:01",
-  "count": 244,
+  "generated_at": "2026-05-04T03:08:39",
+  "count": 269,
   "posts": [
     {
       "id": 735,
@@ -130,6 +130,33 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 779,
+      "title": "OPEC 회원국 중 한 국가의 이탈로 석유수급 구조가 변화하고 있으며, 이는 유가 변동성 확대와 에너지 기업들의 수익성에 영향을 미칠 전망. 한국의 석유정제·화학업체들의 원가 구조 및 마진율 변동에 직결되는 이슈.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-02",
+      "summary": "<p>OPEC 회원국 중 한 국가의 이탈로 석유수급 구조가 변화하고 있으며, 이는 유가 변동성 확대와 에너지 기업들의 수익성에 영향을 미칠 전망. 한국의 석유정제·화학업체들의 원가 구조 및 마진율 변동에 직결되는 이슈.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Week in Review: OPEC minus one Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "OPEC 이탈은 국제유가 변동성을 확대시켜 한국 정유·석화 기업의 마진율과 수익성에 직접적 영향을 미치는 의미 있는 에너지 매크로 변화",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ0ZndVVGdTVhdldFSV9tenlGWHhJalh3SU1sbk1ORGk5MzFWbFBaSDBFX0JJUERxUEhyOVZiRmM3dm9nd0NMdjJXMnJFN1o1enhHZzZxVUp3NFJ3azVIaEZfcHFpck5lOUx3dGpGeThtNFVaWF9TZmlzenZ3NjM0LW15UHpLWDdCVUNUM2loT25ieEpIN1E?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:08:38"
+    },
+    {
       "id": 721,
       "title": "Fed 고위험 Goolsbee 부의장이 최근 인플레이션 데이터를 '나쁜 뉴스'로 평가했으며, 이는 Fed의 금리 인하 시기 지연 가능성을 시사. USD/KRW 강세 지속 및 한국 수출주(반도체, 자동차) 실적 악화 우려로 이어질 수 있음.",
       "category": "거시",
@@ -242,6 +269,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQVFadWV1VEhlZjF3cnNFdHpJZUMxWUdhTXdVYjZ4X3lycXE2b0gzTWpJSi1URTI1cUhqcG1uY2ZuR0Njc0s3ZDJpNkZYSG03SVZwZGozLU1sMGhoOW52d0xiWWtMOW1Sa3BKTEtuX0NYLUxBb2JmUF9iR3BsYnJUWGpwcDRaWWNtb3ppdUpKRnNiRU41V1VXZGs0b1ZOdlowZEtGYjVhUFpQY1o3Zk54cEU3X2tELTVDZnc?oc=5",
       "direction": "up",
       "updated_at": "2026-05-03 22:13:56"
+    },
+    {
+      "id": 757,
+      "title": "SanDisk, Western Digital, Seagate 등 주요 스토리지 업체들이 AI 데이터센터 수요 강세를 시사. 한국의 SK하이닉스·삼성전자 등 메모리/스토리지 공급업체에 긍정적 시장 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>SanDisk, Western Digital, Seagate 등 주요 스토리지 업체들이 AI 데이터센터 수요 강세를 시사. 한국의 SK하이닉스·삼성전자 등 메모리/스토리지 공급업체에 긍정적 시장 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Sandisk joins Western Digital, Seagate in signaling strong AI storage demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 인프라 수요 확대는 한국 메모리·반도체 업체의 주요 성장 기회 영역이며, 글로벌 스토리지 업체들의 강세 신호는 공급망 전반의 수요 확대를 의미",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVk9WM0NFMUdRa19kelhOQl9udlFCV3lybzVfNmtYTzNQbnQyZHlyajFOZHM1WXZpcFczSjJiejRqaXA2bm9sWF9TSEtUMjk0dml3WkpvLVRVY295RmNxdHJvczBiOU93TzdmRk45TTVDYVVjbzRYdG0xQ3h3U1R5VHJlblpvNThSX0pBV1JBMzhULTR0WUhXSmZMU0hwLVF0Q1I4VjlrX193b0laUnpFYTl5VUVFYmYz?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-04 03:07:11"
     },
     {
       "id": 751,
@@ -409,6 +463,34 @@
       "updated_at": "2026-05-03 22:12:56"
     },
     {
+      "id": 778,
+      "title": "파월 연방준비제도이사회 의장 임기 종료 시점에 기준금리 동결 결정, 매파적 성향의 연준 인사들의 영향력 증대. 향후 금리 인상 가능성 시사로 USD/KRW 강세 압력 및 한국 수출주 약세 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-29",
+      "summary": "<p>파월 연방준비제도이사회 의장 임기 종료 시점에 기준금리 동결 결정, 매파적 성향의 연준 인사들의 영향력 증대. 향후 금리 인상 가능성 시사로 USD/KRW 강세 압력 및 한국 수출주 약세 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Powell era ends with rates on hold, Fed hawks on the rise and a vow to keep governor&#x27;s seat warm Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 정책 기조 변화는 환율·채권금리·외국인 자금흐름에 직접 영향을 미치며, 매파 노선 강화는 달러 강세→원화 약세→수출주 부담",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "대형 수출주",
+        "금융주 (금리 상승 수혜)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYTE2dHRRUFRZX2pNc0IxanRJTExxV2NKRFlNRkVFQ3hBNHhxVkVDbHpRWTNpRTB6ejh5M0hxanFQTzc3MTZlMXhYNVJRd2hqcjNFQW0wZlFOQzN5LUJ3bG44bUxGa09UaGpVRV9xVWdBVjVlVkl5MF94cHFqa3V3R2NJcGNyb3FvLTUzYnkzOEE1YTNTaFhINEMyeVlhS3FDTHl2YTVBcDZaZU81dVE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:08:33"
+    },
+    {
       "id": 748,
       "title": "연방준비제도가 기준금리를 동결하면서 달러화가 강세를 보였고, 엔화가 160엔/달러를 넘어 약세를 기록했다. 이는 USD/KRW 환율 상승 압력과 한국 수출기업의 환율 악화를 초래할 수 있다.",
       "category": "거시",
@@ -542,6 +624,33 @@
       "updated_at": "2026-05-03 22:13:41"
     },
     {
+      "id": 758,
+      "title": "반도체 검사 장비 주요 업체인 Teradyne이 분기별 매출과 이익의 순차 감소를 예측하며 주가 하락. AI/반도체 경기 둔화 신호로 HBM, 메모리 수요 약화 우려 확산.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-28",
+      "summary": "<p>반도체 검사 장비 주요 업체인 Teradyne이 분기별 매출과 이익의 순차 감소를 예측하며 주가 하락. AI/반도체 경기 둔화 신호로 HBM, 메모리 수요 약화 우려 확산.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Teradyne forecasts sequential decline in quarterly revenue and profit, shares fall Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "반도체 검사 장비 업체의 약한 실적 전망은 한국 반도체 업체들의 향후 수요 부진 신호로 작용하며 특히 메모리·파운드리 경기 사이클 악화 가능성 시사",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbDVjZzJwakVRb1F4S0JmUlF5Zk1qWU1PUjJINGdydmZMUkpYRVBvSXVLbk9FZHU4TlZJaE5wWG81Szd1U2FQeE9sb1VkaTZNZVpIR1h1b1hoYmU1SFNlcXJHWUJUYm9ZeEppZnV4cTNnX01GdFg5TGp5TFQxYi11aG9jLVB3bGtVVy1kelYtNXp5ZWQzbmlRY2YwNUx6a3BWSFdTcE9WYVhmZUJGQ0EycW1OWlJMTHR3S2Y5V1pn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:07:15"
+    },
+    {
       "id": 711,
       "title": "미국이 중국 2위 반도체 기업 화홍반도체에 대한 칩 장비 수출을 제한하는 행정명령을 내렸다. 이는 중국 반도체 자립화 지연을 의도한 조치로, 한국 메모리/파운드리 기업들의 경쟁 우위 강화에 긍정적 신호다.",
       "category": "주식",
@@ -595,6 +704,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaVRoN1VGQ2Y5SDlHTUUxTnBtR3VVY0loMlJZQVh5ck15N2x5LWxVNkstWkw5eGNFTjJlOGZmUDZaSnAzb1dxanZDWW9XVDdTWnhiczNzTjBqNFhCbm13OGl5M2JYYl9md1Z4VUhjbXVsNnBoUTNQb0R0dVNqYkcwazJaNVBXMi1DU08ycy1qSkt3RlQ4a1lYR2RYczBOdw?oc=5",
       "direction": "down",
       "updated_at": "2026-05-03 22:14:49"
+    },
+    {
+      "id": 762,
+      "title": "중국이 미국과의 무역 휴전 기간 동안 경제 정책 도구를 확대하고 있으며, 이는 반도체·AI 등 첨단산업 경쟁 심화로 이어질 수 있다. 한국 반도체 기업들의 중국 시장 경쟁 압력 증가 및 수출 구조 변화 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-26",
+      "summary": "<p>중국이 미국과의 무역 휴전 기간 동안 경제 정책 도구를 확대하고 있으며, 이는 반도체·AI 등 첨단산업 경쟁 심화로 이어질 수 있다. 한국 반도체 기업들의 중국 시장 경쟁 압력 증가 및 수출 구조 변화 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): How China has expanded its economic toolkit during its trade truce with the US Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국의 경제정책 확대는 한국 반도체(HBM·메모리·파운드리) 기업들의 중국 시장 경쟁 심화 및 공급망 구도 변화를 초래할 수 있는 주요 거시 변수",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHpzZkd1ZFJRYnliTmJJVE1faWpRN1I4YzVzWG9YeDlfbS1zQVBEOU01MlFSTHhZY05zRk1JNk80SmZkTWZLek5BM09YS0hWQll3NHVnMTBVU05oX3NmX2xCLWNvMndvYk1tMkg4enNqUnMzT2tUWlFnY1dZN1M5UG9FN1ZIR3VLcTlaZzcyZlBfUHg3OUhxRGh6a2xwNm50OVh3S21Ca1JpUEtUcmx3QUxIYkN1U1E0aHVFaWdTUQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:07:28"
     },
     {
       "id": 726,
@@ -1351,6 +1487,33 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 771,
+      "title": "Fed의 Barr 부의장이 민간신용(Private Credit) 시장의 스트레스가 '심리적 전염'을 촉발할 수 있다고 경고. 글로벌 금융시장 불안정성 우려로 USD/KRW 환율 상승 압력, 한국 외국인 자금 유출 가능성 존재.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-03",
+      "summary": "<p>Fed의 Barr 부의장이 민간신용(Private Credit) 시장의 스트레스가 '심리적 전염'을 촉발할 수 있다고 경고. 글로벌 금융시장 불안정성 우려로 USD/KRW 환율 상승 압력, 한국 외국인 자금 유출 가능성 존재.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Stress in private credit could spark &#x27;psychological contagion,&#x27; Fed&#x27;s Barr tells Bloomberg News Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "민간신용 시장 우려는 글로벌 금융 스트레스로 이어져 원화 약세·외국인 자금 이탈 유발 가능성 있으나, 직접적인 한국 기업 영향은 제한적",
+      "stocks": [
+        "금융주(KB금융",
+        "삼성금융지주)",
+        "수출주(반도체",
+        "자동차)",
+        "고배당주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdUtueUN5NV9uVU41MU1LWXBqTU9CMTdjU1pvMWVQRHFuZEU4WGlHQWJpM1RFTFAzb01KNGg5Z2pwN1BMR3RLcXdWUTJ3RXA4c0VJNjkxSGlURi10cVptVlN6YXc4bHZRdkw2SnVxOFpfcWlidlNBUUg2ckRDanlVTUNEN3FkMFJMN3FRYi02Z0psTUlxc3pyOURLY25WMGNzVWFfZUJDU212SWFiMlN1aUFvQlR6czJtbldtMGFlYW9ZazFY?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:08:07"
+    },
+    {
       "id": 729,
       "title": "OPEC+가 호르무즈 해협 폐쇄 이후 세 번째 석유 감산 합의를 철회하고 증산 쿼터를 올리기로 결정했으며, 이는 국제유가 하락 압력으로 작용할 것으로 예상된다.",
       "category": "거시",
@@ -1429,6 +1592,85 @@
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaUNrbk1aeXBSM2cxc1d0TW1vXzYtRFFTejVKSnBhTFpuV3RFM3lPaFZqNnpSWGhnRll5eUZTbGJpd2xMeWV6VzZEUzlnSjlZV3UxaVkzSmVRQkpsdU93ZWhlZnYyb2tTV192QlNpaEhNc3VuSVUyYXN4c3R5cGxPTWlxdzVwOVhDbktDcnlNZHdvZ3o0TkV2dktKY2t0S0x0VVRiUF9CTFI4TTJvWF9BR2JlRQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-03 22:13:00"
+    },
+    {
+      "id": 776,
+      "title": "미국 경제성장이 가속화되고 PCE 인플레이션이 예상치 부합 수준으로 나타났습니다. 이는 Fed의 금리 인상 압력을 완화할 가능성이 있으며, 달러 강세와 한국 수출주 약세로 이어질 수 있습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>미국 경제성장이 가속화되고 PCE 인플레이션이 예상치 부합 수준으로 나타났습니다. 이는 Fed의 금리 인상 압력을 완화할 가능성이 있으며, 달러 강세와 한국 수출주 약세로 이어질 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): VIEW US growth picks up; PCE inflation is higher but in line with expectations Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 매크로 데이터는 원달러 환율과 외국인 자금 흐름에 영향을 주지만, 시장 예상 범위 내의 발표로 즉각적 충격은 제한적",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "현대차",
+        "LG화학"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb2tsZXVjUkwwMjQteDNNb3NZWXJ0NjZlQmhydFdJa2VsTWR1ZjJlR0Z1STlIQmwtQUhYOHgxQkFweGtKaGMtcVZWNDhjR25aYlJSeGdScWV5RGIxZ1Z3R09jRFg5bUtEeEJtN3JQYVMzUmpuTzZwVGVuQkZmRE5BYkZjUmhudVhOY3dfZXl5b2NWX3Jkd01FTG52bEVZNUp5X09qMlZKY0YtSEd2VGE0TVV1TFB3YWxk?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:08:25"
+    },
+    {
+      "id": 760,
+      "title": "퀄컴이 스마트폰·AI칩 낙관론으로 주가 상승했으나 부진한 전망을 제시. 한국 메모리·파운드리 기업들의 AI칩 수요 전망에 긍정 신호 vs 경쟁 심화 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>퀄컴이 스마트폰·AI칩 낙관론으로 주가 상승했으나 부진한 전망을 제시. 한국 메모리·파운드리 기업들의 AI칩 수요 전망에 긍정 신호 vs 경쟁 심화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Qualcomm jumps as optimism on smartphones, AI chips outweigh dismal forecast Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI/스마트폰 반도체 시장의 중요 신호지만, 퀄컴의 이중적 신호로 한국 종목(HBM, 파운드리)에 미치는 영향은 제한적·모호함.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOXJveVVDYURoUGxTZ2ZqcHc2R191RUprVnBuTzR6TXl0bjdTYmhKMmJYT0VUSGpDRy1IalBUNzcwMHA3aDJHejJUTURwRGNZa3Zqbm1HZUM5bmpJSF9JQ0pMN3JVcWRfS0JGY2ktMWNlakhOWUNyd1MwUUxHaHAxYWpkNDhlTTVXU1RjSE5wRmsyb29qUXRaeTlJT3dYVlZ5MmZkVDBIb2pTOWp0dFBEZ2JGTW0tQkstOVhFWA?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:07:21"
+    },
+    {
+      "id": 759,
+      "title": "대만 MediaTek이 AI 메가트렌드의 지속성을 확인했으며, 이는 HBM, 메모리 수요 증가로 SK하이닉스와 삼성전자 등 한국 반도체 기업의 호재로 작용할 전망",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>대만 MediaTek이 AI 메가트렌드의 지속성을 확인했으며, 이는 HBM, 메모리 수요 증가로 SK하이닉스와 삼성전자 등 한국 반도체 기업의 호재로 작용할 전망</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): No question the AI megatrend continues, Taiwan&#x27;s MediaTek says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 수요 지속 신호는 한국 메모리·파운드리 업계에 긍정적이나, 단일 기업의 발언으로 구체적 공급망 영향은 제한적",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZEtTM3U1TUxwLUU3M0VRdklZS2xyTUpGemtSbXBPVkE1UnlSN0g4MUZlLVdLcFY3eHM2X0FuME81U0FaeS1aMTZmREhDd3EwbHNwQUtYYllKNUFYdlBFeGdjSlRULTktb2lQWF9wUm0xVDcwZ2tQRWxtMzV4RnFzYmd6WHYwN2NVcTZaUnpfZW5tY1BvOUxyaWFZYkNSQ1p3aDVsX01jS0ZkT2pTbUxGVXRkTEtidw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-04 03:07:18"
     },
     {
       "id": 716,
@@ -1614,6 +1856,87 @@
       "updated_at": "2026-05-03 21:18:23"
     },
     {
+      "id": 777,
+      "title": "Fed 의장 후보 Warsh가 상원 인준 투표를 앞둔 주요 심사 단계를 통과했습니다. 차기 Fed 의장의 금리 정책 방향이 결정될 예정이며, 이는 USD/KRW 환율과 외국인의 한국 주식 수급에 영향을 미칠 것으로 예상됩니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-29",
+      "summary": "<p>Fed 의장 후보 Warsh가 상원 인준 투표를 앞둔 주요 심사 단계를 통과했습니다. 차기 Fed 의장의 금리 정책 방향이 결정될 예정이며, 이는 USD/KRW 환율과 외국인의 한국 주식 수급에 영향을 미칠 것으로 예상됩니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed chief nominee Warsh clears key hurdle toward Senate confirmation vote Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 의장 교체는 향후 미국 금리 정책의 방향성을 결정하는 주요 이벤트로, 달러 강세·외국인 자금 이동·한국 채권 금리에 직결되나, 현재는 확정 전 단계라 실제 정책 변화 시점까지는 영향이 제한적",
+      "stocks": [
+        "수출 관련주(삼성전자",
+        "SK하이닉스",
+        "현대차)",
+        "외국인 비중 높은 금융주(삼성증권",
+        "하나금융)",
+        "금리 민감주(은행주)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTc4N2pNZW5LVWxNeDRXRVhfN21mNjZNcUFES1Q4QlZUVE9rRjJ0WkxkOWY0RVl0WS1GSV9RU2xkWl9FWDFKMEVPN2I0ejA2SXlzUXpVMG83Rkh2Z0xneU11NFliUFJqaHlUaW9XRHlNaHBPRG1IUnBSU0x6VUdfd09oZjd5aF83ZGV0dHJfVmxiZDQ4M0FGbjE5SXdMRWNiQzF0WTVTUTdnR2U4SDVRRnFB?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:08:29"
+    },
+    {
+      "id": 774,
+      "title": "미 연준이 금리 인하 편향(easing bias)을 놓고 3건의 이의를 기록했으며, 이는 금리 인하 시기와 방향성을 둘러싼 정책 분열을 의미함. 연준의 통화정책 불확실성 확대는 USD/KRW 환율 변동성을 높이고 한국 수출기업과 외국인 자금 흐름에 영향을 미칠 수 있음",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-29",
+      "summary": "<p>미 연준이 금리 인하 편향(easing bias)을 놓고 3건의 이의를 기록했으며, 이는 금리 인하 시기와 방향성을 둘러싼 정책 분열을 의미함. 연준의 통화정책 불확실성 확대는 USD/KRW 환율 변동성을 높이고 한국 수출기업과 외국인 자금 흐름에 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed sees three dissents over an &#x27;easing bias.&#x27; What&#x27;s that? Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "연준 내부 정책 분열은 통화정책 방향성 불확실성을 높여 환율·채권·외국인 수급에 영향을 주는 일반적 거시 변수이나, 구체적 금리 결정은 아직 단계",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "삼성SDI"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejF1SGxEWm1mT1g1QW1VVjJ2OWNwQTJ3em5TbVJaenF5VUEtMW5NMTR1TXJDT2pOb0NLX29HYlNpd0pYWlpFWm8wZE44SlRqb2ZNR1BucFBLNzladV85YTB3aDNJakJVUkJmc1FhaVVVRzFHSF92QzVZYlFZVnpTX2NfaGxRVVFLdUt3R3VyNXlxUDZucFdLRXFSc1dMSm9U?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:08:18"
+    },
+    {
+      "id": 772,
+      "title": "월스트릿이 혼조로 마감했으며, 빅테크 기업들의 실적 발표를 앞두고 시장이 관망세를 보이고 있다. 빅테크 실적이 글로벌 경기 전망과 기술주 수급을 좌우할 가능성이 높다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-29",
+      "summary": "<p>월스트릿이 혼조로 마감했으며, 빅테크 기업들의 실적 발표를 앞두고 시장이 관망세를 보이고 있다. 빅테크 실적이 글로벌 경기 전망과 기술주 수급을 좌우할 가능성이 높다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Wall Street ends mixed ahead of big tech earnings Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "빅테크 실적이 글로벌 경기·금리 기대에 영향을 미쳐 USD/KRW 환율과 KOSPI 외국인 수급에 간접 영향을 미칠 수 있으나, 현재는 선제적 영향보다는 결과 대기 단계",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "네이버",
+        "카카오"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ2xIcDUxN3pVSGgtN3VKSnZsLXphakpwdFRHb2NtcnA1NzEtWG1DUWpxTTFhWGNsSGdXS2xMQXdJcV9Gbzc0TzdMUUNNbk9DOE95LWk2YktiR0JoZ1RyV0R4OEgwTWIxbGc0QkNmVzFVcHlZVENWZWJkQ1JGdTVfM3NiaF9MM1JleWlnR1hWSjRaM0N0bm5rWGlXZDJXako4MnkwcVNZOF9vdw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:08:11"
+    },
+    {
       "id": 724,
       "title": "미국 Fed 파월 의장이 미국 경제의 '회복력 강함'을 강조하며 2% 이상의 성장 지속 전망을 제시. 이는 Fed의 금리 인상 가능성 재점화로 이어져 USD/KRW 환율 상승 압박 및 외국인의 한국 주식 매도 유인 가능성 증가.",
       "category": "거시",
@@ -1715,6 +2038,31 @@
       "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZGpONE1haEd0UUVsM194YnJ2amVZckQ4MFRuWnh3VndVRG5KWTc5QXlMS016bmJDZUV3b1NZV0tTZ2dpRG9rOFJXaUs0VlMwLUFYSE1Bc1M4M0xGUlQ2R3F5U2dtd1RRM2ZIcXdhSVUwS2kxMnZXM01pbk1NLW1oZ3ZkeFFzV0h0Rk94SkNtQjZCbEVsTHBJaF9uV2FVNWhXOVp2Uy1KZVUxTmhwdmxvRzcyYnpzdkVJU2phRUhJQW5jNGZhTjVv?oc=5",
       "direction": "up",
       "updated_at": "2026-05-03 22:13:24"
+    },
+    {
+      "id": 756,
+      "title": "오라클과 CoreWeave가 OpenAI 성장 둔화 우려로 AI 주가 조정을 주도했으며, 이는 AI 칩 수요 전망 약화를 시사해 HBM·메모리 반도체 관련 한국 종목에 부정적 영향 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-28",
+      "summary": "<p>오라클과 CoreWeave가 OpenAI 성장 둔화 우려로 AI 주가 조정을 주도했으며, 이는 AI 칩 수요 전망 약화를 시사해 HBM·메모리 반도체 관련 한국 종목에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oracle, CoreWeave lead AI selloff on OpenAI growth concerns Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 투자 심리 악화가 반도체 초과수요 시나리오를 약화시켜 SK하이닉스 HBM과 삼성전자 메모리 사업에 수요 전망 하향 압력 가능.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZzhBYkt1cUNmMmJzRWZxWGRTb3hNMm02LXN2Z2ZfMUN4dmNyTmV0ODNPRWRkVXlrM0pGNFBpZ3R4X3QzdVV5YW5vaWszSTl3R2IxaEtXaHBib09qMTNjUktjMEVzVjlrMkRVTGpjQldyQVVqekFuWWpQWGZfbVhjQlNtRkNvdFlpbWhhOWtfZTdZVUd6cWMtYnA5ZC0xNHc0eUNfLTlBYUxoUkt2OUpxY2V2NWF4SlNkN2xEN1dkOEpQRDdfM0RJ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:07:08"
     },
     {
       "id": 707,
@@ -3027,6 +3375,32 @@
       "updated_at": "2026-05-04 00:07:25"
     },
     {
+      "id": 775,
+      "title": "금값이 달러 강세와 유가 하락으로 상승했으나, 2개월 연속 월간 하락세 예상. 달러 강세는 USD/KRW 상승으로 한국 수출 부담 가중, 채권 금리 상승 압력.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>금값이 달러 강세와 유가 하락으로 상승했으나, 2개월 연속 월간 하락세 예상. 달러 강세는 USD/KRW 상승으로 한국 수출 부담 가중, 채권 금리 상승 압력.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gold up on dollar, oil price drop; headed for second straight monthly decline Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "달러 강세와 금리 방향성이 한국 환율·채권시장에 영향을 주지만, 금과 유가 변동 자체는 한국 증시에 제한적 영향",
+      "stocks": [
+        "에너지·자원주(SK이노베이션",
+        "GS에너지)",
+        "수출 제조업(삼성전자",
+        "LG전자)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHBjSWZocDNLRmxpcGtWQkR6bk9RS2h5OWZlaGNkNEFjTTBHOU4tSTdsOWdVbkxtY0ZSVUh3cWJaRThfdTJVdUY2THdSNG5LS01pQlJqeXVhdFI2YVRUNTBPbjNRTTFvOXpxaFk4b0s3Zk9tSGQ5cDZOdHhzZVFPeHY5VkxyTXFjOEtiMGxFTQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:08:21"
+    },
+    {
       "id": 715,
       "title": "머크의 키트루다(면역항암제) 매출 호조로 분기 예상을 상회했으며, 이는 글로벌 바이오제약 시장의 강한 수익성을 시사한다. 한국의 바이오/CDMO 기업들의 글로벌 경쟁력과 위탁생산 수요 증대에 긍정적 신호를 제공한다.",
       "category": "주식",
@@ -3185,6 +3559,30 @@
       "updated_at": "2026-05-03 21:18:27"
     },
     {
+      "id": 768,
+      "title": "인도 피라말 파마가 복잡한 제제(Complex Drug) 수요 확대를 통한 실적 부양을 추진 중. 글로벌 CDMO 시장에서 인도 제약사의 고부가가치 사업 진출로 한국 CDMO 업체들의 경쟁 심화 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-29",
+      "summary": "<p>인도 피라말 파마가 복잡한 제제(Complex Drug) 수요 확대를 통한 실적 부양을 추진 중. 글로벌 CDMO 시장에서 인도 제약사의 고부가가치 사업 진출로 한국 CDMO 업체들의 경쟁 심화 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): India&#x27;s Piramal Pharma eyes complex drug demand for earnings boost, chair says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 CDMO 산업 내 경쟁 심화 신호이나, 피라말의 구체적 수주·성과 미상으로 한국 시장에 미치는 즉각적 영향은 제한적",
+      "stocks": [
+        "삼성바이오로직스",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDN1Y0hQRTlBLTJvbWRwRlhLcGdJN0padTdJaGVteUkxU0lSQ1o4U2JwS3dlb2l4R2dxZmp0N0VFd1VoQTBKVkpZMW9MRktwQUlNTUhDSTRseHNpNF9zQXZCenpVMVZ2RHA1dFpldDBRVUYzbzYxN21UQk93MnBxaWFZbHRZMy1pbkxWUGduLTJmYkc1a2t6VU5BaTZxTEpSa1pKRHd1S1lfT0o0ZFdNcTZoUEtCMW9jdS1hWFd5T3I5Vjl6OHZQY0QxZ2tjSEw1ei01MTl3MUppclZH?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:07:53"
+    },
+    {
       "id": 753,
       "title": "파월 연방준비제도 의장이 트럼프 행정부의 법적 압박에도 불구하고 연임하기로 결정. 미국 금리 정책의 연속성 유지로 USD/KRW 환율 및 한국 수출주 영향 제한적이나, 미국 정책 불확실성 확대로 외국인 자금 변동성 높아질 전망.",
       "category": "거시",
@@ -3310,6 +3708,31 @@
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNU4tUGxucDN3UXF6SkJueE9KRlZJMjh6akFNbWxrdjFwcUU0ZU1TTDR1Q0xYN3FUYkF2cVJiOUFfdmV5US1ubjBqbnYxSGZadll3cXMwX0d5WEI2OFJRRXFDTWxfRXA1cF84RkN6RWJIYVZ4eXdSRVFMMGoxZjJualVaUkdMeVNrNFZXdk5IMEhYODdqb0IweWVfZU1KZw?oc=5",
       "direction": "up",
       "updated_at": "2026-05-04 00:07:06"
+    },
+    {
+      "id": 761,
+      "title": "OpenAI가 IPO를 추진하면서 수익 및 사용자 목표를 미달성한 것으로 보도됨. AI 시장의 성장 둔화 신호로 해석되며, 한국 AI 반도체 공급사(HBM, 메모리)의 수요 전망에 부정적 영향 가능.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-28",
+      "summary": "<p>OpenAI가 IPO를 추진하면서 수익 및 사용자 목표를 미달성한 것으로 보도됨. AI 시장의 성장 둔화 신호로 해석되며, 한국 AI 반도체 공급사(HBM, 메모리)의 수요 전망에 부정적 영향 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): OpenAI falls short of revenue and user targets as it races toward IPO, WSJ reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "OpenAI 성장 둔화는 AI 칩 수요 시장 심화 경쟁을 암시하지만, 단일 기업 소식으로 명확한 공급망 충격은 아님.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQzhER0JjUGFMTFlWVFNCQjlGOHp6cHBlWEhVQkpoQkppazFKVVJRQVRqQ2hJTjl1OXQ1UThSeEJaR3N1QWhFS0M5MkRqQXlKWElWWWc1dUNnQnBrMDRucGVPcFdaT0x4enRCSXVYdUFpZVBCbUpuSEw0aUVhVG5nT2FkMTg0TGEwM2piMWdFdTNmUGxoWnJwcFI3SzktLS10SFJEdU5GbTVGdUFybFBYMVhYQkl5RG8?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:07:24"
     },
     {
       "id": 750,
@@ -4730,6 +5153,75 @@
       "updated_at": "2026-05-03 21:52:02"
     },
     {
+      "id": 765,
+      "title": "아르키메드(Archimed)가 에스페리온 테라퓨틱스(Esperion Therapeutics)를 11억 달러에 인수하여 비상장사로 전환. 글로벌 바이오 제약 M&A 활동 지속으로 한국 바이오 기업들의 전략적 포지셔닝 재평가 필요.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-01",
+      "summary": "<p>아르키메드(Archimed)가 에스페리온 테라퓨틱스(Esperion Therapeutics)를 11억 달러에 인수하여 비상장사로 전환. 글로벌 바이오 제약 M&A 활동 지속으로 한국 바이오 기업들의 전략적 포지셔닝 재평가 필요.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Archimed to take Esperion Therapeutics private in $1.1 billion deal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 바이오 M&A 동향은 산업 벤치마킹 참고가 되나, 직접적 한국 시장·공급망 영향은 제한적",
+      "stocks": [],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 4,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMVljb09mUGZJZEJBeXg5d3RhSkx4QWRuQjAzSUpSaXJFMnZWZEk1MjktOXRqTExpX1A4bjVJTmJHcXBpTVVyYXFtNjNrR3NOOUwwQkJVMkpUT2NzQlMtd1pwVXJOOVA1TzFfd3RoN3pGOUF0bUNqNEE4N2l2NW1SUmdXTGI2T2x6MURtUk1uV2xaclhnckk0S0QxVng5RUxheVZLeElVcUZWYUg1TTBmelV3?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:07:41"
+    },
+    {
+      "id": 764,
+      "title": "영국 FTSE 100이 에너지 주와 제약사 아스트라제네카의 낙폭으로 하락했다. 글로벌 제약·바이오 섹터의 약세 신호로 한국 바이오 기업들의 국제 경쟁력 평가에 영향을 줄 수 있다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-01",
+      "summary": "<p>영국 FTSE 100이 에너지 주와 제약사 아스트라제네카의 낙폭으로 하락했다. 글로벌 제약·바이오 섹터의 약세 신호로 한국 바이오 기업들의 국제 경쟁력 평가에 영향을 줄 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): UK&#x27;s FTSE 100 slips as losses in energy stocks and AstraZeneca weigh Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 제약사 약세는 한국 바이오 종목의 상대적 투자심리에 미세한 영향을 미치나, 직접적인 공급망·실적 영향은 제한적",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 4,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU3FCZWNaMmxZQ0RzNVdQblRrMldOQkJlMEFGdVZSZVRENUEzTWdHSHJCN28xTGZFMl9tWC1NZkQtdkotbGl4Y2RQelAtekNXM2JKRzZrMklQM0hKSld3QUR5Qk51MDA5MzI4SE5JVktWM1dZRVdsTFd4dUpPTHBOcGZIeEVTdjVvbjd0ME92N2h5RlFnZGVpa3p6M09kcWlnSkxocA?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:07:36"
+    },
+    {
+      "id": 763,
+      "title": "아스트라제네카의 유방암 치료제가 미국 규제당국 패널에서 거부되어 주가 하락. 글로벌 바이오 산업 심화된 경쟁 및 규제 리스크 부각으로 한국 바이오 기업들의 개발 파이프라인 재평가 압박 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-01",
+      "summary": "<p>아스트라제네카의 유방암 치료제가 미국 규제당국 패널에서 거부되어 주가 하락. 글로벌 바이오 산업 심화된 경쟁 및 규제 리스크 부각으로 한국 바이오 기업들의 개발 파이프라인 재평가 압박 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AstraZeneca shares dip after US regulatory panel rejects breast cancer drug Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 제약사 개발 실패는 산업 전반 리스크로 작용하지만, 한국 종목들의 직접 경쟁 관계는 제한적이므로 심리 영향 정도",
+      "stocks": [
+        "셀트리온",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 4,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVGZEZVUzVE8wSlFUZnMzZ0ZMYUNBaFNWTjBEV3ZZWVM3NTBpdjBUNWJzbWlOdzVuNVFJaU8ydS04RmxDYXdzQ2JWaW5HVW5iQlRlLXY3ZHBQQ2syaXoxS0JRU0RTQm9uTThwbGlEcC1aRzJzdzRZWS1zMm5adXRzanh4UGY0MW91Y25rU1JxOXNXUTYyY2tNTGQ5SDNLOHZBaGpDS0g5bl9tQmlHUDFwbVFBX1U4STF2REp3ai13WTNmQjVfN0hNREtmMWxyWDlCazhkeFRVb1A3dXRnU1hpZzNnX0VvT3pv?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-04 03:07:33"
+    },
+    {
       "id": 749,
       "title": "5월 증시 약세 현상(Sell in May)의 실제 존재 여부를 검증하는 분석 기사로, 글로벌 금리 환경과 계절성 투자 심리에 따른 시장 변동성 평가를 다룸. 한국 증시는 외국인 자금 흐름 민감도가 높아 글로벌 투자심리 위축 시 KOSPI 낙폭 위험.",
       "category": "거시",
@@ -4937,6 +5429,31 @@
       "updated_at": "2026-05-03 21:18:46"
     },
     {
+      "id": 766,
+      "title": "일라이 릴리의 비만치료제 모운자로 후속약 Foundayo의 조기 출시 데이터 공개로 투자자 관심 증가. 글로벌 GLP-1 시장 경쟁 심화는 한국 바이오 기업들의 해외 판매 기회와 압박을 동시에 초래.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-29",
+      "summary": "<p>일라이 릴리의 비만치료제 모운자로 후속약 Foundayo의 조기 출시 데이터 공개로 투자자 관심 증가. 글로벌 GLP-1 시장 경쟁 심화는 한국 바이오 기업들의 해외 판매 기회와 압박을 동시에 초래.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Eli Lilly investors are eager for Foundayo insight after early launch data Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 제약사의 신약 출시 소식이지만 한국 CDMO·바이오 기업에 미치는 직접적 영향은 제한적이며, 장기적 GLP-1 시장 구도 변화만 반영",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 4,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb3FRc3RmZEhMQVFNUzEtWDBFZ0p0UGh1VGxyc1d3RGhTS0I5UEFIeC0waWVmcjVYbDBKS0l4SHZXaDBVdVhWbExEbEphdnlVeVRhRGFVQkNkS0drMjJNbTkxMndCM05DM181MVhyT3pDNVphUEtRRndSdXhOWi1xUGo2Y3lMbnRBVm54TDVaekNIVUpFQ0JiQl9sZkZjV05ldTFmSDA1X21IU21Vb0lkdFo3anc3Y2g2RXBBb2lkOVprWURHSzhTTjdsN0sxSXNwMV9TS3JkQi1aUQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:07:46"
+    },
+    {
       "id": 743,
       "title": "레제네론이 듀픽센트 수요 강세로 분기 실적을 상회했으나, 안구질환약 아일레아 부진으로 주가는 하락. 바이오/제약 업황 양극화 심화.",
       "category": "주식",
@@ -5029,6 +5546,30 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHlIT19jQzQwR2h0RlhCRTdaeWZmaUZLTVBGSUMwRDFfY1dxOFZjd21TOTZHOVgwbmVUMkFvQWd3X25iTFJEUERhbURaWTdHd0FrS3I3T2U4ajFqWWFnQk5ZamIzZ0RhR0kzNFI3VkNpanpSWmdlVnJUOWJmaHd6cWJvcUlMbjVuR1JyUzRZc01UdzE0aVROSU1ocGVNZ1h4QUNLa09FMFU?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-03 22:13:38"
+    },
+    {
+      "id": 770,
+      "title": "화이자가 심장질환 치료제의 제네릭 진입을 2031년까지 차단하는 계약을 체결했으며, 이는 혁신신약의 특허 보호 강화 사례로 글로벌 제약·바이오 업계의 제네릭 경쟁 구도에 영향을 미칠 수 있다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-28",
+      "summary": "<p>화이자가 심장질환 치료제의 제네릭 진입을 2031년까지 차단하는 계약을 체결했으며, 이는 혁신신약의 특허 보호 강화 사례로 글로벌 제약·바이오 업계의 제네릭 경쟁 구도에 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Pfizer secures deals to keep heart drug free of generic rivals until 2031 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 제약사의 제네릭 차단 사례로 업계 동향 참고 가치는 있으나, 한국 종목들의 직접적 매출·수익 영향이 명확하지 않고 한국 시장 진출 관련 정보 부재",
+      "stocks": [
+        "셀트리온",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 4,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSkVtWFNhUEVESWhnWVQ4T2ZiTzEyWUF0MEFoc0kxazFUMk5NY0dVUC1LN19mYkYzN0MyYU1vNW44dEp5XzdDbW1oWHUzNVlwSEFPOEZHWWRxdEpkR2otdU5PUXVIZnVUNUZXb29wUWkzRE00Y3AxTzBiekdrTzlOejVsbE1GTlRlcDJtUmM1cG9sZVdKRXE4d1Q4UlZOMzdOcWJQdnZVeG5BZmg2QUxiSkp2MTkyQ2hRY1lkODJkZ2hJenppUDVFTVhqUWJzaURGR2hJVUlB?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:08:02"
     },
     {
       "id": 741,
@@ -5277,6 +5818,30 @@
       "updated_at": "2026-05-03 22:13:52"
     },
     {
+      "id": 769,
+      "title": "미국 FDA가 악소메(Axsome)의 알츠하이머 관련 동요증 치료제를 승인했으며, 이는 신경계 질환 치료제 개발 분야의 긍정적 신호로 작용할 수 있다. 한국의 바이오/제약사들의 유사 파이프라인 개발에 벤치마킹 기회를 제공한다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>미국 FDA가 악소메(Axsome)의 알츠하이머 관련 동요증 치료제를 승인했으며, 이는 신경계 질환 치료제 개발 분야의 긍정적 신호로 작용할 수 있다. 한국의 바이오/제약사들의 유사 파이프라인 개발에 벤치마킹 기회를 제공한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US FDA approves Axsome&#x27;s drug for Alzheimer&#x27;s-related agitation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "해외 기업의 단일 제품 승인으로 직접적인 한국 시장 공급망이나 경쟁 구도 변화는 제한적이나, 장기적으로 알츠하이머 치료제 시장 트렌드 참고 가치 있음.",
+      "stocks": [
+        "한미약품",
+        "셀트리온"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 3,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWVphYlZWc0RER3F3c09sMXhsQkE4b0lzaXhWM3FYV2lza19mU3Y1WWI4WElZbmxOc3FGUE9UaUN2VmVQYjRuaHJQU0lQS3V5Y2Z5Wk1lVkNGelEyMHMwSXR1YWRWYk9ULV9zTFBvX291RmpHakpodm04MHpfWl9lZlVhVGdiM2tiQ3BWb080NWFrR1VUdUxsb2FmTE5LT2xnSlZrVHotRzY3OHV0d0d2djlUSUVEV3lQeXY5VnBvWWlHUTZZNXd1Yw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:07:57"
+    },
+    {
       "id": 526,
       "title": "[SK증권] 대한전선 — (실적이) 어안이벙벙 · 목표 61,000",
       "category": "주식",
@@ -5297,6 +5862,27 @@
       "source_url": "https://consensus.hankyung.com/analysis/downpdf?report_idx=648934",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:19:13"
+    },
+    {
+      "id": 767,
+      "title": "바이어가 라운드업 소송에서 미 대법원의 엇갈린 판단으로 주가 하락. 제초제 관련 법적 리스크 확대는 글로벌 농화학·바이오 기업들의 소송 리스크 재평가를 촉발할 수 있음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-28",
+      "summary": "<p>바이어가 라운드업 소송에서 미 대법원의 엇갈린 판단으로 주가 하락. 제초제 관련 법적 리스크 확대는 글로벌 농화학·바이오 기업들의 소송 리스크 재평가를 촉발할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Bayer shares slide after U.S. Supreme Court split over Bayer&#x27;s fight against Roundup lawsuits Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "바이어는 한국 주식시장 영향이 제한적이며, 국내 관련사들의 직접적 법적/경영 리스크는 낮으나 농화학·제약 산업의 규제 리스크 인식 증대 가능성",
+      "stocks": [],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 3,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2J2V01NbUd5LXMxLU5WWHNYdDdyYjFkTWNqbXB6V2VBZ0hxQ1VtMWZESUd5LVc1X1lhb2RCZ1dEdkZvaDZ3TlJvbHJtclA2YkFacEZmSUM3Rkd0VGM4Y2tRakk2NjV4Skx1dk5Qa3dwUUwtSmo1YTVIYTEyUTdFNjlZLUJrSWtNbFFERV9wdFpMdkxOZjVWeC1kcjlQanc2eC1sbHlfZTkxYkVaLWcwaDFFVUtNd3VOQkJMUFlIWlN2c3ZO?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:07:50"
     },
     {
       "id": 740,
@@ -5409,6 +5995,49 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000789",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:59:21"
+    },
+    {
+      "id": 773,
+      "title": "ECB 이사회에 스페인의 새로운 의석 배정을 제안하는 뉴스로, 유로존 통화정책 구조 조정에 관한 내용이지만 한국 시장과의 직접적 연관성은 제한적.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-03",
+      "summary": "<p>ECB 이사회에 스페인의 새로운 의석 배정을 제안하는 뉴스로, 유로존 통화정책 구조 조정에 관한 내용이지만 한국 시장과의 직접적 연관성은 제한적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Spain should get new seat on ECB board, outgoing VP says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "ECB 내부 거버넌스 변화는 유로존 금리정책에 미세한 영향만 미치며, 한국 수출·환율·투자 수익률 측면에서 실질적 영향 미미",
+      "stocks": [],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 2,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdW1TQ0lOMkVfbUlaMElDMEdFT2x0dzhSNG1Kay1oLTlnTzBqWFV3VmhQek9pcWFXVmxGeXFhYUNBZ1JIZHJKd3ZNbmRwY0FBOFJDYk8zR2RrLVBKZ1BiSmo1RnF4dkxMcWRIUjVnUGtvaFppYVNvaUVXZ1JtbWhNWGxLeUUxb01peVV3VXlTMVFNV3Z3RlBySGhRMmZKaUU1dmpz?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:08:13"
+    },
+    {
+      "id": 755,
+      "title": "마라톤 디지털(MARA)이 오하이오주 가스발전소 운영사 롱릿지를 15억 달러에 인수하며 비트코인 채굴 중심에서 에너지 사업으로 전환. 암호화폐 채굴 기업의 다각화 전략으로 반도체·에너지 산업 구조 변화 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>마라톤 디지털(MARA)이 오하이오주 가스발전소 운영사 롱릿지를 15억 달러에 인수하며 비트코인 채굴 중심에서 에너지 사업으로 전환. 암호화폐 채굴 기업의 다각화 전략으로 반도체·에너지 산업 구조 변화 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): MARA to buy Ohio gas plant operator Long Ridge for $1.5 billion as it pivots beyond bitcoin Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 암호화폐 채굴 기업의 에너지 사업 다각화로 반도체 채굴 수요 감소 신호이나, 한국 반도체 수출·HBM 수요에 직접적 영향은 제한적",
+      "stocks": [],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 2,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTER2Vl9CaVdqbS1yNmZHeU5ET09HaEROQzBBdHJGZmZXRUszSmhfY1FxemNqNDBaWV96YXpPZkhZc1ZQWkxwTUJJR1JZeDR2VW4tLVhGSmtvREozNTgwWFQ0SUI3eEMtRnVKQkhuRjU2WkZPUFNCQTlPRHZDOEdDRjctakFDVWtuamVLazNnTHVpYnV5dGZGQ2I5STNHeWJvLWdqQlF5b0pQeGZkcEZYUy1hanVRcnJZck1jcDQ4Zk5yT2FfUnJwcVJ0NA?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 03:07:05"
     },
     {
       "id": 517,
