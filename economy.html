@@ -466,7 +466,7 @@ $('favAdd').addEventListener('click',()=>{
   const f=getFav();if(!f.includes(v)){f.push(v);setFav(f)}
   $('favInput').value='';renderFav();renderAllSections();
 });
-$('favInput').addEventListener('keydown',e=>{if(e.key==='Enter')$('favAdd').click()});
+$('favInput').addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.isComposing&&e.keyCode!==229)$('favAdd').click()});
 
 // Close on overlay click / Esc
 ['postOverlay','stockOverlay'].forEach(id=>{
