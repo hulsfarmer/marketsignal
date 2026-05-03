@@ -156,27 +156,8 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
     </div>
   </div>
 
-  <!-- 강한 시그널 (★≥7) -->
-  <div class="section">
-    <div class="section-head">
-      <div class="section-title">🚨 강한 시그널</div>
-      <div class="section-count">임팩트 7+ · <span id="topCount">0</span>건</div>
-    </div>
-    <div class="cards" id="topCards"></div>
-    <div class="section-empty" id="topEmpty" style="display:none">오늘 임팩트 7+ 자료가 없습니다</div>
-  </div>
-
-  <!-- 주목 (★=6) -->
-  <div class="section">
-    <div class="section-head">
-      <div class="section-title">🔥 주목</div>
-      <div class="section-count">임팩트 6 · <span id="watchCount">0</span>건</div>
-    </div>
-    <div class="cards" id="watchCards"></div>
-  </div>
-
-  <!-- 내 종목 -->
-  <div class="section">
+  <!-- 내 종목 (⭐ chip 활성 시에만 표시) -->
+  <div class="section" id="favSection" style="display:none">
     <div class="section-head">
       <div class="section-title">⭐ 내 종목</div>
       <div class="section-count" id="favCount">관심 종목을 등록하세요</div>
@@ -188,8 +169,27 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
     </div>
   </div>
 
+  <!-- 강한 시그널 (★≥7) -->
+  <div class="section topical">
+    <div class="section-head">
+      <div class="section-title">🚨 강한 시그널</div>
+      <div class="section-count">임팩트 7+ · <span id="topCount">0</span>건</div>
+    </div>
+    <div class="cards" id="topCards"></div>
+    <div class="section-empty" id="topEmpty" style="display:none">오늘 임팩트 7+ 자료가 없습니다</div>
+  </div>
+
+  <!-- 주목 (★=6) -->
+  <div class="section topical">
+    <div class="section-head">
+      <div class="section-title">🔥 주목</div>
+      <div class="section-count">임팩트 6 · <span id="watchCount">0</span>건</div>
+    </div>
+    <div class="cards" id="watchCards"></div>
+  </div>
+
   <!-- 거시·시황 -->
-  <div class="section">
+  <div class="section topical">
     <div class="section-head">
       <div class="section-title">💬 거시·시황</div>
       <div class="section-count"><span id="macroCount">0</span>건</div>
@@ -198,7 +198,7 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
   </div>
 
   <!-- 오늘의 공시 (DART) -->
-  <div class="section">
+  <div class="section topical">
     <div class="section-head">
       <div class="section-title">📋 오늘의 공시</div>
       <div class="section-count">DART · <span id="discCount">0</span>건</div>
@@ -207,7 +207,7 @@ h1{color:var(--navy);font-size:1.6em;letter-spacing:-.5px;margin-bottom:2px}
   </div>
 
   <!-- 산업·종목 -->
-  <div class="section">
+  <div class="section topical">
     <div class="section-head">
       <div class="section-title">📈 산업·종목</div>
       <div class="section-count"><span id="stockCount">0</span>건</div>
@@ -440,7 +440,13 @@ function renderFav(){
   list.innerHTML=rows;
 }
 
-function renderAllSections(){renderTop();renderWatch();renderMacro();renderDisc();renderStock();renderAll();renderFav()}
+function renderAllSections(){
+  const favMode=activeFilter==='fav';
+  $('favSection').style.display=favMode?'block':'none';
+  document.querySelectorAll('.section.topical').forEach(el=>{el.style.display=favMode?'none':'block'});
+  if(favMode){renderFav();renderAll();return}
+  renderTop();renderWatch();renderMacro();renderDisc();renderStock();renderAll();
+}
 
 // Chip filter binding
 $('chips').querySelectorAll('.chip').forEach(c=>{
