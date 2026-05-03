@@ -458,17 +458,23 @@ function renderFav(){
 }
 
 function renderEvents(){
+  const evtSection=$('evtList').closest('.section');
+  const eligible=['all','fav','cat:주식','src:disclosure'].includes(activeFilter);
+  if(!eligible){evtSection.style.display='none';return}
   const fav=getFav();
   const today=new Date(); today.setHours(0,0,0,0);
+  // 합병 다단계 절차 일정은 노이즈 — 합병기일만 남김
+  const SKIP=/합병반대|채권자이의|합병등기|합병승인|소규모합병|주주확정기준일/;
   const items=EVENTS.filter(e=>{
+    if(SKIP.test(e.event_type))return false;
     if(activeFilter==='fav'&&!fav.includes(e.stock_name))return false;
     return true;
   }).slice(0,30);
+  if(!items.length){evtSection.style.display='none';return}
+  evtSection.style.display='block';
   $('evtCount').textContent=items.length;
-  const list=$('evtList');
-  if(!items.length){$('evtEmpty').style.display='block';list.innerHTML='';return}
   $('evtEmpty').style.display='none';
-  list.innerHTML=items.map(e=>{
+  $('evtList').innerHTML=items.map(e=>{
     const d=new Date(e.event_date+'T00:00:00');
     const dd=Math.round((d-today)/86400000);
     const ddLabel=dd===0?'D-DAY':(dd>0?'D-'+dd:'D+'+(-dd));
