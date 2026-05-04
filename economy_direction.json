@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T19:05:02",
-  "count": 427,
+  "generated_at": "2026-05-04T19:35:04",
+  "count": 429,
   "posts": [
     {
       "id": 921,
@@ -6222,6 +6222,28 @@
       "updated_at": "2026-05-04 09:07:45"
     },
     {
+      "id": 946,
+      "title": "케이엠제약 — [첨부정정]주식병합결정              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260504",
+      "summary": "<p>주식병합</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주식병합결정               · 케이엠제약</p>",
+      "feedback": "주식병합",
+      "stocks": [
+        "케이엠제약"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 4,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900877",
+      "direction": "neutral",
+      "updated_at": "2026-05-04 19:35:03"
+    },
+    {
       "id": 917,
       "title": "뉴온 — 주권매매거래정지해제              (감자 주권 변경상장)",
       "category": "주식",
@@ -8707,6 +8729,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMS1WUWJpb183V1NDdWNtQ3lENG05aWpZRFZZM2U5TENKQ3N0VzlvNVFaQlk1SjZqTTI5MGRjRk1WYi1QWEw2SkgxZ3VsU2t3S2U3ZzFWc0piUG5qT1ZRRVI1WDBUWTJsV2FvTGN5dVdfcFRZRTVkYW16TnNyQ2doOTBnZlo0c25SajZ2Q3V0N3pQNEU1U0NJVUVHdWdpelFKMEl6UTRDY05GNnJU?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-04 15:08:18"
+    },
+    {
+      "id": 947,
+      "title": "하나기술 — 단일판매ㆍ공급계약해지              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260504",
+      "summary": "<p>수주 취소</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약해지               · 하나기술</p>",
+      "feedback": "수주 취소",
+      "stocks": [
+        "하나기술"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 3,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900873",
+      "direction": "down",
+      "updated_at": "2026-05-04 19:35:03"
     },
     {
       "id": 920,
