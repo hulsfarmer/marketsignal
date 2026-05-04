@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-05-01T16:00:04",
+  "generated_at": "2026-05-04T16:16:24",
   "dates": [
+    "2026-05-04",
     "2026-05-01",
     "2026-04-30",
     "2026-04-29",
@@ -19,21 +20,137 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 39,
+      "total": 42,
       "correct": 20,
-      "hit_rate": 51.3,
-      "avg_return": 0.35,
-      "avg_return_open": 0.46
+      "hit_rate": 47.6,
+      "avg_return": 0.26,
+      "avg_return_open": 0.33
     },
     "hybrid": {
-      "total": 19,
-      "correct": 9,
-      "hit_rate": 47.4,
-      "avg_return": 0.25,
-      "avg_return_open": 0.25
+      "total": 24,
+      "correct": 10,
+      "hit_rate": 41.7,
+      "avg_return": 0.29,
+      "avg_return_open": 0.52
     }
   },
   "by_date": {
+    "2026-05-04": {
+      "ai": {
+        "count": 0,
+        "picks": []
+      },
+      "hybrid": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "051900",
+            "name_kr": "LG생활건강",
+            "ms_score": 55,
+            "ai_score": 96,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 96 (RSI 62, 5일 +0.4%)",
+            "entry_price": 254000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "259960",
+            "name_kr": "크래프톤",
+            "ms_score": 56,
+            "ai_score": 65,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 0 / earn 65 (RSI 64, 5일 -3.5%)",
+            "entry_price": 265000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005940",
+            "name_kr": "NH투자증권",
+            "ms_score": 62,
+            "ai_score": 58,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 58 / earn 59 (RSI 48, 5일 -4.1%)",
+            "entry_price": 33650.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "251270",
+            "name_kr": "넷마블",
+            "ms_score": 55,
+            "ai_score": 34,
+            "confidence": "LOW",
+            "reason": "[T] tech 35 / earn 0 (RSI 47, 5일 -1.5%)",
+            "entry_price": 49650.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "199820",
+            "name_kr": "제일일렉트릭",
+            "open_price": 18730,
+            "close_price": 22250,
+            "trade_value": 306687051605,
+            "market_cap": 494395000000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 5.0,
+            "notes": "KOSDAQ | 등락 +28.9% | 턴오버 62.0% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "033100",
+            "name_kr": "제룡전기",
+            "open_price": 79500,
+            "close_price": 91500,
+            "trade_value": 234404252300,
+            "market_cap": 1469710423500,
+            "sector": "전기·전자",
+            "rarity_months": 2,
+            "score": 1.6,
+            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 15.9%"
+          },
+          {
+            "stock_code": "103590",
+            "name_kr": "일진전기",
+            "open_price": 131200,
+            "close_price": 143700,
+            "trade_value": 284643145350,
+            "market_cap": 6852390543000,
+            "sector": "전기·전자",
+            "rarity_months": 2,
+            "score": 0.4,
+            "notes": "KOSPI | 등락 +17.3% | 턴오버 4.2%"
+          },
+          {
+            "stock_code": "490470",
+            "name_kr": "세미파이브",
+            "open_price": 46000,
+            "close_price": 49150,
+            "trade_value": 229796299325,
+            "market_cap": 1664160020000,
+            "sector": "일반서비스",
+            "rarity_months": 0,
+            "score": -4.6,
+            "notes": "KOSDAQ | 등락 +15.8% | 턴오버 13.8% | ★ 섹터 대장주"
+          }
+        ]
+      }
+    },
     "2026-05-01": {
       "ai": {
         "count": 2,
@@ -59,10 +176,10 @@
             "confidence": "LOW",
             "reason": "1분기 순이익 컨센서스 상회와 자사주 소각 호재가 존재하나, RSI 60으로 과열 경계권에 위치하고 20일 +8.9% 상승으로 호재 선반영 가능성이 높습니다. 과거 호재_선반영 실패 패턴(75% 실패율)에 해당하며, 국민연금 매각 물량도 부담 요인입니다. 4번째 선정이나 포지션 축소 또는 신중한 접근을 권장합니다.",
             "entry_price": 99900.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 99900.0,
+            "return_pct": 0.0,
+            "return_pct_open": -0.9,
+            "correct": 0
           }
         ]
       },
@@ -77,10 +194,10 @@
             "confidence": "MEDIUM",
             "reason": "[E+T] tech 58 / earn 63 (RSI 47, 5일 -3.7%)",
             "entry_price": 33650.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 33650.0,
+            "return_pct": 0.0,
+            "return_pct_open": 2.82,
+            "correct": 0
           },
           {
             "stock_code": "029780",
@@ -90,10 +207,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 62 / earn 0 (RSI 39, 5일 -2.2%)",
             "entry_price": 53300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 53300.0,
+            "return_pct": 0.0,
+            "return_pct_open": -1.31,
+            "correct": 0
           }
         ]
       },
@@ -175,10 +292,10 @@
             "confidence": "HIGH",
             "reason": "RSI 24로 극도의 과매도 구간이며, 5일 -4.1% 낙폭 후 배당금 확정(660원)이라는 주주환원 재료가 아직 주가에 충분히 반영되지 않은 상태입니다. 과거 '기술적_반등' 패턴(100% 성공률)과 RSI 저위험 구간 진입이 동시에 충족되어 단기 반등 가능성이 높습니다. 단, 직전 실패 사례(LG유플러스 -1.02%)를 고려해 비중 조절이 필요합니다.",
             "entry_price": 16050.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 15840.0,
+            "return_pct": -1.31,
+            "return_pct_open": -0.31,
+            "correct": 0
           },
           {
             "stock_code": "302440",
@@ -188,10 +305,10 @@
             "confidence": "LOW",
             "reason": "자사주 매입과 RSU 제도 도입은 주가 지지 및 장기 주주가치 제고 신호로, 5일 -1.1% 조정 상태에서 재료가 아직 충분히 반영되지 않았습니다. RSI 58로 과매수 구간 미진입이며 20일 +4.7%의 완만한 상승 추세가 유지되고 있습니다. 다만 뉴스 건수가 적고 모멘텀이 약해 LOW 신뢰도로 소량 진입을 권고합니다.",
             "entry_price": 43650.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 43050.0,
+            "return_pct": -1.37,
+            "return_pct_open": 0.0,
+            "correct": 0
           }
         ]
       },
@@ -206,10 +323,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 99 (RSI 61, 5일 +0.1%)",
             "entry_price": 100000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 99900.0,
+            "return_pct": -0.1,
+            "return_pct_open": -1.0,
+            "correct": 0
           },
           {
             "stock_code": "000100",
@@ -219,10 +336,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 84 (RSI 51, 5일 -1.6%)",
             "entry_price": 93200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 91600.0,
+            "return_pct": -1.72,
+            "return_pct_open": 0.0,
+            "correct": 0
           },
           {
             "stock_code": "352820",
@@ -232,10 +349,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 15 / earn 76 (RSI 49, 5일 +2.4%)",
             "entry_price": 252500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 263000.0,
+            "return_pct": 4.16,
+            "return_pct_open": 7.33,
+            "correct": 1
           }
         ]
       },
