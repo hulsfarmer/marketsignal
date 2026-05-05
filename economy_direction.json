@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T06:05:02",
+  "generated_at": "2026-05-06T06:12:02",
   "count": 431,
   "posts": [
     {
@@ -231,6 +231,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 1241,
+      "title": "중동 걸프만 지역의 신규 공격으로 휴전이 흔들리면서 유가 불안이 심화되고 있다. 이는 한국의 주요 에너지·석유화학 기업들의 수익성에 부정적 영향을 미칠 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>중동 걸프만 지역의 신규 공격으로 휴전이 흔들리면서 유가 불안이 심화되고 있다. 이는 한국의 주요 에너지·석유화학 기업들의 수익성에 부정적 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gulf shares slip after fresh attacks rattle truce Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 지정학적 위험 고조로 유가 변동성 확대 → 석유·석유화학 관련 한국 종목의 마진율 악화 우려",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRFFDRGNTUUN0MndKSHNLbklST1QwZlNkU2VtVU5xSXlLM2FzV2pvOG5KcWJqWG5iT093Y2g5bEQ0RGJQVEVVZ2JPV1pmOEFfQ0twQkJUZlVMb0d1RkVvSlpMUzdlUjlYTEFKNl9vdEt6ME4wVXlhd0hMNmQzZ19NOUp4dUZvMHNScHZGblFfcmw3VW1GZVdjWnhHaFNHbUZKaFNhdThjYjUzdXM?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 06:11:39"
     },
     {
       "id": 1214,
@@ -1635,6 +1662,32 @@
       "updated_at": "2026-05-03 22:13:45"
     },
     {
+      "id": 1244,
+      "title": "미국 평균 자동차 가격으로 중국 신형 EV 5대를 구매할 수 있을 정도로 중국 EV 가격 경쟁력이 심화되고 있으며, 이는 한국 자동차 업체들의 가격 경쟁 압박을 의미한다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-27",
+      "summary": "<p>미국 평균 자동차 가격으로 중국 신형 EV 5대를 구매할 수 있을 정도로 중국 EV 가격 경쟁력이 심화되고 있으며, 이는 한국 자동차 업체들의 가격 경쟁 압박을 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): For the average price of a car in the US, you could buy 5 new Chinese EVs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 EV의 극도의 가격 경쟁력 심화는 현대·기아 등 한국 자동차 업체의 글로벌 EV 시장 경쟁력 약화 및 수익성 악화로 직결되는 의미있는 산업 위협",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG에너지솔루션",
+        "SK이노베이션"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX1ZhWWJhT0lqSkFDY2RNUGNqTjJ6SU03OVlDUmwyRmF0d3M3OEwycE1Vb1JVdHl0bjdBR25kN21MWjB3OW1QejlxQTk5MlJCTHNCeVo1WlFDTGNwYlc4NVZ3RzFOYmY0WnpabjA3MHdwOXNlN2tYMzcwaUFQT25mQ3RoSjEwei14NkpaM0hKVTYzMk9SVC1rS2U4c01ZVF9nRUMyaUhvNWN3Rmh2cy1BZHQtMFJsTHQ2cHc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 06:11:50"
+    },
+    {
       "id": 1028,
       "title": "미국의 무역법(IEEPA)이 국가안보 정책으로 활용되는 추세가 강화되고 있으며, 이는 바이오/CDMO 산업의 글로벌 공급망과 규제에 직접적 영향을 미칠 수 있다. 한국의 삼성바이오로직스, 셀트리온 등 CDMO·바이오 기업들의 미국 수출 및 기술 거래 제한 리스크 증대.",
       "category": "주식",
@@ -2854,6 +2907,87 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 1237,
+      "title": "글로벌 주식시장이 실적 호조와 유가 하락에 힘입어 상승했다. 유가 하락은 한국의 에너지·화학 관련 기업들의 원재료비 부담 완화로 작용할 것으로 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>글로벌 주식시장이 실적 호조와 유가 하락에 힘입어 상승했다. 유가 하락은 한국의 에너지·화학 관련 기업들의 원재료비 부담 완화로 작용할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Stocks gain as investors take heart from upbeat earnings, dip in oil Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 하락은 S-Oil, SK이노베이션, LG화학 등 에너지·화학업계에 긍정적이지만 단기 원자재 가격 변동에 불과해 중간 수준의 영향",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZTZ0LVpvcnZ5S20wVGpXU1gtNzhQV2tSTXNvLTA4VDYySHRpM250TVI4cjVycEtZRUdXM2pIVDNIYWFIejl0V0diVGx0Ylp1WFFCWVVpWHdHcHFMOVotSk81TjhUMnJCS0NJOFBzTVB4T0x4Y251dFRtUUEzdTRtX2xxZw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 06:11:18"
+    },
+    {
+      "id": 1236,
+      "title": "나이지리아가 2026년 초 정유소 할당량의 50% 미만만 공급하면서 글로벌 원유 공급 차질 심화. 한국 정유사들의 원가 부담 증가 및 유가 상승 압력으로 작용할 전망.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>나이지리아가 2026년 초 정유소 할당량의 50% 미만만 공급하면서 글로벌 원유 공급 차질 심화. 한국 정유사들의 원가 부담 증가 및 유가 상승 압력으로 작용할 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nigeria supplies less than half of allocated crude to refineries in early 2026 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "나이지리아 원유 공급 부족이 글로벌 유가 상승 요인으로 작용하여 정유·화학업체 원가 부담 증가 및 수익성 악화 가능성",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPREtLcUdOREo5SjdCNV94cjRmU1JmbnB1bVFiR0R3WEJkUTVkU1JvNUxnLW15V2diUXZ3NktNMmtfTldsU3hINWI2ZFRkbGNyaklFdlZRX1hQaFRJSUhDckN5ajB0TlBsMmd1bnRELVZva0NsUXE3YXpjWUxVaHVrRXRqZDlvRktOVUZ0T0NFTjg5ZHFkQWZzMks4alZEeTZxOTNGc21VMVRuS2tsekw2Wk5OYmwwaGU2Mi13dDJB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 06:11:12"
+    },
+    {
+      "id": 1235,
+      "title": "UAE가 OPEC 탈퇴 후 ADNOC이 셰일 유형의 유·가스 프로젝트 확대 추진. 비OPEC 산유국의 공급 증가로 국제유가 약세 가능성 높아져 한국의 에너지·화학 수입비 절감 기대.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>UAE가 OPEC 탈퇴 후 ADNOC이 셰일 유형의 유·가스 프로젝트 확대 추진. 비OPEC 산유국의 공급 증가로 국제유가 약세 가능성 높아져 한국의 에너지·화학 수입비 절감 기대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): ADNOC set to push shale-style oil, gas projects after UAE&#x27;s OPEC exit Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "국제유가 하락 기조 조성 시 한국 정유·화학 기업의 원가 개선 호재지만, OPEC+ 공급 경쟁 심화는 유가 변동성 증가 위험으로 작용",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOXzB6aG91Z1RwOGJBU05pM1l0LTNvRGFPZS1tTzNBSno4UkRwb3BldWJiT1kwSnFkRWRBbHYtcC1uUEstSlNUd0IyeUtYRHZvX3hJRi1Mal9LWmViS1ZESGMxT3V6ZTdWT09xVzJxWlZhdTAxV1FmX1BZb2gyaFZ2am1MWW1BaE5VdVhBRXpQQVcyU0JkdEVuaGNaLWtnbmdzZXd0aXV1QjB0Wk1UNVhtX1g1a2tiNjA?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 06:11:05"
+    },
+    {
       "id": 1217,
       "title": "유가 하락으로 월스트리트가 반등했으며, 중동 긴장에도 불구하고 시장이 회복세를 보임. 유가 급락은 USD/KRW 약세 압력으로 작용하고, 외국인의 한국 주식 매수 심리 개선 가능성.",
       "category": "거시",
@@ -3041,6 +3175,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWXd1RnJ3VmJZYzUwREpNZ050WFhtZFFwNnhfeFdFMFhERW5wenFBbHBhTkNJaV9GWlZzTV9sVHJmdzZzTkU0YUdSU0hMQklYRWdsbUpXS1RuTnJhR0RRb2xXalVyMG9OamQ4WmNfaFZDQjRpMTJPMXRJXzJHX0RGQUM0M1lOOXFZZG15YjRTMDBEdWhFT09EZUk3Q1d3RFJGaGlzM0NiSnZBczNaT0QwUmlOOUFHUlBtRG5jRXpubmRnZDdtN183OXBHTQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-05 18:07:05"
+    },
+    {
+      "id": 1240,
+      "title": "중동 분쟁으로 유가 상승으로 인한 연료비 증가로 노르웨이 크루즈(Norwegian Cruise)가 수익 전망을 하향 조정했다. 유가 상승은 한국의 에너지·화학 관련 기업들의 원가 부담 증가를 의미한다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-04",
+      "summary": "<p>중동 분쟁으로 유가 상승으로 인한 연료비 증가로 노르웨이 크루즈(Norwegian Cruise)가 수익 전망을 하향 조정했다. 유가 상승은 한국의 에너지·화학 관련 기업들의 원가 부담 증가를 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Norwegian Cruise cuts profit forecast as Middle East conflict raises fuel costs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승은 한국의 석유화학·에너지 산업에 원가 상승 요인으로 작용하여 수익성 악화 가능성이 있으나, 개별 기업 실적에 미치는 영향은 제한적",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQc3M0UEFaNGlyUFBVbUh2a0ZPR2p6bFlTQWRIcWVNTkdZNlNiRDZNU0pLbXJXS3VlVVA5amdrRmFhNmhaYXlWdGkyUU4tY2Uzc2xDSzBQTWxOTnozckhySlh2cXZhS2EwUElBVFF1elVFcHg5VDhCYmRzbXFYQ1JRdEQzVG5SVjY5M0dzR01rdFVpSVBOSVJINXJFRXdJUmhjTFVJMkdadFRiVzFBTE5wMU8ycjlzMlh3T0FqTURnYkRZdm9TWWFjXzI2OUxpNHhHOE1FT0VGU29lVkhxaS13VzBfSmswVnRfQkxQZmR5ZExqVlU?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 06:11:35"
     },
     {
       "id": 1200,
@@ -3531,6 +3692,32 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVWtaSThlNlVxYjNBMGo2VVlIZzh6TjNOVFFMVnZTOHNCREtwS1RvX3NQcmxlQk13QUdsNWxQZkdYVFFPY1pibmZ5VHdQbVBNNmFfNkxMdHVkQ1lYd1dLcU00cmJMaERwRkM5Q1owLUJoQ0wwT2NDTmZTZ3J1eUpNS1FBMG54cXN2cXJzNGUtN3JoWlZDRlFUeUtVY1MtTkY1bUtGTV80dHROXzc3aElrcUNsUm5uMTVuaEJyRm5WeHEycUU?oc=5",
       "direction": "down",
       "updated_at": "2026-05-04 09:08:41"
+    },
+    {
+      "id": 1233,
+      "title": "일본이 엔화 약세 막기 위해 약 350억 달러 규모의 엔 매입 개입을 단행한 것으로 파악됨. 이는 엔/달러 환율 상승 압력을 완화하고 아시아 통화 경쟁 구도에 영향을 미칠 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-01",
+      "summary": "<p>일본이 엔화 약세 막기 위해 약 350억 달러 규모의 엔 매입 개입을 단행한 것으로 파악됨. 이는 엔/달러 환율 상승 압력을 완화하고 아시아 통화 경쟁 구도에 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Japan may have spent $35 billion in yen-buying intervention, BOJ data shows Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "일본의 엔화 개입은 USD/KRW 환율 및 KOSPI 외국인 수급에 간접 영향을 미치며, 아시아 통화 간 상대적 가치 변화로 한국 수출 경쟁력에 중립~약간의 악재 요인",
+      "stocks": [
+        "수출 대기업(자동차",
+        "반도체",
+        "조선)",
+        "통신주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN1o3ZUN1bkdKRDhsZmVfa0tZbGZzdVRMWWxXRDI4R0pHTnNuZGxUY1hIUHlNZDdMRDFfbjFMZ1lLSlVDVmd3YjgwZC1rM1FCdEpWQlVRaExwLWNoTHV5R3o0VHFGZUs2LWxfN2VuLVVpcmtkMFRld1QyaUhWNmlHeDFjVnl4eWltNnM4Z20tSXdzWk9fRGJpbGZkSkhaTzV3aDlIcFNUQ2VtcG0xcWJudXhhQUxub1dSSTk5N0hUOTNuUkU?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 06:10:57"
     },
     {
       "id": 1091,
@@ -4602,6 +4789,33 @@
       "source_url": "https://consensus.hankyung.com/analysis/downpdf?report_idx=648957",
       "direction": "up",
       "updated_at": "2026-05-03 21:18:23"
+    },
+    {
+      "id": 1242,
+      "title": "글로벌 유가가 수주 최고가 수준으로 상승하며 공급 우려가 심화되고 있다. 한국의 정유·화학 기업들의 원료비 상승 압박 요인이 될 것으로 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-29",
+      "summary": "<p>글로벌 유가가 수주 최고가 수준으로 상승하며 공급 우려가 심화되고 있다. 한국의 정유·화학 기업들의 원료비 상승 압박 요인이 될 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil prices settle at multi-week highs as global supply worries mount Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승은 정유사 수익성에 단기 악영향이지만, 화학사 원료비 상승으로 마진 압박이 예상되는 일반적 산업 동향",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQXlrVUs5UEQxV1pTNkRzOTBVdWtaSW1ONTlkQmRmUHdld1BpVnlzWnRhYXZzeHRCXzhPTHpWTmpvbGN6dDlYaTd0WTBfMUZ0U1ZQX3g2M3ptbFNFUGhtQ3Q0NHg4SnFOeVozeTNQSXJ6dTFiZlkyd3ZhTmpzZDU2X2xjYWFrMDdkenJNbTNaQl9fVHliclZjazYxLVFLY2VEc3A0UC1mLTlzcl9LdW1IT3h6bko1b19aNzNkWVBwUzhQdw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 06:11:42"
     },
     {
       "id": 1196,
@@ -6855,6 +7069,81 @@
       "updated_at": "2026-05-03 21:59:32"
     },
     {
+      "id": 1238,
+      "title": "캐나다가 3월 무역수지에서 흑자로 전환, 유가 상승과 금 수출 증가가 주요 요인. 유가 및 원자재 가격 상승은 한국의 에너지·화학주에 긍정적 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>캐나다가 3월 무역수지에서 흑자로 전환, 유가 상승과 금 수출 증가가 주요 요인. 유가 및 원자재 가격 상승은 한국의 에너지·화학주에 긍정적 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Canada swings to trade surplus in March as crude prices, gold exports jump Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "원유·금 가격 상승 신호로 에너지·화학 관련주에 제한적 호재지만, 캐나다 수출 증가가 한국 수출 경쟁에 직접 영향은 미미",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHJXM2V4VUtacjkzOU1IVGFRQ2xITHhZMExBdllxaEtPaWllM0g1ZnZDc3NfSXIxMHdpcGN6cEJ6LXJyUDJXbkg2dVdoRjhKSktSYlQ5cXRYNk1fWE81YlJHY2Jsc3d0SXA0WjE1M2hRVUxyZWt3UnFaWC03VXZyOUhVSEthOWFZRkxzMUZ6MXBYMWdpbkNYS0owNGYzanIyNFh2a3BqQ1hVUklMU0E?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 06:11:22"
+    },
+    {
+      "id": 1225,
+      "title": "미국이 의약품 가격 규제 협상을 통해 10년간 643억 달러 절감을 달성하기로 합의했으나, 이는 글로벌 제약사의 수익성 악화와 R&D 투자 감소로 이어질 가능성이 있어 한국 바이오·제약사에 간접적 악영향 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>미국이 의약품 가격 규제 협상을 통해 10년간 643억 달러 절감을 달성하기로 합의했으나, 이는 글로벌 제약사의 수익성 악화와 R&D 투자 감소로 이어질 가능성이 있어 한국 바이오·제약사에 간접적 악영향 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Drug pricing deal to generate savings of $64.3 billion over 10 years, White House says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "미국의 가격 규제 강화는 글로벌 제약 산업 수익성 악화로 이어져 한국 바이오사의 글로벌 진출 환경과 제약사의 국제 경쟁력에 부정적 영향 미칠 수 있음.",
+      "stocks": [
+        "셀트리온",
+        "삼성바이오로직스",
+        "한미약품",
+        "SK바이오사이언스"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMjNnMDF6SHg3czlPVXhxWUpVd0pYbXlKYTY2NUU0V1NIMzRsRG5PeTNIMmNrTXNFZ3BVNTd3bUlRTndSelZlY2VtbDNKb0gwTVpaZzlKVHlKY3NiaXFwQlAzV0RZUlU0eERRNTh0WFdxRloyRDVLa3F5T3NMTzIwVzJzU2NtWktEZmt5eWpyUVZDZGV2dnotUkFJLS1JTmhHUkxkRzJzSldscTFZWTJpQVJTSS1uR2JuenZaUFowMk1NdkdIMmM1d09sM1I1dUd0WjJvT3JtZXdnYUlYcnd6cWQ2aUhlZWM?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 06:09:13"
+    },
+    {
+      "id": 1224,
+      "title": "Tony 시상식 후보 발표 뉴스로, 엔터테인먼트 업계 소식이나 한국 반도체·AI 산업과의 직접적 연관성 없음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>Tony 시상식 후보 발표 뉴스로, 엔터테인먼트 업계 소식이나 한국 반도체·AI 산업과의 직접적 연관성 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): &#x27;The Lost Boys,’ ‘Schmigadoon!’ lead Tony nominations Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 뮤지컬 시상식 소식으로 한국 주식시장, 반도체, AI 산업과 무관한 엔터테인먼트 뉴스.",
+      "stocks": [],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTW83aTYwSkJ4YjNrQ3FrZnEtdEJKcU5yR0M3WHc4UlFVcU9ndmFOQjhXVjRvMG5rUzR0RExUQy05Z2toSDVoYXdyNVQ2c3QxdHprN2JxYmgycGRpZkxVQTQtWDBMZHZmS25WbHFzZm5Za3ZLT1BPUnd1Q2NzOGl0YjloUFY0bHgzMmRySmlxREpJVGFXT2dzekhzcmRQcnlZOFB0ZVdkT3RuQQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 06:07:55"
+    },
+    {
       "id": 1220,
       "title": "미국 무역적자가 수입 증가로 확대되었으나 원유 수출은 증가. 한국의 에너지·화학 기업들은 유가 상승 가능성과 미국 시장 수출 기회 변화에 영향받을 전망.",
       "category": "거시",
@@ -6986,6 +7275,27 @@
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcWNfMWNONFIyZTVRT3Nuel9uQXVjQU9wTXZLdnB3NUg4X0NzT01DbU5uSjNrcDE2eEtFTDR2cVo2cFZ4d0IzR2hLUVpUNGVRdkl4eTUtbGNtNldzc3pEYWpaLUx1WmQtOEY2TDNFRUN3cHJGZ2VPUHFBYXFJRjU5b09WQ1ZJSkMxbF84Vmd0MWRSU0FEQTE1cDNkT2pmbWo5NGwzbUJaVTVFc00yd0E?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-05 18:07:43"
+    },
+    {
+      "id": 1234,
+      "title": "뉴욕시 전 시장 줄리아니가 폐렴에서 회복 중. 미국 정치인의 건강 이슈로 한국 시장에 직접적인 영향 없음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-04",
+      "summary": "<p>뉴욕시 전 시장 줄리아니가 폐렴에서 회복 중. 미국 정치인의 건강 이슈로 한국 시장에 직접적인 영향 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Former New York City Mayor Giuliani recovering from pneumonia Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 전직 정치인의 개인 건강 문제로 한국 주식시장, 환율, 채권 금리 등 거시경제 지표와 무관.",
+      "stocks": [],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjNJcGlLWXIwbmdCUWNHb3M3MHJXSUxOb0NwWmRyNm1GMUUxb1RHQUl3U0lpUDJ1aDNDR1BqM3YydVZPcnBYRmJwVFhFT1FaQ3Y3TnFCMzRpYnotVzBiazZNZ2dzWnRVZFJsMUplOWxCY0lkdkU0Q3hOYjkzSmJZWW1INHozZ1htdDRsZDdUbl80TEUtR2Y0WVJUV3BHeFc0elFWRVpYSENsYlkzMnNDajJ0UXU?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 06:11:01"
     },
     {
       "id": 1210,
@@ -8042,6 +8352,54 @@
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY1lWcjNQNDY2aERXM3BnMTFFZllkWVZCNTFTY2Y0c0d4Nk1mY2UyQ0JNRVBMUVRNQnZiRlBNQnYzOWJaOFFUTTktZWpDWmNia2VpbWpreVU1dG1HSUo1T1JrWm12UVJ1R0ZxaUZIUXZrMXBDLUx4bXpUTE95ZFA1bHdGUXloZ0ZNc1ZfRm1SVGZGNnZUTWlrcVE0QzRsa3lHQzFPZURLTENMckd6UFpuWXRMd0I?oc=5",
       "direction": "up",
       "updated_at": "2026-05-04 00:07:25"
+    },
+    {
+      "id": 1231,
+      "title": "브리트니 스피어스가 음주운전(DUI) 혐의로 경범죄 1건 기소됨. 연예인 개인 법적 사건으로 한국 시장과 직접적 관련성 없음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>브리트니 스피어스가 음주운전(DUI) 혐의로 경범죄 1건 기소됨. 연예인 개인 법적 사건으로 한국 시장과 직접적 관련성 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Britney Spears charged with one misdemeanor in DUI case Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "미국 연예인의 개인 법적 사건으로 한국 주식시장 및 바이오/CDMO 산업과 무관",
+      "stocks": [],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY1FMaUZtWUZGOGNZLXd2Q3FzVzdsYV9pbmZVZWtDcDdXd0ViajlzMFVSMGJubUx5c0FGTm1XOEZIeldyVVNFblQweENhbVFHMU5QenEtaDU0SUUxMFN1VHZfd1YtVmpjN0E4dmliNzd0TTQ1Rm1kRERmd1EydzNPNEN4blZUNnhnLUdmVFp3QmNxdEpTLThSeE5qUGtGcUV4ZUFKaTU1cm8?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 06:10:49"
+    },
+    {
+      "id": 1229,
+      "title": "2026년 4월 말 월스트리트가 상승으로 마감하며 S&P 500과 나스닥이 수년 만에 최대 월간 상승률을 기록했습니다. 글로벌 주식시장의 강세는 한국 바이오/CDMO 종목의 수출 수요 개선과 투자심리 회복에 긍정적 신호입니다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>2026년 4월 말 월스트리트가 상승으로 마감하며 S&P 500과 나스닥이 수년 만에 최대 월간 상승률을 기록했습니다. 글로벌 주식시장의 강세는 한국 바이오/CDMO 종목의 수출 수요 개선과 투자심리 회복에 긍정적 신호입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Wall Street ends higher, S&amp;P 500, Nasdaq notch biggest monthly gains in years Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 주식시장 강세는 한국 바이오사 해외 수요 및 투자 심리에 일반적 호재이나, 구체적 산업/기업 뉴스 부재로 영향도는 제한적",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "유한양행",
+        "SK바이오사이언스",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa2wxWG1nd0J2c1MtblVVc2p1OU9DamRDSUExSnNwQllzaG1TR2xRMmpuU0lib0J6b2QyeGExRmRRLVlxUXNWaFhwLU5BRTFnVVdSNWtWZDV3RndfQmdMUWx2di1kWGNRVWtoTGM1OVlWUTlWSFo1dTIzMTFYVEtGRng3eG9PRUNzUnJBTFVSRFRuazUtazlwN1hBcHZoWlpIdV9mMTU1UDhyM2ZpMjQ0RXUtMlBEUQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 06:10:44"
     },
     {
       "id": 1216,
@@ -9267,6 +9625,27 @@
       "updated_at": "2026-05-05 09:07:42"
     },
     {
+      "id": 1226,
+      "title": "로이터 포토저널리스트들의 전 세계 뉴스 사진 모음집 발행. 바이오/CDMO 산업과 직접적 연관성 없는 일반 뉴스 사진 컬렉션.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2018-09-24",
+      "summary": "<p>로이터 포토저널리스트들의 전 세계 뉴스 사진 모음집 발행. 바이오/CDMO 산업과 직접적 연관성 없는 일반 뉴스 사진 컬렉션.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): A selection of our best news photography from Reuters photojournalists around the world Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "뉴스 사진 컬렉션으로 한국 주식시장 및 바이오/CDMO 관련 한국 종목에 직접적 영향 없음",
+      "stocks": [],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOeVZtdW5NOUJjSDVvTTEwTWx0WnhyLUVVdkNWZ2lkX19iOG5TMDZTaUNMNldrXzFySl9jcS1DQTVKZk13Z2FSUQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 06:10:30"
+    },
+    {
       "id": 1000,
       "title": "제공된 뉴스 헤드라인이 구체적인 내용 없이 일반적인 비즈니스 뉴스 섹션 제목만 포함되어 있어 실질적인 분석이 불가능합니다.",
       "category": "주식",
@@ -10166,336 +10545,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000004",
       "direction": "down",
       "updated_at": "2026-05-03 22:01:27"
-    },
-    {
-      "id": 594,
-      "title": "아모레퍼시픽홀딩스 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · 아모레퍼시픽홀딩스</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "아모레퍼시픽홀딩스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000005",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:27"
-    },
-    {
-      "id": 593,
-      "title": "아모레퍼시픽홀딩스 — 주요사항보고서(자기주식처분결정)(자회사의 주요경영사항)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정)(자회사의 주요경영사항)               · 아모레퍼시픽홀딩스</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "아모레퍼시픽홀딩스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429800011",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:26"
-    },
-    {
-      "id": 588,
-      "title": "명문제약 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 명문제약</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "명문제약"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000199",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:25"
-    },
-    {
-      "id": 587,
-      "title": "신흥 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 신흥</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "신흥"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000208",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:24"
-    },
-    {
-      "id": 580,
-      "title": "시큐레터 — 기타주요경영사항              (제3자배정 유상증자 결정 철회)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>유상증자 — 통상 물량 부담</p>\n<p style='color:#718096;font-size:.9em'>📋 기타주요경영사항              (제3자배정 유상증자 결정 철회) · 시큐레터</p>",
-      "feedback": "유상증자 — 통상 물량 부담",
-      "stocks": [
-        "시큐레터"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429900404",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:20"
-    },
-    {
-      "id": 577,
-      "title": "인터로조 — 투자판단관련주요경영사항              (최대주주 보유주식 가압류집행취소)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>최대주주 노시철의 보유주식 가압류가 5억 2천만원 공탁금 담보로 집행취소되어 법적 리스크 해소. 2025년 12월 22일 공시된 가압류 사건이 약 4개월 만에 해결되면서 주주구성 안정성 회복.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (최대주주 보유주식 가압류집행취소) · 인터로조</p>",
-      "feedback": "최대주주 법적 문제 해소는 긍정적이나 회사 영업·실적에 직접 영향 없고 기존 공시된 리스크의 단순 해결 수준",
-      "stocks": [
-        "인터로조"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429900446",
-      "direction": "neutral",
-      "updated_at": "2026-05-03 22:01:19"
-    },
-    {
-      "id": 573,
-      "title": "대진첨단소재 — 주요사항보고서(회사합병결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>대진첨단소재가 100% 자회사인 와이엠피라이팅을 무증자합병(합병비율 1:0)하는 소규모합병으로, 신주 미발행으로 인한 기존주주 지분 변동 없으며 연 매출 49.8억원 규모 자동차 램프 제조 사업의 인적·물적 통합을 통한 경영효율화가 주목적</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(회사합병결정) · 대진첨단소재</p>",
-      "feedback": "100% 자회사 흡수합병으로 신주 미발행·주주구성 무변동이며, 소규모합병 절차로 주식매수청구권 미적용되고, 피합병사 2025년 당기순손실 34.9억원으로 실질적 긍정효과 제한적",
-      "stocks": [
-        "대진첨단소재"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000529",
-      "direction": "neutral",
-      "updated_at": "2026-05-03 22:01:15"
-    },
-    {
-      "id": 571,
-      "title": "한화비전 — 유상증자결정(종속회사의주요경영사항)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>유상증자 — 통상 물량 부담</p>\n<p style='color:#718096;font-size:.9em'>📋 유상증자결정(종속회사의주요경영사항)               · 한화비전</p>",
-      "feedback": "유상증자 — 통상 물량 부담",
-      "stocks": [
-        "한화비전"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429800532",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:10"
-    },
-    {
-      "id": 569,
-      "title": "한올바이오파마 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · 한올바이오파마</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "한올바이오파마"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000556",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:09"
-    },
-    {
-      "id": 568,
-      "title": "우진아이엔에스 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · 우진아이엔에스</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "우진아이엔에스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000649",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:09"
-    },
-    {
-      "id": 567,
-      "title": "코이즈 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 코이즈</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "코이즈"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000675",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:09"
-    },
-    {
-      "id": 566,
-      "title": "삼보산업 — 증권발행결과(자율공시)              (제3자배정 유상증자)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>유상증자 — 통상 물량 부담</p>\n<p style='color:#718096;font-size:.9em'>📋 증권발행결과(자율공시)              (제3자배정 유상증자) · 삼보산업</p>",
-      "feedback": "유상증자 — 통상 물량 부담",
-      "stocks": [
-        "삼보산업"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429900606",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:09"
-    },
-    {
-      "id": 561,
-      "title": "조이웍스앤코 — 주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>거래정지</p>\n<p style='color:#718096;font-size:.9em'>📋 주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소) · 코스닥시장본부</p>",
-      "feedback": "거래정지",
-      "stocks": [
-        "조이웍스앤코"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429900724",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:07"
-    },
-    {
-      "id": 558,
-      "title": "엑스플러스 — 증권발행결과(자율공시)              (제3자배정 유상증자)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>유상증자 — 통상 물량 부담</p>\n<p style='color:#718096;font-size:.9em'>📋 증권발행결과(자율공시)              (제3자배정 유상증자) · 엑스플러스</p>",
-      "feedback": "유상증자 — 통상 물량 부담",
-      "stocks": [
-        "엑스플러스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429900807",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:06"
-    },
-    {
-      "id": 557,
-      "title": "아이씨에이치 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · 아이씨에이치</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "아이씨에이치"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000733",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:06"
     }
   ],
   "events": [
