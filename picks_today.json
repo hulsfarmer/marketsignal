@@ -1,17 +1,17 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "strategy": "hybrid",
-  "generated_at": "2026-05-04T19:29:11",
+  "generated_at": "2026-05-05T15:13:07",
   "count": 1,
   "picks": [
     {
-      "stock_code": "259960",
-      "name_kr": "크래프톤",
-      "ms_score": 56,
-      "ai_score": 65,
-      "confidence": "MEDIUM",
-      "reason": "[E] tech 0 / earn 65 (RSI 64, 5일 -3.5%)",
-      "entry_price": 265000.0
+      "stock_code": "105560",
+      "name_kr": "KB금융",
+      "ms_score": 62,
+      "ai_score": 97,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 98 (RSI 53, 5일 +0.2%)",
+      "entry_price": 157800.0
     }
   ]
 }

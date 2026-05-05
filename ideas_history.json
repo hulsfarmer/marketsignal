@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-05-04T19:29:13",
+  "generated_at": "2026-05-05T15:13:09",
   "dates": [
+    "2026-05-05",
     "2026-05-04",
     "2026-05-01",
     "2026-04-30",
@@ -35,6 +36,87 @@
     }
   },
   "by_date": {
+    "2026-05-05": {
+      "ai": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 60,
+            "ai_score": 72,
+            "confidence": "MEDIUM",
+            "reason": "5일 -5.4% 하락으로 단기 낙폭 과대 구간에 진입했으며, 임직원 내부자 순매수는 저점 인식의 신호로 해석됩니다. RSI 53으로 중립 구간이고 거래량비율 1.4배로 수급 유입 조짐이 있어 기술적 반등 패턴(100% 성공률)에 부합합니다.",
+            "entry_price": 197800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005930",
+            "name_kr": "삼성전자",
+            "ms_score": 67,
+            "ai_score": 62,
+            "confidence": "MEDIUM",
+            "reason": "바클리스 목표주가 상향과 메모리 품귀 지속 전망은 펀더멘탈 개선 신호로, 긍정 뉴스 2건이 아직 완전히 주가에 반영되지 않은 상태입니다. MS점수 67점으로 후보군 최상위이며 시장 대표주로서 중립 시장 환경에서 안정적인 선택지입니다.",
+            "entry_price": 0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "302440",
+            "name_kr": "SK바이오사이언스",
+            "ms_score": 60,
+            "ai_score": 55,
+            "confidence": "LOW",
+            "reason": "긍정 뉴스 5건으로 후보군 최다이며 RSU 자사주 매입은 주주환원 신호입니다. 다만 직전 추천 시 -1.37% 실패 이력이 있고 5일 -2.3% 하락 중이므로 낙폭 과대 반등 기대로 소량 접근하되 비중 축소가 필요합니다.",
+            "entry_price": 43300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "180640",
+            "name_kr": "한미반도체",
+            "ms_score": 63,
+            "ai_score": 48,
+            "confidence": "LOW",
+            "reason": "HBM 본더 기술 리더십과 목표가 상향은 긍정적이나, 35% 상승 후 조정 국면으로 호재_선반영 패턴(78% 실패율)에 해당합니다. 공매도 잔고 1위와 거래량 0.8배 부진으로 단기 모멘텀이 약해 5개 중 최하위 신뢰도로 편입합니다.",
+            "entry_price": 112300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "ms_score": 62,
+            "ai_score": 97,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 98 (RSI 53, 5일 +0.2%)",
+            "entry_price": 157800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-05-04": {
       "ai": {
         "count": 5,
