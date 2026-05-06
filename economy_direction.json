@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T09:08:38",
+  "generated_at": "2026-05-06T09:35:02",
   "count": 431,
   "posts": [
     {
@@ -10054,6 +10054,28 @@
       "updated_at": "2026-05-05 00:07:42"
     },
     {
+      "id": 1273,
+      "title": "씨젠 — 자기주식처분결과보고서",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260506",
+      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 씨젠</p>",
+      "feedback": "자사주 처분 — 유통량 증가",
+      "stocks": [
+        "씨젠"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 4,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000021",
+      "direction": "down",
+      "updated_at": "2026-05-06 09:35:02"
+    },
+    {
       "id": 946,
       "title": "케이엠제약 — [첨부정정]주식병합결정              ",
       "category": "주식",
@@ -10580,28 +10602,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430801433",
       "direction": "down",
       "updated_at": "2026-05-03 22:01:56"
-    },
-    {
-      "id": 638,
-      "title": "티플랙스 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 티플랙스</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "티플랙스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001694",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:52"
     }
   ],
   "events": [
