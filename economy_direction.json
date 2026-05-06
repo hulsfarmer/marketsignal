@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T18:35:15",
+  "generated_at": "2026-05-06T18:40:05",
   "count": 470,
   "posts": [
     {
@@ -11631,6 +11631,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "고려아연",
+      "event_date": "2026-05-21",
+      "event_type": "배당기준일",
+      "title": "고려아연 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506801010"
+    },
+    {
+      "stock_code": "",
       "stock_name": "스튜디오드래곤",
       "event_date": "2026-05-27",
       "event_type": "합병반대의사통지 종료",
@@ -11700,6 +11708,14 @@
       "event_type": "배당금지급예정일",
       "title": "SK스퀘어 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430801461"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "고려아연",
+      "event_date": "2026-06-05",
+      "event_type": "배당금지급예정일",
+      "title": "고려아연 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506801010"
     }
   ]
 }
