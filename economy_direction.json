@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T06:05:01",
+  "generated_at": "2026-05-07T06:11:54",
   "count": 500,
   "posts": [
     {
@@ -341,6 +341,33 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 1530,
+      "title": "중동 분쟁 종료 후에도 석유 재고 감소로 인한 공급 충격이 심화될 것으로 예상되며, 이는 한국의 정유·화학 업체들의 원유 확보 비용 상승과 마진 압박으로 이어질 전망이다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>중동 분쟁 종료 후에도 석유 재고 감소로 인한 공급 충격이 심화될 것으로 예상되며, 이는 한국의 정유·화학 업체들의 원유 확보 비용 상승과 마진 압박으로 이어질 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil supply shock to worsen as inventories fall further even if conflict ends Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승 압력으로 S-Oil, GS, SK이노베이션 등 정유·에너지 업계의 원가 부담 가중 및 수익성 악화 우려",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajEzZERrVnZsdVJkNHRpUTN2cEM2YUpZN1R6VENfVDJyT24tSmpieWhXd093VklWQ09OWW81dDdrZk1wenRTcDNVbU4yeURkelVEVW54dmNMVXNQQmNlZFJ3UXVZcEZwY2w3SEhmX0tjdE53UWYySTZOM3BNMmdhS3pFajkxZF9jRUpaWWRPd3daak5yd0lXNkdJanFjWjNzQjlZcDhFVTdXS1ZMNDBnSUhWWG03QzA4MXpSaXpiQQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-07 06:11:09"
+    },
+    {
       "id": 1516,
       "title": "이란 전쟁으로 인한 에너지시장 불안정 속에서 미국의 원유·연료 재고가 감소했다고 EIA가 발표했으며, 이는 유가 상승 압력으로 작용할 전망이다.",
       "category": "거시",
@@ -526,6 +553,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN296bno0NDZNanFzM1pGZGlMZUUtMHlwOXlDZGdpWmN3eWpPLXlBWFZaVjdEWk1Hc01JbElGUlc4R3JqTDdieC1Bek9ERnVJX1lkNTE0Q1JfRkZmWlY0ZzFnUi0zNmpONTd5VXRKV1EydGlURTkzbUtSSUZiMHMyQmpHeEtTbU1XTzRnVEhhWHRCTGw5Y1J3QXNCU0xNeGhW?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 21:07:09"
+    },
+    {
+      "id": 1542,
+      "title": "이란 전쟁으로 인한 에너지 위기가 아시아 전역에 불균등한 피해를 주고 있으며, 에너지 수급 악화로 인한 비용 상승이 예상됨. 중국 등 주요 에너지 소비국의 경제 부담 증가는 한국의 수출 수요 감소 및 에너지 가격 상승 압박으로 작용할 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>이란 전쟁으로 인한 에너지 위기가 아시아 전역에 불균등한 피해를 주고 있으며, 에너지 수급 악화로 인한 비용 상승이 예상됨. 중국 등 주요 에너지 소비국의 경제 부담 증가는 한국의 수출 수요 감소 및 에너지 가격 상승 압박으로 작용할 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asia battles rising, uneven toll of energy crisis caused by Iran war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "에너지 공급망 충격은 한국의 주력 수출산업(자동차, 철강, 화학) 비용 상승과 중국 수요 약화를 동시에 초래하는 의미있는 매크로 악재",
+      "stocks": [
+        "POSCO",
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaTVmYjdyQ1lEUGsya0U0R0JXdDNlZFRJeks1M1JkZDNHaTdRVkc2RHh0eXdlSFpsbVducndkcFBJb2ExSGNqZmF1a0tFTnFQNlFaYzBzUXpEcnNXXy15MzlxLU9LdXRPWWhhOUhST24wUElwb0JQcFpsWmJ4TTQ2Q2tQajR3eENaUDlvR2NTcTJjazE5LW4wSU5QVnVaSWE5THc4S3M4Y0V5NzhlbU9lUmFVSkpmeUU?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-07 06:11:54"
     },
     {
       "id": 1458,
@@ -3815,6 +3869,33 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 1540,
+      "title": "미국 연방준비제도 뮬렘 위원이 인플레이션 상승 리스크로의 기조 변화를 지적했으며, 이는 Fed의 금리 인상 가능성을 시사하여 글로벌 금융 환경 긴축으로 이어질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>미국 연방준비제도 뮬렘 위원이 인플레이션 상승 리스크로의 기조 변화를 지적했으며, 이는 Fed의 금리 인상 가능성을 시사하여 글로벌 금융 환경 긴축으로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Musalem: Risks have shifted towards higher inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "Fed의 매파적 신호는 원화 약세와 글로벌 수요 부진으로 이어져 수출 중심 한국 기업(자동차·철강·화장품)에 중기적 악영향을 미칠 수 있는 매크로 변수",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "POSCO",
+        "아모레퍼시픽",
+        "LG생활건강"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEl2dWZUdlhyNmVOREl4bzZGcXI5Q3J2emxzbXZWVGFReTcwalowZkNPZEZpOERFb2tXVVZkbHdTXzE0Wm1uaDRMTnN0TmwtYzBGRFlqR1JlZUtha3NQNGthRkZLc1ZiTTRvenphaWdlQzNkRnZoTjQtUzhaUk80S3hfWFV0cV8zX01WVWFLYnEycVgySktKWXdpeUtyR0hmMWo0VkZ3?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-07 06:11:46"
+    },
+    {
       "id": 1517,
       "title": "미국-이란 핵협상 타결 임박 보도로 유가 급락 전망. 에너지·화학 관련 한국 기업들의 원가 부담 완화 기대되나, 유가 수익성 악화 우려",
       "category": "거시",
@@ -5341,6 +5422,32 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVWtaSThlNlVxYjNBMGo2VVlIZzh6TjNOVFFMVnZTOHNCREtwS1RvX3NQcmxlQk13QUdsNWxQZkdYVFFPY1pibmZ5VHdQbVBNNmFfNkxMdHVkQ1lYd1dLcU00cmJMaERwRkM5Q1owLUJoQ0wwT2NDTmZTZ3J1eUpNS1FBMG54cXN2cXJzNGUtN3JoWlZDRlFUeUtVY1MtTkY1bUtGTV80dHROXzc3aElrcUNsUm5uMTVuaEJyRm5WeHEycUU?oc=5",
       "direction": "down",
       "updated_at": "2026-05-04 09:08:41"
+    },
+    {
+      "id": 1529,
+      "title": "미국 관리자가 이란과의 전쟁 휴전을 '종료'했다고 선언, 전쟁권 법안 기한에 대응. 중동 지정학적 위험 재상승으로 유가 상승 및 USD/KRW 강세 압박 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-01",
+      "summary": "<p>미국 관리자가 이란과의 전쟁 휴전을 '종료'했다고 선언, 전쟁권 법안 기한에 대응. 중동 지정학적 위험 재상승으로 유가 상승 및 USD/KRW 강세 압박 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US official says Iran war truce &#x27;terminated&#x27; hostilities for war powers deadline Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "중동 지정학 리스크 확대는 유가·달러·원화에 영향을 주지만, 구체적 실제 군사행동 여부 불명확하여 제한적 영향",
+      "stocks": [
+        "SK에너지",
+        "S-Oil",
+        "현대중공업",
+        "방위산업주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNemtpZUFjR001YzFHcWRuLWowQmVid2hmYWR2UzJpUTR2UnR5aWRTdUhzNWNtOUZMS0lhc29jamFZODZWa25ZejhkZlpneXY1bVNnSjhPT3dyMDk1MXV4M1FscE8xUTEwakF6NU9CWERuSzJDLVFuSEpRVGdhbjAwUF91dm42RS1ORkw4ZzNpV1NpakVKVndra05YaUxvQi1taVkzOHFKTS00QzFWbzhSX2Z1UXAzWlV4OGlacWRQSFpKY3FzdWtIRzhJTkNlN1E?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-07 06:11:06"
     },
     {
       "id": 1233,
@@ -9394,6 +9501,101 @@
       "updated_at": "2026-05-03 21:59:32"
     },
     {
+      "id": 1531,
+      "title": "UAE 동부 두 항구의 해상 무역 중추 역할에 대한 분석으로, 걸프 지역 석유·가스 및 원자재 수출 경로의 취약성 지적. 한국의 중동 에너지 수입 의존도 높아 공급망 리스크 요인.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>UAE 동부 두 항구의 해상 무역 중추 역할에 대한 분석으로, 걸프 지역 석유·가스 및 원자재 수출 경로의 취약성 지적. 한국의 중동 에너지 수입 의존도 높아 공급망 리스크 요인.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gulf&#x27;s fragile trade lifeline hangs on two eastern UAE ports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 항만 인프라 현황 보도로 에너지·화학업체의 중장기 공급망 관심도는 높으나, 직접적 공급 충격 신호 없어 일반적 산업 동향 수준",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdmJxb1ZDcGt5MVZzS2dCRlB4YXh0R01NenV2SmRoZW80Szg5S0ZOWmQ1ZHB4RFhrN0dUVktxQUJDWTFxOTRDTFBVZkpnS2xlbnRvUkpCWmJGRWF5VldFVktHMWlPZFh1TkQ3Q21ZaWFjMi1EZHV6OWFGZkdDRXRJNmh1cHQ1c1VPd2kzbWE3ODhQcGJoajE0YUU4c3NBdElwQm5xbVdqYnV1bG5uZVE0?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-07 06:11:13"
+    },
+    {
+      "id": 1527,
+      "title": "미국 금융인 루트닉이 에프스타인 섬 방문 관련 법정 증언에서 기억을 못 한다고 진술. 해당 이슈는 거시경제나 시장 펀더멘털과 무관한 개별 법적 사건.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>미국 금융인 루트닉이 에프스타인 섬 방문 관련 법정 증언에서 기억을 못 한다고 진술. 해당 이슈는 거시경제나 시장 펀더멘털과 무관한 개별 법적 사건.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Lutnick testifies he can&#x27;t recall why his family lunched on Epstein&#x27;s island Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "개인 법적 소송 사건으로 금리/매크로 영향 없으며 한국 시장과 직접적 연관성 전무.",
+      "stocks": [],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVdlOVNUV2JCaEJUVU1ULVZxMVpYUHhKUV9iN01oSFpfRGRMM2lfYkR1Vjd0NlhCb1VLTi02TmlhNks4TWVOc3p2OUVPTHVwTXJZVU5RZGFqaDRCOUMtZTE4VTJwWnJOUmFKeHhzREhEUk9IQVRRRU52bngxM3Zta3VOOEVmVkZ1UTVoaWprOVJocE5tM2pWa2huN1lfa3JWcU1BRjA3NThQQkxLT09zdFJ2NXhNcDA?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-07 06:10:56"
+    },
+    {
+      "id": 1526,
+      "title": "라이나스 CEO가 미국·유럽의 규제가 중국산 희토류에서 구매처를 전환하게 한다고 발언. 글로벌 희토류 공급망 재편으로 비중국 공급처 수요 증가 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>라이나스 CEO가 미국·유럽의 규제가 중국산 희토류에서 구매처를 전환하게 한다고 발언. 글로벌 희토류 공급망 재편으로 비중국 공급처 수요 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Lynas CEO says US, Europe rules sway buyers from Chinese rare earths Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "희토류는 한국 반도체·디스플레이 산업의 중요 소재이나, 라이나스(호주)의 시장 점유율 확대는 한국 기업의 공급망 다각화에 중립적 영향",
+      "stocks": [
+        "포스코퓨처엠",
+        "한국희토류",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUzd2OTFHZXA3MWlFNDh2UjZORGs5YmFMX3VYRmdDNUNXaFFkR3NMQ3pYQUI2Sk5BOEJkelpEQzYwSFdET1RlTWlaZmlYTjhOeUFoYXF6amxOcmdjNzdrNDdXQW52QjNFU21kUWRjMjZoN1Q1WDIzTG53X3RhUmJSSnNCVUNlc1hrQ05qNFdWNVhWRFB5LUJocVBCazl0ZEg1dmo0Q0tpRk9NNG95R1Ew?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-07 06:10:53"
+    },
+    {
+      "id": 1519,
+      "title": "스텔란티스가 모로코에서 중동·아프리카 지역 첫 자동차 폐차 및 부품 재활용 센터를 개설했으나, 이는 자동차 제조사의 순환경제 전략이며 한국 바이오/CDMO 업계와는 직접적 연관성이 없음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>스텔란티스가 모로코에서 중동·아프리카 지역 첫 자동차 폐차 및 부품 재활용 센터를 개설했으나, 이는 자동차 제조사의 순환경제 전략이며 한국 바이오/CDMO 업계와는 직접적 연관성이 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Stellantis opens first Middle East and Africa vehicle dismantling centre in Morocco Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "자동차 산업 뉴스로서 지정된 한국 바이오/CDMO 종목(삼성바이오로직스, 셀트리온, 유한양행, SK바이오사이언스, 한미약품)과 무관.",
+      "stocks": [],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdndzNmYzOW9hOWZ6emR1cE8ydzVvellDWVppelQzVXFvMDhHZnkzeW5rUVFGNFljNVVveDl2bkFUWjV3OW1EZzNjekhpTlRJNHJFdkFqVFBvLUhfSHNnZnpxdDkxNF9iMG84akhPYTIwN2gxUnBaWjBacnBqdy1HdTkyekJadUZ0SDNIT3g2TVdkTW9lS0M0UGhLZjRmRmU1WnBCdkxxMkNaVnBEdkJfQTliRFBnRDB2ZjFYLXJBMEtoaVF6Q2dYQ2VuOUJvZlg4Vk1wRlI1NHotejRZQ1BIdU5CVQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-07 06:08:00"
+    },
+    {
       "id": 1509,
       "title": "로이터 설문에 따르면 미 달러화는 현재 범위 내에서 박스권 움직임을 보일 전망이며, 호르무즈 해협 지정학적 긴장이 주요 변수로 작용할 것으로 예상됨. 달러 강세는 USD/KRW 환율 상승을 유도하여 수출주 및 외국인 투자심리에 영향을 미칠 가능성 있음.",
       "category": "거시",
@@ -11148,6 +11350,27 @@
       "updated_at": "2026-05-05 03:07:28"
     },
     {
+      "id": 1521,
+      "title": "Meta가 소셜미디어 중독 관련 소송 변호사 광고 제거로 미국 의원들의 감시 대상이 되었으나, 이는 바이오/CDMO 산업과 직접적 연관이 없음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-01",
+      "summary": "<p>Meta가 소셜미디어 중독 관련 소송 변호사 광고 제거로 미국 의원들의 감시 대상이 되었으나, 이는 바이오/CDMO 산업과 직접적 연관이 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Meta faces US lawmaker scrutiny over removal of lawyer ads for social media addiction cases Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "Meta의 광고 정책 이슈로 한국 바이오/CDMO 종목(삼성바이오로직스, 셀트리온 등)과 무관한 뉴스",
+      "stocks": [],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRVczUUJLSGc4eUZicGU3ODNrTHFONWRreC1Qa0kzVm1sSW5hdGttRUItU0lUbU1pWU1xbDBsYy16MHRsOWFYdENubkxNaEwxNXpCYkx6Y0l4bEo1c2xkSm1FaGhaNndqcEltWnhPNTRlSnVCcVN6MXlZSEdyQWJKQ0l0YWtXYzJveEh5OXF4X1VZQTVLYlI4ekVuZ3pmdVZmN1ZTQ09VSFl0NXdDOTQ3X05tb1cxcUdPUlFNVURxemZxc3Q1X21BSnhaVQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-07 06:09:19"
+    },
+    {
       "id": 1339,
       "title": "인도 루피화가 사상 최저치로 하락하면서 인도중앙은행이 방어적 입장으로 돌아섰다. 이는 新흥국 통화 약세 추세를 반영하며 USD/KRW 상승 압력과 함께 신흥국 자산 이탈 심화를 시사한다.",
       "category": "거시",
@@ -12101,224 +12324,6 @@
       "source_url": "https://consensus.hankyung.com/analysis/downpdf?report_idx=648953",
       "direction": "up",
       "updated_at": "2026-05-03 21:18:30"
-    },
-    {
-      "id": 512,
-      "title": "[유안타증권] 대한조선 — 1Q26 Re: 순수 이익 피지컬 관점의 저평가 · 목표 172,000",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "유안타증권",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>유안타증권이 대한조선에 Buy 의견과 172,000원 목표가를 제시했으며, 1Q26 실적 기준 순수이익 관점에서 저평가되어 있다는 분석. 다만 구체적인 실적 수치와 상향 근거가 헤드라인만으로는 명확하지 않음.</p>\n<p><em>한경 한 줄: 1Q26 Re: 순수 이익 피지컬 관점의 저평가</em></p>\n<p><strong>의견: Buy</strong> · 목표가 172,000원</p>\n<p style='color:#718096;font-size:.9em'>유안타증권 / 김용민</p>",
-      "feedback": "기존 Buy 의견 유지로 신규성 낮고, 목표가 변동 여부·실적 구체치·상향률 등 즉시 매매 결정에 필요한 정보 부재",
-      "stocks": [
-        "대한조선"
-      ],
-      "tags": [
-        "한경컨센서스"
-      ],
-      "impact_score": 5,
-      "source_type": "report",
-      "source_url": "https://consensus.hankyung.com/analysis/downpdf?report_idx=648956",
-      "direction": "neutral",
-      "updated_at": "2026-05-03 21:18:27"
-    },
-    {
-      "id": 1489,
-      "title": "중국의 5월 연료 수출이 4월보다 증가할 것으로 예상되지만, 정부 규제는 계속 유지될 전망. 중국발 공급 증가는 한국 정유사들의 수출 경쟁 심화와 유가 하락 압력으로 작용.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>중국의 5월 연료 수출이 4월보다 증가할 것으로 예상되지만, 정부 규제는 계속 유지될 전망. 중국발 공급 증가는 한국 정유사들의 수출 경쟁 심화와 유가 하락 압력으로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s May fuel exports to rise over April, but curbs remain, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중국 연료 공급 증가는 국제유가와 정유마진 약화로 이어져 S-Oil, GS, SK이노베이션 등 정유업종에 중도의 부정적 영향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSFZLSGhNQ1Mwc1FxelVZYVM0alZSMjgxUno4YmJxRUE2bWhlMnJwdGc0MDNNVjFBMVg4TGFMMFgxaW9zbjVENzFxQTZ0aDhONDdBTmZkdVNObDI2WFZGWGRnLVNsaXo0NFBvdkpiZEl2UkpRbmJZQ1VZQU9QU0JxT0JFbHVqUFA3MXhrdWFMcmVPb3ZONlAtenVSU0xqMUlSaFFTMm1lRERqaUtKQjNhSGFBLUpMWEltdHZCU3dFUlg?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-07 00:08:38"
-    },
-    {
-      "id": 1334,
-      "title": "메르세데스-벤츠가 BNP파리바에 자동차 리스 사업을 매각하기로 합의했다. 자동차 금융 부문의 구조조정 움직임이지만 바이오/CDMO 산업과는 직접적 연관이 없다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>메르세데스-벤츠가 BNP파리바에 자동차 리스 사업을 매각하기로 합의했다. 자동차 금융 부문의 구조조정 움직임이지만 바이오/CDMO 산업과는 직접적 연관이 없다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Mercedes inks deal with BNP to sell leasing business Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "자동차 금융 M&A로 바이오/CDMO 및 지정된 한국 제약·바이오 종목과 무관",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMm92RTBUNzJ5MEVGS0VaQmxZM2p4N3JqY1dYY2lwQll2aTJ0ekJ4RTVKODBUcnJxb0lrajlvYkRKV1QyRHE3Zmt3LXJHU0h1cHNKWDZ4eWV0ajVIQnRsWlV4dWNoenUtNDBYWVpEU0ZHMFV4TTJlN3lMNjhfS1AxZ3BnZHp0eWZtdUtPWDZ6OTFEbE9zcmJGNjNybXpXaXlQOFFWUEF3NUw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-06 15:08:48"
-    },
-    {
-      "id": 1299,
-      "title": "미국 법원이 공화당의 하원 선거구 재편성 추진을 허용하는 판결을 내렸으나, 이는 미국 정치 이슈로 한국 바이오/CDMO 산업과 직접적 연관성이 없음.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>미국 법원이 공화당의 하원 선거구 재편성 추진을 허용하는 판결을 내렸으나, 이는 미국 정치 이슈로 한국 바이오/CDMO 산업과 직접적 연관성이 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US court ruling clears Republican path to redraw House districts Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "미국 정치·선거구 재편성 판결은 한국 제약·바이오 기업의 영업·실적·산업 구조에 영향을 미치지 않음.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWi1IM3FHeUVyWXo2czlLR0RmQkVoUzlpMmxBZlVqVmdJQVJwc2ZVSkxwS3N3bmU2NmhzbTZfN1hqYjlmMjlweDUzWEFscG9XNEp5Rl9TQmhHU0V6emxON0JPb3p1ZmZGNGNEM0NvOTQtWGNpaWRMSHRLOENNY3M3bmpXNVphVzlIRlRWX1RLZE1WYlZZdzRLbHQtalBqZVVaZGtmSmszaTRRSVB0VXJzZkRhWF8?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-06 12:07:47"
-    },
-    {
-      "id": 1117,
-      "title": "미국 원유 수출이 지난주 사상 최고치를 기록했다고 EIA가 발표. 미국의 에너지 수출 증가는 국제 유가 약세 압력으로 작용할 수 있으며, 한국의 정유·화학사들의 원료비 부담 완화 요인으로 평가됨.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>미국 원유 수출이 지난주 사상 최고치를 기록했다고 EIA가 발표. 미국의 에너지 수출 증가는 국제 유가 약세 압력으로 작용할 수 있으며, 한국의 정유·화학사들의 원료비 부담 완화 요인으로 평가됨.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US crude oil exports rose last week to record high, EIA says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "미국 공급 증가로 인한 유가 약세는 한국 정유·화학사에 원료비 절감 호재이나, 글로벌 공급 과잉 신호로 수익성 제약 가능성도 있어 영향이 제한적",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeTYyM0Y0MlhfYzRBUmtYSzdXM2xmd3U0amNXbldrczkxV19xSEJ6ZHVuM0cySGpIVEVLU1dnVDN6d0xhcXgzOG9WVzFqeWZUaEF0bk1PSnFiV0FCLVczRm1ycmtOMjZyczBsVy1yeVV3ZVY2dmtLVUZ4aXZzSW9MT09TZy1adDZFV2hwSW1NYjk1N0N4Tlp1SzJJenY4V3Y1cm1WY2ZGYzZ6RThR?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-05 15:13:42"
-    },
-    {
-      "id": 1086,
-      "title": "이탈리아가 5월 말까지 제트유 공급이 충분하다고 발표했으나, 이는 바이오/CDMO 산업과 직접적인 연관이 없는 항공유 공급 뉴스입니다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>이탈리아가 5월 말까지 제트유 공급이 충분하다고 발표했으나, 이는 바이오/CDMO 산업과 직접적인 연관이 없는 항공유 공급 뉴스입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Italy has enough jet fuel until end-May, transport minister says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "항공유 공급 이슈는 에너지/항공업 뉴스로, 한국 바이오/CDMO 기업과 무관한 산업 분야입니다.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRzRmdTRKRDVpejA4bnpNWWlTYl9SbVNMcE5sLXZjemt6QTlKWTZfNTl6dzBVTFZzS0dybHp5QXNwdEt3ZVJubkNkQVo3c1NZZHNITnRGZ3ZkZktoVHdUX1cxRWVjeUZwb0pwOTFlYjJmXzNFWHpJOE9YV0cwUzd5QU9OMVhKQ1hsOU1GQXpGb01PMjhHcFpLV3JLdE1xM2hsMFlDa2x4aXV4ZlpTaDNRU29VNEZmZw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-05 12:07:51"
-    },
-    {
-      "id": 1047,
-      "title": "러시아가 OPEC+ 잔류 의사를 밝힌 반면, UAE의 탈퇴로 석유수출국기구의 결속이 흔들리는 상황. OPEC+ 와해 우려로 유가 변동성 확대 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>러시아가 OPEC+ 잔류 의사를 밝힌 반면, UAE의 탈퇴로 석유수출국기구의 결속이 흔들리는 상황. OPEC+ 와해 우려로 유가 변동성 확대 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Russia to remain in OPEC+, hopes UAE exit does not spell end of group Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "OPEC+ 분열은 유가 변동성을 높여 정유·석유화학 기업의 수익성에 영향을 미치지만, 즉각적인 유가 급변은 반영되지 않아 중간 수준 영향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYW0wbnlxM29rMXhaTzZaRkVsdUZDZkRIa3lmS1Y4ZkZ1ZmtLQWJib0hsTmRWWnpBS3ltWjBZcmU2Q1lYMnFLTG5KRlpUQWU3bElHbmYyWkhTMkFOa2FidlFwcWZNX3piUXlTSS14N1pTUEE2Vlg2MmpyZjhGbkxYMk94di1YM21SLWRieHpWSXBPYnkweTVFaW5WcWVmVXdoRjhuUkhFanRaV2d1bEVEZlhEZzZuWW8?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-05 06:11:19"
-    },
-    {
-      "id": 971,
-      "title": "UAE가 OPEC 의존도를 낮추며 독립적 유가 영향력 강화. 글로벌 석유 공급 구조 변화로 유가 변동성 증대 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>UAE가 OPEC 의존도를 낮추며 독립적 유가 영향력 강화. 글로벌 석유 공급 구조 변화로 유가 변동성 증대 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Why the UAE no longer needs OPEC Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 구조 변화는 한국 에너지·화학 기업의 원가 불확실성 증가로 영향이지만, 장기적 영향은 제한적",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMEduWTJMMUVGalBpT1VLVkdiV1JxcGpabFl1ZTZVZjIxYXdHUnRhRmEzdmo2WjJQTVVNS3hOMW1Fa3NZbHlmY3Vyd2hjQUFYbGdfQ0dzVF9FOEZSQ3lHRG8zS3BwcUtyZUtSQ1M2dWpqbk1EWFl3Z2xlMzA2YUY4dHQxcXZPRDVLYlE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 21:08:31"
-    },
-    {
-      "id": 970,
-      "title": "UAE가 OPEC 탈퇴 후 다자간 관계를 재검토하고 있으나 추가 탈퇴는 없을 것으로 밝혔다. OPEC 구조 변화는 글로벌 유가 안정성에 영향을 미칠 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>UAE가 OPEC 탈퇴 후 다자간 관계를 재검토하고 있으나 추가 탈퇴는 없을 것으로 밝혔다. OPEC 구조 변화는 글로벌 유가 안정성에 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): UAE reviewing multilateral ties after OPEC exit but rules out more departures, official says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "OPEC 약화는 유가 변동성 증가 가능성이 있으나, UAE의 추가 탈퇴 부정으로 즉각적 공급 충격은 제한적 - 한국 에너지·화학 업종에 중기적 불확실성",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT211UlRsXzZrRGx1T3VGVnoxaHh0dFAyZDZtV0pKdlktcTZKYmU5bUhHX0FfREFLanVscTlvVmVnS0tRc3JQSVZvS0ZiMWpPU3dBbWl4VWhKUGlZWHJ5ZVd3Ti0yN0tzZThFcVZ5Q3NRc2ZvaVZZQV8zcjdKUHJ1SVhCRURPeGdieVYxWUxtWW5aWnV6OVdUNkgyOWliSWNZaVFoeVNqdm81Y3VZNGVITUYzWk5zN3FTd2JoZ0NpRGVWQXJqWlE?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-04 21:08:26"
     }
   ],
   "events": [
