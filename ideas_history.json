@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T15:09:01",
+  "generated_at": "2026-05-06T23:06:37",
   "dates": [
     "2026-05-06",
     "2026-05-05",
@@ -22,18 +22,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 47,
+      "total": 50,
       "correct": 22,
-      "hit_rate": 46.8,
-      "avg_return": 0.56,
-      "avg_return_open": 0.85
+      "hit_rate": 44.0,
+      "avg_return": 0.53,
+      "avg_return_open": 0.76
     },
     "hybrid": {
-      "total": 25,
+      "total": 26,
       "correct": 11,
-      "hit_rate": 44.0,
-      "avg_return": 0.64,
-      "avg_return_open": 0.68
+      "hit_rate": 42.3,
+      "avg_return": 0.61,
+      "avg_return_open": 0.66
     }
   },
   "by_date": {
@@ -140,8 +140,93 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 7,
+        "picks": [
+          {
+            "stock_code": "452190",
+            "name_kr": "한빛레이저",
+            "open_price": 8580,
+            "close_price": 10050,
+            "trade_value": 207109512615,
+            "market_cap": 240401597850,
+            "sector": "기계·장비",
+            "rarity_months": 3,
+            "score": 8.0,
+            "notes": "KOSDAQ | 등락 +23.0% | 턴오버 86.2%"
+          },
+          {
+            "stock_code": "336260",
+            "name_kr": "두산퓨얼셀",
+            "open_price": 60000,
+            "close_price": 76200,
+            "trade_value": 328578608650,
+            "market_cap": 4990621921200,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 5.7,
+            "notes": "KOSPI | 등락 +25.7% | 턴오버 6.6% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "161580",
+            "name_kr": "필옵틱스",
+            "open_price": 51500,
+            "close_price": 63000,
+            "trade_value": 283703743000,
+            "market_cap": 1476861561000,
+            "sector": "기계·장비",
+            "rarity_months": 3,
+            "score": 4.9,
+            "notes": "KOSDAQ | 등락 +29.5% | 턴오버 19.2% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "003470",
+            "name_kr": "유안타증권",
+            "open_price": 6790,
+            "close_price": 7830,
+            "trade_value": 232890973710,
+            "market_cap": 1562841190080,
+            "sector": "증권",
+            "rarity_months": 3,
+            "score": 4.5,
+            "notes": "KOSPI | 등락 +29.9% | 턴오버 14.9% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "203650",
+            "name_kr": "드림시큐리티",
+            "open_price": 2915,
+            "close_price": 3380,
+            "trade_value": 224137042492,
+            "market_cap": 338630620120,
+            "sector": "IT 서비스",
+            "rarity_months": 0,
+            "score": 1.0,
+            "notes": "KOSDAQ | 등락 +17.0% | 턴오버 66.2% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "064260",
+            "name_kr": "다날",
+            "open_price": 7810,
+            "close_price": 7990,
+            "trade_value": 219517647110,
+            "market_cap": 604407201430,
+            "sector": "IT 서비스",
+            "rarity_months": 0,
+            "score": -0.4,
+            "notes": "KOSDAQ | 등락 +7.5% | 턴오버 36.3%"
+          },
+          {
+            "stock_code": "011790",
+            "name_kr": "SKC",
+            "open_price": 140000,
+            "close_price": 161200,
+            "trade_value": 318548622800,
+            "market_cap": 6104369637600,
+            "sector": "화학",
+            "rarity_months": 0,
+            "score": -1.5,
+            "notes": "KOSPI | 등락 +30.0% | 턴오버 5.2% | ★ 섹터 대장주"
+          }
+        ]
       }
     },
     "2026-05-05": {
@@ -156,10 +241,10 @@
             "confidence": "MEDIUM",
             "reason": "5일 -5.4% 하락으로 단기 낙폭 과대 구간에 진입했으며, 임직원 내부자 순매수는 저점 인식의 신호로 해석됩니다. RSI 53으로 중립 구간이고 거래량비율 1.4배로 수급 유입 조짐이 있어 기술적 반등 패턴(100% 성공률)에 부합합니다.",
             "entry_price": 197800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 197800.0,
+            "return_pct": 0.0,
+            "return_pct_open": 0.0,
+            "correct": 0
           },
           {
             "stock_code": "005930",
@@ -182,10 +267,10 @@
             "confidence": "LOW",
             "reason": "긍정 뉴스 5건으로 후보군 최다이며 RSU 자사주 매입은 주주환원 신호입니다. 다만 직전 추천 시 -1.37% 실패 이력이 있고 5일 -2.3% 하락 중이므로 낙폭 과대 반등 기대로 소량 접근하되 비중 축소가 필요합니다.",
             "entry_price": 43300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 43300.0,
+            "return_pct": 0.0,
+            "return_pct_open": 0.0,
+            "correct": 0
           },
           {
             "stock_code": "180640",
@@ -195,10 +280,10 @@
             "confidence": "LOW",
             "reason": "HBM 본더 기술 리더십과 목표가 상향은 긍정적이나, 35% 상승 후 조정 국면으로 호재_선반영 패턴(78% 실패율)에 해당합니다. 공매도 잔고 1위와 거래량 0.8배 부진으로 단기 모멘텀이 약해 5개 중 최하위 신뢰도로 편입합니다.",
             "entry_price": 112300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 112300.0,
+            "return_pct": 0.0,
+            "return_pct_open": 0.0,
+            "correct": 0
           }
         ]
       },
@@ -213,10 +298,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 98 (RSI 53, 5일 +0.2%)",
             "entry_price": 157800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 157800.0,
+            "return_pct": 0.0,
+            "return_pct_open": 0.0,
+            "correct": 0
           }
         ]
       },
