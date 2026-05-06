@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T12:08:38",
+  "generated_at": "2026-05-06T12:35:02",
   "count": 431,
   "posts": [
     {
@@ -6050,6 +6050,28 @@
       "updated_at": "2026-05-03 22:13:31"
     },
     {
+      "id": 1312,
+      "title": "한솔로지스틱스 — 현금ㆍ현물배당결정              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260506",
+      "summary": "<p>배당 결정</p>\n<p style='color:#718096;font-size:.9em'>📋 현금ㆍ현물배당결정               · 한솔로지스틱스</p>",
+      "feedback": "배당 결정",
+      "stocks": [
+        "한솔로지스틱스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 5,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800295",
+      "direction": "up",
+      "updated_at": "2026-05-06 12:35:02"
+    },
+    {
       "id": 919,
       "title": "네오리진 — 타법인주식및출자증권취득결정              ",
       "category": "주식",
@@ -10628,28 +10650,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900745",
       "direction": "down",
       "updated_at": "2026-05-04 17:35:03"
-    },
-    {
-      "id": 910,
-      "title": "아모레퍼시픽 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 아모레퍼시픽</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "아모레퍼시픽"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504000351",
-      "direction": "down",
-      "updated_at": "2026-05-04 16:35:06"
     }
   ],
   "events": [
