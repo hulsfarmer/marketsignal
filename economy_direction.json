@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T10:05:04",
+  "generated_at": "2026-05-06T10:35:02",
   "count": 431,
   "posts": [
     {
@@ -10054,6 +10054,28 @@
       "updated_at": "2026-05-05 00:07:42"
     },
     {
+      "id": 1275,
+      "title": "포인트모바일 — 자기주식처분결과보고서",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260506",
+      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 포인트모바일</p>",
+      "feedback": "자사주 처분 — 유통량 증가",
+      "stocks": [
+        "포인트모바일"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 4,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000047",
+      "direction": "down",
+      "updated_at": "2026-05-06 10:35:02"
+    },
+    {
       "id": 1273,
       "title": "씨젠 — 자기주식처분결과보고서",
       "category": "주식",
@@ -10580,28 +10602,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430901247",
       "direction": "down",
       "updated_at": "2026-05-03 22:02:00"
-    },
-    {
-      "id": 641,
-      "title": "삼성에스디에스 — 유상증자또는주식관련사채등의발행결과(자율공시)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>유상증자 — 통상 물량 부담</p>\n<p style='color:#718096;font-size:.9em'>📋 유상증자또는주식관련사채등의발행결과(자율공시)               · 삼성에스디에스</p>",
-      "feedback": "유상증자 — 통상 물량 부담",
-      "stocks": [
-        "삼성에스디에스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430801433",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:56"
     }
   ],
   "events": [
