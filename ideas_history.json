@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-05-05T15:13:09",
+  "generated_at": "2026-05-06T15:09:01",
   "dates": [
+    "2026-05-06",
     "2026-05-05",
     "2026-05-04",
     "2026-05-01",
@@ -21,21 +22,128 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 42,
-      "correct": 20,
-      "hit_rate": 47.6,
-      "avg_return": 0.26,
-      "avg_return_open": 0.33
+      "total": 47,
+      "correct": 22,
+      "hit_rate": 46.8,
+      "avg_return": 0.56,
+      "avg_return_open": 0.85
     },
     "hybrid": {
-      "total": 24,
-      "correct": 10,
-      "hit_rate": 41.7,
-      "avg_return": 0.29,
-      "avg_return_open": 0.52
+      "total": 25,
+      "correct": 11,
+      "hit_rate": 44.0,
+      "avg_return": 0.64,
+      "avg_return_open": 0.68
     }
   },
   "by_date": {
+    "2026-05-06": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "316140",
+            "name_kr": "우리금융지주",
+            "ms_score": 58,
+            "ai_score": 72,
+            "confidence": "HIGH",
+            "reason": "RSI 30으로 극도의 과매도 구간에 진입해 있으며, 5일 +0.3%로 하락세가 멈추는 기술적 반등 신호가 감지됩니다. 동양생명 완전 자회사 전환이라는 구조개편 호재가 아직 충분히 반영되지 않았고, 성공 패턴인 '기술적_반등(100% 성공률)'과 'RSI 저점 매수' 조건에 부합합니다.",
+            "entry_price": 33300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "000270",
+            "name_kr": "기아",
+            "ms_score": 60,
+            "ai_score": 60,
+            "confidence": "MEDIUM",
+            "reason": "RSI 57로 중립 구간 내에 있고, 5일 +0.9%로 완만한 상승 추세를 유지하며 기술적_반등 패턴과 일치합니다. 2026~2028년 주주환원율 35% 이상이라는 중기 배당 공약은 배당_효과 패턴에 해당하며, 호재가 장기적 관점에서 아직 충분히 주가에 반영되지 않은 상태입니다.",
+            "entry_price": 154000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "003490",
+            "name_kr": "대한항공",
+            "ms_score": 58,
+            "ai_score": 98,
+            "confidence": "HIGH",
+            "reason": "[E] tech 21 / earn 98 (RSI 47, 5일 -0.2%)",
+            "entry_price": 24500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "ms_score": 62,
+            "ai_score": 97,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 98 (RSI 55, 5일 +0.2%)",
+            "entry_price": 157800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "000100",
+            "name_kr": "유한양행",
+            "ms_score": 68,
+            "ai_score": 84,
+            "confidence": "HIGH",
+            "reason": "[T] tech 84 / earn 62 (RSI 36, 5일 -3.8%)",
+            "entry_price": 90500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "207940",
+            "name_kr": "삼성바이오로직스",
+            "ms_score": 56,
+            "ai_score": 84,
+            "confidence": "HIGH",
+            "reason": "[T] tech 51 / earn 84 (RSI 41, 5일 -1.6%)",
+            "entry_price": 1485000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 64,
+            "ai_score": 69,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 47 / earn 70 (RSI 48, 5일 -3.0%)",
+            "entry_price": 197800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-05-05": {
       "ai": {
         "count": 4,
@@ -113,8 +221,57 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "199820",
+            "name_kr": "제일일렉트릭",
+            "open_price": 18730,
+            "close_price": 20700,
+            "trade_value": 335853447655,
+            "market_cap": 459954000000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 3.0,
+            "notes": "KOSDAQ | 등락 +19.9% | 턴오버 73.0% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "432720",
+            "name_kr": "퀄리타스반도체",
+            "open_price": 26050,
+            "close_price": 29500,
+            "trade_value": 207774171950,
+            "market_cap": 417620054000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": -1.0,
+            "notes": "KOSDAQ | 등락 +17.8% | 턴오버 49.8%"
+          },
+          {
+            "stock_code": "103590",
+            "name_kr": "일진전기",
+            "open_price": 131200,
+            "close_price": 144100,
+            "trade_value": 310314989600,
+            "market_cap": 6871464699000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": -1.5,
+            "notes": "KOSPI | 등락 +17.6% | 턴오버 4.5%"
+          },
+          {
+            "stock_code": "033100",
+            "name_kr": "제룡전기",
+            "open_price": 79500,
+            "close_price": 91500,
+            "trade_value": 235835037800,
+            "market_cap": 1469710423500,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": -2.4,
+            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 16.0%"
+          }
+        ]
       }
     },
     "2026-05-04": {
@@ -129,10 +286,10 @@
             "confidence": "HIGH",
             "reason": "1분기 역대 최대 실적이라는 강력한 펀더멘탈 호재가 있으며, RSI 48로 중립 구간이고 5일 -4.1% 조정으로 호재 대비 주가가 덜 반영된 상태입니다. 코스피 +5.1% 강세장 환경에서 증권주는 직접 수혜 섹터로 기술적_반등 패턴에 부합합니다.",
             "entry_price": 33650.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 36450.0,
+            "return_pct": 8.32,
+            "return_pct_open": 2.08,
+            "correct": 1
           },
           {
             "stock_code": "352820",
@@ -142,10 +299,10 @@
             "confidence": "HIGH",
             "reason": "역대 최대 매출이라는 실적 호재와 함께 RSI 59로 과열 구간 직전이나 과거 동일 종목에서 두 차례 연속 성공(+4.16%, +1.61%)한 기술적_반등 패턴이 반복되고 있습니다. 5일 +4.4% 상승이 있으나 실적 기반 모멘텀이 지속되고 있어 추가 상승 여력이 존재합니다.",
             "entry_price": 263000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 257500.0,
+            "return_pct": -2.09,
+            "return_pct_open": 2.85,
+            "correct": 0
           },
           {
             "stock_code": "251270",
@@ -155,10 +312,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 47로 이상적인 종가매수 구간이며, 5일 -1.5% 소폭 조정으로 저가 매수 기회입니다. 과거 동일 종목 성공 사례(+1.20%)와 동일한 패턴(RSI 중립, 5일 소폭 하락)으로 기술적_반등 가능성이 높으며, 완전자회사 편입 뉴스가 아직 주가에 충분히 반영되지 않았습니다.",
             "entry_price": 49650.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 49500.0,
+            "return_pct": -0.3,
+            "return_pct_open": 1.91,
+            "correct": 0
           },
           {
             "stock_code": "180640",
@@ -168,10 +325,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 57로 중립권이며 5일 -1.3% 조정 후 강세장에서 HBM 관련 기술 우위 뉴스가 지지력을 제공합니다. 코스피 +5.1% 강세 환경에서 반도체 섹터 모멘텀이 살아있고, 자사주 매입과 목표가 상향 호재가 아직 완전히 반영되지 않은 상태입니다.",
             "entry_price": 112700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 112300.0,
+            "return_pct": -0.35,
+            "return_pct_open": 2.04,
+            "correct": 0
           },
           {
             "stock_code": "051900",
@@ -181,10 +338,10 @@
             "confidence": "LOW",
             "reason": "1분기 흑자전환과 자사주 소각이라는 배당_효과 패턴(100% 성공률)에 해당하며, RSI 62로 아직 과열 구간은 아닙니다. 5일 +0.4%의 안정적 흐름과 함께 강세장에서 저평가 소비재 섹터의 반등 가능성을 노립니다.",
             "entry_price": 254000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 279500.0,
+            "return_pct": 10.04,
+            "return_pct_open": 5.71,
+            "correct": 1
           }
         ]
       },
@@ -199,10 +356,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 65 (RSI 64, 5일 -3.5%)",
             "entry_price": 265000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 288500.0,
+            "return_pct": 8.87,
+            "return_pct_open": 4.53,
+            "correct": 1
           }
         ]
       },
