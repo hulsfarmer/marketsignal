@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-05-06T09:05:01",
+  "generated_at": "2026-05-06T09:08:38",
   "count": 431,
   "posts": [
+    {
+      "id": 1253,
+      "title": "OpenAI가 올해 컴퓨팅 파워에 500억 달러(약 65조 원) 지출을 계획 중. 초대형 AI 인프라 투자 확대로 고대역폭 메모리(HBM)와 파운드리 수요 증가 전망.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>OpenAI가 올해 컴퓨팅 파워에 500억 달러(약 65조 원) 지출을 계획 중. 초대형 AI 인프라 투자 확대로 고대역폭 메모리(HBM)와 파운드리 수요 증가 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): OpenAI projects $50 billion spending on computing power this year, Brockman says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 인프라 대규모 투자 신호로 한국 반도체(HBM, 파운드리) 수요 확대 가시화 및 장기 수급 개선 신호 제공",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMTBTSWxoNF9Fd3RQQXdLZHYzemNYNTRhNmhyOWo3ZXVtZTJGSmNydy1ac1czYl91aTJLZnMxZUFNNzZ5dmZoVTFRYVo1UjB2WG9XWEo4VmpSWlNqUW51VzVrWUhsZ0JZUDEwWU9WYVdZOGd5QlVDM1BDWVR0RGllWUs4OG1VOTlReGZNY0pMTnJDVy1CWHJYVXF2Ym9ybENpaEFKSjNlVHJjZWZJYXZNWFNmWXBkX1QwUUMwdE5HWQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 09:07:22"
+    },
     {
       "id": 921,
       "title": "미국 기술 기업들의 AI 데이터센터 투자 강화 신호에 SK하이닉스 주가가 12% 상승. HBM(고대역폭메모리) 수요 증가로 한국 반도체 주요 수혜처인 SK하이닉스와 삼성전자에 긍정적 영향 예상.",
@@ -231,6 +258,58 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 1251,
+      "title": "Anthropic이 Google 클라우드 및 칩에 200억 달러를 투자하기로 약정. Google의 AI 인프라 독점 심화로 NVIDIA 등 경쟁사와의 경쟁 구도 변화.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>Anthropic이 Google 클라우드 및 칩에 200억 달러를 투자하기로 약정. Google의 AI 인프라 독점 심화로 NVIDIA 등 경쟁사와의 경쟁 구도 변화.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Anthropic commits to spending $200 billion on Google&#x27;s cloud and chips, the Information reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "Google의 AI 칩 독점 강화는 HBM/메모리 수요 감소 우려를 불러일으키고 삼성·SK하이닉스의 AI 반도체 기회를 제약할 수 있는 공급망 구조 변화",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaTFGNndTSEMzZjkzNllLbmphX1V6V1V4bVEzOTM5UUhFSmJLY2gyU0I5VTFMamhyZGIyOGUxQWV2V0ZadkFock5ISEtkbUx5STltM1laejJxZEFBZ1J3dVRhMXlNS1FERVZJMGlGS3lvTlJRMkJqZUsyQ2FpVTlHdUVzQ2NGLVdfRVJNdGZXRHVXcldkQXZHTWs1V2Fac3BscDJkYWZpWWZqMEtUVHhGTllnVGxoRGp4TXZSX1p2Y0c?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 09:07:16"
+    },
+    {
+      "id": 1249,
+      "title": "AMD가 강한 AI 수요로 예상치를 상회하는 매출을 전망하며 주가 12% 상승. 글로벌 AI 칩 수요 확대는 한국의 SK하이닉스(HBM), 삼성전자 등 메모리·파운드리 수요 증가로 이어질 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>AMD가 강한 AI 수요로 예상치를 상회하는 매출을 전망하며 주가 12% 상승. 글로벌 AI 칩 수요 확대는 한국의 SK하이닉스(HBM), 삼성전자 등 메모리·파운드리 수요 증가로 이어질 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AMD forecasts revenue above expectations on strong AI demand, shares jump 12% Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 반도체 수요 확대 신호는 한국 메모리·파운드리 기업들의 실적 개선 기대감을 높이며, NVIDIA에 이은 글로벌 AI 칩 공급망 호황을 반영하는 의미있는 산업 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMzRfRTFOZjVpVkJVNzFyMHpBdWFZa0p4eDV4SkJjSFdPNTMtQ2lRcl9Banl0My1vS083cjNCcmFzU2pPOHNHRHpTNzlkMmJ4ekRnZVlHVXlYSHZ6NW8xTjRlMnY4U3VnNjA2ODlhQTJkbVU0bzQxRkx0TzRtcUFVUHhPZkZCVVotc05Za09RbGs3VEk3OEVOZlVCR0M2ZWU5RzYzVS1yeEtSbU8xYjMyd0hwVnEwUzNqWUR4aEliTFU?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 09:07:08"
     },
     {
       "id": 1241,
@@ -534,6 +613,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMU9nS2RGbERNNHRSYWRvdV9paFEzZXBNeDRWUDZFMUdLWnlud2ZqaHJCWTdfampicUZZRFg0QWVIWjhNMTk3ODY3aXAtc0JoRlI0SGd4czM4ZFpGVTBnS0pORzhtSWE5YldaV0tMRzdfSDJObHFvT1lkUWxxdG42SU5PdXVRS0dwenNVZXp0dWl6ZURwb2dJWnRTd0g5RTdZTnB3cjhZTDJWY0lGNnBoVXUyVDA5U1AzdjFhM2YyamhrYUVPVmNscQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-04 18:07:09"
+    },
+    {
+      "id": 1268,
+      "title": "연방준비제도(Fed)의 금리 결정을 둘러싼 시장 전망이 주목되는 가운데, 글로벌 유가·원자재 시황이 통상 변동성을 보임. 한국의 에너지·화학 기업들이 원유 가격 변화에 직접 영향을 받을 것으로 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-03",
+      "summary": "<p>연방준비제도(Fed)의 금리 결정을 둘러싼 시장 전망이 주목되는 가운데, 글로벌 유가·원자재 시황이 통상 변동성을 보임. 한국의 에너지·화학 기업들이 원유 가격 변화에 직접 영향을 받을 것으로 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Week Ahead: Fed fight Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "Fed 금리 정책 결정은 글로벌 에너지·원자재 가격을 좌우하는 주요 변수로, 유가 연동 수혜업체(정유·화학)의 실적에 의미있는 영향을 미침",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM0lVY2ZFRUZEVkpHcU1hNUtHaTdyZm9DeVJkb2pxSGQxcXdRb0p5S2RzeE9UMnc5TW42NmF3dndVZTc0bV8yaDRoeWRxdE5VTk53bG9VTEhUMFgzQ253Y05OQ2hqQV9TX3RIWEU0N0RiWTZrbExOYTh5OEdOSUdiVkZmSFJOaHgtRkpoMV9n?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 09:08:21"
     },
     {
       "id": 779,
@@ -2907,6 +3013,140 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 1272,
+      "title": "호주 중앙은행이 연속적인 기준금리 인상을 중단하고 금리 인상 사이클을 마감할 것으로 예상됨. 글로벌 금리 사이클의 전환 신호로, 향후 금리 인하 가능성이 높아져 유가 및 원자재 가격에 상승 압력 작용 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>호주 중앙은행이 연속적인 기준금리 인상을 중단하고 금리 인상 사이클을 마감할 것으로 예상됨. 글로벌 금리 사이클의 전환 신호로, 향후 금리 인하 가능성이 높아져 유가 및 원자재 가격에 상승 압력 작용 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Australia&#x27;s central bank set to cool its heels after rapid-fire rate hikes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "금리 인상 중단 신호는 글로벌 경기 회복 기대감과 유가·원자재 수요 회복을 암시하지만, 직접적 영향은 제한적이므로 의미있는 업종 호재 수준",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSkZCMS1PdnJxNlItSnlaM24wUm9pTjhDMnFmQVF2RlRVTmo4OG5FZGYySnZKSDBualVOY00td3ZTNUg5eDBObTBLUmZTTmc3ak5hbVdfcmpWVnRnTEd4dUppbnNkY2VGeHlzRUxROGpYV3E0NG9uYXY1YWdJNlJndHlBOWxVSUEwXzZvTkZLRHE1LWZCWlJnUFVsRk5JV1dDLXRGUFBLU2w2cGMzTWlyMDJCVTZlZHZVMkE5a0l6X1Fyb2hlSXJNYnR6ZEU?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 09:08:38"
+    },
+    {
+      "id": 1271,
+      "title": "G7이 핵심광물(critical minerals) 공급망 관리를 위한 상설 전담 조직 설립을 추진 중. 글로벌 공급망 재편과 규제 강화로 한국의 석유·화학·소재 기업들의 조달 전략과 수출 경쟁력에 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>G7이 핵심광물(critical minerals) 공급망 관리를 위한 상설 전담 조직 설립을 추진 중. 글로벌 공급망 재편과 규제 강화로 한국의 석유·화학·소재 기업들의 조달 전략과 수출 경쟁력에 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: G7 in talks to set up permanent unit to oversee critical minerals agenda Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "G7의 핵심광물 통제 강화는 한국 에너지·소재 기업의 조달 리스크와 규제 대응 비용 증가로 작용하되, 구체적 정책 시행 전 단계로 즉각적 영향은 제한적",
+      "stocks": [
+        "SK이노베이션",
+        "LG화학",
+        "S-Oil",
+        "GS"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcnZ4TFdZR2E2OU1UcW9UWE5ORm9yTFd3akgyZENYRG9qVEJ4YXc1SWNIaFpvanBYYmxhUFJ3XzN6RENjU0xheG5BSG5Vd0dYV2N4a2lQX1Jib0NZTWZrMjhTZFVKRGIyR0xhbnJOUXg1QVFzQXVKdUhNOXhXTF9SQnVIQ0psZjZ6TTdzOU5lazA5dFRGTENOdm5kMk05UEF4WV9YdXdFZGdoeENvQWhEelEzSWVmdw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 09:08:34"
+    },
+    {
+      "id": 1255,
+      "title": "미국 서비스업 성장이 둔화되고 신규 주문이 3년 만에 최대폭으로 감소. 글로벌 경기 약세 신호로 반도체·메모리 수요 부진 우려 확대.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>미국 서비스업 성장이 둔화되고 신규 주문이 3년 만에 최대폭으로 감소. 글로벌 경기 약세 신호로 반도체·메모리 수요 부진 우려 확대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US service sector growth cools as order growth drops by most in 3 years Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 서비스업 부진은 글로벌 경기 둔화 신호로 반도체·메모리 칩 수요 감소 우려를 야기하며 한국 메모리 및 파운드리 수출에 부정적 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ0xERmpXSWFIdkNGWEVNNXNreVYwSWRlcFVGOXNuTjZJTzJyYkhtb205cGZ2ejcyYzA5a1o2U3lRZXcySXFfMVVBOTJvWE9IdTJCOThtRFJ4QUNGSWNtTVdWaUFJaV8xSEV0Qlh3eVJEN3Y4WXh0M2g4MkpVRzZ2dUgzZmJDdGJMeWhzOFFodV96UFo0LThzdjhYMGZUa203dE9VLWtKWEdORndmZkRr?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-06 09:07:29"
+    },
+    {
+      "id": 1252,
+      "title": "유럽 IT 최고경영진들이 AI 규제 완화를 촉구하고 있으며, 이는 EU의 엄격한 AI 규제 정책 완화 가능성을 시사함. 규제 완화 시 글로벌 AI 칩 수요 증가로 SK하이닉스, 삼성전자 등 반도체 기업의 수출 확대 기회 증가.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>유럽 IT 최고경영진들이 AI 규제 완화를 촉구하고 있으며, 이는 EU의 엄격한 AI 규제 정책 완화 가능성을 시사함. 규제 완화 시 글로벌 AI 칩 수요 증가로 SK하이닉스, 삼성전자 등 반도체 기업의 수출 확대 기회 증가.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Top European tech CEOs call for easier AI rules Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "EU AI 규제 완화는 글로벌 AI 칩 수요 활성화로 이어져 한국 메모리/파운드리 반도체 수출 증가 가능성이 있으나, 아직 정책 단계이므로 실제 영향은 제한적",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRUVpU1hoZURPMlAtckRzaFlRYklYME9mMUk2TTJXUzNPbTVlZUhZVzEtdFN4a2dOaThxUDdRWkp2Z2Z1d19PMXZBdFI5Q0IzUFJXd2ZOODl1aWFXSkE3ZmhRRUpPRjIxMlRDcFNaTTNQLTlWQ3BXV2phTHowNHo1cElhRWJ3Yjk5N2dLcnd0RU51eFRNYnhzTVVhdGo?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 09:07:19"
+    },
+    {
+      "id": 1250,
+      "title": "GlobalFoundries가 데이터센터 수요에 힘입어 2분기 실적 호조를 전망했으며, 이는 AI 반도체 공급망 확대 신호로 SK하이닉스(HBM)와 삼성전자(파운드리/메모리) 같은 한국 반도체 기업에 긍정적 영향을 미칠 것으로 예상됨.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>GlobalFoundries가 데이터센터 수요에 힘입어 2분기 실적 호조를 전망했으며, 이는 AI 반도체 공급망 확대 신호로 SK하이닉스(HBM)와 삼성전자(파운드리/메모리) 같은 한국 반도체 기업에 긍정적 영향을 미칠 것으로 예상됨.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): GlobalFoundries forecasts upbeat second quarter on data center demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 파운드리의 낙관적 전망은 반도체 업황 개선을 시사하며 한국 메모리·파운드리 기업들의 수요 증가 가능성을 높이지만, GlobalFoundries의 직접적 경쟁 영향은 제한적",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZVMyUGxCZ0k2U0lzSy15Y2tYeWdpVE1lZU0zTFdqNjlTbTJzNDl6b1UycDVEVi1jY0E1d2ljVVp6OVlsaXNhQ2w4aXgxbUxzUndRT0NyVWNJanAyQUQtajJ3V0VkZ1VvaENaS3BTNEFUd25YN01uRkdnUEpxTVU4QkJlcU5UaF8wSU5lNEdXMml1Z2d0N2lKY2pzY0Nhd1lfRllDNjhnSDV6cUt4MTluUQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 09:07:12"
+    },
+    {
       "id": 1237,
       "title": "글로벌 주식시장이 실적 호조와 유가 하락에 힘입어 상승했다. 유가 하락은 한국의 에너지·화학 관련 기업들의 원재료비 부담 완화로 작용할 것으로 예상된다.",
       "category": "거시",
@@ -4073,6 +4313,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaUNrbk1aeXBSM2cxc1d0TW1vXzYtRFFTejVKSnBhTFpuV3RFM3lPaFZqNnpSWGhnRll5eUZTbGJpd2xMeWV6VzZEUzlnSjlZV3UxaVkzSmVRQkpsdU93ZWhlZnYyb2tTV192QlNpaEhNc3VuSVUyYXN4c3R5cGxPTWlxdzVwOVhDbktDcnlNZHdvZ3o0TkV2dktKY2t0S0x0VVRiUF9CTFI4TTJvWF9BR2JlRQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-03 22:13:00"
+    },
+    {
+      "id": 1270,
+      "title": "UAE의 OPEC+ 탈퇴로 석유수출국기구의 시장 영향력이 약화되지만 그룹 자체는 유지될 전망. 유가 안정성 저하 가능성으로 에너지·화학 기업의 원유 조달 비용 변동성 증대 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>UAE의 OPEC+ 탈퇴로 석유수출국기구의 시장 영향력이 약화되지만 그룹 자체는 유지될 전망. 유가 안정성 저하 가능성으로 에너지·화학 기업의 원유 조달 비용 변동성 증대 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): UAE exit weakens OPEC+ power over oil market but group to stay together, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "OPEC+ 약화로 유가 변동성 확대 시 정제·석유화학 기업의 실적 변동성 커지지만, 즉각적 공급 충격은 제한적",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcmZKRVltdFUzMFBld3oyR2R6dHQxQXRUSWctSW96c1VQSW5Xc0JPbTZrTkZxMWkwUXR0NEhEWEFYazhUc1NMcERRc2IxaUtQeklxR0tYanEwc1EzQ05ialFnUjhYNDA1cldjYks1aHh3SG5ydVM2Yk8tVjRqV0lpcExNNEhmVjVNcGJOUFl6TGdWSGUzeG41X0IzTjUzTk5xcjFQc0hqenp2dVZVWWNqV1lLUHhIUU9fSDR5UzFCRTdlMnJhSVE?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 09:08:29"
     },
     {
       "id": 1167,
@@ -7069,6 +7336,56 @@
       "updated_at": "2026-05-03 21:59:32"
     },
     {
+      "id": 1256,
+      "title": "화이자가 2028년 이후 성장 재개를 비만치료제와 암 신약에 의존하겠다고 발표. 글로벌 제약사의 파이프라인 강화 전략으로, 한국 CDMO·바이오 기업들의 위탁생산 수요 증가 가능성 시사.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>화이자가 2028년 이후 성장 재개를 비만치료제와 암 신약에 의존하겠다고 발표. 글로벌 제약사의 파이프라인 강화 전략으로, 한국 CDMO·바이오 기업들의 위탁생산 수요 증가 가능성 시사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Pfizer pins post 2028 return to growth on new obesity and cancer drugs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 제약사의 신약 개발 강화는 한국 CDMO·바이오 기업의 위탁생산 기회 증대하나, 화이자 자체 상황 개선일 뿐 한국 시장에 직접적 구조 변화는 제한적",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYnluLWVzNG52NWFnWXc5X3JLbFBNLU1XSFFDSVF5clBDVjdqOV9ldzVJSGdLME0yUHBuV2xudDFzbFBXQk90MlR3Wm1hSFlRRGtoeFFackpudERBN09wLUJ2N2VTNjBraV9tdU44VjdFVE9zTG82RTd6UjNCS0MySnlUR1E0cnBhSmY1TVhIV1Yyb2t3VHBucWkwaUlJNkowWjFoZFZhV2ZtT2pUaVE2eG1yOTFxT0xuV1NQekFDeVh6c1lxXzFMYWFMRVdMSVo0M0l2YUhoZWhiek1TbWtDSDFhTkJKZw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 09:07:34"
+    },
+    {
+      "id": 1248,
+      "title": "Flex가 AI 데이터센터 인프라 사업부를 분사하여 별도 상장사로 독립시키는 구조조정. AI 데이터센터 인프라 수요 증가 추세를 반영한 결정으로, 한국 반도체·서버 기업들의 AI 관련 사업 확대 경쟁에 간접 영향.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>Flex가 AI 데이터센터 인프라 사업부를 분사하여 별도 상장사로 독립시키는 구조조정. AI 데이터센터 인프라 수요 증가 추세를 반영한 결정으로, 한국 반도체·서버 기업들의 AI 관련 사업 확대 경쟁에 간접 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Flex to spin off AI data-center infrastructure unit into listed company Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 인프라 수요 확대 신호로 작용하나, Flex의 직접 한국 공급망 영향은 제한적이며 SK하이닉스·삼성전자의 HBM·메모리 수요 전망에는 부분적 긍정 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYTdDZjBkbzRYMmZxMXZmYVNpLVJObWF4d1luZzByYkdwV3p1NURuMWpzVElJLTNnUUczTkZyZV81d3hjWndVa1FyWkdIWlpWN1lSN29QYnhtbzJJejhNQW5GUjlRS1Z3UkhFeHh2czN3eUdyVkE1ZmhlTnBKQ2hibU9GcGthakJVbm1vbVRzOGFIUkNmWUIyTHZCMXVVM0laZjRNakd1ajc5YUtyeGg5Y3lKcw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-06 09:07:05"
+    },
+    {
       "id": 1238,
       "title": "캐나다가 3월 무역수지에서 흑자로 전환, 유가 상승과 금 수출 증가가 주요 요인. 유가 및 원자재 가격 상승은 한국의 에너지·화학주에 긍정적 영향.",
       "category": "거시",
@@ -7275,6 +7592,27 @@
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcWNfMWNONFIyZTVRT3Nuel9uQXVjQU9wTXZLdnB3NUg4X0NzT01DbU5uSjNrcDE2eEtFTDR2cVo2cFZ4d0IzR2hLUVpUNGVRdkl4eTUtbGNtNldzc3pEYWpaLUx1WmQtOEY2TDNFRUN3cHJGZ2VPUHFBYXFJRjU5b09WQ1ZJSkMxbF84Vmd0MWRSU0FEQTE1cDNkT2pmbWo5NGwzbUJaVTVFc00yd0E?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-05 18:07:43"
+    },
+    {
+      "id": 1258,
+      "title": "매사추세츠 주 대법원이 스포츠 베팅 플랫폼 Kalshi에 대한 주(State) 차원의 금지 조치에 긍정적 입장을 보임. 이는 미국 스포츠 베팅 규제 환경 변화를 시사하지만 한국 바이오/CDMO 산업과는 직접적 연관 없음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-04",
+      "summary": "<p>매사추세츠 주 대법원이 스포츠 베팅 플랫폼 Kalshi에 대한 주(State) 차원의 금지 조치에 긍정적 입장을 보임. 이는 미국 스포츠 베팅 규제 환경 변화를 시사하지만 한국 바이오/CDMO 산업과는 직접적 연관 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Massachusetts top court appears open to state ban on Kalshi sports betting Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "스포츠 베팅 규제 이슈로 한국 바이오/CDMO 기업 및 증시에 직접적 영향 없음",
+      "stocks": [],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaExDTWtiUTdYcG9DaGJzX0dWb1pLYjF6U1dleUtJZU1QTWFDZTNLS1ByTFB5TEtfZjJweThTajZxSFdpUjhrUk85alpxNVQ2Q202aHVtZzRvV2N6RWk3dzloNGxkWjFIaEZ2RmZtd1d1bmtscDNXNlA2ZzctWFh6QVpEUHVfM1huS2pqTksyV19IWWxvLVJObVFxWEdyc0x6OGVRdXFRX3hZUnJlRXVORElWZ1drbG8xdnNuaHV3?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 09:07:42"
     },
     {
       "id": 1234,
@@ -8352,6 +8690,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY1lWcjNQNDY2aERXM3BnMTFFZllkWVZCNTFTY2Y0c0d4Nk1mY2UyQ0JNRVBMUVRNQnZiRlBNQnYzOWJaOFFUTTktZWpDWmNia2VpbWpreVU1dG1HSUo1T1JrWm12UVJ1R0ZxaUZIUXZrMXBDLUx4bXpUTE95ZFA1bHdGUXloZ0ZNc1ZfRm1SVGZGNnZUTWlrcVE0QzRsa3lHQzFPZURLTENMckd6UFpuWXRMd0I?oc=5",
       "direction": "up",
       "updated_at": "2026-05-04 00:07:25"
+    },
+    {
+      "id": 1265,
+      "title": "유가 하락으로 글로벌 채권·주식이 상승했고, 일본의 엔화 개입으로 엔이 강세를 보임. 엔 강세는 USD/KRW 약세 압력으로 작용하며, 한국 수출주(자동차, 전자) 수익성에 부정적 영향 가능.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-30",
+      "summary": "<p>유가 하락으로 글로벌 채권·주식이 상승했고, 일본의 엔화 개입으로 엔이 강세를 보임. 엔 강세는 USD/KRW 약세 압력으로 작용하며, 한국 수출주(자동차, 전자) 수익성에 부정적 영향 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Bonds, stocks climb on oil&#x27;s pullback; yen jumps after Japan&#x27;s currency intervention Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "유가 하락 호재는 한국에 긍정적이나, 일본 엔화 개입에 따른 환율 변동성과 수출 경쟁력 약화 우려가 상충되어 단기 영향은 제한적",
+      "stocks": [
+        "현대차",
+        "기아",
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV1pNRkUyOVEwa2h2SzJ3ZWt3dW9pb014cEFnd3pENVBsM01tbWRjZllPQjJGRWNsc3gta2xNbXBsZkZyNE5oeGVpZ2U1X1VhNWhkYnVFYlBwcXd5WG1OZVNkcFlmN2NPMEVfbEZCa2pKT3pRLXNmUGl6NnNFZmVEUU1XRQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-06 09:08:08"
     },
     {
       "id": 1231,
@@ -10237,314 +10602,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001694",
       "direction": "down",
       "updated_at": "2026-05-03 22:01:52"
-    },
-    {
-      "id": 637,
-      "title": "제이씨케미칼 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 제이씨케미칼</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "제이씨케미칼"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001706",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:52"
-    },
-    {
-      "id": 634,
-      "title": "디오 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · 디오</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "디오"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001702",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:51"
-    },
-    {
-      "id": 629,
-      "title": "SK네트웍스 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · SK네트웍스</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "SK네트웍스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001769",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:46"
-    },
-    {
-      "id": 628,
-      "title": "웰킵스하이텍 — 주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>거래정지</p>\n<p style='color:#718096;font-size:.9em'>📋 주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소) · 코스닥시장본부</p>",
-      "feedback": "거래정지",
-      "stocks": [
-        "웰킵스하이텍"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430901197",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:46"
-    },
-    {
-      "id": 625,
-      "title": "어보브반도체 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · 어보브반도체</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "어보브반도체"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001759",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:45"
-    },
-    {
-      "id": 624,
-      "title": "엘에스일렉트릭 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 엘에스일렉트릭</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "엘에스일렉트릭"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001809",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:45"
-    },
-    {
-      "id": 623,
-      "title": "에코볼트 — 주권매매거래정지해제              (감자 주권 변경상장)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>거래정지</p>\n<p style='color:#718096;font-size:.9em'>📋 주권매매거래정지해제              (감자 주권 변경상장) · 코스닥시장본부</p>",
-      "feedback": "거래정지",
-      "stocks": [
-        "에코볼트"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430901624",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:44"
-    },
-    {
-      "id": 622,
-      "title": "SK스퀘어 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · SK스퀘어</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "SK스퀘어"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001762",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:44"
-    },
-    {
-      "id": 617,
-      "title": "애니플러스 — 자기주식처분결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식처분결과보고서 · 애니플러스</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "애니플러스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001844",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:42"
-    },
-    {
-      "id": 615,
-      "title": "지구홀딩스 — 주요사항보고서(유상증자결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>유상증자 — 통상 물량 부담</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(유상증자결정) · 지구홀딩스</p>",
-      "feedback": "유상증자 — 통상 물량 부담",
-      "stocks": [
-        "지구홀딩스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001790",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:42"
-    },
-    {
-      "id": 605,
-      "title": "이스트아시아홀딩스 — 주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>거래정지</p>\n<p style='color:#718096;font-size:.9em'>📋 주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소) · 코스닥시장본부</p>",
-      "feedback": "거래정지",
-      "stocks": [
-        "이스트아시아홀딩스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430901775",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:30"
-    },
-    {
-      "id": 597,
-      "title": "크라우드웍스 — 주요사항보고서(유상증자결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>유상증자 — 통상 물량 부담</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(유상증자결정) · 크라우드웍스</p>",
-      "feedback": "유상증자 — 통상 물량 부담",
-      "stocks": [
-        "크라우드웍스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428000834",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:27"
-    },
-    {
-      "id": 596,
-      "title": "SK네트웍스 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · SK네트웍스</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "SK네트웍스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000001",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:27"
-    },
-    {
-      "id": 595,
-      "title": "아모레퍼시픽 — 주요사항보고서(자기주식처분결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>자사주 처분 — 유통량 증가</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식처분결정) · 아모레퍼시픽</p>",
-      "feedback": "자사주 처분 — 유통량 증가",
-      "stocks": [
-        "아모레퍼시픽"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 4,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000004",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:27"
     }
   ],
   "events": [
