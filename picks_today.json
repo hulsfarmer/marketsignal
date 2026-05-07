@@ -1,53 +1,44 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-07",
   "strategy": "hybrid",
-  "generated_at": "2026-05-06T15:09:00",
-  "count": 5,
+  "generated_at": "2026-05-07T15:09:04",
+  "count": 4,
   "picks": [
-    {
-      "stock_code": "003490",
-      "name_kr": "대한항공",
-      "ms_score": 58,
-      "ai_score": 98,
-      "confidence": "HIGH",
-      "reason": "[E] tech 21 / earn 98 (RSI 47, 5일 -0.2%)",
-      "entry_price": 24500.0
-    },
     {
       "stock_code": "105560",
       "name_kr": "KB금융",
-      "ms_score": 62,
-      "ai_score": 97,
+      "ms_score": 58,
+      "ai_score": 99,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 98 (RSI 55, 5일 +0.2%)",
-      "entry_price": 157800.0
+      "reason": "[E] tech 0 / earn 99 (RSI 52, 5일 +0.1%)",
+      "entry_price": 158900.0
     },
     {
-      "stock_code": "000100",
-      "name_kr": "유한양행",
-      "ms_score": 68,
-      "ai_score": 84,
+      "stock_code": "180640",
+      "name_kr": "한미반도체",
+      "ms_score": 63,
+      "ai_score": 89,
       "confidence": "HIGH",
-      "reason": "[T] tech 84 / earn 62 (RSI 36, 5일 -3.8%)",
-      "entry_price": 90500.0
-    },
-    {
-      "stock_code": "207940",
-      "name_kr": "삼성바이오로직스",
-      "ms_score": 56,
-      "ai_score": 84,
-      "confidence": "HIGH",
-      "reason": "[T] tech 51 / earn 84 (RSI 41, 5일 -1.6%)",
-      "entry_price": 1485000.0
+      "reason": "[T] tech 90 / earn 0 (RSI 37, 5일 -4.4%)",
+      "entry_price": 109700.0
     },
     {
       "stock_code": "068270",
       "name_kr": "셀트리온",
-      "ms_score": 64,
-      "ai_score": 69,
+      "ms_score": 60,
+      "ai_score": 85,
+      "confidence": "HIGH",
+      "reason": "[T] tech 86 / earn 0 (RSI 41, 5일 -5.9%)",
+      "entry_price": 194700.0
+    },
+    {
+      "stock_code": "055550",
+      "name_kr": "신한지주",
+      "ms_score": 62,
+      "ai_score": 74,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 47 / earn 70 (RSI 48, 5일 -3.0%)",
-      "entry_price": 197800.0
+      "reason": "[E+T] tech 68 / earn 74 (RSI 32, 5일 -2.6%)",
+      "entry_price": 97300.0
     }
   ]
 }

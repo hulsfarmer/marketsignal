@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-05-06T23:06:37",
+  "generated_at": "2026-05-07T15:09:06",
   "dates": [
+    "2026-05-07",
     "2026-05-06",
     "2026-05-05",
     "2026-05-04",
@@ -37,6 +38,100 @@
     }
   },
   "by_date": {
+    "2026-05-07": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "018260",
+            "name_kr": "삼성SDS",
+            "ms_score": 62,
+            "ai_score": 63,
+            "confidence": "MEDIUM",
+            "reason": "KKR 전략적 제휴와 STO 플랫폼 수주라는 미반영 성장 재료가 존재하며, 5일 -1.4%의 소폭 하락으로 뉴스가 아직 주가에 덜 반영되어 있습니다. RSI 41로 적정 매수 구간이고, 긍정 뉴스 5건에 부정 0건인 완전 긍정 구도로 AI·STO 테마 모멘텀 유입 기대가 높습니다.",
+            "entry_price": 170000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "007070",
+            "name_kr": "GS리테일",
+            "ms_score": 58,
+            "ai_score": 57,
+            "confidence": "LOW",
+            "reason": "실적 발표 임박과 미래에셋증권의 매수 상향 평가가 단기 촉매로 작용할 수 있으며, RSI 46의 중립 구간으로 추가 상승 여력이 남아 있습니다. 5일 -3.4% 하락으로 호재가 미반영된 상태이나, 경영진 주식 증여 이슈가 단기 불확실성 요인으로 작용할 수 있어 비중 조절이 필요합니다.",
+            "entry_price": 22450.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "ms_score": 58,
+            "ai_score": 99,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 99 (RSI 52, 5일 +0.1%)",
+            "entry_price": 158900.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "180640",
+            "name_kr": "한미반도체",
+            "ms_score": 63,
+            "ai_score": 89,
+            "confidence": "HIGH",
+            "reason": "[T] tech 90 / earn 0 (RSI 37, 5일 -4.4%)",
+            "entry_price": 109700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 60,
+            "ai_score": 85,
+            "confidence": "HIGH",
+            "reason": "[T] tech 86 / earn 0 (RSI 41, 5일 -5.9%)",
+            "entry_price": 194700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "055550",
+            "name_kr": "신한지주",
+            "ms_score": 62,
+            "ai_score": 74,
+            "confidence": "MEDIUM",
+            "reason": "[E+T] tech 68 / earn 74 (RSI 32, 5일 -2.6%)",
+            "entry_price": 97300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-05-06": {
       "ai": {
         "count": 2,
