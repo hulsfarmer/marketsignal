@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T15:09:06",
+  "generated_at": "2026-05-07T16:10:26",
   "dates": [
     "2026-05-07",
     "2026-05-06",
@@ -23,18 +23,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 50,
-      "correct": 22,
-      "hit_rate": 44.0,
-      "avg_return": 0.53,
-      "avg_return_open": 0.76
+      "total": 52,
+      "correct": 23,
+      "hit_rate": 44.2,
+      "avg_return": 0.48,
+      "avg_return_open": 0.65
     },
     "hybrid": {
-      "total": 26,
-      "correct": 11,
-      "hit_rate": 42.3,
-      "avg_return": 0.61,
-      "avg_return_open": 0.66
+      "total": 31,
+      "correct": 13,
+      "hit_rate": 41.9,
+      "avg_return": 0.39,
+      "avg_return_open": 0.42
     }
   },
   "by_date": {
@@ -128,8 +128,57 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "017550",
+            "name_kr": "수산세보틱스",
+            "open_price": 3415,
+            "close_price": 3900,
+            "trade_value": 202231307422,
+            "market_cap": 243356607000,
+            "sector": "기계·장비",
+            "rarity_months": 3,
+            "score": 8.0,
+            "notes": "KOSPI | 등락 +25.2% | 턴오버 83.1% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "138080",
+            "name_kr": "오이솔루션",
+            "open_price": 44900,
+            "close_price": 54100,
+            "trade_value": 281494522125,
+            "market_cap": 669636707800,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 7.2,
+            "notes": "KOSDAQ | 등락 +21.3% | 턴오버 42.0%"
+          },
+          {
+            "stock_code": "203650",
+            "name_kr": "드림시큐리티",
+            "open_price": 3750,
+            "close_price": 4160,
+            "trade_value": 548435460610,
+            "market_cap": 416776147840,
+            "sector": "IT 서비스",
+            "rarity_months": 0,
+            "score": 4.0,
+            "notes": "KOSDAQ | 등락 +10.8% | 턴오버 131.6% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "0011T0",
+            "name_kr": "채비",
+            "open_price": 17000,
+            "close_price": 17240,
+            "trade_value": 301305533585,
+            "market_cap": 806578227200,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 1.7,
+            "notes": "KOSDAQ | 등락 +0.4% | 턴오버 37.4% | ★ 섹터 대장주"
+          }
+        ]
       }
     },
     "2026-05-06": {
@@ -144,10 +193,10 @@
             "confidence": "HIGH",
             "reason": "RSI 30으로 극도의 과매도 구간에 진입해 있으며, 5일 +0.3%로 하락세가 멈추는 기술적 반등 신호가 감지됩니다. 동양생명 완전 자회사 전환이라는 구조개편 호재가 아직 충분히 반영되지 않았고, 성공 패턴인 '기술적_반등(100% 성공률)'과 'RSI 저점 매수' 조건에 부합합니다.",
             "entry_price": 33300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 32600.0,
+            "return_pct": -2.1,
+            "return_pct_open": -2.1,
+            "correct": 0
           },
           {
             "stock_code": "000270",
@@ -157,10 +206,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 57로 중립 구간 내에 있고, 5일 +0.9%로 완만한 상승 추세를 유지하며 기술적_반등 패턴과 일치합니다. 2026~2028년 주주환원율 35% 이상이라는 중기 배당 공약은 배당_효과 패턴에 해당하며, 호재가 장기적 관점에서 아직 충분히 주가에 반영되지 않은 상태입니다.",
             "entry_price": 154000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 154600.0,
+            "return_pct": 0.39,
+            "return_pct_open": 0.39,
+            "correct": 1
           }
         ]
       },
@@ -175,10 +224,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 21 / earn 98 (RSI 47, 5일 -0.2%)",
             "entry_price": 24500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 24550.0,
+            "return_pct": 0.2,
+            "return_pct_open": 0.2,
+            "correct": 1
           },
           {
             "stock_code": "105560",
@@ -188,10 +237,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 98 (RSI 55, 5일 +0.2%)",
             "entry_price": 157800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 158900.0,
+            "return_pct": 0.7,
+            "return_pct_open": 0.7,
+            "correct": 1
           },
           {
             "stock_code": "000100",
@@ -201,10 +250,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 84 / earn 62 (RSI 36, 5일 -3.8%)",
             "entry_price": 90500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 87800.0,
+            "return_pct": -2.98,
+            "return_pct_open": -2.98,
+            "correct": 0
           },
           {
             "stock_code": "207940",
@@ -214,10 +263,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 51 / earn 84 (RSI 41, 5일 -1.6%)",
             "entry_price": 1485000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1480000.0,
+            "return_pct": -0.34,
+            "return_pct_open": -0.34,
+            "correct": 0
           },
           {
             "stock_code": "068270",
@@ -227,10 +276,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 47 / earn 70 (RSI 48, 5일 -3.0%)",
             "entry_price": 197800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 194700.0,
+            "return_pct": -1.57,
+            "return_pct_open": -1.57,
+            "correct": 0
           }
         ]
       },

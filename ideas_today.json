@@ -1,65 +1,56 @@
 {
-  "date": "2026-05-06",
-  "generated_at": "2026-05-06T23:06:35",
+  "date": "2026-05-07",
+  "generated_at": "2026-05-07T16:10:24",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-06T23:06:35",
-      "pick_date": "2026-05-06",
+      "updated_at": "2026-05-07T16:10:24",
+      "pick_date": "2026-05-07",
       "count": 2,
       "picks": [
         {
-          "stock_code": "316140",
-          "name_kr": "우리금융지주",
-          "ms_score": 58,
-          "ai_score": 72,
-          "confidence": "HIGH",
-          "reason": "RSI 30으로 극도의 과매도 구간에 진입해 있으며, 5일 +0.3%로 하락세가 멈추는 기술적 반등 신호가 감지됩니다. 동양생명 완전 자회사 전환이라는 구조개편 호재가 아직 충분히 반영되지 않았고, 성공 패턴인 '기술적_반등(100% 성공률)'과 'RSI 저점 매수' 조건에 부합합니다.",
-          "entry_price": 33300.0
+          "stock_code": "018260",
+          "name_kr": "삼성SDS",
+          "ms_score": 62,
+          "ai_score": 63,
+          "confidence": "MEDIUM",
+          "reason": "KKR 전략적 제휴와 STO 플랫폼 수주라는 미반영 성장 재료가 존재하며, 5일 -1.4%의 소폭 하락으로 뉴스가 아직 주가에 덜 반영되어 있습니다. RSI 41로 적정 매수 구간이고, 긍정 뉴스 5건에 부정 0건인 완전 긍정 구도로 AI·STO 테마 모멘텀 유입 기대가 높습니다.",
+          "entry_price": 170000.0
         },
         {
-          "stock_code": "000270",
-          "name_kr": "기아",
-          "ms_score": 60,
-          "ai_score": 60,
-          "confidence": "MEDIUM",
-          "reason": "RSI 57로 중립 구간 내에 있고, 5일 +0.9%로 완만한 상승 추세를 유지하며 기술적_반등 패턴과 일치합니다. 2026~2028년 주주환원율 35% 이상이라는 중기 배당 공약은 배당_효과 패턴에 해당하며, 호재가 장기적 관점에서 아직 충분히 주가에 반영되지 않은 상태입니다.",
-          "entry_price": 154000.0
+          "stock_code": "007070",
+          "name_kr": "GS리테일",
+          "ms_score": 58,
+          "ai_score": 57,
+          "confidence": "LOW",
+          "reason": "실적 발표 임박과 미래에셋증권의 매수 상향 평가가 단기 촉매로 작용할 수 있으며, RSI 46의 중립 구간으로 추가 상승 여력이 남아 있습니다. 5일 -3.4% 하락으로 호재가 미반영된 상태이나, 경영진 주식 증여 이슈가 단기 불확실성 요인으로 작용할 수 있어 비중 조절이 필요합니다.",
+          "entry_price": 22450.0
         }
       ],
       "accuracy": {
-        "total": 50,
-        "correct": 22,
-        "hit_rate": 44.0,
-        "avg_return": 0.53,
-        "avg_return_open": 0.76,
-        "yesterday_date": "2026-05-05",
+        "total": 52,
+        "correct": 23,
+        "hit_rate": 44.2,
+        "avg_return": 0.48,
+        "avg_return_open": 0.65,
+        "yesterday_date": "2026-05-06",
         "yesterday": [
           {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "entry_price": 197800.0,
-            "exit_price": 197800.0,
-            "return_pct": 0,
-            "return_pct_open": 0,
-            "correct": 0
+            "stock_code": "000270",
+            "name_kr": "기아",
+            "entry_price": 154000.0,
+            "exit_price": 154600.0,
+            "return_pct": 0.39,
+            "return_pct_open": 0.39,
+            "correct": 1
           },
           {
-            "stock_code": "180640",
-            "name_kr": "한미반도체",
-            "entry_price": 112300.0,
-            "exit_price": 112300.0,
-            "return_pct": 0,
-            "return_pct_open": 0,
-            "correct": 0
-          },
-          {
-            "stock_code": "302440",
-            "name_kr": "SK바이오사이언스",
-            "entry_price": 43300.0,
-            "exit_price": 43300.0,
-            "return_pct": 0,
-            "return_pct_open": 0,
+            "stock_code": "316140",
+            "name_kr": "우리금융지주",
+            "entry_price": 33300.0,
+            "exit_price": 32600.0,
+            "return_pct": -2.1,
+            "return_pct_open": -2.1,
             "correct": 0
           }
         ]
@@ -67,71 +58,98 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-06T23:06:35",
-      "pick_date": "2026-05-06",
-      "count": 5,
+      "updated_at": "2026-05-07T16:10:24",
+      "pick_date": "2026-05-07",
+      "count": 4,
       "picks": [
-        {
-          "stock_code": "003490",
-          "name_kr": "대한항공",
-          "ms_score": 58,
-          "ai_score": 98,
-          "confidence": "HIGH",
-          "reason": "[E] tech 21 / earn 98 (RSI 47, 5일 -0.2%)",
-          "entry_price": 24500.0
-        },
         {
           "stock_code": "105560",
           "name_kr": "KB금융",
-          "ms_score": 62,
-          "ai_score": 97,
+          "ms_score": 58,
+          "ai_score": 99,
           "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 98 (RSI 55, 5일 +0.2%)",
-          "entry_price": 157800.0
+          "reason": "[E] tech 0 / earn 99 (RSI 52, 5일 +0.1%)",
+          "entry_price": 158900.0
         },
         {
-          "stock_code": "000100",
-          "name_kr": "유한양행",
-          "ms_score": 68,
-          "ai_score": 84,
+          "stock_code": "180640",
+          "name_kr": "한미반도체",
+          "ms_score": 63,
+          "ai_score": 89,
           "confidence": "HIGH",
-          "reason": "[T] tech 84 / earn 62 (RSI 36, 5일 -3.8%)",
-          "entry_price": 90500.0
-        },
-        {
-          "stock_code": "207940",
-          "name_kr": "삼성바이오로직스",
-          "ms_score": 56,
-          "ai_score": 84,
-          "confidence": "HIGH",
-          "reason": "[T] tech 51 / earn 84 (RSI 41, 5일 -1.6%)",
-          "entry_price": 1485000.0
+          "reason": "[T] tech 90 / earn 0 (RSI 37, 5일 -4.4%)",
+          "entry_price": 109700.0
         },
         {
           "stock_code": "068270",
           "name_kr": "셀트리온",
-          "ms_score": 64,
-          "ai_score": 69,
+          "ms_score": 60,
+          "ai_score": 85,
+          "confidence": "HIGH",
+          "reason": "[T] tech 86 / earn 0 (RSI 41, 5일 -5.9%)",
+          "entry_price": 194700.0
+        },
+        {
+          "stock_code": "055550",
+          "name_kr": "신한지주",
+          "ms_score": 62,
+          "ai_score": 74,
           "confidence": "MEDIUM",
-          "reason": "[T] tech 47 / earn 70 (RSI 48, 5일 -3.0%)",
-          "entry_price": 197800.0
+          "reason": "[E+T] tech 68 / earn 74 (RSI 32, 5일 -2.6%)",
+          "entry_price": 97300.0
         }
       ],
       "accuracy": {
-        "total": 26,
-        "correct": 11,
-        "hit_rate": 42.3,
-        "avg_return": 0.61,
-        "avg_return_open": 0.66,
-        "yesterday_date": "2026-05-05",
+        "total": 31,
+        "correct": 13,
+        "hit_rate": 41.9,
+        "avg_return": 0.39,
+        "avg_return_open": 0.42,
+        "yesterday_date": "2026-05-06",
         "yesterday": [
           {
             "stock_code": "105560",
             "name_kr": "KB금융",
             "entry_price": 157800.0,
-            "exit_price": 157800.0,
-            "return_pct": 0,
-            "return_pct_open": 0,
+            "exit_price": 158900.0,
+            "return_pct": 0.7,
+            "return_pct_open": 0.7,
+            "correct": 1
+          },
+          {
+            "stock_code": "003490",
+            "name_kr": "대한항공",
+            "entry_price": 24500.0,
+            "exit_price": 24550.0,
+            "return_pct": 0.2,
+            "return_pct_open": 0.2,
+            "correct": 1
+          },
+          {
+            "stock_code": "207940",
+            "name_kr": "삼성바이오로직스",
+            "entry_price": 1485000.0,
+            "exit_price": 1480000.0,
+            "return_pct": -0.34,
+            "return_pct_open": -0.34,
+            "correct": 0
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "entry_price": 197800.0,
+            "exit_price": 194700.0,
+            "return_pct": -1.57,
+            "return_pct_open": -1.57,
+            "correct": 0
+          },
+          {
+            "stock_code": "000100",
+            "name_kr": "유한양행",
+            "entry_price": 90500.0,
+            "exit_price": 87800.0,
+            "return_pct": -2.98,
+            "return_pct_open": -2.98,
             "correct": 0
           }
         ]
@@ -139,96 +157,75 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-06T23:06:35",
-      "pick_date": "2026-05-06",
-      "count": 7,
+      "updated_at": "2026-05-07T16:10:24",
+      "pick_date": "2026-05-07",
+      "count": 4,
       "picks": [
         {
-          "stock_code": "452190",
-          "name_kr": "한빛레이저",
-          "open_price": 8580,
-          "close_price": 10050,
-          "trade_value": 207109512615,
-          "market_cap": 240401597850,
+          "stock_code": "017550",
+          "name_kr": "수산세보틱스",
+          "open_price": 3415,
+          "close_price": 3900,
+          "trade_value": 202231307422,
+          "market_cap": 243356607000,
           "sector": "기계·장비",
           "rarity_months": 3,
           "score": 8.0,
-          "notes": "KOSDAQ | 등락 +23.0% | 턴오버 86.2%"
+          "notes": "KOSPI | 등락 +25.2% | 턴오버 83.1% | ★ 섹터 대장주"
         },
         {
-          "stock_code": "336260",
-          "name_kr": "두산퓨얼셀",
-          "open_price": 60000,
-          "close_price": 76200,
-          "trade_value": 328578608650,
-          "market_cap": 4990621921200,
+          "stock_code": "138080",
+          "name_kr": "오이솔루션",
+          "open_price": 44900,
+          "close_price": 54100,
+          "trade_value": 281494522125,
+          "market_cap": 669636707800,
           "sector": "전기·전자",
           "rarity_months": 3,
-          "score": 5.7,
-          "notes": "KOSPI | 등락 +25.7% | 턴오버 6.6% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "161580",
-          "name_kr": "필옵틱스",
-          "open_price": 51500,
-          "close_price": 63000,
-          "trade_value": 283703743000,
-          "market_cap": 1476861561000,
-          "sector": "기계·장비",
-          "rarity_months": 3,
-          "score": 4.9,
-          "notes": "KOSDAQ | 등락 +29.5% | 턴오버 19.2% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "003470",
-          "name_kr": "유안타증권",
-          "open_price": 6790,
-          "close_price": 7830,
-          "trade_value": 232890973710,
-          "market_cap": 1562841190080,
-          "sector": "증권",
-          "rarity_months": 3,
-          "score": 4.5,
-          "notes": "KOSPI | 등락 +29.9% | 턴오버 14.9% | ★ 섹터 대장주"
+          "score": 7.2,
+          "notes": "KOSDAQ | 등락 +21.3% | 턴오버 42.0%"
         },
         {
           "stock_code": "203650",
           "name_kr": "드림시큐리티",
-          "open_price": 2915,
-          "close_price": 3380,
-          "trade_value": 224137042492,
-          "market_cap": 338630620120,
+          "open_price": 3750,
+          "close_price": 4160,
+          "trade_value": 548435460610,
+          "market_cap": 416776147840,
           "sector": "IT 서비스",
           "rarity_months": 0,
-          "score": 1.0,
-          "notes": "KOSDAQ | 등락 +17.0% | 턴오버 66.2% | ★ 섹터 대장주"
+          "score": 4.0,
+          "notes": "KOSDAQ | 등락 +10.8% | 턴오버 131.6% | ★ 섹터 대장주"
         },
         {
-          "stock_code": "064260",
-          "name_kr": "다날",
-          "open_price": 7810,
-          "close_price": 7990,
-          "trade_value": 219517647110,
-          "market_cap": 604407201430,
-          "sector": "IT 서비스",
+          "stock_code": "0011T0",
+          "name_kr": "채비",
+          "open_price": 17000,
+          "close_price": 17240,
+          "trade_value": 301305533585,
+          "market_cap": 806578227200,
+          "sector": "전기·전자",
           "rarity_months": 0,
-          "score": -0.4,
-          "notes": "KOSDAQ | 등락 +7.5% | 턴오버 36.3%"
-        },
-        {
-          "stock_code": "011790",
-          "name_kr": "SKC",
-          "open_price": 140000,
-          "close_price": 161200,
-          "trade_value": 318548622800,
-          "market_cap": 6104369637600,
-          "sector": "화학",
-          "rarity_months": 0,
-          "score": -1.5,
-          "notes": "KOSPI | 등락 +30.0% | 턴오버 5.2% | ★ 섹터 대장주"
+          "score": 1.7,
+          "notes": "KOSDAQ | 등락 +0.4% | 턴오버 37.4% | ★ 섹터 대장주"
         }
       ],
       "watching": [
+        {
+          "ticker": "203650",
+          "name": "드림시큐리티",
+          "scan_date": "2026-05-07",
+          "breakout_open": 3750,
+          "breakout_close": 4135,
+          "entry_price": 3562,
+          "stop_loss": 3675,
+          "box_top": 2375,
+          "box_bottom": 2130,
+          "expires_at": "2026-08-05",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리3% 양봉11% | 진입:시가-5% 손절:시가-2%"
+        },
         {
           "ticker": "452190",
           "name": "한빛레이저",
