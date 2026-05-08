@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T18:08:37",
+  "generated_at": "2026-05-08T18:35:07",
   "count": 500,
   "posts": [
     {
@@ -9606,6 +9606,28 @@
       "updated_at": "2026-05-08 06:11:45"
     },
     {
+      "id": 2044,
+      "title": "포인트모바일 — 분기보고서 (2026.03)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260508",
+      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 포인트모바일</p>",
+      "feedback": "정기 분기 공시",
+      "stocks": [
+        "포인트모바일"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 5,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508001033",
+      "direction": "neutral",
+      "updated_at": "2026-05-08 18:35:07"
+    },
+    {
       "id": 2014,
       "title": "신테카바이오 — 전환사채(해외전환사채포함)발행후만기전사채취득              ",
       "category": "주식",
@@ -12376,28 +12398,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430901635",
       "direction": "down",
       "updated_at": "2026-05-03 22:01:43"
-    },
-    {
-      "id": 614,
-      "title": "시선AI — 전환사채(해외전환사채포함)발행후만기전사채취득              (제4회차)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 전환사채(해외전환사채포함)발행후만기전사채취득              (제4회차) · 시선AI</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "시선AI"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430901689",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:42"
     }
   ],
   "events": [
