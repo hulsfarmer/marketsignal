@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T00:05:02",
+  "generated_at": "2026-05-09T00:08:33",
   "count": 500,
   "posts": [
     {
@@ -459,6 +459,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 2071,
+      "title": "반도체(칩) 수요 상승세와 유가(크루드) 하락이 동시에 진행 중이며, 이는 한국의 메모리반도체 수출 수요 증가와 에너지 비용 절감이라는 이중 호재로 작용할 수 있음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-08",
+      "summary": "<p>반도체(칩) 수요 상승세와 유가(크루드) 하락이 동시에 진행 중이며, 이는 한국의 메모리반도체 수출 수요 증가와 에너지 비용 절감이라는 이중 호재로 작용할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Chip push, crude pull Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 수요 기반 글로벌 반도체 강세는 SK하이닉스·삼성전자 같은 메모리/파운드리 수출 확대로 직결되는 명확한 한국 반도체 산업 호재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd1FSMWZ0aVozaXBUVHBwTU1xTVlvcmRrU254U2FFdTlTeFBrSTdBUXFPZmYyNTdyUzNjMC1najdoRTNOWnRoWWlzemFZVGl3WWJGam1vb1FJa29MSmJQREJ0QWp0Zy1TUWxxbURXbzlhT3YteENzQzNFMXBlOFk2WlpEVEFRaFRoeEowcjg1VmJYLS10Yi1j?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-09 00:07:09"
     },
     {
       "id": 2065,
@@ -4957,6 +4984,34 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 2088,
+      "title": "4월 미국 고용증가가 예상을 상회했으며 실업률은 4.3%로 안정적. 강한 고용 데이터는 Fed의 금리 인하 지연 가능성을 높여 달러 강세와 한국 수출기업의 환율 악화를 초래할 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-08",
+      "summary": "<p>4월 미국 고용증가가 예상을 상회했으며 실업률은 4.3%로 안정적. 강한 고용 데이터는 Fed의 금리 인하 지연 가능성을 높여 달러 강세와 한국 수출기업의 환율 악화를 초래할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US job growth beats expectations in April; unemployment rate steady at 4.3% Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 고용 강세 → 달러 강세 → USD/KRW 상승 → 한국 수출기업 수익성 악화, 외국인 자금 유출 압박",
+      "stocks": [
+        "현대자동차",
+        "삼성전자",
+        "SK하이닉스",
+        "LG전자",
+        "포스코",
+        "대한항공"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMzlqb2FwV3RQS0VjQnJuYXdfNVRrbGxEWDRra2xONmF6N2dCNlU0UUdBVE01SzdBN2dkWlVFcXRUM3o3YlpNQzBKdHF1UlIwRFNaamxBZHdUSXRaaHM0aVpnQ1NoZXRuVnpwZ3JPS2lGU0VvWEE3X2JCYUducGU4My00S0JaNXNXckhEYlMwNG9wemZrRVpwN0E1b1MxdFR0OWwtN3E3QVhJVnJfRXE0WA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-09 00:08:09"
+    },
+    {
       "id": 2068,
       "title": "달러화가 미국-이란 충돌에도 불구하고 2주 연속 약세를 기록할 것으로 예상되며, 약세 달러는 유가 상승으로 이어져 한국의 에너지·화학주(S-Oil, GS, SK이노베이션 등)에 호재로 작용할 수 있다.",
       "category": "거시",
@@ -5086,6 +5141,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaG9nWFIyNS0xRHQ0VDZFdnNHQTZtMjQtbzhOUS1HWjg0MG9CLXBBb0Y0WjNFVGppR2hUWjllMllXSjNJMGdfUEluSklFNktiR1FQM1VRVnlDa1JVUmZsSFpZRDJBNGdOZzk1clRKc3NIZGpOX0VQMTlha1R3TVUtS0daUGQyRUNHVEtqa2txSFlmVEtqT0wtaW5qRGpxeFRxWnhxWlZkcTVOYnlsR2UwNHBvVmJTRXZKM1k0UWlFLVRTR2xCdUE?oc=5",
       "direction": "up",
       "updated_at": "2026-05-08 15:09:34"
+    },
+    {
+      "id": 2092,
+      "title": "일본 3월 실질임금이 3개월 연속 상승하며 BOJ의 기준금리 인상 가능성이 높아짐. 일본 금리 인상 시 엔화 강세 → 원화 약세 압력, 외국인의 한국 주식 매도 유인 증가 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>일본 3월 실질임금이 3개월 연속 상승하며 BOJ의 기준금리 인상 가능성이 높아짐. 일본 금리 인상 시 엔화 강세 → 원화 약세 압력, 외국인의 한국 주식 매도 유인 증가 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Japan real wages climb for third month in March, backing case for BOJ rate hike Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "일본 금리 인상은 엔화 강세와 글로벌 금리 사이클에 영향을 주어 한국 채권·외국인 수급에 중간 수준의 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대차"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeHRmU1R0ZXBIcWtrWnhPeEt2UXgtVl9YUmtMbTNGM3YzbnRtMFNNOVJ4OEN6REQ2eWdNOV9TaUgzRzJ3c3FrVDFIeEhtdTlSaGlBeUtuV2MzWmcxWWV3ZTIwRm9EcEJ2dWJvQjJKeHVKVFBKcWg1OHRPSHpfZEpSS3ZjeWNlRzlkbVQ0azNNOTlMWjc5aURjSTZaaklpQUpvLU45OEFhLWpHRDhDb3FTRU1vRlFWZjh3cnpfQU12UzZ6V2lIeUtYMFB2V0ZsNmEtVTBrU29EWVR0enp6NVdhRENn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-09 00:08:25"
     },
     {
       "id": 2040,
@@ -9656,6 +9738,33 @@
       "updated_at": "2026-05-07 12:07:05"
     },
     {
+      "id": 2085,
+      "title": "제약업계가 신약 개발 비용과 시간 단축을 목표로 AI 도입을 적극 확대하고 있으며, 이는 바이오 제약사와 CDMO 기업들의 경쟁력 강화 및 혁신 속도 가속화를 의미함.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-14",
+      "summary": "<p>제약업계가 신약 개발 비용과 시간 단축을 목표로 AI 도입을 적극 확대하고 있으며, 이는 바이오 제약사와 CDMO 기업들의 경쟁력 강화 및 혁신 속도 가속화를 의미함.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Pharma sector doubles down on AI amid hopes of slashing costs, timelines Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "AI 기반 신약 개발 효율화는 한국 바이오 기업들의 경쟁력 강화 기회이지만, 글로벌 제약사의 기술 선도화는 상대적 압박 요인으로 작용할 수 있음.",
+      "stocks": [
+        "셀트리온",
+        "삼성바이오로직스",
+        "유한양행",
+        "한미약품",
+        "SK바이오사이언스"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQamxGV1IzcG9DN0JwbTgybzRZMUlMZktLMEFpVWhoZFVsVFdOR0g3T3BPU0w1QW1ZbllCVXdaNmRJWVdZbGJxRWc5bU5TclQyNng4YU8yU2hPUWRWXzJuNEZRSXNsU3kwZEUzVXVHTVkzQzBuUXU0djUyN3V3RkZWc0V2S2pseU9jUkJLa296VVkzOEpzaHM2cjYzN1lYa3lSUW1GTFo0eEVWUGxVRmRCbEY3bDlacWtxZlZFZW9yeHhPUVZxUXVNSUVYaUI1dEN2TEcw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-09 00:07:57"
+    },
+    {
       "id": 2053,
       "title": "2023년 바이오텍과 지역은행이 인수합병 대상으로 부상할 것으로 예측되며, 글로벌 M&A 활동 증가로 한국 바이오 및 CDMO 업체들의 인수 관심 증대 가능성.",
       "category": "주식",
@@ -12331,94 +12440,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001425",
       "direction": "up",
       "updated_at": "2026-05-03 22:02:06"
-    },
-    {
-      "id": 647,
-      "title": "신스틸 — 전환사채(해외전환사채포함)발행후만기전사채취득              (제2회차)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 전환사채(해외전환사채포함)발행후만기전사채취득              (제2회차) · 신스틸</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "신스틸"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430901254",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:02:01"
-    },
-    {
-      "id": 645,
-      "title": "젝시믹스 — 전환사채(해외전환사채포함)발행후만기전사채취득              (제1회차)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 전환사채(해외전환사채포함)발행후만기전사채취득              (제1회차) · 젝시믹스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "젝시믹스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430901349",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:02:00"
-    },
-    {
-      "id": 642,
-      "title": "알에프텍 — 정정신고서제출요구( 2026.04.22. 제출 증권신고서(합병) )",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>기타 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 정정신고서제출요구( 2026.04.22. 제출 증권신고서(합병) ) · 금융감독원</p>",
-      "feedback": "기타 공시",
-      "stocks": [
-        "알에프텍"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430100072",
-      "direction": "",
-      "updated_at": "2026-05-03 22:01:56"
-    },
-    {
-      "id": 640,
-      "title": "빛과전자 — 주요사항보고서(제3자의전환사채매수선택권행사)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(제3자의전환사채매수선택권행사) · 빛과전자</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "빛과전자"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001683",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:01:56"
     }
   ],
   "events": [
