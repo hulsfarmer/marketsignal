@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T09:08:43",
+  "generated_at": "2026-05-08T09:35:06",
   "count": 500,
   "posts": [
     {
@@ -2921,6 +2921,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVBZdlY5M1NoRFFCeGFzRE51OGxBNEJCWHJTUG5SMVlwMHFaYU9QYnFUNWhTZkVzTEFNV1dndkcxU01sQzZkVy0xOFVNbU5XNkYwM3BFQjJJMGR3alpsdEFrQXE4QnNnaU9rU2FlTUthMUVham04dENnLXhyZEo0b3hVXzFvWjRzX0E?oc=5",
       "direction": "down",
       "updated_at": "2026-05-06 12:08:05"
+    },
+    {
+      "id": 1862,
+      "title": "파미셀 — 단일판매ㆍ공급계약체결              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260508",
+      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 파미셀</p>",
+      "feedback": "수주 — 본문 규모 확인",
+      "stocks": [
+        "파미셀"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508800087",
+      "direction": "up",
+      "updated_at": "2026-05-08 09:35:05"
     },
     {
       "id": 1679,
@@ -8852,6 +8874,94 @@
       "updated_at": "2026-05-08 06:11:45"
     },
     {
+      "id": 1864,
+      "title": "오리엔탈정공 — 분기보고서 (2026.03)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260508",
+      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 오리엔탈정공</p>",
+      "feedback": "정기 분기 공시",
+      "stocks": [
+        "오리엔탈정공"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 5,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000018",
+      "direction": "neutral",
+      "updated_at": "2026-05-08 09:35:05"
+    },
+    {
+      "id": 1863,
+      "title": "대원전선 — 분기보고서 (2026.03)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260508",
+      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 대원전선</p>",
+      "feedback": "정기 분기 공시",
+      "stocks": [
+        "대원전선"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 5,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000019",
+      "direction": "neutral",
+      "updated_at": "2026-05-08 09:35:05"
+    },
+    {
+      "id": 1861,
+      "title": "누리플랜 — 분기보고서 (2026.03)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260508",
+      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 누리플랜</p>",
+      "feedback": "정기 분기 공시",
+      "stocks": [
+        "누리플랜"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 5,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000044",
+      "direction": "neutral",
+      "updated_at": "2026-05-08 09:35:04"
+    },
+    {
+      "id": 1860,
+      "title": "피엠티 — 분기보고서 (2026.03)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260508",
+      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 피엠티</p>",
+      "feedback": "정기 분기 공시",
+      "stocks": [
+        "피엠티"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 5,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000046",
+      "direction": "neutral",
+      "updated_at": "2026-05-08 09:35:04"
+    },
+    {
       "id": 1818,
       "title": "CS — 주요사항보고서(타법인주식및출자증권양수결정)",
       "category": "주식",
@@ -12252,122 +12362,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTVBOdTNRWllselZGMDhka3dmXzdUYlBrMjhMUWFrTVhkYjVDWEJzaHdjM3ZOQ0xzSXRkREwzOFVsSTJCT204a0ttMzlTNFBuRVBHX3Ewbm9Zd0hLckloempQYWN3NXI0Q1BUVk4xZmRuWXQ0UWFqMldhczgxQU5sZ1JoaHZrdUFhb3ZTTVJ0SXhRckotS0c5NDlaLWwwWDJURHowNXhxOA?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-07 03:08:05"
-    },
-    {
-      "id": 1508,
-      "title": "미국 4월 민간 고용이 안정적 수준으로 증가하며 노동시장 안정성을 시사. 이는 Fed의 금리 인하 가능성을 낮춰 USD/KRW 강세를 지속시킬 수 있으며, 한국 수출 기업과 외국인 자금 유입에 제약 요인.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>미국 4월 민간 고용이 안정적 수준으로 증가하며 노동시장 안정성을 시사. 이는 Fed의 금리 인하 가능성을 낮춰 USD/KRW 강세를 지속시킬 수 있으며, 한국 수출 기업과 외국인 자금 유입에 제약 요인.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Increase in US private payrolls in April consistent with stable labor market Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 고용 강세는 Fed 금리 인상 압력을 유지하여 달러 강세·외국인 자금 이탈 위험 가중, 한국 증시에 중립~약한 악재",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대차",
-        "기아"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVHhPbDhwNkkwMWhNUEVyUmhnZVdWMG05d1hUOEM1RGs1cE52RXhnbEQzMFpqMXJraXk2T3RPZktqeVFMT09lbXowZkhKeXZEcHQ0RDRoZHJlclRRVmFVZGlUZzdDSnV4S1pXaGNwMnE0YzRKbms2STVMdjdrMDVjS1E4eERYdDRQaWNTeHpHY0xUdEk4cUtfenJFREhVVk0?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-07 03:08:01"
-    },
-    {
-      "id": 1504,
-      "title": "호주의 IS 연루 시민들이 시리아 캠프에서 귀국을 계획 중이라는 소식으로, 바이오/CDMO 섹터와는 직접적 관련성이 없음.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>호주의 IS 연루 시민들이 시리아 캠프에서 귀국을 계획 중이라는 소식으로, 바이오/CDMO 섹터와는 직접적 관련성이 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Australia says Islamic State-linked citizens in Syria camp plan to return home Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "지정학적 뉴스로 한국 바이오/CDMO 산업 및 주식시장에 직접적 영향 없음.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSXpicEtZUVNqV1VFbkFWWWJoRVREdmJmRllqU0hSaXpvSGwwSnFiQUVNaVdhYTZFeFVQcXhRODBLYkNCLXBQRllqWFQ4MnlpUWQ0QTh3aWIwWmVqMVpqRjUtb3BxdktGVy01SVpiMzhHeWp3ZHNWU3JINkJlSGFUMTJfeFdyY0xOT1pVYmdNbVlDcnUxRVhuUG0xTms2eERIZEV6T2JselhHNlZmSzgwckFSTW9hVGZFS1BZRDZtVlI3aG5ad1E?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 03:07:47"
-    },
-    {
-      "id": 1502,
-      "title": "독일이 극우 청년 단체 의심 멤버들을 수사하는 뉴스로, 정치·사회 이슈이며 바이오/CDMO 산업과 직접적 관련성 없음.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>독일이 극우 청년 단체 의심 멤버들을 수사하는 뉴스로, 정치·사회 이슈이며 바이오/CDMO 산업과 직접적 관련성 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Germany raids suspected members of far-right youth groups Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "정치·보안 이슈로 한국 바이오/의약품 산업 및 주식시장과 무관",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGc4dWlLdVpYaDByTGRiMUhiTEhuN0ktaTIydTF6Wnd5MVRJUnl5MGFLa1dGMjlOWGQxeDBBc3BXMG9rUnVRZjhPeF9HN3BhTWlWTnVUOVNMRFhKN1NnQm51ckY3MkE4dExZSTkyVkZMQ1ZERDQ3OWZwZWJjYUFxTDUtc2o3NjJQZjhHZTJyR2FNdzRjNV9ZeGU2OURLSXJT?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 03:07:41"
-    },
-    {
-      "id": 1500,
-      "title": "릴리(Eli Lilly)가 인디애나주 제조시설에 추가 45억 달러를 투자하기로 결정. 글로벌 바이오 제약 CDMO 시장에서 미국 제조 역량 강화로 경쟁 심화 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>릴리(Eli Lilly)가 인디애나주 제조시설에 추가 45억 달러를 투자하기로 결정. 글로벌 바이오 제약 CDMO 시장에서 미국 제조 역량 강화로 경쟁 심화 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Lilly commits additional $4.5 billion in Indiana manufacturing sites Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "글로벌 CDMO 시장의 미국 내 생산 확대는 한국 바이오 위탁제조사들의 상대적 경쟁력 약화 가능성을 시사하지만, 장기적 시장 규모 확대 기조는 호재",
-      "stocks": [
-        "삼성바이오로직스",
-        "셀트리온",
-        "한미약품"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNLU9DY0FBMWIyMXFtbF9WNGRqc2Z2NnlIS2t2aVFrS1l3MTd1WnhuY2NBbUhPeHJpODBuQlFOMW5BTlV1Z3F0ejcxUTg2VDQ1V09KRzZmMG5lRGVCMDZTRmJzbG5kOU1VZGpvcDlCMDQ1ZTBWLTdhWnJyOW5ramx4eTBsYWVWNXB4TExKTm0zc3haSTBFMjhZOTFNTC0waUs1M0ZzLWlIU1NYUkM3MEQycURDc3hYRk9ocHhYbWFNaVR1X25TRDNzaDd3RjI4NXBBbkRJSlF2WDkxUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-07 03:07:34"
-    },
-    {
-      "id": 1496,
-      "title": "교황 레오 1세의 취임 1주년 관련 뉴스로, AI/반도체 산업과 직접적인 연관성이 없습니다. 한국 반도체 및 기술 종목에 미치는 영향은 없습니다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>교황 레오 1세의 취임 1주년 관련 뉴스로, AI/반도체 산업과 직접적인 연관성이 없습니다. 한국 반도체 및 기술 종목에 미치는 영향은 없습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): A year into papacy, Leo finds his &#x27;clarion voice&#x27; Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "종교 지도자의 정치적 발언으로, AI/반도체 산업 및 한국 시장과 무관한 뉴스입니다.",
-      "stocks": [],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVHBkblhiWWVfR1JDemlBNmlIbnNQZHBoczk3cGVYN0NyVnNDNlpmeTVrLVc2djZTa3I3NThXX3dYZnJkOGpwcHF4bmlSNFBDMmt3cU1MTVliOHVhOVV3QXdDMmQwejhpNnEyQjhoYmI5WjZpcWdMcWJLNjQ2QXRhaTJlb3RFNzBiRWMzUENmZw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 03:07:19"
     }
   ],
   "events": [
