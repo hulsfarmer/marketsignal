@@ -1,216 +1,219 @@
 {
-  "date": "2026-05-07",
-  "generated_at": "2026-05-07T16:10:24",
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08T16:10:39",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-07T16:10:24",
-      "pick_date": "2026-05-07",
+      "updated_at": "2026-05-08T16:10:39",
+      "pick_date": "2026-05-08",
       "count": 2,
       "picks": [
         {
-          "stock_code": "018260",
-          "name_kr": "삼성SDS",
-          "ms_score": 62,
+          "stock_code": "032640",
+          "name_kr": "LG유플러스",
+          "ms_score": 58,
           "ai_score": 63,
           "confidence": "MEDIUM",
-          "reason": "KKR 전략적 제휴와 STO 플랫폼 수주라는 미반영 성장 재료가 존재하며, 5일 -1.4%의 소폭 하락으로 뉴스가 아직 주가에 덜 반영되어 있습니다. RSI 41로 적정 매수 구간이고, 긍정 뉴스 5건에 부정 0건인 완전 긍정 구도로 AI·STO 테마 모멘텀 유입 기대가 높습니다.",
-          "entry_price": 170000.0
+          "reason": "1분기 영업이익 증가, AIDC 31% 성장, 자사주 소각까지 복수의 강력한 호재가 존재하며 RSI 22의 극도 과매도 구간으로 단기 기술적 반등 가능성이 있습니다. 5일 -4.2%, 20일 -4.7%로 충분한 조정을 거쳐 호재가 아직 주가에 미반영된 상태로 종가매수 적기입니다.",
+          "entry_price": 15370.0
         },
         {
-          "stock_code": "007070",
-          "name_kr": "GS리테일",
-          "ms_score": 58,
-          "ai_score": 57,
+          "stock_code": "029780",
+          "name_kr": "삼성카드",
+          "ms_score": 55,
+          "ai_score": 60,
           "confidence": "LOW",
-          "reason": "실적 발표 임박과 미래에셋증권의 매수 상향 평가가 단기 촉매로 작용할 수 있으며, RSI 46의 중립 구간으로 추가 상승 여력이 남아 있습니다. 5일 -3.4% 하락으로 호재가 미반영된 상태이나, 경영진 주식 증여 이슈가 단기 불확실성 요인으로 작용할 수 있어 비중 조절이 필요합니다.",
-          "entry_price": 22450.0
+          "reason": "RSI 24로 과매도 구간이며 상법 개정에 따른 자사주 전략 변화 기대감이 아직 주가에 덜 반영된 상태입니다. 5일 -2.6%, 20일 -3.7%로 충분한 조정 후 기술적 반등 패턴에 해당하나, 촉매 강도가 약해 낮은 확신도를 부여합니다.",
+          "entry_price": 51600.0
         }
       ],
       "accuracy": {
-        "total": 52,
-        "correct": 23,
-        "hit_rate": 44.2,
-        "avg_return": 0.48,
-        "avg_return_open": 0.65,
-        "yesterday_date": "2026-05-06",
+        "total": 50,
+        "correct": 25,
+        "hit_rate": 50.0,
+        "avg_return": 0.67,
+        "avg_return_open": 1.04,
+        "yesterday_date": "2026-05-07",
         "yesterday": [
           {
-            "stock_code": "000270",
-            "name_kr": "기아",
-            "entry_price": 154000.0,
-            "exit_price": 154600.0,
-            "return_pct": 0.39,
-            "return_pct_open": 0.39,
+            "stock_code": "007070",
+            "name_kr": "GS리테일",
+            "entry_price": 22450.0,
+            "exit_price": 23550.0,
+            "return_pct": 4.9,
+            "return_pct_open": 4.9,
             "correct": 1
           },
           {
-            "stock_code": "316140",
-            "name_kr": "우리금융지주",
-            "entry_price": 33300.0,
-            "exit_price": 32600.0,
-            "return_pct": -2.1,
-            "return_pct_open": -2.1,
-            "correct": 0
+            "stock_code": "018260",
+            "name_kr": "삼성SDS",
+            "entry_price": 170000.0,
+            "exit_price": 176600.0,
+            "return_pct": 3.88,
+            "return_pct_open": 3.88,
+            "correct": 1
           }
         ]
       }
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-07T16:10:24",
-      "pick_date": "2026-05-07",
-      "count": 4,
+      "updated_at": "2026-05-08T16:10:39",
+      "pick_date": "2026-05-08",
+      "count": 5,
       "picks": [
         {
           "stock_code": "105560",
           "name_kr": "KB금융",
-          "ms_score": 58,
-          "ai_score": 99,
+          "ms_score": 62,
+          "ai_score": 96,
           "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 99 (RSI 52, 5일 +0.1%)",
-          "entry_price": 158900.0
+          "reason": "[E] tech 21 / earn 96 (RSI 46, 5일 +0.4%)",
+          "entry_price": 161200.0
         },
         {
-          "stock_code": "180640",
-          "name_kr": "한미반도체",
-          "ms_score": 63,
-          "ai_score": 89,
+          "stock_code": "207940",
+          "name_kr": "삼성바이오로직스",
+          "ms_score": 55,
+          "ai_score": 96,
           "confidence": "HIGH",
-          "reason": "[T] tech 90 / earn 0 (RSI 37, 5일 -4.4%)",
-          "entry_price": 109700.0
+          "reason": "[E] tech 0 / earn 97 (RSI 15, 5일 -0.3%)",
+          "entry_price": 1468000.0
         },
         {
           "stock_code": "068270",
           "name_kr": "셀트리온",
-          "ms_score": 60,
-          "ai_score": 85,
+          "ms_score": 67,
+          "ai_score": 92,
           "confidence": "HIGH",
-          "reason": "[T] tech 86 / earn 0 (RSI 41, 5일 -5.9%)",
-          "entry_price": 194700.0
+          "reason": "[T] tech 40 / earn 93 (RSI 42, 5일 -0.7%)",
+          "entry_price": 202500.0
         },
         {
-          "stock_code": "055550",
-          "name_kr": "신한지주",
+          "stock_code": "005830",
+          "name_kr": "DB손해보험",
           "ms_score": 62,
           "ai_score": 74,
           "confidence": "MEDIUM",
-          "reason": "[E+T] tech 68 / earn 74 (RSI 32, 5일 -2.6%)",
-          "entry_price": 97300.0
+          "reason": "[T] tech 75 / earn 0 (RSI 42, 5일 -4.2%)",
+          "entry_price": 165000.0
+        },
+        {
+          "stock_code": "180640",
+          "name_kr": "한미반도체",
+          "ms_score": 60,
+          "ai_score": 35,
+          "confidence": "LOW",
+          "reason": "[T] tech 36 / earn 0 (RSI 41, 5일 +0.4%)",
+          "entry_price": 113800.0
         }
       ],
       "accuracy": {
-        "total": 31,
-        "correct": 13,
-        "hit_rate": 41.9,
-        "avg_return": 0.39,
-        "avg_return_open": 0.42,
-        "yesterday_date": "2026-05-06",
+        "total": 32,
+        "correct": 17,
+        "hit_rate": 53.1,
+        "avg_return": 0.71,
+        "avg_return_open": 0.7,
+        "yesterday_date": "2026-05-07",
         "yesterday": [
-          {
-            "stock_code": "105560",
-            "name_kr": "KB금융",
-            "entry_price": 157800.0,
-            "exit_price": 158900.0,
-            "return_pct": 0.7,
-            "return_pct_open": 0.7,
-            "correct": 1
-          },
-          {
-            "stock_code": "003490",
-            "name_kr": "대한항공",
-            "entry_price": 24500.0,
-            "exit_price": 24550.0,
-            "return_pct": 0.2,
-            "return_pct_open": 0.2,
-            "correct": 1
-          },
-          {
-            "stock_code": "207940",
-            "name_kr": "삼성바이오로직스",
-            "entry_price": 1485000.0,
-            "exit_price": 1480000.0,
-            "return_pct": -0.34,
-            "return_pct_open": -0.34,
-            "correct": 0
-          },
           {
             "stock_code": "068270",
             "name_kr": "셀트리온",
-            "entry_price": 197800.0,
-            "exit_price": 194700.0,
-            "return_pct": -1.57,
-            "return_pct_open": -1.57,
-            "correct": 0
+            "entry_price": 194700.0,
+            "exit_price": 202500.0,
+            "return_pct": 4.01,
+            "return_pct_open": 4.01,
+            "correct": 1
           },
           {
-            "stock_code": "000100",
-            "name_kr": "유한양행",
-            "entry_price": 90500.0,
-            "exit_price": 87800.0,
-            "return_pct": -2.98,
-            "return_pct_open": -2.98,
-            "correct": 0
+            "stock_code": "180640",
+            "name_kr": "한미반도체",
+            "entry_price": 109700.0,
+            "exit_price": 113800.0,
+            "return_pct": 3.74,
+            "return_pct_open": 3.74,
+            "correct": 1
+          },
+          {
+            "stock_code": "055550",
+            "name_kr": "신한지주",
+            "entry_price": 97300.0,
+            "exit_price": 98900.0,
+            "return_pct": 1.64,
+            "return_pct_open": 1.64,
+            "correct": 1
+          },
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "entry_price": 158900.0,
+            "exit_price": 161200.0,
+            "return_pct": 1.45,
+            "return_pct_open": 1.45,
+            "correct": 1
           }
         ]
       }
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-07T16:10:24",
-      "pick_date": "2026-05-07",
-      "count": 4,
+      "updated_at": "2026-05-08T16:10:39",
+      "pick_date": "2026-05-08",
+      "count": 3,
       "picks": [
         {
-          "stock_code": "017550",
-          "name_kr": "수산세보틱스",
-          "open_price": 3415,
-          "close_price": 3900,
-          "trade_value": 202231307422,
-          "market_cap": 243356607000,
+          "stock_code": "319400",
+          "name_kr": "현대무벡스",
+          "open_price": 34450,
+          "close_price": 37600,
+          "trade_value": 644771518575,
+          "market_cap": 4187739066400,
           "sector": "기계·장비",
+          "rarity_months": 2,
+          "score": 6.5,
+          "notes": "KOSDAQ | 등락 +21.3% | 턴오버 15.4% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "125490",
+          "name_kr": "한라캐스트",
+          "open_price": 17220,
+          "close_price": 18970,
+          "trade_value": 230382138950,
+          "market_cap": 692449617440,
+          "sector": "운송장비·부품",
           "rarity_months": 3,
-          "score": 8.0,
-          "notes": "KOSPI | 등락 +25.2% | 턴오버 83.1% | ★ 섹터 대장주"
+          "score": 6.3,
+          "notes": "KOSDAQ | 등락 +12.7% | 턴오버 33.3% | ★ 섹터 대장주"
         },
         {
-          "stock_code": "138080",
-          "name_kr": "오이솔루션",
-          "open_price": 44900,
-          "close_price": 54100,
-          "trade_value": 281494522125,
-          "market_cap": 669636707800,
-          "sector": "전기·전자",
-          "rarity_months": 3,
-          "score": 7.2,
-          "notes": "KOSDAQ | 등락 +21.3% | 턴오버 42.0%"
-        },
-        {
-          "stock_code": "203650",
-          "name_kr": "드림시큐리티",
-          "open_price": 3750,
-          "close_price": 4160,
-          "trade_value": 548435460610,
-          "market_cap": 416776147840,
-          "sector": "IT 서비스",
+          "stock_code": "108490",
+          "name_kr": "로보티즈",
+          "open_price": 315500,
+          "close_price": 332000,
+          "trade_value": 220276934250,
+          "market_cap": 4866133296000,
+          "sector": "기계·장비",
           "rarity_months": 0,
-          "score": 4.0,
-          "notes": "KOSDAQ | 등락 +10.8% | 턴오버 131.6% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "0011T0",
-          "name_kr": "채비",
-          "open_price": 17000,
-          "close_price": 17240,
-          "trade_value": 301305533585,
-          "market_cap": 806578227200,
-          "sector": "전기·전자",
-          "rarity_months": 0,
-          "score": 1.7,
-          "notes": "KOSDAQ | 등락 +0.4% | 턴오버 37.4% | ★ 섹터 대장주"
+          "score": -1.5,
+          "notes": "KOSDAQ | 등락 +9.9% | 턴오버 4.5%"
         }
       ],
       "watching": [
+        {
+          "ticker": "125490",
+          "name": "한라캐스트",
+          "scan_date": "2026-05-08",
+          "breakout_open": 17220,
+          "breakout_close": 18800,
+          "entry_price": 16359,
+          "stop_loss": 16875,
+          "box_top": 15661,
+          "box_bottom": 14564,
+          "expires_at": "2026-08-06",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리0% 양봉10% | 진입:시가-5% 손절:시가-2%"
+        },
         {
           "ticker": "203650",
           "name": "드림시큐리티",
@@ -282,7 +285,7 @@
           "box_top": 11276,
           "box_bottom": 10623,
           "expires_at": "2026-08-02",
-          "status": "watching",
+          "status": "entered",
           "is_expired": false,
           "memo": "D전략 | 꼬리6% 양봉19% | 진입:시가-5% 손절:시가-2%"
         },
@@ -620,6 +623,18 @@
       "holding": [],
       "history": [
         {
+          "ticker": "199820",
+          "name": "제일일렉트릭",
+          "avg_price": 17190,
+          "sell_price": 17190,
+          "quantity": 87,
+          "buy_date": "2026-05-08",
+          "sell_date": "2026-05-08",
+          "sell_reason": "stop_loss",
+          "pnl_rate": 0.0,
+          "pnl_amount": 0
+        },
+        {
           "ticker": "073490",
           "name": "LIG아큐버",
           "avg_price": 48600,
@@ -672,11 +687,11 @@
       "slots": 5,
       "slot_size": 400000,
       "month_return": 0.0,
-      "month_count": 0,
+      "month_count": 1,
       "month_pnl": 0,
       "month_start": "2026-05-01",
       "year_return": 4.18,
-      "year_count": 4,
+      "year_count": 5,
       "year_pnl": 83560,
       "year_start": "2026-01-01",
       "accuracy": null
