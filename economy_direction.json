@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-05-08T12:05:06",
+  "generated_at": "2026-05-08T12:08:37",
   "count": 500,
   "posts": [
+    {
+      "id": 1900,
+      "title": "SK하이닉스가 AI칩 수요 급증으로 글로벌 빅테크 기업들로부터 전례없는 공급계약 제안을 받고 있으며, 이는 HBM(고대역폭메모리) 수급 부족 심화를 반영함. 한국 메모리 반도체 업체들의 공급 우위 강화 및 수익성 개선으로 이어질 가능성 높음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>SK하이닉스가 AI칩 수요 급증으로 글로벌 빅테크 기업들로부터 전례없는 공급계약 제안을 받고 있으며, 이는 HBM(고대역폭메모리) 수급 부족 심화를 반영함. 한국 메모리 반도체 업체들의 공급 우위 강화 및 수익성 개선으로 이어질 가능성 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: SK Hynix flooded with unprecedented offers from big tech firms to secure chip supplies Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 수급 부족이 한국 메모리 반도체(특히 HBM) 수출 호황으로 직결되는 핵심 공급망 이슈로, SK하이닉스와 삼성전자의 실적·주가에 직접적 긍정 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 9,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONEgxRDBIV3dpV1BPcmFJUWQzNnlpYWROY0tWelp1UV9pR2p3eHRLR0Z2QnJlcEJsSTlXYTkxSXpfZDdCRklTOHhmbFBQeHBzUHI0WldaSjZyN2xJYmktMV9Da1htXzZzN292QTVVdWlGSEQ5TWgzRjJ5THp5a2toUFRFMEtSSERXRnI0SDVMTEdLNlkwdnJiZ0laMldtOEhwOFVzR1EwQXhKb0tQZnR3Zkl3M3g5SHZ3S0xCVFhMRFhlVTdCdUJaRkVHQ0RyZw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-08 12:07:15"
+    },
     {
       "id": 1410,
       "title": "AI 랠리로 코스피가 7,000을 돌파했으며, 삼성전자가 시가총액 1조 달러 클럽에 진입했다. 한국 반도체 업계의 AI 수요 강세를 반영한 결과로, SK하이닉스 등 메모리 반도체 업체에도 긍정적 영향을 미칠 전망이다.",
@@ -412,6 +439,34 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 1913,
+      "title": "Fed의 해머댁(Hammack) 위원이 인플레이션이 높은 가운데 금리를 '상당 기간' 현 수준에 유지할 가능성이 높다고 발언. 미 금리 인상 가능성 축소는 달러 약세 및 한국 수출주 호재, 외국인 자금유입 촉발 요인.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>Fed의 해머댁(Hammack) 위원이 인플레이션이 높은 가운데 금리를 '상당 기간' 현 수준에 유지할 가능성이 높다고 발언. 미 금리 인상 가능성 축소는 달러 약세 및 한국 수출주 호재, 외국인 자금유입 촉발 요인.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Hammack says rates likely on hold &#x27;for quite some time&#x27; amid elevated inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 인상 연기 시그널은 USD/KRW 약세→수출 기업 호재, 글로벌 주식시장 유동성 개선→외국인 매수 가능성 높아 한국 증시에 의미있는 긍정 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대자동차",
+        "LG화학",
+        "포스코",
+        "삼성SDI"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd2Q4SUthZ2xKVnlFMnZJZ1dLdHhra1dqeloza0Z0YVVBMHRkQnZybzBqQ3BOSGFYQ2xaYmlUY09RRmxvVG9oR0wxczBjUmNaM05nNURkbGNHcWFBN2h2bk56X2VMN0lXTWFCa0M1WmFSb0FRdzdOTUJ5UDRVQThZR3pfd1c1dDB4VEJRb3ZVLUhvaUk5MnpfZlZSQUJrcXdiNXRNcFYxdWRrMEZXdDVMMHVFRHg2d0NIcV9YNFN3QWFRQ1AwZVk2YnhETkR2c2VxaW5jSl9uSHBqQQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-08 12:08:05"
+    },
+    {
       "id": 1835,
       "title": "엔비디아가 AI 데이터센터 사업의 일환으로 IREN에 최대 21억 달러를 투자하기로 결정. 글로벌 AI 인프라 확대로 반도체 수요 증가가 예상되며, HBM·메모리 칩 필요성 상승으로 한국 메모리 업체들에 긍정적.",
       "category": "주식",
@@ -570,6 +625,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNanRNQTUzY09FR25vUlJLT1h2SEJZN0dpX3pYdWMtZUwxY1NCd2xJZENNYlVyd2I3a2VHWDE4Vy1FWkpXUEd2VWVRQTRnQUVUMzlGSmFwOTkzWk5UaWl2MlJHTUFDUUU2MGFMaGEyMFVMRzdmSDVDNjJyMmxpRWF5b3psOTFqR2pI?oc=5",
       "direction": "up",
       "updated_at": "2026-05-07 18:07:14"
+    },
+    {
+      "id": 1898,
+      "title": "텍사스에서 데이터센터의 전력망 연결 지연에 따라 독립형(오프그리드) 전력 구축이 급증 중. AI 데이터센터의 전력 수요 급증으로 인한 전력망 병목 현상 심화를 의미하며, 이는 반도체·AI 인프라 수요의 강한 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>텍사스에서 데이터센터의 전력망 연결 지연에 따라 독립형(오프그리드) 전력 구축이 급증 중. AI 데이터센터의 전력 수요 급증으로 인한 전력망 병목 현상 심화를 의미하며, 이는 반도체·AI 인프라 수요의 강한 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Texas off-grid power build soars as data centers bridge grid delays Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 데이터센터의 폭발적 전력 수요는 HBM, 메모리, 파운드리 반도체 수요 증가를 시사하며 SK하이닉스·삼성전자 등 주요 공급사에 중기적 호재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3g2RXJDMVJOa252VlQxa3RUVElWRlozZ0dwMnFkV2JwS19aSzBkY0JDZml3cC0xbzBWZFY2dVhMRjRhSVA1cm13dUNJQmlLN3VnOVVsbzh2UktEVHlDaVBuU2MzYzl4c1AyTE1NcEY3OVE0NW1WTjUwTzhfQVljQVBHMmlmVklZWHFSZWZYMlNfU19ETzk3TVd3LVJOY01FWmR1RUZwa2ZBbllrZjlCd3RXNUJPQTBDZ3N5NE9FcE8?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-08 12:07:08"
     },
     {
       "id": 1550,
@@ -4573,6 +4655,85 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 1915,
+      "title": "미국 연방준비제도(Fed) 댈리 총재가 2% 인플레이션 목표에 대한 의지를 재확인했습니다. 이는 Fed의 금리 인상 가능성을 시사하며, USD/KRW 환율 상승과 한국 수출 기업의 수익성 개선으로 작용할 수 있습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>미국 연방준비제도(Fed) 댈리 총재가 2% 인플레이션 목표에 대한 의지를 재확인했습니다. 이는 Fed의 금리 인상 가능성을 시사하며, USD/KRW 환율 상승과 한국 수출 기업의 수익성 개선으로 작용할 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed’s Daly says committed to 2% inflation goal, Bloomberg News reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed의 인플레이션 목표 재확인은 향후 금리 경로에 영향을 미치는 신호이며, 달러 강세 → 환율 상승 → 수출 기업 호재로 이어지는 메커니즘이 있으나, 발언 수준의 뉴스라 직접성은 중간 정도",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "포스코"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQzA2UkdUT2NZc3pzaUlMNmZNOHNPSjdoWTdMWXlIS2xxRFg2YncwazkxeGtmQkJ5SzhnSEZoMjVobHVmdFczOUVJOFczSTE2ZXgxSC1ibTdvMVNfRG5KdHBLX0JrZDRlU3E4b3BocFV1WEZOZWJKVHQydlAtS0xKVERRNHVLUW9wdFFqNjBtMDJKTjZmSnV2ZzBldC1FTVFhb196WTZadXAyQQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-08 12:08:13"
+    },
+    {
+      "id": 1899,
+      "title": "CoreWeave가 부품 비용 상승으로 인한 높은 자본지출(capex) 신호를 보내며 주가 하락. AI 인프라 업체의 원가 압박이 공급망 전반에 영향을 미칠 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>CoreWeave가 부품 비용 상승으로 인한 높은 자본지출(capex) 신호를 보내며 주가 하락. AI 인프라 업체의 원가 압박이 공급망 전반에 영향을 미칠 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): CoreWeave signals higher capex as component costs rise, shares fall Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 인프라 수요 둔화 신호와 반도체 부품 가격 상승은 SK하이닉스·삼성전자 등 한국 공급업체의 수익성과 판가에 영향을 미치는 산업 동향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVVc2NWtWRTEtR190ejhQWDRWOWJqWVRtRXJ5bFo1SlIwcnpkVDgwdGtUbmQwX2N4LTB6LW1ZNzc2VDE0QTVOYVRGaXdwOUJ6aXJzSi03clZsZnNDMS1DLU12dlpFcnhpdzEwUjR1NUFXYkZpcEtQTW1mb0J5bWpwdmhoOGxTUWw0dE5VZkVrb2lHdmc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-08 12:07:11"
+    },
+    {
+      "id": 1897,
+      "title": "엔비디아가 코닝의 공장 건설에 지분투자 외에 추가 자금을 지원하기로 결정. AI 칩 수요 급증에 따른 공급망 강화로 한국 반도체 업체들의 경쟁 구도 변화 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>엔비디아가 코닝의 공장 건설에 지분투자 외에 추가 자금을 지원하기로 결정. AI 칩 수요 급증에 따른 공급망 강화로 한국 반도체 업체들의 경쟁 구도 변화 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nvidia funds construction of Corning plants, in addition to equity investment Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "엔비디아의 적극적 공급망 투자는 글로벌 반도체 공급 다각화를 의미하며, SK하이닉스와 삼성의 HBM/고급 패키징 경쟁력 상대적 평가에 중립적 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTDhqbFp0ZEdzWENjN0NNZTdvY2N1ZUtodlJMTl95UzExcElSaG1qdWNXdy1mMFNZakl4ZEl1dzg4LTFfQnBPT2o4YWlFcG54Qk1QbVZuYS1CV2xZQWVIcDFUa0g5ZjgxYmVvRUU3Z3JCa0syTjZsb0hfVnFnUVdQN1hEalB1aHhsQkNPS3Roa1FLNklhX1lhNHJqRzZBT0dRVFZvUVptUDNjNklvTG5ZdjA3TXkyQQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-08 12:07:04"
+    },
+    {
       "id": 1858,
       "title": "Lanxess가 유가를 배럴당 $100-$110 범위로 전망했다. 한국의 정유·석유화학 기업들(S-Oil, SK이노베이션, LG화학 등)의 수익성에 직결되는 원유 가격 전망으로 중요도 높음.",
       "category": "거시",
@@ -5482,6 +5643,32 @@
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVNWSGx0a2YxMGZVQjAxMDNDSUxsaXFsMWU4Z1VGNDJWRmRyMkxaUzZjczVBOUVxcjI0Wkdib3FoWUNwRkJyZG1YWjVSSFlQamZXSlNRT0R5WE12eWUtTWVqbngxQktFSnRxel80ZzUtMG1DaWxLM0RJVEFLSUoyUkNsUEh2ZHJFazljbVRpc0djd2M0Q1VWTHlVRkxOekhU?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-06 15:09:03"
+    },
+    {
+      "id": 1904,
+      "title": "중국의 저가 자동차(야리스 같은) 공세와 EU의 테슬라 FSD(완전자동주행) 회의론이 대두되면서 자동차 반도체 및 AI칩 수요 전망에 영향을 미칠 수 있는 상황. 중국 전기차 경쟁 심화와 자동차 지능형 칩 도입 둔화 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-05",
+      "summary": "<p>중국의 저가 자동차(야리스 같은) 공세와 EU의 테슬라 FSD(완전자동주행) 회의론이 대두되면서 자동차 반도체 및 AI칩 수요 전망에 영향을 미칠 수 있는 상황. 중국 전기차 경쟁 심화와 자동차 지능형 칩 도입 둔화 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China’s Yaris moment, plus EU skepticism greets Tesla’s FSD Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "자동차용 반도체(HBM, 파운드리 칩셋) 수요 모멘텀 약화 신호로 작용 가능하며, 중국 저가 공세는 한국 반도체 제조사들의 마진 압박 요인이 될 수 있음.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeWwyeHRucHBCTUVjSkVUaXNKaVF3VzZZb2Fhd3ZIaWRrYThhZG41ekhLd29scDNvNm1PMDVSRjgyQlhCUUMwSFdqMVRTTjNrUklTS2ZtcWppa3VEM0huY2U0cUU1YlY0ckhBd05nYUxyTzB2NE1CeWxQcFVjYkZ4TDh4Z0UxcmNPZ2FkNnpsdktDQkJ4aFVMbUFLYk1DM1RUcjRaZWNDek5LSWlZbllmSzdPRnNZSFNOYzNQV0IxNA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-08 12:07:29"
     },
     {
       "id": 1720,
@@ -11756,6 +11943,129 @@
       "updated_at": "2026-05-03 21:59:32"
     },
     {
+      "id": 1914,
+      "title": "뉴욕연방준비제도가 4월 장기 인플레이션 기대심리가 안정적으로 유지되고 있음을 확인했습니다. 이는 Fed의 완화적 기조 지속 가능성을 시사하며, 미국 금리 인하 기대감 지속으로 USD/KRW 약세와 한국 증시 외국인 자금 유입에 긍정적입니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>뉴욕연방준비제도가 4월 장기 인플레이션 기대심리가 안정적으로 유지되고 있음을 확인했습니다. 이는 Fed의 완화적 기조 지속 가능성을 시사하며, 미국 금리 인하 기대감 지속으로 USD/KRW 약세와 한국 증시 외국인 자금 유입에 긍정적입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): NY Fed finds stability in longer-run inflation views in April Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "인플레이션 안정화는 Fed 금리 인하 가능성을 높여 원화 강세(달러 약세) 및 한국 수출주 호재로 작용하지만, 아직 실질 정책 결정 전 신호에 불과해 제한적 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대자동차",
+        "LG화학"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZlpMaEktSUxqeUhzN1k4QlJPaGpRZXpKdEdQazE2aklTVl9LR2dhOFNHek9pTXo5WTY2WFlhUlA5SXVHdVNvSWFaLWNuWmFHX3puYzRRaDFlTTUxTUJFSFIwWWp1NG01eFQzQXR2V0ktRU9CZTVvMjNnSElidzV6ajZGVW1tUHhkQkhHUzdKZ1FlWmZJSjlPdVNLaWVBSGJJSEE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-08 12:08:09"
+    },
+    {
+      "id": 1909,
+      "title": "유럽 기업들의 3년 만에 최고 실적 성장이 예상되고 있습니다. 이는 글로벌 경기 회복과 수익성 개선 추세를 반영하며, 한국의 바이오/CDMO 기업들의 유럽 시장 진출 및 수출 수요 증가에 긍정적 신호입니다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>유럽 기업들의 3년 만에 최고 실적 성장이 예상되고 있습니다. 이는 글로벌 경기 회복과 수익성 개선 추세를 반영하며, 한국의 바이오/CDMO 기업들의 유럽 시장 진출 및 수출 수요 증가에 긍정적 신호입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): European corporates head for best earnings growth in three years Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "유럽 실적 개선은 글로벌 경기 선행지표로서 한국 바이오/의약품 업체의 해외 수출 및 영업이익 증대에 긍정적이나, 직접적 공급망·규제 변화는 제한적",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "유한양행",
+        "SK바이오사이언스",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcHpKVC1yNXFCWEo5SHFoS3pmRy1GMFU1UVRtbU9DWXh2c19XQlFfZkdpYkVkNkhhVlhWVjMyeU4wR2laRXJ0WjRVNnZZNk1sN0NCTTBiNmFqN2hTUmd0d0JJVVpxbk81YzdCa2dlUVZxaXFTMmFEWFpKb1NwX0lsTzhLT0NWOXlGOXF6VG05SkZfNTB3OEhtU1R4bUx1ZXZCYnc4eQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-08 12:07:47"
+    },
+    {
+      "id": 1908,
+      "title": "그리스가 브라질 엠브라에르 제조 C-390 군용수송기 구매에 관심을 표시했으나, 한국의 바이오/CDMO 산업과는 직접적 연관성이 없는 방위산업 뉴스입니다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>그리스가 브라질 엠브라에르 제조 C-390 군용수송기 구매에 관심을 표시했으나, 한국의 바이오/CDMO 산업과는 직접적 연관성이 없는 방위산업 뉴스입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Greece is interested in purchasing C-390 military planes, says minister Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "방위산업 항공기 구매 소식으로 한국 바이오/CDMO 종목과 무관한 뉴스",
+      "stocks": [],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU2RudGZ4eWpFcTczWFZTVHVUeUptSGNyNUw0NWlxVEtvdHpvZU4yWjF3M0dxRk5rSC1HbWdzank0MjVvRlZMcHBHSW1fN1BFMG4zeFNCYnd1R1lFYjZPcUdqR0hvc1FRdW11bklWT0dlNTVmMW5ESGpHUEx6YjBMb2VraDEtQ2ZWX0VmdVh3YkNzbWhJREhpTkM2S3g1T25FVEh5bnVhNnZWTWhyM0R3UURXV2dIYWZYVlhUWktSdUtoVnVMb3YzeXhn?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-08 12:07:44"
+    },
+    {
+      "id": 1907,
+      "title": "지멘스 헬시니어스가 중국 시장 부진으로 2026년 전망을 하향 조정. 의료기기 업계의 중국 수요 약화가 글로벌 바이오/CDMO 업계에 시장 압박 요인으로 작용.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>지멘스 헬시니어스가 중국 시장 부진으로 2026년 전망을 하향 조정. 의료기기 업계의 중국 수요 약화가 글로벌 바이오/CDMO 업계에 시장 압박 요인으로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Siemens Healthineers cuts 2026 outlook on Chinese market woes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "중국 시장 악화는 한국 바이오 기업들의 중국 진출 및 의료기기 수출에 간접적 부정 신호지만, 직접적 공급망 충격은 제한적",
+      "stocks": [
+        "셀트리온",
+        "삼성바이오로직스",
+        "유한양행"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS1pSOHZVWDlTYlpBOVdMbzhON3hWWEV0dHQtbENseFRoU3g4V19nX2tZVlRXWlQ1STRfYi1UOTc1YXFvODVoSk1mRDNTRGgzUGQtWC1qTkVOWjRaVmJORHZsSzc1djFUdkR4TzlMVjI3Xzh1Uy1rNTdmMzAxbjJvdlRUUEhNcVZZVHpnc254N2pqbDl3SzJITnZBUGZRcmtVMFFUOEtuQ2NYNmMzaEo4?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-08 12:07:40"
+    },
+    {
+      "id": 1903,
+      "title": "미국이 자녀양육비 미납 부모들의 여권 취소를 시작한다는 보도로, 한국 시장과의 직접적 연관성 없음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>미국이 자녀양육비 미납 부모들의 여권 취소를 시작한다는 보도로, 한국 시장과의 직접적 연관성 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US to start revoking passports of parents who owe child support, AP reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 국내 정책으로 한국 주식시장, 반도체/AI 산업과 무관",
+      "stocks": [],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 5,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNUlIdVlvMS1tTDZNYWNTYjU2UE9YR3Y1eW5YQmRUY2NOVnRtM3FKMkdSbktic2llQmZzRDlKZlB2MFpBZVdLVGtLam1CZEdLMjJIZ1p6dkw2NmUtVHQtX0wzamVpRUs1a3c0bnJkMTM4Y0FvMGJieHRnb2REM3RHUFYtMFpnT0ItdWlleUxRSE5OOWtrZkNQaW1HV0NHbXBTSXlScjFVbDhzdU5ZUFRGQlFjc2lmdS1xWkZyejV3?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-08 12:07:25"
+    },
+    {
       "id": 1851,
       "title": "일본이 USD/JPY 160 수준 방어를 위한 환율 개입을 계속할 것으로 예상되며, 이는 엔화 약세 지속 시사. 한국의 USD/KRW 환율 상승 압력과 수출 경쟁력 약화 가능성 존재.",
       "category": "거시",
@@ -12074,277 +12384,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSkQwdWdRR3pSTzdjem1GSlJ5aVVEX0VCdmdBQWtQRDZIaDNhMkU5TWd2UWVZblJTUklwTC1qQlJTTi1tWUdsSUt5eDhsSEg1TW1JR3FZTXNSeS1MR1pWcDRkaWVmZmVHVGRRZTJRU2xlVVV2czd2d1lVUWJ3WVRnQ1JkZFRKNVVaQl91ZmF6THRLU2wxNjlGUEhUMlJMQ2tIV1k5SA?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-07 21:07:33"
-    },
-    {
-      "id": 1709,
-      "title": "Shell이 2026년 1분기 순이익 69억 달러로 시장 예상을 초과하고 배당금을 5% 인상했다. 국제유가 강세와 에너지 기업의 양호한 실적이 한국 석유화학 업종에 긍정적 신호를 제공한다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>Shell이 2026년 1분기 순이익 69억 달러로 시장 예상을 초과하고 배당금을 5% 인상했다. 국제유가 강세와 에너지 기업의 양호한 실적이 한국 석유화학 업종에 긍정적 신호를 제공한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Shell&#x27;s profit beats expectations at $6.9 billion, raises dividend by 5% Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "글로벌 석유회사의 호실적은 유가 추세 긍정 신호이지만, 한국 에너지·석유화학 업체들의 직접적 영향은 제한적이며 산업 전반의 일반적 호재 수준",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcHRROUlpeVhCOE5QVC1HT3RKNWVLeHhJZ2s0VEN2YUN5aGhUdnVaY2VjM2J2NkszdXpTNFJ4WWd4bGctclJ1R0V3WmZqOXRKQi1oRkQ4c1o3cVlUaDlkXzdYcUlNaEk0RGpOT2ROWlFhWU92czJZUGE4ZGNVY2dMclB4M0FjRzRMSjNCejJfdGUzbkt3bFJfVWRSaw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-07 18:08:17"
-    },
-    {
-      "id": 1750,
-      "title": "워너브라더스 디스커버리가 HBO Max의 해외 확장으로 스트리밍 수익이 증가했다는 뉴스로, 한국 바이오/CDMO 산업과는 직접적인 연관성이 없음.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>워너브라더스 디스커버리가 HBO Max의 해외 확장으로 스트리밍 수익이 증가했다는 뉴스로, 한국 바이오/CDMO 산업과는 직접적인 연관성이 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Warner Bros Discovery posts higher streaming revenue as HBO Max expands abroad Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "엔터테인먼트 스트리밍 업체의 실적 뉴스로 한국 바이오·CDMO 및 제약 산업과 무관함.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOFZ2OW5qYW1pQ1RCUjVlSWNDMVdmTHRNbWFOY2Fhak51bl9lRHhsQ0ozNlJscWJrUkx6RGxZcjRYSExkMDF2dUVkTEtqYTR6LXlvRGZmcS1vYTdIWWtTRXczTVY4MVQzVE13am5lcFI0dnZxMk5UeXNxUzc2a0VwVjhXcWVYWWlka3hTUlp1Z2wxeXNjZmpCMXRzaHhJTk1vRklBZzY3MmhrTlUtSEIzZFJIYURZUkVoY3BxY0FyUEtmVkV0Q2c?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-08 00:07:33"
-    },
-    {
-      "id": 1740,
-      "title": "아세안 정상회의에서 에너지 위기에 대한 공동 대응을 촉구. 동남아시아의 에너지 공급망 재편 가능성으로 국내 에너지·화학 기업의 수출 수요 및 유가 변동성 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>아세안 정상회의에서 에너지 위기에 대한 공동 대응을 촉구. 동남아시아의 에너지 공급망 재편 가능성으로 국내 에너지·화학 기업의 수출 수요 및 유가 변동성 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): ASEAN summit kicks off with calls for joint response to energy crisis Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "아세안의 에너지 정책 협력 논의는 장기적 에너지 수급 구조 변화를 시사하지만, 단기 한국 시장 영향은 제한적이고 유가 방향성이 불명확함.",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeFZZZGxhcE9Db2JWSERoNlI1TzBnVFp2b3BoTjBOaWdsZW1KbXRLU09qbjFfTGxJa1hsSERNdGZucm1jZlJ1NlF0YWpzUmFmS0NjR2FHNzlVdVpBaGdlNTNVbFI3RWxMQ2VLTHc0U3hTbEszbGZLelpNa2FzQkk1R0M1OWpWdFVVd1kydnFuRnJWMzhqSkNyYkZnekNkaDdPbGVWTzZ3?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 21:08:35"
-    },
-    {
-      "id": 1728,
-      "title": "구글이 EU 독점금지 당국의 과징금을 피하기 위해 스팸 정책 변경안을 제시했으나, 바이오/CDMO 산업과 직접적인 연관성이 없음.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>구글이 EU 독점금지 당국의 과징금을 피하기 위해 스팸 정책 변경안을 제시했으나, 바이오/CDMO 산업과 직접적인 연관성이 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Google offers changes to spam policy to avert EU antitrust fine Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "IT/빅테크 규제 이슈로 한국 바이오/CDMO 및 제시된 종목들과 무관",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYnh4WTdvOFM5NG9YSFAyc1B1M3FXTWxMRFJ4QzdqZ01QbmVSN21RZ0FCMVUzQnZNS0ZVdnFGRVZyVlc2aGw5QWl2WnZQUzBYM3NReXppWjdzSGVSMThuRlh6eURBQ2dGel9xSk9JREFpYmxVVE5iSkx6VUJuaWJuazJQNUQxN3BrMnRhWXlDTm1CU3VoUXVWY241Rl8yV0VnS055a0ZmeDREMFFXc01DZzhnNEE2Sk92cXVybnA2aWZILTZBbDc4aVdEaw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 21:07:46"
-    },
-    {
-      "id": 1726,
-      "title": "메타가 캘리포니아 법원에 소셜미디어 중독 판결 무효화를 청구했으나, 이는 바이오/CDMO 산업과 무관한 IT 플랫폼 규제 이슈로 한국 제약·바이오 종목에 직접적 영향 없음.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>메타가 캘리포니아 법원에 소셜미디어 중독 판결 무효화를 청구했으나, 이는 바이오/CDMO 산업과 무관한 IT 플랫폼 규제 이슈로 한국 제약·바이오 종목에 직접적 영향 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Meta asks California judge to throw out landmark social media addiction verdict Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "소셜미디어 중독 소송은 IT 플랫폼 규제 이슈로 CDMO/제약 산업과 무관하며 한국 시장 영향 없음.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQ19CNjNPNGtXdnZtQ0xkNVJ4SzZBWjRaSlJZT2hQTldRczNMaVk0UlRWY0NnN1dfeVZKQklGakl6RTk0UWNvMjQ2M0QxWl9DemN6VHNTVmQtLTBURkQ5d3hmQlgzSDZ0Q1VJZmd2WWc5MlFqVWRtZzdhMUYxRFdoVkV6X3JJU2paTGxBbUFpNkRVWTFZM0wxLWlzWFJkWTZPYjJSdjZLNklnY213RF90Nkl5VEJOdDJWNmpFaWc1R0tEbjBMbTctcg?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 21:07:40"
-    },
-    {
-      "id": 1703,
-      "title": "모더나의 mRNA 독감 백신이 후기 임상시험에서 기존 백신을 능가했다. mRNA 플랫폼 기술의 백신 시장 확대 신호로, 한국 바이오 기업들의 mRNA 기술 개발 경쟁을 심화시킬 전망.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>모더나의 mRNA 독감 백신이 후기 임상시험에서 기존 백신을 능가했다. mRNA 플랫폼 기술의 백신 시장 확대 신호로, 한국 바이오 기업들의 mRNA 기술 개발 경쟁을 심화시킬 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Moderna&#x27;s mRNA flu vaccine outperforms standard shot in late-stage trial Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "mRNA 백신 성공 사례는 한국 바이오 업계의 기술 트렌드 강화 신호이지만, 직접적인 한국 종목 실적 영향은 제한적",
-      "stocks": [
-        "SK바이오사이언스",
-        "삼성바이오로직스"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb2Ntc01BZGFXakxoMlA0N0NwVnZubkVEYzZtbzJ0WF9lcnQzWE9Pem5tTmtZOUdBRG5IeE5mRm1YRHlQeU1pbnZ3ZmNzVXN5bnJvWnhTSlpqVHo2ejdCZlF5bEZwNWhlbzdDOEk2eGM4TUEwRkJXenRqQ0RTSm1MNGZoZWczZERwQ2xkZGhjZ21PRFFzN2tKcjZVaXBraGZ4UVA1LXg0cFlmOWIzbk9oZllTZ1lDSGZyaklfTk1B?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 18:07:53"
-    },
-    {
-      "id": 1698,
-      "title": "Sky가 이탈리아 TV 축구 중계권 거래를 둘러싸고 TIM, DAZN을 상대로 최대 19억 유로(약 2.7조 원) 손해배상 청구. 바이오/CDMO 산업과는 무관한 이탈리아 미디어/통신 분쟁.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>Sky가 이탈리아 TV 축구 중계권 거래를 둘러싸고 TIM, DAZN을 상대로 최대 19억 유로(약 2.7조 원) 손해배상 청구. 바이오/CDMO 산업과는 무관한 이탈리아 미디어/통신 분쟁.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: Sky seeks up to 1.9 billion euros in damages from TIM, DAZN over Italian TV soccer deal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "이탈리아 미디어/통신사 간 TV 스포츠 중계권 분쟁으로 한국 바이오/CDMO 산업 및 관련 종목과 직접적 연관성 없음.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR1g3Zkp6Uy1OS2hrUEdaLVo0aHFST2lPMmhMai1XVGtMczlDSmlFZW9UM3lsY2poVjNvNmlsWG5KTE1CYVBmdkJQMHRpTnlLVzUwc2RsWUtpRy1fWjU5QTNQRVZkSmRuQUo2eW4telhvU1doV3JiSGhrVjZVYVp5VzJRcC1mcjFqSWVjVWtwalFSTUVGbUdLLTJkbGhMZXMwaGpyQmNtaFVfZ0YySDliZHNaRmxxMVVzdHl4djFZMA?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 18:07:36"
-    },
-    {
-      "id": 1634,
-      "title": "CNN 창립자 Ted Turner가 87세로 별세했습니다. 이는 미디어 산업 인물의 부음으로, 한국 바이오/CDMO 업종과는 직접적 관련이 없습니다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>CNN 창립자 Ted Turner가 87세로 별세했습니다. 이는 미디어 산업 인물의 부음으로, 한국 바이오/CDMO 업종과는 직접적 관련이 없습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Ted Turner, outspoken founder of CNN, dies at 87 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "미디어 산업 뉴스로 한국 바이오/CDMO 종목과 무관",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWHZ5NkJZSzduRU1peEp2TWtXcExRM09PQmg1SVVpdklUdVBIbGpYUkNLSlZRdVM4Y0Ezb2RhN3IwaFBraHNtUGdnOGwxRUlmX1Bxd3U0RWRRbHE2eHRyYVJBYmRLUHhrb0VMbEEtSHVCQU9ZZ3VJVWNocVl2S193Rg?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 15:09:03"
-    },
-    {
-      "id": 1633,
-      "title": "미국이 카타르가 기증한 항공기를 2026년 7월 4일까지 에어포스원으로 배치할 목표. 이는 바이오/CDMO 산업과 직접적 연관성이 없는 미국 국방/외교 뉴스.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>미국이 카타르가 기증한 항공기를 2026년 7월 4일까지 에어포스원으로 배치할 목표. 이는 바이오/CDMO 산업과 직접적 연관성이 없는 미국 국방/외교 뉴스.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: US aims for Fourth of July to deploy Qatar-gifted jet as Air Force One Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "미국 대통령 전용기 배치 소식으로 한국 바이오/CDMO 산업 및 한국 주식시장과 무관.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY0tfQmdDblJLNEdmZVVhYWxoZ3pkQ1hSSU1uQUN2X2lFcXpJSlJLODF5THh6OE1nRnlBanItRUVVdFVZUjJpOFdmajgtWXM2UnRZc1JNYTZXZ21PWkJ0VE85V0hkTjlzUkk4QUp1Z3BkM0hrZ0RvVHBmUTlNN2NKTjhzRXB2ZTF2RG4wLUdvZnBnVVpXODBDcU5CaWxWTGJicVEtZUM5YVB4c2RqQVo5YUs1RnNZNkNoX1RfLQ?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 15:09:01"
-    },
-    {
-      "id": 1632,
-      "title": "에어아시아가 기존 발주한 에어버스 A220 항공기의 대형 버전 150대 추가 구매 계획을 밝혔으나, 항공사 발주 뉴스로 한국 바이오/CDMO 업체와의 직접적 연관성 없음.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>에어아시아가 기존 발주한 에어버스 A220 항공기의 대형 버전 150대 추가 구매 계획을 밝혔으나, 항공사 발주 뉴스로 한국 바이오/CDMO 업체와의 직접적 연관성 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AirAsia ready to buy 150 larger versions of Airbus A220 jet it ordered Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "항공사 항공기 발주 뉴스로 한국의 바이오/CDMO 산업 및 해당 종목과 무관한 이슈.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMFJ6WUFrLTVyWFE2OWY2Vm9aMldmLTZwLWlURFllR0p6TnBBZjYwRzlBX1hFOGdFUTZBbmM2Nmg5b3RUY01pb3pyS1A4YjJIVmNTZFNMaUJuWTJxdGRJdFpiMmNad3NVNnJBTTBLXzVISV9Qa01SdDNZTS04NjNraTNkeWtGVkhLcS0xTG0zUFJsNVlOTkJteFY5Um9oYk1qbmNGRUx4SjlzM29oSmJ0UXQySQ?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 15:08:58"
-    },
-    {
-      "id": 1629,
-      "title": "DoorDash가 분기 주문액 전망을 시장 예상치 위로 제시하며 배달 수요의 회복력을 시사했으나, 이는 미국 O2O 플랫폼 기업 뉴스로 한국 바이오/CDMO 산업과 직접적 연관성이 없음.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>DoorDash가 분기 주문액 전망을 시장 예상치 위로 제시하며 배달 수요의 회복력을 시사했으나, 이는 미국 O2O 플랫폼 기업 뉴스로 한국 바이오/CDMO 산업과 직접적 연관성이 없음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): DoorDash forecasts quarterly order value above estimates on resilient delivery demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "음식 배달 플랫폼 기업의 실적 전망은 한국 바이오·CDMO 산업 및 관련 종목들과 사업 영역·공급망이 겹치지 않아 영향 없음.",
-      "stocks": [],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMHpoNlIwZ0hkdTF5Y2lZWEZrSkdCbmkxZUhvMG8zZjREbkJXa2RBc3E5bDdpb1EyQ1UzVUV6d3BYR0lLZ1d3SGc3TF96RktRU1N5MTJnSXU3QWN0SmRwWV9CZXVYSUdnQUd0cnpfMV9POXUzakw4TjRoRkRFalhqeWNRb0lYN0ZDVk1BSVFlcllVVzBJalZ5UG0xSlNVV0J0TjU2S1laOVhpVUV5TzQtZ2YtYjRwNkVmMnhPNmlnVQ?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 15:08:42"
-    },
-    {
-      "id": 1626,
-      "title": "리비안이 라이다 센서를 자체 제조하려고 검토 중이며, 중국 기업과의 파트너십 가능성도 있음. 이는 자동차 반도체 공급망 재편과 중국 업체의 영향력 확대를 의미.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>리비안이 라이다 센서를 자체 제조하려고 검토 중이며, 중국 기업과의 파트너십 가능성도 있음. 이는 자동차 반도체 공급망 재편과 중국 업체의 영향력 확대를 의미.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: Rivian mulls making its own lidar sensors, possibly in partnership with Chinese firms Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "한국 반도체·센서 업체의 자동차용 라이다 납품 기회 축소 우려지만, 아직 검토 단계로 직접 영향은 제한적",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 5,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVVRvbGoxdTcwdFZGVDR5SWZaYkZnZm5HQm9wTUNESF9PYXhYVTFRWW5McHRtcFpNSHpPOFoySFVNaEU1Q2pmZHJiVkIwRXU3c2VCQ3pwblJjVkdtOURsd0gxcDd1RGIweHY5Tmk5OUlxOHhSamJPVmFKS21ndlVqX2xlS3oxX0NScUxtMVE3WjVTamdFcDhkQ1dZYTF0YTAwbnFrNWtRNXVYWjNJa2VkdEt2S0Etd0w3MHFyaHhFbjlmdnhmVGw4dlliSFA4T0FfNmo2dDlqYTU?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-07 15:07:21"
     }
   ],
   "events": [
