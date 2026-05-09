@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T12:05:01",
+  "generated_at": "2026-05-09T12:08:31",
   "count": 500,
   "posts": [
     {
@@ -649,6 +649,33 @@
       "updated_at": "2026-05-08 18:07:05"
     },
     {
+      "id": 2184,
+      "title": "미국 해군이 이란 유조선 공격 이후 미사일 공격을 받았다고 이란 매체 보도. 중동 긴장 고조로 유가 변동성 확대 우려, 에너지·화학 관련 한국 종목에 악영향 가능.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>미국 해군이 이란 유조선 공격 이후 미사일 공격을 받았다고 이란 매체 보도. 중동 긴장 고조로 유가 변동성 확대 우려, 에너지·화학 관련 한국 종목에 악영향 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US navy came under missile fire after US attack on Iranian oil tanker, Iran state media says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 지정학적 위험 상승으로 유가 불안정성 증대, 원유 수입국 한국의 에너지·석유화학 기업 수익성 악화 우려",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcnplWTR4X2ZCYk1JNWVNTEkzbXM3WWlEX1BVWW1oREU4UjRCQXp0bU0zSzNZUF91SkZzeWFnQ2RTR0xVck1xTGlwX2JpX0JpVm9QOXVOWTRZdzRUMVZLTTlRUGFCaHBYaHZidUFNWVowc2VacjF6eUwwWTFBeF9tRXJidVQzQ1N3RFdqR2RIejhOcVpxXzNlQ0JOeGdoVkhEZERBMUN1aTRmWkdaN09sSkVKR1M5MGNXZUM0X0Y4TQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-09 12:08:12"
+    },
+    {
       "id": 2032,
       "title": "Fed의 해머크 의장이 '인플레이션 심리'가 확산되는 것에 우려를 표명했으며, 이는 Fed의 금리 인상 지속 가능성을 시사. 강달러(USD/KRW 상승), 해외 자금 유출 압력, 한국 채권 금리 상승으로 이어질 수 있음.",
       "category": "거시",
@@ -892,6 +919,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNanRNQTUzY09FR25vUlJLT1h2SEJZN0dpX3pYdWMtZUwxY1NCd2xJZENNYlVyd2I3a2VHWDE4Vy1FWkpXUEd2VWVRQTRnQUVUMzlGSmFwOTkzWk5UaWl2MlJHTUFDUUU2MGFMaGEyMFVMRzdmSDVDNjJyMmxpRWF5b3psOTFqR2pI?oc=5",
       "direction": "up",
       "updated_at": "2026-05-07 18:07:14"
+    },
+    {
+      "id": 2178,
+      "title": "미국과 이란이 전쟁 종료를 위한 1페이지 양해각서 체결을 앞두고 있다는 보도. 중동 지정학적 긴장 완화 시 유가 하락 → 에너지 수입 비용 감소 및 글로벌 경기 안정화로 한국 수출 기업에 긍정적.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>미국과 이란이 전쟁 종료를 위한 1페이지 양해각서 체결을 앞두고 있다는 보도. 중동 지정학적 긴장 완화 시 유가 하락 → 에너지 수입 비용 감소 및 글로벌 경기 안정화로 한국 수출 기업에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US and Iran closing in on one-page memo to end war, Axios reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "중동 분쟁 완화 → 유가 하락 가능성 → USD/KRW 약세 압력, KOSPI 외국인 매수 유입, 반도체·자동차 수출 기업 이익률 개선의 매크로 긍정 신호",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대자동차",
+        "LG화학",
+        "S-Oil"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUHNJTHhoVmFfcWpPdGF3TGhuT0pTSk54dkNBXzZtRnN0bDNMOEZTZDVxS0d3eHYyaFA1RWVfODNBWWU0T3lkSFlEY21Ob2pXZHNNRkNqTVdfMk1UMFZRVVduYlAxdmR6Q3hEWlppRUpGaFJ1elB0SEVaV0hCS3ZHWTdqNnI3aGtmQXJXbm5JODJOZ1lDckRxY01jUDFoZW9tRlFWSzR0eDU?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-09 12:07:51"
     },
     {
       "id": 1898,
@@ -3298,6 +3352,32 @@
       "updated_at": "2026-05-03 22:14:42"
     },
     {
+      "id": 2169,
+      "title": "중동 전쟁으로 인한 항공 운송로 차단이 제약사 의약품(특히 암치료제) 공급망을 위협하고 있으며, 국내 CDMO·바이오 기업들의 글로벌 수출 및 국제 협력에 차질이 예상된다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-03-31",
+      "summary": "<p>중동 전쟁으로 인한 항공 운송로 차단이 제약사 의약품(특히 암치료제) 공급망을 위협하고 있으며, 국내 CDMO·바이오 기업들의 글로벌 수출 및 국제 협력에 차질이 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Middle East war disrupts pharma air routes, risks cancer drugs supply Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "제약·바이오 글로벌 공급망 차단은 삼성바이오로직스, 셀트리온 등 수출 기반 CDMO·바이오기업의 경쟁력과 수익성에 직접 영향을 미치는 주요 산업 이슈",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "한미약품",
+        "SK바이오사이언스"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUHYzQlZfcnVwVFp3aG12SjRPWXg3akh6TkpfdHMyYkc0YmJ4WEI2QURsb3NzMzloWTJZQWNfb1ZBYkMyT3lEam5QbHcyZHZoeF9FWEU2SFYtSWdJZUpaQkV0UG4wQmF3bGpBQnBtOHl6WUNLd1pxR3NhSXNIV3FRV0FkOGNlaXdYczhWZW8wTElVckJzdWw3cHN1bTY0a2pxOHpqUTZQNlJDOVQtdmFPMk0zanhzdkdkSmpXM1hZRQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-09 12:07:18"
+    },
+    {
       "id": 1303,
       "title": "트럼프 당선인이 470명 이상의 목표를 대상으로 한 보복 캠페인을 진행 중. 이는 관세·규제 강화 등 경제 정책 불확실성을 높여 USD/KRW 환율 상승 압력과 외국인 자금 이탈 우려를 야기할 수 있음.",
       "category": "거시",
@@ -5064,6 +5144,59 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 2177,
+      "title": "중동 긴장 고조로 유럽 주식이 하락했으며, 이는 글로벌 리스크 회피 심화로 이어져 한국 증시의 외국인 자금 유출 압력과 USD/KRW 환율 상승 가능성을 높인다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-08",
+      "summary": "<p>중동 긴장 고조로 유럽 주식이 하락했으며, 이는 글로벌 리스크 회피 심화로 이어져 한국 증시의 외국인 자금 유출 압력과 USD/KRW 환율 상승 가능성을 높인다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): European shares slide as Middle East tensions flare Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "지정학적 리스크로 인한 글로벌 위험회피 심화는 한국 증시 외국인 수급 악화와 원화 약세 압력을 초래하는 의미있는 악재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대차",
+        "현대모비스"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTks2bzExSEt4eGVPQUdnRUtncUREdVB0QVlQVWJaWGlkQnVDOU1KcW00ek1VS3pjbFh4WDh6b2dERVBXN0cxZDZYRmpXSEJzOXNWUFVUY0E3ZHpuVkFZMVZtNVdFZGc3UVI0bGNyYVNNMjlIM3lSLURFeC12WDFmeTMwMVdqT291N3lNckFKRUxSTDhUaDlLMEZvZEJJem5pLVdz?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-09 12:07:47"
+    },
+    {
+      "id": 2167,
+      "title": "Anthropic이 Akamai와 18억 달러 규모의 AI 클라우드 인프라 계약을 체결했다. 글로벌 AI 수요 증가로 고성능 칩과 클라우드 서비스 필요성이 커지고 있다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-08",
+      "summary": "<p>Anthropic이 Akamai와 18억 달러 규모의 AI 클라우드 인프라 계약을 체결했다. 글로벌 AI 수요 증가로 고성능 칩과 클라우드 서비스 필요성이 커지고 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Anthropic signs $1.8 billion AI cloud deal with Akamai, Bloomberg News reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 인프라 투자 확대 추세는 메모리칩 수요 증가로 이어져 한국 메모리반도체 업체에 긍정적이나, 직접적 공급계약 뉴스는 아님",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRWh0a2p2a3dybEdNaXVMdEtRaU5TYVlYY0FlNFUwN20xNGtXVTdQbVlYVHRjby1aamRNWWxzVGJEUTdaUHNrcjI2RXdLS1NWbHZIdVVnVWpQMW9fcFVGQUh0T1d0MnVoVUlKNlJOdGRmMEN6UzdfSG14VGlkU0lsNHdZamZJVWJWM1U4TWNFMWdQeDBhdDJiTWRCTm94WnpkcEI3U0lUNEI4M0hwcklJR0lSZzhkU1N5TnFtYQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-09 12:07:11"
+    },
+    {
       "id": 2164,
       "title": "미국-이란 핵협상 재개 가능성과 동북아 LNG 수요 부진으로 아시아 LNG 가격이 하락했으며, 이는 한국의 에너지·화학 관련 주요 기업들의 수익성 악화로 이어질 전망",
       "category": "거시",
@@ -5384,6 +5517,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaG9nWFIyNS0xRHQ0VDZFdnNHQTZtMjQtbzhOUS1HWjg0MG9CLXBBb0Y0WjNFVGppR2hUWjllMllXSjNJMGdfUEluSklFNktiR1FQM1VRVnlDa1JVUmZsSFpZRDJBNGdOZzk1clRKc3NIZGpOX0VQMTlha1R3TVUtS0daUGQyRUNHVEtqa2txSFlmVEtqT0wtaW5qRGpxeFRxWnhxWlZkcTVOYnlsR2UwNHBvVmJTRXZKM1k0UWlFLVRTR2xCdUE?oc=5",
       "direction": "up",
       "updated_at": "2026-05-08 15:09:34"
+    },
+    {
+      "id": 2182,
+      "title": "트럼프-시진핑 정상회담에서 미중 무역·기술 분쟁이 재논의될 것으로 예상. 유가 및 원자재 가격 변동성이 확대될 수 있어 국내 에너지·화학 기업의 원가 구조에 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>트럼프-시진핑 정상회담에서 미중 무역·기술 분쟁이 재논의될 것으로 예상. 유가 및 원자재 가격 변동성이 확대될 수 있어 국내 에너지·화학 기업의 원가 구조에 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): What&#x27;s at stake at the Trump-Xi summit Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "미중 갈등 완화 시 유가 안정 호재, 악화 시 유가 급등 악재로 에너지·화학 기업 수익성 좌우",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUlg2RE81LWRvSkxYWWl0bzZ2ckhlVFJINE9ZM1hZRVBfR3JJRXB1LW05QmJ4UDhrVlFVNTAyN1QxTGVkRGJPUXlsUHN1SUlpbXNlVHVyNGpvcU5IYTd1SDg4NjNBa09TODE4czRrMFAtNlp3NWV0bzZselVTb1NYRw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-09 12:08:05"
     },
     {
       "id": 2163,
@@ -6026,6 +6186,31 @@
       "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSjgybFlUbGtvQkkxNUJZeHVsd3ZYMzN5MW9vLWk2TUZtZ1FRTUFsOXZhUEVEZnVuNG00THMzaTRtQWY5UENKb3F0dkc0ODdDQlJCSmhqWUpNMmhIaHBpV0poaVpYWXBHZ1ZwZUZvU2djWm5tYU1nNFJSQ1NFR2t5MFEyRy0?oc=5",
       "direction": "up",
       "updated_at": "2026-05-07 15:09:12"
+    },
+    {
+      "id": 2168,
+      "title": "미국과 이란이 전쟁 종료를 위한 1페이지 합의안에 임박한 상태로, 중동 지정학적 리스크 완화가 예상됨. 이는 글로벌 반도체 공급망 안정성 향상과 에너지 가격 안정화로 이어져 한국 반도체·전자 업체들의 경영 환경 개선에 긍정적.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>미국과 이란이 전쟁 종료를 위한 1페이지 합의안에 임박한 상태로, 중동 지정학적 리스크 완화가 예상됨. 이는 글로벌 반도체 공급망 안정성 향상과 에너지 가격 안정화로 이어져 한국 반도체·전자 업체들의 경영 환경 개선에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Pakistani source confirms US, Iran closing in on one-page memo to end war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중동 지정학적 위험 감소는 글로벌 수급 안정화와 인플레이션 완화로 이어져 반도체·메모리 수요 개선에 긍정적 영향을 미칠 수 있으나, 직접적인 한국 기업 영향은 제한적",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTUNaSDhtcHVHQmhDZFoxUS1UZWRKTFR2R1AyNm5vU0N4dmVwVzJQZ3pJcVZlOVgwUXZQcXY5Zk9XOWJfQVpiV3VJalNIX0hPOEJlOEVncHduQnFIbUUtVlJ1TUJzN2owUXBtYjhRSDd0OHRfZ2JhWVhua2xVTktYWlZBMkZMRUpKNWF1eUt3UWxHdEpBcHBfaHpNTUh5RldjdDVUclRPYjNueU9pY3VheHBRV0hGS2ZOUlE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-09 12:07:14"
     },
     {
       "id": 1853,
@@ -10141,6 +10326,87 @@
       "updated_at": "2026-05-09 00:07:57"
     },
     {
+      "id": 2173,
+      "title": "글로벌 제약사들이 AI를 활용해 임상시험과 규제당국 제출 절차를 가속화하는 추세가 확산 중이며, 이는 바이오의약품 개발 효율성 향상으로 이어질 전망",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-01-26",
+      "summary": "<p>글로벌 제약사들이 AI를 활용해 임상시험과 규제당국 제출 절차를 가속화하는 추세가 확산 중이며, 이는 바이오의약품 개발 효율성 향상으로 이어질 전망</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Drugmakers turn to AI to speed trials, regulatory submissions Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "AI 활용으로 글로벌 임상시험·승인 프로세스가 고도화되면서 한국 제약·바이오 기업들의 경쟁력 강화 필요성이 대두되지만, 직접적인 수요 충격이나 구체적 한국 영향은 제한적",
+      "stocks": [
+        "셀트리온",
+        "삼성바이오로직스",
+        "한미약품",
+        "SK바이오사이언스",
+        "유한양행"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWtFa1F2a1lyZU1ES0stMFlyVTRiRFplWVRaYWhaZVZ1alFFXzdVVUNzUkZIVndmU05mRlpHR1R0OTdwZDlVRnRSa184eGVfNGVLMFJZZTdsbkFhVXQxZlVDNnpvMjlaUVNiZExTOTNLU3BMVWVGUUs1OHZWellEWkcxLWVlc19sODVjSVktLUg2Q1hpVE9EM0hhTTkyWjl3d2hLVHNzSnJrTzQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-09 12:07:32"
+    },
+    {
+      "id": 2176,
+      "title": "미국 바이오텍 부문이 2026년 IPO 관심 부활로 반등 포지션. 글로벌 바이오 생태계 회복 신호로 한국 바이오 기업의 투자심리 개선 가능.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-01-14",
+      "summary": "<p>미국 바이오텍 부문이 2026년 IPO 관심 부활로 반등 포지션. 글로벌 바이오 생태계 회복 신호로 한국 바이오 기업의 투자심리 개선 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US biotech sector poised for 2026 rebound as IPO interest revives Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "미국 바이오텍 IPO 시장 부활은 글로벌 바이오 밸류에이션 상승과 투자 심리 개선으로 이어져 한국 바이오사 주가에 긍정 영향 가능하나, 직접적 수익 변화는 제한적",
+      "stocks": [
+        "셀트리온",
+        "삼성바이오로직스",
+        "SK바이오사이언스",
+        "한미약품",
+        "유한양행"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVk5VRUVpR2FPekUta1JNQ0ZhelZMZGdLZDA1cWRlQzZndGtnbjRNcUhtTG9paHhfblhfUEN0dll4a1BfbzNia2lzLUtkMEhlXzZsSlR6Q0xWQ09VZks5YTRFeEp5ZkV0ZFRNbHJVclk0MUEzd2tOMDM3TUx2QVZlRV9EdGdaN0pxX2lDTllNbFNGT0lhUkUxZXQxYVo5SXNGbmwzLVJNZ0hOczYyN3hOaw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-09 12:07:43"
+    },
+    {
+      "id": 2172,
+      "title": "트럼프 행정부가 제약 수입품에 초기 '소규모 관세'를 부과할 계획으로, 한국 CDMO·바이오기업의 미국 수출 경쟁력에 부정적 영향 예상. 삼성바이오로직스, 셀트리온 등 미국 수출 의존도가 높은 종목이 직접 영향 대상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2025-08-05",
+      "summary": "<p>트럼프 행정부가 제약 수입품에 초기 '소규모 관세'를 부과할 계획으로, 한국 CDMO·바이오기업의 미국 수출 경쟁력에 부정적 영향 예상. 삼성바이오로직스, 셀트리온 등 미국 수출 의존도가 높은 종목이 직접 영향 대상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US to initially impose &#x27;small tariff&#x27; on pharma imports, Trump says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "미국 제약 관세는 한국 바이오·CDMO 기업의 주요 수출시장에 대한 가격 경쟁력을 직접 약화시키는 산업 특정 악재이나, 초기 '소규모'라는 표현으로 현재 영향도는 중간 수준.",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "한미약품",
+        "SK바이오사이언스",
+        "유한양행"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWItNEgxNWxSTW53TFMxamJVUHlRQWdJcF9DTWxHZnJ5LXhSZXNGdm5qbDdOcjllMklrS1Z3RnlpX19MM2NYdmJFX1JxQjFrNlQ2RzVFZzRCTldUNUx1Skd2UktWWVBraVN6a1RjdHpacDlrQThMd2UzZjVQYnRDT3REY3ZmcV9iMnEtUXcxLXdoUFloa2xGZEV5UDNlVUMwMGVQb3NkOEZRRVRiMExUdXRSX2QtUnB6c0VZdDVpZmJFMl9NcTk2X2dn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-09 12:07:29"
+    },
+    {
       "id": 2120,
       "title": "미중 긴장으로 중국 제약 프로젝트 차질 발생. 한국 CDMO/바이오 기업들의 중국 진출 및 협력 사업 리스크 증가 가능성.",
       "category": "주식",
@@ -10297,6 +10563,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTGQ1Y3YxdmF2RVJIQzNFM0oyR1dEbDcwOWlOWnpHcnBhMklhLTBXRTVydnhaY2hrYThuWWtZQkNyQXJnaFNlcDFDclVDTGVBTHc0d1JYSkRJcWFxcHh0Um1kRW51R3hKcUltVWdseXVHcEs4NGVZZXJ0WXBqRnhadVVEVjlSWVFxZnRBSHN0cmtUQWJVRHFWbjhpNDlxZVNldUJUZkVKVUxjV0xwZUpFbF9HSnpWSnZsVDhYZkc2dDl6eW4wRXBvZmFxemxFZ1k?oc=5",
       "direction": "up",
       "updated_at": "2026-05-09 06:11:34"
+    },
+    {
+      "id": 2189,
+      "title": "중국 위안화가 6년 만에 최저치로 하락하며 달러 강세가 지속되는 상황. 한국의 수출 기업들(자동차, 화장품, 철강)이 중국 시장에서의 가격 경쟁력 악화와 수익성 하락 압박에 직면할 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2016-11-09",
+      "summary": "<p>중국 위안화가 6년 만에 최저치로 하락하며 달러 강세가 지속되는 상황. 한국의 수출 기업들(자동차, 화장품, 철강)이 중국 시장에서의 가격 경쟁력 악화와 수익성 하락 압박에 직면할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s yuan falls to fresh six-year lows as dollar regains footing Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "위안화 약세는 한국 수출 기업의 중국 시장 경쟁력을 약화시키고 실적 악재로 작용하는 의미있는 매크로 변수 변화",
+      "stocks": [
+        "현대자동차",
+        "기아자동차",
+        "아모레퍼시픽",
+        "LG생활건강",
+        "POSCO"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZXl6Q2FBVG9Xd0YtbC1RdW1lN1owcy1TQWl2ME51ZnIwY0VUeWNXalExRmU3UVQ4NWotOVNWTUhiV3dQd2xHczduLW5fcERoQi1yczJ6d1NvckoxcVJiamxhb0I3cE1hbzNkUnRfUVg0WF9SOVptRnF3d0k4SGhvOC1oQzNSR1dad24xMUw2RXNsRlZuSTBVQzdYdnZmcDZMcnlmd1JiRU1wSVZLMV9Rb1h1R2hXOGlBU19mMVpJOA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-09 12:08:30"
     },
     {
       "id": 1816,
@@ -12282,248 +12575,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900492",
       "direction": "",
       "updated_at": "2026-05-04 15:35:02"
-    },
-    {
-      "id": 904,
-      "title": "피코그램 — 전환사채(해외전환사채포함)발행후만기전사채취득              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 전환사채(해외전환사채포함)발행후만기전사채취득               · 피코그램</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "피코그램"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900513",
-      "direction": "down",
-      "updated_at": "2026-05-04 15:35:02"
-    },
-    {
-      "id": 876,
-      "title": "한국정보인증 — 감자완료              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>기타 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 감자완료               · 한국정보인증</p>",
-      "feedback": "기타 공시",
-      "stocks": [
-        "한국정보인증"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900450",
-      "direction": "",
-      "updated_at": "2026-05-04 14:35:02"
-    },
-    {
-      "id": 875,
-      "title": "GS건설 — 투자판단관련주요경영사항              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>GS건설이 서초진흥아파트 재건축 시공자로 선정되어 약 6,793억원(부가세 별도) 규모의 공사를 수주했으며, 이는 2025년말 연결매출액 대비 5.46%에 해당하는 통상적 규모의 건설 수주입니다.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · GS건설</p>",
-      "feedback": "매출 5.46% 규모의 일반적 건설 수주로, 긍정 요소이나 예상 범위 내 호재 수준이며 본계약 체결 전 단계",
-      "stocks": [
-        "GS건설"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504800376",
-      "direction": "up",
-      "updated_at": "2026-05-04 13:35:05"
-    },
-    {
-      "id": 874,
-      "title": "지앤비에스 에코 — [첨부정정]주요사항보고서(전환사채권발행결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(전환사채권발행결정) · 지앤비에스 에코</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "지앤비에스 에코"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504000168",
-      "direction": "down",
-      "updated_at": "2026-05-04 13:35:02"
-    },
-    {
-      "id": 872,
-      "title": "엔시트론 — 감자완료              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>기타 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 감자완료               · 엔시트론</p>",
-      "feedback": "기타 공시",
-      "stocks": [
-        "엔시트론"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900396",
-      "direction": "",
-      "updated_at": "2026-05-04 13:35:01"
-    },
-    {
-      "id": 871,
-      "title": "프로텍 — 감자완료              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>기타 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 감자완료               · 프로텍</p>",
-      "feedback": "기타 공시",
-      "stocks": [
-        "프로텍"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900366",
-      "direction": "",
-      "updated_at": "2026-05-04 12:35:02"
-    },
-    {
-      "id": 840,
-      "title": "미원홀딩스 — 주요사항보고서(자기주식취득결정)(자회사의 주요경영사항)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>미원홀딩스의 자회사 동남합성이 주가안정 목적으로 보통주식 20,000주(604백만원)를 2026년 5월~8월 취득 결정. 현재 자기주식 보유 150,286주(4.3%)에서 신규 취득 시 약 4.6% 수준으로 증가 예상, 배당가능이익 범위(4,429억원) 내에서 진행.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정)(자회사의 주요경영사항)               · 미원홀딩스</p>",
-      "feedback": "자기주식 취득은 긍정 신호이나, 규모가 소형(604백만원, 순자산 대비 1.1%)이고 주가안정 목적의 통상적 결의로 실질적 주가 부양 효과 제한적",
-      "stocks": [
-        "미원홀딩스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504800253",
-      "direction": "up",
-      "updated_at": "2026-05-04 10:35:06"
-    },
-    {
-      "id": 700,
-      "title": "삼성전자 — 현금ㆍ현물배당결정              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>배당 결정</p>\n<p style='color:#718096;font-size:.9em'>📋 현금ㆍ현물배당결정               · 삼성전자</p>",
-      "feedback": "배당 결정",
-      "stocks": [
-        "삼성전자"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800106",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:02:48"
-    },
-    {
-      "id": 699,
-      "title": "코칩 — 분기보고서 (2026.03)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 코칩</p>",
-      "feedback": "정기 분기 공시",
-      "stocks": [
-        "코칩"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430000038",
-      "direction": "neutral",
-      "updated_at": "2026-05-03 22:02:48"
-    },
-    {
-      "id": 696,
-      "title": "메지온 — 주요사항보고서(전환사채권발행결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(전환사채권발행결정) · 메지온</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "메지온"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430000109",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:02:47"
-    },
-    {
-      "id": 694,
-      "title": "위지윅스튜디오 — 분기보고서 (2026.03)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 위지윅스튜디오</p>",
-      "feedback": "정기 분기 공시",
-      "stocks": [
-        "위지윅스튜디오"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430000462",
-      "direction": "neutral",
-      "updated_at": "2026-05-03 22:02:46"
     }
   ],
   "events": [
