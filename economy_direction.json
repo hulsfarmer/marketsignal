@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T00:05:01",
+  "generated_at": "2026-05-11T00:07:55",
   "count": 500,
   "posts": [
     {
@@ -3862,6 +3862,37 @@
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdERMY09qNnpjMm9PNWhMQjNhWlNoYVBHQ1dhR1FCMnpXVnVzdnp6Vzg3YzBkY2VnV2UtZkpHY1pHZDhSTDZUSi1Kb1JfdHhFbW12bmVsNXNPUkI4eThPRVJ0bTdfLVRsNDhrTWZaWTRFS0t0R3pUcS1rWnZ5S2o2cmdmV2x4bDlYVkVVd3EwX0J1bWgzQmdqTEFqWHExdw?oc=5",
       "direction": "down",
       "updated_at": "2026-05-10 06:11:38"
+    },
+    {
+      "id": 2430,
+      "title": "트럼프 관세 부담이 예상보다 커지자 중국 주식과 위안화가 급락했다. 이는 한국의 對中 수출(화장품, 자동차, 철강) 부진 심화와 중국 경기 둔화로 이어져 관련 한국 종목들에 악재가 될 전망이다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2025-04-03",
+      "summary": "<p>트럼프 관세 부담이 예상보다 커지자 중국 주식과 위안화가 급락했다. 이는 한국의 對中 수출(화장품, 자동차, 철강) 부진 심화와 중국 경기 둔화로 이어져 관련 한국 종목들에 악재가 될 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China stocks, yuan tumble after bigger-than-expected Trump tariffs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경기 부양 기대감 감소 + 위안화 약세 + 대중국 수출 의존도 높은 한국 기업들의 실적 악화 우려",
+      "stocks": [
+        "아모레퍼시픽",
+        "LG생활건강",
+        "현대자동차",
+        "기아",
+        "POSCO",
+        "롯데면세점",
+        "신세계면세점",
+        "엔씨소프트",
+        "넥슨"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYk1kanVUYTY4emMyTmt3MUR3ZUxneWhkUko5ZUIyUi1FazRhVzRZRGNHNlRCRnU0UTZKeUNURHhKaHpXT3piY080c3NHZ2NQZ3NOZzV6SnV1TW1mZzhXYXY3UG5UQ2lLWkIxTk4zSFdHMjhENUZ4NHkzaFBDVHNrRTBhSThhM0xlSTBicExpVmtoRlozbmw5cXNJNW9fcGp3TjNFMmZZQ2taS19xV2VxeW45R0o?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-11 00:07:50"
     },
     {
       "id": 2400,
@@ -11752,6 +11783,34 @@
       "updated_at": "2026-05-09 18:07:24"
     },
     {
+      "id": 2431,
+      "title": "중국 중앙은행(PBOC)이 금리 인하 기조를 완화하면서 11월을 포함해 6개월 연속 기준금리 동결이 예상된다. 중국 경기 부양 심화 기대감이 감소하면서 중국 수출 및 소비 회복 둔화 가능성이 높아졌다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2025-11-19",
+      "summary": "<p>중국 중앙은행(PBOC)이 금리 인하 기조를 완화하면서 11월을 포함해 6개월 연속 기준금리 동결이 예상된다. 중국 경기 부양 심화 기대감이 감소하면서 중국 수출 및 소비 회복 둔화 가능성이 높아졌다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China expected to keep rates steady for sixth month as PBOC turns less dovish Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경기 회복 둔화는 중국 의존도 높은 한국 자동차·화장품·철강 수출에 부정적이나, 거시적 확실성 제시 측면에서 부분 상쇄",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "아모레퍼시픽",
+        "LG생활건강",
+        "POSCO",
+        "CJ면세점"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZXBmTWl6UUp5ODVIZk1EYmNVY1EyTURPa1kxNmNBcDF1elhvMEt2cjN1TGt5OEt0ZVhDcGFvemNLc2lnM2NiVS1MT0UzM2tyY09XU3l6RmdtR2xXNGdaS3J4WkFKb183X3Q3dG5kZmo1NzBtTlhKLTFUWU5FQW9PSnlXaHpGVEk4ZmlQN2RQQi1yY0VNdkZrVDNSczFncW9acHVDSlJsbjBhV1NzZURQbjR3Q3FoY19GeVpuc2pLTQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-11 00:07:54"
+    },
+    {
       "id": 2371,
       "title": "일라이 릴리가 버지니아에 50억 달러를 투자하여 새로운 의약품 공장을 건설한다. 미국 제약사들이 관세 부담에 대비하며 미국 내 생산 시설 확대에 나서고 있다.",
       "category": "주식",
@@ -12945,50 +13004,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000534",
       "direction": "down",
       "updated_at": "2026-05-08 16:35:20"
-    },
-    {
-      "id": 1993,
-      "title": "크레오에스지 — 주요사항보고서(전환사채권발행결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(전환사채권발행결정) · 크레오에스지</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "크레오에스지"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000571",
-      "direction": "down",
-      "updated_at": "2026-05-08 16:35:19"
-    },
-    {
-      "id": 1985,
-      "title": "플루토스 — 주요사항보고서(자기전환사채매도결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기전환사채매도결정) · 플루토스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "플루토스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000517",
-      "direction": "down",
-      "updated_at": "2026-05-08 16:35:06"
     }
   ],
   "events": [
