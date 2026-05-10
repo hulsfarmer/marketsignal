@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T21:05:02",
+  "generated_at": "2026-05-10T21:08:11",
   "count": 500,
   "posts": [
     {
@@ -3659,6 +3659,35 @@
       "updated_at": "2026-05-09 12:07:18"
     },
     {
+      "id": 2416,
+      "title": "중국 신규 대출이 예상보다 큰 폭으로 감소하며 약한 수요가 지속되고 있습니다. 이는 중국 경제 부양 부족을 시사하며 한국의 수출 주력 기업들의 중국 시장 매출 악화로 이어질 우려가 있습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-03-13",
+      "summary": "<p>중국 신규 대출이 예상보다 큰 폭으로 감소하며 약한 수요가 지속되고 있습니다. 이는 중국 경제 부양 부족을 시사하며 한국의 수출 주력 기업들의 중국 시장 매출 악화로 이어질 우려가 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Chinese new loans slump more than expected as weak demand persists Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 신용 수축은 한국 주요 수출 산업(자동차, 화장품, 철강)의 수요 부진과 실적 악화로 직결되는 매크로 악재",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "아모레퍼시픽",
+        "LG생활건강",
+        "POSCO",
+        "현대백화점",
+        "신세계면세점"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0Z2bmNaaW5VZ0pxWmtZZ3dGZnN3QVNjZkFGZm9wTV96V1hzVTNUZ3VmNG90SWcwZ2h6ZHJJaWZDQ0tTSVhDN3FieVRpanRmRWF1bDdza193YUVzLW84SW05cllheHBfRV9hbDFjZXZTTWxkSURUX1hTWmQ3cEU2U0t4ZGRfa21mdFVqcFlLVHpLZERUYlFpc19tam5IcTR4X0YxbFl3ZG9sZERhUlNGNXVhU0xJNENXeW5BcUNYMGR6OFU?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-10 21:08:00"
+    },
+    {
       "id": 2359,
       "title": "중국 경제가 11월 성장이 정체되면서 개혁 요구가 커지고 있다. 중국 경제 둔화는 한국의 주요 수출처인 화장품, 자동차, 철강 등 한국 기업들의 중국 시장 수요 감소로 이어질 수 있다.",
       "category": "거시",
@@ -3714,6 +3743,34 @@
       "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVBZdlY5M1NoRFFCeGFzRE51OGxBNEJCWHJTUG5SMVlwMHFaYU9QYnFUNWhTZkVzTEFNV1dndkcxU01sQzZkVy0xOFVNbU5XNkYwM3BFQjJJMGR3alpsdEFrQXE4QnNnaU9rU2FlTUthMUVham04dENnLXhyZEo0b3hVXzFvWjRzX0E?oc=5",
       "direction": "down",
       "updated_at": "2026-05-06 12:08:05"
+    },
+    {
+      "id": 2417,
+      "title": "중국 경제가 장기간 경기 부양 없이 정체될 위험이 커지고 있다는 평가. 이는 한국의 자동차, 화장품, 철강 등 중국 수출 주력 산업의 수요 부진으로 이어질 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2025-10-20",
+      "summary": "<p>중국 경제가 장기간 경기 부양 없이 정체될 위험이 커지고 있다는 평가. 이는 한국의 자동차, 화장품, 철강 등 중국 수출 주력 산업의 수요 부진으로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - China’s economy risks sitting on hold for too long Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경제 둔화는 한국의 주요 수출 시장 수요 감소를 의미하며, 관련 대형주들의 실적 부진 우려로 직결됨.",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO",
+        "롯데면세점"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeE1GZHJXMVNUeDZjSWdpREltZ2VOTFh6elZ4cE1yWUJuX1V0ZVVNeDZnMEhPV0NnaWpDNzY5akxEOFdXT25TWEtVNzdiWEYzNFF6M19Zb2hsZ1JJNUlsUlhRdVQwZy1MbzlwRjRYSE1tMWRaS1hUQURzS2YycHQxTHJsYWYzOGxPUXYxTjR6ZE40RkFoR1RWWEljR0liQ1d1R0tCZXNn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-10 21:08:04"
     },
     {
       "id": 2364,
@@ -3833,6 +3890,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNck1RLWhkX0sxbGlpOXBrWXc1RnN4Q3pPeURRRFhVTlFTNjBVVWZTWWxYSUljSGl3TXhPTG1sN1lSWmstN2RlcXlXZThUMFhmR3JRaVdUQ1gyaTlCR3dHTHp4Wk9GcVlGU3FCVW1rNmFJUWNXcFgtM0tIMFFMZUlKS0VlaElaRkU5cXhOeFNhWS02UFZZcHFHTTZfZ0pEdm9KWTkwaWNfSWphNlRnc1J2bTFWTHNTbE9Sam15b090YUF1QQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-10 18:08:02"
+    },
+    {
+      "id": 2418,
+      "title": "중국이 올해 2,840억 달러 규모의 국채를 발행하여 경제 부양에 나선다. 중국 경기 회복은 한국의 수출 주력 산업(자동차, 화장품, 게임)의 수요 증가로 이어질 가능성이 높다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2024-09-26",
+      "summary": "<p>중국이 올해 2,840억 달러 규모의 국채를 발행하여 경제 부양에 나선다. 중국 경기 회복은 한국의 수출 주력 산업(자동차, 화장품, 게임)의 수요 증가로 이어질 가능성이 높다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: China to issue $284 billion of sovereign debt this year to help revive economy Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국의 대규모 재정 부양책은 한국의 주요 수출 시장 회복을 시사하며, 관련 산업 수요 증가와 기업 실적 개선으로 직결될 수 있음",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO",
+        "엔씨소프트",
+        "넥슨"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU1lLaHhZQVBUcm0zY2VDNmw4SXFNU1FkbzVaWUE5cnVwZFgza0ZuaHhFYTI3bG9PcXdLcXZ0ZVRpNGwzZGFDLWRIblpJY280RTlyNkxuQmVrUGNxbks4cTZFRDZ0allFN2huakhqWjVMckVtczBQYzFJQVdNa01DbElCR3JYRGhZcXhqaVhFUHRaZDNMNkpFOUtBSFdYWW9WYVE1eGZYaTFmeTQxOTV3dGI1eENLZ0RZTXRkaHd1aTBWV3M?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-10 21:08:07"
     },
     {
       "id": 2318,
@@ -5745,6 +5831,34 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 2414,
+      "title": "중국 위안화 움직임이 주목받고 있으며, 이는 중국 경제 상황을 반영합니다. 위안화 약세는 한국 수출 경쟁력에 영향을 미칠 수 있고, 중국 내수 부양 신호라면 수출 수요 개선으로 작용할 수 있습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-10",
+      "summary": "<p>중국 위안화 움직임이 주목받고 있으며, 이는 중국 경제 상황을 반영합니다. 위안화 약세는 한국 수출 경쟁력에 영향을 미칠 수 있고, 중국 내수 부양 신호라면 수출 수요 개선으로 작용할 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Week ahead: Yuan to watch Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경제 지표(위안화)는 의존도 높은 한국 수출 산업의 수익성과 중국 수요에 직접 영향을 미치는 일반적 거시 동향",
+      "stocks": [
+        "현대차",
+        "기아",
+        "LG생활건강",
+        "아모레G",
+        "POSCO",
+        "CJ면세점"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY3FxRDgzeEFVaVhid3o4M2F5OXl3VU4tTFJHVWM3YlpSbG9KRDBjYkNrd2syTDR6YlBRaVNaNzhSSnRUU3A2NVFyVU5valVSOVVuQkU0b1ZWQ0FHb2RvRi1JSmxvZ05lTGFJc2ZuUXNCbjdsTUxFaEZUMXU3RVBqSnZtaWs5aWZWekxxUXdvZw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-10 21:07:53"
+    },
+    {
       "id": 2393,
       "title": "카타르 인근 해역에서 벌크선이 정체불명의 발사체에 피격되었으며, 중동 해상 운송로 불안정성 심화로 유가 상승 및 해운료 인상 압력이 증가할 수 있다.",
       "category": "거시",
@@ -7280,6 +7394,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSjgybFlUbGtvQkkxNUJZeHVsd3ZYMzN5MW9vLWk2TUZtZ1FRTUFsOXZhUEVEZnVuNG00THMzaTRtQWY5UENKb3F0dkc0ODdDQlJCSmhqWUpNMmhIaHBpV0poaVpYWXBHZ1ZwZUZvU2djWm5tYU1nNFJSQ1NFR2t5MFEyRy0?oc=5",
       "direction": "up",
       "updated_at": "2026-05-07 15:09:12"
+    },
+    {
+      "id": 2403,
+      "title": "머스크와 알트먼의 AI 패권 경쟁이 심화되면서 글로벌 AI 산업의 '명백한 운명'을 두고 갈등. 한국 반도체 업체들의 HBM, 메모리, 파운드리 수요 변동성 증대 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>머스크와 알트먼의 AI 패권 경쟁이 심화되면서 글로벌 AI 산업의 '명백한 운명'을 두고 갈등. 한국 반도체 업체들의 HBM, 메모리, 파운드리 수요 변동성 증대 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Musk v Altman and the &#x27;manifest destiny&#x27; of AI Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 기업 간 경쟁 심화는 반도체 수요 증가 요인이나, 한국 직접 영향은 불확실해 중간 수준 평가",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQkhwSldTNG1HbHJFOWh2RUJ1bXp2UjZRMjNXMERfM2p1c1lSRml2X0lmZmtiX0RqRExWMktLVEtRRlp5YjU0V2NCV0FaelExenBYcWtMUFhubVd4SFRzU2UwT1lISTJkMGhKcWZvcVdzSUFWemEydU1mamtxdVdIQk9CRlpNVjJKZjlyV0NsOTVsWHZsOGcxTC1tODBaUzE0bUxzdG9ncw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-10 21:07:05"
     },
     {
       "id": 2330,
@@ -12010,6 +12151,33 @@
       "updated_at": "2026-05-10 00:07:32"
     },
     {
+      "id": 2419,
+      "title": "PIMCO가 무역 리스크로 인한 중국 위안화 약세 전망을 유지 중. 위안화 약세는 중국 수출 경쟁력 강화로 한국 수출 기업들의 경쟁 심화를 의미.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2024-10-16",
+      "summary": "<p>PIMCO가 무역 리스크로 인한 중국 위안화 약세 전망을 유지 중. 위안화 약세는 중국 수출 경쟁력 강화로 한국 수출 기업들의 경쟁 심화를 의미.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): PIMCO sticks with bearish view on China&#x27;s yuan as trade risks weigh Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "위안화 약세로 한국의 중국 수출 기업(자동차, 화장품, 철강 등)의 가격 경쟁력 악화 가능성이 있으나, 글로벌 무역 리스크 자체는 한국도 동시에 직면한 상황으로 제한적 추가 영향.",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM2cyVUw3WmkzRWZfS3JHRy16VWlmQjhkdFdxZW8tOTRIbTlJSHRJUlFETmpzNnp3enJGYmlpV0tfVG9WOUtvTGM4ZElZRTNvZDZHUTV6dGxjVXM3Mjg0ZFUtM2Z4ZDBzWUZsTFB3bjNQOS1UWUNhZHk3aWxxN1lVbl9oUW1ud0xwQmVKcFVqVHFPaVlrd2pkZTFVTWs1N0Vsb2pFNnptODBIQm1IY1BEb2F4bEp1Unc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-10 21:08:11"
+    },
+    {
       "id": 2315,
       "title": "중국 위안화에 매수 포지션이 쌓이면서 아시아 외환 시장의 강세 모멘텀이 지속되고 있다. 위안화 강세는 중국 경제 회복 신호로 해석되며, 한국의 對중국 수출 의존도가 높은 화장품, 자동차, 철강 등 주요 산업에 긍정적 영향을 미칠 것으로 예상된다.",
       "category": "거시",
@@ -12821,138 +12989,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000517",
       "direction": "down",
       "updated_at": "2026-05-08 16:35:06"
-    },
-    {
-      "id": 1983,
-      "title": "해성산업 — 감자완료              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>기타 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 감자완료               · 해성산업</p>",
-      "feedback": "기타 공시",
-      "stocks": [
-        "해성산업"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508900918",
-      "direction": "",
-      "updated_at": "2026-05-08 16:35:05"
-    },
-    {
-      "id": 1982,
-      "title": "프리시젼바이오 — 전환사채(해외전환사채포함)발행후만기전사채취득              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 전환사채(해외전환사채포함)발행후만기전사채취득               · 프리시젼바이오</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "프리시젼바이오"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508900921",
-      "direction": "down",
-      "updated_at": "2026-05-08 16:35:05"
-    },
-    {
-      "id": 1964,
-      "title": "비트맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기전환사채만기전취득결정) · 비트맥스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "비트맥스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000470",
-      "direction": "down",
-      "updated_at": "2026-05-08 15:35:13"
-    },
-    {
-      "id": 1963,
-      "title": "비트맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기전환사채만기전취득결정) · 비트맥스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "비트맥스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000472",
-      "direction": "down",
-      "updated_at": "2026-05-08 15:35:12"
-    },
-    {
-      "id": 1960,
-      "title": "덕산테코피아 — 분기보고서 (2026.03)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 덕산테코피아</p>",
-      "feedback": "정기 분기 공시",
-      "stocks": [
-        "덕산테코피아"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000525",
-      "direction": "neutral",
-      "updated_at": "2026-05-08 15:35:04"
-    },
-    {
-      "id": 1932,
-      "title": "쎄노텍 — 분기보고서 (2026.03)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>정기 분기 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 분기보고서 (2026.03) · 쎄노텍</p>",
-      "feedback": "정기 분기 공시",
-      "stocks": [
-        "쎄노텍"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000291",
-      "direction": "neutral",
-      "updated_at": "2026-05-08 14:35:07"
     }
   ],
   "events": [
