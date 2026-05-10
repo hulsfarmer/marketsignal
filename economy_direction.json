@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T09:05:02",
+  "generated_at": "2026-05-10T09:08:43",
   "count": 500,
   "posts": [
     {
@@ -5488,6 +5488,33 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 2335,
+      "title": "푸틴이 러시아-우크라이나 전쟁이 끝나가고 있다고 발언. 전쟁 장기화 우려 완화로 유가 하락 압력 증가, 한국의 에너지·화학 관련 종목에 부정적 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-09",
+      "summary": "<p>푸틴이 러시아-우크라이나 전쟁이 끝나가고 있다고 발언. 전쟁 장기화 우려 완화로 유가 하락 압력 증가, 한국의 에너지·화학 관련 종목에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Putin says he thinks Russia-Ukraine war is coming to an end Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 하락이 에너지·화학 기업의 수익성을 직접 압박하지만, 발언의 신빙성 미확정으로 즉각적 충격은 제한적",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼",
+        "GS"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGVNdUpiMzFhcFNsS3JPMjdUaVhoazlMTS1FZXh1RXo1bnVlYUFsR1RTZ2swSGVxcjJWMWY5aTB2dHpUTnE1UUhfWHlPaUtKaTFpZDI1ekJ3YlZfYnR0MENmWU1hQ2pDMURadXo0cnFVZHZmZk5TMnBicjZYdndWdDBOOEYzdlMxNW1hUFVhLVVFQ2tuNm1IQzhkdFpjc3I2ZS1ZMXVn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-10 09:07:58"
+    },
+    {
       "id": 2303,
       "title": "영국이 중동에 군함을 배치하며 호르무즈 해협 임무 가능성을 염두에 두고 있다. 중동 지정학적 긴장 고조는 유가 상승 압력으로 작용할 수 있어 에너지·화학 관련 한국 종목에 긍정적 영향 예상.",
       "category": "거시",
@@ -6911,6 +6938,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSjgybFlUbGtvQkkxNUJZeHVsd3ZYMzN5MW9vLWk2TUZtZ1FRTUFsOXZhUEVEZnVuNG00THMzaTRtQWY5UENKb3F0dkc0ODdDQlJCSmhqWUpNMmhIaHBpV0poaVpYWXBHZ1ZwZUZvU2djWm5tYU1nNFJSQ1NFR2t5MFEyRy0?oc=5",
       "direction": "up",
       "updated_at": "2026-05-07 15:09:12"
+    },
+    {
+      "id": 2330,
+      "title": "뉴욕연준이 4월 공급망 압박이 2022년 7월 이후 최고 수준이라고 발표. 공급망 병목이 재심화되면서 인플레이션 압력 상승 우려로 이어질 수 있으며, 이는 한국의 수출 기업과 원자재 수입 기업에 양면적 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-06",
+      "summary": "<p>뉴욕연준이 4월 공급망 압박이 2022년 7월 이후 최고 수준이라고 발표. 공급망 병목이 재심화되면서 인플레이션 압력 상승 우려로 이어질 수 있으며, 이는 한국의 수출 기업과 원자재 수입 기업에 양면적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): NY Fed says April supply chain pressures highest since July 2022 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "공급망 재악화는 한국 수출 기업(반도체·자동차·전자)의 가격 인상 여지는 있으나 수요 둔화 우려가 상충하고, 인플레 재점화 시 Fed 금리 인상 가능성으로 USD/KRW 상승 및 한국 채권 금리 상승 압력 증가",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대차",
+        "기아",
+        "LG전자",
+        "포스코",
+        "SK이노베이션"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQUNYTzAyRUM0NkVHaVc3bkFldmpRa1pYdFFWOG1URnRIMHlubDkyaTVQMWQwVXRqY0MyZW9VcFF4UXhtX0VCVHZadzVhQ1hkNFNXcWo0S25hYV9iWEtnMG9vRUd3VHlhLTFWdXdiT25aQVhucHNYZzFVQ0x0SF9LbkwtcG1pdFM1VFFRZ0ZmR0duWml5dWZKYzN1dnYyMUhyTHhRTzFZVzZQbHZoeHpycHVXaTlhYm9mVV92NzhnQ0RvUjdGbVBJZXN4SW1vLTVNekN1MzY0Yw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-10 09:07:38"
     },
     {
       "id": 2168,
@@ -11107,6 +11163,32 @@
       "updated_at": "2026-05-10 00:08:32"
     },
     {
+      "id": 2329,
+      "title": "다나허가 제약 지출 회복에 따라 2026년 이익 전망을 시장 추정치 수준으로 제시했으며, 이는 글로벌 바이오/의약품 산업의 긍정적 회복 신호를 의미한다. 한국 CDMO·바이오사 종목들의 수혜 가능성이 높아질 전망이다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-01-28",
+      "summary": "<p>다나허가 제약 지출 회복에 따라 2026년 이익 전망을 시장 추정치 수준으로 제시했으며, 이는 글로벌 바이오/의약품 산업의 긍정적 회복 신호를 의미한다. 한국 CDMO·바이오사 종목들의 수혜 가능성이 높아질 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Danaher forecasts 2026 profit in line with estimates on pharma spending recovery Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 제약 지출 회복 기조는 삼성바이오로직스·셀트리온 등 한국 CDMO·바이오사의 위탁생산·의약품 수요 증가로 이어질 가능성이 있으나, 개별 기업 실적이 아닌 산업 전망이라 영향은 중간 수준",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "SK바이오사이언스",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNHJyUEx0MEoyYlNDWUsyTzBrOHdxakY1YzU0OUhpdWpNSVozNTFwU0JVTU5mSzBza25fQlB4MG9WR2VvWHZrUGxnQ1V6M1lhOFJ3Ri1Pd0FiXzBvSUtGNUJ4cWs4VDhWdngwV2gyNUEyTllCMlZUdXc5cVU2VWE5R2l5VVU2TU5qNGlEekxCNnM5emxOa280VDJYenllREFJV1poMmVtRTFVOWpUR3oyQ2tUMXRrY3pzamJBYmJoQTlNeTQzLXhpZVNybjlUa2oxOXJsNG0tWHRGMDdWTkEw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-10 09:07:33"
+    },
+    {
       "id": 2173,
       "title": "글로벌 제약사들이 AI를 활용해 임상시험과 규제당국 제출 절차를 가속화하는 추세가 확산 중이며, 이는 바이오의약품 개발 효율성 향상으로 이어질 전망",
       "category": "주식",
@@ -11343,6 +11425,62 @@
       "updated_at": "2026-05-09 09:07:30"
     },
     {
+      "id": 2342,
+      "title": "중국 경제 담당자가 EU 무역수장을 초대해 관세 위협에 공동 대응을 제안. 중국-EU 연대 가능성이 높아지면서 한국 수출품에 대한 관세 리스크 완화 및 글로벌 보호주의 완화 신호로 작용할 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2025-03-27",
+      "summary": "<p>중국 경제 담당자가 EU 무역수장을 초대해 관세 위협에 공동 대응을 제안. 중국-EU 연대 가능성이 높아지면서 한국 수출품에 대한 관세 리스크 완화 및 글로벌 보호주의 완화 신호로 작용할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China’s economy tsar invites EU trade chief to jointly resist tariff threats Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국-EU 연대는 미국 관세 압박 약화 → 한국 주요 수출국(중국, EU)의 경기 개선 가능성 높이나, 현재는 신호 수준으로 확정 영향은 제한적",
+      "stocks": [
+        "현대차",
+        "기아",
+        "LG생활건강",
+        "아모레G",
+        "POSCO",
+        "롯데면세점",
+        "넷마블"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY1pyMlEzN0lOWnk4dVNBemNjU2FPc0JISXUxcVVzb2VRZXJRYUR2LVJ1VXpMcWxvc0NpTkg1Z19sekFGRnRoWXQzbzdqeTV5Ti1BeGN4bENkMnVVblhqTEV1MUlkOVAzX3JteDkxOEF5WTNPOTdxRnVpb3JQcW96QkkyWFU5bXp3bng5THRJSU9RalRULTgwd2VnMnI1bERJVlE4NGk5Y0hWNy0yLWwySU5MUTN3YlE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-10 09:08:30"
+    },
+    {
+      "id": 2327,
+      "title": "미국-EU 관세 분쟁이 제약사들의 베스트셀러 의약품을 위협하고 있으며, 이는 글로벌 제약 공급망에 영향을 미칠 전망. 한국의 CDMO·제약 기업들도 미국 수출 관세 부담 증가 및 공급망 재편 리스크에 노출될 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2025-03-18",
+      "summary": "<p>미국-EU 관세 분쟁이 제약사들의 베스트셀러 의약품을 위협하고 있으며, 이는 글로벌 제약 공급망에 영향을 미칠 전망. 한국의 CDMO·제약 기업들도 미국 수출 관세 부담 증가 및 공급망 재편 리스크에 노출될 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Focus: Big pharma fears best-selling drugs in crosshairs of US-EU tariff spat Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "미국-EU 관세 분쟁이 제약 공급망 전반에 영향을 주지만, 한국 CDMO·제약사는 위탁생산 역할로 인해 수주 기회 증가와 공급망 다변화 수혜가 있을 수 있어 악재와 호재가 혼재된 상황",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "유한양행",
+        "SK바이오사이언스",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUElLLWxQbmg4ak1maFVtZWRwYzZkbUdqTGhYRDhjNzlGRm52S2NLQWtIdjFydTVJWVdGdGp3MVBZWFkyNVBWSWVXUkpMLUpIWWRDOXctNFdFWXRsRzNUV05HQWtsSFF2QkdQUXBvTDN5aDJDRmF4MXprVUpYekZRZ1ZlUWNrdGhBejdoRkZuZzByYjRiRzdWdVZxejJiOEpzQ3J5Tl8zbkU3MmRBV044aUJpaEVqVTh4YW5abzdyZDFJX01oTDNXRGNMeXZPRXcyM0E?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-10 09:07:26"
+    },
+    {
       "id": 2319,
       "title": "미국 CPI 발표 후 달러 강세, 중국이 위안화 약세를 검토 중. 위안화 약세는 중국 수출 경쟁력 강화를 의미하며 한국 수출품(화장품, 자동차, 철강 등)과의 가격 경쟁 심화 우려.",
       "category": "거시",
@@ -11369,6 +11507,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUHhHbzZ6bWt4ZXpiZjgtbHc4SGp6SmE4VXA2NTE4NFB5c2hNX05idndIc3VHVTJJN1ZsZ0NscUJiaEhMVFZURWZwR1Joc1FzbFhqSVhmc3p1UDNhVF93WF9VTkMwUmRRbVZpNUdLTnlfcTZiSnh5TzRTNVk1V1IxS1kyVHM3c2RyRmd4WmJMcXNLQnBPazRvWEppd0FzSTRLdkIwMVBtM2E0YTBsUWNHaXNPbVptOVU?oc=5",
       "direction": "down",
       "updated_at": "2026-05-10 06:11:28"
+    },
+    {
+      "id": 2341,
+      "title": "트럼프의 관세 공약으로 중국 위안화가 4개월 만에 최저치로 하락. 위안화 약세는 중국산 제품의 가격 경쟁력을 높여 한국 수출 기업들의 경쟁 심화를 초래할 전망.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2024-11-25",
+      "summary": "<p>트럼프의 관세 공약으로 중국 위안화가 4개월 만에 최저치로 하락. 위안화 약세는 중국산 제품의 가격 경쟁력을 높여 한국 수출 기업들의 경쟁 심화를 초래할 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s yuan slides to four-month low on Trump&#x27;s tariff promise Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "위안화 약세로 인한 중국산 제품의 가격 경쟁력 강화는 한국의 화장품, 자동차, 철강, 게임 등 주요 수출 산업에 부정적 영향을 미칠 수 있음.",
+      "stocks": [
+        "아모레퍼시픽",
+        "LG생활건강",
+        "현대자동차",
+        "기아",
+        "POSCO",
+        "엔씨소프트",
+        "넷마블"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa01rRmdNUWdGQXIxWXlHWm00dVQ3WVVsZVd5bmlnZlFzWHREc2lMOTlDRHRDM1B6OVc4RkNVb2NyYkVJVWd4Z085UlBnc0h0QWV3Y0VOWVIyYi0tanFqR3prUlI3ekRnN3Y1cnBZc29sNlZUNl9Jc21rSUxMb2YyLWc1RHpmZmdqWHVyVFRaOGpiZmozVzJ0Z3cxWVBBRUtNQnREaTUtNWNXTTQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-10 09:08:26"
     },
     {
       "id": 2272,
@@ -11425,6 +11592,63 @@
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZC02RWJiOVpiak42aXBvYW16M3g4Z1ZmRUpSbXpMYjRuTTZHWkU4c1h5X0tjOU5yUE9yN0tFY2w5bWROTEVSRHpJTUZNeENNcDd0ZnBSMTMyTVlHVTFQU1dnd21qa2htOUhMUnpIWGUwMU1RU1dLUW5GZFhqQVN1by1PZVNlbFlZVVhjaXJpU3VhOWhKSG9RbXZpVHc3dHlYcGN5SXhxN3JnRVgteDRwYUhRSzY2STFsaVRFaA?oc=5",
       "direction": "up",
       "updated_at": "2026-05-10 06:09:42"
+    },
+    {
+      "id": 2344,
+      "title": "중국의 위안화 강세 추진은 장기적이고 위험한 과정이라는 분석. 위안화 강세는 중국 수출 경쟁력을 약화시켜 한국 수출 기업들의 상대적 경쟁 우위 기회가 있으나, 중국 경제 둔화 우려로 수출 수요 자체가 감소할 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2024-09-26",
+      "summary": "<p>중국의 위안화 강세 추진은 장기적이고 위험한 과정이라는 분석. 위안화 강세는 중국 수출 경쟁력을 약화시켜 한국 수출 기업들의 상대적 경쟁 우위 기회가 있으나, 중국 경제 둔화 우려로 수출 수요 자체가 감소할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - China’s march to strong yuan is long and perilous Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 통화 정책의 구조적 변화는 한국 수출 산업의 경쟁 구도에 영향을 미치지만, 단기 효과는 제한적이고 중국 경제 부양책 부재 시 전체 수요 감소 악재가 더 클 수 있음",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO홀딩스",
+        "CJ면세점",
+        "넥슨",
+        "엔씨소프트"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZUI4NWpSNVkyNEFfTGowUDJDZ1NKWExTcnI3dlNYTExtdXVVd2U5X1FxX2JnN3U4TDRnTXFDdjZGZFZhVVNTeEg5bGxhSThiZFVDMDBVdnVYSXhlMUdJUzdFcTVpY0tTTEh4UUl4MXlBR1Fsb29qV3V5bzJKTTQ4WHBzQXI1dVQwSF90eVdqWEFyTTJ1clE?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-10 09:08:39"
+    },
+    {
+      "id": 2324,
+      "title": "미국의 새로운 의약품 법안으로 제약사들이 알약보다 바이오의약품 개발을 선호하는 추세가 심화되고 있다. 이는 CDMO 및 바이오 제약사들의 수익성 개선을 견인할 것으로 예상된다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2023-01-13",
+      "summary": "<p>미국의 새로운 의약품 법안으로 제약사들이 알약보다 바이오의약품 개발을 선호하는 추세가 심화되고 있다. 이는 CDMO 및 바이오 제약사들의 수익성 개선을 견인할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Focus: Drug companies favor biotech meds over pills, citing new U.S. law Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "바이오의약품 시장 확대는 한국 CDMO·바이오제약사의 수탁제조·개발 수요 증가로 이어질 긍정적 산업 동향이나, 구체적 정책 내용 부재로 즉각적 영향은 제한적",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "한미약품",
+        "SK바이오사이언스",
+        "유한양행"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVHBsSDRINXhnVjJ1OU1UZ3lVMUwwYjM2bFctWHBPVUtxcVRTS2s5ZXVXc05OZUZvWU1UdjZHWHdqQTNrMnVvcDhpUmVRLTk3ZTVheGd6ZVRCRDVELWVBQmhlYjNFQUxMcjBKcTRyZkw2YlJveVd4RTVQMGNQOEVoeW0yRWl4REhTRXJYekZYdmoxV2pWTXVnUGhndkxEV00xZ0g3MnBiQnZFazd2T04xdkJpSjhoa2lPek1RM1dQUUJzLW8tRnRvYTI2QkVjZFU?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-10 09:07:14"
     },
     {
       "id": 2053,
@@ -12614,182 +12838,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000568",
       "direction": "down",
       "updated_at": "2026-05-07 16:35:19"
-    },
-    {
-      "id": 1665,
-      "title": "엑스페릭스 — 주요사항보고서(전환사채권발행결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(전환사채권발행결정) · 엑스페릭스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "엑스페릭스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000571",
-      "direction": "down",
-      "updated_at": "2026-05-07 16:35:19"
-    },
-    {
-      "id": 1664,
-      "title": "엑스페릭스 — 주요사항보고서(전환사채권발행결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(전환사채권발행결정) · 엑스페릭스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "엑스페릭스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000567",
-      "direction": "down",
-      "updated_at": "2026-05-07 16:35:18"
-    },
-    {
-      "id": 1663,
-      "title": "비트맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기전환사채만기전취득결정) · 비트맥스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "비트맥스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000569",
-      "direction": "down",
-      "updated_at": "2026-05-07 16:35:18"
-    },
-    {
-      "id": 1662,
-      "title": "비트맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기전환사채만기전취득결정) · 비트맥스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "비트맥스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000570",
-      "direction": "down",
-      "updated_at": "2026-05-07 16:35:17"
-    },
-    {
-      "id": 1657,
-      "title": "비트맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기전환사채만기전취득결정) · 비트맥스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "비트맥스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000610",
-      "direction": "down",
-      "updated_at": "2026-05-07 16:35:08"
-    },
-    {
-      "id": 1655,
-      "title": "지아이에스 — 주요사항보고서(전환사채권발행결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>CB 발행 — 잠재 물량</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(전환사채권발행결정) · 지아이에스</p>",
-      "feedback": "CB 발행 — 잠재 물량",
-      "stocks": [
-        "지아이에스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000623",
-      "direction": "down",
-      "updated_at": "2026-05-07 16:35:04"
-    },
-    {
-      "id": 1651,
-      "title": "셀바이오휴먼텍 — 감자완료              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>기타 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 감자완료               · 셀바이오휴먼텍</p>",
-      "feedback": "기타 공시",
-      "stocks": [
-        "셀바이오휴먼텍"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507900476",
-      "direction": "",
-      "updated_at": "2026-05-07 15:35:04"
-    },
-    {
-      "id": 1650,
-      "title": "케이티앤지 — 특수관계인에대한자산양도",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>기타 공시</p>\n<p style='color:#718096;font-size:.9em'>📋 특수관계인에대한자산양도 · 케이티앤지</p>",
-      "feedback": "기타 공시",
-      "stocks": [
-        "케이티앤지"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 5,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000527",
-      "direction": "",
-      "updated_at": "2026-05-07 15:35:04"
     }
   ],
   "events": [
