@@ -1,53 +1,44 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-11",
   "strategy": "hybrid",
-  "generated_at": "2026-05-08T15:09:06",
-  "count": 5,
+  "generated_at": "2026-05-11T15:09:01",
+  "count": 4,
   "picks": [
-    {
-      "stock_code": "105560",
-      "name_kr": "KB금융",
-      "ms_score": 62,
-      "ai_score": 96,
-      "confidence": "HIGH",
-      "reason": "[E] tech 21 / earn 96 (RSI 46, 5일 +0.4%)",
-      "entry_price": 161200.0
-    },
-    {
-      "stock_code": "207940",
-      "name_kr": "삼성바이오로직스",
-      "ms_score": 55,
-      "ai_score": 96,
-      "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 97 (RSI 15, 5일 -0.3%)",
-      "entry_price": 1468000.0
-    },
     {
       "stock_code": "068270",
       "name_kr": "셀트리온",
       "ms_score": 67,
-      "ai_score": 92,
+      "ai_score": 89,
       "confidence": "HIGH",
-      "reason": "[T] tech 40 / earn 93 (RSI 42, 5일 -0.7%)",
-      "entry_price": 202500.0
+      "reason": "[E+T] tech 50 / earn 90 (RSI 39, 5일 -1.1%)",
+      "entry_price": 198400.0
     },
     {
-      "stock_code": "005830",
-      "name_kr": "DB손해보험",
+      "stock_code": "021240",
+      "name_kr": "코웨이",
       "ms_score": 62,
-      "ai_score": 74,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 75 / earn 0 (RSI 42, 5일 -4.2%)",
-      "entry_price": 165000.0
+      "ai_score": 82,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 83 (RSI 60, 5일 +1.7%)",
+      "entry_price": 87600.0
     },
     {
-      "stock_code": "180640",
-      "name_kr": "한미반도체",
-      "ms_score": 60,
-      "ai_score": 35,
+      "stock_code": "017670",
+      "name_kr": "SK텔레콤",
+      "ms_score": 58,
+      "ai_score": 58,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 59 / earn 0 (RSI 38, 5일 -1.7%)",
+      "entry_price": 93500.0
+    },
+    {
+      "stock_code": "006360",
+      "name_kr": "GS건설",
+      "ms_score": 58,
+      "ai_score": 39,
       "confidence": "LOW",
-      "reason": "[T] tech 36 / earn 0 (RSI 41, 5일 +0.4%)",
-      "entry_price": 113800.0
+      "reason": "[T] tech 40 / earn 0 (RSI 46, 5일 -1.8%)",
+      "entry_price": 37350.0
     }
   ]
 }
