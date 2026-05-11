@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T06:05:02",
+  "generated_at": "2026-05-12T06:11:41",
   "count": 500,
   "posts": [
     {
@@ -4491,6 +4491,36 @@
       "updated_at": "2026-05-11 21:07:52"
     },
     {
+      "id": 2750,
+      "title": "중국 경제 둔화 심화 우려로 한국의 주요 수출산업(자동차, 화장품, 철강, 게임 등) 수요 감소 우려 확대. 중국은 한국 기업들의 최대 수출처인 만큼 경제 부진 장기화 시 실적 악화 가능성 높음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2023-08-31",
+      "summary": "<p>중국 경제 둔화 심화 우려로 한국의 주요 수출산업(자동차, 화장품, 철강, 게임 등) 수요 감소 우려 확대. 중국은 한국 기업들의 최대 수출처인 만큼 경제 부진 장기화 시 실적 악화 가능성 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Why is China&#x27;s economy slowing down and could it get worse? Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국은 한국 자동차·화장품·철강 등 주요 산업의 최대 수출처로서 경제 둔화는 한국 기업 실적에 직접적 악영향을 미치는 의미있는 매크로 리스크",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "아모레퍼시픽",
+        "LG생활건강",
+        "POSCO",
+        "엔씨소프트",
+        "넥슨",
+        "면세점(신세계면세점/현대백화점)"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNGI3dkQ5REJib18wb1hHalREYUxCS1lqM0tQREkzVEVCbExiOVFNQWM1YUpMRW10SWpkZWtGaHctRjRmcE4tRFlhOGh4dlBMR2RSS1N5c091OUFIaG4weklPajRCUDRERDhpUHYzVmxveEdNeTJGZmROenJpa0F5bGxXekozR1pUQVh5M2x2em01WEUwcU1lbFUyc0had2VOSlF6Yg?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-12 06:11:37"
+    },
+    {
       "id": 2457,
       "title": "중국 위안화가 경기 회복 부진과 약한 중국인민은행(PBOC) 기준금리로 인해 6개월래 최저 근처에서 약세를 지속 중. 중국 경제 약세 신호가 수출 의존도 높은 한국 기업들의 실적 악화 우려를 가중.",
       "category": "거시",
@@ -4547,6 +4577,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeFBxcTN5WkN1TGRZd3RhNGpPTnRzZFdEZkxoZlNqazBnU3BYTExGSTBfLUtGWXZqNFZFeU5mWldGTFBQX3hDXzZEdHhMN0xnTUY1ZzYwbFhMYnNGRnpyTlNoTGhaNXpkUmtxQlUwN1ZPNHE0MFZjWVZHQlgtU19BakRfaW90TjZ4bHBZT2JTOGdLenNEa3A0VWluWmwycW1WTUNycnpRZ3RJWnlZN0RxRnoxUThrTVRBb2c?oc=5",
       "direction": "down",
       "updated_at": "2026-05-10 18:08:10"
+    },
+    {
+      "id": 2748,
+      "title": "미 달러화가 2년 만에 최고점을 기록하면서 중국 위안화가 급락했다. 달러 강세는 한국 수출업체들의 가격 경쟁력을 약화시키고, 중국 경기 악화 우려로 중국 의존도 높은 한국 기업들의 실적 부담이 커질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2022-04-25",
+      "summary": "<p>미 달러화가 2년 만에 최고점을 기록하면서 중국 위안화가 급락했다. 달러 강세는 한국 수출업체들의 가격 경쟁력을 약화시키고, 중국 경기 악화 우려로 중국 의존도 높은 한국 기업들의 실적 부담이 커질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): U.S. dollar rises to two-year high; yuan tumbles Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "달러 강세 + 위안화 약세 + 중국 경기 둔화 신호의 복합 악재로 중국 수출 의존도 높은 한국 기업들의 수익성 악화 전망",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO",
+        "CJ더샬릿",
+        "현대로템"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeVE5RzdTbU5BOWxRWUUydXZfMno2bDZpSUFzVDFTM1VLVWg4QUpLVkhVWXVRdkxFUGZ2Q0R4cUVHcl84cXRqbmFycnI1NkNFUy1kV1l3T21fYWNKNWRSWVhkRmM3LVhrSUVSQVlIb21DV0NKX0pzYlU3OXpTeDY1dE5VbkNyNXM3b1g4a0g5Nmt1RHBVVmdFX2dmQ0ZNbWc0RlM2cXZ5UU1NVWdXZ19tQmN4QWlFZFAzQ2x2Uw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-12 06:11:29"
     },
     {
       "id": 2586,
@@ -6598,6 +6657,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429901244",
       "direction": "down",
       "updated_at": "2026-05-03 21:52:05"
+    },
+    {
+      "id": 2741,
+      "title": "트럼프 미국 대통령이 Apple, Boeing, Citi, Tesla, Meta 등 글로벌 기업 경영진들을 동반하여 중국 출장을 추진 중. 미-중 무역협상 강화 신호로, 한국 에너지·화학 기업들의 중국 수출 및 유가 변동성에 영향 가능.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-11",
+      "summary": "<p>트럼프 미국 대통령이 Apple, Boeing, Citi, Tesla, Meta 등 글로벌 기업 경영진들을 동반하여 중국 출장을 추진 중. 미-중 무역협상 강화 신호로, 한국 에너지·화학 기업들의 중국 수출 및 유가 변동성에 영향 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Apple, Boeing, Citi, Tesla, Meta executives to join Trump&#x27;s China trip Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "미-중 관계 개선 신호는 유가 안정 및 중국 경기 회복 기대를 낳아 에너지·화학 업종에 긍정적이나, 트럼프 행정부의 보호주의 정책 불확실성과 중국 출장 결과 미정으로 인해 제한적 영향",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3hkVHczczExMTZFNnk0NmhYR25naGt0eVY3QTVWS0VPVEd3UnhBZnNVVlJZN0VNM2JzTXNNRTdjR0dQNHJVXzR1Sk5pSGdKa01TS2JlVGw2QzJYRGROdjdLX0p4Vm44Q1VmS2JjOE9OQWRtdXlKbHBUZld3ZDY3bEctQk5vekF3UzhDNXZXbmJsaWZBMFJrU3hpdzk1QXp2MlZuU3VuVU5wNkQ1Q2hYSGE0RUhLQQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-12 06:10:58"
     },
     {
       "id": 2729,
@@ -12930,108 +13016,31 @@
       "updated_at": "2026-05-11 15:09:26"
     },
     {
-      "id": 2329,
-      "title": "다나허가 제약 지출 회복에 따라 2026년 이익 전망을 시장 추정치 수준으로 제시했으며, 이는 글로벌 바이오/의약품 산업의 긍정적 회복 신호를 의미한다. 한국 CDMO·바이오사 종목들의 수혜 가능성이 높아질 전망이다.",
-      "category": "주식",
+      "id": 2746,
+      "title": "중국의 1월 은행 대출이 예측 가능한 통화정책을 바탕으로 증가할 것으로 전망된다. 중국의 금융 완화 기조 지속은 한국의 중국 수출 기업들(자동차, 화학, 철강)에 수요 증대 요인으로 작용할 수 있다.",
+      "category": "거시",
       "youtube_url": "",
       "youtube_id": "",
       "channel": "Reuters",
-      "uploaded_on": "2026-01-28",
-      "summary": "<p>다나허가 제약 지출 회복에 따라 2026년 이익 전망을 시장 추정치 수준으로 제시했으며, 이는 글로벌 바이오/의약품 산업의 긍정적 회복 신호를 의미한다. 한국 CDMO·바이오사 종목들의 수혜 가능성이 높아질 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Danaher forecasts 2026 profit in line with estimates on pharma spending recovery Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "글로벌 제약 지출 회복 기조는 삼성바이오로직스·셀트리온 등 한국 CDMO·바이오사의 위탁생산·의약품 수요 증가로 이어질 가능성이 있으나, 개별 기업 실적이 아닌 산업 전망이라 영향은 중간 수준",
+      "uploaded_on": "2026-02-08",
+      "summary": "<p>중국의 1월 은행 대출이 예측 가능한 통화정책을 바탕으로 증가할 것으로 전망된다. 중국의 금융 완화 기조 지속은 한국의 중국 수출 기업들(자동차, 화학, 철강)에 수요 증대 요인으로 작용할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s January bank lending seen up on predictable monetary policies: Reuters poll Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경기 지표이지만 정책 신호 수준의 뉴스로, 한국 주요 수출 산업(자동차·화학·철강)에 제한적 긍정 영향",
       "stocks": [
-        "삼성바이오로직스",
-        "셀트리온",
-        "SK바이오사이언스",
-        "한미약품"
+        "현대자동차",
+        "기아",
+        "POSCO",
+        "LG생활건강",
+        "아모레퍼시픽"
       ],
       "tags": [
-        "바이오",
-        "CDMO"
+        "중국",
+        "위안화"
       ],
       "impact_score": 6,
       "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNHJyUEx0MEoyYlNDWUsyTzBrOHdxakY1YzU0OUhpdWpNSVozNTFwU0JVTU5mSzBza25fQlB4MG9WR2VvWHZrUGxnQ1V6M1lhOFJ3Ri1Pd0FiXzBvSUtGNUJ4cWs4VDhWdngwV2gyNUEyTllCMlZUdXc5cVU2VWE5R2l5VVU2TU5qNGlEekxCNnM5emxOa280VDJYenllREFJV1poMmVtRTFVOWpUR3oyQ2tUMXRrY3pzamJBYmJoQTlNeTQzLXhpZVNybjlUa2oxOXJsNG0tWHRGMDdWTkEw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc0RTQ1hrUnVkVHcwbXRWNHpNWG1HNTJZVEFYRm1FSV9zY1dIQ0hpcFlCUVFlcl9nYXFBYWp1UVVuUERLM2tGZ3hNQ3JoYkowUEtfcFBid01CaE51NnNrR0pfcU5FU0JaMHBzMkNMZDFvUXhuN29wR2lfbl9TUGZSS2NpaC1KWWtrYnF1RExhMkg5S2kyVnF3bC1tRUtXaVRHSUJoMFFDLUs0dEZhNDBNZ0RTMUZ1SVM0SUpRbA?oc=5",
       "direction": "up",
-      "updated_at": "2026-05-10 09:07:33"
-    },
-    {
-      "id": 2173,
-      "title": "글로벌 제약사들이 AI를 활용해 임상시험과 규제당국 제출 절차를 가속화하는 추세가 확산 중이며, 이는 바이오의약품 개발 효율성 향상으로 이어질 전망",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-01-26",
-      "summary": "<p>글로벌 제약사들이 AI를 활용해 임상시험과 규제당국 제출 절차를 가속화하는 추세가 확산 중이며, 이는 바이오의약품 개발 효율성 향상으로 이어질 전망</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Drugmakers turn to AI to speed trials, regulatory submissions Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "AI 활용으로 글로벌 임상시험·승인 프로세스가 고도화되면서 한국 제약·바이오 기업들의 경쟁력 강화 필요성이 대두되지만, 직접적인 수요 충격이나 구체적 한국 영향은 제한적",
-      "stocks": [
-        "셀트리온",
-        "삼성바이오로직스",
-        "한미약품",
-        "SK바이오사이언스",
-        "유한양행"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWtFa1F2a1lyZU1ES0stMFlyVTRiRFplWVRaYWhaZVZ1alFFXzdVVUNzUkZIVndmU05mRlpHR1R0OTdwZDlVRnRSa184eGVfNGVLMFJZZTdsbkFhVXQxZlVDNnpvMjlaUVNiZExTOTNLU3BMVWVGUUs1OHZWellEWkcxLWVlc19sODVjSVktLUg2Q1hpVE9EM0hhTTkyWjl3d2hLVHNzSnJrTzQ?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-09 12:07:32"
-    },
-    {
-      "id": 2176,
-      "title": "미국 바이오텍 부문이 2026년 IPO 관심 부활로 반등 포지션. 글로벌 바이오 생태계 회복 신호로 한국 바이오 기업의 투자심리 개선 가능.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-01-14",
-      "summary": "<p>미국 바이오텍 부문이 2026년 IPO 관심 부활로 반등 포지션. 글로벌 바이오 생태계 회복 신호로 한국 바이오 기업의 투자심리 개선 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US biotech sector poised for 2026 rebound as IPO interest revives Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "미국 바이오텍 IPO 시장 부활은 글로벌 바이오 밸류에이션 상승과 투자 심리 개선으로 이어져 한국 바이오사 주가에 긍정 영향 가능하나, 직접적 수익 변화는 제한적",
-      "stocks": [
-        "셀트리온",
-        "삼성바이오로직스",
-        "SK바이오사이언스",
-        "한미약품",
-        "유한양행"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVk5VRUVpR2FPekUta1JNQ0ZhelZMZGdLZDA1cWRlQzZndGtnbjRNcUhtTG9paHhfblhfUEN0dll4a1BfbzNia2lzLUtkMEhlXzZsSlR6Q0xWQ09VZks5YTRFeEp5ZkV0ZFRNbHJVclk0MUEzd2tOMDM3TUx2QVZlRV9EdGdaN0pxX2lDTllNbFNGT0lhUkUxZXQxYVo5SXNGbmwzLVJNZ0hOczYyN3hOaw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-09 12:07:43"
-    },
-    {
-      "id": 2669,
-      "title": "Thermo Fisher가 미국으로의 제약 생산 이전 흐름을 타며 신규 계약을 수주. 글로벌 CDMO 시장에서 미국 내 수요 증가로 한국 CDMO 업체들의 상대적 경쟁력 약화 우려.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-01-13",
-      "summary": "<p>Thermo Fisher가 미국으로의 제약 생산 이전 흐름을 타며 신규 계약을 수주. 글로벌 CDMO 시장에서 미국 내 수요 증가로 한국 CDMO 업체들의 상대적 경쟁력 약화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Thermo Fisher wins contracts as pharma shifts production to US, CEO says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "미국 현지화 추진에 따른 글로벌 CDMO 수주 경쟁 심화로 한국 CDMO 업체의 수주 환경 악화 가능성",
-      "stocks": [
-        "삼성바이오로직스",
-        "셀트리온"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORGxLSGtXRTFWcVh3LXZ3c1Q1U3oyMnVIQ0pjOWdnLWF0bUhQY0p6MXFDMGFnejY1a3FvdWVCZEUzSFZxVzZLSUN3MVMxUXNpU2RFUzUxYWpta3ktYUpIcWpvVVB1VW5PWjNhMG0zcEJRNG5XSDNSWlYycHVvVGg1VzFNVHhsU3dwZ193Tko5UjdJLWd4elJtTkExNExaclNTN1JGdmRkQVNxOEZtZXlMNTBKVFJTcThGeWJzTll1UTZLdXhWTEVOLURtQ3h3cjcwa0ZZ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-11 21:07:49"
+      "updated_at": "2026-05-12 06:11:21"
     }
   ],
   "events": [
