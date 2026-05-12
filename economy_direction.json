@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T13:35:04",
+  "generated_at": "2026-05-12T13:40:09",
   "count": 500,
   "posts": [
     {
@@ -13108,6 +13108,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "케이티",
+      "event_date": "2026-05-27",
+      "event_type": "배당기준일",
+      "title": "케이티 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800359"
+    },
+    {
+      "stock_code": "",
       "stock_name": "미코",
       "event_date": "2026-05-28",
       "event_type": "합병반대의사통지 접수 마감",
@@ -13164,6 +13172,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "신세계",
+      "event_date": "2026-05-29",
+      "event_type": "배당기준일",
+      "title": "신세계 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800367"
+    },
+    {
+      "stock_code": "",
       "stock_name": "코웨이",
       "event_date": "2026-05-31",
       "event_type": "배당기준일",
@@ -13201,6 +13217,14 @@
       "event_type": "배당금지급예정일",
       "title": "고려아연 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506801010"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "케이티",
+      "event_date": "2026-06-11",
+      "event_type": "배당금지급예정일",
+      "title": "케이티 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800359"
     }
   ]
 }
