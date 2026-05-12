@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T06:05:02",
+  "generated_at": "2026-05-13T06:11:44",
   "count": 500,
   "posts": [
     {
@@ -633,6 +633,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 3053,
+      "title": "미국-이란 전쟁 장기화로 글로벌 시장이 압박받는 상황. 유가 상승으로 에너지·화학 관련 한국 기업들의 수익성 개선 가능성 있으나, 지정학적 리스크 확대로 경기 둔화 우려도 함께 작용.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>미국-이란 전쟁 장기화로 글로벌 시장이 압박받는 상황. 유가 상승으로 에너지·화학 관련 한국 기업들의 수익성 개선 가능성 있으나, 지정학적 리스크 확대로 경기 둔화 우려도 함께 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): World markets feel the strain as US–Iran war grinds on Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 급등으로 정유·화학 기업 수익성 상승 가능하나, 공급망 교란·경기 악화 우려로 한국 수출주도형 경제에 중장기 부정적 영향 예상",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQV9ndXFlNGExSXRaay1vRURsRU16SWZNcXpjNTk3dVJwRE9uR3BlSU11LTRjaWVSTTdvN2pxRlBjY2N3dmRTQm1abElWY1phTkhrdHhJbzJucV9BTDRiRDJVTW5sa0tzSFZEYU9uWEMxV0t4MHduNEYzUGt3Y3pFRkk3amIyOVo0Y25kam9nQXR3b0FUVlBpNw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-13 06:11:05"
     },
     {
       "id": 3033,
@@ -4357,6 +4384,35 @@
       "updated_at": "2026-05-10 21:08:00"
     },
     {
+      "id": 3045,
+      "title": "글로벌 주요 증권사들이 2026년 연방준비제도(Fed)의 금리 정책 방향을 놓고 의견이 크게 엇갈리고 있습니다. 이는 USD/KRW 환율 변동성 확대, 외국인의 한국 주식 수급 불확실성, 그리고 한국 채권 금리 변동성 확대로 이어질 가능성이 높습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-01-14",
+      "summary": "<p>글로벌 주요 증권사들이 2026년 연방준비제도(Fed)의 금리 정책 방향을 놓고 의견이 크게 엇갈리고 있습니다. 이는 USD/KRW 환율 변동성 확대, 외국인의 한국 주식 수급 불확실성, 그리고 한국 채권 금리 변동성 확대로 이어질 가능성이 높습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Top brokerages sharply split on Fed&#x27;s 2026 policy outlook Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 정책 방향의 불확실성 확대는 USD/KRW 환율, 외국인 자금 수급, 채권 금리 변동성에 직결되어 한국 증시의 주요 변수로 작용합니다.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "KB금융",
+        "신한금융",
+        "포스코홀딩스"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUmdXTzBRTUtfVUVhcDhkZVBfQWR2U0c0TnV0b1dtRzBnNWwzZGJUZzRPZWRnaV9hTkJYb0VaLUdTMWd1dWp1Z1VGVDBDS2tiakw2Z3Jtd1AtWWl6MDJueUVCTDVORTRvMk1URWNOU1FsR3JqVzFIczNJNzllVk84UFRXWHZRT3Rmd0xEZUNsT3ZsQzdMMkVOaURBcEFRU2VSUWNnN2VVSQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-13 06:10:30"
+    },
+    {
       "id": 2542,
       "title": "중국 중앙은행이 부문별 기준금리 인하로 경기 부양에 나선다. 한국의 중국 수출 의존 업종(자동차, 화장품, 게임 등)에 긍정적 신호로 작용할 가능성이 높다.",
       "category": "거시",
@@ -4793,6 +4849,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNajZlUXkzaFY1dG52aEVjRGlrSVRhcXZFX2xYU1lTMVpacElSS2JTMEstdTNjLS1hYUtyREhZV2YydE90R21LNzJCeHBkVmxhZnhtTFVYVEJkUm9aekw0d1NfTGhjVWk2NENtTjNvS0ZnZnNpbTJubVZOd0ZELW9ESFV4RXRuX1R4Um9CdlFZVEgxTW5ENGlMLW9MdW5XT2FBU2FwVkNHME1UczdhR0pBQUdMWU5TRHowVXI4aWJSLWpSMFJ3M1dhZVlDRQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-11 21:07:52"
+    },
+    {
+      "id": 3058,
+      "title": "중국이 은행 준비금을 인하하여 금융시장 방어와 경제성장 부양에 나섰다. 중국의 경기 부양책은 수출 수요 회복과 위안화 강세로 이어져 한국의 수출기업들에 긍정적 영향을 미칠 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2024-01-24",
+      "summary": "<p>중국이 은행 준비금을 인하하여 금융시장 방어와 경제성장 부양에 나섰다. 중국의 경기 부양책은 수출 수요 회복과 위안화 강세로 이어져 한국의 수출기업들에 긍정적 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China cuts bank reserves to defend markets, spur growth Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국의 유동성 공급 확대는 국내 수출기업(자동차, 화학, 철강)과 중국 수출 의존도 높은 종목들의 수익성 개선을 기대하게 하는 의미있는 매크로 호재",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "POSCO",
+        "LG화학",
+        "아모레퍼시픽",
+        "CJ더살롱",
+        "엔씨소프트"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTFlTSXN5SXkzMXZUbE1GY0hBQ1BWQ2haSHNnd2huRWVGV051dDRTYzlMU04waDFWMlJLVDZJRnc5a3NwZHJqUmRxWk5KQjdfb2ZpbV9FbmxXejRyU2I5d2NicWNTVGc1cDBnYlZ1ZFVmOVZ2b2FQRWNwMG1NRldWR0hhcjFOV3o0UUFXMjE5OXVWLXBIQy1lY0g3WVA2WGYwQVFqTDk5ejF3Zm5XQ0lhaXB6NmM1cEVQRUdZ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-13 06:11:26"
     },
     {
       "id": 2750,
@@ -7205,6 +7290,87 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 3048,
+      "title": "이란 분쟁으로 LNG 공급이 제한되자 아시아 주요 시장들이 석탄 사용을 증가시키고 있다. 이는 에너지 수급 불균형으로 인한 글로벌 원자재 수급 변화를 의미한다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>이란 분쟁으로 LNG 공급이 제한되자 아시아 주요 시장들이 석탄 사용을 증가시키고 있다. 이는 에너지 수급 불균형으로 인한 글로벌 원자재 수급 변화를 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Top Asian LNG markets boost coal use as Iran war limits supply Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "LNG 공급 차질은 에너지 수입국 한국에 단기적으로 에너지 가격 상승압력을 주고, 석유·가스·화학 관련 종목의 수익성에 혼합된 영향을 미친다.",
+      "stocks": [
+        "SK이노베이션",
+        "S-Oil",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLWt6amNJVjhBUXFXbXl5ZFNJdV9wUkJHOElscTl5eGJlaHhQODgydXpSN0tXRTVsd1VWcDhvS1VUb1BFd1JHcnBXR1IwcVRpR2IyZnZmcjhvY3VOOVp2a2stODBXUVlNUEJjU2k3NkY2RmtrRjkycS10aXlxbUpUV1NPSTNRZGxzbEMwTS1DWXY3Y0hjMzczaVFBb3dNRV9vVTZfWEhPalNCOU9xQ0RGeA?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-13 06:10:46"
+    },
+    {
+      "id": 3047,
+      "title": "이란이 호르무즈 해협 통제력을 강화하며 이라크, 파키스탄과 에너지 거래를 체결. 중동 지정학적 긴장 고조로 유가 변동성 확대 예상되며 에너지·화학업체의 유가 연동 마진 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>이란이 호르무즈 해협 통제력을 강화하며 이라크, 파키스탄과 에너지 거래를 체결. 중동 지정학적 긴장 고조로 유가 변동성 확대 예상되며 에너지·화학업체의 유가 연동 마진 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: Iraq, Pakistan strike energy deals with Iran as Tehran flexes Hormuz control Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 변동성 확대 시나리오로 에너지·화학 관련주에 영향 미치나, 단기 공급망 충격 수준은 미흡",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeEV0N2V1QmJhSWFBeG9JZE5EV3I1RFpoY3hicVNfeG1BVWdwcDFXSUEwRzQ0SDJLVk5wQnhCSWc3MWJNcnFkNGRoTERUT0d4ZXJVU05iTHgtU3RwbW5SUHZRbXdUbERCclpXRDV6WHpnaERHM2cyX2ZmVlg1cDJTUHlNMmozVVVkeVcxdm5WSzNHQ0s3Nkx4dndEaUlfUHNzcVVYZDFtYWhZVWp4ajZuemQtdnMxWDVkNFRDSEo4ZHFHQQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-13 06:10:42"
+    },
+    {
+      "id": 3042,
+      "title": "소프트뱅크가 OpenAI 관련 채무에 주목하면서 또 다른 강한 분기 실적을 예상하고 있습니다. OpenAI의 AI 성장이 반도체 수요를 견인하며 한국 메모리/파운드리 업체들의 GPU/HBM 공급 기회 증대.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>소프트뱅크가 OpenAI 관련 채무에 주목하면서 또 다른 강한 분기 실적을 예상하고 있습니다. OpenAI의 AI 성장이 반도체 수요를 견인하며 한국 메모리/파운드리 업체들의 GPU/HBM 공급 기회 증대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): SoftBank&#x27;s OpenAI-related debt in focus as another strong quarter expected Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 인프라 투자 확대는 HBM, 파운드리 수요 호조를 의미하지만, SoftBank 채무 우려는 제한적 악재로 작용 - 순 호재가 중장기 산업 트렌드 지속을 반영",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRFQ5eXhkNXEtLTh6SERlcUx0WkxmbXJpaFlfYTBUNmxHUnRsRldSSnJDSDBTWktyM3M4RzRobFppUE9rc0RSbVBQYUt3OEpPVzdfR1AwSFdMRjNsOXprQjZ5NUZ6VGxnOHpxQVhvd1dkcUF6Zl9OWHJEU1BZTHZQUWhzazhOVFNpZzQ0UkVodlAzNWhBSm5QNzdlLTdocWpLRXU3VVg4alpYbmZRRXNfMXdjeGp1bFktLXRHU1pYRjlfZEZG?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-13 06:07:51"
+    },
+    {
       "id": 3040,
       "title": "러시아가 2026-2029년 석유·가스 생산 및 수출 전망을 하향 조정했다. 국제 제재와 인프라 제약으로 인한 공급 감소는 글로벌 유가 상승 압력으로 작용할 수 있어 한국의 정유·화학 기업들의 원재료비 부담이 증가할 전망이다.",
       "category": "거시",
@@ -7529,6 +7695,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHhwaGkxMUwtRTJmcFhZU2puNzFud0M2WkJlNTFYeHRReFRFb0ZJMUdTLUhxTXBJMGxyOEc0MXJzX2pHWDdQMGZjNmhxc19yOVRWMHlPTXVzQS1VdmNsSTNraGlTMzZQanMzOGd3S2pVb2lGUElxUXNXQWd6MGpvMVh1SHFZYnh3TmJiSm1MSlU2eUxWWU05Zld4SmRfekh4WmNXOEVxUUJUUThqMnY2NVdn?oc=5",
       "direction": "down",
       "updated_at": "2026-05-12 12:08:04"
+    },
+    {
+      "id": 3049,
+      "title": "미국이 이란혁명수비대(IRGC)의 제재 회피 움직임에 대해 은행들에 경고 발령. 이란 제재 강화는 중동 지정학적 긴장 고조로 유가 상승 가능성을 높임.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-11",
+      "summary": "<p>미국이 이란혁명수비대(IRGC)의 제재 회피 움직임에 대해 은행들에 경고 발령. 이란 제재 강화는 중동 지정학적 긴장 고조로 유가 상승 가능성을 높임.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US issues alert to banks on IRGC efforts to evade sanctions Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승 시나리오로 인한 에너지·화학 섹터 호재, 다만 IRGC 제재는 장기 지정학 리스크로 불확실성 존재",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb3QtUVJiYmR1RjljSnkxYjZYc1BUTzVmQ3RhN3RydnItcy1VMFkwaHNiaExuNFZWV1F2dU8tSUk1RlM2WmYyWVkxQnJkQXl1VDd6bENfRzYtUk05MXdXWTR5Y3hDSHpodVdySFJpVEx0aHdSa3VvM05Nc2o1VEI4R3RMeXJ5T2t1cHJaWFlUbUtZdWlLUnFwUktJSi1NYXlGcVItZ0V1NjVPZw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-13 06:10:50"
     },
     {
       "id": 2924,
@@ -12861,197 +13054,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQk1mV2ZLMjNERkxvcG9UdFpQbk9IWm03dUU2eUpjUzlWUzN2eExyTGpSM0FzT2U1bTRMTVNPdkpkdDhyYTlBd0RfbUlhWklveVdfdktFRUl0ZFlWVHlGNnR1aEZhTlczVVlkX2VaRHZuZFdEOFVlam1CMnpjVklZSzBwVFRhT2JQMjdQTEhSNU43SjQy?oc=5",
       "direction": "down",
       "updated_at": "2026-05-04 15:09:21"
-    },
-    {
-      "id": 897,
-      "title": "일본이 2년 만에 환 부양을 위해 외환시장에 개입했으며, 이는 엔화 강세로 이어질 전망. USD/KRW 환율 상승과 한국 수출주들의 가격 경쟁력 약화로 이어질 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>일본이 2년 만에 환 부양을 위해 외환시장에 개입했으며, 이는 엔화 강세로 이어질 전망. USD/KRW 환율 상승과 한국 수출주들의 가격 경쟁력 약화로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Japan steps into FX market for first time in two years to boost yen, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "엔화 강세는 USD/KRW를 상승시켜 수출 기업의 실질 수익성을 악화시키고, 외국인 자금 이탈 가능성으로 한국 증시에 부정적 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대자동차",
-        "기아",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcWpPTWpDaGZXLV9zZ0JDR05YUVI5V2dyYWp6cmtwck1wdUlvQVZNZUR0OTFYOG1oeWg1aGVvMk51R1hkeVVJcnJ5UmFpRzlpaTdyVE0xQWxORGpwWFB6SUxZUWZsQWMxTEFEZ1FHX2F4a2lkTGRmX0JlNEtvUDNHLVJyYUoxUXByTlM0R1kzYl9sTlIyZkdnWm9adExXYUtyWEg3UDIzUjhpVENibENZOXdzX1Y4X3Vfdll2MGpuOA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 15:09:10"
-    },
-    {
-      "id": 868,
-      "title": "중앙은행의 매파적 기조로 채권이 약세를 보이고 있으나, 기술주는 영향을 덜 받고 있는 상황. 이는 USD/KRW 환율 상승 압력과 한국 외국인 자금 흐름에 영향을 미칠 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>중앙은행의 매파적 기조로 채권이 약세를 보이고 있으나, 기술주는 영향을 덜 받고 있는 상황. 이는 USD/KRW 환율 상승 압력과 한국 외국인 자금 흐름에 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Central bank hawks spook bonds, tech untroubled Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "금리 인상 기조는 원화 약세와 외국인 자금 유출 우려를 높이지만, 기술주 상대강세는 한국 반도체·IT 종목에는 제한적 긍정 요인",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "네이버",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42ODM5bFY5dlpoaFoyTWVJTG9penZNc01nbG93bnZWZC1pNG1aTUdldWZRaFIyZnZ1VXVwWkxxQkN0U1hQQmRKR1FtX0ZmZVJCSDRPcUx2WU5tbGM4R1JhdmlMZWRLY0tfN2pJSkFTaHVjcFNoNjVyREcwUHAyN00?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 12:08:27"
-    },
-    {
-      "id": 848,
-      "title": "Meta의 주가 하락은 투자자들이 AI 기술의 구체적인 수익화 경로를 요구하고 있음을 시사. AI 투자 대비 실질적 수익성 증명 부재가 핵심 이슈로 부각되며, 이는 AI 반도체(HBM, 메모리) 수요 지속성에 대한 시장의 회의적 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>Meta의 주가 하락은 투자자들이 AI 기술의 구체적인 수익화 경로를 요구하고 있음을 시사. AI 투자 대비 실질적 수익성 증명 부재가 핵심 이슈로 부각되며, 이는 AI 반도체(HBM, 메모리) 수요 지속성에 대한 시장의 회의적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Meta&#x27;s fall shows punters crave clearer AI payoff Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 기술의 실질 수익성 의구심 확산은 AI칩 수요 전망을 약화시키는 신호로, SK하이닉스·삼성 등 AI 반도체 의존도 높은 한국 기업들의 향후 성장성 재평가 압력 발생 가능.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVVFMdmpNWFo1NWZNQm11azk3OXlTVDB1NTRyVFFiSThmWE9sMmt6ZWlFS2NVYmdsaDFyV0xOc05iaGVLeUQxVXhKcDZVMDBSTnJyYzN2QS0wZEtKN1I1WVZ2blJ6UFBwYnRzMUt6SEx1OGZvWDVvU0dfclRXdHVYRXVhMm45aE1OUUxyZ0tDeWJ4dWVwMDBhRGZJS1BXNzFDTHNz?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 12:07:12"
-    },
-    {
-      "id": 828,
-      "title": "영란은행(BoE)이 기준금리를 현 수준에서 유지하면서 이란-이스라엘 전쟁으로 인한 유가 상승과 인플레이션 위험을 경고했다. 글로벌 유가 급등은 한국의 수입 인플레를 심화시키고 수출 경쟁력을 약화시킬 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>영란은행(BoE)이 기준금리를 현 수준에서 유지하면서 이란-이스라엘 전쟁으로 인한 유가 상승과 인플레이션 위험을 경고했다. 글로벌 유가 급등은 한국의 수입 인플레를 심화시키고 수출 경쟁력을 약화시킬 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Bank of England holds rates and spells out inflation risks from Iran war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "주요국 금리 유지 및 지정학적 유가 위험은 원화 약세·채권금리 상승·외국인 주식 수급 부정 가능성으로 작용하나, 직접 충격은 제한적",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "포스코",
-        "현대차",
-        "현대모비스",
-        "LG화학",
-        "SK이노베이션"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUxLemtDVGZyamRweGVXaUZxY1g3UExMRWcydjBMQUxTTk1DSkg1LWdaTXNHNEJTYTN4WU9ZSlZXZjdnd1hGY1FjSnhtSDRCRUN5MmRSSk1pVUNBZGc0TF9BRnJpMWFld3F1VnplelBQWHhqLTM0anpmazJpMTFGNDBpSFJtbEZLWTJzRGUtb1FTX0tzcmZoeGRMZ1prZHRvbERzdG5kQ24?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 09:08:19"
-    },
-    {
-      "id": 827,
-      "title": "일본의 엔화 방어 개입으로 달러화가 급락했다. 엔화 강세는 USD/KRW 환율 상승 압력을 완화하고, 한국 수출 경쟁력에는 긍정적이나 외국인 자금 유입에는 부담이 될 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>일본의 엔화 방어 개입으로 달러화가 급락했다. 엔화 강세는 USD/KRW 환율 상승 압력을 완화하고, 한국 수출 경쟁력에는 긍정적이나 외국인 자금 유입에는 부담이 될 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar tumbles after Japanese intervention boosts yen Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "환율 변동이 수출 기업과 외국인 투자 수급에 직접 영향을 미치는 의미있는 매크로 변화이지만, 일본 단독 개입의 지속성 불확실성으로 제한적 영향",
-      "stocks": [
-        "수출기업 (반도체",
-        "자동차",
-        "화학)",
-        "원화 약세 수혜 기업"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSk5ya1BtcDVheHMweUd0MHhRb2VuTnBkdW5yMnZwaWxrRGxaaFNSWko0b3pzR0FrSWZiN284NmJfa3Zhb2tmZjVyRVZwcHEtckFuMDgxMlRsNTBMZ0M1d25WZ3JBN1FhTlp3M194UVJXUEd2MmtRSVk2SFAyWUU4dWxTb1Y5RGgzUGc0RVB1aXZqQjhXcDlmUTQ2Z2o5azktUDZDVzMweW9OT0hiOU1WZldybXdUb3lWUkE?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-04 09:08:15"
-    },
-    {
-      "id": 801,
-      "title": "Fed의 Kevin Warsh가 연방준비제도 내 정책 갈등을 촉발했으며, 유가 상승이 이 갈등의 촉매가 되었음. 에너지 인플레이션과 금리 정책 불일치는 USD/KRW 환율 변동성과 한국 외국인 자금 수급에 영향을 줄 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>Fed의 Kevin Warsh가 연방준비제도 내 정책 갈등을 촉발했으며, 유가 상승이 이 갈등의 촉매가 되었음. 에너지 인플레이션과 금리 정책 불일치는 USD/KRW 환율 변동성과 한국 외국인 자금 수급에 영향을 줄 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Kevin Warsh wanted a family fight at the Fed. Oil has provided the spark. Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 내부 정책 분열은 금리 경로 불확실성을 높여 환율·외국인 자금 변동성을 증대시키지만, 구체적 결정이 아직 명확하지 않아 중간 수준의 영향",
-      "stocks": [
-        "에너지·정유주(SK이노베이션",
-        "GS칼텍스)",
-        "수출기업(삼성전자",
-        "SK하이닉스)",
-        "금융주(KB금융",
-        "NH투자증권)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRDlONTJGY1FwM0p1UUFwZWRsU3k3djF0NXpsWnpiQ0dJMm1VSW4ydUFPWjczeGR4Si1LdjVMU0lySzVOR0ZicEdadm5FSG9ydjJIS0M4WGFSZVBGS0VwX3Q3V2otdFd0ajlERGMxNnVDcTJTY2puOXNKV3JidzliT3V6TkppR3hHY0NYdlEtQUQ4YkhtM1RDRmdSQzlPMGhvRnc?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-04 06:12:17"
-    },
-    {
-      "id": 798,
-      "title": "영란은행이 기준금리를 동결했으나 이란 전쟁으로 인한 유가 상승과 인플레이션 위협을 경고. 글로벌 에너지 가격 상승은 한국의 수입 물가 압박 및 USD/KRW 환율 상승 요인으로 작용 가능.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>영란은행이 기준금리를 동결했으나 이란 전쟁으로 인한 유가 상승과 인플레이션 위협을 경고. 글로벌 에너지 가격 상승은 한국의 수입 물가 압박 및 USD/KRW 환율 상승 요인으로 작용 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Bank of England holds rates, warns of inflation threat from Iran war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "글로벌 인플레이션 우려와 유가 상승이 한국 수입물가·환율·채권 금리에 영향을 미치는 일반적 매크로 변수이나, 한국 기준금리 직접 결정은 아님",
-      "stocks": [
-        "에너지·유가 연동주(SK에너지",
-        "S-Oil)",
-        "수출 기업(반도체",
-        "자동차)",
-        "금융주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZERHWUItUGZQcUxWTHhqT2RNLURoUUhhdXNYUzhMQWZWY09yQ1hhSTZJOUpKRWxJcU05aXlYQWRDWHMzbDZ4ZWJBbVpJTXI1dDAxY3FxMmZ4a1FNSlYzajlQMk1Wc0hLbF9yalh0S0dCM2xoRklMamk3ZEdrZFE1T1RDajNaYktCYlRaVEhlR0FrdFVBSjNGYS1pUEFyZ1lJSGZF?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 06:12:02"
     }
   ],
   "events": [
