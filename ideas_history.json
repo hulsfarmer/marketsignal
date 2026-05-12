@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T15:10:57",
+  "generated_at": "2026-05-12T16:11:01",
   "dates": [
     "2026-05-12",
     "2026-05-11",
@@ -24,18 +24,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 52,
+      "total": 55,
       "correct": 25,
-      "hit_rate": 48.1,
-      "avg_return": 0.58,
-      "avg_return_open": 1.02
+      "hit_rate": 45.5,
+      "avg_return": 0.44,
+      "avg_return_open": 0.75
     },
     "hybrid": {
-      "total": 37,
-      "correct": 20,
-      "hit_rate": 54.1,
-      "avg_return": 0.58,
-      "avg_return_open": 0.69
+      "total": 41,
+      "correct": 22,
+      "hit_rate": 53.7,
+      "avg_return": 0.63,
+      "avg_return_open": 0.73
     }
   },
   "by_date": {
@@ -116,8 +116,81 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 6,
+        "picks": [
+          {
+            "stock_code": "348340",
+            "name_kr": "뉴로메카",
+            "open_price": 70000,
+            "close_price": 74600,
+            "trade_value": 278523106050,
+            "market_cap": 922216464600,
+            "sector": "기계·장비",
+            "rarity_months": 3,
+            "score": 6.0,
+            "notes": "KOSDAQ | 등락 +11.2% | 턴오버 30.2%"
+          },
+          {
+            "stock_code": "007610",
+            "name_kr": "선도전기",
+            "open_price": 13710,
+            "close_price": 16080,
+            "trade_value": 371459732560,
+            "market_cap": 289440000000,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 5.0,
+            "notes": "KOSPI | 등락 +24.9% | 턴오버 128.3% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "483650",
+            "name_kr": "달바글로벌",
+            "open_price": 222000,
+            "close_price": 250000,
+            "trade_value": 245336691000,
+            "market_cap": 3105385000000,
+            "sector": "화학",
+            "rarity_months": 3,
+            "score": 3.8,
+            "notes": "KOSPI | 등락 +14.4% | 턴오버 7.9% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "439960",
+            "name_kr": "코스모로보틱스",
+            "open_price": 25350,
+            "close_price": 31200,
+            "trade_value": 340767928500,
+            "market_cap": 1001797867200,
+            "sector": "의료·정밀기기",
+            "rarity_months": 0,
+            "score": 3.4,
+            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 34.0% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "064400",
+            "name_kr": "LG씨엔에스",
+            "open_price": 71900,
+            "close_price": 72100,
+            "trade_value": 237368001000,
+            "market_cap": 6985476850800,
+            "sector": "IT 서비스",
+            "rarity_months": 3,
+            "score": 3.3,
+            "notes": "KOSPI | 등락 +2.3% | 턴오버 3.4% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "319400",
+            "name_kr": "현대무벡스",
+            "open_price": 41800,
+            "close_price": 42150,
+            "trade_value": 734048071975,
+            "market_cap": 4694500043850,
+            "sector": "기계·장비",
+            "rarity_months": 0,
+            "score": 0.6,
+            "notes": "KOSDAQ | 등락 +8.9% | 턴오버 15.6% | ★ 섹터 대장주"
+          }
+        ]
       }
     },
     "2026-05-11": {
@@ -132,10 +205,10 @@
             "confidence": "HIGH",
             "reason": "RSI 22로 극도의 과매도 구간이며 5일 -4.5%, 20일 -6.1%의 누적 낙폭은 기술적 반등 압력을 높입니다. 과거 성공 패턴인 '기술적_반등(100% 성공률)'에 가장 부합하며, 자사주 전략 변화와 목표가 63,000원 제시는 미반영 호재로 작용할 수 있습니다. RSI 30~60 유리 구간 진입 시 강한 반등 기대.",
             "entry_price": 50900.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 50200.0,
+            "return_pct": -1.38,
+            "return_pct_open": -1.38,
+            "correct": 0
           },
           {
             "stock_code": "000100",
@@ -145,10 +218,10 @@
             "confidence": "HIGH",
             "reason": "RSI 3으로 역사적 과매도 극단 구간에 해당하며 5일 -5.5%, 20일 -7.7%의 낙폭은 기술적 반등 가능성을 극대화합니다. 임원진 동반 주식 매입과 자사주 소각이라는 강력한 주주환원 신호는 아직 주가에 미반영된 상태입니다. 과거 셀트리온(RSI 41, +4.01%), 한미반도체(RSI 37, +3.74%) 성공 패턴과 유사하며 반등 폭이 클 수 있습니다.",
             "entry_price": 86600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 84600.0,
+            "return_pct": -2.31,
+            "return_pct_open": -2.31,
+            "correct": 0
           },
           {
             "stock_code": "088350",
@@ -158,10 +231,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 47로 중립 구간이며 5일 -1.7%의 소폭 하락으로 단기 저점 형성 가능성이 있습니다. 키움증권의 목표주가 8500원 상향과 배당 수익률 3%대 평가는 호재이며, 현재가 4800원 대비 상승 여력이 존재합니다. 뉴스 분위기 58점, 시장 영향력 62점의 중립적 환경에서 배당 매력과 리포트 호재의 조합이 단기 반등을 지지합니다.",
             "entry_price": 4800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 4690.0,
+            "return_pct": -2.29,
+            "return_pct_open": -2.29,
+            "correct": 0
           }
         ]
       },
@@ -176,10 +249,10 @@
             "confidence": "HIGH",
             "reason": "[E+T] tech 50 / earn 90 (RSI 39, 5일 -1.1%)",
             "entry_price": 198400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 191300.0,
+            "return_pct": -3.58,
+            "return_pct_open": -3.58,
+            "correct": 0
           },
           {
             "stock_code": "021240",
@@ -189,10 +262,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 83 (RSI 60, 5일 +1.7%)",
             "entry_price": 87600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 92800.0,
+            "return_pct": 5.94,
+            "return_pct_open": 5.94,
+            "correct": 1
           },
           {
             "stock_code": "017670",
@@ -202,10 +275,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 59 / earn 0 (RSI 38, 5일 -1.7%)",
             "entry_price": 93500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 98200.0,
+            "return_pct": 5.03,
+            "return_pct_open": 5.03,
+            "correct": 1
           },
           {
             "stock_code": "006360",
@@ -215,10 +288,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 40 / earn 0 (RSI 46, 5일 -1.8%)",
             "entry_price": 37350.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 36200.0,
+            "return_pct": -3.08,
+            "return_pct_open": -3.08,
+            "correct": 0
           }
         ]
       },
