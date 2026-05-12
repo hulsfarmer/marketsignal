@@ -1,44 +1,44 @@
 {
-  "date": "2026-05-11",
+  "date": "2026-05-12",
   "strategy": "hybrid",
-  "generated_at": "2026-05-11T15:09:01",
+  "generated_at": "2026-05-12T15:10:55",
   "count": 4,
   "picks": [
     {
+      "stock_code": "086790",
+      "name_kr": "하나금융지주",
+      "ms_score": 62,
+      "ai_score": 100,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 100 (RSI 60, 5일 +0.0%)",
+      "entry_price": 126600.0
+    },
+    {
       "stock_code": "068270",
       "name_kr": "셀트리온",
-      "ms_score": 67,
-      "ai_score": 89,
-      "confidence": "HIGH",
-      "reason": "[E+T] tech 50 / earn 90 (RSI 39, 5일 -1.1%)",
-      "entry_price": 198400.0
-    },
-    {
-      "stock_code": "021240",
-      "name_kr": "코웨이",
-      "ms_score": 62,
+      "ms_score": 60,
       "ai_score": 82,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 83 (RSI 60, 5일 +1.7%)",
-      "entry_price": 87600.0
+      "reason": "[E+T] tech 83 / earn 67 (RSI 35, 5일 -3.3%)",
+      "entry_price": 191300.0
     },
     {
-      "stock_code": "017670",
-      "name_kr": "SK텔레콤",
-      "ms_score": 58,
-      "ai_score": 58,
+      "stock_code": "180640",
+      "name_kr": "한미반도체",
+      "ms_score": 67,
+      "ai_score": 57,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 59 / earn 0 (RSI 38, 5일 -1.7%)",
-      "entry_price": 93500.0
+      "reason": "[T] tech 57 / earn 0 (RSI 37, 5일 -1.2%)",
+      "entry_price": 110900.0
     },
     {
-      "stock_code": "006360",
-      "name_kr": "GS건설",
+      "stock_code": "105560",
+      "name_kr": "KB금융",
       "ms_score": 58,
-      "ai_score": 39,
+      "ai_score": 27,
       "confidence": "LOW",
-      "reason": "[T] tech 40 / earn 0 (RSI 46, 5일 -1.8%)",
-      "entry_price": 37350.0
+      "reason": "[T] tech 28 / earn 0 (RSI 44, 5일 +0.6%)",
+      "entry_price": 158800.0
     }
   ]
 }
