@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T11:05:02",
+  "generated_at": "2026-05-12T11:35:12",
   "count": 500,
   "posts": [
     {
@@ -4775,6 +4775,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ1lhMlhZS1ZIYXRUUExSSmpIa0k4TC1mdnozV08zRDRwNU0xNFh2ZUctbkJtdVhHc0EwTjZnb0pZczRETVY0SGhfVTNaaHdtRUJNX3hGNUVLOHlxb2t3eEJyREpJcW92SFBGSDRDVlB2Zl8ySEEteDRNZE9VSGZIaGxhZm1XRGcwTHowcU5VbktvOFlJZzVMblZJRnlNQTdsVnduVktTdVJUS3UtYlExT3J3?oc=5",
       "direction": "down",
       "updated_at": "2026-05-10 15:08:28"
+    },
+    {
+      "id": 2820,
+      "title": "서울반도체 — 연결재무제표기준영업실적등에대한전망(공정공시)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260512",
+      "summary": "<p>영업실적 — 본문 변동률 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 연결재무제표기준영업실적등에대한전망(공정공시)               · 서울반도체</p>",
+      "feedback": "영업실적 — 본문 변동률 확인",
+      "stocks": [
+        "서울반도체"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512900214",
+      "direction": "neutral",
+      "updated_at": "2026-05-12 11:35:09"
+    },
+    {
+      "id": 2816,
+      "title": "우원개발 — 단일판매ㆍ공급계약체결              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260512",
+      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 우원개발</p>",
+      "feedback": "수주 — 본문 규모 확인",
+      "stocks": [
+        "우원개발"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512900292",
+      "direction": "up",
+      "updated_at": "2026-05-12 11:35:04"
     },
     {
       "id": 2812,
@@ -12981,58 +13025,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY2V3TnpSZFluX3BhSEZxaFJWX01XRGpQSUdTS3NMOEtpejhCTzNUci13QjR3MVUzVEVOQzJ0Z29SQ0M3dF84VUthYTVJUHBvUkcxbUVDSV9uSGFpLWp1M3YxMFd4d2pNZ0tRQ0o0S0tRTEJaXzNvbmE5dFNkaWNkWTBIaTdiM3JiZjdtdS1VZWZ0akxnRUNuZFJJQlE0MVZ2RnBpUXdwSVhCN0loOEo5TTRhb0VDSlE?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-04 09:07:13"
-    },
-    {
-      "id": 756,
-      "title": "오라클과 CoreWeave가 OpenAI 성장 둔화 우려로 AI 주가 조정을 주도했으며, 이는 AI 칩 수요 전망 약화를 시사해 HBM·메모리 반도체 관련 한국 종목에 부정적 영향 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-28",
-      "summary": "<p>오라클과 CoreWeave가 OpenAI 성장 둔화 우려로 AI 주가 조정을 주도했으며, 이는 AI 칩 수요 전망 약화를 시사해 HBM·메모리 반도체 관련 한국 종목에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oracle, CoreWeave lead AI selloff on OpenAI growth concerns Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 투자 심리 악화가 반도체 초과수요 시나리오를 약화시켜 SK하이닉스 HBM과 삼성전자 메모리 사업에 수요 전망 하향 압력 가능.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZzhBYkt1cUNmMmJzRWZxWGRTb3hNMm02LXN2Z2ZfMUN4dmNyTmV0ODNPRWRkVXlrM0pGNFBpZ3R4X3QzdVV5YW5vaWszSTl3R2IxaEtXaHBib09qMTNjUktjMEVzVjlrMkRVTGpjQldyQVVqekFuWWpQWGZfbVhjQlNtRkNvdFlpbWhhOWtfZTdZVUd6cWMtYnA5ZC0xNHc0eUNfLTlBYUxoUkt2OUpxY2V2NWF4SlNkN2xEN1dkOEpQRDdfM0RJ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 03:07:08"
-    },
-    {
-      "id": 967,
-      "title": "러시아 디젤 화물이 브라질에서 재경로되면서 글로벌 유가가 급등하고 있다. 이는 러시아산 에너지 공급 차질과 국제유 수급 긴장을 반영하며, 한국의 정유·석화 업체들의 원료비 상승과 마진 압박을 초래할 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-27",
-      "summary": "<p>러시아 디젤 화물이 브라질에서 재경로되면서 글로벌 유가가 급등하고 있다. 이는 러시아산 에너지 공급 차질과 국제유 수급 긴장을 반영하며, 한국의 정유·석화 업체들의 원료비 상승과 마진 압박을 초래할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Russian diesel cargoes rerouted from Brazil as global prices surge Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승은 정유사 마진 악화 요인이지만, 동시에 유가 고점에서의 수익성 개선 가능성도 있어 한국 정유·석화 업종에 중단기 영향을 미치는 일반적 산업 동향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbk95LS04UWRhY2hPXzFiLTk4VzJFMEdwcEpUNlBYWHZqaEViSlh1UmFTZDlVNEdONURDbnFtTlNadEtScnE5akJkRTFzaEJaXzBGWnNHLVZ3RXhkVUF3SE9PRS04djdxWTRGWkd4ejFyQzBSR1c3OS15QndHR2JUT3loWlpIUGJ4cTdINm9OdWs5Y3UwUXZzeXNrdlpNNk1rWXJmUGtLNnM4dVo0TmF3?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 21:08:15"
     }
   ],
   "events": [
