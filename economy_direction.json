@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T21:05:02",
+  "generated_at": "2026-05-12T21:08:37",
   "count": 500,
   "posts": [
     {
@@ -7015,6 +7015,60 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 2981,
+      "title": "독일 4월 인플레이션이 2.9%로 확정되며 유로존 통화정책 방향성 강화. ECB의 금리 인하 가능성이 높아지면서 유로 약세 → USD/KRW 상승 압력, 한국 수출주 및 외국인 자금 유입에 긍정적 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>독일 4월 인플레이션이 2.9%로 확정되며 유로존 통화정책 방향성 강화. ECB의 금리 인하 가능성이 높아지면서 유로 약세 → USD/KRW 상승 압력, 한국 수출주 및 외국인 자금 유입에 긍정적 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): German inflation confirmed at 2.9% in April Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "유로존 인플레이션 둔화 확인으로 ECB 인하 기대 상승 → 유로 약세, 달러 강세 시나리오로 한국 수출경쟁력 개선 및 외국인 수급 우호적이나, 직접적 한국 기업 영향은 제한적",
+      "stocks": [
+        "수출주(자동차",
+        "화학",
+        "기계)",
+        "삼성전자",
+        "SK하이닉스",
+        "POSCO",
+        "현대차"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTEtScm5qZDZkWFNBWGFsTzNQcF90UlI2WC1Jb0dGVXZFTUdjenU1MHNOby1MYVVreGpmTkdpa1haLUIzLWpBakhseFJmcy1BdDRjT29saUJRTS02VUZXRkFfZHowdTBkU3V1T21LVm8wYWJVS0RnMHBLbjdaazBRbThMM3FkQWlyOUN6cg?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-12 21:08:13"
+    },
+    {
+      "id": 2964,
+      "title": "트럼프-시진핑 정상회담을 통해 미국 CEO들이 중국 사업 기회를 모색하고 있으며, 미중 통상 관계 진전이 예상됨. 한국 반도체 기업들의 중국 시장 접근성과 경쟁 구도에 영향을 미칠 수 있는 상황.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>트럼프-시진핑 정상회담을 통해 미국 CEO들이 중국 사업 기회를 모색하고 있으며, 미중 통상 관계 진전이 예상됨. 한국 반도체 기업들의 중국 시장 접근성과 경쟁 구도에 영향을 미칠 수 있는 상황.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US CEOs seek China business gains from Trump-Xi summit Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미중 통상 협상 진전은 글로벌 반도체 수요·공급망에 영향을 미치지만, 현재 단계는 탐색 수준이므로 한국 종목에 직접적 영향은 제한적",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZEMwaVFwS241U3kzWVcxMXZJTnhMdlBjUE9MQm11U0RtNXFJWXZ1VlVzTGNBZ215ZzQzM1phQWZoUHhBejN2YXVORE84dGhXNGxNRHhsT0lJNXFCYndMcmFHQXRqQzh5cEZjUm1Tb0k5cG1sSy1uU1lpa3pHY01DR0VPRjItV1Q1c0RQcVVfT0pPQWZMbkliel9ldXNWZURla19ya3ViSDB3X2RmanpPOUhwNGtrdw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-12 21:07:10"
+    },
+    {
       "id": 2945,
       "title": "인도 루피화가 유가 충격과 자금 유출로 사상 최저치를 기록했으며, 신흥국 통화 약세 압력이 심화되고 있다. 이는 글로벌 위험자산 회피 심화와 USD/KRW 상승 압력으로 이어질 수 있다.",
       "category": "거시",
@@ -7637,6 +7691,32 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTFIeHh6enp1TW1pNmRpVy1pZ1ZtaVFvNTF2emxOOUg3VXV1RWE3SkFqb3pwY28yS0pBTDF3MjRFSVNRclFhTWtCZlN0SmQ1MDV2YUZJSXJhdXRUdldyM3VZbEkzYnIxUXlvSk1JREJwVURVVGJhcV9vcEU2WnlLcVZKaXZQX0Fac1VEWW1VZjlwdDNNWHp5ZENCNTROaEhsVFRuQ2ZUd0gwTmc?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-11 12:07:49"
+    },
+    {
+      "id": 2966,
+      "title": "5월 4일 호르무즈 해협에서 한국 선박이 정체불명의 물체에 피격됨. 중동 지정학적 긴장 고조로 해상 운송로 리스크 증가, 반도체·전자제품 수출 운송 비용 상승 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-10",
+      "summary": "<p>5월 4일 호르무즈 해협에서 한국 선박이 정체불명의 물체에 피격됨. 중동 지정학적 긴장 고조로 해상 운송로 리스크 증가, 반도체·전자제품 수출 운송 비용 상승 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korean ship in Hormuz hit by unidentified objects on May 4, ministry says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "호르무즈 해협은 한국의 주요 에너지·무역로이며, 지정학적 리스크 심화는 해운비 상승과 공급망 불확실성을 초래해 수출 중심 반도체·전자업체의 원가 압박 요인",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS2pVdVk0WUlEbXl3bVk5M3k4eFRIeGY3Q0xFdjl2ZjZnNy14aGpYdUowQ0lxX2dGalo4RVVXV2NlOEVJM1BHRXYwY202WmdRU0pSN3IyRVpWOWxIZjFmMG5ETDBpR3Zkb21rWmRqLWtFbEVpTXZZQXZrWHBOMjFLYlNfdXVlZFd3a0sxdzVJWXVtS1htMUlIaTFab2VnaUZpNzdiQ3gyVGZDRlRDX3BPT0QyenRhR0xHbkFGS1pEYlBMZnhFS3NYWFNKUGYzUQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-12 21:07:17"
     },
     {
       "id": 2659,
@@ -12937,82 +13017,6 @@
       "source_url": "https://consensus.hankyung.com/analysis/downpdf?report_idx=648942",
       "direction": "up",
       "updated_at": "2026-05-03 21:18:53"
-    },
-    {
-      "id": 511,
-      "title": "[유안타증권] 하이브 — 조정 영업이익 컨센서스 상회 · 목표 370,000",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "유안타증권",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>유안타증권이 하이브에 Buy 의견을 유지하며 370,000원 목표가를 제시했고, 조정 영업이익이 컨센서스를 상회하는 긍정적 실적 모멘텀을 평가했습니다. 다만 구체적인 실적 수치나 상향 폭, 투자 논리가 제목 수준으로만 제시되어 상세 분석이 필요합니다.</p>\n<p><em>한경 한 줄: 조정 영업이익 컨센서스 상회</em></p>\n<p><strong>의견: Buy</strong> · 목표가 370,000원</p>\n<p style='color:#718096;font-size:.9em'>유안타증권 / 이환욱</p>",
-      "feedback": "명확한 긍정 의견과 목표가 제시가 있으나, 컨센서스 상회 정도와 구체적 근거가 불분명하고 신규 개시나 큰 상향이 아니어서 실용성이 중간 수준",
-      "stocks": [
-        "하이브"
-      ],
-      "tags": [
-        "한경컨센서스"
-      ],
-      "impact_score": 6,
-      "source_type": "report",
-      "source_url": "https://consensus.hankyung.com/analysis/downpdf?report_idx=648957",
-      "direction": "up",
-      "updated_at": "2026-05-03 21:18:23"
-    },
-    {
-      "id": 1242,
-      "title": "글로벌 유가가 수주 최고가 수준으로 상승하며 공급 우려가 심화되고 있다. 한국의 정유·화학 기업들의 원료비 상승 압박 요인이 될 것으로 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>글로벌 유가가 수주 최고가 수준으로 상승하며 공급 우려가 심화되고 있다. 한국의 정유·화학 기업들의 원료비 상승 압박 요인이 될 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil prices settle at multi-week highs as global supply worries mount Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승은 정유사 수익성에 단기 악영향이지만, 화학사 원료비 상승으로 마진 압박이 예상되는 일반적 산업 동향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQXlrVUs5UEQxV1pTNkRzOTBVdWtaSW1ONTlkQmRmUHdld1BpVnlzWnRhYXZzeHRCXzhPTHpWTmpvbGN6dDlYaTd0WTBfMUZ0U1ZQX3g2M3ptbFNFUGhtQ3Q0NHg4SnFOeVozeTNQSXJ6dTFiZlkyd3ZhTmpzZDU2X2xjYWFrMDdkenJNbTNaQl9fVHliclZjazYxLVFLY2VEc3A0UC1mLTlzcl9LdW1IT3h6bko1b19aNzNkWVBwUzhQdw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-06 06:11:42"
-    },
-    {
-      "id": 1196,
-      "title": "독일 인플레이션이 4월 2.9%로 가속화되며 에너지 비용 상승이 주요 원인. 유로존 금리 인상 압력 지속 가능성으로 USD/KRW 상승 견인, 한국 수출 기업에 부담.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>독일 인플레이션이 4월 2.9%로 가속화되며 에너지 비용 상승이 주요 원인. 유로존 금리 인상 압력 지속 가능성으로 USD/KRW 상승 견인, 한국 수출 기업에 부담.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): German inflation accelerates to 2.9% in April as energy costs soar Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유로존 금리 정상화 압력으로 달러 강세 심화 → 환율 상승으로 수출 기업 수익성 악화, 외국인 매도 압력 가능성",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대자동차",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWW5hY1J5NkVHYkxGbU9aYW5zcE9hbXBLRFVzZDJDU0N2TlVzeUd5b2xBUWtucXZsTVVoQVIwelpZS0o2VGR0Y1QtWUI3YjZEaWpaVjBVamRESDFBN2xRNWo0TGFvcHhGYTJkVUlwN05uNUFzYUV5ekJvY1dkNFlpOUo0UDhuTG1GblVoamdRRQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-06 00:08:30"
     }
   ],
   "events": [
