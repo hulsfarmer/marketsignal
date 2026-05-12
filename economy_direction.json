@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T18:05:02",
+  "generated_at": "2026-05-12T18:08:37",
   "count": 500,
   "posts": [
     {
@@ -55,6 +55,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 2923,
+      "title": "헤지펀드가 한국, 일본, 대만 주식에 10년 만에 최고 수준의 주간 매수를 기록했다고 모건스탠리가 발표. 아시아 반도체·기술주에 대한 강한 수요 신호로, 한국의 SK하이닉스, 삼성전자 등 메모리/파운드리 관련 종목에 직접적 호재.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>헤지펀드가 한국, 일본, 대만 주식에 10년 만에 최고 수준의 주간 매수를 기록했다고 모건스탠리가 발표. 아시아 반도체·기술주에 대한 강한 수요 신호로, 한국의 SK하이닉스, 삼성전자 등 메모리/파운드리 관련 종목에 직접적 호재.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Hedge funds record decade-high weekly buying in Korea, Japan, Taiwan equities, Morgan Stanley says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 헤지펀드의 대규모 매수 신호는 한국 반도체주(HBM, 메모리, 파운드리)에 대한 수요 회복과 자금 유입을 의미하며, AI 사이클 강화 배경으로 한국 증시에 의미 있는 긍정 영향.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUjBKVS1UQmVteGdSMlR5SGVQRGV2LUg5YnBzcE95UkxVNmxKSXNtdWtKUVU2VkVPNXRoZGJWdW9Pa0RjOXVMX2pMMm16R29vMC0yQnJKV3FZV1pxR2ExMFM4SmFaY0lmV1ktRW00SFR1ZFlQQWpzeG9TakdYdjN6YmdLdUJhUGZUTG50UVd2TGNDblg2S1JPcFZhVk9mcl9KeW5IUVY0VjYxMVI3WWQtd1ptRkF5b3M2b1lVUlE0d3ZtTXB3QjJlTnpB?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-12 18:07:05"
     },
     {
       "id": 2703,
@@ -6944,6 +6971,90 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 2945,
+      "title": "인도 루피화가 유가 충격과 자금 유출로 사상 최저치를 기록했으며, 신흥국 통화 약세 압력이 심화되고 있다. 이는 글로벌 위험자산 회피 심화와 USD/KRW 상승 압력으로 이어질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>인도 루피화가 유가 충격과 자금 유출로 사상 최저치를 기록했으며, 신흥국 통화 약세 압력이 심화되고 있다. 이는 글로벌 위험자산 회피 심화와 USD/KRW 상승 압력으로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Indian rupee sinks to record low on oil shock; outflows intensify pressure Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "신흥국 통화 약세는 한국의 원화 약세 압력, 수출 기업 실적 개선, 해외 투자수익 증대로 이어질 수 있으나 직접성은 중간 수준",
+      "stocks": [
+        "현대차",
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "포스코",
+        "기아",
+        "삼성SDI"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd0xvUlNtejlVYUMtdWMtYkowcmdIOVJkT2pBTlE5UnBMLURGRXZPcEVnaGNha0RoWDBnaXVvS2t0aVlGaEM1MTdqTi0zTHRFY0l3RXdRV2FYS3FIWjZobF9vNERsMFZuVW9DRE9vRzA2Uk85OE1NX1p3TGpLTnVBMUQ4YkR3Q0hOUTRWbkdVQnpmMmViaV9xeUx3dHpoemF2WUlVckpKVzc5d1Nmam9ROUJjWlFGOHF6?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-12 18:08:26"
+    },
+    {
+      "id": 2944,
+      "title": "이란 전쟁 우려로 휴가 계획 변경 수요 증가. 지정학적 리스크 확대로 유가 상승 가능성, USD/KRW 환율 상승 압력 및 경기 불확실성 증가로 한국 증시에 부정적 영향 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>이란 전쟁 우려로 휴가 계획 변경 수요 증가. 지정학적 리스크 확대로 유가 상승 가능성, USD/KRW 환율 상승 압력 및 경기 불확실성 증가로 한국 증시에 부정적 영향 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran war creates new must-have for summer holidays: the plan B Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "지정학적 리스크는 유가·환율·외국인 수급에 영향을 주지만, 현 단계는 '계획 변경' 수준의 제한적 뉴스로 직접 충격은 아직 미미",
+      "stocks": [
+        "에너지 관련주(SK이노베이션",
+        "S-Oil)",
+        "방산주(한화에어로스페이스",
+        "ADD)",
+        "수출주(삼성전자",
+        "SK하이닉스)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNci1NdlNTcFRfZElQRVNsalBlSFdGbllwWmZfRjFUbFNnV1lGVmYxdm50bE42YnpRRHR1VnRHVGNTVGY0d0NKM1loR3pZcDg4clc5aWo3UWlwU1A3bHNYVlJjNG5WOE5Td2VvZkFkVEdqM0hPT1d0NF9rWXVPU2hPNEgzcXgwN2hrTW5objRzbGlQU3VnSmxmU005Y1BiOVU?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-12 18:08:23"
+    },
+    {
+      "id": 2938,
+      "title": "중동 평화협상 기대감 약화로 달러 강세. USD/KRW 환율 상승으로 원화 약세 압박, 수출기업 수익성 개선 vs 외국인 자금 유출 가능성",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>중동 평화협상 기대감 약화로 달러 강세. USD/KRW 환율 상승으로 원화 약세 압박, 수출기업 수익성 개선 vs 외국인 자금 유출 가능성</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar rises on fading hopes of Middle East peace deal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "USD/KRW 환율 상승은 수출 기업에 긍정이나, 달러 강세는 글로벌 경기 둔화 신호로 외국인 자금 유출 위험",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대차",
+        "LG화학",
+        "포스코"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUUdfQ29oZEtWVGNSMEtlc0dQX1lDUTJsbEMxWk5iYlppWE1WcDRzWWF3SWhCQ1k4d3ZvY1V5bDc0RE9OM1pCSGJNYlptM2o4d2wtUkFOTUM5WFRXQVJwcUVKenNJNWszUElINmxiRDFSV1laaHNlclp2cDg2d09ERlMyWmZNT1BSS2lRVl9hU2hVaXVvcFZpQ290Unl1LUpD?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-12 18:08:02"
+    },
+    {
       "id": 2874,
       "title": "트럼프가 이란 평화협상안을 거부하면서 중동 긴장 고조. 지정학적 불확실성 심화로 유가 상승 가능성 커짐에 따라 에너지·화학 관련 한국 종목에 긍정적 영향 예상.",
       "category": "거시",
@@ -7049,6 +7160,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHhwaGkxMUwtRTJmcFhZU2puNzFud0M2WkJlNTFYeHRReFRFb0ZJMUdTLUhxTXBJMGxyOEc0MXJzX2pHWDdQMGZjNmhxc19yOVRWMHlPTXVzQS1VdmNsSTNraGlTMzZQanMzOGd3S2pVb2lGUElxUXNXQWd6MGpvMVh1SHFZYnh3TmJiSm1MSlU2eUxWWU05Zld4SmRfekh4WmNXOEVxUUJUUThqMnY2NVdn?oc=5",
       "direction": "down",
       "updated_at": "2026-05-12 12:08:04"
+    },
+    {
+      "id": 2924,
+      "title": "월스트리트가 AI 강세에 힘입어 소폭 상승 마감했으나 이란 정세 불확실성은 여전한 상황. AI 수요 증가는 HBM·메모리 반도체 수요 확대로 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-11",
+      "summary": "<p>월스트리트가 AI 강세에 힘입어 소폭 상승 마감했으나 이란 정세 불확실성은 여전한 상황. AI 수요 증가는 HBM·메모리 반도체 수요 확대로 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Wall St inches to higher close, AI fervor edges out Iran impasse Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 호황 지속는 한국 메모리·파운드리 수요 증가 신호이나, 뉴스가 거시 동향 수준으로 구체적 사건·수치 부재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNalRramdTOWdXOEJkZHl0RVQzNWtQbnE2b3ZMWVc1V3JLZ3IxTFplM1NBVnhRSVBXbHNDV2hXMWJnRnpFeXBoeXcwU1djVzh4UTg0aENiWG1waUtfTnlQeGRDQjJyd1lDdGpFUndna0luRUp6UlNDeDBFWFJlMlFxYmxJckRjM3UwNDRuYmJfcExsRjRmQ0E?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-12 18:07:09"
     },
     {
       "id": 2849,
@@ -12884,141 +13022,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQ1lmMTlmWUp2MTlicWR3R0hXSEdsY0FPbUwyTEZOM3B3SDBMVlhNOEFicFZDcmQ0d3p5RWJweEFQeUNFVWhxc3Q4WmlCczlRdG5KUDQ0N0w4SHVEWUFvTVhxdnphUDc1WThGdlVFbEpNTm8zcllhcS0xbE80VEdQb2hmdXYwT2o1Vk1yNlJUdFp6Y2MzVHlzYlZNcXM2a2N5V3ZMbUNTelJyeDFBblAyV3U2TENsWk1yeEs5V0taWmR3MGQwTmc2VVp3?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-05 21:08:13"
-    },
-    {
-      "id": 1116,
-      "title": "트럼프 대통령이 UAE의 OPEC 탈퇴를 환영했으며, 이는 OPEC의 영향력 약화와 유가 하락 압력으로 이어질 수 있다. 한국의 에너지·화학 관련 기업들의 원재료비 절감에 긍정적 영향을 미칠 가능성이 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>트럼프 대통령이 UAE의 OPEC 탈퇴를 환영했으며, 이는 OPEC의 영향력 약화와 유가 하락 압력으로 이어질 수 있다. 한국의 에너지·화학 관련 기업들의 원재료비 절감에 긍정적 영향을 미칠 가능성이 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump welcomes United Arab Emirates exit from OPEC Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "OPEC 약화에 따른 유가 하락이 한국 에너지·화학업체들의 원가 개선에 유리하지만, 장기 영향은 유가 변동성과 글로벌 수급 재편에 따라 달라짐",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLUZWenlBWm9lTWJmbW1tSEtBQ3d2MHRKbmlkTXZoT2hvQXNkQmh6YU5tRWltb2diSk5hTkN0OE5lcnhEMG5oWTh6S2kxekhUNnpzelJSaU1YZ2tXS01BNzgxY0l0WVFiSHVUcXB0ZkNGU3JZR2FrMVZVb3Q2Y09yTzFIUE5CeXNUem1LR3VCUThtMzgzdElfMkNJYUlBcGhS?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-05 15:13:38"
-    },
-    {
-      "id": 1114,
-      "title": "OPEC+가 UAE 제외하고 추가 유가 인상에 합의할 가능성. 유가 상승은 한국 정유·석화 기업의 원료비 부담 증가로 작용.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>OPEC+가 UAE 제외하고 추가 유가 인상에 합의할 가능성. 유가 상승은 한국 정유·석화 기업의 원료비 부담 증가로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: OPEC+ likely to agree another oil output hike without UAE, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승은 S-Oil, SK이노베이션 등 정유사의 마진 압박 요인이지만 중기적 수급 안정화로 평가될 수 있어 일반적 산업 동향 수준.",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR0FyZHgwMTFhdTdJRzdGX0sxbHFVVnlIb2FGYmlqV2VOdENEbHo3TmJlVzlHNWxVOTBfV2hVWENVTlBUS2dlZC1ENEh5TWQtZm1fLTJCeDd3cXlzR1lxQ0MyVGlONGVrLXA2dGtRWk8tcHp4b3NMQWVkNWhyTnZOVHJFRks3NFo0NXZTbFNTR2lIdm1KZkktN25iTDNmY0U1QVBTN0lqdTZacWJzVUd0cVVSLVI?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-05 15:13:31"
-    },
-    {
-      "id": 1112,
-      "title": "UAE의 OPEC 탈출로 중기적 유가 공급 위험이 상승할 것으로 골드만삭스가 평가. 한국 정유·화학업체들의 유가 변동성 확대에 따른 수익성 불확실성 증가 요인.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>UAE의 OPEC 탈출로 중기적 유가 공급 위험이 상승할 것으로 골드만삭스가 평가. 한국 정유·화학업체들의 유가 변동성 확대에 따른 수익성 불확실성 증가 요인.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Goldman says UAE&#x27;s exit from OPEC raises medium-term oil supply upside risk Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "UAE 탈출로 OPEC 영향력 약화 및 유가 변동성 증대는 한국 정유·화학 기업들의 원재료비 및 마진 변동성을 높이나, 단기 실적 임팩트보다는 중기 불확실성 증가 수준",
-      "stocks": [
-        "SK이노베이션",
-        "S-Oil",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenRrWVlaZkQ2SGRFXzBvMWJtdWJyMVBBNHBGOHpITGdTWXdMQ1N3S3p4YjNSTUVva01BOVd2Zk5BWEgxT05TNDdHSjg1c1hyekxmNThXR0FyRmhwdmN0UVlPQ3pSaVBZTndxWWQtR3RWWjh2ZHhpbHlnNUx4VEp6MlFiZHNjeDUzcU1laTgxdG8zYkdoUVZmRHN2S0ZBRzVNUXlZeWgxM0Nydm1kUkx0MF9aVlhuaUdockRjUmZB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-05 15:13:25"
-    },
-    {
-      "id": 1043,
-      "title": "러시아가 UAE의 OPEC 탈퇴로 글로벌 석유 공급 증가 및 유가 하락이 예상된다고 발표. 한국의 에너지·화학 관련 기업들에게 원유 조달 비용 절감 기회 제공.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>러시아가 UAE의 OPEC 탈퇴로 글로벌 석유 공급 증가 및 유가 하락이 예상된다고 발표. 한국의 에너지·화학 관련 기업들에게 원유 조달 비용 절감 기회 제공.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Russia says UAE&#x27;s exit from OPEC will increase global production, bring down oil prices in future Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 하락은 석유화학 업계 수익성 개선 요인이지만 중기적 영향이며, 실제 시장 변동성은 제한적인 일반적 산업 동향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX3hlOVh2STFHUjR3ajlTdDIxcmlLMHVRTUZfSzVTbC1fZnZZbTQtcFUyY1FqcUUyUWFTcTNpeElpWHI2WUN2cVFyc29fbWxWRlpaQlNsUnNJRDBsQk5DT3otSEloRm5KRFE0NGFjSEswb0dnYTQyeG1ESkJwRVhIWmdFZkstb2FFbUJ0QWFqZE1pUlFPOFZUZDJuQTdfRlJaOE5rQVowekZudUFDR2NtMTNoSzQxTkNxUUU3LXgxeFVBdG9NWkY4WjVqWDU?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-05 06:11:02"
-    },
-    {
-      "id": 1042,
-      "title": "미국의 유정 재고가 급감하면서 역사상 처음으로 주간 기준 순 원유 수출국이 되었다고 EIA가 발표했다. 이는 글로벌 유가 상승 압력으로 작용할 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>미국의 유정 재고가 급감하면서 역사상 처음으로 주간 기준 순 원유 수출국이 되었다고 EIA가 발표했다. 이는 글로벌 유가 상승 압력으로 작용할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US oil stocks plummet, country becomes net crude exporter on weekly basis for first time, EIA says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "미국의 원유 수출 증가와 유가 상승은 한국 정유·화학사의 수익성 개선에 긍정적이지만, 동시에 수입 원유 비용 상승으로 이중 영향을 미친다.",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOHNYUjgtQzF2OGhOYVZNaGFCSTRtcmh5aXlFQ0tPWmpTQ0ZiNlE5S0xXalQ3TG9saU9LM1U3ZTVjWm55Q3NFclEzWldjM2hjYXlTd2dlOUJYRVdvdnN2QTZnT1JYZUhUNUlCSjFvd0VYaEhXcm1ZM2hoajNWdjhZYXBaZzhxMlhYSVgxdEpRU205bGY1T0lWZElzaFpYbFotT0xMbGlaV3lkSXVz?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-05 06:10:59"
     }
   ],
   "events": [
