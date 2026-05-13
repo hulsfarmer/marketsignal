@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T18:35:15",
+  "generated_at": "2026-05-13T18:40:16",
   "count": 500,
   "posts": [
     {
@@ -13115,6 +13115,22 @@
     },
     {
       "stock_code": "",
+      "stock_name": "대한항공",
+      "event_date": "2026-05-28",
+      "event_type": "주주확정기준일",
+      "title": "대한항공 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000797"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "대한항공",
+      "event_date": "2026-05-28",
+      "event_type": "합병반대의사통지 접수 시작",
+      "title": "대한항공 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000797"
+    },
+    {
+      "stock_code": "",
       "stock_name": "삼성전자",
       "event_date": "2026-05-29",
       "event_type": "배당금지급예정일",
@@ -13240,6 +13256,14 @@
       "event_type": "배당금지급예정일",
       "title": "케이티 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800359"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "대한항공",
+      "event_date": "2026-06-11",
+      "event_type": "합병반대의사통지 접수 종료",
+      "title": "대한항공 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000797"
     },
     {
       "stock_code": "",
