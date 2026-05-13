@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T15:09:06",
+  "generated_at": "2026-05-13T16:10:32",
   "dates": [
     "2026-05-13",
     "2026-05-12",
@@ -25,18 +25,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 55,
+      "total": 56,
       "correct": 25,
-      "hit_rate": 45.5,
-      "avg_return": 0.44,
-      "avg_return_open": 0.75
+      "hit_rate": 44.6,
+      "avg_return": 0.37,
+      "avg_return_open": 0.64
     },
     "hybrid": {
-      "total": 41,
-      "correct": 22,
-      "hit_rate": 53.7,
-      "avg_return": 0.63,
-      "avg_return_open": 0.73
+      "total": 45,
+      "correct": 23,
+      "hit_rate": 51.1,
+      "avg_return": 0.44,
+      "avg_return_open": 0.53
     }
   },
   "by_date": {
@@ -117,8 +117,45 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "012200",
+            "name_kr": "계양전기",
+            "open_price": 11910,
+            "close_price": 13500,
+            "trade_value": 455483793935,
+            "market_cap": 367508191500,
+            "sector": "기계·장비",
+            "rarity_months": 3,
+            "score": 10.0,
+            "notes": "KOSPI | 등락 +22.8% | 턴오버 123.9% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "332570",
+            "name_kr": "PS일렉트로닉스",
+            "open_price": 12840,
+            "close_price": 14390,
+            "trade_value": 323151933925,
+            "market_cap": 672179391570,
+            "sector": "전기·전자",
+            "rarity_months": 3,
+            "score": 9.8,
+            "notes": "KOSDAQ | 등락 +18.7% | 턴오버 48.1% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "439960",
+            "name_kr": "코스모로보틱스",
+            "open_price": 35500,
+            "close_price": 40550,
+            "trade_value": 397759755300,
+            "market_cap": 1302016138300,
+            "sector": "의료·정밀기기",
+            "rarity_months": 0,
+            "score": 1.1,
+            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 30.5% | ★ 섹터 대장주"
+          }
+        ]
       }
     },
     "2026-05-12": {
@@ -133,10 +170,10 @@
             "confidence": "MEDIUM",
             "reason": "삼성증권·대신증권·한국투자증권 등 복수 증권사의 목표가 일제 인상(8~9.3만원대)으로 기관 수급 유입 기대가 있으며, RSI 54로 중립 구간에 위치합니다. 5일 -0.7%, 20일 -6.0%로 낙폭이 누적되어 목표가 상향에도 주가 미반영 구간이 남아 있습니다. 호재_선반영 리스크는 존재하나 복수 기관의 동시 커버리지 개시가 촉매 역할을 할 수 있습니다.",
             "entry_price": 61100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 59200.0,
+            "return_pct": -3.11,
+            "return_pct_open": -3.11,
+            "correct": 0
           }
         ]
       },
@@ -151,10 +188,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 100 (RSI 60, 5일 +0.0%)",
             "entry_price": 126600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 123100.0,
+            "return_pct": -2.76,
+            "return_pct_open": -2.76,
+            "correct": 0
           },
           {
             "stock_code": "068270",
@@ -164,10 +201,10 @@
             "confidence": "HIGH",
             "reason": "[E+T] tech 83 / earn 67 (RSI 35, 5일 -3.3%)",
             "entry_price": 191300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 193300.0,
+            "return_pct": 1.05,
+            "return_pct_open": 1.05,
+            "correct": 1
           },
           {
             "stock_code": "180640",
@@ -177,10 +214,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 57 / earn 0 (RSI 37, 5일 -1.2%)",
             "entry_price": 110900.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 109700.0,
+            "return_pct": -1.08,
+            "return_pct_open": -1.08,
+            "correct": 0
           },
           {
             "stock_code": "105560",
@@ -190,10 +227,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 28 / earn 0 (RSI 44, 5일 +0.6%)",
             "entry_price": 158800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 153600.0,
+            "return_pct": -3.27,
+            "return_pct_open": -3.27,
+            "correct": 0
           }
         ]
       },
