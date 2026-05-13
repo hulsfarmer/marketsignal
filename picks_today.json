@@ -1,44 +1,44 @@
 {
-  "date": "2026-05-12",
+  "date": "2026-05-13",
   "strategy": "hybrid",
-  "generated_at": "2026-05-12T15:10:55",
+  "generated_at": "2026-05-13T15:09:02",
   "count": 4,
   "picks": [
+    {
+      "stock_code": "068270",
+      "name_kr": "셀트리온",
+      "ms_score": 62,
+      "ai_score": 92,
+      "confidence": "HIGH",
+      "reason": "[E+T] tech 45 / earn 93 (RSI 40, 5일 -0.7%)",
+      "entry_price": 193300.0
+    },
+    {
+      "stock_code": "302440",
+      "name_kr": "SK바이오사이언스",
+      "ms_score": 58,
+      "ai_score": 91,
+      "confidence": "HIGH",
+      "reason": "[T] tech 91 / earn 0 (RSI 32, 5일 -5.2%)",
+      "entry_price": 41800.0
+    },
+    {
+      "stock_code": "047050",
+      "name_kr": "포스코인터내셔널",
+      "ms_score": 58,
+      "ai_score": 80,
+      "confidence": "HIGH",
+      "reason": "[T] tech 80 / earn 0 (RSI 43, 5일 -11.5%)",
+      "entry_price": 74000.0
+    },
     {
       "stock_code": "086790",
       "name_kr": "하나금융지주",
       "ms_score": 62,
-      "ai_score": 100,
+      "ai_score": 80,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 100 (RSI 60, 5일 +0.0%)",
-      "entry_price": 126600.0
-    },
-    {
-      "stock_code": "068270",
-      "name_kr": "셀트리온",
-      "ms_score": 60,
-      "ai_score": 82,
-      "confidence": "HIGH",
-      "reason": "[E+T] tech 83 / earn 67 (RSI 35, 5일 -3.3%)",
-      "entry_price": 191300.0
-    },
-    {
-      "stock_code": "180640",
-      "name_kr": "한미반도체",
-      "ms_score": 67,
-      "ai_score": 57,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 57 / earn 0 (RSI 37, 5일 -1.2%)",
-      "entry_price": 110900.0
-    },
-    {
-      "stock_code": "105560",
-      "name_kr": "KB금융",
-      "ms_score": 58,
-      "ai_score": 27,
-      "confidence": "LOW",
-      "reason": "[T] tech 28 / earn 0 (RSI 44, 5일 +0.6%)",
-      "entry_price": 158800.0
+      "reason": "[E] tech 0 / earn 81 (RSI 50, 5일 -1.9%)",
+      "entry_price": 123100.0
     }
   ]
 }

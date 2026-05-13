@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-05-12T16:11:01",
+  "generated_at": "2026-05-13T15:09:06",
   "dates": [
+    "2026-05-13",
     "2026-05-12",
     "2026-05-11",
     "2026-05-08",
@@ -39,6 +40,87 @@
     }
   },
   "by_date": {
+    "2026-05-13": {
+      "ai": {
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "180640",
+            "name_kr": "한미반도체",
+            "ms_score": 58,
+            "ai_score": 78,
+            "confidence": "HIGH",
+            "reason": "RSI 26으로 과매도 극단 구간에 진입했으며, 과거 성공 사례(2026-05-07 +3.74%)와 동일한 기술적 반등 패턴(기술적_반등 100% 성공률)에 해당합니다. 메가팹 수요 확대와 자사주 매입 등 긍정 촉매가 아직 주가에 덜 반영된 상태로 종가매수 후 단기 반등 기대감이 높습니다.",
+            "entry_price": 109700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 62,
+            "ai_score": 92,
+            "confidence": "HIGH",
+            "reason": "[E+T] tech 45 / earn 93 (RSI 40, 5일 -0.7%)",
+            "entry_price": 193300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "302440",
+            "name_kr": "SK바이오사이언스",
+            "ms_score": 58,
+            "ai_score": 91,
+            "confidence": "HIGH",
+            "reason": "[T] tech 91 / earn 0 (RSI 32, 5일 -5.2%)",
+            "entry_price": 41800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 58,
+            "ai_score": 80,
+            "confidence": "HIGH",
+            "reason": "[T] tech 80 / earn 0 (RSI 43, 5일 -11.5%)",
+            "entry_price": 74000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 62,
+            "ai_score": 80,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 81 (RSI 50, 5일 -1.9%)",
+            "entry_price": 123100.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-05-12": {
       "ai": {
         "count": 1,
