@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T18:05:02",
+  "generated_at": "2026-05-13T18:08:34",
   "count": 500,
   "posts": [
     {
@@ -793,6 +793,36 @@
       "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WQ2g4TE51V0FmWDBZOFVjQVhDbVphVXVWQzVmV1RLY01taHBramJiaVNPTUdHZVZTQWtwWExtM2NUSW9fVkVLN2p4UzRMWUNla01KWnNYQVdLR3hlMUhxWlZqZEhQQnIxaThhVXQxNk44Sks1VXZHSkhEVQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-13 12:08:06"
+    },
+    {
+      "id": 3373,
+      "title": "Fed 금리 인하 논의가 대두되고 있으며, 이는 USD/KRW 환율 약세, 외국인 자금의 신흥시장 회귀, 한국 채권 금리 하락을 유도할 수 있다. 수출주와 고금리 수혜주에 상반된 영향을 미칠 것으로 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>Fed 금리 인하 논의가 대두되고 있으며, 이는 USD/KRW 환율 약세, 외국인 자금의 신흥시장 회귀, 한국 채권 금리 하락을 유도할 수 있다. 수출주와 고금리 수혜주에 상반된 영향을 미칠 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Holdouts against the tide - the case for Fed cuts Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 인하 가능성은 환율·외국인 수급·채권 금리 등 한국 시장의 주요 변수들을 직접 영향하는 의미있는 매크로 변화",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "포스코",
+        "삼성SDI",
+        "네이버",
+        "카카오"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTUJXU1FpREZJbHJ0WElwdzlkdWZ0b3ZaYk1GYldRMWExYzVycU5yN3d4cFJfbldEZjV5d0RWNHN3WE9yU1VNYkVzRzdmcGpVVGZmRUphYnJWb21sVzhFb2lOMnc1VTNPVU9ZektnSjZOZUJUQlNlX1pVaHhfUGRaRHZYSEliY09xdEtwUThScWpyTW1CLXhqQjdMeFVURnJkbTB4dUR2NA?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-13 18:08:05"
     },
     {
       "id": 3244,
@@ -7900,6 +7930,60 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 3359,
+      "title": "트럼프-시진핑 정상회담에서 AI 협력 추진이 기술 패권 경쟁과 상호 불신으로 인해 난항을 겪을 것으로 예상됨. 미중 AI 반도체 경쟁 심화는 한국 HBM·메모리 공급망 수요 불확실성 증대.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-13",
+      "summary": "<p>트럼프-시진핑 정상회담에서 AI 협력 추진이 기술 패권 경쟁과 상호 불신으로 인해 난항을 겪을 것으로 예상됨. 미중 AI 반도체 경쟁 심화는 한국 HBM·메모리 공급망 수요 불확실성 증대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Tech rivalry, distrust sap summit hopes for Trump-Xi AI push Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미중 AI 패권 경쟁 심화는 반도체 공급망 재편과 수요 변동성을 높여 SK하이닉스·삼성전자 등 메모리·파운드리 업체의 전략적 위험 요인이 되며, 단기적 악재와 장기적 기회가 혼재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaUJtM1JTcTFZOC11QVp1OU83REJBV2FzMzZTRVZSSk9Ia3JfSTlSY3lVVklWYzE4ZlVLQkMxR3AzMTFVeFc0SEhTOFlzbjRaNjluWWlsMnFpbUprNnEwYVQ0QWwzanRHbXlmeXQ1OGJSWGgwMU1FMWxOeFBOa3BoSzNpYkFaWkl3NnJEWk1Id0ZUbmRFVGJDOTJjbmhOS1MwXzFsY3R3?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-13 18:07:12"
+    },
+    {
+      "id": 3357,
+      "title": "트럼프가 이란과의 교착 상태 속에서 중국 방문을 앞두고 있으며, 이는 미중 무역 긴장과 반도체 공급망에 영향을 미칠 수 있는 상황. 한국 반도체 기업들의 중국 시장 접근성과 수출에 변수가 될 것으로 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-13",
+      "summary": "<p>트럼프가 이란과의 교착 상태 속에서 중국 방문을 앞두고 있으며, 이는 미중 무역 긴장과 반도체 공급망에 영향을 미칠 수 있는 상황. 한국 반도체 기업들의 중국 시장 접근성과 수출에 변수가 될 것으로 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Locked in a stalemate with Iran, Trump heads to China Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미중 관계 악화 가능성이 반도체·메모리 공급망과 중국 수출에 영향을 줄 수 있는 의미있는 매크로 리스크 요인이나, 구체적 정책 결과는 아직 불확실",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWGxYUWdtRXUyS0wzemV0R0o2QXF0WUVWUzFRTTdWRTNIeFU4NVA5dS1iYm5SWkpNSG9EVW9PZks2UUEzck83UDlRYjJhYTdtWnVKbnQ4aGM4WFZ1b00tX2cxRE5RNTdVZTZUWTJEem5faWtaZDZmUnNNZGtRZllWUERZbnRadw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-13 18:07:05"
+    },
+    {
       "id": 3230,
       "title": "미국 재무부 베센트와 중국 허 부총리가 한국에서 트럼프-시진핑 정상회담을 앞두고 경제 협력을 논의했으며, 미중 무역·기술 갈등 완화 신호가 한국 반도체 수출 환경 개선을 시사함.",
       "category": "주식",
@@ -12903,88 +12987,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQjlNbGxLTWtJZ1Y1U04taWl4aS1ySEJ6MHo2ckJ1elFOSnFsYzVEMUpzTXZZRU1xVDhYTnpJLVkxalU1dXJjZHZMWHBma0VlMWliVXRpOFBUa1JHRzJ5dWhuNmhiZlMwSkc2V0ViQ2w3OER0X0NzOFdkemw5T21zQ1FmMXVtZml4T2xPSmRSVTI4YnhjWXhwYkdkLS1TN1AyTTZPTmNYZWpXd1RuM0E?oc=5",
       "direction": "down",
       "updated_at": "2026-05-04 21:08:04"
-    },
-    {
-      "id": 896,
-      "title": "미국-이란 대립이 장기화되면서 유가 변동성이 확대될 전망이며, 이는 인도 루피화 및 채권 수익률에 영향을 미칠 것으로 예상됨. 유가 상승 시 신흥국 통화 약세 압력으로 작용하며 원화 약세와 한국 수출기업의 에너지 비용 상승 우려",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-04",
-      "summary": "<p>미국-이란 대립이 장기화되면서 유가 변동성이 확대될 전망이며, 이는 인도 루피화 및 채권 수익률에 영향을 미칠 것으로 예상됨. 유가 상승 시 신흥국 통화 약세 압력으로 작용하며 원화 약세와 한국 수출기업의 에너지 비용 상승 우려</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Indian rupee, bonds set to sway to oil prices as US-Iran stalemate drags Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 변동성 확대는 USD/KRW 환율과 에너지 수입국인 한국의 경상수지·수출경쟁력에 중간 수준의 영향을 미치나, 신흥국 매크로 이슈로 한국 직접 노출도는 제한적",
-      "stocks": [
-        "SK이노베이션",
-        "GS에너지",
-        "현대중공업",
-        "대형 조선사",
-        "수출제조업"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLXlFLUM5Q0R4WjY4SGtUMXc0RXBYZjRPQ2kzYUd6VmVTNE5CT2drMlVkcDVjVXkyYVQ1am5IWi1rYWcxVXhqRC1tZHdsUUpmdXk3Z0FmQWkyZjZ5SWZmTm0xMmhBR3lraFNyMGdkOEVBc0lmSkkwa2cwZmE2V2NmSXVKdVJ0RHJRQ2QyeGJ6SVJuYWR1TlcyQmFKell6UXF1aEwxZTFKdmMybHRnbzl3?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 15:09:06"
-    },
-    {
-      "id": 895,
-      "title": "금(Au)이 약세를 보이고 있으며, 인플레이션 우려와 이란 분쟁이 미국 금리 전망을 흐리고 있다. 이는 USD 강세로 이어져 USD/KRW 환율 상승과 한국 수출주·외국인 매도 압력으로 작용할 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-04",
-      "summary": "<p>금(Au)이 약세를 보이고 있으며, 인플레이션 우려와 이란 분쟁이 미국 금리 전망을 흐리고 있다. 이는 USD 강세로 이어져 USD/KRW 환율 상승과 한국 수출주·외국인 매도 압력으로 작용할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gold eases as inflation jitters, Iran war cloud US rate outlook Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "금값 약세 → 달러 강세 → 원화 약세이지만, 이란 지정학적 리스크와 불확실한 금리 전망은 한국 증시 심리에 부정적 영향을 미칠 수 있다.",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대자동차",
-        "기아",
-        "LG화학"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZV9RZUw2TkhabGxXQVlGdUNxNkQ4UHVKaUZqSmNFSUFtRXZyYmdZcE1mMmhoQV9ZWHZDRGxfMFdKYTRLeUhZdWxZOTV4SUJFelNBY2prTmw1eVhub3JvZWdFelcxRFY2amJJZnVQVUlNamJkQWwwVThyRnpYalJISlFPVzI0Ym4tZDhmd1k4bFo1NnhDUDVhSFlfQnRWLVRwU2h3U1FkNDBGQzJaYjZpQg?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 15:09:02"
-    },
-    {
-      "id": 985,
-      "title": "미국 바이오 CDMO 기업 Spirit이 갑작스러운 사업 중단 후 대부분의 고객에게 환불을 진행했다고 발표. 글로벌 CDMO 시장의 공급망 불확실성이 가중되며, 한국 CDMO·제약 기업들의 수탁 기회 및 경쟁 강화로 작용 가능.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-03",
-      "summary": "<p>미국 바이오 CDMO 기업 Spirit이 갑작스러운 사업 중단 후 대부분의 고객에게 환불을 진행했다고 발표. 글로벌 CDMO 시장의 공급망 불확실성이 가중되며, 한국 CDMO·제약 기업들의 수탁 기회 및 경쟁 강화로 작용 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Spirit says most customers refunded after abrupt shutdown Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "글로벌 CDMO 공급망 교란은 삼성바이오로직스·셀트리온 등 한국 CDMO/제약사의 수주 기회를 높이나, 구체적 한국 영향도는 제한적",
-      "stocks": [
-        "삼성바이오로직스",
-        "셀트리온",
-        "한미약품",
-        "SK바이오사이언스"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZkNKaFNuVTJwcW4zUjRDcXQ0ZTBFb1BXOHp0Wm1xb0kxZVFTQ2RtRUdfUDMyNTNwUlhNYTNFeUJKYTlOVmUxNDl5TVdRYXg2QjNuYUVaRWpUNFNJcUhON3JFc0hpS0V6Rl9GYVpUSFNOcTFZYkxFQ0FsM0JRM09ReENNTWlkbFpNNDlrRmZPTVlCMThXa2Z2RkdTYURZOVRabURPZ29iY2l2M0tMLWZKT093a2k?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-05 00:07:52"
     }
   ],
   "events": [
