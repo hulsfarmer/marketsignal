@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T09:05:34",
+  "generated_at": "2026-05-13T09:08:46",
   "count": 500,
   "posts": [
     {
@@ -633,6 +633,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 3083,
+      "title": "삼성전자가 한국 노조와 임금 협상에 실패하여 파업이 임박한 상황. 메모리/파운드리 사업 차질 우려로 공급망 리스크 발생 가능.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>삼성전자가 한국 노조와 임금 협상에 실패하여 파업이 임박한 상황. 메모리/파운드리 사업 차질 우려로 공급망 리스크 발생 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Samsung Electronics, S. Korean labor union fail to reach pay deal, strike looms Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "주요 반도체 기업의 생산 차질 가능성이 글로벌 공급망과 한국 반도체 산업 경쟁력에 직접 영향을 미치는 의미있는 악재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZEdIUWhHa0l4bFg3OEtsUVIwMEV2Zl93WG9XSEduMVVzVFJJTkxhV1ByTnJYNVY4NTN2dFJlbWVvaUVPUXNuRGpNYU1xTWg2VVF5QlV6aDlLejRrTUVQdW5YMmprMU1BMGlvbl9MNHVMVlJsN1gyaFpLTTc5cUlic2tjNUU0WFZ6MVQtaHRPczB0YVI3YllmUnVqcnBkVjEzY3VsZkltdUNYclRtZnFoZTdMNlI1QTdX?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-13 09:07:17"
     },
     {
       "id": 3053,
@@ -7290,6 +7317,31 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 3080,
+      "title": "Google이 SpaceX와 Suncatcher 궤도 데이터센터 프로젝트 협력을 논의 중. 우주 기반 인프라 인증으로 글로벌 AI/클라우드 수요 확대 신호이나, 한국 반도체·데이터센터 기업과의 직접 경쟁 심화 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-12",
+      "summary": "<p>Google이 SpaceX와 Suncatcher 궤도 데이터센터 프로젝트 협력을 논의 중. 우주 기반 인프라 인증으로 글로벌 AI/클라우드 수요 확대 신호이나, 한국 반도체·데이터센터 기업과의 직접 경쟁 심화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Google in talks with SpaceX for Suncatcher orbital data center project Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "우주 데이터센터 등장으로 글로벌 반도체·메모리 수요 장기 증가 기대감이 있으나, Google-SpaceX 독점화로 한국 기업의 경쟁력 약화 가능성이 동시에 존재해 영향 방향 불명확.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWFZ6VlQtblp1MHVjT3FKaExwWFd4UDRCeGEwMjN4S0t3QjY5Zk9sMHc5SkRjS3pPTE0yQjNpbVZTS042Vm9pMW5wVzN1TlhNS2pFdEJKd1g0VzJvWjB5Skp5azR5Z2lWVmNkQVpUYi0yLUNxSHJGWUN2U2kwUUtSLUhRN1ROSk1UQndIVHVETnVhREVfODVfT0Q1SWhIUUFoZ0FSNQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-13 09:07:05"
+    },
+    {
       "id": 3048,
       "title": "이란 분쟁으로 LNG 공급이 제한되자 아시아 주요 시장들이 석탄 사용을 증가시키고 있다. 이는 에너지 수급 불균형으로 인한 글로벌 원자재 수급 변화를 의미한다.",
       "category": "거시",
@@ -7695,6 +7747,32 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHhwaGkxMUwtRTJmcFhZU2puNzFud0M2WkJlNTFYeHRReFRFb0ZJMUdTLUhxTXBJMGxyOEc0MXJzX2pHWDdQMGZjNmhxc19yOVRWMHlPTXVzQS1VdmNsSTNraGlTMzZQanMzOGd3S2pVb2lGUElxUXNXQWd6MGpvMVh1SHFZYnh3TmJiSm1MSlU2eUxWWU05Zld4SmRfekh4WmNXOEVxUUJUUThqMnY2NVdn?oc=5",
       "direction": "down",
       "updated_at": "2026-05-12 12:08:04"
+    },
+    {
+      "id": 3087,
+      "title": "중국 자동차 제조사들의 미국 진출이 시간 문제라는 분석. 미국 자동차 시장 재편으로 글로벌 공급망 경쟁 심화 예상되며, 한국 배터리·반도체 공급업체의 경쟁 압박 증가 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-11",
+      "summary": "<p>중국 자동차 제조사들의 미국 진출이 시간 문제라는 분석. 미국 자동차 시장 재편으로 글로벌 공급망 경쟁 심화 예상되며, 한국 배터리·반도체 공급업체의 경쟁 압박 증가 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - Chinese cars on US roads is matter of when, not if Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국 자동차 업체의 미국 진출 가속화는 글로벌 전기차·배터리 산업 경쟁 구도 변화를 의미하며, 한국 반도체·메모리 수요 및 자동차 관련 부품 공급망에 중기적 영향을 미칠 수 있음.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYWMwd25xbFNYUGxXdHdYNDBXUzRTVjNaWFRncXNLcFFGakQ4QlFuM20tVnk5TGFCLUUyZ0wtNFh3SzhzUURwdW4zMXQ0LUNQUEp1VGllUWhQUnR5aVlrWnNDZmdBOE5OelpwUEljREpWMXZjSk10Y0NxX241ODlqaFJwaXRsYi1Kd2RQUE9DbEFvSzFiYVo5Y3FUMGVVelhZb3BEMDFNSQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-13 09:07:34"
     },
     {
       "id": 3049,
@@ -12976,84 +13054,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWmdwUTFDYkxVNS0wRVlNQ0JSMUpvM1pFZ2lrRFptY05LYU96TUU1eHdrU3lhczFDcS04QXpvUS1iWEh5ZXJBbnp1N2RfTDdNbkpWWU5vclYwRENIanpKS0xIU2t4RWlvRHF3QVhaVjBlMzV4Y0FIUkF4ZzI5YU02TW1YQUtpU1lCeU1sOHJhek5ib2YwYXN0OC1GcndWeS16bkpOVk9jLU9pRDNFa1gzNlNpbFJkaUd4Z1E?oc=5",
       "direction": "down",
       "updated_at": "2026-05-04 21:07:57"
-    },
-    {
-      "id": 949,
-      "title": "대만 델타일렉트로닉스가 AI 데이터센터 수요 급증에 따른 원가 상승을 경고. 전력공급장치·냉각 솔루션 등 인프라 비용 증가로 마진 압박 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>대만 델타일렉트로닉스가 AI 데이터센터 수요 급증에 따른 원가 상승을 경고. 전력공급장치·냉각 솔루션 등 인프라 비용 증가로 마진 압박 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Taiwan&#x27;s Delta Electronics warns costs rising as AI data centre demand surges Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 데이터센터 공급망 원가 상승 신호는 HBM·메모리 수급 타이트닝과 가격 상승 압력으로 SK하이닉스·삼성전자에 긍정적이나, 델타 같은 경쟁사 수익성 악화는 간접적 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdXF6eThtWndpSTVtbW81QW5MM2Q2N3BVZnRic2I1Vmd2amczZkFZX3RLcjc5WW01ODZnWFozUDJkSkV0OENuVG5rbXNyZU1uNGsyOWs5bjlYNW1xWkdRWElEZTZGbEl4ZXhrMkZ3UFRjTGUwb182Mk8xY2Q2d0RTMVdHeUJtWTFOSnRDdHZuc0l2LUtZZkg3T201TFpJbDRyNllBdnBXMEk3NDZkTFplc0t0ZjNEekdRcEdsYnF3UUdJS0pZSGo0?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-04 21:07:08"
-    },
-    {
-      "id": 939,
-      "title": "ECB가 6월부터 단계적 금리 인상을 시작할 예정. 유로존 기준금리 인상은 USD/KRW 약세 압력으로 작용하며, 한국 수출주(반도체, 자동차)에 긍정적 영향 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>ECB가 6월부터 단계적 금리 인상을 시작할 예정. 유로존 기준금리 인상은 USD/KRW 약세 압력으로 작용하며, 한국 수출주(반도체, 자동차)에 긍정적 영향 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): ECB policymakers see first of several rate hikes in June, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "ECB 금리 인상은 달러 약세 유도로 원화 강세 및 한국 수출경쟁력 개선에 유리하나, 글로벌 긴축 신호로 작용하면서 KOSPI 외국인 수급에는 제한적 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대자동차",
-        "LG전자"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVXNka0pqY3Q2RHhCZnN3WnB0SXYtbzVEWXR5cnFvRVNJRGY1MkFZMFA1M0VIemJpTENGaXB1b1NvazYzc2p2MWdmSkpTc0pxVG8xSGxwbEJiWTh5NjhCVDNER3I3dmVyeWRSWWZ4THFsUkl5a0YwdzZCMTc0SndBNEtwcTdqZ2kxa3VYbmIwQjFpN0tmSnUyUGhmR3R4UVlIaWwyNGVRcVEwcFN4MGlibWhVZUJQUQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-04 18:08:18"
-    },
-    {
-      "id": 900,
-      "title": "ECB가 4월 금리는 현 수준 유지하되 6월 인상을 확정 신호함. 글로벌 금리 인상 사이클 지속으로 USD/KRW 강세와 외국인 주식 순매도 압박 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>ECB가 4월 금리는 현 수준 유지하되 6월 인상을 확정 신호함. 글로벌 금리 인상 사이클 지속으로 USD/KRW 강세와 외국인 주식 순매도 압박 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): ECB keeps rates unchanged but June hike firmly on table Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "ECB 매파 기조는 달러 강세 → 원화 약세 → 수출주 실적 개선하나, 글로벌 금리 상승은 외국인 자금 이탈 압박 신호로 증시 심리 부정적",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대자동차",
-        "현대모비스"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQk1mV2ZLMjNERkxvcG9UdFpQbk9IWm03dUU2eUpjUzlWUzN2eExyTGpSM0FzT2U1bTRMTVNPdkpkdDhyYTlBd0RfbUlhWklveVdfdktFRUl0ZFlWVHlGNnR1aEZhTlczVVlkX2VaRHZuZFdEOFVlam1CMnpjVklZSzBwVFRhT2JQMjdQTEhSNU43SjQy?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 15:09:21"
     }
   ],
   "events": [
