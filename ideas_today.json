@@ -1,23 +1,13 @@
 {
-  "date": "2026-05-13",
-  "generated_at": "2026-05-13T16:10:30",
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14T16:10:09",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-13T16:10:30",
-      "pick_date": "2026-05-13",
-      "count": 1,
-      "picks": [
-        {
-          "stock_code": "180640",
-          "name_kr": "한미반도체",
-          "ms_score": 58,
-          "ai_score": 78,
-          "confidence": "HIGH",
-          "reason": "RSI 26으로 과매도 극단 구간에 진입했으며, 과거 성공 사례(2026-05-07 +3.74%)와 동일한 기술적 반등 패턴(기술적_반등 100% 성공률)에 해당합니다. 메가팹 수요 확대와 자사주 매입 등 긍정 촉매가 아직 주가에 덜 반영된 상태로 종가매수 후 단기 반등 기대감이 높습니다.",
-          "entry_price": 109700.0
-        }
-      ],
+      "updated_at": "2026-05-14T16:10:09",
+      "pick_date": "2026-05-14",
+      "count": 0,
+      "picks": [],
       "accuracy": {
         "total": 56,
         "correct": 25,
@@ -40,47 +30,10 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-13T16:10:30",
-      "pick_date": "2026-05-13",
-      "count": 4,
-      "picks": [
-        {
-          "stock_code": "068270",
-          "name_kr": "셀트리온",
-          "ms_score": 62,
-          "ai_score": 92,
-          "confidence": "HIGH",
-          "reason": "[E+T] tech 45 / earn 93 (RSI 40, 5일 -0.7%)",
-          "entry_price": 193300.0
-        },
-        {
-          "stock_code": "302440",
-          "name_kr": "SK바이오사이언스",
-          "ms_score": 58,
-          "ai_score": 91,
-          "confidence": "HIGH",
-          "reason": "[T] tech 91 / earn 0 (RSI 32, 5일 -5.2%)",
-          "entry_price": 41800.0
-        },
-        {
-          "stock_code": "047050",
-          "name_kr": "포스코인터내셔널",
-          "ms_score": 58,
-          "ai_score": 80,
-          "confidence": "HIGH",
-          "reason": "[T] tech 80 / earn 0 (RSI 43, 5일 -11.5%)",
-          "entry_price": 74000.0
-        },
-        {
-          "stock_code": "086790",
-          "name_kr": "하나금융지주",
-          "ms_score": 62,
-          "ai_score": 80,
-          "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 81 (RSI 50, 5일 -1.9%)",
-          "entry_price": 123100.0
-        }
-      ],
+      "updated_at": "2026-05-14T16:10:09",
+      "pick_date": "2026-05-14",
+      "count": 0,
+      "picks": [],
       "accuracy": {
         "total": 45,
         "correct": 23,
@@ -130,48 +83,78 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-13T16:10:30",
-      "pick_date": "2026-05-13",
+      "updated_at": "2026-05-14T16:10:09",
+      "pick_date": "2026-05-14",
       "count": 3,
       "picks": [
         {
-          "stock_code": "012200",
-          "name_kr": "계양전기",
-          "open_price": 11910,
-          "close_price": 13500,
-          "trade_value": 455483793935,
-          "market_cap": 367508191500,
-          "sector": "기계·장비",
-          "rarity_months": 3,
-          "score": 10.0,
-          "notes": "KOSPI | 등락 +22.8% | 턴오버 123.9% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "332570",
-          "name_kr": "PS일렉트로닉스",
-          "open_price": 12840,
-          "close_price": 14390,
-          "trade_value": 323151933925,
-          "market_cap": 672179391570,
-          "sector": "전기·전자",
-          "rarity_months": 3,
-          "score": 9.8,
-          "notes": "KOSDAQ | 등락 +18.7% | 턴오버 48.1% | ★ 섹터 대장주"
+          "stock_code": "064400",
+          "name_kr": "LG씨엔에스",
+          "open_price": 75100,
+          "close_price": 85750,
+          "trade_value": 732169540100,
+          "market_cap": 8307970041000,
+          "sector": "IT 서비스",
+          "rarity_months": 0,
+          "score": 3.9,
+          "notes": "KOSPI | 등락 +16.7% | 턴오버 8.8% | ★ 섹터 대장주"
         },
         {
           "stock_code": "439960",
           "name_kr": "코스모로보틱스",
-          "open_price": 35500,
-          "close_price": 40550,
-          "trade_value": 397759755300,
-          "market_cap": 1302016138300,
+          "open_price": 47300,
+          "close_price": 52700,
+          "trade_value": 321314537500,
+          "market_cap": 1692139346200,
           "sector": "의료·정밀기기",
           "rarity_months": 0,
-          "score": 1.1,
-          "notes": "KOSDAQ | 등락 +30.0% | 턴오버 30.5% | ★ 섹터 대장주"
+          "score": -2.1,
+          "notes": "KOSDAQ | 등락 +30.0% | 턴오버 19.0% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "088350",
+          "name_kr": "한화생명",
+          "open_price": 4965,
+          "close_price": 5480,
+          "trade_value": 231102993650,
+          "market_cap": 4759544400000,
+          "sector": "보험",
+          "rarity_months": 2,
+          "score": -3.5,
+          "notes": "KOSPI | 등락 +10.0% | 턴오버 4.9% | ★ 섹터 대장주"
         }
       ],
       "watching": [
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "scan_date": "2026-05-14",
+          "breakout_open": 4965,
+          "breakout_close": 5500,
+          "entry_price": 4716,
+          "stop_loss": 4621,
+          "box_top": 4932,
+          "box_bottom": 4748,
+          "expires_at": "2026-08-12",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리0% 양봉10% | 진입:시가-5% 손절:진입가-2%"
+        },
+        {
+          "ticker": "064400",
+          "name": "LG씨엔에스",
+          "scan_date": "2026-05-14",
+          "breakout_open": 75100,
+          "breakout_close": 85800,
+          "entry_price": 71345,
+          "stop_loss": 69918,
+          "box_top": 66122,
+          "box_bottom": 64177,
+          "expires_at": "2026-08-12",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리4% 양봉14% | 진입:시가-5% 손절:진입가-2%"
+        },
         {
           "ticker": "348340",
           "name": "뉴로메카",
@@ -228,7 +211,7 @@
           "box_top": 2375,
           "box_bottom": 2130,
           "expires_at": "2026-08-05",
-          "status": "watching",
+          "status": "entered",
           "is_expired": false,
           "memo": "D전략 | 꼬리3% 양봉11% | 진입:시가-5% 손절:시가-2%"
         },
@@ -348,7 +331,7 @@
           "box_top": 14764,
           "box_bottom": 13752,
           "expires_at": "2026-07-27",
-          "status": "watching",
+          "status": "entered",
           "is_expired": false,
           "memo": "D전략 | 꼬리7% 양봉11% | 진입:시가-5% 손절:시가-2%"
         },
@@ -626,6 +609,30 @@
       "holding": [],
       "history": [
         {
+          "ticker": "203650",
+          "name": "드림시큐리티",
+          "avg_price": 3520,
+          "sell_price": 3490,
+          "quantity": 426,
+          "buy_date": "2026-05-14",
+          "sell_date": "2026-05-14",
+          "sell_reason": "stop_loss",
+          "pnl_rate": -0.85,
+          "pnl_amount": -12780
+        },
+        {
+          "ticker": "241520",
+          "name": "DSC인베스트먼트",
+          "avg_price": 15150,
+          "sell_price": 15040,
+          "quantity": 99,
+          "buy_date": "2026-05-14",
+          "sell_date": "2026-05-14",
+          "sell_reason": "stop_loss",
+          "pnl_rate": -0.73,
+          "pnl_amount": -10890
+        },
+        {
           "ticker": "033100",
           "name": "제룡전기",
           "avg_price": 74800,
@@ -725,13 +732,13 @@
       "initial_capital": 2000000,
       "slots": 5,
       "slot_size": 400000,
-      "month_return": -0.34,
-      "month_count": 4,
-      "month_pnl": -6880,
+      "month_return": -0.66,
+      "month_count": 6,
+      "month_pnl": -13200,
       "month_start": "2026-05-01",
-      "year_return": 3.83,
-      "year_count": 8,
-      "year_pnl": 76680,
+      "year_return": 3.52,
+      "year_count": 10,
+      "year_pnl": 70360,
       "year_start": "2026-01-01",
       "accuracy": null
     }
