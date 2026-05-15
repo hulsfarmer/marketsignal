@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-05-14T16:10:12",
+  "generated_at": "2026-05-15T15:10:07",
   "dates": [
+    "2026-05-15",
     "2026-05-13",
     "2026-05-12",
     "2026-05-11",
@@ -40,6 +41,126 @@
     }
   },
   "by_date": {
+    "2026-05-15": {
+      "ai": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "000100",
+            "name_kr": "유한양행",
+            "ms_score": 76,
+            "ai_score": 78,
+            "confidence": "HIGH",
+            "reason": "RSI 33으로 과매도 구간 진입, 경영진 자사주 매수·소각이라는 실질적 주주가치 제고 행동이 확인된 상태로 호재 미반영 가능성 높음. 5일 +3.2%로 단기 바닥 형성 신호가 나타나며 기술적 반등 패턴(100% 성공률)과 일치. 긍정 뉴스 5건, 부정 0건으로 뉴스 환경도 우호적.",
+            "entry_price": 89400.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005940",
+            "name_kr": "NH투자증권",
+            "ms_score": 62,
+            "ai_score": 72,
+            "confidence": "HIGH",
+            "reason": "1분기 역대 최대 영업익·순익 달성이라는 강력한 실적 촉매가 존재하며, 5일 -4.4% 조정 후 주가 안정화 국면으로 저점 매수 기회. RSI 50 중립 구간으로 추가 하락 압력 제한적이고 뉴스 긍정 3건·부정 0건으로 호재 선반영 우려가 낮음.",
+            "entry_price": 35000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "302440",
+            "name_kr": "SK바이오사이언스",
+            "ms_score": 59,
+            "ai_score": 63,
+            "confidence": "MEDIUM",
+            "reason": "긍정 뉴스 5건·부정 0건의 강한 뉴스 환경과 RSI 44 중립 구간으로 과열 페널티 없음. 자사주 매입과 RSU 제도 도입은 기업 체질 개선 신호이며 5일 +2.1%로 약한 상승 모멘텀 유지 중. 단 직접적 주가 촉매 강도가 다소 약해 MEDIUM 신뢰도 부여.",
+            "entry_price": 43200.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 58,
+            "ai_score": 100,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 100 (RSI 62, 5일 +0.0%)",
+            "entry_price": 126500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 57,
+            "ai_score": 98,
+            "confidence": "HIGH",
+            "reason": "[T] tech 98 / earn 0 (RSI 34, 5일 -5.6%)",
+            "entry_price": 30150.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "034020",
+            "name_kr": "두산에너빌리티",
+            "ms_score": 64,
+            "ai_score": 79,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 80 / earn 0 (RSI 43, 5일 -9.7%)",
+            "entry_price": 117100.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "138040",
+            "name_kr": "메리츠금융지주",
+            "ms_score": 55,
+            "ai_score": 79,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 70 / earn 80 (RSI 35, 5일 -2.0%)",
+            "entry_price": 110100.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "096770",
+            "name_kr": "SK이노베이션",
+            "ms_score": 55,
+            "ai_score": 78,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 79 / earn 0 (RSI 44, 5일 -5.9%)",
+            "entry_price": 126700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-05-13": {
       "ai": {
         "count": 1,
