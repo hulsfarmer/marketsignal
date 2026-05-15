@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T15:10:07",
+  "generated_at": "2026-05-15T16:10:31",
   "dates": [
     "2026-05-15",
     "2026-05-13",
@@ -157,8 +157,45 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "001740",
+            "name_kr": "SK네트웍스",
+            "open_price": 8250,
+            "close_price": 9310,
+            "trade_value": 381202893270,
+            "market_cap": 1867529106590,
+            "sector": "유통",
+            "rarity_months": 3,
+            "score": 7.0,
+            "notes": "KOSPI | 등락 +17.9% | 턴오버 20.4% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "067310",
+            "name_kr": "하나마이크론",
+            "open_price": 48000,
+            "close_price": 54200,
+            "trade_value": 577433743375,
+            "market_cap": 3602361049200,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 4.6,
+            "notes": "KOSDAQ | 등락 +21.5% | 턴오버 16.0% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "036540",
+            "name_kr": "SFA반도체",
+            "open_price": 8420,
+            "close_price": 8820,
+            "trade_value": 256441946405,
+            "market_cap": 1450539872460,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": -4.2,
+            "notes": "KOSDAQ | 등락 +6.5% | 턴오버 17.7%"
+          }
+        ]
       }
     },
     "2026-05-13": {
