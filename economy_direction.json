@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T21:05:02",
+  "generated_at": "2026-05-15T21:08:37",
   "count": 500,
   "posts": [
     {
@@ -840,6 +840,62 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 4275,
+      "title": "인플레이션 우려로 미국 채권 수익률이 급등하면서 나스닥, S&P 500 선물이 하락. 이는 USD/KRW 환율 상승과 한국 수출 기업의 수익성 악화, KOSPI 외국인 매도 압력으로 이어질 전망.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-15",
+      "summary": "<p>인플레이션 우려로 미국 채권 수익률이 급등하면서 나스닥, S&P 500 선물이 하락. 이는 USD/KRW 환율 상승과 한국 수출 기업의 수익성 악화, KOSPI 외국인 매도 압력으로 이어질 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nasdaq, S&amp;P 500 futures tumble as yields jump on inflation worries Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "글로벌 금리 상승은 한국 원화 약세, 외국인 자금 이탈, 수출 대기업 실적 악화 등 거시적 영향을 미치는 주요 매크로 변수",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG전자",
+        "현대자동차",
+        "삼성SDI",
+        "POSCO",
+        "대형 금융주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWjZBNTNiNzEwUUZ4SU40ZzNPX0FWWGhydkJtR3M2aEljYjVWZUN2NjRIRG5vQ2UtNUNlSGNlMUFacmlzQXZfaHN2MkJLTHY0ZXZMcVItZXo3Z3dubE9aenZXYjl6V0loS2lTZVVmUUtfeXpZcng5Tkw0bS03TmJ0d3RIOGV3ZnF3NmxTNU5SY0YwTlN2U2M5c3RmRFNtUkRZYTZxZjZURWFYWGVKNk9UZXdNdVNFOXp3MmQ2VjBCRThSaXZlNEtQc3hxN1NrSUZMRTBzc1NB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-15 21:08:03"
+    },
+    {
+      "id": 4261,
+      "title": "글로벌 AI 붐으로 삼성전자에서 임금인상 요구와 노사갈등이 심화되고 있으며, 이는 반도체 생산 차질 우려로 이어지고 있다. HBM 등 고부가 메모리 생산에 영향을 미칠 수 있다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-15",
+      "summary": "<p>글로벌 AI 붐으로 삼성전자에서 임금인상 요구와 노사갈등이 심화되고 있으며, 이는 반도체 생산 차질 우려로 이어지고 있다. HBM 등 고부가 메모리 생산에 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: At Samsung, the global AI boom spurred a looming strike and deep divisions Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "삼성전자의 주요 반도체 생산 거점의 노사분쟁은 메모리/파운드리 수급 차질 위험으로 한국 반도체 산업 경쟁력과 관련 종목 수익성에 직접 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPazhhTjBlZFhaU1F0MVhQc0liUUhodERHaFIwOGI5amFWemRFejQ5SXJZWDZlY01tTEtkaEtoVzQ0aVc5dFpoWDlLUmtEQVRyVzRsVlhIX2N5LWxZUzY5UkVaUVhlOWVoelUtenlraVpGQk5XekM4VWlNUE5qTVRoUGRiUWdhcXVxQXp1eDRLWFVSNkFQTTNqR00wei1SWkZaX0ZnTHFFOVB5VGVmczQ0cUxEOW8tN041U2I4?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-15 21:07:14"
     },
     {
       "id": 4126,
@@ -9170,6 +9226,33 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 4276,
+      "title": "영국 정치 불확실성과 글로벌 인플레이션 우려로 파운드, 주식, 채권이 동시 하락. 글로벌 금리 경로 불확실성 심화로 한국 증시 외국인 자금 유출 압박 및 USD/KRW 상승 압력 가능.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-15",
+      "summary": "<p>영국 정치 불확실성과 글로벌 인플레이션 우려로 파운드, 주식, 채권이 동시 하락. 글로벌 금리 경로 불확실성 심화로 한국 증시 외국인 자금 유출 압박 및 USD/KRW 상승 압력 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Britain&#x27;s pound, stocks and bonds fall on political uncertainty, global inflation angst Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "글로벌 매크로 불확실성 확대는 한국 외국인 수급과 환율에 영향을 주지만, 영국 중심 뉴스로 직접 영향은 제한적",
+      "stocks": [
+        "기관·외국인 의존도 높은 대형주(삼성전자",
+        "SK하이닉스",
+        "LG화학)",
+        "수출주(현대자동차",
+        "LG전자)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdXRYdExkekU5bmk1OHhmU2JYY0xpNVFaaDhueUZMRldScVFFaFhrd2VndWxiZDZZR01qbnpoT201RGFmQlZURTB6LVY2dXR0RE9mMXBVVlZHTG1ZeHRzS2RWSmtETi14dVFaekhJWUx1SklGZnNyVERyUHVpU1NWbDJka1VNanJiaUNQQjNCaFYtcmx5OGhqRmotbWhEVVdiUTVsVlFiWE1fN1VaazhUWHZmYnVHUHFYc0dLYUhBQQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-15 21:08:08"
+    },
+    {
       "id": 4129,
       "title": "G10 통화 간 금리 차익거래(캐리 트레이드)가 부활하고 있으며, 이는 USD 강세와 고금리 통화 선호로 이어짐. 한국의 경우 USD/KRW 환율 상승 압력이 가중되고 외국인 주식 순매도 유발 가능성.",
       "category": "거시",
@@ -12646,6 +12729,34 @@
       "updated_at": "2026-05-08 15:09:34"
     },
     {
+      "id": 4281,
+      "title": "미국이 이란에 대한 보복 공격을 실시했으며, 이는 중동 지역 긴장 고조로 이어져 유가 상승 가능성과 USD/KRW 환율 상승 압력을 초래할 것으로 예상됨. 글로벌 경제 불확실성 증대로 인한 외국인 투자 심리 위축이 KOSPI에 부정적 영향을 미칠 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-07",
+      "summary": "<p>미국이 이란에 대한 보복 공격을 실시했으며, 이는 중동 지역 긴장 고조로 이어져 유가 상승 가능성과 USD/KRW 환율 상승 압력을 초래할 것으로 예상됨. 글로벌 경제 불확실성 증대로 인한 외국인 투자 심리 위축이 KOSPI에 부정적 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US military says it carries out retaliatory strikes against Iran Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "중동 지정학적 리스크 확대로 유가 상승 및 달러 강세 가능성이 높지만, 한국 경제의 직접적 영향은 제한적이며 글로벌 리스크 회피 심리가 외국인 수급에 단기적 악영향을 줄 수 있음.",
+      "stocks": [
+        "한국조선해양",
+        "현대중공업",
+        "SK에너지",
+        "S-Oil",
+        "항공사(대한항공",
+        "아시아나항공)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-15 21:08:27"
+    },
+    {
       "id": 2827,
       "title": "마이크로칩 테크놀로지가 강한 칩 수요에 따라 분기 매출을 컨센서스 이상으로 가이던스하며, 글로벌 반도체 수요 회복 신호. 한국의 메모리·파운드리 업체들에 긍정적인 산업 동향 반영.",
       "category": "주식",
@@ -12831,114 +12942,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSGpnejB5bFljOVlBYm9mdUh6UGZBYVNSa2REQjNtSlM5NWJ5NmJOdnd4aFVjaU5VbkpoUlYxRGZsRTFlQ1ByQmZKTFR3TWItX3BDUmdMT3ZYYUpadTVNX3l1cEJtWnZZTHpaaTMwSkEwMXB5SVpDMldVWmxNOF9NczFPX25OZDRNc1dqRl9vVVJNcHJsWlJCYzhTZEUwQTNYMWxXZl9vanhvMExuTWJQZHRZVlVtdXhJZjJFamtfRENCOFVmRHZXakVXVXVNanlOMk1aUTM0dnctb1VibmgtODJTQ0Rqdw?oc=5",
       "direction": "up",
       "updated_at": "2026-05-09 09:07:26"
-    },
-    {
-      "id": 2092,
-      "title": "일본 3월 실질임금이 3개월 연속 상승하며 BOJ의 기준금리 인상 가능성이 높아짐. 일본 금리 인상 시 엔화 강세 → 원화 약세 압력, 외국인의 한국 주식 매도 유인 증가 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>일본 3월 실질임금이 3개월 연속 상승하며 BOJ의 기준금리 인상 가능성이 높아짐. 일본 금리 인상 시 엔화 강세 → 원화 약세 압력, 외국인의 한국 주식 매도 유인 증가 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Japan real wages climb for third month in March, backing case for BOJ rate hike Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "일본 금리 인상은 엔화 강세와 글로벌 금리 사이클에 영향을 주어 한국 채권·외국인 수급에 중간 수준의 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeHRmU1R0ZXBIcWtrWnhPeEt2UXgtVl9YUmtMbTNGM3YzbnRtMFNNOVJ4OEN6REQ2eWdNOV9TaUgzRzJ3c3FrVDFIeEhtdTlSaGlBeUtuV2MzWmcxWWV3ZTIwRm9EcEJ2dWJvQjJKeHVKVFBKcWg1OHRPSHpfZEpSS3ZjeWNlRzlkbVQ0azNNOTlMWjc5aURjSTZaaklpQUpvLU45OEFhLWpHRDhDb3FTRU1vRlFWZjh3cnpfQU12UzZ6V2lIeUtYMFB2V0ZsNmEtVTBrU29EWVR0enp6NVdhRENn?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-09 00:08:25"
-    },
-    {
-      "id": 2040,
-      "title": "UAE가 호르무즈 해협을 통해 은폐된 유조선으로 석유를 판매하고 있으며, 이는 글로벌 유가 변동성 증대 및 중동 공급망 불확실성을 의미한다. 한국의 정유·화학업체들의 유가 연동 수익성에 직접 영향을 미칠 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>UAE가 호르무즈 해협을 통해 은폐된 유조선으로 석유를 판매하고 있으며, 이는 글로벌 유가 변동성 증대 및 중동 공급망 불확실성을 의미한다. 한국의 정유·화학업체들의 유가 연동 수익성에 직접 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: Hungry to sell, UAE slips hidden oil tankers through Strait of Hormuz Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 석유 공급 구조 변화는 국내 정유사의 원가 및 유가 연동 마진에 영향을 미치는 산업 동향이나, 구체적 수치 부재로 중간 수준 평가",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS에너지"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRjNQVDRxamlZMDlncVBKeDc1WXpxMERnZHcwb2FPOWxyU3dIb0RUaGk4c1RXczQxeS1HQ1RMbGwybkpNckFTT0ZsNGdOdUR5bFRnVFlzcEZiQUpOWWVOR0hYLW1FWlJtMEZVbW9zOTRfX3puVzY5bVhjWnA3cEI0WVI0bkNZWERuZ3lWOWFqX2ZwRGxxc242d2RjUEFtZ2dJcVdJc3cycDdEaHJxYlQybkVJSDI?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-08 18:08:36"
-    },
-    {
-      "id": 2033,
-      "title": "ECB 슈나벨 이사회원이 6월 금리인상 가능성을 높이며 중앙은행 독립성 훼손 우려를 제기. 유럽 금리 인상 기조 강화로 USD/KRW 약세 압력 및 한국 수출 기업의 환율 리스크 증가 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>ECB 슈나벨 이사회원이 6월 금리인상 가능성을 높이며 중앙은행 독립성 훼손 우려를 제기. 유럽 금리 인상 기조 강화로 USD/KRW 약세 압력 및 한국 수출 기업의 환율 리스크 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): ECB&#x27;s Schnabel bolsters rate hike bets, warns of &#x27;quiet erosion&#x27; of central bank independence Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "ECB 금리인상 강신호는 달러강세 약화와 유로 상승으로 이어져 한국 수출 경쟁력에 중립~소폭 긍정, 그러나 글로벌 금리 경로 변화로 원화 및 채권시장에 미묘한 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "LG화학",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUFVvZXU2bVFmR3RMaHJjV2NhT2VCc2pOSko2Tk9XamNIWEE4T3l6dGFDNXdkajcxVl9FcDk5WXotRmtTZHcwampsV0Y1R19vT2QycmdYdmNpYUQxRTVaRldlQUZEMjNsbFlNTFBibkxKN2ZxZVdHMFRnY0o3T3hTRXNhcmFFWWRTcFhnc1d2a3gwS2RoNnFncnpRdnQyZ1EyUVdrNQ?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-08 18:08:07"
-    },
-    {
-      "id": 1947,
-      "title": "중동 긴장 고조로 달러화 강세가 지속되고 있으며, 투자자들의 리스크 회피 심화로 안전자산 선호도가 높아지고 있다. 이는 USD/KRW 환율 상승과 원화 약세를 초래하여 한국 수출기업의 수익성에는 긍정적이나, 외국인 자금 유출과 채권 금리 상승 압력으로 국내 증시에는 부",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>중동 긴장 고조로 달러화 강세가 지속되고 있으며, 투자자들의 리스크 회피 심화로 안전자산 선호도가 높아지고 있다. 이는 USD/KRW 환율 상승과 원화 약세를 초래하여 한국 수출기업의 수익성에는 긍정적이나, 외국인 자금 유출과 채권 금리 상승 압력으로 국내 증시에는 부정적 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar firms as Middle East tensions keep investors on edge Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "중동 지정학적 위험은 글로벌 리스크 회피 심화로 이어져 달러 강세·원화 약세·외국인 자금 유출 등 한국 증시의 다층적 악재를 초래하는 의미있는 매크로 변화",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "Kakao",
-        "현대자동차",
-        "포스코",
-        "LG화학"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSzFzZWM5SGpxR0pfQm53NUZKLVI4ODUyTm5ESFotaU9uWi01VkN4SnY0cXJrdkp6U2pxYlZ2VERlYTVYMU85V0Q4ZzR2NFpYMUF3UGxmSzRLNU5lY3JqbF9uamJlSUpjZUJZYzJWa2NFYUpLOTgxYTZfNUpOQWxBTHpqd1ZHaGlZekU5Z2NBd1dfeHppWnhqWXA3WHN1WGJYcVE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-08 15:09:15"
     }
   ],
   "events": [
