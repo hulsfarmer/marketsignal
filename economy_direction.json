@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T15:05:02",
+  "generated_at": "2026-05-16T15:08:50",
   "count": 500,
   "posts": [
     {
@@ -868,6 +868,32 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 5124,
+      "title": "ARM Holdings이 미국 반독점 조사 대상이 될 예정. 칩 기술 관련 독점 행위 검토로, 글로벌 반도체 생태계의 주요 플레이어인 ARM의 사업 제약 가능성 대두.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-15",
+      "summary": "<p>ARM Holdings이 미국 반독점 조사 대상이 될 예정. 칩 기술 관련 독점 행위 검토로, 글로벌 반도체 생태계의 주요 플레이어인 ARM의 사업 제약 가능성 대두.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Arm Holdings to face US antitrust probe over chip tech, Bloomberg News reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "ARM은 한국 반도체 업계(삼성, SK하이닉스 등)의 핵심 라이선스 파트너이므로, ARM 규제 강화 시 라이선스 비용 상승·기술 접근성 제약 등이 한국 업체에 직접 영향을 미칠 수 있음.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSHlkeEpxbnJZNS10MUJ0MWpQbmw2Q2FHNU1WNTF5OGQyYVo0bVVZaE93ZnRDVGEwSUxXZ24zU2N2ZXdGNERSODI1R0gtRHl1bC1KVi1admlrNlBGY3JxenFGTlRfYUJrbG56RXJXcWpwV2U4X21ZVGlXUWdPMHA2eXU2WFQ5U0ZrMm9XNGFNMjd6MVIyOEltLUFsUmhCVDh1RXduM0s2Q0xWSWxsbjh3cWRlQ3BGSHBPWUxMZjlrMnhGWTFpRHc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-16 15:07:05"
     },
     {
       "id": 4987,
@@ -12926,33 +12952,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNFNJM1Uzd010R0QwdmMtOGRiTzNKMUhJckhsbXZJMUxEQ2tzZnNvbHh0dXZFbWFuSF9Da1FDOUgtWDd1emtPZk1kRGJacWU1SHNaZm1vNFl3dE03UWczNVlaUk85VU9Gay1tb1ZXM0l0aWZhVUxhTjNlM2daUW9OaG9TZVVXaV9pczdfRWdsSl9JMlJibE54R0xtYkQ1cS1aa1N0UGJaMkxwWU1DYXJWQk5R?oc=5",
       "direction": "down",
       "updated_at": "2026-05-12 03:08:05"
-    },
-    {
-      "id": 2721,
-      "title": "일본이 엔화 약세 대응을 위해 미국(워싱턴)과 일본중앙은행(BOJ)의 협력을 강화하고 있다. 엔화 약세는 USD/KRW 환율 상승 압력으로 작용하며, 한국 수출업체의 환율 경쟁력을 약화시킬 가능성이 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>일본이 엔화 약세 대응을 위해 미국(워싱턴)과 일본중앙은행(BOJ)의 협력을 강화하고 있다. 엔화 약세는 USD/KRW 환율 상승 압력으로 작용하며, 한국 수출업체의 환율 경쟁력을 약화시킬 가능성이 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Japan bets on Washington, BOJ for extra punch in yen battle Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "엔화 약세 심화 시 한국 수출품(반도체, 자동차, 화학) 가격경쟁력 악화 및 USD/KRW 상승으로 외국인 자금 유출 압력 증가",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대자동차",
-        "LG화학",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdkFYaWQ5a2xxdWp3VV94TUdUQzVXWFQxRUNocFlUMmM0b3J3cW84NlNHSkpVcTVUaG1MNDJGV3NLVWViZ25KWk1NbXM2U1VKZDlRVmNnYUhtLTN4YnNTMzVVWVlEWkx4cGNKZzI1bl9NZ2VMUTVVcmdrZWFQbURlR05KVkEwWTNGdkpHT2VYNlBPT2lTaDktT2publhfdmNfOVc0MmxB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-12 03:07:56"
     }
   ],
   "events": [
