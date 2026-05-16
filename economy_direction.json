@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T18:05:02",
+  "generated_at": "2026-05-16T18:08:19",
   "count": 500,
   "posts": [
     {
@@ -6484,6 +6484,34 @@
       "updated_at": "2026-05-10 06:11:25"
     },
     {
+      "id": 5284,
+      "title": "트럼프 당선으로 미 금리 곡선 가팔라지는 가운데 중국 경제가 부진을 보이고 있습니다. 중국 경제 둔화는 한국의 화장품·자동차·철강 등 주요 수출품 수요 감소로 이어질 우려가 있습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2024-07-15",
+      "summary": "<p>트럼프 당선으로 미 금리 곡선 가팔라지는 가운데 중국 경제가 부진을 보이고 있습니다. 중국 경제 둔화는 한국의 화장품·자동차·철강 등 주요 수출품 수요 감소로 이어질 우려가 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Trump hit steepens curve; China&#x27;s economy judders Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경제 약화는 한국의 대중국 수출 의존도가 높은 자동차·화장품·철강 등 주요 산업에 직접적 악영향을 미치는 매크로 리스크",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO",
+        "신라젠"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qd0dBWG1TdWd5dXRJa0NSSGJfb1VNcG4tRVNUZjNFaHp4SVhpdnNqaUpUdEtuM3FmRkFmbnJkVE5IVVpOZFNlSFB0Yk90N1hENDdkNjRyc1NOSEJPX0FZcTdDVndJQlBaOTZLcHZQa3JydW9NY1haTm1n?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-16 18:08:07"
+    },
+    {
       "id": 2362,
       "title": "중국 경제 성장 둔화로 추가 부양책 압박이 고조되고 있음. 한국의 자동차·화장품·철강 등 대중국 수출 의존 업종에 수요 부진 우려 확대.",
       "category": "거시",
@@ -6801,6 +6829,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU29XeWdWN21zUmdVc0VRS3BPUWQ0YjVnaG02Tk9iVE1BeUhqeFI5S2lBX3A0MWtUSkJLQnhDbnBGUkJYQ2lOYVFjeWJvMFY5RjZnNWh4aW1YTlRQVXlieEhJcU4wd1U4N3dLb2VqQ181UUp4Vk04WC1WZ1EzTEkyS1Z2UWxIZUVxcDNZZkVZRG1uSlJKV3hLTkdhNHBjVTg4RjJxZ0JzcHUxMzFZbXlGenpCVVFGWFJTYnNjRFRfbjA2Mm93VHVIVA?oc=5",
       "direction": "down",
       "updated_at": "2026-05-16 12:08:32"
+    },
+    {
+      "id": 5287,
+      "title": "중국이 기준금리를 깜짝 인하하며 위안화가 약세로 출발했다. 중국 경기 부양 신호지만 위안화 약세는 한국 수출품의 가격 경쟁력을 악화시킬 우려가 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2014-11-23",
+      "summary": "<p>중국이 기준금리를 깜짝 인하하며 위안화가 약세로 출발했다. 중국 경기 부양 신호지만 위안화 약세는 한국 수출품의 가격 경쟁력을 악화시킬 우려가 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s yuan opens weaker after surprise rate cut Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 통화 약세는 한국의 주요 수출 산업(화장품, 자동차, 철강, 게임)의 가격 경쟁력을 직접 압박하는 악재",
+      "stocks": [
+        "아모레퍼시픽",
+        "LG생활건강",
+        "현대자동차",
+        "기아자동차",
+        "POSCO",
+        "넥슨",
+        "엔씨소프트"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTHlKRzQ2ZGIzaUtQWFRTazZDNk1tejRPNE82YU1QWU5IUHNlSF9hWFdQV253V3ByaTJQYmdLYUpRTHBUZ3pQOUdtZncwTk54Q29wQWY4X3FnWHpzZmgwTFkyV2R3c2ZhdUhsWnV3NnprdmtaTFo1NXh3RjlMa1I2QkpUbzRGSXNGZnUxSFc1QWFRUC1JUnZ5MWVYTEZUMnZLNEpUazlR?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-16 18:08:18"
     },
     {
       "id": 2386,
@@ -11805,6 +11862,34 @@
       "updated_at": "2026-05-12 12:08:04"
     },
     {
+      "id": 5281,
+      "title": "중국 후 주석의 위안화 약세 관련 발언으로 아시아 신흥국 통화가 하락했으며, 원화와 링깃이 동반 약세를 기록했다. 원화 약세는 한국 수출 경쟁력 약화로 이어질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-11",
+      "summary": "<p>중국 후 주석의 위안화 약세 관련 발언으로 아시아 신흥국 통화가 하락했으며, 원화와 링깃이 동반 약세를 기록했다. 원화 약세는 한국 수출 경쟁력 약화로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): EM ASIA FX-Won, ringgit fall after China Hu&#x27;s yuan remarks Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "위안화 약세→원화 약세 연쇄로 수출 경쟁력 악화 우려; 중국 경기 신호로도 작용하며 수출 의존도 높은 한국 기업에 직접 영향",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO",
+        "삼성전자"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb3psaW84RlRCcUtJbWdIMkdHdnNPV2xCWmpvSmlKbDd5QTV1OGJVUTJSTkRmS3k5dEZtZFB2a014QldodjI0bXRlZXdTaFV6WnVkS3B3dW9QbjFDNFk1WnNQb3FHVjRPeEF6dTV3YVNkdEtveFJnVVpwTGhRdUNhYTA4d091T2NNOWxPb1UyalQ1aURXOTQxWVhhcTU1QjNqX0V1TXcycDZ2TEVxd1BWNWV3?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-16 18:07:57"
+    },
+    {
       "id": 3470,
       "title": "미국이 이란의 중국 석유 수출에 대한 새로운 제재를 발표했다. 이는 글로벌 유가 상승 압력과 USD/KRW 강세를 초래할 수 있으며, 에너지 수입국인 한국의 에너지 비용 부담 증가 및 경상수지 악화로 이어질 수 있다.",
       "category": "거시",
@@ -12862,91 +12947,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdXo0VFhQYUx2QUlfQUJkb2VyRTB0SXc1ekVBcXBQdXdCTVl5b1hUWTNnRnhSZ2xiNUFsYlR0cTk3VFNhdVdHaUZ5RTRYY0VMT3U3ay05elpwYUwycjRMX3o0RTBHTzViWURPMy1LVEZudExJVE9jQ3dldkk3ekNOUG9ic1hKRmxCb09IV092Ylg3RDZLVGwteS1HNTc5Y280Q1JEeklNeWFsWmU2QjlDbUN5RE9zZmFybU5yczhzeG5UMEtSc1UwZm43bDFPZw?oc=5",
       "direction": "up",
       "updated_at": "2026-05-09 18:07:47"
-    },
-    {
-      "id": 3820,
-      "title": "트럼프 행정부가 임시 관세 관련 소송에서 항소심 승리를 확신하고 있음. 미국 무역 담당자가 관세 정책 강행 의지를 표시하며 글로벌 무역 불확실성 증대.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>트럼프 행정부가 임시 관세 관련 소송에서 항소심 승리를 확신하고 있음. 미국 무역 담당자가 관세 정책 강행 의지를 표시하며 글로벌 무역 불확실성 증대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump administration will win appeal of ruling against temporary tariffs, US trade chief says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "미국 관세 정책 강화는 한국 바이오/CDMO 기업의 미국 시장 진출 및 수출 환경에 직접 영향을 미칠 수 있으며, 글로벌 공급망 리스크 증가로 실적 불확실성 확대",
-      "stocks": [
-        "삼성바이오로직스",
-        "셀트리온",
-        "한미약품",
-        "SK바이오사이언스",
-        "유한양행"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM2s2VEVFaHNTMndEcXBaZ3FJWTJDSmNKSldUenIwdDFPMDJ4bWMzRHZUNjM1VDhOcV9ZXzJvZHE4bllNN3RwTkhRbENGaXY2REpkUG9vTlBlSko0UkpPS1ktN1A2b2pNRmZxZXFfc3VNSVd1Qnk0Z1lhY0o1OHdTQXlDenByM2xpaGJhbElhZ2lUUy1sWmtsV0doQ0tqZ1dlMzJ1ZjMyZVh0dWx1NXlndzYyUGJINUZWU1pXSUdScUZlUGNvbGZBOEZ1Zw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-15 12:08:02"
-    },
-    {
-      "id": 3034,
-      "title": "미국이 EU에 대한 관세 인상을 7월 4일 데드라인으로 위협하며 통상 긴장 고조. 달러 강세 가능성과 글로벌 경기 악화 우려로 한국 수출기업과 환율에 부정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>미국이 EU에 대한 관세 인상을 7월 4일 데드라인으로 위협하며 통상 긴장 고조. 달러 강세 가능성과 글로벌 경기 악화 우려로 한국 수출기업과 환율에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US says it will revert to higher tariffs on EU goods if Brussels misses July 4 deadline Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국-EU 관세 분쟁 심화는 글로벌 경기 둔화 우려를 높이고 USD/KRW 강세 압박으로 한국 수출 경쟁력 악화 가능성이 있으나, 직접적 대한 관세는 아니어서 중간 수준의 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대차",
-        "기아",
-        "포스코",
-        "삼성SDI"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTnpBc3B0NTdJSzRHdS1vZldDWU5raTMycDBEZVM3eW5tYlpMV1I4NWlwTUx6M3oyN2dGWFl2ZDVnZG96TE9YQ3MyU2VMQVg0VmtPa2NBX0F1eks5YVJEbjZPb2w0RjhEVVQtWExUMDNmUWQzcm1NTUU3SUJrdDZhYnp6cnBxcUR0dlI2dENyZmx4UTlrb2ZSUWVpdHUxaUkwMUxhVFpFVHAtY0c1eF9pa3htTkE5akpr?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 03:08:09"
-    },
-    {
-      "id": 2839,
-      "title": "미국 컨테이너 수입이 4월 5.5% 감소했으며, 무역분쟁과 지정학적 리스크가 주요 원인. 글로벌 무역 둔화는 한국의 수출 부진으로 이어질 수 있고, USD/KRW 강세 지속 가능성 증가.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>미국 컨테이너 수입이 4월 5.5% 감소했으며, 무역분쟁과 지정학적 리스크가 주요 원인. 글로벌 무역 둔화는 한국의 수출 부진으로 이어질 수 있고, USD/KRW 강세 지속 가능성 증가.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US container imports fell 5.5% in April on trade and geopolitical risks, Descartes says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 수입 부진은 글로벌 경기 약세 신호로 한국 수출 기업과 환율에 부정적이나, 단일 월간 지표로 직접성은 중간 수준",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대차",
-        "현대모비스",
-        "CJ대한통운",
-        "한진"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZGdGQU5ZWE9ydEx6REx5aml2TGdpa1dLRjJFajVZZEh4bWdwdGlHbkZsakNjZFl6dkJGRmVCNWlGSnJ0bU1YVWVUazE4REFUVVFsbmEwejkwV2FnWk5FXzJiRno2SHQzR3R1Z016aVo0VngwSV9YNU9WVFpnaTlhNGU0UjRfTUJ5YkdqaER2d1NtcV9wd0NzdnlaZ3NnTUZNZEQxc0pORkVyMUtfT1JRY3NYZEk0NUR1V1paR3ZCTQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-12 12:07:53"
     }
   ],
   "events": [
