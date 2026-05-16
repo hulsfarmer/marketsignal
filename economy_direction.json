@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T03:05:02",
+  "generated_at": "2026-05-17T03:08:37",
   "count": 500,
   "posts": [
     {
@@ -895,6 +895,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmxMdlNJMXdlUF9ZOFk0RW1tYlpwSkdiREhNRWVfUnZER1dCQnFIUjNIZElVazZVako3N0tDek1tQzU5V18teTFTWW9nSUVKaG85bldoSDRjWHFubjVZTk1fTDBEQklZV3RsNlJ2Z294MFcwbXk4Vy02T0hQbldzbG1tcUpueTAzV0NBa0lkUUowOThPX3AyRXZ6MVU5dksydktzMDAyWHJkeG04ZWFOT3JvTUJENDduX3Fj?oc=5",
       "direction": "down",
       "updated_at": "2026-05-17 00:07:30"
+    },
+    {
+      "id": 5572,
+      "title": "원화가 광범위한 하락을 주도하고 있으며, 중국 경제 관련 인사의 발언이 신흥 아시아 통화 약세를 촉발했다. 중국 경제 부진 신호는 한국의 주요 수출산업에 부정적 영향을 미칠 것으로 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-15",
+      "summary": "<p>원화가 광범위한 하락을 주도하고 있으며, 중국 경제 관련 인사의 발언이 신흥 아시아 통화 약세를 촉발했다. 중국 경제 부진 신호는 한국의 주요 수출산업에 부정적 영향을 미칠 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): EM ASIA FX-Won leads broad declines on stocks, Wen&#x27;s comments Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경제 약세 신호와 원화 약세는 자동차·화장품·철강 등 중국 수출 의존도 높은 한국 주요 산업의 수익성을 동시에 압박",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO",
+        "엔씨소프트",
+        "넥슨"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRHU3OXNIZ0lXeWNpWXJqWGVkUWRPSVFWQmIxU2lkeXk5bkI2Q1l6WHN0bWhMNG1wSUJCNUFyVHJHeTQzdDNYaEdGQXhHcnVqMkFQNXFBZWJTeUsyOEoxZ0lNUXlJZ2NQTnBEaXJmRDVjRGhrYnBEYWxPd2dSdmcxRWpna3RQazctaGRDaG92akd1dG9LbkNTOVcxeHRCeGdlT0dnWEVIWnZiOEpQVzMwNHR1engydw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-17 03:08:18"
     },
     {
       "id": 5124,
@@ -5827,6 +5856,35 @@
       "updated_at": "2026-05-03 22:14:49"
     },
     {
+      "id": 5571,
+      "title": "중국이 1분기 재정지출을 가속화하며 경기 부양에 나섰다. 중국 경제 성장 확대는 한국의 화장품, 자동차, 철강 등 주요 수출품 수요 증대로 이어질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-04-26",
+      "summary": "<p>중국이 1분기 재정지출을 가속화하며 경기 부양에 나섰다. 중국 경제 성장 확대는 한국의 화장품, 자동차, 철강 등 주요 수출품 수요 증대로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China first-quarter fiscal spending quickens as Beijing seeks to spur growth Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경기 부양은 한국 주요 수출산업(자동차, 철강, 화장품)의 수요 증가를 시사하는 의미있는 매크로 신호",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "POSCO",
+        "아모레퍼시픽",
+        "LG생활건강",
+        "네이버",
+        "카카오"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSGtabjBYaEJxY1Y4WXllVUNqalFZTmxIeG54Vm5uOVljeEtFTmtjVmV6cHduZDlWeGtMOFNFZFRVMmVQeXZMMHJfeHV3cWIwZ3ZDbUdxM3Qwa09RVEt2TjBPSmJPenV5c1ljSHlwUGNmdE9KalJVaWhlbmJfMDd5THdfZ19kTlVGd3BYY09IaGJOcWtTSTQ2ZGJheEQyLUpFRE1ra0l0T2Y5ME85SlI2ZnhkME1hVUtBY2hIYXZCMUlrNkU?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-17 03:08:14"
+    },
+    {
       "id": 979,
       "title": "미국 국무부가 DeepSeek 등 중국 AI 기업들의 AI 기술 절도 혐의에 대해 전 세계 경고를 발령했으며, 이는 중국의 반도체·AI 기술 확보 압박이 심화되고 있음을 의미한다. 한국 반도체 기업들(HBM, 메모리)의 수출 규제 강화 가능성과 중국 AI 경쟁사 부상에",
       "category": "주식",
@@ -9862,6 +9920,33 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 5569,
+      "title": "중국이 트럼프-시진핑 정상회담 후 관세 인하와 농산물 시장 접근 확대를 시사했으며, 이는 미중 무역 긴장 완화를 나타냄. 한국의 에너지·화학 기업들은 중국 수요 회복과 유가 안정화의 긍정적 영향을 받을 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-16",
+      "summary": "<p>중국이 트럼프-시진핑 정상회담 후 관세 인하와 농산물 시장 접근 확대를 시사했으며, 이는 미중 무역 긴장 완화를 나타냄. 한국의 에너지·화학 기업들은 중국 수요 회복과 유가 안정화의 긍정적 영향을 받을 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China signals tariff cuts, advances in farm market access after Trump-Xi summit Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "미중 무역 긴장 완화로 글로벌 경기 회복 기대감이 커지면서 유가/원자재 수요 증가 전망이 에너지·화학사에 중립-호재로 작용",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWHFhaW1sdDJhWU1HUVBLOGN3ZU53NEtZYlRYVTI4WldQb0tHdV9YNW1PT0Q0S1RIUFZGRmRadE9wNEU4UGpQMWJuMEU3b1l0M2lvNFJjbm5ybl9vWDNLanItb0N1WnJmcTVKME5icUp1SnZ3X0R6UWxIXzZPRF9tdUN6QlVCcUJNWmRQbUI2QXdGSHVneFBIZ2FPWl9sWkRkSmVXUFRjZ0ZnN3BRelo1N2RESTlKXzdVNTlwWl9FVko?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-17 03:08:06"
+    },
+    {
       "id": 5545,
       "title": "트럼프 대통령이 중국 방문을 마치고 돌아왔으나 미중 간 실질적 합의 없이 교착 상태 지속. 반도체·AI 분야 중국 정책 불확실성이 계속될 것으로 예상되어 한국 메모리·파운드리 업체의 중국 시장 기회와 리스크 모두 상존.",
       "category": "주식",
@@ -9914,6 +9999,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOEJpODNJRzJ5ci1ZSEhOa1Y0QnJyc3gxWC1UNFEtTWt2X01oTThWSGZoU1ExdWVKQUxiWGRFWW93VGhQZnIweVhwRVBUREw0VlJlVXRIZjJDRXlEbndzM0UtczhOcDNzYmpzNVREcG1fbUpnYmY3a0JBcDg4Q2dtblk5aGRqd2tPUHcwdGNubkhUV1phTWM3a2JZdURDaU9uWkk4Q2pYMU9kTlNjODkyT3g0d29yTmRXTVpKZ0hQVU9yUGxZN2c?oc=5",
       "direction": "down",
       "updated_at": "2026-05-16 21:07:22"
+    },
+    {
+      "id": 5568,
+      "title": "캐나다 알베르타주의 탄소가격제 합의로 새로운 유전 개발 및 송유관 사업이 탄력을 받을 전망. 북미 유가 안정화 및 에너지 공급 확대는 한국의 정유·화학 기업들의 원료 수급 안정성 개선에 긍정적.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-15",
+      "summary": "<p>캐나다 알베르타주의 탄소가격제 합의로 새로운 유전 개발 및 송유관 사업이 탄력을 받을 전망. 북미 유가 안정화 및 에너지 공급 확대는 한국의 정유·화학 기업들의 원료 수급 안정성 개선에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Carney announces Alberta carbon pricing deal that may pave path for new oil pipeline Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 안정화 및 에너지 공급 확대는 정유·석유화학 기업에 중기적 이익이나, 한국 직접 영향은 제한적 (알베르타는 한국의 주요 유전 지역 아님)",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTzZSSGIzaDlMQkJmRnFRRnl6VnVZTEhsYmU2TzdTOVpabWlGR0MyM09nMG1uTzdxQXZuQ3VKYWJ5aFQ3NVkzazh0WmhpTGR2c3plZW9SSDVkX0t2elBtYjRjSHRVallkT05hSTUyS0RBNGZYUlVQMC1JbDlkQlpMb3lHUzlNV1A5N1ZrRWdFdnVId2tJWnNyRVlvSnZEajdCREV3N2M5eTljdFFCcko0ZFA4SWNIUWIzVi1iWmhraWl1Rk9XQ1ZHajJFMVY?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-17 03:08:02"
     },
     {
       "id": 5552,
@@ -12835,115 +12947,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObTJqTlhwQTJLdmNFa05JNklPa2VCNjdmYnNNZ1RNUmtvYkI2ZS1JcWZyQ1BiczVGZjJVd1J0Z0Z4ZEMwYU9Ud1o0N1pySjFyNmxjR3FOSG5fYlRrZ0ZZYlZ0UWpSNllEbVFKM1NlenJWMUs4emlNV0NVMU5aZ3VVZEpmLTI3TXh2dkJSdjFfd1NHdy0wYkJPS2JZMDJWUnBCeWdpQ3dIQktpY1hpYWpFS3psY2tjV3ZDdFNoU0x3?oc=5",
       "direction": "up",
       "updated_at": "2026-05-11 09:08:37"
-    },
-    {
-      "id": 2495,
-      "title": "미국-이란 평화협상 불합의로 유가가 상승했으며, 이는 에너지 수입국인 한국의 유류비 상승 압박 및 정유·화학 업체의 마진 변동성을 초래할 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-10",
-      "summary": "<p>미국-이란 평화협상 불합의로 유가가 상승했으며, 이는 에너지 수입국인 한국의 유류비 상승 압박 및 정유·화학 업체의 마진 변동성을 초래할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil jumps as US and Iran disagree on peace proposal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 변동성은 한국 정유·화학 산업의 수익성에 직결되지만, 현물 급등 수준과 지속성 불명확하여 중간 수준 영향.",
-      "stocks": [
-        "SK이노베이션",
-        "S-Oil",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZnd6N0Zkang0NXYwR1c5V1M5ZDNWcjRaM1k5RDVidlU0UlpqRUVZcXdLSVMtd3VqYVY3RkVGa0piQVc4eERTRV94TjVIQXlUTE85Z1pwQ055cDZQNy13bmZiOC12ODJhclBzUkJiZXN0TlRXMHpOcTdlUGVrc1BUNkZfTUpSMHN0OWlrZ2ZPQjBKREtSeXZjUE1lRDdlX1JOMDU4SDZwdy0?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-11 09:08:33"
-    },
-    {
-      "id": 2489,
-      "title": "걸프만 지역 협상 난항으로 지정학적 불확실성 확대되면서 유가 변동성 증대 예상. 달러 강세와 주식선물 약세로 리스크 회피 심화되어 에너지·화학주 영향 가능.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-10",
-      "summary": "<p>걸프만 지역 협상 난항으로 지정학적 불확실성 확대되면서 유가 변동성 증대 예상. 달러 강세와 주식선물 약세로 리스크 회피 심화되어 에너지·화학주 영향 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Share futures ease, dollar gains as Gulf talks teeter Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "걸프 지역 정치 불안정은 유가 변동성 확대를 의미하며, 에너지·화학 수입 의존도 높은 한국의 정유·화학업체에 명확한 영향을 미침",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMV9DYUJldGFpaFVEczJiSGRvY05xRUwyWm9xZm9BV0VXVXdxZFUzM3c0YmpETzJ6V2lsaWFyRmFWdHhsZHp6dmNTaGRUM2J6dGRiZDc3Yk1KSmRadU9GbG5BNjhlZTVXUWlUZ3RSYmd1a3Q2REkybUdXMElXcFptZnpsZlZ0X0Y0?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-11 09:08:13"
-    },
-    {
-      "id": 2414,
-      "title": "중국 위안화 움직임이 주목받고 있으며, 이는 중국 경제 상황을 반영합니다. 위안화 약세는 한국 수출 경쟁력에 영향을 미칠 수 있고, 중국 내수 부양 신호라면 수출 수요 개선으로 작용할 수 있습니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-10",
-      "summary": "<p>중국 위안화 움직임이 주목받고 있으며, 이는 중국 경제 상황을 반영합니다. 위안화 약세는 한국 수출 경쟁력에 영향을 미칠 수 있고, 중국 내수 부양 신호라면 수출 수요 개선으로 작용할 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Week ahead: Yuan to watch Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 지표(위안화)는 의존도 높은 한국 수출 산업의 수익성과 중국 수요에 직접 영향을 미치는 일반적 거시 동향",
-      "stocks": [
-        "현대차",
-        "기아",
-        "LG생활건강",
-        "아모레G",
-        "POSCO",
-        "CJ면세점"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY3FxRDgzeEFVaVhid3o4M2F5OXl3VU4tTFJHVWM3YlpSbG9KRDBjYkNrd2syTDR6YlBRaVNaNzhSSnRUU3A2NVFyVU5valVSOVVuQkU0b1ZWQ0FHb2RvRi1JSmxvZ05lTGFJc2ZuUXNCbjdsTUxFaEZUMXU3RVBqSnZtaWs5aWZWekxxUXdvZw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-10 21:07:53"
-    },
-    {
-      "id": 2393,
-      "title": "카타르 인근 해역에서 벌크선이 정체불명의 발사체에 피격되었으며, 중동 해상 운송로 불안정성 심화로 유가 상승 및 해운료 인상 압력이 증가할 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-10",
-      "summary": "<p>카타르 인근 해역에서 벌크선이 정체불명의 발사체에 피격되었으며, 중동 해상 운송로 불안정성 심화로 유가 상승 및 해운료 인상 압력이 증가할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): UKMTO says bulk carrier hit by unknown projectile near Qatar Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 분쟁 심화에 따른 유가 상승 우려로 에너지·화학주에 긍정적이나, 해상운송 차질로 수입비용 증가 이중 압박 가능성",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSE96bUZWYWdjX3dMWjhTdkY5eWEwOXI1eElSalVKUnFCNmRYVUdBUkY4d2NPd3huN3VndUoyMWFzZDdBMXU5S0l3SjhoYVNBYkMyWUw2Tkd3WEtyWk44czQ3c2YweHBfRnI2UFc3dkFhS0U2bnVXeFJaNFcxcC1kZFB3WGphYWdBSkpxSldNaEhZUVdaU2lZN2RrUjhkSUtYWFFpUDF6UmJUSEhicnJjSXdUT2g?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-10 18:07:28"
     }
   ],
   "events": [
