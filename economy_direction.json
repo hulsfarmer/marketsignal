@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T15:05:02",
+  "generated_at": "2026-05-17T15:07:32",
   "count": 500,
   "posts": [
     {
@@ -895,6 +895,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 5614,
+      "title": "한국 정부가 삼성전자 파업을 피하기 위해 모든 옵션을 추진하겠다고 발표. 반도체 주요 생산업체의 공급망 차질 위험 대응 시도로, 메모리/파운드리 사업 영향 우려 상황.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-17",
+      "summary": "<p>한국 정부가 삼성전자 파업을 피하기 위해 모든 옵션을 추진하겠다고 발표. 반도체 주요 생산업체의 공급망 차질 위험 대응 시도로, 메모리/파운드리 사업 영향 우려 상황.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea says it will pursue all options to avoid Samsung strike Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "삼성전자 파업은 한국 반도체 수출 및 글로벌 공급망에 직접 영향을 미치는 의미있는 리스크 요인으로, 메모리·파운드리 생산 차질 시 한국 반도체주 전반에 악재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTGlHR0pfeEljcmtyQlg1YnkzUGRjNUViWUpST1V6anRicXRzRDdaa1FzTEl4UlFpWGo0YlJWOVhMVU1MS1JBYjkzRk5TSDctMDNJa1ZBRG9BV2psRjBCVVlYT080a0JGUE85dFprRTBVUGNFbVo3R2lXRVRiR1JURXdzeHdLWElneXROM1J2MHVra09vOXRaaFcyWmJPbkw5ajJ5V0VTVnV3S3ppbDBIX2tNbkN5d1lBRmtZNVEwSFM?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-17 15:07:05"
     },
     {
       "id": 5550,
@@ -12920,32 +12947,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVy16MkViYUpWQnRidzh5VnZ2elo2ZklpUVl2dTFwMGRrOEEzbFgtRng0dEN2VUsycXlqLS12Q2dHVFlnX1ZOMjh5c0lmQ3ExR3BTZWdCYVNXc1F6eGhBQkNrRl9rd1Q2SldtSjlxMlFyTXh4dDNNRGkzWl9ISy1OQnk1SUdsV2JMbHE4QmswLTFkbk11NEdMZW9iY29rdnFvc3cybzFKT3JKOUFxbkhaclVsdlZueDRybXkzNGM3VlN6eFhrYXRN?oc=5",
       "direction": "up",
       "updated_at": "2026-05-16 12:08:36"
-    },
-    {
-      "id": 2966,
-      "title": "5월 4일 호르무즈 해협에서 한국 선박이 정체불명의 물체에 피격됨. 중동 지정학적 긴장 고조로 해상 운송로 리스크 증가, 반도체·전자제품 수출 운송 비용 상승 우려.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-10",
-      "summary": "<p>5월 4일 호르무즈 해협에서 한국 선박이 정체불명의 물체에 피격됨. 중동 지정학적 긴장 고조로 해상 운송로 리스크 증가, 반도체·전자제품 수출 운송 비용 상승 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korean ship in Hormuz hit by unidentified objects on May 4, ministry says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "호르무즈 해협은 한국의 주요 에너지·무역로이며, 지정학적 리스크 심화는 해운비 상승과 공급망 불확실성을 초래해 수출 중심 반도체·전자업체의 원가 압박 요인",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS2pVdVk0WUlEbXl3bVk5M3k4eFRIeGY3Q0xFdjl2ZjZnNy14aGpYdUowQ0lxX2dGalo4RVVXV2NlOEVJM1BHRXYwY202WmdRU0pSN3IyRVpWOWxIZjFmMG5ETDBpR3Zkb21rWmRqLWtFbEVpTXZZQXZrWHBOMjFLYlNfdXVlZFd3a0sxdzVJWXVtS1htMUlIaTFab2VnaUZpNzdiQ3gyVGZDRlRDX3BPT0QyenRhR0xHbkFGS1pEYlBMZnhFS3NYWFNKUGYzUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-12 21:07:17"
     }
   ],
   "events": [
