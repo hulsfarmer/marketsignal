@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T18:08:35",
+  "generated_at": "2026-05-18T18:35:14",
   "count": 500,
   "posts": [
     {
@@ -7417,6 +7417,28 @@
       "updated_at": "2026-05-10 15:08:28"
     },
     {
+      "id": 5841,
+      "title": "휴온스 — 주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260518",
+      "summary": "<p>휴온스가 계열사 휴온스랩을 흡수합병하며 합병신주 3,825,327주(지분율 24.20%) 발행. 휴온스랩은 당기순손실 101억 원(2025년)이지만 히알루로니다제 기반 완제의약품 국내 허가신청 완료한 바이오신약 파이프라인 보유로, 합성신약 중심의 휴온스에 신약 개발 역량과 생산 시너지 기대.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(회사합병결정) · 휴온스</p>",
+      "feedback": "계열사 간 M&A로 신약 파이프라인 강화가 핵심이나, 피합병사 적자(당순손실 101억)로 단기 실적 악화 예상되고, 신주 발행(24.20% 희석)으로 기존주주 지분 희석되는 구조로 긍정·부정 요소 혼재",
+      "stocks": [
+        "휴온스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000408",
+      "direction": "neutral",
+      "updated_at": "2026-05-18 18:35:12"
+    },
+    {
       "id": 5815,
       "title": "한성크린텍 — 단일판매ㆍ공급계약체결(자율공시)              ",
       "category": "주식",
@@ -12835,31 +12857,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcTd1WVY1LUx6R1Z6eXFTajB6TW5Vb3R6QVZEYWgxaUh3Qkl2UUxLR1ROaHJPcUt3djZsalpMT2pqZkI4US05U25mbVhKaURmN0pSTExMaHRHNWRXOUtkcENoNDFrbXVtX3U5QkoySkRwdHhjLVFwamFuTE1fTGZTdTJsWk1aaFk2NF8wcEFVV211dE9JUlFia2F4TDRaeVBUQlE?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-13 12:07:21"
-    },
-    {
-      "id": 3167,
-      "title": "데이터센터의 급증으로 인한 전력망 비용이 소비자에게 전가되는 문제에 대한 보도. AI 인프라 확대에 따른 전력 수요 급증이 전기료 인상 압력으로 작용할 수 있어 반도체·데이터센터 관련 기업의 운영 비용 상승 리스크 대두.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>데이터센터의 급증으로 인한 전력망 비용이 소비자에게 전가되는 문제에 대한 보도. AI 인프라 확대에 따른 전력 수요 급증이 전기료 인상 압력으로 작용할 수 있어 반도체·데이터센터 관련 기업의 운영 비용 상승 리스크 대두.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Are data centers pushing grid costs onto consumers? Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "반도체·데이터센터 산업의 공급망 비용 상승 요인으로 작용할 수 있으나, 아직 규제 단계 뉴스로 직접적 수익 영향은 제한적",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaGNON0JoSklKVS1BZFI3QW5CZXM0N0pLT0VXMDRGanFjRVlVeXhZeDZKTzh0V3c4VHpwMTNXcl9WMkdnZGNseHktTmJ6TzRUY1FZYTlma1dLb0NhZXBpWUY3N2cxV1NfdkIzTng2SmhtamhRV013OEJTZUFNaVhsMUpuSFhoc1dzOFlXQWp2N0VENE11QmlPeVZuZHJTc01tdmc4?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 12:07:05"
     }
   ],
   "events": [
