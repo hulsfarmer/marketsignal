@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T15:17:02",
+  "generated_at": "2026-05-18T16:10:21",
   "dates": [
     "2026-05-15",
     "2026-05-13",
@@ -26,18 +26,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 56,
+      "total": 59,
       "correct": 25,
-      "hit_rate": 44.6,
-      "avg_return": 0.37,
-      "avg_return_open": 0.64
+      "hit_rate": 42.4,
+      "avg_return": 0.1,
+      "avg_return_open": 0.63
     },
     "hybrid": {
-      "total": 45,
+      "total": 50,
       "correct": 23,
-      "hit_rate": 51.1,
-      "avg_return": 0.44,
-      "avg_return_open": 0.53
+      "hit_rate": 46.0,
+      "avg_return": -0.02,
+      "avg_return_open": 0.59
     }
   },
   "by_date": {
@@ -53,10 +53,10 @@
             "confidence": "HIGH",
             "reason": "RSI 33으로 과매도 구간 진입, 경영진 자사주 매수·소각이라는 실질적 주주가치 제고 행동이 확인된 상태로 호재 미반영 가능성 높음. 5일 +3.2%로 단기 바닥 형성 신호가 나타나며 기술적 반등 패턴(100% 성공률)과 일치. 긍정 뉴스 5건, 부정 0건으로 뉴스 환경도 우호적.",
             "entry_price": 89400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 86000.0,
+            "return_pct": -3.8,
+            "return_pct_open": 0.89,
+            "correct": 0
           },
           {
             "stock_code": "005940",
@@ -66,10 +66,10 @@
             "confidence": "HIGH",
             "reason": "1분기 역대 최대 영업익·순익 달성이라는 강력한 실적 촉매가 존재하며, 5일 -4.4% 조정 후 주가 안정화 국면으로 저점 매수 기회. RSI 50 중립 구간으로 추가 하락 압력 제한적이고 뉴스 긍정 3건·부정 0건으로 호재 선반영 우려가 낮음.",
             "entry_price": 35000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 32550.0,
+            "return_pct": -7.0,
+            "return_pct_open": 1.29,
+            "correct": 0
           },
           {
             "stock_code": "302440",
@@ -79,10 +79,10 @@
             "confidence": "MEDIUM",
             "reason": "긍정 뉴스 5건·부정 0건의 강한 뉴스 환경과 RSI 44 중립 구간으로 과열 페널티 없음. 자사주 매입과 RSU 제도 도입은 기업 체질 개선 신호이며 5일 +2.1%로 약한 상승 모멘텀 유지 중. 단 직접적 주가 촉매 강도가 다소 약해 MEDIUM 신뢰도 부여.",
             "entry_price": 43200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 41300.0,
+            "return_pct": -4.4,
+            "return_pct_open": -0.69,
+            "correct": 0
           }
         ]
       },
@@ -97,10 +97,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 100 (RSI 62, 5일 +0.0%)",
             "entry_price": 126500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 119000.0,
+            "return_pct": -5.93,
+            "return_pct_open": -1.11,
+            "correct": 0
           },
           {
             "stock_code": "010140",
@@ -110,10 +110,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 98 / earn 0 (RSI 34, 5일 -5.6%)",
             "entry_price": 30150.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 29300.0,
+            "return_pct": -2.82,
+            "return_pct_open": 2.32,
+            "correct": 0
           },
           {
             "stock_code": "034020",
@@ -123,10 +123,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 80 / earn 0 (RSI 43, 5일 -9.7%)",
             "entry_price": 117100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 110800.0,
+            "return_pct": -5.38,
+            "return_pct_open": 1.45,
+            "correct": 0
           },
           {
             "stock_code": "138040",
@@ -136,10 +136,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 70 / earn 80 (RSI 35, 5일 -2.0%)",
             "entry_price": 110100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 105800.0,
+            "return_pct": -3.91,
+            "return_pct_open": 0.36,
+            "correct": 0
           },
           {
             "stock_code": "096770",
@@ -149,10 +149,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 79 / earn 0 (RSI 44, 5일 -5.9%)",
             "entry_price": 126700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 123500.0,
+            "return_pct": -2.53,
+            "return_pct_open": 2.6,
+            "correct": 0
           }
         ]
       },
