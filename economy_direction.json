@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T00:05:02",
+  "generated_at": "2026-05-19T00:08:39",
   "count": 500,
   "posts": [
     {
@@ -971,6 +971,36 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 5883,
+      "title": "글로벌 중앙은행들이 실질금리(명목금리-인플레이션) 관리에 어려움을 겪고 있는 상황. 이는 한국은행의 금리 결정과 USD/KRW 환율, 채권 수익률에 직접 영향을 미칠 수 있으며, 외국인의 한국 자산 수급을 변동시킬 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>글로벌 중앙은행들이 실질금리(명목금리-인플레이션) 관리에 어려움을 겪고 있는 상황. 이는 한국은행의 금리 결정과 USD/KRW 환율, 채권 수익률에 직접 영향을 미칠 수 있으며, 외국인의 한국 자산 수급을 변동시킬 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Central banks have a real rate problem Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "글로벌 중앙은행 정책 기조 변화는 한국의 금리·환율·외국인 자금 흐름에 직접적 영향을 미치는 주요 매크로 이슈",
+      "stocks": [
+        "금융주(KB금융",
+        "신한금융",
+        "하나금융)",
+        "수출주(삼성전자",
+        "SK하이닉스",
+        "LG화학)",
+        "건설주(현대건설",
+        "GS건설)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMTg0aUxSWWtmY3c0M1F1bFlVb0tFTm4wUUtELVFyUDE3cDBYcFNLN1lDRWlLZzdMeEpWMzVYNVc5aE45czBkVDRSbkNpTkt4bS1uMUJ0YldBdHVGcjI3VTBab1hUcmZvaDFqby04VzFVTHNzN0kxNi1kVFhHQVhUQzhTTW55bkhQcjlPTV8ybXBfUUdHMGtzckFrS1pGdHo4bWV1a0JmcHU?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-19 00:07:47"
     },
     {
       "id": 5826,
@@ -10700,6 +10730,33 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 5891,
+      "title": "파키스탄이 이란의 전쟁 종료 제안을 미국에 전달. 중동 긴장 완화 가능성으로 유가 하락 압력 증가, 한국의 에너지·화학 관련 종목에 부정적 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>파키스탄이 이란의 전쟁 종료 제안을 미국에 전달. 중동 긴장 완화 가능성으로 유가 하락 압력 증가, 한국의 에너지·화학 관련 종목에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Pakistan hands US revised Iranian proposal for ending war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 지정학적 긴장 완화 시 유가 하락으로 에너지·화학주에 악재이나, 현재는 '제안' 단계로 실제 영향은 제한적",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-19 00:08:16"
+    },
+    {
       "id": 5865,
       "title": "트럼프-시진핑 정상회담 이후 투자자들이 안정성에 베팅하고 있으나 이란 전쟁 우려가 지속되는 상황. 중국 경제 안정화 신호는 한국의 對중 수출 기업(자동차, 화학, 철강, 게임)에 긍정적 영향 예상.",
       "category": "거시",
@@ -11235,6 +11292,35 @@
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOEJpODNJRzJ5ci1ZSEhOa1Y0QnJyc3gxWC1UNFEtTWt2X01oTThWSGZoU1ExdWVKQUxiWGRFWW93VGhQZnIweVhwRVBUREw0VlJlVXRIZjJDRXlEbndzM0UtczhOcDNzYmpzNVREcG1fbUpnYmY3a0JBcDg4Q2dtblk5aGRqd2tPUHcwdGNubkhUV1phTWM3a2JZdURDaU9uWkk4Q2pYMU9kTlNjODkyT3g0d29yTmRXTVpKZ0hQVU9yUGxZN2c?oc=5",
       "direction": "down",
       "updated_at": "2026-05-16 21:07:22"
+    },
+    {
+      "id": 5894,
+      "title": "중국이 호르무즈 해협의 자유로운 통행을 주장하고 있으며, 이는 중동 지정학적 긴장 속에서 에너지 공급망 안정성에 대한 우려를 반영함. 한국의 에너지 수입 의존도가 높고 자동차·화학·철강 등 수출산업이 중동 원유 수급 영향을 받을 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-15",
+      "summary": "<p>중국이 호르무즈 해협의 자유로운 통행을 주장하고 있으며, 이는 중동 지정학적 긴장 속에서 에너지 공급망 안정성에 대한 우려를 반영함. 한국의 에너지 수입 의존도가 높고 자동차·화학·철강 등 수출산업이 중동 원유 수급 영향을 받을 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China wants Strait of Hormuz open free of curbs, USTR Greer tells Bloomberg News Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "호르무즈 해협의 통행 안정성은 한국의 원유·에너지 수입에 직결되는 거시적 이슈이나, 현 시점 구체적 제재·차단 사태가 아닌 정책 입장 표현으로 단기 시장 충격은 제한적",
+      "stocks": [
+        "현대차",
+        "기아",
+        "SK에너지",
+        "S-Oil",
+        "포스코",
+        "LG생활건강",
+        "아모레G"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUlVtMXBXbWVqcFVxZlRIZ01aQkRjVDhRSHZZLWNIR2NjemhwbDItdU9YdUgzY3NPamd4a05OMEFQT1k2LW96a2lxVFJvTzgzeGozcnktSUprSEhnejJNUDdpWjFTdm9fc2J5QzJTR3pVdzFYeFh0NUhOUEU3aVo1cTVWVFcyMUowcDhCdUNkYzhsZEpQV1Y3NGU4MUJWNm9VMlczSE5XZS1ETnYxRjhreTc2STZlZW11QmRPeWhwRDhJVHJo?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-19 00:08:27"
     },
     {
       "id": 5699,
@@ -12781,85 +12867,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZHR1SnBWOWYxVjNQdUtrRkZoUjc4aDgxQTNodjBwazZvRVN3SXJHVWQ4LWtNeDI3Q2RiUjY4LTh4RGlyUkFwdUhZYnkwNGpqRENtZ2R4UEMwVGJNSlBkN3BqWTctb3hqdTNjLUxFVGNNTEVHNG5GR1JBMnlXMXNDcVJtd3U2LUk5WHFGZzM5N1E0T0NaNzU2aUd2LXdFdkk?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-14 00:08:03"
-    },
-    {
-      "id": 3430,
-      "title": "AI 클라우드 기업 Nebius가 매출 8배 급증을 기록하며 주가가 급등했다. 이는 AI 인프라 수요 증가를 보여주는 신호로, HBM·GPU·서버용 반도체 공급망에서 한국 기업들의 수혜 가능성을 시사한다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>AI 클라우드 기업 Nebius가 매출 8배 급증을 기록하며 주가가 급등했다. 이는 AI 인프라 수요 증가를 보여주는 신호로, HBM·GPU·서버용 반도체 공급망에서 한국 기업들의 수혜 가능성을 시사한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI cloud firm Nebius reports near eightfold revenue surge, shares jump Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 클라우드 인프라 수요 확대는 SK하이닉스(HBM), 삼성전자(메모리) 등 한국 반도체 기업의 매출·수익성 개선으로 이어질 수 있는 긍정적 산업 신호",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVVdNeS11cTNCNHpEbWVQbFlIWDVzdlVLZDFiRW15VzlwRnNiLWFOLTJERHJzcS1ZQkQ3SUU5Wk5FYkR2T1JnRnJFN3FGT3NQZzkwM1dKS3pPWjRwQ0duUFJ2TXFoVFAzMDNldGJMRHJ6S3pkMUVQNXp3MmZlSjAtMENOcXQxNEt2RlR3ZG5NaDJGbHB3OVZ1Y19qQTZwNHJKeElZU1Vn?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-14 00:07:11"
-    },
-    {
-      "id": 3429,
-      "title": "Tower Semi가 1분기 호실적 전망과 함께 AI칩 13억 달러 규모 거래 체결. AI칩 수요 확대로 글로벌 반도체 공급망 재편 가속화.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>Tower Semi가 1분기 호실적 전망과 함께 AI칩 13억 달러 규모 거래 체결. AI칩 수요 확대로 글로벌 반도체 공급망 재편 가속화.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Tower Semi forecasts upbeat quarterly revenue, signs $1.3 billion in AI chip deals Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI칩 수요 증가 신호로 SK하이닉스·삼성전자 등 HBM/메모리 수출처 다변화 기회이나, Tower Semi 성과가 직접적 경쟁사는 아니므로 중간 수준 영향.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM0ZvbkdXaHJ2UTMxa29TdHpIOTdOMnJOWEI3TVV6OEpKNzlqRk1Lb01FRENKX0MyTHdSQ3l2SUVNNXBPMXoxTWNnNk9RQVZSV2ltUVBLSGVlZzRmZzdmYVMxMmlKdTVWUTd2YlFXaEZEdVFNN2VmSnYtVVRHcWdiaXFLSFFPSXM3OUhFUzV4UXdwY2hTOUFUWloyNzVLMzlrNDloNGJrRlktcDBKeTF0SmxiYzNhV2QtaE9Lbjd3?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-14 00:07:08"
-    },
-    {
-      "id": 3425,
-      "title": "이란 전쟁으로 인한 유가 급등 속 베트남이 연료 수입을 증대하고 있으며, 이는 글로벌 유가 상승과 에너지 수급 긴장을 반영하고 있다. 한국의 정유·화학사들은 유가 상승으로 인한 원료비 부담 증가와 유제품 수출 경쟁력 약화 압박을 받을 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>이란 전쟁으로 인한 유가 급등 속 베트남이 연료 수입을 증대하고 있으며, 이는 글로벌 유가 상승과 에너지 수급 긴장을 반영하고 있다. 한국의 정유·화학사들은 유가 상승으로 인한 원료비 부담 증가와 유제품 수출 경쟁력 약화 압박을 받을 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Vietnam imports more fuel to offset oil shortfall amid Iran war, data shows Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 전쟁으로 인한 유가 상승 기조는 한국 정유·화학 산업의 원료비 부담으로 작용하며, 마진 압박 가능성이 있는 일반적 산업 악재",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMXJwMDBKRmVzQ0Z6a1JhTzRBYWdzTnEzVFpBMW8zamcyWkV1Z2J6a2dZMVU4WVU3MlZUZWoyZ0otcXlMSUZZQVVfWjFWQmdfSF9tY3ZWcWhDZW56QzhOQUMtdFlNM2h1Si1PTUg4ZzZ6aWw2WVc3aTU4Wk9FU1RMYUh2djBPNnJCU3B6X09sUGQ0dHg1UDA3S2FvZzFPb2VfVUwxX1N2ZTUzS3AzVnpTSWF6VmhlR3p2eXZYWk9sZ3Y?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 21:08:31"
     }
   ],
   "events": [
