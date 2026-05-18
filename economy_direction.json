@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T21:05:01",
+  "generated_at": "2026-05-18T21:08:40",
   "count": 500,
   "posts": [
     {
@@ -1583,6 +1583,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdkk3dXlHRzRYeUNLS2JZRFdXbURfNG0zZTJWMmhBeDZreHdMRmVhT1E1YmtFYzBrMXlGU254RWUzUGpoWFNjbERtNThxWWFfN2JlUndRdlBSVTR1THk1ODdMLWZQXzZUVGRXOXhLTE1QSzc1cjk3bEFLUHZxTDlNUktSMllGeGRqM1ExSzhwd0E4NU53T2xpak1sbzRpam9NdzVuMlExUWxPR05LOVZCajVqQ2w5dXN5TmdNVm1qVQ?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-15 15:09:54"
+    },
+    {
+      "id": 5851,
+      "title": "삼성전자가 노조와의 협상 재개를 촉구하고 있으며 파업 위협이 임박한 상황. 한국 주요 반도체 업체의 생산 차질 가능성으로 메모리/파운드리 공급망 리스크 증가.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-14",
+      "summary": "<p>삼성전자가 노조와의 협상 재개를 촉구하고 있으며 파업 위협이 임박한 상황. 한국 주요 반도체 업체의 생산 차질 가능성으로 메모리/파운드리 공급망 리스크 증가.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Samsung Electronics urges union to resume talks as strike threat looms Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "삼성전자 파업 위협은 글로벌 메모리 공급 차질과 한국 반도체 업종의 실적 악화 우려로 직결되는 주요 공급망 이슈",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaThlNEd0YTRNdGhud19mNFZjNGo4eEY5eWxCZkF1VkFQVGRzOWVOWHFRWWpiWFBVVFROZE9GeXo0VjBacTdCRzZybVpzeHpLZDFCamdOcFlNUmV6ejBmeEZ4MzdzdmVTZlhycUxTSU1RRmpZa3lpajNsY3AzcmlJOUVmTDBRcktWWURWR0NSemt3LS1aREJvUmxWcHpXa1JiZlhWUnZFVFNic0RqYXhWWnJ5akJDYXptaUlyczdkYVo?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-18 21:07:13"
     },
     {
       "id": 5000,
@@ -10673,6 +10700,222 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 5865,
+      "title": "트럼프-시진핑 정상회담 이후 투자자들이 안정성에 베팅하고 있으나 이란 전쟁 우려가 지속되는 상황. 중국 경제 안정화 신호는 한국의 對중 수출 기업(자동차, 화학, 철강, 게임)에 긍정적 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>트럼프-시진핑 정상회담 이후 투자자들이 안정성에 베팅하고 있으나 이란 전쟁 우려가 지속되는 상황. 중국 경제 안정화 신호는 한국의 對중 수출 기업(자동차, 화학, 철강, 게임)에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Investors bet on stability after Trump-Xi summit as Iran war concerns linger Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국 경제 안정화 신호는 한국의 주요 수출처 수요 개선으로 이어질 가능성 있으나, 이란 분쟁 우려로 인한 에너지·지정학적 리스크 상존으로 점수 상향 억제.",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO",
+        "엔씨소프트",
+        "넥슨"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3hPV2RDUHJZZlNpUEtXZWZUeXQ2YUpQNXU1aHJicDBNRXVUb2loUXBDSGxYeURtd19ON3dLekFvNVJoenpJSTNHRjVtMWNua29NYXZkeTdxYjc1azZ6WjY0UjR1aktKSWRyUGZ3eXoxTDRNb2lGaHg0Q1dnUGVvalpRQWpsdjF3aFNES1RmU1ZhOTFEVC12STdZd2VYSGt2VkdRTlRUQWJURnFqcmh2a0hLcWdTVGowUnMzSW1CMHpOZXc?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-18 21:08:14"
+    },
+    {
+      "id": 5864,
+      "title": "미국 재무장관 베센트가 G7에 이란 제재 체제 동참을 촉구할 예정. 이란 제재 강화 시 중동 지정학적 긴장 고조로 유가 상승 가능성이 높아 한국의 에너지·석유화학 기업에 긍정적 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>미국 재무장관 베센트가 G7에 이란 제재 체제 동참을 촉구할 예정. 이란 제재 강화 시 중동 지정학적 긴장 고조로 유가 상승 가능성이 높아 한국의 에너지·석유화학 기업에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): U.S. Treasury Secretary Bessent: will call on G7 to follow sanctions regime on Iran Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "이란 제재 강화에 따른 유가 상승 가능성이 있으나, 아직 G7 동참 여부 불확실하고 시장 반영도 제한적이어서 중간 수준의 산업 영향으로 평가",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcmQyb1VFMWl5dUZNaFkyS2dlTnVKcndqVVdLRGZKV3htS21pSGo4bE5aMFhhcXZxRTR5dVZuSzVOQWRHSGZVQ05QbUVScGpMZnBJcThRMjItbUJiMXBjOWhjdmNrQzJMZ0VWMWRReVNjdnkwaUpvXzZJSEJIcG1LQ1hGNDlmT3dpa1RaTHdKZi1jM1lqTzZ0M1ozQThZQ2RaaFktVjdGUUJ4akVKdHlwXzNPY3BuelhtaWlr?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-18 21:08:10"
+    },
+    {
+      "id": 5861,
+      "title": "호르무즈 해협 주변의 불투명한 유가 거래가 페트로달러 체계에 시험을 가하고 있으며, 이는 원유 수입국인 한국의 에너지 구매력과 유가 변동성에 직접 영향을 미칠 수 있다. 국제유가 변동성 확대 시 정유·화학 업종의 수익성 악화 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>호르무즈 해협 주변의 불투명한 유가 거래가 페트로달러 체계에 시험을 가하고 있으며, 이는 원유 수입국인 한국의 에너지 구매력과 유가 변동성에 직접 영향을 미칠 수 있다. 국제유가 변동성 확대 시 정유·화학 업종의 수익성 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Opaque oil deals around Hormuz test the petrodollar Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 및 에너지 시장의 구조적 변화로 한국 정유·화학 업종의 마진 불확실성 증가, 다만 구체적 수치나 긴급성 부족으로 중간 수준 영향.",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcWM4R0xuLW8wczNqU3M3UTRpMnA3SWlOazNrU0ZJYU9hRVh6Z3hUT0xiX2dFSWhHamV5WktVcl9FVkNPeWVncldOTk9PNWNsQks2RHlIMm9LYmk3T3NQbFdMVVJ6LUZEYU51ZlhZXzhCV1pjNktVUm5QeWloeW9SeV9RdDhWNEhERTVNTjBydDU3UFVNQjRCZUhxOWpJZlBsU09zTS1lY1hEbTZYMHRIZEc0QVBXb1U?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-18 21:07:58"
+    },
+    {
+      "id": 5860,
+      "title": "파키스탄이 전투기 비행대와 수천 명의 군대를 사우디아라비아에 배치하며 중동 긴장 고조. 유가 변동성 확대와 중동 지역 공급망 리스크 가능성 증가로 에너지·화학 관련주에 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>파키스탄이 전투기 비행대와 수천 명의 군대를 사우디아라비아에 배치하며 중동 긴장 고조. 유가 변동성 확대와 중동 지역 공급망 리스크 가능성 증가로 에너지·화학 관련주에 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: Pakistan deploys jet squadron, thousands of troops to Saudi Arabia during Iran war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 지정학적 긴장 심화는 유가 변동성을 높여 정유·화학업체의 마진 불확실성을 증대시키지만, 아직 실제 공급 차질까지는 아닌 수준",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZXQ0ZGZRZEVoWXNYN1ExempBZ1Ata245ellOQ0JVNTdnNTRyc2oxZWUzakNEZWllaEs1T0F2cktHVUVqUGJWeW80LU5LT3g1LVJZY3RaMDBsNnpyX09sRXRQOENWZktYT0dCRC02R1o2LTBxV2dEcldNT1V1TXpRRjNQcWFHSkE2Y0tRX0V4NDBfdVpoXzRvSXlrdVNVMk9IeDVTaVRRSDhLZFl2Q3dGa0VfVGlMOTk1VjdHd3lzUzd2OVBwOVQ0VnlB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-18 21:07:54"
+    },
+    {
+      "id": 5859,
+      "title": "우크라이나가 러시아 에너지 시설을 공격하면서 유럽 에너지 공급 불안정성이 심화되고 있다. 러시아산 석유·가스 공급 차질 가능성으로 국제유가 변동성 확대 예상되며, 한국의 에너지·화학 관련 기업들의 원재료비 및 경영환경 영향 우려된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>우크라이나가 러시아 에너지 시설을 공격하면서 유럽 에너지 공급 불안정성이 심화되고 있다. 러시아산 석유·가스 공급 차질 가능성으로 국제유가 변동성 확대 예상되며, 한국의 에너지·화학 관련 기업들의 원재료비 및 경영환경 영향 우려된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Ukraine attacks Russian energy sites - what has been hit? Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 변동성 확대는 정유·석유화학 기업의 마진에 영향을 미치나, 한국이 직접 러시아 에너지에 의존도가 낮아 장기 영향은 제한적",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdm44LUtzREJtNkZ6emNvUDJZZDJsUDEtS2w0VHJTNGtKejh4clNxYkFaUDRSaUpreDJ6Z1hpRGo2T0hDLVhuRG5fS1dzelowcFhQQTMtWG93Z1RabUxoZHJTcTVKdFVVeHJNa2ZXNjZUa1ZzY296UWpPZ2pIU2xJS3lmdUNnMFY2cWduRjlsaENZamM3ZjVWdHNoNE11ck4xVVZMenktYXItZw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-18 21:07:50"
+    },
+    {
+      "id": 5857,
+      "title": "미국 장기금리와 유가가 동반 상승하면서 미국 주식선물이 하락. 유가 상승은 한국 에너지·화학 기업들의 수익성 개선에 긍정적이나, 금리 상승은 경기 둔화 우려로 작용.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>미국 장기금리와 유가가 동반 상승하면서 미국 주식선물이 하락. 유가 상승은 한국 에너지·화학 기업들의 수익성 개선에 긍정적이나, 금리 상승은 경기 둔화 우려로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US stock futures slip as yields, oil prices climb Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승은 S-Oil, SK이노베이션 등 에너지株에 호재이지만, 금리 상승에 따른 경기 부담과 원자재 수익성 악화 우려가 상충하는 일반적 거시 변수.",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSlh5Y3pEUnpYTGgwMlRpWng4QW9kN0RZQzZTTjFJektBc1B5dmowTEZxaUozYkVmY0xiTlViVkRXblc4dmJsbl93dlQ5ZjVTNlR4TzZWaTRRWkVzTF9fRGR0WTI1Vm9pOVpRUE5tWS1xWHp3eGV1REkwTTl0NkhKSFl3YU16UUtlWnBzbm1LWHVfYmlI?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-18 21:07:41"
+    },
+    {
+      "id": 5855,
+      "title": "Fed 의장 교체(Warsh 지명)로 정책 방향 불확실성 증대. 트럼프 행정부와의 금리·통화정책 전망이 불명확하여 USD 강세·금리 변동성 확대 우려로 한국 수출주 및 채권시장에 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>Fed 의장 교체(Warsh 지명)로 정책 방향 불확실성 증대. 트럼프 행정부와의 금리·통화정책 전망이 불명확하여 USD 강세·금리 변동성 확대 우려로 한국 수출주 및 채권시장에 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): A new day at the Fed, but policy forecast cloudy for Warsh, Trump, US Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 정책 방향 불확실성은 USD/KRW 환율 변동성과 외국인 자금 이탈 위험을 높이지만, 아직 구체적 결정 전 단계라 직접 영향은 제한적",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대차",
+        "LG화학",
+        "POSCO"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTi1OQlpUNDhmYmtWMUlZMG1xVzloZ0tESkd0OHlqRm5hYU5YWjJMekJmRDVGUVRIZ3pxckIxbk81V29XWFFDOTExcGxJcjdjTE5TRkYwNDA1WDQ1cjlvRDhyR1Ftbi1WYVJpTE9GNGZ1RmhlUndnOWpxeThkM25OZzh5Qzl3ZUFRYnhnX3pheFh2OE81UlYtbVNR?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-18 21:07:32"
+    },
+    {
+      "id": 5849,
+      "title": "미국 국립연구소가 AI 수요 증가로 슈퍼컴퓨터 도입 시 기존 대형 칩 제조사가 아닌 신규 업체들을 검토 중. 이는 고성능 메모리(HBM)와 반도체 수요 증가로 SK하이닉스, 삼성전자 등 한국 기업의 공급 기회를 확대할 수 있으나, 동시에 NVIDIA 등 신규 칩 기업의",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-18",
+      "summary": "<p>미국 국립연구소가 AI 수요 증가로 슈퍼컴퓨터 도입 시 기존 대형 칩 제조사가 아닌 신규 업체들을 검토 중. 이는 고성능 메모리(HBM)와 반도체 수요 증가로 SK하이닉스, 삼성전자 등 한국 기업의 공급 기회를 확대할 수 있으나, 동시에 NVIDIA 등 신규 칩 기업의 성장 가능성도 시사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): As chip industry chases AI, U.S. national labs look to newcomers for supercomputers Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 인프라 투자 증가는 HBM·메모리 수요 호재지만, 신규 업체 다각화로 인한 공급처 분산 우려로 중립적 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV0hfaDc2NVRGcEpWTXRqMHB1UlQzeXhOVkp6dG8xUVZpNDZGc2VEYlBNSklIcTZCc1ZUa3lIVWVQQzJNTDZfVkhrdTMtT3gtWF9PQU5TZEdQNlZYSERiS0tZdW9WNzgtTVphX3dDS0Z0UkhUZ0tYYzZTNlNfSTN0dk43d1l1NFlvWW1JQW9LalBfclEtSnBNZnhfcTdLaWh4amFBMWVReVFPaTc1aXNPejh0eVFsNXYw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-05-18 21:07:06"
+    },
+    {
       "id": 5833,
       "title": "중국 CXMT가 메모리칩 수요 증가로 매출 급증을 예상하고 있습니다. 이는 글로벌 반도체 수요 회복 신호로, 한국 메모리칩 업체(SK하이닉스, 삼성전자)의 경쟁 심화 및 가격 압력 요인이 될 수 있습니다.",
       "category": "거시",
@@ -12617,246 +12860,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMXJwMDBKRmVzQ0Z6a1JhTzRBYWdzTnEzVFpBMW8zamcyWkV1Z2J6a2dZMVU4WVU3MlZUZWoyZ0otcXlMSUZZQVVfWjFWQmdfSF9tY3ZWcWhDZW56QzhOQUMtdFlNM2h1Si1PTUg4ZzZ6aWw2WVc3aTU4Wk9FU1RMYUh2djBPNnJCU3B6X09sUGQ0dHg1UDA3S2FvZzFPb2VfVUwxX1N2ZTUzS3AzVnpTSWF6VmhlR3p2eXZYWk9sZ3Y?oc=5",
       "direction": "down",
       "updated_at": "2026-05-13 21:08:31"
-    },
-    {
-      "id": 3424,
-      "title": "이란 분쟁 악화로 베트남의 원유·정제유 공급이 영향을 받을 수 있으며, 이는 한국의 에너지 수입처 다변화와 유가 변동성 확대를 초래할 가능성이 있다. S-Oil, SK이노베이션 등 정유·화학사의 원료비 및 수익성에 직결되는 요인이다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>이란 분쟁 악화로 베트남의 원유·정제유 공급이 영향을 받을 수 있으며, 이는 한국의 에너지 수입처 다변화와 유가 변동성 확대를 초래할 가능성이 있다. S-Oil, SK이노베이션 등 정유·화학사의 원료비 및 수익성에 직결되는 요인이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Vietnam&#x27;s supplies of crude, refined oil amid Iran war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학적 리스크로 인한 원유 공급 불안정이 한국 정유·화학업계의 원료비 변동성을 높이며, 유가 상승 시 적자 확대 우려",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORERTWkdieWR2Z2pFUmp4dEVCdXpEWGphVDVyOFFDd0lDamtKTEYxVWRMUmZIVkJTOWZSZ1g0UVNuMjFRdS00SjhrNFJRdTRucF9QenFRZlU4QmJXMHZZZ3BwZ2Z1RlhnbnZGS0NNTzZaeDV6aGNaLVFIbEFSSzZtdXIwenEwdlVrb05ySE5lMnZjY3RkUnNneTdkcjl4SUZIVnFF?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 21:08:28"
-    },
-    {
-      "id": 3406,
-      "title": "소프트뱅크의 순이익이 OpenAI 지분 평가익으로 120억 달러를 초과 기록했으며, AI 밸류에이션 상승이 글로벌 반도체·AI 생태계 강세를 시사한다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>소프트뱅크의 순이익이 OpenAI 지분 평가익으로 120억 달러를 초과 기록했으며, AI 밸류에이션 상승이 글로벌 반도체·AI 생태계 강세를 시사한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): SoftBank profit more than triples to $12 billion on OpenAI stake gains Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 투자 수익성 증명으로 AI 칩셋 수요 전망이 개선되나, 한국 종목에 대한 직접적 공급망 영향은 제한적",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGh6U2JUX3dvS2hEcUpDRURYQTRWTXRoeWtiQ3Viam5KYTBSSngycnlkbVBOVzF6d3JLeUFCQ1JISjFnX25vOFl3bjIyQ2FfUlFQMUNUZUwyd2x4VFJLeDRxbFFtMzJ3ZmdPZk9VN1hpTE1aSHJZeDlteWs2R25BSlpqM0Q2ckp4bC1lVFZsY1VRMmRxSFRub2haODJfdUU5eGc1MktVcTQtODRh?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-13 21:07:17"
-    },
-    {
-      "id": 3359,
-      "title": "트럼프-시진핑 정상회담에서 AI 협력 추진이 기술 패권 경쟁과 상호 불신으로 인해 난항을 겪을 것으로 예상됨. 미중 AI 반도체 경쟁 심화는 한국 HBM·메모리 공급망 수요 불확실성 증대.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>트럼프-시진핑 정상회담에서 AI 협력 추진이 기술 패권 경쟁과 상호 불신으로 인해 난항을 겪을 것으로 예상됨. 미중 AI 반도체 경쟁 심화는 한국 HBM·메모리 공급망 수요 불확실성 증대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Tech rivalry, distrust sap summit hopes for Trump-Xi AI push Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미중 AI 패권 경쟁 심화는 반도체 공급망 재편과 수요 변동성을 높여 SK하이닉스·삼성전자 등 메모리·파운드리 업체의 전략적 위험 요인이 되며, 단기적 악재와 장기적 기회가 혼재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaUJtM1JTcTFZOC11QVp1OU83REJBV2FzMzZTRVZSSk9Ia3JfSTlSY3lVVklWYzE4ZlVLQkMxR3AzMTFVeFc0SEhTOFlzbjRaNjluWWlsMnFpbUprNnEwYVQ0QWwzanRHbXlmeXQ1OGJSWGgwMU1FMWxOeFBOa3BoSzNpYkFaWkl3NnJEWk1Id0ZUbmRFVGJDOTJjbmhOS1MwXzFsY3R3?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-13 18:07:12"
-    },
-    {
-      "id": 3357,
-      "title": "트럼프가 이란과의 교착 상태 속에서 중국 방문을 앞두고 있으며, 이는 미중 무역 긴장과 반도체 공급망에 영향을 미칠 수 있는 상황. 한국 반도체 기업들의 중국 시장 접근성과 수출에 변수가 될 것으로 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>트럼프가 이란과의 교착 상태 속에서 중국 방문을 앞두고 있으며, 이는 미중 무역 긴장과 반도체 공급망에 영향을 미칠 수 있는 상황. 한국 반도체 기업들의 중국 시장 접근성과 수출에 변수가 될 것으로 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Locked in a stalemate with Iran, Trump heads to China Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미중 관계 악화 가능성이 반도체·메모리 공급망과 중국 수출에 영향을 줄 수 있는 의미있는 매크로 리스크 요인이나, 구체적 정책 결과는 아직 불확실",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWGxYUWdtRXUyS0wzemV0R0o2QXF0WUVWUzFRTTdWRTNIeFU4NVA5dS1iYm5SWkpNSG9EVW9PZks2UUEzck83UDlRYjJhYTdtWnVKbnQ4aGM4WFZ1b00tX2cxRE5RNTdVZTZUWTJEem5faWtaZDZmUnNNZGtRZllWUERZbnRadw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 18:07:05"
-    },
-    {
-      "id": 3230,
-      "title": "미국 재무부 베센트와 중국 허 부총리가 한국에서 트럼프-시진핑 정상회담을 앞두고 경제 협력을 논의했으며, 미중 무역·기술 갈등 완화 신호가 한국 반도체 수출 환경 개선을 시사함.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>미국 재무부 베센트와 중국 허 부총리가 한국에서 트럼프-시진핑 정상회담을 앞두고 경제 협력을 논의했으며, 미중 무역·기술 갈등 완화 신호가 한국 반도체 수출 환경 개선을 시사함.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US Treasury&#x27;s Bessent, China&#x27;s He hold talks in South Korea ahead of Trump-Xi summit Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미중 고위급 대화는 한국 반도체 산업의 주요 수출 시장(미국·중국) 리스크 완화 신호이나, 실질적 합의 여부 미정으로 제한적 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU1VDT2NyV19VdGRQMVEwcTJtWFY4TzFMZ2FoVl9wUXplaTF5d243WTFhbDZyVy1paUlndGhIVG0yMkdCU0ZWZkR6aml0N09haWpCc1kwWTI1dDdOWklvOEltRFUxSWZkbmExSk1lQjhrR2ppbXR1SDh0dXVyWXVRRjNGRGx4NDlaVGFLYjZtbVlzUmI5dGY1eUp3b1laSFgzamRjNnk4ZlZHN3pGNW95NnAxRVFFRjdhaUpTMnpMa0RNZTkzV2JR?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-13 15:08:32"
-    },
-    {
-      "id": 3185,
-      "title": "유가가 이란 휴전 협상 불확실성으로 하락하고 있으며, 트럼프 대통령의 중국 방문이 무역 협상 전망을 변수로 만들고 있다. 유가 하락은 원화 약세 압력을 완화하고 수입 에너지 비용 부담을 낮춰 한국 경제에 긍정적이나, 중국 협상 결과에 따라 수출 전망이 크게 변동할 수 ",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>유가가 이란 휴전 협상 불확실성으로 하락하고 있으며, 트럼프 대통령의 중국 방문이 무역 협상 전망을 변수로 만들고 있다. 유가 하락은 원화 약세 압력을 완화하고 수입 에너지 비용 부담을 낮춰 한국 경제에 긍정적이나, 중국 협상 결과에 따라 수출 전망이 크게 변동할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil prices slip on teetering Iran ceasefire as Trump heads to China Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 하락은 한국의 에너지 수입 부담 완화 호재이지만, 트럼프-중국 협상 결과 불확실성으로 인한 USD/KRW 변동성과 중국 경기 전망이 더 큰 변수로 작용하는 상황",
-      "stocks": [
-        "SK에너지",
-        "GS칼텍스",
-        "S-Oil",
-        "현대중공업",
-        "현대자동차",
-        "삼성전자"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeExfc3FwV0NDeVZKSzBqVy02QlcwWklBbkRJaDRhbkprQTBtLWZTektlSVV5a2NMLWoyX1ozeVdKTEVSTVFSbWw5SWdzTlBGd2JKWTg4S3ZYREtnaXRPNG8xOUZTel80Nm1POTNSY254Xy1FR2h2U0JiRGRBZDFacFNYemx4SVpEd1d4SHNRUU13LXFKMXVUUnRuanhkRnF5RFJrS0llZU1idnlxQ0pr?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-13 12:08:16"
-    },
-    {
-      "id": 3431,
-      "title": "AI 관련 신규 상장(IPO) 3개사가 시장에 진출하면서 과도한 AI 열풍을 촉발하고 있습니다. 이는 AI 반도체 및 메모리 수요 증가 신호로 작용하지만, 동시에 선별적이지 못한 투자 심화 우려를 반영합니다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>AI 관련 신규 상장(IPO) 3개사가 시장에 진출하면서 과도한 AI 열풍을 촉발하고 있습니다. 이는 AI 반도체 및 메모리 수요 증가 신호로 작용하지만, 동시에 선별적이지 못한 투자 심화 우려를 반영합니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - IPO trio unleashes undiscerning AI zeal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 산업 수요 확대는 한국 반도체(HBM, 메모리) 수출 호재 신호이지만, '무분별한 AI 광풍' 경고는 과열 조정 리스크를 시사해 순효과 불명확",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVV9JbURxZmtMZUs3UElNckdBcE9mVy1WcWw0X1c4R2RnelZTNUdWSEw1SXlsbFdIMmEwTV9LaXBiX3IxWXE4Q01EUXZhUXcweWxydXdGTWdlT013cE9abmNsb0gwN0M2U2NvVDVWVFRLTGxSdkc0a2xZSmo1ZnpaUHdLak9BSndnRW1nWUl2NTVUeHZrRmpYanpwY2x5V3hTM2c?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-14 00:07:15"
-    },
-    {
-      "id": 3184,
-      "title": "Fed의 Goolsbee 총재가 최근 인플레이션 지표가 실망스러웠다고 언급. 이는 Fed의 금리 인하 가능성을 높여 달러 약세 및 한국 수출주 매력도 상승을 의미하지만, 동시에 글로벌 경기 둔화 우려로 작용할 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>Fed의 Goolsbee 총재가 최근 인플레이션 지표가 실망스러웠다고 언급. 이는 Fed의 금리 인하 가능성을 높여 달러 약세 및 한국 수출주 매력도 상승을 의미하지만, 동시에 글로벌 경기 둔화 우려로 작용할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Goolsbee says latest inflation read was disappointing Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 기조 전망 변화는 USD/KRW 환율과 외국인 수급에 직접 영향을 미치지만, 단순 발언 수준이므로 확정 결정(9-10점)보다는 낮음",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대자동차",
-        "NAVER"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPenBfLVRqU0g2Znd4WTJLWW5rQjJUQnRuWWl4TF9veUY4QjU5bHFrTnNlWnJZVlBKUlRRNENJQnhlWU44ZkRPRVJzWWRWYnFZUU40NFJTRkJ6ajdsS25hZ1poMmhnSzJ5djFSNklRQnR4c05EV3pnVUkzT2lXT1JjNUd3dUtIMjhnRnlsaE5sbGNuWjlnU3ZQNkFhaXFZZmhuN0NMQ3ZWSVRsckU?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-13 12:08:12"
-    },
-    {
-      "id": 3172,
-      "title": "트럼프-시진핑 정상회담이 천단(Temple of Heaven)에서 개최될 예정으로, 미중 무역·기술 협상의 향방이 주목됨. AI·반도체 산업 규제 및 공급망 정책이 핵심 논의 사항이 될 것으로 예상되어 한국 반도체 기업의 중국 시장 접근성과 기술 제재 위험도에 영향을 ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>트럼프-시진핑 정상회담이 천단(Temple of Heaven)에서 개최될 예정으로, 미중 무역·기술 협상의 향방이 주목됨. AI·반도체 산업 규제 및 공급망 정책이 핵심 논의 사항이 될 것으로 예상되어 한국 반도체 기업의 중국 시장 접근성과 기술 제재 위험도에 영향을 미칠 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): At Temple of Heaven summit, Trump and Xi will seek a good harvest Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미중 정상회담은 반도체·AI 규제 방향 결정에 영향을 주지만, 구체적 합의 내용 미공개 상태로 현 시점 영향도는 제한적",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcTd1WVY1LUx6R1Z6eXFTajB6TW5Vb3R6QVZEYWgxaUh3Qkl2UUxLR1ROaHJPcUt3djZsalpMT2pqZkI4US05U25mbVhKaURmN0pSTExMaHRHNWRXOUtkcENoNDFrbXVtX3U5QkoySkRwdHhjLVFwamFuTE1fTGZTdTJsWk1aaFk2NF8wcEFVV211dE9JUlFia2F4TDRaeVBUQlE?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-13 12:07:21"
     }
   ],
   "events": [
