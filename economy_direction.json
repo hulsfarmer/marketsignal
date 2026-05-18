@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T15:08:49",
+  "generated_at": "2026-05-18T15:35:06",
   "count": 500,
   "posts": [
     {
@@ -653,6 +653,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUTFxOXlWSDVWM2Nwd3QzSHIweGh6em9RXzJjQ3U0UjdQRlExOExNd1VMQVRlRDZpZjlySlBoZFZVS3pwN2pVM3pUdVV0U1BqSWR0YzM2YkN4cV9pRlhtRmZKYXJQMlZqd0VTcGZ0bzFKZkpXRVlIdklGaUVuTFlsVlJJcl84UHB3ZXRrb1NUVDA4M3oyV0hITUxyQTdUSHFLVy02bnRsMlY?oc=5",
       "direction": "down",
       "updated_at": "2026-05-11 21:07:06"
+    },
+    {
+      "id": 5789,
+      "title": "인터엠 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260518",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 인터엠</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "인터엠"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000214",
+      "direction": "up",
+      "updated_at": "2026-05-18 15:35:05"
     },
     {
       "id": 5741,
@@ -7336,6 +7358,28 @@
       "updated_at": "2026-05-10 15:08:28"
     },
     {
+      "id": 5791,
+      "title": "힘스 — 단일판매ㆍ공급계약체결(자율공시)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260518",
+      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결(자율공시)               · 힘스</p>",
+      "feedback": "수주 — 본문 규모 확인",
+      "stocks": [
+        "힘스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518900530",
+      "direction": "up",
+      "updated_at": "2026-05-18 15:35:05"
+    },
+    {
       "id": 5787,
       "title": "한솔케미칼 — 주요사항보고서(자기주식취득결정)",
       "category": "주식",
@@ -12844,59 +12888,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYjI0ek5ZYzN4WXRWbDlpVERUd1VlZ3BfVlo3RkpKYTZKRy0zelR1VTc4NUZxc3RVenFGdFJ2QUMxekFuOEM4TkllY1JvQ3dfdEx6Z0lYY1N6Z0VGSWJGdHBiNWVFVDF5YTZlRGdwdzdta2dteDZsZW16Tnh4TExPRXZBZFFTLXFJX1ZydXhqX0RVaVpnS0oxLTR3RDF5dGpvZHgwbkQzbkdtNjJjRTd1aQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-12 15:11:16"
-    },
-    {
-      "id": 2873,
-      "title": "호르무즈 해협 영향으로 중국의 유가는 하락하고 금속류 수입은 증가하는 추세를 보임. 유가 하락은 정유·석유화학 기업에 악재, 금속 수요 증가는 화학 업종에 제한적 호재로 작용 가능.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>호르무즈 해협 영향으로 중국의 유가는 하락하고 금속류 수입은 증가하는 추세를 보임. 유가 하락은 정유·석유화학 기업에 악재, 금속 수요 증가는 화학 업종에 제한적 호재로 작용 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s commodity imports show Hormuz impact as oil slides, metals rise Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중국 원자재 수입 변화는 한국 에너지·화학 기업의 원가 및 수익성에 영향을 미치는 의미있는 산업 동향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbWVsMjc1UnFvcEhpcXNJNWVmdWtkbTVhc2RLSEVjRXRzN3JTb19FdWRBcnhoWWJraGxXRGItbjl5Mlg5bllnN2NkaEtDT2x0NnV5U0VxeTVHSUFqQnl0QmQtS0F2RUVWWGI0b0VzY291ZldWcVA4dV93Zk1UVTFJMXNFZWExWW02bnFUMjc0SmJnTksxOG1HZFp0Y3V6UWk2WGh6ZTZWS0lpNi00OWllLXpLbnpWeTZFWHBjbm5TTXh0X01weEtHYVE0RUdTWTQy?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-12 15:11:13"
-    },
-    {
-      "id": 2867,
-      "title": "중동 휴전이 위기 상황에 빠지면서 AI 랠리가 일시 중단. 지정학적 리스크 증대로 글로벌 경제 불확실성 확대 → 위험자산 회피로 USD/KRW 상승, KOSPI 외국인 순매도 압력, 채권 금리 하락 가능성",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>중동 휴전이 위기 상황에 빠지면서 AI 랠리가 일시 중단. 지정학적 리스크 증대로 글로벌 경제 불확실성 확대 → 위험자산 회피로 USD/KRW 상승, KOSPI 외국인 순매도 압력, 채권 금리 하락 가능성</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI rally pauses as Middle East ceasefire goes on &#x27;life support&#x27; Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "중동 지정학적 리스크는 글로벌 경기 불확실성을 높여 환율·외국인 수급·채권 시장에 직접 영향을 미치나, 한국의 직접적 산업 노출은 제한적",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대중공업"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMT0dPUVlJM1Jjb0xQMFo5UmpMc1cxWEhJaWZBSzB6d0xhWTBxTmpYMmZSenFLWWxzTTZEcV81WFVzWTZJNXd2ektINU1zV2YtYTBxbjVscFJvN255SGk4RkdHS2tnNlJUZGVRcTNKRWltSHND?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-12 15:10:53"
     }
   ],
   "events": [
