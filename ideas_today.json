@@ -1,11 +1,11 @@
 {
-  "date": "2026-05-18",
-  "generated_at": "2026-05-18T16:10:19",
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19T16:10:20",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-18T16:10:19",
-      "pick_date": "2026-05-18",
+      "updated_at": "2026-05-19T16:10:20",
+      "pick_date": "2026-05-19",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -48,8 +48,8 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-18T16:10:19",
-      "pick_date": "2026-05-18",
+      "updated_at": "2026-05-19T16:10:20",
+      "pick_date": "2026-05-19",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -110,24 +110,51 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-18T16:10:19",
-      "pick_date": "2026-05-18",
-      "count": 1,
+      "updated_at": "2026-05-19T16:10:20",
+      "pick_date": "2026-05-19",
+      "count": 2,
       "picks": [
         {
-          "stock_code": "000500",
-          "name_kr": "가온전선",
-          "open_price": 325000,
-          "close_price": 375000,
-          "trade_value": 278813889000,
-          "market_cap": 6203668125000,
-          "sector": "전기·전자",
-          "rarity_months": 0,
-          "score": -1.6,
-          "notes": "KOSPI | 등락 +10.8% | 턴오버 4.5% | ★ 섹터 대장주"
+          "stock_code": "274090",
+          "name_kr": "켄코아에어로스페이스",
+          "open_price": 26350,
+          "close_price": 27850,
+          "trade_value": 335891296650,
+          "market_cap": 382368747300,
+          "sector": "운송장비·부품",
+          "rarity_months": 3,
+          "score": 10.0,
+          "notes": "KOSDAQ | 등락 +7.3% | 턴오버 87.8% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "066430",
+          "name_kr": "아이로보틱스",
+          "open_price": 4050,
+          "close_price": 4670,
+          "trade_value": 256911538521,
+          "market_cap": 182846732920,
+          "sector": "유통",
+          "rarity_months": 3,
+          "score": 8.0,
+          "notes": "KOSDAQ | 등락 +16.8% | 턴오버 140.5% | ★ 섹터 대장주"
         }
       ],
       "watching": [
+        {
+          "ticker": "274090",
+          "name": "켄코아에어로스페이스",
+          "scan_date": "2026-05-19",
+          "breakout_open": 26350,
+          "breakout_close": 28550,
+          "entry_price": 25032,
+          "stop_loss": 24531,
+          "box_top": 22919,
+          "box_bottom": 21211,
+          "expires_at": "2026-08-17",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리4% 양봉6% | 진입:시가-5% 손절:진입가-2%"
+        },
         {
           "ticker": "088350",
           "name": "한화생명",
@@ -159,21 +186,6 @@
           "memo": "D전략 | 꼬리4% 양봉14% | 진입:시가-5% 손절:진입가-2%"
         },
         {
-          "ticker": "348340",
-          "name": "뉴로메카",
-          "scan_date": "2026-05-12",
-          "breakout_open": 70000,
-          "breakout_close": 75500,
-          "entry_price": 66500,
-          "stop_loss": 65170,
-          "box_top": 67275,
-          "box_bottom": 61844,
-          "expires_at": "2026-08-10",
-          "status": "watching",
-          "is_expired": false,
-          "memo": "D전략 | 꼬리7% 양봉7% | 진입:시가-5% 손절:진입가-2%"
-        },
-        {
           "ticker": "439960",
           "name": "코스모로보틱스",
           "scan_date": "2026-05-12",
@@ -187,6 +199,21 @@
           "status": "watching",
           "is_expired": false,
           "memo": "D전략 | 꼬리2% 양봉23% | 진입:시가-5% 손절:진입가-2%"
+        },
+        {
+          "ticker": "348340",
+          "name": "뉴로메카",
+          "scan_date": "2026-05-12",
+          "breakout_open": 70000,
+          "breakout_close": 75500,
+          "entry_price": 66500,
+          "stop_loss": 65170,
+          "box_top": 67275,
+          "box_bottom": 61844,
+          "expires_at": "2026-08-10",
+          "status": "entered",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리7% 양봉7% | 진입:시가-5% 손절:진입가-2%"
         },
         {
           "ticker": "125490",
@@ -319,7 +346,7 @@
           "box_top": 5519,
           "box_bottom": 5146,
           "expires_at": "2026-07-29",
-          "status": "watching",
+          "status": "entered",
           "is_expired": false,
           "memo": "D전략 | 꼬리0% 양봉14% | 진입:시가-5% 손절:시가-2%"
         },
@@ -612,6 +639,30 @@
       "holding": [],
       "history": [
         {
+          "ticker": "348340",
+          "name": "뉴로메카",
+          "avg_price": 66500,
+          "sell_price": 65000,
+          "quantity": 22,
+          "buy_date": "2026-05-19",
+          "sell_date": "2026-05-19",
+          "sell_reason": "stop_loss",
+          "pnl_rate": -2.26,
+          "pnl_amount": -33000
+        },
+        {
+          "ticker": "125020",
+          "name": "티씨머티리얼즈",
+          "avg_price": 7220,
+          "sell_price": 7170,
+          "quantity": 207,
+          "buy_date": "2026-05-19",
+          "sell_date": "2026-05-19",
+          "sell_reason": "stop_loss",
+          "pnl_rate": -0.69,
+          "pnl_amount": -10350
+        },
+        {
           "ticker": "203650",
           "name": "드림시큐리티",
           "avg_price": 3520,
@@ -735,13 +786,13 @@
       "initial_capital": 2000000,
       "slots": 5,
       "slot_size": 400000,
-      "month_return": -0.66,
-      "month_count": 6,
-      "month_pnl": -13200,
+      "month_return": -1.25,
+      "month_count": 8,
+      "month_pnl": -25000,
       "month_start": "2026-05-01",
-      "year_return": 3.52,
-      "year_count": 10,
-      "year_pnl": 70360,
+      "year_return": 2.93,
+      "year_count": 12,
+      "year_pnl": 58560,
       "year_start": "2026-01-01",
       "accuracy": null
     }
