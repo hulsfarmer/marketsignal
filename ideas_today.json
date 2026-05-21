@@ -1,11 +1,11 @@
 {
-  "date": "2026-05-20",
-  "generated_at": "2026-05-20T16:10:07",
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T16:10:22",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-20T16:10:07",
-      "pick_date": "2026-05-20",
+      "updated_at": "2026-05-21T16:10:22",
+      "pick_date": "2026-05-21",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -48,8 +48,8 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-20T16:10:07",
-      "pick_date": "2026-05-20",
+      "updated_at": "2026-05-21T16:10:22",
+      "pick_date": "2026-05-21",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -110,36 +110,39 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-20T16:10:07",
-      "pick_date": "2026-05-19",
-      "count": 2,
+      "updated_at": "2026-05-21T16:10:22",
+      "pick_date": "2026-05-21",
+      "count": 1,
       "picks": [
         {
-          "stock_code": "274090",
-          "name_kr": "켄코아에어로스페이스",
-          "open_price": 26350,
-          "close_price": 27850,
-          "trade_value": 335891296650,
-          "market_cap": 382368747300,
-          "sector": "운송장비·부품",
-          "rarity_months": 3,
-          "score": 10.0,
-          "notes": "KOSDAQ | 등락 +7.3% | 턴오버 87.8% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "066430",
-          "name_kr": "아이로보틱스",
-          "open_price": 4050,
-          "close_price": 4670,
-          "trade_value": 256911538521,
-          "market_cap": 182846732920,
-          "sector": "유통",
-          "rarity_months": 3,
-          "score": 8.0,
-          "notes": "KOSDAQ | 등락 +16.8% | 턴오버 140.5% | ★ 섹터 대장주"
+          "stock_code": "067310",
+          "name_kr": "하나마이크론",
+          "open_price": 49100,
+          "close_price": 54700,
+          "trade_value": 306230948475,
+          "market_cap": 3635593162200,
+          "sector": "전기·전자",
+          "rarity_months": 0,
+          "score": -3.2,
+          "notes": "KOSDAQ | 등락 +15.9% | 턴오버 8.4% | ★ 섹터 대장주"
         }
       ],
       "watching": [
+        {
+          "ticker": "067310",
+          "name": "하나마이크론",
+          "scan_date": "2026-05-21",
+          "breakout_open": 49100,
+          "breakout_close": 54500,
+          "entry_price": 46645,
+          "stop_loss": 45712,
+          "box_top": 41038,
+          "box_bottom": 38005,
+          "expires_at": "2026-08-19",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리6% 양봉11% | 진입:시가-5% 손절:진입가-2%"
+        },
         {
           "ticker": "274090",
           "name": "켄코아에어로스페이스",
@@ -366,21 +369,6 @@
           "memo": "D전략 | 꼬리7% 양봉11% | 진입:시가-5% 손절:시가-2%"
         },
         {
-          "ticker": "108490",
-          "name": "로보티즈",
-          "scan_date": "2026-04-27",
-          "breakout_open": 301500,
-          "breakout_close": 347500,
-          "entry_price": 286425,
-          "stop_loss": 280696,
-          "box_top": 265111,
-          "box_bottom": 248166,
-          "expires_at": "2026-07-26",
-          "status": "watching",
-          "is_expired": false,
-          "memo": "D전략 | 꼬리3% 양봉14% | 진입:시가-5% 손절:시가-2%"
-        },
-        {
           "ticker": "209640",
           "name": "와이제이링크",
           "scan_date": "2026-04-27",
@@ -394,6 +382,21 @@
           "status": "watching",
           "is_expired": false,
           "memo": "D전략 | 꼬리6% 양봉19% | 진입:시가-5% 손절:시가-2%"
+        },
+        {
+          "ticker": "108490",
+          "name": "로보티즈",
+          "scan_date": "2026-04-27",
+          "breakout_open": 301500,
+          "breakout_close": 347500,
+          "entry_price": 286425,
+          "stop_loss": 280696,
+          "box_top": 265111,
+          "box_bottom": 248166,
+          "expires_at": "2026-07-26",
+          "status": "entered",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리3% 양봉14% | 진입:시가-5% 손절:시가-2%"
         },
         {
           "ticker": "036540",
@@ -636,7 +639,21 @@
           "memo": "리스크 5.0% | 박스 30일"
         }
       ],
-      "holding": [],
+      "holding": [
+        {
+          "ticker": "108490",
+          "name": "로보티즈",
+          "avg_price": 282000,
+          "current_price": 303500,
+          "quantity": 5,
+          "stop_loss": 280696,
+          "buy_date": "2026-05-21",
+          "pnl_rate": 7.62,
+          "pnl_amount": 107500,
+          "phase": 1,
+          "peak_price": 306500
+        }
+      ],
       "history": [
         {
           "ticker": "348340",
