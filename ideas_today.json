@@ -1,11 +1,11 @@
 {
-  "date": "2026-05-21",
-  "generated_at": "2026-05-21T16:10:22",
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T16:10:07",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-21T16:10:22",
-      "pick_date": "2026-05-21",
+      "updated_at": "2026-05-22T16:10:07",
+      "pick_date": "2026-05-22",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -48,8 +48,8 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-21T16:10:22",
-      "pick_date": "2026-05-21",
+      "updated_at": "2026-05-22T16:10:07",
+      "pick_date": "2026-05-22",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -110,21 +110,21 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-21T16:10:22",
-      "pick_date": "2026-05-21",
+      "updated_at": "2026-05-22T16:10:07",
+      "pick_date": "2026-05-22",
       "count": 1,
       "picks": [
         {
-          "stock_code": "067310",
-          "name_kr": "하나마이크론",
-          "open_price": 49100,
-          "close_price": 54700,
-          "trade_value": 306230948475,
-          "market_cap": 3635593162200,
+          "stock_code": "001820",
+          "name_kr": "삼화콘덴서",
+          "open_price": 82000,
+          "close_price": 102000,
+          "trade_value": 246397875900,
+          "market_cap": 1060290000000,
           "sector": "전기·전자",
           "rarity_months": 0,
-          "score": -3.2,
-          "notes": "KOSDAQ | 등락 +15.9% | 턴오버 8.4% | ★ 섹터 대장주"
+          "score": 0.3,
+          "notes": "KOSPI | 등락 +29.9% | 턴오버 23.2% | ★ 섹터 대장주"
         }
       ],
       "watching": [
@@ -154,7 +154,7 @@
           "box_top": 22919,
           "box_bottom": 21211,
           "expires_at": "2026-08-17",
-          "status": "watching",
+          "status": "entered",
           "is_expired": false,
           "memo": "D전략 | 꼬리4% 양봉6% | 진입:시가-5% 손절:진입가-2%"
         },
@@ -641,17 +641,30 @@
       ],
       "holding": [
         {
+          "ticker": "274090",
+          "name": "켄코아에어로스페이스",
+          "avg_price": 25000,
+          "current_price": 28500,
+          "quantity": 30,
+          "stop_loss": 25000,
+          "buy_date": "2026-05-22",
+          "pnl_rate": 14.0,
+          "pnl_amount": 105000,
+          "phase": 2,
+          "peak_price": 29350
+        },
+        {
           "ticker": "108490",
           "name": "로보티즈",
           "avg_price": 282000,
-          "current_price": 303500,
-          "quantity": 5,
-          "stop_loss": 280696,
+          "current_price": 304500,
+          "quantity": 3,
+          "stop_loss": 282000,
           "buy_date": "2026-05-21",
-          "pnl_rate": 7.62,
-          "pnl_amount": 107500,
-          "phase": 1,
-          "peak_price": 306500
+          "pnl_rate": 7.98,
+          "pnl_amount": 67500,
+          "phase": 2,
+          "peak_price": 312000
         }
       ],
       "history": [
