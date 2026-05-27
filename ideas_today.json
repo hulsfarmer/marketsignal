@@ -1,11 +1,11 @@
 {
-  "date": "2026-05-26",
-  "generated_at": "2026-05-26T16:10:03",
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T16:10:13",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-26T16:10:03",
-      "pick_date": "2026-05-26",
+      "updated_at": "2026-05-27T16:10:13",
+      "pick_date": "2026-05-27",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -48,8 +48,8 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-26T16:10:03",
-      "pick_date": "2026-05-26",
+      "updated_at": "2026-05-27T16:10:13",
+      "pick_date": "2026-05-27",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -110,60 +110,87 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-26T16:10:03",
-      "pick_date": "2026-05-26",
-      "count": 4,
+      "updated_at": "2026-05-27T16:10:13",
+      "pick_date": "2026-05-27",
+      "count": 5,
       "picks": [
+        {
+          "stock_code": "347850",
+          "name_kr": "디앤디파마텍",
+          "open_price": 72200,
+          "close_price": 98800,
+          "trade_value": 323343418800,
+          "market_cap": 4327849723600,
+          "sector": "일반서비스",
+          "rarity_months": 3,
+          "score": 5.7,
+          "notes": "KOSDAQ | 등락 +30.0% | 턴오버 7.5% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "274090",
+          "name_kr": "켄코아에어로스페이스",
+          "open_price": 34250,
+          "close_price": 34350,
+          "trade_value": 224919840525,
+          "market_cap": 471611004300,
+          "sector": "운송장비·부품",
+          "rarity_months": 0,
+          "score": 2.8,
+          "notes": "KOSDAQ | 등락 +0.3% | 턴오버 47.7% | ★ 섹터 대장주"
+        },
         {
           "stock_code": "001740",
           "name_kr": "SK네트웍스",
-          "open_price": 8800,
-          "close_price": 10560,
-          "trade_value": 506764352315,
-          "market_cap": 2118271467840,
+          "open_price": 11460,
+          "close_price": 11640,
+          "trade_value": 827309998080,
+          "market_cap": 2334912867960,
           "sector": "유통",
           "rarity_months": 0,
-          "score": 3.4,
-          "notes": "KOSPI | 등락 +25.7% | 턴오버 23.9% | ★ 섹터 대장주"
+          "score": 2.5,
+          "notes": "KOSPI | 등락 +6.6% | 턴오버 35.4% | ★ 섹터 대장주"
         },
         {
-          "stock_code": "001820",
-          "name_kr": "삼화콘덴서",
-          "open_price": 121500,
-          "close_price": 132600,
-          "trade_value": 242314452200,
-          "market_cap": 1378377000000,
+          "stock_code": "048410",
+          "name_kr": "현대바이오",
+          "open_price": 13640,
+          "close_price": 13970,
+          "trade_value": 203913511835,
+          "market_cap": 1348182840840,
+          "sector": "화학",
+          "rarity_months": 2,
+          "score": 1.5,
+          "notes": "KOSDAQ | 등락 +2.5% | 턴오버 15.1% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "456010",
+          "name_kr": "아이씨티케이",
+          "open_price": 31550,
+          "close_price": 36650,
+          "trade_value": 250360110450,
+          "market_cap": 513499265100,
           "sector": "전기·전자",
-          "rarity_months": 0,
-          "score": -2.2,
-          "notes": "KOSPI | 등락 +30.0% | 턴오버 17.6% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "356680",
-          "name_kr": "엑스게이트",
-          "open_price": 23150,
-          "close_price": 27050,
-          "trade_value": 223754454800,
-          "market_cap": 772101458600,
-          "sector": "IT 서비스",
-          "rarity_months": 0,
-          "score": -3.1,
-          "notes": "KOSDAQ | 등락 +27.6% | 턴오버 29.0% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "000990",
-          "name_kr": "DB하이텍",
-          "open_price": 191400,
-          "close_price": 210000,
-          "trade_value": 218882982250,
-          "market_cap": 9135963480000,
-          "sector": "전기·전자",
-          "rarity_months": 0,
-          "score": -3.8,
-          "notes": "KOSPI | 등락 +16.0% | 턴오버 2.4%"
+          "rarity_months": 1,
+          "score": -0.1,
+          "notes": "KOSDAQ | 등락 +19.0% | 턴오버 48.8% | ★ 섹터 대장주"
         }
       ],
       "watching": [
+        {
+          "ticker": "456010",
+          "name": "아이씨티케이",
+          "scan_date": "2026-05-27",
+          "breakout_open": 31550,
+          "breakout_close": 36350,
+          "entry_price": 29972,
+          "stop_loss": 29372,
+          "box_top": 23955,
+          "box_bottom": 21766,
+          "expires_at": "2026-08-25",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리7% 양봉16% | 진입:시가-5% 손절:진입가-2%"
+        },
         {
           "ticker": "000990",
           "name": "DB하이텍",
@@ -310,7 +337,7 @@
           "box_top": 15661,
           "box_bottom": 14564,
           "expires_at": "2026-08-06",
-          "status": "watching",
+          "status": "entered",
           "is_expired": false,
           "memo": "D전략 | 꼬리0% 양봉10% | 진입:시가-5% 손절:시가-2%"
         },
@@ -722,33 +749,44 @@
       ],
       "holding": [
         {
-          "ticker": "274090",
-          "name": "켄코아에어로스페이스",
-          "avg_price": 25000,
-          "current_price": 34250,
-          "quantity": 30,
-          "stop_loss": 25000,
-          "buy_date": "2026-05-22",
-          "pnl_rate": 37.0,
-          "pnl_amount": 277500,
-          "phase": 2,
-          "peak_price": 36900
-        },
-        {
           "ticker": "108490",
           "name": "로보티즈",
           "avg_price": 282000,
-          "current_price": 313000,
+          "current_price": 302500,
           "quantity": 3,
           "stop_loss": 282000,
           "buy_date": "2026-05-21",
-          "pnl_rate": 10.99,
-          "pnl_amount": 93000,
+          "pnl_rate": 7.27,
+          "pnl_amount": 61500,
           "phase": 2,
           "peak_price": 321000
         }
       ],
       "history": [
+        {
+          "ticker": "125490",
+          "name": "한라캐스트",
+          "avg_price": 16180,
+          "sell_price": 15980,
+          "quantity": 92,
+          "buy_date": "2026-05-27",
+          "sell_date": "2026-05-27",
+          "sell_reason": "stop_loss",
+          "pnl_rate": -1.24,
+          "pnl_amount": -18400
+        },
+        {
+          "ticker": "274090",
+          "name": "켄코아에어로스페이스",
+          "avg_price": 25000,
+          "sell_price": 32650,
+          "quantity": 30,
+          "buy_date": "2026-05-22",
+          "sell_date": "2026-05-27",
+          "sell_reason": "trailing_stop",
+          "pnl_rate": 30.6,
+          "pnl_amount": 229500
+        },
         {
           "ticker": "348340",
           "name": "뉴로메카",
@@ -897,13 +935,13 @@
       "initial_capital": 2000000,
       "slots": 5,
       "slot_size": 400000,
-      "month_return": -1.25,
-      "month_count": 8,
-      "month_pnl": -25000,
+      "month_return": 4.62,
+      "month_count": 10,
+      "month_pnl": 92440,
       "month_start": "2026-05-01",
-      "year_return": 2.93,
-      "year_count": 12,
-      "year_pnl": 58560,
+      "year_return": 8.8,
+      "year_count": 14,
+      "year_pnl": 176000,
       "year_start": "2026-01-01",
       "accuracy": null
     }
