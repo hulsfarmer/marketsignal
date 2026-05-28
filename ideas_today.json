@@ -1,11 +1,11 @@
 {
-  "date": "2026-05-27",
-  "generated_at": "2026-05-27T16:10:13",
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T16:10:27",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-27T16:10:13",
-      "pick_date": "2026-05-27",
+      "updated_at": "2026-05-28T16:10:27",
+      "pick_date": "2026-05-28",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -48,8 +48,8 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-27T16:10:13",
-      "pick_date": "2026-05-27",
+      "updated_at": "2026-05-28T16:10:27",
+      "pick_date": "2026-05-28",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -110,69 +110,45 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-27T16:10:13",
-      "pick_date": "2026-05-27",
-      "count": 5,
+      "updated_at": "2026-05-28T16:10:27",
+      "pick_date": "2026-05-28",
+      "count": 3,
       "picks": [
+        {
+          "stock_code": "006660",
+          "name_kr": "삼성공조",
+          "open_price": 16380,
+          "close_price": 18010,
+          "trade_value": 223909191585,
+          "market_cap": 146354915140,
+          "sector": "운송장비·부품",
+          "rarity_months": 3,
+          "score": 8.0,
+          "notes": "KOSPI | 등락 +16.0% | 턴오버 153.0% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "417010",
+          "name_kr": "나노팀",
+          "open_price": 13310,
+          "close_price": 14860,
+          "trade_value": 204571456240,
+          "market_cap": 299766738080,
+          "sector": "기계·장비",
+          "rarity_months": 3,
+          "score": 8.0,
+          "notes": "KOSDAQ | 등락 +18.3% | 턴오버 68.2% | ★ 섹터 대장주"
+        },
         {
           "stock_code": "347850",
           "name_kr": "디앤디파마텍",
-          "open_price": 72200,
-          "close_price": 98800,
-          "trade_value": 323343418800,
-          "market_cap": 4327849723600,
+          "open_price": 105000,
+          "close_price": 109200,
+          "trade_value": 503726858900,
+          "market_cap": 4783412852400,
           "sector": "일반서비스",
-          "rarity_months": 3,
-          "score": 5.7,
-          "notes": "KOSDAQ | 등락 +30.0% | 턴오버 7.5% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "274090",
-          "name_kr": "켄코아에어로스페이스",
-          "open_price": 34250,
-          "close_price": 34350,
-          "trade_value": 224919840525,
-          "market_cap": 471611004300,
-          "sector": "운송장비·부품",
           "rarity_months": 0,
-          "score": 2.8,
-          "notes": "KOSDAQ | 등락 +0.3% | 턴오버 47.7% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "001740",
-          "name_kr": "SK네트웍스",
-          "open_price": 11460,
-          "close_price": 11640,
-          "trade_value": 827309998080,
-          "market_cap": 2334912867960,
-          "sector": "유통",
-          "rarity_months": 0,
-          "score": 2.5,
-          "notes": "KOSPI | 등락 +6.6% | 턴오버 35.4% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "048410",
-          "name_kr": "현대바이오",
-          "open_price": 13640,
-          "close_price": 13970,
-          "trade_value": 203913511835,
-          "market_cap": 1348182840840,
-          "sector": "화학",
-          "rarity_months": 2,
-          "score": 1.5,
-          "notes": "KOSDAQ | 등락 +2.5% | 턴오버 15.1% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "456010",
-          "name_kr": "아이씨티케이",
-          "open_price": 31550,
-          "close_price": 36650,
-          "trade_value": 250360110450,
-          "market_cap": 513499265100,
-          "sector": "전기·전자",
-          "rarity_months": 1,
-          "score": -0.1,
-          "notes": "KOSDAQ | 등락 +19.0% | 턴오버 48.8% | ★ 섹터 대장주"
+          "score": 4.1,
+          "notes": "KOSDAQ | 등락 +10.5% | 턴오버 10.5% | ★ 섹터 대장주"
         }
       ],
       "watching": [
@@ -747,22 +723,20 @@
           "memo": "리스크 5.0% | 박스 30일"
         }
       ],
-      "holding": [
+      "holding": [],
+      "history": [
         {
           "ticker": "108490",
           "name": "로보티즈",
           "avg_price": 282000,
-          "current_price": 302500,
+          "sell_price": 288500,
           "quantity": 3,
-          "stop_loss": 282000,
           "buy_date": "2026-05-21",
-          "pnl_rate": 7.27,
-          "pnl_amount": 61500,
-          "phase": 2,
-          "peak_price": 321000
-        }
-      ],
-      "history": [
+          "sell_date": "2026-05-28",
+          "sell_reason": "trailing_stop",
+          "pnl_rate": 2.3,
+          "pnl_amount": 19500
+        },
         {
           "ticker": "125490",
           "name": "한라캐스트",
@@ -935,13 +909,13 @@
       "initial_capital": 2000000,
       "slots": 5,
       "slot_size": 400000,
-      "month_return": 4.62,
-      "month_count": 10,
-      "month_pnl": 92440,
+      "month_return": 5.08,
+      "month_count": 11,
+      "month_pnl": 101640,
       "month_start": "2026-05-01",
-      "year_return": 8.8,
-      "year_count": 14,
-      "year_pnl": 176000,
+      "year_return": 9.26,
+      "year_count": 15,
+      "year_pnl": 185200,
       "year_start": "2026-01-01",
       "accuracy": null
     }
