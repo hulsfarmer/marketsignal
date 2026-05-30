@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T15:05:02",
+  "generated_at": "2026-05-30T15:08:42",
   "count": 500,
   "posts": [
     {
@@ -182,6 +182,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNWxyUWRscVNpSnZteGdBOWQwbnNMVTJMYTZwS3NZTmtoSk83T1Zia3k3TVV3Vlg5SVBiUHdaMld0VUwzeVFLdXBQeElmNy11My1IWWZlSVptaXZoVlcxdnlPSHJLLU9EN1B3UFc3ZElhM09ORzFmSlJfMDY1b1E5SUxTOXJmOGt4UTNjcmtTdkdwRXI0WWNlMGhwT0U4SUFkZkFEWkFFRXhTQWc5OUdr?oc=5",
       "direction": "up",
       "updated_at": "2026-05-30 06:07:53"
+    },
+    {
+      "id": 6109,
+      "title": "ASML CEO가 AI 수요 급증으로 반도체 시장 공급 부족이 심화될 것으로 전망. 칩 생산 장비 수급이 극도로 타이트해질 것으로 예상되어 메모리·파운드리 업체들의 수급 경쟁 심화 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-20",
+      "summary": "<p>ASML CEO가 AI 수요 급증으로 반도체 시장 공급 부족이 심화될 것으로 전망. 칩 생산 장비 수급이 극도로 타이트해질 것으로 예상되어 메모리·파운드리 업체들의 수급 경쟁 심화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: ASML CEO sees tight supply in booming chip market as AI demand soars Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 반도체 수요 급증과 공급 부족은 SK하이닉스(HBM), 삼성전자(메모리/파운드리)의 강한 가격 협상력 및 실적 개선으로 이어지는 명확한 호재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMlBLNU5MQzJ2VTJ4cVZwMWJUWWVRR3FwM2lVT0NYX2VTZWF1bUozcWNUdTdBNGZFUi1oX21aUkxRclptb0FGZUNnUnZBU2ZTOG1HTV9jRFJsTUgyYWFwVWpGMEZfem9zUThKWWF3SlBoOXY2OEx1QlhYWVIwMzlOQnJadFIzdHJEQ2lGS2NEUjU2NmpIZXlyaHdOWGJ4VkI0VmFUNjdjVFJSbm55eFlRTFltR1RHM1RZZW45V2JjWUUyZVpBUGJB?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-30 15:07:26"
     },
     {
       "id": 5819,
@@ -1522,6 +1549,35 @@
       "updated_at": "2026-05-30 06:11:50"
     },
     {
+      "id": 6123,
+      "title": "미국 채권 수익률 상승이 주식시장에 부정적 영향을 미칠 수 있다는 전망. 이는 USD/KRW 환율 상승, 한국 외국인 자금 유출, 그리고 한국 기업의 달러 차입 비용 증가로 이어질 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-27",
+      "summary": "<p>미국 채권 수익률 상승이 주식시장에 부정적 영향을 미칠 수 있다는 전망. 이는 USD/KRW 환율 상승, 한국 외국인 자금 유출, 그리고 한국 기업의 달러 차입 비용 증가로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US bonds about to bite stocks Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 금리·채권 수익률 상승은 글로벌 자금 흐름과 환율에 직결되어 한국 증시 외국인 수급과 수출 기업 실적에 의미있는 영향을 미침",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "포스코",
+        "카카오",
+        "네이버"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSzlLYUdYX2lKZ2N4MzdwNDlxendQeDRqdDhsY3hPU2RmalVQbEU5ZlNFYkEwS3VsN29YUTBvYmJ5c1N1UjN1dE9BdHZFczhJWFhXUEtLVFZfYXpaNXRydXpiQVlMQmVweUFWcmRFRG5oYUJ4cHFvQVVLUGFjYTZHMlVYVnY4Y1pFZW8wZ0dmVGJUQXdnc29tczN1Zw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-30 15:08:24"
+    },
+    {
       "id": 6101,
       "title": "금값이 2개월 만에 최저치를 기록했으며, 전쟁발 인플레이션으로 인한 금리 인상 기대감이 압박 요인. 이는 USD 강세 → KRW 약세, 외국인 자금 이탈, 채권 금리 상승으로 이어져 한국 증시에 악영향.",
       "category": "거시",
@@ -1716,6 +1772,36 @@
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2Vra2c2dGNEcGhJcHV4dTRIOFRORXhpdDZvdUg1RzhPYnNxc1IwbGJlaDZoeW56cXhQSWpLTlowc0JtOEhjR0pKQXZGeDQxRGNldnMtRzNpWWpHVElPbkVHVGRzSkFod3VCMVAtOVBwamRNX0FPaVdOTUd0djF1Tk9ldkNKQnBGS183NWRkTXJJTWZIQnBtWFRsRnFmazlTM05nTHBKUQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-30 06:09:02"
+    },
+    {
+      "id": 6125,
+      "title": "전쟁으로 인한 인플레이션 우려가 금리인상 베팅을 부추기면서 금값이 하락했다. 이는 글로벌 금리 인상 사이클 강화를 의미하며, USD/KRW 환율 상승과 한국 채권 금리 상승 압력으로 이어질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-26",
+      "summary": "<p>전쟁으로 인한 인플레이션 우려가 금리인상 베팅을 부추기면서 금값이 하락했다. 이는 글로벌 금리 인상 사이클 강화를 의미하며, USD/KRW 환율 상승과 한국 채권 금리 상승 압력으로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gold falls as war-driven inflation fears fuel rate-hike bets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 매파적 기조 강화는 원화 약세, 수출주 외국인 매도, 고배당주 등 금리민감주에 직접 악영향을 미치는 의미있는 매크로 변수",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "포스코",
+        "삼성물산",
+        "KB금융",
+        "신한지주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORlJCLUk1UjZTTllqd1RacFBFNXZWanBUZkZpVTlyWktFYm1Fb01OZVpBX2tyelRoWnptU2RsZVRtTktJZEp4MnVoVWdaaGJENnJLT09jLVREUmNuVnhXSVo3R0J3VFc5MGhaUHZ5Y2FaODhjVXVRRE1PekJKNVltR3ZremkyM005M2J5VWV1Y1hsZXFQeVh6bWk3QlRQdlVJdUpzMUxn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-30 15:08:32"
     },
     {
       "id": 5960,
@@ -11837,6 +11923,61 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 6126,
+      "title": "월스트리트가 상승 마감하고 유가(브렌트유)가 하락한 가운데, 미국-이란 휴전 연장 보도가 나옴. 유가 하락은 에너지 수입국인 한국의 인플레이션 완화 요인으로 작용할 수 있으며, 위험자산 선호 심화로 외국인의 한국 주식 수급에 긍정적.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-29",
+      "summary": "<p>월스트리트가 상승 마감하고 유가(브렌트유)가 하락한 가운데, 미국-이란 휴전 연장 보도가 나옴. 유가 하락은 에너지 수입국인 한국의 인플레이션 완화 요인으로 작용할 수 있으며, 위험자산 선호 심화로 외국인의 한국 주식 수급에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Wall Street ends higher, Brent crude eases on reports of US-Iran truce extension Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "지정학적 리스크 완화와 유가 하락은 한국의 에너지 비용 절감과 수출 경쟁력 개선에 도움이 되나, 글로벌 인플레 영향은 제한적",
+      "stocks": [
+        "에너지·화학 수입사 (SKE",
+        "S-Oil)",
+        "수출 대기업 (삼성전자",
+        "LG전자",
+        "현대차)",
+        "금융주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ0ViVHBRYlNKdmh1NFQ1WnNXQVFXVkNHYlpEaE8zVlluMGNPOHk5ZHN0SGl6UnVQWHRKbE1ZQXg1M2xpNWs4WHlxcF8wRjhYOHh2TXZmelNfZEx6WTNfUU92UGg5a2VXLUxubGNnc3VXVUhlaVo1YVI2T1UwNlVic1ZzQQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-30 15:08:36"
+    },
+    {
+      "id": 6120,
+      "title": "일본은행(BOJ)이 내년 채권 테이퍼링을 일시 중단할 가능성을 검토 중이며, 이는 엔화 약세와 글로벌 유동성 완화 기조를 의미한다. 이에 따라 USD/KRW 환율 상승과 한국 수출주 매력도 증가가 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-29",
+      "summary": "<p>일본은행(BOJ)이 내년 채권 테이퍼링을 일시 중단할 가능성을 검토 중이며, 이는 엔화 약세와 글로벌 유동성 완화 기조를 의미한다. 이에 따라 USD/KRW 환율 상승과 한국 수출주 매력도 증가가 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): BOJ may heed calls to pause bond taper next year Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "BOJ의 테이퍼 중단은 엔저 심화와 글로벌 완화 사이클 연장을 의미하여 한국 수출 경쟁력에 중장기적 긍정 신호지만, 직접적 충격은 제한적",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대자동차",
+        "LG전자",
+        "삼성SDI"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOelFqMVJvZUdlMTRpSGpCQ09mY0x3UE9Zd1E5aktpc01yc3ViRzd0YXIyVE9XNTNKempKdUlOVS1oN3d2N3pJRDQ1OGYwdFdQbWRHX2duWVhRVzdWU01jYUJWZDhIMkNkRlRxSUtLZzhGM01sb0tjbFFCTGdkZWw2cXVMX3VxVzZwSkc0WXBrYVpYLVlUeXRCQl9raldSdWlwSWc?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-30 15:08:13"
+    },
+    {
       "id": 5958,
       "title": "Intel과 3DGS가 인도 오디샤주에 33억 달러 규모의 반도체 기판 생산 공장을 설립. 인도의 반도체 공급망 확대로 한국의 메모리·파운드리 경쟁사들의 글로벌 입지 재편 우려.",
       "category": "주식",
@@ -11915,6 +12056,86 @@
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVRpNGJnczdUQm9CTDF0QUlvTnZXbkFNc1Fjdnl2RUlxNjZGNzhPYmlGeDU4cmF1SWdJekM0M2tUbmVoUVBUOTc3ZEIzTi1pU0EzcldzZmRxQlpaaXEybXVWcHJ5eGp5b0paa2IyYXMyUDZsU0w0RGVfMWltdFBGV05CQVh1bExCMTh6VmVKNDV3dFQ5a2g5ZkVXcVF3a1M3SmVYVmUtRVppRjNGOWVJ?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-30 06:00:35"
+    },
+    {
+      "id": 6116,
+      "title": "골드만삭스가 2026년 M&A 거래량이 거의 사상 최고 수준에 도달할 것으로 예상. 글로벌 인수합병 활동 활성화는 바이오/제약 산업의 구조 조정 및 자금 조달 기회 증가를 의미.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-28",
+      "summary": "<p>골드만삭스가 2026년 M&A 거래량이 거의 사상 최고 수준에 도달할 것으로 예상. 글로벌 인수합병 활동 활성화는 바이오/제약 산업의 구조 조정 및 자금 조달 기회 증가를 의미.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Goldman Sachs says on track for near-record M&amp;A volumes in 2026 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "글로벌 M&A 활성화는 한국 바이오/제약사들의 해외 인수 기회 및 파트너십 증가로 호재이나, 한국 시장 직접 영향은 제한적",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "SK바이오사이언스",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXE2SDAyYlFZQThubUlDaG05bUl6TlpCekMwb1BUd2hCbHJNbElfNXFELUNRQUExNHpnMlNEWnN3VlVfaElYR0NHMlBMakRUSXFacVllcTBwRTZvTVhQdlk4d2ZoN3oycTc4am9VaE55WGpxeUw1S0pBaWlXZFFMVkJUSUx6R3ZEY3hDaFRFdUV2LXhaU0FZWTEyZkNlR3NxcDhsNXZCZlFzcVlq?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-30 15:07:54"
+    },
+    {
+      "id": 6113,
+      "title": "미국과 이란이 휴전 연장에 합의하며 지정학적 긴장이 완화되자 S&P 500과 나스닥이 사상 최고가를 기록했다. 글로벌 리스크 프리미엄 축소로 주식시장 심리가 개선되면서 한국 바이오/CDMO 기업들의 글로벌 투자 심리도 긍정적으로 영향을 받을 것으로 예상된다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-28",
+      "summary": "<p>미국과 이란이 휴전 연장에 합의하며 지정학적 긴장이 완화되자 S&P 500과 나스닥이 사상 최고가를 기록했다. 글로벌 리스크 프리미엄 축소로 주식시장 심리가 개선되면서 한국 바이오/CDMO 기업들의 글로벌 투자 심리도 긍정적으로 영향을 받을 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): S&amp;P 500 and Nasdaq hit record closing highs as US and Iran agree to extend ceasefire Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
+      "feedback": "지정학적 리스크 완화는 글로벌 주식시장 심리 개선을 통해 한국 바이오/CDMO 기업의 밸류에이션과 해외 투자자 심리에 간접적 호재이지만, 업황 자체의 직접적 변화는 제한적",
+      "stocks": [
+        "삼성바이오로직스",
+        "셀트리온",
+        "SK바이오사이언스",
+        "유한양행",
+        "한미약품"
+      ],
+      "tags": [
+        "바이오",
+        "CDMO"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZW5OZjgtYlBYcWVNMFJIbW5ab2Y0UldIWVFkU0VHekpyUkRCMW5HWGVqTEpuSHJJT2p3cEF0NlNUSUNCNmJOWDM3V21QQXQySVZGbFNtWjNid1BzVWw4YnNjV01MSVRxakhHSEJVaDVwWkV3Sko5alU3SW9sYlpuWl9QU1pqaXdQYlVvRkhBRkN4STIzRzVr?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-30 15:07:43"
+    },
+    {
+      "id": 6104,
+      "title": "대만이 미국의 칩 관세에 대해 구체적인 시간표가 없으며, 이미 우대조건이 합의되었다고 발표. 대만 TSMC의 우대 지위는 한국 메모리·파운드리 업체들의 상대적 경쟁력 약화 우려를 야기.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-28",
+      "summary": "<p>대만이 미국의 칩 관세에 대해 구체적인 시간표가 없으며, 이미 우대조건이 합의되었다고 발표. 대만 TSMC의 우대 지위는 한국 메모리·파운드리 업체들의 상대적 경쟁력 약화 우려를 야기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Taiwan says US has no timetable for chip tariffs, preferential terms already agreed Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국의 차별적 칩 관세 정책이 대만에 유리하게 진행되면서 한국 반도체 업체들의 미국 시장 경쟁력 약화 가능성",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOendBSTNRVG5SS2JqZEJmSUV2Zko4eHJvWkZfT1A3Vkw4cmlVUkNicldOX0NZTG5jOW5RVVk3RTBSS0lCZjI3ZW1nT18xV0hlZFJhZVFoZ054bmpkMUtYSEhfb3NpbXpwb2czOENJOVdYcTRteHBlYnltMzZjMUhNdDRVVnNpNGhfN2k2WVJFUk9VWWtuMl9OXzBRVDc2dGFONTM1dW9xX1MxYllRVnlJUWJZZEc2cl9rQzJ3LUEyRFBxdlM5VHdrZXpuVk5wUQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-30 15:07:09"
     },
     {
       "id": 6079,
@@ -12239,6 +12460,88 @@
       "updated_at": "2026-05-30 06:01:14"
     },
     {
+      "id": 6119,
+      "title": "전직 Fed 임원이 공급 충격과 높은 채무 수준이 중앙은행 독립성을 훼손할 수 있다고 경고. 이는 향후 금리 정책의 정치적 압력 증가 가능성을 시사하며, USD/KRW 환율과 한국 채권 시장에 영향을 미칠 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-27",
+      "summary": "<p>전직 Fed 임원이 공급 충격과 높은 채무 수준이 중앙은행 독립성을 훼손할 수 있다고 경고. 이는 향후 금리 정책의 정치적 압력 증가 가능성을 시사하며, USD/KRW 환율과 한국 채권 시장에 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Supply shock, debt may hurt central bank independence, ex-Fed executive says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "중앙은행 정책 불확실성 증대로 인한 매크로 변수 변동성 확대가 한국 외환·금리 시장에 미치는 일반적 영향",
+      "stocks": [
+        "금융주(KB금융",
+        "신한금융",
+        "NH투자증권)",
+        "수출주(삼성전자",
+        "SK하이닉스",
+        "LG화학)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORDcwWFVwMGVZdFZOV290T3MxQWlDeGlicm9IOUdIWGxKOHFDUmU5WVRDRDNCVHVSRVBSaWtocWhjc04zdlh5c3J2UWt6d0M4emVYRHlMSEdMM0VISE9OYW9kUTc3OHhDTG53RnZKR1RZVzRaYlI5c1p4am5RMnJUYldDQ1N5b2dMSnBfOHVIUnU5MkRrdWVTVUdMaEM3dmljbVJ0XzZaUkQzbVV2OGJlbW5HVDdmSTdyTlE4?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-30 15:08:09"
+    },
+    {
+      "id": 6110,
+      "title": "삼성전자의 임금협상 합의가 한국 노사관계의 '지각 변동'을 의미하며, 노조 세력을 강화시키는 신호. 한국 반도체 기업들의 인건비 상승 압력 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-27",
+      "summary": "<p>삼성전자의 임금협상 합의가 한국 노사관계의 '지각 변동'을 의미하며, 노조 세력을 강화시키는 신호. 한국 반도체 기업들의 인건비 상승 압력 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Samsung pay deal marks seismic change for South Korea, emboldening unions Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "삼성전자 임금 상승이 한국 반도체 업계 전반의 원가 구조에 영향을 미칠 수 있으며, 노조 활성화는 다른 대형 제조업 임금 상향 압박으로 연쇄 효과 예상",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLXplOTdseks1T05aS3ZycDd2Y1FXZmxqdzE3NExxMkFjenByT3NsUlRYcnpzcnl2aTd1VW9FUm5pUUlpcWtqY0huS3M1SFhmYkRMdEt5M0FrbVFaN0tiRUtLYkVFZGlvUUlnQ1hoV19OdUZua0ZmU2dkcXVPeG1KTlV6dHdRUHN0ZkhmRkd3Ujc4N2M2SXlXWnV0NHNBaXRsdms4WlY2YTF1NDBfc2xXSWRrejFSdVVxYjdJem80WDJGaThRblE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-30 15:07:30"
+    },
+    {
+      "id": 6105,
+      "title": "대만이 엔비디아 고성능 칩이 일본을 경유해 중국으로 불법 반입되었다고 의심하고 있으며, 이는 미국의 대중국 반도체 수출규제 우회 시도로 해석됨. 글로벌 반도체 공급망 감시 강화와 규제 리스크 증대는 한국 메모리/파운드리 업체의 경쟁 환경 변화를 의미.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-27",
+      "summary": "<p>대만이 엔비디아 고성능 칩이 일본을 경유해 중국으로 불법 반입되었다고 의심하고 있으며, 이는 미국의 대중국 반도체 수출규제 우회 시도로 해석됨. 글로벌 반도체 공급망 감시 강화와 규제 리스크 증대는 한국 메모리/파운드리 업체의 경쟁 환경 변화를 의미.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Taiwan suspects Nvidia chips smuggled to China via Japan, Bloomberg News reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "규제 강화와 공급망 재편 신호이나 직접적 악재보다는 업계 리스크 요인으로 작용; 삼성·SK하이닉스 등 한국 반도체사의 중국 수출 정책 영향 가능성",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYlB3cExWRkdfUU5CWHd0S010azBBSWhsQmNncTZ0MzRJQkZuN05RVzN1UkpWVkIxbGhkN1pQb0htZV96NVVJQ0lINDFJLTBha1RJa3VxOHU1SkRhRkVPeWVpMUJ5RUpEYTFmX0d5RWhBNE4telZVbWpYc0FVX1EzaG5OMnVDZkQ3VUVTQThPalJVQ1B1X05ENnBMZzJNTE1abHFRNHVyMW90TEU3SVBQMXhPWGFDRjBiZmdXMlpQQmZ6aGc1d283V09RYw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-30 15:07:12"
+    },
+    {
       "id": 6098,
       "title": "미국 모기지 금리가 9개월 만에 최고 수준으로 상승하면서 주택 구매력이 악화되고 있다. 이는 미국 금리 인상 기조 지속을 시사하며, USD/KRW 상승과 한국 수출주(반도체, 자동차)의 외국인 수급 악화로 이어질 가능성이 있다.",
       "category": "거시",
@@ -12341,6 +12644,137 @@
       "updated_at": "2026-05-30 06:00:39"
     },
     {
+      "id": 6122,
+      "title": "미 연준이 은행 감시자의 권한을 축소하면서 월스트리트가 규제 완화를 통한 추가 이득을 노리고 있음. 이는 글로벌 금융 규제 완화 기조로 이어져 USD 강세와 신흥국 자본유출 압력을 초래할 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-26",
+      "summary": "<p>미 연준이 은행 감시자의 권한을 축소하면서 월스트리트가 규제 완화를 통한 추가 이득을 노리고 있음. 이는 글로벌 금융 규제 완화 기조로 이어져 USD 강세와 신흥국 자본유출 압력을 초래할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: As Fed leashes bank examiners, Wall Street pushes for more wins, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 금융 규제 완화는 중기적으로 USD/KRW 상승 압력과 한국 외국인 자금 이탈 우려를 키우는 매크로 악재이지만, 즉각적인 한국 산업에 직접 영향은 제한적",
+      "stocks": [
+        "금융주(KB금융",
+        "신한금융)",
+        "수출 대기업(삼성전자",
+        "SK하이닉스",
+        "LG화학)",
+        "외국인 수급 민감주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORVNJaHJMMmJJWXhmTDB2d0s2OE95djQweXM4aDdER0JjRFlFXzV3ajlmTld4bVZpLVNscVRHVmxZaTVUU21CYTFRYXBjalhqSEs5NnlPanhXQi1IZFBKc1p1cE05N09KMjY0N29iZ0dqMVNpYVJsWFdmTzhIclZCTEUwQUQxZ2puNXJ0amtUcmlkZi02b2IzZXNFNi1rZkNyOEtKUkhVdUNHWWg2U0JZbkh4UVc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-30 15:08:20"
+    },
+    {
+      "id": 6121,
+      "title": "트럼프 행정부 은행 규제당국이 금융감시를 완화하고 있으며, 이는 미국 금융시장의 리스크 자산 선호도 증가로 이어져 USD/KRW 약세와 외국인 주식 수급 개선 가능성을 높임.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-26",
+      "summary": "<p>트럼프 행정부 은행 규제당국이 금융감시를 완화하고 있으며, 이는 미국 금융시장의 리스크 자산 선호도 증가로 이어져 USD/KRW 약세와 외국인 주식 수급 개선 가능성을 높임.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): How Trump&#x27;s bank regulators are paring back supervision Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 금융규제 완화는 글로벌 위험자산 선호도를 높여 한국 외국인 수급과 환율에 긍정적 영향을 미칠 수 있으나, 직접적 산업 영향은 제한적",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대차",
+        "삼성물산"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcnJ5LXBSamN5ZXNLU25HajZ0M3BlejhDYjFGb1I2VWFMbGZJZHdBZkpRQWk4STNuU3lQUkRYdWJSY2NjRDN0NUdSSU1EbDlaN0JIaUFDUnFmay1Eel9FYlRPMFVvdU56TmptdTBTMk84T1RlN3VVTWxua3BBbDZUSEZLdmdHUGJyc0tpSmp4YVJtZmFiYjRyX19GelZibUlJeURMcl9QZEE3TVNiakw0?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-30 15:08:16"
+    },
+    {
+      "id": 6107,
+      "title": "I Squared Capital이 AI 추론 데이터센터 확대를 위해 Cogent으로부터 $225M 규모 데이터센터를 인수. AI 인프라 투자 확대 추세로 고대역폭메모리(HBM)와 서버용 반도체 수요 증가 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-26",
+      "summary": "<p>I Squared Capital이 AI 추론 데이터센터 확대를 위해 Cogent으로부터 $225M 규모 데이터센터를 인수. AI 인프라 투자 확대 추세로 고대역폭메모리(HBM)와 서버용 반도체 수요 증가 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): I Squared bets on AI inference with $225 million data center buy from Cogent Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 인프라 투자 확대는 메모리/파운드리 수요 증가로 이어지지만, 글로벌 데이터센터 구매 소식이므로 한국 기업의 직접적 수주 여부 불명확해 중간 수준 영향.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYXVEd1U1Y3hud0FBdHJlWTZkcTZIMlR5MXoyU1RvVUN2SVNvejROQWJ3UFpUaXdDaHNJZTBJX1Q2SXQwd1Uyb3Zqd3NMWWZiQlFOQ1lOUERHRHJJcDZjMV95Z0Vkb2NTcVk5eXg0c3ZwNWE4YkxfOS1IU0htY0ZuN01sOXRWRFNicmI2MDRCa1RkWkdCT19Yc1AxdFg4LUpXWHFtTkpGV2xSSmR1QS1TRWpncEVPQjhCZnM5d0pLY1lLRlhT?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-30 15:07:20"
+    },
+    {
+      "id": 6106,
+      "title": "퀄컴이 TikTok 모기업 바이트댄스와 AI칩 공급 계약을 체결했으며, 이는 중국 AI반도체 자급화 움직임을 시사하고 한국 메모리·파운드리 업체의 중국 수요 감소 리스크를 의미한다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-26",
+      "summary": "<p>퀄컴이 TikTok 모기업 바이트댄스와 AI칩 공급 계약을 체결했으며, 이는 중국 AI반도체 자급화 움직임을 시사하고 한국 메모리·파운드리 업체의 중국 수요 감소 리스크를 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Qualcomm strikes AI chip deal with TikTok owner ByteDance, Bloomberg News reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국의 AI칩 자급화 추진으로 한국 반도체(HBM, 파운드리) 수출 감소 우려가 있으나, 단일 계약 수준으로 즉각적 영향은 제한적",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVlhVSElReFBFQV95UktOb3loME9OTEpXNmFadDdtdXZISk1RTGNBRWRFVktaZXNzNHZVR29PMFVXUFR6NHJGU3dnMHk4dkhCOWFlWTZ1REVDZWticHN0bVlkV1lIb1QyYXpRSTNYMTNGcUxiREtoUjROZFFDS0E0cHhmMEdQdnhmWWlmR3NwVUx1NWowRG1rakFlV0U5cVJUcDIyQ2U1Q2dZTVl0amVLX29RSTllY3FmN1dpX1NLUjFCRDA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-30 15:07:17"
+    },
+    {
+      "id": 6103,
+      "title": "IREN이 델로부터 엔비디아 Blackwell 시스템을 16억 달러 규모로 구매. AI 칩 수요 증가로 고성능 반도체 시스템 도입 확대.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-26",
+      "summary": "<p>IREN이 델로부터 엔비디아 Blackwell 시스템을 16억 달러 규모로 구매. AI 칩 수요 증가로 고성능 반도체 시스템 도입 확대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): IREN to buy Blackwell systems from Dell for about $1.6 billion Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 인프라 투자 확대는 HBM·메모리 수요 긍정적이나, 한국 기업의 직접 수주가 아니므로 간접적 호재 수준",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1RxUDh6VDlIc0xuc0duV2JWd2Uxc1Z5aEF3QVN4bDBQUVFtLTNmWXoyYUlGaUdCREl1UFhId2phVnpZNFBfM3RQN2tJcnRLT1pSUDF1M01kOUhGN09xSVRsekFJWjVDaDlseEFtOE9TWDNQSU01eVpVOGRET1BmVFVOX2hsNjNuVkt3LTB6NWs4WlE2TlpEdA?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-30 15:07:05"
+    },
+    {
       "id": 6072,
       "title": "5월 미국 소비자신뢰지수가 인플레이션 우려로 약세를 보임. 이는 Fed의 금리 인상 지속 가능성을 시사하며, USD/KRW 강세와 한국 수출주(반도체, 자동차) 약세로 이어질 수 있음.",
       "category": "거시",
@@ -12365,425 +12799,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUi1Na1U1ZzhDQ3pKc2VxQWFNd0dEVFNEZzhRNVJibExrYVJ0YS14QnJHVXRHckczdTdOaHBJcDdUcFBfYlozRkRVeTNQeHdfaXRpcGN1TkJCNVgyTElEQUU4YUI4X2Rpb0RtTklYQTZXWFktR2NBRmgtWmR6YnZQNWduUzFJYTJMaTdYUEtFTktKdnE1V1pUd1l5ZGxtaDRKNmc?oc=5",
       "direction": "down",
       "updated_at": "2026-05-30 09:08:31"
-    },
-    {
-      "id": 5938,
-      "title": "중국 코킹탄 광산 사고로 공급 차질 우려가 커지면서 가격이 급등. 철강·자동차 생산에 필요한 원재료 수급 긴장으로 한국 철강사와 자동차 업계의 원가 부담 증가 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-25",
-      "summary": "<p>중국 코킹탄 광산 사고로 공급 차질 우려가 커지면서 가격이 급등. 철강·자동차 생산에 필요한 원재료 수급 긴장으로 한국 철강사와 자동차 업계의 원가 부담 증가 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Chinese coking coal jumps as deadly mine accident tightens supply outlook Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 에너지 공급 차질은 한국 철강·자동차의 원재료 비용 상승 요인이지만, 단기 심각도는 제한적",
-      "stocks": [
-        "POSCO",
-        "현대자동차",
-        "기아"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ2hoUTNlNWsyN0FUX0dCZUw1OUx2OGdKM1prZWtUc3ZXM3FZWXhKcGFBQTFXQXplclJqUXZIeGRTT1p6V3FyQnliYW5DV1JKTzMwWlhfWk5PMjBSZVJObEhUc09mMFhaVkhnMFRZU1E0c25oUEJBQXBKQV9Na0Jmcy0wSXpMeTMtV1pXWGQtZXFqako4RUFjX0tFTjlhdVNNV2hNdENicHMzeElNY1FZSEVuQUZYbm5QTUlDeUduWGpseUU?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-30 06:02:20"
-    },
-    {
-      "id": 6080,
-      "title": "Reuters 분석: 반도체 업계 후발주자들의 시장 진입이 이미 늦었다는 평가. 칩 산업의 높은 진입장벽과 기존 강자들의 지배력 심화로 신규 플레이어 성공 가능성 제한.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-22",
-      "summary": "<p>Reuters 분석: 반도체 업계 후발주자들의 시장 진입이 이미 늦었다는 평가. 칩 산업의 높은 진입장벽과 기존 강자들의 지배력 심화로 신규 플레이어 성공 가능성 제한.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - Why it’s too late to jump on the chip bandwagon Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "반도체 산업 구도 재확인으로 SK하이닉스·삼성전자 같은 기존 강자의 상대적 입지 강화 신호이나, 구체적 재무 영향은 제한적",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdy1ZN2pMcWVxeXdPenI2TTVWZkxrM0MtM3NjLThENzViOVVkOXc3c3RWOFo0d2xvZVA3NTJpbXlhcjM4dXhoamVSczh3Wm1qb3dNRHNKWmNjd291Y1FTVWFXNG1uNHhIb19kMnQtV21KWUJDQ1MxRlhTcUgwbnBTaldFclFNZ2JYX2FyN240UGJ3N205NzRqOFloX2JuQQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-30 12:07:14"
-    },
-    {
-      "id": 6082,
-      "title": "AMD가 대만의 AI 부문에 100억 달러 이상 투자 계획. 글로벌 AI 반도체 수요 확대로 한국 HBM·메모리 업체 수혜 기대되나, 동시에 AMD의 경쟁력 강화는 삼성전자·SK하이닉스 등에 경쟁 심화 요인.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-21",
-      "summary": "<p>AMD가 대만의 AI 부문에 100억 달러 이상 투자 계획. 글로벌 AI 반도체 수요 확대로 한국 HBM·메모리 업체 수혜 기대되나, 동시에 AMD의 경쟁력 강화는 삼성전자·SK하이닉스 등에 경쟁 심화 요인.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AMD plans to invest over $10 billion across Taiwan&#x27;s AI sector Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 반도체 시장 확대 신호로 메모리·파운드리 수요 증가 가능성 있으나, AMD 대만 집중 투자는 한국 기업 입장에서 경쟁 심화 신호로도 작용하는 양면성",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUlliVkRRa1llYU5MN3NsTi1tSkFZc1pibFIxLUFJSGZIYUttSWNwWm5oNHhYSmpITk1tdjZtaXZTdXAyU0psWVQ0SXdTSlFJQ3V3TGE3aUhRa0hQRTUwajRJdEJtMkIxSEJMeWRXS1F1cnlkX0RIbXE2NTNEOUVtQ0pqd21XOEVCX2JNR05USVdyYV9iMmxWMWQ5cDI5dFc5OWl0OUhtN2VSX0gyeXZDUjdQeXA5d0dMRXdYR1VRUQ?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-30 12:07:21"
-    },
-    {
-      "id": 5932,
-      "title": "OPEC+ 지도자들이 호르무즈 해협 차질에도 불구하고 7월 유가 목표를 상향 조정할 것으로 예상됨. 유가 상승 압력이 약화되어 한국 정유·석유화학 기업들의 마진 개선에 제약.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-21",
-      "summary": "<p>OPEC+ 지도자들이 호르무즈 해협 차질에도 불구하고 7월 유가 목표를 상향 조정할 것으로 예상됨. 유가 상승 압력이 약화되어 한국 정유·석유화학 기업들의 마진 개선에 제약.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): OPEC+ leaders expected to up July oil output target despite Hormuz disruption, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승 억제는 정유사 마진 악화 신호이지만, OPEC+ 증산은 거시적 수급 신호로 에너지·화학주에 의미있는 영향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVlE0OWlNWHpBWXdHbzR4a2lXYmNwQ2tneWJXS2djVW9fZFJQZE1UVXlzQ19WVndVU1AzWWZLSnN6ZEJFT2pRSVc3VWtXblJQeThJbEl3cXJGUmJtX0pvUk05aENTZzVWMDRsVUJLMEYzcERvWFh0X0poemxoalhpNnIyamMwd2JQR2hCaGdrRUJaZGVsMzZSekk2cW40aHVTZFVDeDM5X1daSjlTWFZGMkQ1RDMzb3hwamxxeGRZUk56a0E?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-30 06:01:31"
-    },
-    {
-      "id": 5905,
-      "title": "테슬라의 무스크 CEO가 2026년 중 미국에서 인간 모니터링 없는 완전 자율주행차의 광범위한 사용을 기대한다고 발표. 이는 AI/자율주행 칩 수요 증가를 시사하며, 한국의 HBM/메모리 반도체 수출 기회 확대 가능성.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>테슬라의 무스크 CEO가 2026년 중 미국에서 인간 모니터링 없는 완전 자율주행차의 광범위한 사용을 기대한다고 발표. 이는 AI/자율주행 칩 수요 증가를 시사하며, 한국의 HBM/메모리 반도체 수출 기회 확대 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Tesla&#x27;s Musk expects widespread use in US of cars without human monitors this year Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "자율주행 AI 수요 증가는 고사양 반도체(HBM, 고성능 메모리) 수요를 자극하지만, 테슬라 자체 칩 설계 의존도 높아 한국 반도체 업체의 직접 수혜는 제한적",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbF9EcGJNNTVnYnpFV0RNVE9DNnJFbkE5RTNwam9UUDFIcGphWUQwcU9Ia0N3dkd0Zi1qUXprM2xRQTJPRkFtb3RNRTYxYWxxREhmaDU2alNvWUVsOWcxbkdqLUtiX3BEcGswUUEtVGNkWWhZRHlETkpRYmlhSXhUeW93MWxQaDZjdnJ4a1p2NWRkMU9lN3p5UzhuWXVsUmc5ZkVkdkgzVlhNVUJod3o0?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-19 03:07:20"
-    },
-    {
-      "id": 5902,
-      "title": "NextEra가 Dominion Energy를 668억 달러에 인수하여 미국 최대 전력회사 탄생. AI 수요 급증에 따른 데이터센터 전력 수요 증가가 배경으로, 글로벌 반도체·AI 인프라 호황이 전력 산업까지 확산되는 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>NextEra가 Dominion Energy를 668억 달러에 인수하여 미국 최대 전력회사 탄생. AI 수요 급증에 따른 데이터센터 전력 수요 증가가 배경으로, 글로벌 반도체·AI 인프라 호황이 전력 산업까지 확산되는 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): NextEra plans to buy Dominion Energy for $66.8 billion, form biggest US power company as AI demand booms Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 데이터센터 전력 수요 증가는 한국 반도체(HBM, 메모리) 수요와 긍정 상관관계이며, 글로벌 AI 인프라 투자 활성화가 한국 칩 수출 전망을 뒷받침하는 우호적 신호.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeVVIYTNmN0FtUHgyakFHYkFyTjNpQTJ5TDdzbHJILXl5cWxZU1AtSGF0eUt3VEN4TmlVSTdrRzQxT0twYUtzTnFmb2lNbEE3c292ek9uN1JERTI3b0RIeTN3T1M3X3VlUlVER1lWbUVxcDFfaGJrb2dxNHNyZk9zWlhZTk5MaGs1WHQ5WU14clVKcHdKTmFUSEhma0w4eGpJVWpaSjNIYXQtdw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-19 03:07:08"
-    },
-    {
-      "id": 5891,
-      "title": "파키스탄이 이란의 전쟁 종료 제안을 미국에 전달. 중동 긴장 완화 가능성으로 유가 하락 압력 증가, 한국의 에너지·화학 관련 종목에 부정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>파키스탄이 이란의 전쟁 종료 제안을 미국에 전달. 중동 긴장 완화 가능성으로 유가 하락 압력 증가, 한국의 에너지·화학 관련 종목에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Pakistan hands US revised Iranian proposal for ending war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학적 긴장 완화 시 유가 하락으로 에너지·화학주에 악재이나, 현재는 '제안' 단계로 실제 영향은 제한적",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-19 00:08:16"
-    },
-    {
-      "id": 5865,
-      "title": "트럼프-시진핑 정상회담 이후 투자자들이 안정성에 베팅하고 있으나 이란 전쟁 우려가 지속되는 상황. 중국 경제 안정화 신호는 한국의 對중 수출 기업(자동차, 화학, 철강, 게임)에 긍정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>트럼프-시진핑 정상회담 이후 투자자들이 안정성에 베팅하고 있으나 이란 전쟁 우려가 지속되는 상황. 중국 경제 안정화 신호는 한국의 對중 수출 기업(자동차, 화학, 철강, 게임)에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Investors bet on stability after Trump-Xi summit as Iran war concerns linger Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 안정화 신호는 한국의 주요 수출처 수요 개선으로 이어질 가능성 있으나, 이란 분쟁 우려로 인한 에너지·지정학적 리스크 상존으로 점수 상향 억제.",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "LG생활건강",
-        "아모레퍼시픽",
-        "POSCO",
-        "엔씨소프트",
-        "넥슨"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3hPV2RDUHJZZlNpUEtXZWZUeXQ2YUpQNXU1aHJicDBNRXVUb2loUXBDSGxYeURtd19ON3dLekFvNVJoenpJSTNHRjVtMWNua29NYXZkeTdxYjc1azZ6WjY0UjR1aktKSWRyUGZ3eXoxTDRNb2lGaHg0Q1dnUGVvalpRQWpsdjF3aFNES1RmU1ZhOTFEVC12STdZd2VYSGt2VkdRTlRUQWJURnFqcmh2a0hLcWdTVGowUnMzSW1CMHpOZXc?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-18 21:08:14"
-    },
-    {
-      "id": 5864,
-      "title": "미국 재무장관 베센트가 G7에 이란 제재 체제 동참을 촉구할 예정. 이란 제재 강화 시 중동 지정학적 긴장 고조로 유가 상승 가능성이 높아 한국의 에너지·석유화학 기업에 긍정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>미국 재무장관 베센트가 G7에 이란 제재 체제 동참을 촉구할 예정. 이란 제재 강화 시 중동 지정학적 긴장 고조로 유가 상승 가능성이 높아 한국의 에너지·석유화학 기업에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): U.S. Treasury Secretary Bessent: will call on G7 to follow sanctions regime on Iran Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "이란 제재 강화에 따른 유가 상승 가능성이 있으나, 아직 G7 동참 여부 불확실하고 시장 반영도 제한적이어서 중간 수준의 산업 영향으로 평가",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcmQyb1VFMWl5dUZNaFkyS2dlTnVKcndqVVdLRGZKV3htS21pSGo4bE5aMFhhcXZxRTR5dVZuSzVOQWRHSGZVQ05QbUVScGpMZnBJcThRMjItbUJiMXBjOWhjdmNrQzJMZ0VWMWRReVNjdnkwaUpvXzZJSEJIcG1LQ1hGNDlmT3dpa1RaTHdKZi1jM1lqTzZ0M1ozQThZQ2RaaFktVjdGUUJ4akVKdHlwXzNPY3BuelhtaWlr?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-18 21:08:10"
-    },
-    {
-      "id": 5861,
-      "title": "호르무즈 해협 주변의 불투명한 유가 거래가 페트로달러 체계에 시험을 가하고 있으며, 이는 원유 수입국인 한국의 에너지 구매력과 유가 변동성에 직접 영향을 미칠 수 있다. 국제유가 변동성 확대 시 정유·화학 업종의 수익성 악화 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>호르무즈 해협 주변의 불투명한 유가 거래가 페트로달러 체계에 시험을 가하고 있으며, 이는 원유 수입국인 한국의 에너지 구매력과 유가 변동성에 직접 영향을 미칠 수 있다. 국제유가 변동성 확대 시 정유·화학 업종의 수익성 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Opaque oil deals around Hormuz test the petrodollar Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 및 에너지 시장의 구조적 변화로 한국 정유·화학 업종의 마진 불확실성 증가, 다만 구체적 수치나 긴급성 부족으로 중간 수준 영향.",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcWM4R0xuLW8wczNqU3M3UTRpMnA3SWlOazNrU0ZJYU9hRVh6Z3hUT0xiX2dFSWhHamV5WktVcl9FVkNPeWVncldOTk9PNWNsQks2RHlIMm9LYmk3T3NQbFdMVVJ6LUZEYU51ZlhZXzhCV1pjNktVUm5QeWloeW9SeV9RdDhWNEhERTVNTjBydDU3UFVNQjRCZUhxOWpJZlBsU09zTS1lY1hEbTZYMHRIZEc0QVBXb1U?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-18 21:07:58"
-    },
-    {
-      "id": 5860,
-      "title": "파키스탄이 전투기 비행대와 수천 명의 군대를 사우디아라비아에 배치하며 중동 긴장 고조. 유가 변동성 확대와 중동 지역 공급망 리스크 가능성 증가로 에너지·화학 관련주에 영향.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>파키스탄이 전투기 비행대와 수천 명의 군대를 사우디아라비아에 배치하며 중동 긴장 고조. 유가 변동성 확대와 중동 지역 공급망 리스크 가능성 증가로 에너지·화학 관련주에 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: Pakistan deploys jet squadron, thousands of troops to Saudi Arabia during Iran war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학적 긴장 심화는 유가 변동성을 높여 정유·화학업체의 마진 불확실성을 증대시키지만, 아직 실제 공급 차질까지는 아닌 수준",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZXQ0ZGZRZEVoWXNYN1ExempBZ1Ata245ellOQ0JVNTdnNTRyc2oxZWUzakNEZWllaEs1T0F2cktHVUVqUGJWeW80LU5LT3g1LVJZY3RaMDBsNnpyX09sRXRQOENWZktYT0dCRC02R1o2LTBxV2dEcldNT1V1TXpRRjNQcWFHSkE2Y0tRX0V4NDBfdVpoXzRvSXlrdVNVMk9IeDVTaVRRSDhLZFl2Q3dGa0VfVGlMOTk1VjdHd3lzUzd2OVBwOVQ0VnlB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-18 21:07:54"
-    },
-    {
-      "id": 5859,
-      "title": "우크라이나가 러시아 에너지 시설을 공격하면서 유럽 에너지 공급 불안정성이 심화되고 있다. 러시아산 석유·가스 공급 차질 가능성으로 국제유가 변동성 확대 예상되며, 한국의 에너지·화학 관련 기업들의 원재료비 및 경영환경 영향 우려된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>우크라이나가 러시아 에너지 시설을 공격하면서 유럽 에너지 공급 불안정성이 심화되고 있다. 러시아산 석유·가스 공급 차질 가능성으로 국제유가 변동성 확대 예상되며, 한국의 에너지·화학 관련 기업들의 원재료비 및 경영환경 영향 우려된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Ukraine attacks Russian energy sites - what has been hit? Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 변동성 확대는 정유·석유화학 기업의 마진에 영향을 미치나, 한국이 직접 러시아 에너지에 의존도가 낮아 장기 영향은 제한적",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdm44LUtzREJtNkZ6emNvUDJZZDJsUDEtS2w0VHJTNGtKejh4clNxYkFaUDRSaUpreDJ6Z1hpRGo2T0hDLVhuRG5fS1dzelowcFhQQTMtWG93Z1RabUxoZHJTcTVKdFVVeHJNa2ZXNjZUa1ZzY296UWpPZ2pIU2xJS3lmdUNnMFY2cWduRjlsaENZamM3ZjVWdHNoNE11ck4xVVZMenktYXItZw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-18 21:07:50"
-    },
-    {
-      "id": 5857,
-      "title": "미국 장기금리와 유가가 동반 상승하면서 미국 주식선물이 하락. 유가 상승은 한국 에너지·화학 기업들의 수익성 개선에 긍정적이나, 금리 상승은 경기 둔화 우려로 작용.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>미국 장기금리와 유가가 동반 상승하면서 미국 주식선물이 하락. 유가 상승은 한국 에너지·화학 기업들의 수익성 개선에 긍정적이나, 금리 상승은 경기 둔화 우려로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US stock futures slip as yields, oil prices climb Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승은 S-Oil, SK이노베이션 등 에너지株에 호재이지만, 금리 상승에 따른 경기 부담과 원자재 수익성 악화 우려가 상충하는 일반적 거시 변수.",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSlh5Y3pEUnpYTGgwMlRpWng4QW9kN0RZQzZTTjFJektBc1B5dmowTEZxaUozYkVmY0xiTlViVkRXblc4dmJsbl93dlQ5ZjVTNlR4TzZWaTRRWkVzTF9fRGR0WTI1Vm9pOVpRUE5tWS1xWHp3eGV1REkwTTl0NkhKSFl3YU16UUtlWnBzbm1LWHVfYmlI?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-18 21:07:41"
-    },
-    {
-      "id": 5855,
-      "title": "Fed 의장 교체(Warsh 지명)로 정책 방향 불확실성 증대. 트럼프 행정부와의 금리·통화정책 전망이 불명확하여 USD 강세·금리 변동성 확대 우려로 한국 수출주 및 채권시장에 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>Fed 의장 교체(Warsh 지명)로 정책 방향 불확실성 증대. 트럼프 행정부와의 금리·통화정책 전망이 불명확하여 USD 강세·금리 변동성 확대 우려로 한국 수출주 및 채권시장에 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): A new day at the Fed, but policy forecast cloudy for Warsh, Trump, US Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 정책 방향 불확실성은 USD/KRW 환율 변동성과 외국인 자금 이탈 위험을 높이지만, 아직 구체적 결정 전 단계라 직접 영향은 제한적",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "LG화학",
-        "POSCO"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTi1OQlpUNDhmYmtWMUlZMG1xVzloZ0tESkd0OHlqRm5hYU5YWjJMekJmRDVGUVRIZ3pxckIxbk81V29XWFFDOTExcGxJcjdjTE5TRkYwNDA1WDQ1cjlvRDhyR1Ftbi1WYVJpTE9GNGZ1RmhlUndnOWpxeThkM25OZzh5Qzl3ZUFRYnhnX3pheFh2OE81UlYtbVNR?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-18 21:07:32"
-    },
-    {
-      "id": 5849,
-      "title": "미국 국립연구소가 AI 수요 증가로 슈퍼컴퓨터 도입 시 기존 대형 칩 제조사가 아닌 신규 업체들을 검토 중. 이는 고성능 메모리(HBM)와 반도체 수요 증가로 SK하이닉스, 삼성전자 등 한국 기업의 공급 기회를 확대할 수 있으나, 동시에 NVIDIA 등 신규 칩 기업의",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>미국 국립연구소가 AI 수요 증가로 슈퍼컴퓨터 도입 시 기존 대형 칩 제조사가 아닌 신규 업체들을 검토 중. 이는 고성능 메모리(HBM)와 반도체 수요 증가로 SK하이닉스, 삼성전자 등 한국 기업의 공급 기회를 확대할 수 있으나, 동시에 NVIDIA 등 신규 칩 기업의 성장 가능성도 시사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): As chip industry chases AI, U.S. national labs look to newcomers for supercomputers Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 인프라 투자 증가는 HBM·메모리 수요 호재지만, 신규 업체 다각화로 인한 공급처 분산 우려로 중립적 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV0hfaDc2NVRGcEpWTXRqMHB1UlQzeXhOVkp6dG8xUVZpNDZGc2VEYlBNSklIcTZCc1ZUa3lIVWVQQzJNTDZfVkhrdTMtT3gtWF9PQU5TZEdQNlZYSERiS0tZdW9WNzgtTVphX3dDS0Z0UkhUZ0tYYzZTNlNfSTN0dk43d1l1NFlvWW1JQW9LalBfclEtSnBNZnhfcTdLaWh4amFBMWVReVFPaTc1aXNPejh0eVFsNXYw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-18 21:07:06"
-    },
-    {
-      "id": 5833,
-      "title": "중국 CXMT가 메모리칩 수요 증가로 매출 급증을 예상하고 있습니다. 이는 글로벌 반도체 수요 회복 신호로, 한국 메모리칩 업체(SK하이닉스, 삼성전자)의 경쟁 심화 및 가격 압력 요인이 될 수 있습니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>중국 CXMT가 메모리칩 수요 증가로 매출 급증을 예상하고 있습니다. 이는 글로벌 반도체 수요 회복 신호로, 한국 메모리칩 업체(SK하이닉스, 삼성전자)의 경쟁 심화 및 가격 압력 요인이 될 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s CXMT expects revenue to surge as memory chip demand soars Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 메모리칩 업체의 성장은 한국 반도체 업계 경쟁 강화 신호이지만, 글로벌 수요 회복 자체는 한국 메모리칩 수출에도 긍정적 영향을 미칠 수 있어 영향이 복합적",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSjV5czZxMlVNYlVxS0FWbGMwMjcxOVJiMTU0U3ZQWU5xT0FiWmNhRG9xOE9DU1RHamhyd0pLLXZJbVJBZXdhTDBDUDVCV3Y2M0NVZkdrXzRpNU9CRlRrQ1Yta3lYWG1QdVhzRnQ0UDhBTklJcHd3aVVqTEhUc3RYTXRWZS0yaGt0MFNsckdFeVI2djdHM1JUemFWSVhJMFgzc2VzSThlM0JQdw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-18 18:08:14"
     }
   ],
   "events": [
