@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T23:40:02",
+  "generated_at": "2026-06-01T00:05:01",
   "count": 500,
   "posts": [
     {
@@ -12819,38 +12819,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "코웨이",
-      "event_date": "2026-05-31",
-      "event_type": "배당기준일",
-      "title": "코웨이 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507800978"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "CJ제일제당",
-      "event_date": "2026-05-31",
-      "event_type": "배당기준일",
-      "title": "CJ제일제당 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800793"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "CJ",
-      "event_date": "2026-05-31",
-      "event_type": "배당기준일",
-      "title": "CJ — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800794"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "현대엘리베이터",
-      "event_date": "2026-05-31",
-      "event_type": "배당기준일",
-      "title": "현대엘리베이터 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514801062"
-    },
-    {
-      "stock_code": "",
       "stock_name": "모니터랩",
       "event_date": "2026-06-02",
       "event_type": "주주확정기준일",
@@ -13152,6 +13120,78 @@
       "event_type": "합병기일",
       "title": "도이치모터스 — 회사합병결정(종속회사의주요경영사항)              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514900833"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "대진첨단소재",
+      "event_date": "2026-07-01",
+      "event_type": "합병기일",
+      "title": "대진첨단소재 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000529"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "미코",
+      "event_date": "2026-07-01",
+      "event_type": "합병기일",
+      "title": "미코 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000796"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "스튜디오드래곤",
+      "event_date": "2026-07-01",
+      "event_type": "합병등기예정일",
+      "title": "스튜디오드래곤 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429001145"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "CJ ENM",
+      "event_date": "2026-07-01",
+      "event_type": "합병등기예정일",
+      "title": "CJ ENM — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429901231"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "선진뷰티사이언스",
+      "event_date": "2026-07-01",
+      "event_type": "회사분할기일",
+      "title": "선진뷰티사이언스 — 주요사항보고서(회사분할결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000744"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "위지윅스튜디오",
+      "event_date": "2026-07-01",
+      "event_type": "합병기일",
+      "title": "위지윅스튜디오 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508900634"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한온시스템",
+      "event_date": "2026-07-01",
+      "event_type": "합병기일",
+      "title": "한온시스템 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800802"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한국타이어앤테크놀로지",
+      "event_date": "2026-07-01",
+      "event_type": "합병기일",
+      "title": "한국타이어앤테크놀로지 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513800270"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "휴온스",
+      "event_date": "2026-07-01",
+      "event_type": "합병반대의사통지 접수 시작",
+      "title": "휴온스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000408"
     }
   ]
 }
