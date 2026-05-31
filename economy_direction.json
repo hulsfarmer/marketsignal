@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T00:05:01",
+  "generated_at": "2026-06-01T00:08:39",
   "count": 500,
   "posts": [
     {
@@ -1492,6 +1492,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdDJHQWFLSm1mOFd1YzM1d2d6RGJjemZiTGNISy11Tlhab1NMU1k2RUFIM29ab1d4NmZnemRwQjU2dnpta2Y5U3JmdDhrZVozMUVuQXdfaUh6Z1Uwai1MVU5JeHVfd21xQ0JRLUc4TWFtQ0o3enlNaEgtcWxMTWw5ODZwcjJCZ3AyWEl4R0RydkF1Z1BsS2hFblk2OWJDNUVfVHpnYWdYcnFyQUdJMWk1ODVBcXVYMlg4c2FEQ2p2NXVjbjVR?oc=5",
       "direction": "down",
       "updated_at": "2026-05-30 06:07:38"
+    },
+    {
+      "id": 6382,
+      "title": "Apollo와 Blackstone이 AI 기업 Anthropic에 360억 달러 규모의 부채 펀딩을 추진 중. 대규모 AI 투자 확대는 고성능 반도체(HBM, GPU) 수요 증가를 의미하며 한국 메모리 반도체 기업들에 긍정적 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-28",
+      "summary": "<p>Apollo와 Blackstone이 AI 기업 Anthropic에 360억 달러 규모의 부채 펀딩을 추진 중. 대규모 AI 투자 확대는 고성능 반도체(HBM, GPU) 수요 증가를 의미하며 한국 메모리 반도체 기업들에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Apollo, Blackstone work on $36 billion debt deal for Anthropic, Bloomberg News reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "Anthropic 등 주요 AI 기업의 대규모 자금 조달은 AI 인프라 투자 확대로 이어져 SK하이닉스 HBM, 삼성전자 파운드리 등 한국 반도체 수요 증가 가능성을 높임",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObU1PN1dJSndWRkc3a1BGa19aX3kxUkNqUEJlbENSTElVSDBEMU1mTnBDQzVpVW92Z1VlREdXZEdNQUFQdnFwdVVpUTFfdWFldlNrbzE3N1hEdEhTV296QnAzdFNQd3VoZHQ0U2p3Ry1OOGJsNmo1czkwYVBCUHZHRTBJdjYwclVxbkthaTZFclJCbHQ0NFpwMUxjRUwzbDRTdnlUbi1qcWItTEVJWGpqTm5fY3JPUWVod242ekR3?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-01 00:07:19"
     },
     {
       "id": 6194,
@@ -12360,6 +12387,34 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 6402,
+      "title": "미국 국방부 장관이 중국의 군사력 증강에 대해 경고하며 동맹국들의 국방비 증액을 촉구했다. 이는 한반도 안보 긴장 고조 및 한국의 방위산업·수출 기업들의 미국 시장 진출 기회 확대로 이어질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-30",
+      "summary": "<p>미국 국방부 장관이 중국의 군사력 증강에 대해 경고하며 동맹국들의 국방비 증액을 촉구했다. 이는 한반도 안보 긴장 고조 및 한국의 방위산업·수출 기업들의 미국 시장 진출 기회 확대로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Pentagon chief sounds &#x27;alarm&#x27; over China&#x27;s buildup, urges allies to boost defence spend Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "미중 갈등 심화는 한국의 방위산업 수요는 높이지만, 제시된 소비재·자동차 등 주요 종목들은 간접적 영향만 받음",
+      "stocks": [
+        "LIG넥스원",
+        "현대로템",
+        "ADD",
+        "삼성전자",
+        "현대자동차",
+        "기아"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWEhBX2lMYlRGNFRaUmJZTWYxbngyWHBqZFA4Q21ZNlplVHRud1NvdERIZFJkTmZSWmtUeU1wQ21hOVBEbjlUOUVFRXNhcXlHRmgyOVBxUGZBMlhveVMtNUpTaWNFc3ExWG9OeHhsRW8xUWtZaHFQMng0OWpJX2xqZVdIQzZzVzJBaHNGTWVqMnR3bkpaR25zY2c5ajFfM1pNQTR5M3hxb1ZFNUNBM3VqczJiNmhuV3RieGF5RkNn?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-01 00:08:38"
+    },
+    {
       "id": 6343,
       "title": "ECB 정책담당자 페레이라가 인플레이션 대응을 위해 조속한 금리 인상 필요성을 제기. 유로화 강세 가능성이 높아지면서 USD/KRW 환율 약세 압력 및 유럽 수출 경쟁력 악화로 한국 수출 기업들의 이익 개선 기대감 감소.",
       "category": "거시",
@@ -12760,60 +12815,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNDZUNXV4VUJOSTN1VmZHT1BDdldqSGhFQ1NIYmFZRWQzTDcyNHVKeGhGWjE2LTlkODhMc0RoWHBQN0Z6UzlxajNJM0kxVW1pVVFGVjBNeWlwanNKaDA0dDN1dEFSdUtoU1dveHNtNlpobnRLdjh5UXc4S0kxX1VLWnZCd2xIQ0pyc0VWSnEtb2Rrc09fcm95b1NMbnNhWXRCOUVqc3B6WVVGdC1LUmZlZ2hB?oc=5",
       "direction": "down",
       "updated_at": "2026-05-30 06:10:45"
-    },
-    {
-      "id": 5930,
-      "title": "미국-이란 휴전 협상 가능성에 유가가 하락. 중동 긴장 완화 시 유가 약세로 정제·화학업체의 원료비 부담 경감되지만, 에너지업체의 수익성 악화.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-29",
-      "summary": "<p>미국-이란 휴전 협상 가능성에 유가가 하락. 중동 긴장 완화 시 유가 약세로 정제·화학업체의 원료비 부담 경감되지만, 에너지업체의 수익성 악화.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil falls on hopes for US-Iran ceasefire agreement Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 변동은 한국 정유·화학 산업에 직결되는 매크로 요인이나, 현재는 협상 기대 단계로 실제 영향은 제한적.",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNME9kd0xNOHBUWk45Q05sRmpnQlBXN3h5VW95NVR5clRwalJRR28wcHhSMjgxVnAtcU9peTBIeXBXX25CU3luOUtsZ0I1VTE5bEhnalNsci11UXo3SlRQUVk2R0NEUHZHYmFrc2o0QVNkTGJUYkRhWUI0cmtRNHQxdS16T2g3MnhvajU4b25iTmpoYkNwa003MmpneThDZTI5cXdNWlV6TUoyNHNIYTJfTg?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-30 06:00:56"
-    },
-    {
-      "id": 5928,
-      "title": "사우디아라비아가 7월 아시아 향 유가를 인하할 가능성을 제시하면서 수요 약세 신호 발생. 한국의 정유·화학 기업들의 유가 연동 수익성 하락 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-29",
-      "summary": "<p>사우디아라비아가 7월 아시아 향 유가를 인하할 가능성을 제시하면서 수요 약세 신호 발생. 한국의 정유·화학 기업들의 유가 연동 수익성 하락 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Saudi Arabia may lower July oil prices to Asia as demand weakens Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 하락은 정유사 마진 개선 요인이지만, 수요 약세 신호는 경기 둔화 우려로 작용하여 전반적으로 중립적 영향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVRpNGJnczdUQm9CTDF0QUlvTnZXbkFNc1Fjdnl2RUlxNjZGNzhPYmlGeDU4cmF1SWdJekM0M2tUbmVoUVBUOTc3ZEIzTi1pU0EzcldzZmRxQlpaaXEybXVWcHJ5eGp5b0paa2IyYXMyUDZsU0w0RGVfMWltdFBGV05CQVh1bExCMTh6VmVKNDV3dFQ5a2g5ZkVXcVF3a1M3SmVYVmUtRVppRjNGOWVJ?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-30 06:00:35"
     }
   ],
   "events": [
