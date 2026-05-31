@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T06:05:01",
+  "generated_at": "2026-06-01T06:08:30",
   "count": 500,
   "posts": [
     {
@@ -126,6 +126,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 6428,
+      "title": "미국이 중국 기업들의 해외 엔비디아 AI칩 반입을 차단하는 조치를 단행했으며, 이는 글로벌 AI칩 공급망 재편으로 이어져 한국 메모리·파운드리 수요 증가 및 지정학적 공급망 안보 수혜를 야기할 것으로 예상된다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-31",
+      "summary": "<p>미국이 중국 기업들의 해외 엔비디아 AI칩 반입을 차단하는 조치를 단행했으며, 이는 글로벌 AI칩 공급망 재편으로 이어져 한국 메모리·파운드리 수요 증가 및 지정학적 공급망 안보 수혜를 야기할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US takes step to halt Nvidia AI chip shipments to Chinese firms outside China Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "엔비디아 AI칩 수출 규제 심화는 한국 HBM(SK하이닉스)·D램/낸드(삼성전자) 대체 수요와 국내 파운드리 의존도 증가를 초래하는 명확한 반도체 공급망 충격",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbURTRGdXd0FJdXdDeHdxbHFpdWdiSUZ4eG0tZ1E1UmVOSHpZbnpiNEhweC1HclNuZkt1bmd2RVowVnRvZnliTjktcGNkb3JENmRXTVJqN3lXTWNnWE5zWjV4R0dqU050Z2p2ZnJxb1N1ZTlhci0tUndRbFNPdVctOVFNM2pWcUtNZExrSFV6cjhhV2VLSGtQWTRLbTNxZjdtNFJjVTQzS0YtOXNFQWllVUJrS2dGSkxpTG4w?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-01 06:07:05"
     },
     {
       "id": 6403,
@@ -12791,34 +12818,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdHQ5a2FRTXpFZTlmSmpaR3BmcDJ5WVFoeUdyMWxKbWYtUGlMYXQyVW9RYXhxa281UURwRFVfbXdHVndjSlVwQ2wwSTJqM0t1RUJRbGdib0FoTWJteUJEUU44R2JOU1QyOWhNTXBkTXYzaTBpdVFnRi1keHE3YXNBZkNLcGctMUJ0Z0JaSXAtNGRXU0ZnQTYyTjNxaVVja3BFRTlWR05zVQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-30 21:08:26"
-    },
-    {
-      "id": 6126,
-      "title": "월스트리트가 상승 마감하고 유가(브렌트유)가 하락한 가운데, 미국-이란 휴전 연장 보도가 나옴. 유가 하락은 에너지 수입국인 한국의 인플레이션 완화 요인으로 작용할 수 있으며, 위험자산 선호 심화로 외국인의 한국 주식 수급에 긍정적.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-29",
-      "summary": "<p>월스트리트가 상승 마감하고 유가(브렌트유)가 하락한 가운데, 미국-이란 휴전 연장 보도가 나옴. 유가 하락은 에너지 수입국인 한국의 인플레이션 완화 요인으로 작용할 수 있으며, 위험자산 선호 심화로 외국인의 한국 주식 수급에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Wall Street ends higher, Brent crude eases on reports of US-Iran truce extension Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "지정학적 리스크 완화와 유가 하락은 한국의 에너지 비용 절감과 수출 경쟁력 개선에 도움이 되나, 글로벌 인플레 영향은 제한적",
-      "stocks": [
-        "에너지·화학 수입사 (SKE",
-        "S-Oil)",
-        "수출 대기업 (삼성전자",
-        "LG전자",
-        "현대차)",
-        "금융주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ0ViVHBRYlNKdmh1NFQ1WnNXQVFXVkNHYlpEaE8zVlluMGNPOHk5ZHN0SGl6UnVQWHRKbE1ZQXg1M2xpNWs4WHlxcF8wRjhYOHh2TXZmelNfZEx6WTNfUU92UGg5a2VXLUxubGNnc3VXVUhlaVo1YVI2T1UwNlVic1ZzQQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-30 15:08:36"
     }
   ],
   "events": [
