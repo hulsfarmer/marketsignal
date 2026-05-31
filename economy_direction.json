@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T18:05:02",
+  "generated_at": "2026-05-31T18:08:33",
   "count": 500,
   "posts": [
     {
@@ -1714,6 +1714,33 @@
       "updated_at": "2026-05-30 06:11:50"
     },
     {
+      "id": 6333,
+      "title": "골드만삭스가 S&P 500 연말 목표를 8,000으로 상향 조정하며 강한 실적 전망을 제시. 글로벌 경기 낙관론과 기술주 수요 증가로 반도체·AI 관련 한국 종목에 긍정적 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-27",
+      "summary": "<p>골드만삭스가 S&P 500 연말 목표를 8,000으로 상향 조정하며 강한 실적 전망을 제시. 글로벌 경기 낙관론과 기술주 수요 증가로 반도체·AI 관련 한국 종목에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Goldman Sachs lifts S&amp;P 500 year-end target to 8,000 on strong earnings outlook Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 증시 강세 전망은 글로벌 기술주·반도체 수요 증가로 이어져 SK하이닉스·삼성전자 등 수출 중심 한국 반도체업체에 의미있는 호재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa3VNY3Z1b3lPTkNTbUUyYlRZZUhfaE43YXJqX2JKaHM0OTByZ3EzVU9HalkzZDhHeG5aT1dRa2xpR3NVSlFMNU5zMnJlQ2VPaWFvUWQ2TTlUV1JqV0NLdWtHQlJmaVRLRlN1Zk9VQU1IVVR4dlZhR1hKZnhLSzdVNzBDUlhQOWs1bDV1SGY2TjdNUmdMdmdyMGxrYm1vQ295b2dtNUxuWi1fSXM2NXMxenRyUjFxeWs?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-31 18:07:19"
+    },
+    {
       "id": 6175,
       "title": "이란 전쟁으로 중동 지역 안정성 악화되면서 글로벌 시장의 '걸프만 풋�션' 효과가 훼손됨. 유가 상승 압력과 지정학적 리스크 증가로 글로벌 경기 둔화 우려, 한국의 USD/KRW 환율 상승과 외국인 주식 매도 압력 가능성.",
       "category": "거시",
@@ -2104,6 +2131,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORlJCLUk1UjZTTllqd1RacFBFNXZWanBUZkZpVTlyWktFYm1Fb01OZVpBX2tyelRoWnptU2RsZVRtTktJZEp4MnVoVWdaaGJENnJLT09jLVREUmNuVnhXSVo3R0J3VFc5MGhaUHZ5Y2FaODhjVXVRRE1PekJKNVltR3ZremkyM005M2J5VWV1Y1hsZXFQeVh6bWk3QlRQdlVJdUpzMUxn?oc=5",
       "direction": "down",
       "updated_at": "2026-05-30 15:08:32"
+    },
+    {
+      "id": 6350,
+      "title": "미국-이란 핵협상 진전 전망으로 유가가 7% 급락했으며, 이는 국내 에너지·화학 관련 주요 종목들의 수익성 개선을 의미한다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-25",
+      "summary": "<p>미국-이란 핵협상 진전 전망으로 유가가 7% 급락했으며, 이는 국내 에너지·화학 관련 주요 종목들의 수익성 개선을 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil tumbles nearly 7% as US and Iran seen moving closer to deal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 하락은 S-Oil, GS, SK이노베이션 등 정유·석유화학 기업의 원가 절감 및 마진율 개선으로 직결되는 의미있는 호재",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZm9XX0ZzVmNoTnljTTdPaDRsYTRiMHA0ajVydVFGWjh2cjEteHJ0THhXemlXUmlzMThlUHU3S2RtNXRmRE1oUGlrWUFjdFBwSEpkN18zTTVzZWRzT29LZ3YwekNuVWdSZnpFRVA4cGs1R3laWFMtb2QwTVB6V1htQlpfRXJRQk5YVWg2ek94OWJSNTl6LWFVSThkb0s0QUMwOFY3eUhMMlkxQW1teFE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-05-31 18:08:25"
     },
     {
       "id": 6135,
@@ -12306,6 +12360,35 @@
       "updated_at": "2026-05-03 21:52:05"
     },
     {
+      "id": 6343,
+      "title": "ECB 정책담당자 페레이라가 인플레이션 대응을 위해 조속한 금리 인상 필요성을 제기. 유로화 강세 가능성이 높아지면서 USD/KRW 환율 약세 압력 및 유럽 수출 경쟁력 악화로 한국 수출 기업들의 이익 개선 기대감 감소.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-30",
+      "summary": "<p>ECB 정책담당자 페레이라가 인플레이션 대응을 위해 조속한 금리 인상 필요성을 제기. 유로화 강세 가능성이 높아지면서 USD/KRW 환율 약세 압력 및 유럽 수출 경쟁력 악화로 한국 수출 기업들의 이익 개선 기대감 감소.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): ECB must act on inflation sooner rather than later, policymaker Pereira says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "ECB의 조기 금리 인상 시그널은 글로벌 금리 사이클에 영향을 미쳐 원화 약세를 견인하고, 유로존 경기 둔화 우려로 한국의 대유럽 수출 수요 감소 가능성이 있음",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대자동차",
+        "LG전자",
+        "기아",
+        "포스코",
+        "삼성SDI"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 6,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWWQ2STRLT0wwdGRwZDNuMkVKYnU2eTRRTEozUUloS2pETG44MkpzLWpFaTBVdDY2WlJaa25fZGpsZFBWREs4NlA1TzV6TkZHdkl4Y3l1V2d0UkY4UVppeWlDaUlKTmZ6dDUwallHdUxhb0ZyVklmdkNQZ1lsRXNjbmo2bFZwZklRTHJtMU45ZHRES1JoTHJSdmUwX3BPVnhEUlpHVDRXdjgxV3BoUDRRbUs4N0IyTjZF?oc=5",
+      "direction": "down",
+      "updated_at": "2026-05-31 18:08:00"
+    },
+    {
       "id": 6229,
       "title": "소프트뱅크가 프랑스에 대규모 AI 데이터센터 투자를 추진 중. 글로벌 AI 인프라 경쟁 심화로 한국 반도체(HBM, 메모리) 수요 증가 기대.",
       "category": "주식",
@@ -12733,81 +12816,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV3lHTlBDZzJ3RnBlTWI3bkhSX01iNXd5QXRiRVJTV25jbkduNFA4WlVIZmtGb25kZ09UU3ptWkltc2RFX29QVTNEd0RxbmdjMDQ1TUxuUkt4T01UZHNmZHBTcFFmaGJQbFBKNm5UUlJZM21VSDJCMTl6eGRzQldvR2JXVE1vRjF3RTlEcnRvTVJ5X0E3OHF3dXphWVgxTVZJRXVWZjN6TlZzVFhSWDB3R1FOLVliZVk?oc=5",
       "direction": "down",
       "updated_at": "2026-05-31 09:08:37"
-    },
-    {
-      "id": 6218,
-      "title": "미국 CDMO 기업 Apex Service가 Apollo에 소수 지분을 매각하며 100억 달러 기업가치 평가를 받음. 글로벌 CDMO 시장의 가치 평가 상승 신호로, 한국 CDMO 기업들의 밸류에이션 재평가 기회 제공.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-28",
-      "summary": "<p>미국 CDMO 기업 Apex Service가 Apollo에 소수 지분을 매각하며 100억 달러 기업가치 평가를 받음. 글로벌 CDMO 시장의 가치 평가 상승 신호로, 한국 CDMO 기업들의 밸류에이션 재평가 기회 제공.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Apex Service sells minority stake to Apollo at $10 bln valuation, source says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "CDMO 산업의 긍정적 밸류에이션 신호이나, 직접적 공급망 영향은 제한적이며 삼성바이오로직스·셀트리온 등 한국 CDMO의 경쟁 강화 리스크도 존재",
-      "stocks": [
-        "삼성바이오로직스",
-        "셀트리온",
-        "한미약품"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONUFGeUtSN21WRDRpa3B4ZVR0NUlNRmRQNzhrLU1BMFUtd1d2YVg0UEl6cE5fcTZwQ0gxbGZhTXg2REMzd1BoTkNmeFIxS1NLU2RtSjdOVW9Pd0E4bGxXYjVzeEtrSk96YTl4UzhjUE9qR3g5ci1yU1ZnMkpDYnZfNm9RUzBMelVSSk5TU1A4VnJGUDhpbFF4ZzBsMTJaQ3lIQ0NoSDlEbVlRSmZmX2FiUXJOdUFZeGRkcmlkSGRZdmx1RThKeS1iWFZmU2p0dnlNN3c?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-31 03:07:55"
-    },
-    {
-      "id": 6205,
-      "title": "Anthropic이 Claude Mythos를 수주 내 출시하고 Opus 4.8을 런칭했습니다. AI 모델 고도화 경쟁이 심화되면서 HBM·GPU 수요 증가 전망으로 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 영향.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-28",
-      "summary": "<p>Anthropic이 Claude Mythos를 수주 내 출시하고 Opus 4.8을 런칭했습니다. AI 모델 고도화 경쟁이 심화되면서 HBM·GPU 수요 증가 전망으로 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Anthropic to roll out Claude Mythos in coming weeks, launches Opus 4.8 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 모델 고도화는 HBM, GPU 수요 증가를 의미하며 SK하이닉스·삼성의 메모리 수요 증가로 이어지나, 단일 기업 제품 출시로 제한적 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOFNzQ1NmSlNQcWFVamd2WW5yYWtldHRTN3VDakZPbjZCLXoxeF9URGpSbW1lUm55c0FtUmdlNzlyQmV2bTItcHFxREo2YjV6UVlpY3pFYmVBR2RyUmxtMEx4SlBIZU1iOGpTMVB3Zmp3di1rMWlUdVYzX0duaXRhWERFX0VhR0pDOU1yTEl1WGVlTmE2R2xycWxYMm5VUS1kWEJtX2hhSzRMMXc?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-31 03:07:11"
-    },
-    {
-      "id": 6203,
-      "title": "IBM이 2029년까지 100억 달러를 투자하여 대규모 양자컴퓨터 개발에 나서는 가운데, 양자컴퓨터의 핵심 부품 수요 증가로 고성능 반도체 공급업체들의 수혜 기대.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-28",
-      "summary": "<p>IBM이 2029년까지 100억 달러를 투자하여 대규모 양자컴퓨터 개발에 나서는 가운데, 양자컴퓨터의 핵심 부품 수요 증가로 고성능 반도체 공급업체들의 수혜 기대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): IBM to invest $10 billion for large-scale quantum computer by 2029 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "양자컴퓨터는 차세대 기술이나 현재 시장 규모가 제한적이고, HBM과 고급 반도체 수요 증가는 긍정적이나 직접적 영향은 제한적",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 6,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNHdyUGhHbmhsZ2xMUXpxcjVYLXMxbzA4bEVYRlNNV2FkYVJsRXFkVTR6em9GeDBtYzlnUmNJaEVhZVBSVEI3R0ZkdVMxb0xma1JSZkZZNXFJdmdzckN3MHIyM0pGYmd3VloyaWpKa3Bwakh3Q29QY1VQMFVVY0drdy05dDV6blVZYzM0SDEtTGN0R0RKYzVZYVE1WUQxZlc2M3hadEpyYVYwQmp0dF9ZMEhURnpWdw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-31 03:07:05"
     }
   ],
   "events": [
