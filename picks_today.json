@@ -1,7 +1,44 @@
 {
-  "date": "2026-05-18",
+  "date": "2026-06-01",
   "strategy": "hybrid",
-  "generated_at": "2026-05-18T15:17:00",
-  "count": 0,
-  "picks": []
+  "generated_at": "2026-06-01T15:05:07",
+  "count": 4,
+  "picks": [
+    {
+      "stock_code": "086790",
+      "name_kr": "하나금융지주",
+      "ms_score": 62,
+      "ai_score": 97,
+      "confidence": "HIGH",
+      "reason": "[T] tech 97 / earn 0 (RSI 34, 5일 -5.7%)",
+      "entry_price": 115100.0
+    },
+    {
+      "stock_code": "009540",
+      "name_kr": "HD한국조선해양",
+      "ms_score": 60,
+      "ai_score": 95,
+      "confidence": "HIGH",
+      "reason": "[E] tech 48 / earn 95 (RSI 34, 5일 +0.5%)",
+      "entry_price": 423000.0
+    },
+    {
+      "stock_code": "010130",
+      "name_kr": "고려아연",
+      "ms_score": 62,
+      "ai_score": 84,
+      "confidence": "HIGH",
+      "reason": "[E+T] tech 84 / earn 60 (RSI 33, 5일 -4.0%)",
+      "entry_price": 1373000.0
+    },
+    {
+      "stock_code": "055550",
+      "name_kr": "신한지주",
+      "ms_score": 58,
+      "ai_score": 83,
+      "confidence": "HIGH",
+      "reason": "[T] tech 84 / earn 0 (RSI 40, 5일 -4.7%)",
+      "entry_price": 93600.0
+    }
+  ]
 }
