@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T21:05:02",
+  "generated_at": "2026-06-01T21:08:35",
   "count": 500,
   "posts": [
     {
@@ -1499,6 +1499,33 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 6638,
+      "title": "AI 투자 열풍이 미-이란 전쟁 우려를 압도하면서 US 선물지수가 상승, Nvidia와 Microsoft가 주도. 글로벌 반도체·AI 수요 강세가 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-01",
+      "summary": "<p>AI 투자 열풍이 미-이란 전쟁 우려를 압도하면서 US 선물지수가 상승, Nvidia와 Microsoft가 주도. 글로벌 반도체·AI 수요 강세가 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US stock futures rise as AI push eclipses US-Iran war; Nvidia, Microsoft up Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 강세 장세는 HBM·메모리 수요 증가로 이어져 한국 반도체 기업들의 실적 개선 기대감 고조, 의미있는 긍정적 업종 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcUNQekF0VTVYU1pWSkxuYnE4cklIRTliQzVsN2NLUlItQ0Jvd1Q5My1lQlZJTUZMQmZpaWxDN1YtY3RGY1h0R1BIeHlrbm1qcFhpU1dxZjhfTmFwVERDd0VsOUFxTHRBZzNfNFdCYkFqVDE1ODVXVGNxaEpTdTd3SjlGZGMwRDdtUFBWQ3RtOVZoOGtGZmZWRGtnOUotbmxYejNobloxaGFqV1dSUWJRek5VYw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-01 21:07:05"
+    },
+    {
       "id": 6607,
       "title": "SK하이닉스 칩 생산시설에서 가스 누출 사고 발생으로 일부 근로자 노출. 반도체 주요 생산업체의 안전 사고로 생산 차질 및 공급망 영향 우려.",
       "category": "주식",
@@ -1551,6 +1578,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbEpOLWNDOFpkWFJ6Ti1VT0xfTnRrTkN6UGV1WU5kZ0xTQjRkcXQyOWNPamt5UUt2bldNVDloVU5pUURtVEk5cFpJYkFBNzRDR0tMZGNRdlpfOFZOS3RFZXdXV1VPZEdhaWlESmdBUkdVbWh1aldBcm4wMFpIajJWekFIRkI2YzU0TXl1ZDNZLU1XT0FldlpGYkVWYzJrZw?oc=5",
       "direction": "up",
       "updated_at": "2026-06-01 12:07:12"
+    },
+    {
+      "id": 6639,
+      "title": "아시아의 AI 칩 붐이 지역 경제 부흥을 촉발할 수 있다는 전망. 한국의 SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 반도체 업체들의 AI칩 수요 증가에 따른 성장 기회.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-31",
+      "summary": "<p>아시아의 AI 칩 붐이 지역 경제 부흥을 촉발할 수 있다는 전망. 한국의 SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 반도체 업체들의 AI칩 수요 증가에 따른 성장 기회.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asia’s AI chip boom could spark regional economic renaissance Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "아시아 AI칩 호황이 한국 메모리·파운드리 업체들의 매출 및 수익성 개선으로 직결되는 의미있는 산업 호재.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaElab2xXOUVwR3VKSm5XWUk5Z1FmNjJWTWhVRm9UbFpub3dtcE5TMm9VYVJIcGtGTm4zakRQY3VJbl9ZRnMtN0p2ZHNNdW1QSXlSUGdzUVVhSmthZnNraElEVnFIOEItWXFqNUYwVHI5SXpCbGtWVmNzS3RBWDJjTGZFR3JVd2pNU1V6bmhGUmdMVVo2NU5oTm83QkdMbXR0VVNWNS1WRU9GcExWU0tRYURtRWYzT3c4dW9HYkRCS1psOXlzWm10OA?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-01 21:07:08"
     },
     {
       "id": 6481,
@@ -1939,6 +1993,34 @@
       "updated_at": "2026-05-30 06:07:38"
     },
     {
+      "id": 6656,
+      "title": "미국-이란 휴전이 붕괴되면서 중동 지정학적 리스크 급증. 유가 상승 압박과 달러 강세로 원화 약세, 외국인 자금 이탈 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-28",
+      "summary": "<p>미국-이란 휴전이 붕괴되면서 중동 지정학적 리스크 급증. 유가 상승 압박과 달러 강세로 원화 약세, 외국인 자금 이탈 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: The US-Iran ceasefire is unravelling Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "중동 지정학적 긴장 심화는 유가 급등→인플레이션 재점화→한은 금리 인상 압박, USD/KRW 급등, 경기 둔화 리스크로 KOSPI 외국인 매도 유발",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG에너지솔루션",
+        "현대차",
+        "포스코",
+        "한국조선해양"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sd29STjJKTTBfWEN4NXUwdjI2YmVYOTJEVU16QzlfWWlhNDY5dVd5SlJuTk5wTEh0d1BoSjFadzRTd0I0V3daeGVJZjh0c1d1cTNFUkV1UmpwUWRtN056c1ZSNFBzS0Z1eDR5RWFTNWdsT3UwVm52SU5zNjdSbHc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-01 21:08:11"
+    },
+    {
       "id": 6382,
       "title": "Apollo와 Blackstone이 AI 기업 Anthropic에 360억 달러 규모의 부채 펀딩을 추진 중. 대규모 AI 투자 확대는 고성능 반도체(HBM, GPU) 수요 증가를 의미하며 한국 메모리 반도체 기업들에 긍정적 신호.",
       "category": "주식",
@@ -2184,6 +2266,34 @@
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQblFVMU5IQ2xKMEgtYVVVdk13akVfckV4QWFTeWo5QjdGSi1jU0tYMHM0MXVnTnJyeW9CbENwd2JneGNnSGctVk9OVG1DQ1Rac3NqanlFTUxjTVVCczNSeDdDdGg3aDA3SWp4WEcxNjBHbFVjSVYxZ0s5b2FiSGxFUVh2QlVhbUVsM2dLUnhmSzEwWS0zMnlmSUI1SFZPdDRzU1R5VkJXMUx6UkxvZUtxaVhkaw?oc=5",
       "direction": "down",
       "updated_at": "2026-05-30 06:11:50"
+    },
+    {
+      "id": 6652,
+      "title": "AI 자본지출 붐이 닷컴 광풍을 능가하면서 투자자들이 침착함을 유지 중. 글로벌 AI 인프라 투자 확대는 반도체·클라우드 수요 증가로 이어져 한국 반도체·IT 기업의 수출 증가 및 외국인 자금 유입 긍정 요인으로 작용 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-27",
+      "summary": "<p>AI 자본지출 붐이 닷컴 광풍을 능가하면서 투자자들이 침착함을 유지 중. 글로벌 AI 인프라 투자 확대는 반도체·클라우드 수요 증가로 이어져 한국 반도체·IT 기업의 수출 증가 및 외국인 자금 유입 긍정 요인으로 작용 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Investors stay calm as AI capex boom eclipses dotcom mania Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "AI 캐팩스 사이클 확대는 한국 반도체(메모리칩)·전자·통신장비 산업의 수요처 다양화 및 매출 증가로 직결되며, 외국인 투자심리 개선으로 KOSPI 상승 견인 가능성 높음.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "네이버",
+        "카카오",
+        "LG전자",
+        "현대차"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRHduSXhpVDRyZk1KaktVUHFlX3JqWmhPTUI1dldCVmpNMEU3dGhTVVpucmRHN3JCemdXazJPR3ZXVWNFRTN5SjFCT1VQTUZFNzN0WTF0S0ctMk9Wbjd0bW1HLVNKWVNieTd2WnVxaDF5WlZ1XzYtMHFZaWNmRlhxSXMtY3g3VHRkYzFIWDdpLXNtOVJ5dGd2YzNDT1ZpQzZUenUxX0hTSzVBNlNGMUFBQVZZN2gxbDZaQjNtMFBTaG1YUQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-01 21:07:56"
     },
     {
       "id": 6521,
@@ -12703,94 +12813,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800717",
       "direction": "up",
       "updated_at": "2026-05-03 22:02:20"
-    },
-    {
-      "id": 671,
-      "title": "KSS해운 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · KSS해운</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "KSS해운"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800860",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:02:19"
-    },
-    {
-      "id": 670,
-      "title": "KSS해운 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · KSS해운</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "KSS해운"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800873",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:02:18"
-    },
-    {
-      "id": 669,
-      "title": "KSS해운 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · KSS해운</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "KSS해운"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800893",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:02:18"
-    },
-    {
-      "id": 668,
-      "title": "현대백화점 — 자기주식취득결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>자사주 매입 마감 — 결과 보고</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식취득결과보고서 · 현대백화점</p>",
-      "feedback": "자사주 매입 마감 — 결과 보고",
-      "stocks": [
-        "현대백화점"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001247",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:02:18"
     }
   ],
   "events": [
