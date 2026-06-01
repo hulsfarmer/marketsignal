@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T03:05:02",
+  "generated_at": "2026-06-02T03:08:39",
   "count": 500,
   "posts": [
     {
@@ -1499,6 +1499,32 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 6689,
+      "title": "엔비디아가 타이페이 만찬에서 SK하이닉스, 삼성전자 등 한국 반도체 업체들을 직접 접촉하며 AI 칩 수급 협력을 강화하는 중. 글로벌 AI 수요 증가에 따른 한국 메모리 반도체(HBM, DRAM, NAND) 수요 확대 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-01",
+      "summary": "<p>엔비디아가 타이페이 만찬에서 SK하이닉스, 삼성전자 등 한국 반도체 업체들을 직접 접촉하며 AI 칩 수급 협력을 강화하는 중. 글로벌 AI 수요 증가에 따른 한국 메모리 반도체(HBM, DRAM, NAND) 수요 확대 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nvidia courts Korea&#x27;s tech giants at Taipei dinner as AI push deepens Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "엔비디아의 직접적인 한국 기업 접촉은 AI 칩 공급망에서 한국 반도체의 수요 증가를 시사하며, SK하이닉스·삼성전자 같은 주요 수급처의 성장성을 뒷받침하는 긍정적 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONWI0MkxIZ2twZzZBXzUyODRvT3lERDFDaC1MUmsyTHg1QTNENVI0T0FEZ0pnbXFPUzFOQjJybmJuNFBGbzJpblJKVm0zQWo4c0dKTjlnem1JVkpVZDhhZWUxZGR3WXBoMVBGZUVKLXB2QzZzdzgybW12eF8zeWRGZWNrUi1mb0ZfQ0kzNllqSFBXUThEVDkxZ1pndlp5QWRXa2FVeFBpRWJKNmxITjMyTkxsNElHUExx?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-02 03:07:08"
+    },
+    {
       "id": 6686,
       "title": "중국이 메타-마누스 차단 이후 외국인 거래 및 기술이전 규제를 확대하고 있으며, 이는 한국 기업들의 중국 내 M&A 및 기술 협력에 제약을 가할 것으로 예상된다.",
       "category": "거시",
@@ -1746,6 +1772,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYzg0cEtTclBVYlBEYUpOVHEtT1pXaUY4T1dldExCSnpRV0ZUOW9iTUdqQVVrSmJteGNWeUc0cGdXQnkxbVpLMFIwM0ZzdmdzSGhzVXBEd0ZBcEs5YmdwRDF3N1A5ZW40blZHaU5RWjlDd1gtVTZ6emEzQml2VEFsZDFQQnhkQ2JlN3BRZGt3MWZPamxlN25EU0t2OUFheGtUaDFUMzU1X3BORWM4N2JiTjNsejNlaUw2WnRkeU1uazYyUQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-31 03:08:03"
+    },
+    {
+      "id": 6693,
+      "title": "글로벌 AI 랠리가 주도하면서 주간 순자금이 글로벌 주식펀드로 유입되고 있으며, 이는 반도체·AI칩 관련 한국 종목(SK하이닉스 HBM, 삼성전자 메모리/파운드리)에 긍정적 수요 신호로 작용할 전망이다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-29",
+      "summary": "<p>글로벌 AI 랠리가 주도하면서 주간 순자금이 글로벌 주식펀드로 유입되고 있으며, 이는 반도체·AI칩 관련 한국 종목(SK하이닉스 HBM, 삼성전자 메모리/파운드리)에 긍정적 수요 신호로 작용할 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Global equity funds draw weekly inflows as AI rally boosts sentiment Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 랠리로 인한 글로벌 자금 유입은 HBM·고대역폭메모리·파운드리 수요 증가로 이어져 한국 반도체 업체들의 실적 개선 기대감을 높인다.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQTJocy1LUnhXclUxU3BfZTVEeGY3WGZieGRfS0JfbG43YWRUMGI3ZkctM0JFTnR3cjhBdHZEMVFvS05iNjE5T3AtOEpReEg5RUw3WlZmY21FUFFNNGlDb195NF9zSldRZUdEdm54REVVeEl2NWxVQmJteTU0VnFBeV8yY1I2Zw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-02 03:07:22"
     },
     {
       "id": 6501,
@@ -12781,50 +12834,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430000550",
       "direction": "up",
       "updated_at": "2026-05-03 22:02:42"
-    },
-    {
-      "id": 690,
-      "title": "산일전기 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 산일전기</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "산일전기"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800407",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:02:42"
-    },
-    {
-      "id": 688,
-      "title": "셀트리온 — 투자판단관련주요경영사항              (CTP6 SC(허쥬마 피하주사 제형) 유럽 제형 추가 신청)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>CT-P6 SC(트라스투주맙 바이오시밀러 피하주사 제형)의 유럽 추가 제형 허가 신청(2026년 4월 30일)으로, 초기·전이성 유방암 적응증에서 1상 임상시험 203명 대상 약동학적 동등성 입증(AUC/Cmax 90% CI 80-125% 범위 내) 및 안전성 확인으로 기존 제품 대비 추가 치료옵션 제공 가능성 제시하나, 허가 미보장·임상단계로 실현 불확실성 존재</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (CTP6 SC(허쥬마 피하주사 제형) 유럽 제형 추가 신청) · 셀트리온</p>",
-      "feedback": "기존 인가품목의 제형 확장(extension application)으로 신약 허가 아닌 추가 제형이며, 1상 성공 수준(약동학 동등성)으로 아직 임상 3상 불합격, 유럽 규제기관 최종 승인 미결정으로 인한 불확실성이 크고, 매출 규모·시장점유율 미기재로 구체적 매출 기여도 추정 불가",
-      "stocks": [
-        "셀트리온"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800425",
-      "direction": "neutral",
-      "updated_at": "2026-05-03 22:02:41"
     }
   ],
   "events": [
