@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T00:05:02",
+  "generated_at": "2026-06-02T00:08:49",
   "count": 500,
   "posts": [
     {
@@ -1499,6 +1499,35 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 6686,
+      "title": "중국이 메타-마누스 차단 이후 외국인 거래 및 기술이전 규제를 확대하고 있으며, 이는 한국 기업들의 중국 내 M&A 및 기술 협력에 제약을 가할 것으로 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-01",
+      "summary": "<p>중국이 메타-마누스 차단 이후 외국인 거래 및 기술이전 규제를 확대하고 있으며, 이는 한국 기업들의 중국 내 M&A 및 기술 협력에 제약을 가할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China expands curbs on foreign deals, tech transfer after Meta-Manus block Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "중국의 규제 강화는 한국 화장품·자동차·게임 등 중국 시장 진출 기업들의 사업 확장과 기술 협력을 저해할 수 있는 의미있는 매크로 리스크 요인",
+      "stocks": [
+        "LG생활건강",
+        "아모레퍼시픽",
+        "현대자동차",
+        "기아",
+        "POSCO",
+        "넷마블",
+        "넥슨"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcnVnSjJkT3BMYUY4cklZeEE0eU1seTZianNLbkpBcmFMRWZNM0RldUl5N0MwRWtTYm5wOFREWGRlZDVnRGJyS29PYWZLUkpWZmpiTE5Nb2h6ZUhrcVNIOHhkbW9fU21TSVE3TXAtSkpDcm9mRkV1NFFWakR4YkRuQ0lrYkFqV3A3Ul93TUlvSzdqbUg5UzdPQTF4NTdrTWVBRVZjaGlVR0ZOTEV4MHRxUC01X2kzb2tuUERxXzhxNHo?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-02 00:08:45"
+    },
+    {
       "id": 6638,
       "title": "AI 투자 열풍이 미-이란 전쟁 우려를 압도하면서 US 선물지수가 상승, Nvidia와 Microsoft가 주도. 글로벌 반도체·AI 수요 강세가 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 신호.",
       "category": "주식",
@@ -1991,6 +2020,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdDJHQWFLSm1mOFd1YzM1d2d6RGJjemZiTGNISy11Tlhab1NMU1k2RUFIM29ab1d4NmZnemRwQjU2dnpta2Y5U3JmdDhrZVozMUVuQXdfaUh6Z1Uwai1MVU5JeHVfd21xQ0JRLUc4TWFtQ0o3enlNaEgtcWxMTWw5ODZwcjJCZ3AyWEl4R0RydkF1Z1BsS2hFblk2OWJDNUVfVHpnYWdYcnFyQUdJMWk1ODVBcXVYMlg4c2FEQ2p2NXVjbjVR?oc=5",
       "direction": "down",
       "updated_at": "2026-05-30 06:07:38"
+    },
+    {
+      "id": 6681,
+      "title": "미국이 오만에 호르무즈 해협 통행료 징수 중개를 하지 말 것을 경고했다. 호르무즈 해협은 전 세계 석유의 약 21%가 통과하는 전략적 요충지로, 통행료 부과 시 유가 상승 가능성이 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-05-28",
+      "summary": "<p>미국이 오만에 호르무즈 해협 통행료 징수 중개를 하지 말 것을 경고했다. 호르무즈 해협은 전 세계 석유의 약 21%가 통과하는 전략적 요충지로, 통행료 부과 시 유가 상승 가능성이 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US warns Oman not to engage in facilitating tolls for Strait of Hormuz Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협의 통행료 부과는 글로벌 유가 급등 리스크를 촉발할 수 있어 에너지·화학 관련 한국 종목의 수익성과 원가 부담에 직접 영향",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZnQwUlAxaC1KeEhsZjJtd0duLU03eEN0R1pMT1E2NFJRN2IxTzVHLWxFd2l6UGhoSUZNeWc5RGVhNUFXMlBwcUF2TV9JeWhsY1I2NXAwUXZLZEJjWlFNWlRGUGwxaGNYRXN2QmNvc0lsN2FXNnlEUmlaR2xBdFc1dXFZcTJ3S2pNcGVBSlhLYzlSMk5kZjdUalcyRmRQQ3NheXNwZHF3RW9DNTU5dG1GLQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-02 00:08:24"
     },
     {
       "id": 6656,
@@ -12769,50 +12825,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800425",
       "direction": "neutral",
       "updated_at": "2026-05-03 22:02:41"
-    },
-    {
-      "id": 677,
-      "title": "크래프톤 — 주요사항보고서(자기주식취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>크래프톤이 약 1,000억 원(360,360주 × 277,500원)의 자기주식 360,360주(발행주식 4.61% 중 약 7.8%)를 2026년 5월~8월 취득 후 전량 소각하여 주주가치를 제고하는 주주환원정책 실행</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 크래프톤</p>",
-      "feedback": "통상적 자기주식 취득·소각 결의이나, 취득규모가 약 1,000억 원(배당가능이익의 2.5%)으로 유의미하고 소각을 통한 주당순이익 개선 효과가 긍정적 신호",
-      "stocks": [
-        "크래프톤"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001009",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:02:24"
-    },
-    {
-      "id": 675,
-      "title": "동부건설 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260430",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 동부건설</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "동부건설"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800717",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:02:20"
     }
   ],
   "events": [
