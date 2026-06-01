@@ -1,13 +1,41 @@
 {
-  "date": "2026-05-29",
-  "generated_at": "2026-05-29T16:10:12",
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T16:10:34",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-05-29T16:10:12",
-      "pick_date": "2026-05-29",
-      "count": 0,
-      "picks": [],
+      "updated_at": "2026-06-01T16:10:34",
+      "pick_date": "2026-06-01",
+      "count": 3,
+      "picks": [
+        {
+          "stock_code": "010140",
+          "name_kr": "삼성중공업",
+          "ms_score": 77,
+          "ai_score": 78,
+          "confidence": "HIGH",
+          "reason": "RSI 25로 극도의 과매도 상태이며, 성공 패턴인 '기술적_반등(100% 성공률)'에 정확히 부합합니다. 블랙록 5% 지분 공시와 한국투자증권 목표가 26.5% 상향이라는 미반영 호재가 존재하며, 5일 -5.2% 하락으로 저가 매수 기회입니다.",
+          "entry_price": 27950.0
+        },
+        {
+          "stock_code": "005490",
+          "name_kr": "POSCO홀딩스",
+          "ms_score": 65,
+          "ai_score": 74,
+          "confidence": "HIGH",
+          "reason": "RSI 24로 과매도 극단 구간이며 기술적_반등 패턴(100% 성공률) 조건을 충족합니다. 1분기 실적 기대치 상회 및 목표가 상향 호재가 아직 주가에 덜 반영된 상태이고, 5일 -5.4% 낙폭은 과도한 조정으로 반등 여력이 충분합니다.",
+          "entry_price": 423500.0
+        },
+        {
+          "stock_code": "267250",
+          "name_kr": "HD현대",
+          "ms_score": 77,
+          "ai_score": 63,
+          "confidence": "MEDIUM",
+          "reason": "RSI 42로 종가매수 적정 구간이며 자회사 HD현대중공업의 대형 수주 호재가 간접 수혜 요인입니다. 5일 -1.6%로 소폭 조정된 상태이고 호재_선반영 우려가 상대적으로 낮아 후보군 내에서 안정적인 선택입니다.",
+          "entry_price": 277500.0
+        }
+      ],
       "accuracy": {
         "total": 59,
         "correct": 25,
@@ -48,10 +76,47 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-05-29T16:10:12",
-      "pick_date": "2026-05-29",
-      "count": 0,
-      "picks": [],
+      "updated_at": "2026-06-01T16:10:34",
+      "pick_date": "2026-06-01",
+      "count": 4,
+      "picks": [
+        {
+          "stock_code": "086790",
+          "name_kr": "하나금융지주",
+          "ms_score": 62,
+          "ai_score": 97,
+          "confidence": "HIGH",
+          "reason": "[T] tech 97 / earn 0 (RSI 34, 5일 -5.7%)",
+          "entry_price": 115100.0
+        },
+        {
+          "stock_code": "009540",
+          "name_kr": "HD한국조선해양",
+          "ms_score": 60,
+          "ai_score": 95,
+          "confidence": "HIGH",
+          "reason": "[E] tech 48 / earn 95 (RSI 34, 5일 +0.5%)",
+          "entry_price": 423000.0
+        },
+        {
+          "stock_code": "010130",
+          "name_kr": "고려아연",
+          "ms_score": 62,
+          "ai_score": 84,
+          "confidence": "HIGH",
+          "reason": "[E+T] tech 84 / earn 60 (RSI 33, 5일 -4.0%)",
+          "entry_price": 1373000.0
+        },
+        {
+          "stock_code": "055550",
+          "name_kr": "신한지주",
+          "ms_score": 58,
+          "ai_score": 83,
+          "confidence": "HIGH",
+          "reason": "[T] tech 84 / earn 0 (RSI 40, 5일 -4.7%)",
+          "entry_price": 93600.0
+        }
+      ],
       "accuracy": {
         "total": 50,
         "correct": 23,
@@ -110,48 +175,66 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-05-29T16:10:12",
-      "pick_date": "2026-05-28",
-      "count": 3,
+      "updated_at": "2026-06-01T16:10:34",
+      "pick_date": "2026-06-01",
+      "count": 2,
       "picks": [
         {
-          "stock_code": "006660",
-          "name_kr": "삼성공조",
-          "open_price": 16380,
-          "close_price": 18010,
-          "trade_value": 223909191585,
-          "market_cap": 146354915140,
-          "sector": "운송장비·부품",
-          "rarity_months": 3,
-          "score": 8.0,
-          "notes": "KOSPI | 등락 +16.0% | 턴오버 153.0% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "417010",
-          "name_kr": "나노팀",
-          "open_price": 13310,
-          "close_price": 14860,
-          "trade_value": 204571456240,
-          "market_cap": 299766738080,
-          "sector": "기계·장비",
-          "rarity_months": 3,
-          "score": 8.0,
-          "notes": "KOSDAQ | 등락 +18.3% | 턴오버 68.2% | ★ 섹터 대장주"
-        },
-        {
-          "stock_code": "347850",
-          "name_kr": "디앤디파마텍",
-          "open_price": 105000,
-          "close_price": 109200,
-          "trade_value": 503726858900,
-          "market_cap": 4783412852400,
+          "stock_code": "022100",
+          "name_kr": "포스코DX",
+          "open_price": 33850,
+          "close_price": 38200,
+          "trade_value": 277792684625,
+          "market_cap": 5807726647800,
           "sector": "일반서비스",
+          "rarity_months": 3,
+          "score": 3.5,
+          "notes": "KOSPI | 등락 +17.7% | 턴오버 4.8% | ★ 섹터 대장주"
+        },
+        {
+          "stock_code": "066575",
+          "name_kr": "LG전자우",
+          "open_price": 104500,
+          "close_price": 121500,
+          "trade_value": 312035192950,
+          "market_cap": 2087527828500,
+          "sector": "전기·전자",
           "rarity_months": 0,
-          "score": 4.1,
-          "notes": "KOSDAQ | 등락 +10.5% | 턴오버 10.5% | ★ 섹터 대장주"
+          "score": 1.5,
+          "notes": "KOSPI | 등락 +27.0% | 턴오버 14.9% | ★ 섹터 대장주"
         }
       ],
       "watching": [
+        {
+          "ticker": "022100",
+          "name": "포스코DX",
+          "scan_date": "2026-06-01",
+          "breakout_open": 33850,
+          "breakout_close": 38900,
+          "entry_price": 32157,
+          "stop_loss": 31513,
+          "box_top": 34875,
+          "box_bottom": 33230,
+          "expires_at": "2026-08-30",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리5% 양봉13% | 진입:시가-5% 손절:진입가-2%"
+        },
+        {
+          "ticker": "066575",
+          "name": "LG전자우",
+          "scan_date": "2026-06-01",
+          "breakout_open": 104500,
+          "breakout_close": 124400,
+          "entry_price": 99275,
+          "stop_loss": 97289,
+          "box_top": 69283,
+          "box_bottom": 64083,
+          "expires_at": "2026-08-30",
+          "status": "watching",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리7% 양봉16% | 진입:시가-5% 손절:진입가-2%"
+        },
         {
           "ticker": "456010",
           "name": "아이씨티케이",
@@ -573,21 +656,6 @@
           "memo": "D전략 | 꼬리8% 양봉9% | 진입:시가-5% 손절:시가-2%"
         },
         {
-          "ticker": "222080",
-          "name": "씨아이에스",
-          "scan_date": "2026-04-21",
-          "breakout_open": 12940,
-          "breakout_close": 16310,
-          "entry_price": 12293,
-          "stop_loss": 12047,
-          "box_top": 12777,
-          "box_bottom": 12080,
-          "expires_at": "2026-07-20",
-          "status": "watching",
-          "is_expired": false,
-          "memo": "D전략 | 꼬리1% 양봉26% | 진입:시가-5% 손절:시가-2%"
-        },
-        {
           "ticker": "073490",
           "name": "LIG아큐버",
           "scan_date": "2026-04-21",
@@ -601,6 +669,21 @@
           "status": "entered",
           "is_expired": false,
           "memo": "D전략 | 꼬리1% 양봉7% | 진입:시가-5% 손절:시가-2%"
+        },
+        {
+          "ticker": "222080",
+          "name": "씨아이에스",
+          "scan_date": "2026-04-21",
+          "breakout_open": 12940,
+          "breakout_close": 16310,
+          "entry_price": 12293,
+          "stop_loss": 12047,
+          "box_top": 12777,
+          "box_bottom": 12080,
+          "expires_at": "2026-07-20",
+          "status": "entered",
+          "is_expired": false,
+          "memo": "D전략 | 꼬리1% 양봉26% | 진입:시가-5% 손절:시가-2%"
         },
         {
           "ticker": "158430",
@@ -725,6 +808,18 @@
       ],
       "holding": [],
       "history": [
+        {
+          "ticker": "222080",
+          "name": "씨아이에스",
+          "avg_price": 12060,
+          "sell_price": 12040,
+          "quantity": 124,
+          "buy_date": "2026-06-01",
+          "sell_date": "2026-06-01",
+          "sell_reason": "stop_loss",
+          "pnl_rate": -0.17,
+          "pnl_amount": -2480
+        },
         {
           "ticker": "108490",
           "name": "로보티즈",
@@ -909,13 +1004,13 @@
       "initial_capital": 2000000,
       "slots": 5,
       "slot_size": 400000,
-      "month_return": 5.08,
-      "month_count": 11,
-      "month_pnl": 101640,
-      "month_start": "2026-05-01",
-      "year_return": 9.26,
-      "year_count": 15,
-      "year_pnl": 185200,
+      "month_return": -0.03,
+      "month_count": 1,
+      "month_pnl": -680,
+      "month_start": "2026-06-01",
+      "year_return": 9.23,
+      "year_count": 16,
+      "year_pnl": 184520,
       "year_start": "2026-01-01",
       "accuracy": null
     }

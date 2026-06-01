@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T15:05:09",
+  "generated_at": "2026-06-01T16:10:37",
   "dates": [
     "2026-06-01",
     "2026-05-15",
@@ -145,8 +145,33 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "022100",
+            "name_kr": "포스코DX",
+            "open_price": 33850,
+            "close_price": 38200,
+            "trade_value": 277792684625,
+            "market_cap": 5807726647800,
+            "sector": "일반서비스",
+            "rarity_months": 3,
+            "score": 3.5,
+            "notes": "KOSPI | 등락 +17.7% | 턴오버 4.8% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "066575",
+            "name_kr": "LG전자우",
+            "open_price": 104500,
+            "close_price": 121500,
+            "trade_value": 312035192950,
+            "market_cap": 2087527828500,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 1.5,
+            "notes": "KOSPI | 등락 +27.0% | 턴오버 14.9% | ★ 섹터 대장주"
+          }
+        ]
       }
     },
     "2026-05-15": {
