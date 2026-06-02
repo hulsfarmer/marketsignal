@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T23:40:02",
+  "generated_at": "2026-06-03T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -12897,22 +12897,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "모니터랩",
-      "event_date": "2026-06-02",
-      "event_type": "주주확정기준일",
-      "title": "모니터랩 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000161"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "엑스페릭스",
-      "event_date": "2026-06-02",
-      "event_type": "주주확정기준일",
-      "title": "엑스페릭스 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000184"
-    },
-    {
-      "stock_code": "",
       "stock_name": "다우기술",
       "event_date": "2026-06-04",
       "event_type": "합병계약일",
@@ -13324,6 +13308,30 @@
       "stock_name": "다우기술",
       "event_date": "2026-07-02",
       "event_type": "합병반대의사통지 접수기간 종료",
+      "title": "다우기술 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000363"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "성호전자",
+      "event_date": "2026-07-03",
+      "event_type": "합병기일",
+      "title": "성호전자 — [첨부추가]주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "위지윅스튜디오",
+      "event_date": "2026-07-03",
+      "event_type": "합병등기",
+      "title": "위지윅스튜디오 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508900634"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "다우기술",
+      "event_date": "2026-07-03",
+      "event_type": "합병승인 이사회 결의",
       "title": "다우기술 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000363"
     }
