@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T17:35:15",
+  "generated_at": "2026-06-02T17:40:11",
   "count": 500,
   "posts": [
     {
@@ -12891,6 +12891,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "다우기술",
+      "event_date": "2026-06-04",
+      "event_type": "합병계약일",
+      "title": "다우기술 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000363"
+    },
+    {
+      "stock_code": "",
       "stock_name": "SK스퀘어",
       "event_date": "2026-06-05",
       "event_type": "배당금지급예정일",
@@ -13035,11 +13043,27 @@
     },
     {
       "stock_code": "",
+      "stock_name": "다우기술",
+      "event_date": "2026-06-17",
+      "event_type": "주주확정기준일",
+      "title": "다우기술 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000363"
+    },
+    {
+      "stock_code": "",
       "stock_name": "엑스페릭스",
       "event_date": "2026-06-18",
       "event_type": "채권자이의제출기간 시작",
       "title": "엑스페릭스 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000184"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "다우기술",
+      "event_date": "2026-06-18",
+      "event_type": "합병반대의사통지 접수기간 시작",
+      "title": "다우기술 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000363"
     },
     {
       "stock_code": "",
@@ -13272,6 +13296,14 @@
       "event_type": "합병등기",
       "title": "미코 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000796"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "다우기술",
+      "event_date": "2026-07-02",
+      "event_type": "합병반대의사통지 접수기간 종료",
+      "title": "다우기술 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000363"
     }
   ]
 }
