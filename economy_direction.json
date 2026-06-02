@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T00:05:02",
+  "generated_at": "2026-06-03T00:08:40",
   "count": 500,
   "posts": [
     {
@@ -1630,6 +1630,31 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 6919,
+      "title": "Nvidia의 요청으로 Micron이 AI 붐에 진입하여 1조 달러 시가총액에 도달했다는 뉴스. 메모리 반도체 수급 긴장과 공급업체 집중도 심화를 시사하며, HBM 수요 경쟁에서 SK하이닉스의 입지를 재평가하게 함.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-02",
+      "summary": "<p>Nvidia의 요청으로 Micron이 AI 붐에 진입하여 1조 달러 시가총액에 도달했다는 뉴스. 메모리 반도체 수급 긴장과 공급업체 집중도 심화를 시사하며, HBM 수요 경쟁에서 SK하이닉스의 입지를 재평가하게 함.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): How a nudge from Nvidia propelled frugal Micron into the AI boom and a $1 trillion market cap Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 반도체 공급망 재편과 메모리 시장 강세 신호로 한국 메모리 대기업과 HBM 수급 구도에 의미있는 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNT2dTRkVYMVpzQzRhbXVDc1ktNEJiYUs1ckZXQWNxQkJxaHk2SWJRbzdjeTZBaERwbjlydUdHajBQN2U1dFFUVzRiZER2OEpJbXRVQVZKNHNNdkJxcmpfX1NIdTI3ZktpMnVULW9YakRoeld2ME9xRTlnMkhLeVY4bTktbDhZbTJRcDVSY0x4bnF4WHhUOF96ancwMFgzVHRJLTZ6T1Vtc29qSXd0OW53ekhoOXFnMjQxX0RFRkFVaU1sbVQ3Yll1eGF3?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-03 00:07:08"
     },
     {
       "id": 6910,
@@ -12870,28 +12895,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000324",
       "direction": "up",
       "updated_at": "2026-05-06 15:35:15"
-    },
-    {
-      "id": 1321,
-      "title": "유한양행 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260506",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 유한양행</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "유한양행"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800401",
-      "direction": "up",
-      "updated_at": "2026-05-06 14:35:02"
     }
   ],
   "events": [
