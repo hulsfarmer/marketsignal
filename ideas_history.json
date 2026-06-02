@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:04:58",
+  "generated_at": "2026-06-02T16:10:50",
   "dates": [
     "2026-06-02",
     "2026-06-01",
@@ -28,18 +28,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 59,
-      "correct": 25,
-      "hit_rate": 42.4,
-      "avg_return": 0.1,
-      "avg_return_open": 0.63
+      "total": 62,
+      "correct": 26,
+      "hit_rate": 41.9,
+      "avg_return": 0.05,
+      "avg_return_open": 0.51
     },
     "hybrid": {
-      "total": 50,
-      "correct": 23,
-      "hit_rate": 46.0,
-      "avg_return": -0.02,
-      "avg_return_open": 0.59
+      "total": 54,
+      "correct": 24,
+      "hit_rate": 44.4,
+      "avg_return": -0.14,
+      "avg_return_open": 0.43
     }
   },
   "by_date": {
@@ -146,8 +146,33 @@
         ]
       },
       "vol": {
-        "count": 0,
-        "picks": []
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "090360",
+            "name_kr": "로보스타",
+            "open_price": 151400,
+            "close_price": 158800,
+            "trade_value": 248954627900,
+            "market_cap": 1548300000000,
+            "sector": "기계·장비",
+            "rarity_months": 3,
+            "score": 4.6,
+            "notes": "KOSDAQ | 등락 +29.9% | 턴오버 16.1% | ★ 섹터 대장주"
+          },
+          {
+            "stock_code": "043260",
+            "name_kr": "성호전자",
+            "open_price": 40050,
+            "close_price": 48400,
+            "trade_value": 586382599600,
+            "market_cap": 3432664633200,
+            "sector": "전기·전자",
+            "rarity_months": 0,
+            "score": 0.7,
+            "notes": "KOSDAQ | 등락 +22.7% | 턴오버 17.1% | ★ 섹터 대장주"
+          }
+        ]
       }
     },
     "2026-06-01": {
@@ -162,10 +187,10 @@
             "confidence": "HIGH",
             "reason": "RSI 25로 극도의 과매도 상태이며, 성공 패턴인 '기술적_반등(100% 성공률)'에 정확히 부합합니다. 블랙록 5% 지분 공시와 한국투자증권 목표가 26.5% 상향이라는 미반영 호재가 존재하며, 5일 -5.2% 하락으로 저가 매수 기회입니다.",
             "entry_price": 27950.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 27550.0,
+            "return_pct": -1.43,
+            "return_pct_open": -1.43,
+            "correct": 0
           },
           {
             "stock_code": "005490",
@@ -175,10 +200,10 @@
             "confidence": "HIGH",
             "reason": "RSI 24로 과매도 극단 구간이며 기술적_반등 패턴(100% 성공률) 조건을 충족합니다. 1분기 실적 기대치 상회 및 목표가 상향 호재가 아직 주가에 덜 반영된 상태이고, 5일 -5.4% 낙폭은 과도한 조정으로 반등 여력이 충분합니다.",
             "entry_price": 423500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 413000.0,
+            "return_pct": -2.48,
+            "return_pct_open": -2.48,
+            "correct": 0
           },
           {
             "stock_code": "267250",
@@ -188,10 +213,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 42로 종가매수 적정 구간이며 자회사 HD현대중공업의 대형 수주 호재가 간접 수혜 요인입니다. 5일 -1.6%로 소폭 조정된 상태이고 호재_선반영 우려가 상대적으로 낮아 후보군 내에서 안정적인 선택입니다.",
             "entry_price": 277500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 281000.0,
+            "return_pct": 1.26,
+            "return_pct_open": 1.26,
+            "correct": 1
           }
         ]
       },
@@ -206,10 +231,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 97 / earn 0 (RSI 34, 5일 -5.7%)",
             "entry_price": 115100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 113900.0,
+            "return_pct": -1.04,
+            "return_pct_open": -1.04,
+            "correct": 0
           },
           {
             "stock_code": "009540",
@@ -219,10 +244,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 48 / earn 95 (RSI 34, 5일 +0.5%)",
             "entry_price": 423000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 404500.0,
+            "return_pct": -4.37,
+            "return_pct_open": -4.37,
+            "correct": 0
           },
           {
             "stock_code": "010130",
@@ -232,10 +257,10 @@
             "confidence": "HIGH",
             "reason": "[E+T] tech 84 / earn 60 (RSI 33, 5일 -4.0%)",
             "entry_price": 1373000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1375000.0,
+            "return_pct": 0.15,
+            "return_pct_open": 0.15,
+            "correct": 1
           },
           {
             "stock_code": "055550",
@@ -245,10 +270,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 84 / earn 0 (RSI 40, 5일 -4.7%)",
             "entry_price": 93600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 92600.0,
+            "return_pct": -1.07,
+            "return_pct_open": -1.07,
+            "correct": 0
           }
         ]
       },
