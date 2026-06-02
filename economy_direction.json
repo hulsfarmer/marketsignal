@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T03:05:01",
+  "generated_at": "2026-06-03T03:08:43",
   "count": 500,
   "posts": [
     {
@@ -1630,6 +1630,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 6945,
+      "title": "5월 AI 수요 증가와 실적 낙관론으로 글로벌 기술 대형주들의 시가총액이 상승했으며, 이는 메모리반도체와 파운드리 수요 확대로 이어져 SK하이닉스, 삼성전자 등 한국 반도체주에 긍정적 영향을 미칠 전망",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-02",
+      "summary": "<p>5월 AI 수요 증가와 실적 낙관론으로 글로벌 기술 대형주들의 시가총액이 상승했으며, 이는 메모리반도체와 파운드리 수요 확대로 이어져 SK하이닉스, 삼성전자 등 한국 반도체주에 긍정적 영향을 미칠 전망</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI demand, earnings optimism lift tech giants&#x27; market value in May Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 수요 증가는 한국 주력 수출산업인 메모리·파운드리 수요 직결로 관련 종목들에 의미있는 상승 동력 제공",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSzRzRFRYQjdtYWNKVEJZdGF2UFk2TDVaQ1EzZEpCblRXaTAzSmpjSVBtZHhhNXk0STJVRnJQemp3WmZCUng4OHRDWFhZZFdRNGt6b0pzSjNFd2R3bHZtb1hVX2NVWFlwTDg4NjAtMUxrV3NVTVBodnN2aHJXUnlvOHBTVk8?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-03 03:07:08"
     },
     {
       "id": 6919,
@@ -12871,28 +12898,6 @@
       "impact_score": 6,
       "source_type": "disclosure",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506900474",
-      "direction": "up",
-      "updated_at": "2026-05-06 15:35:15"
-    },
-    {
-      "id": 1356,
-      "title": "밸로프 — 주요사항보고서(자기주식취득신탁계약체결결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260506",
-      "summary": "<p>밸로프가 100억 원 규모로 약 38.2만 주(주당 2,615원)의 자기주식 취득 신탁계약을 NH투자증권과 체결. 현재 보유 자기주식 36.2만 주에 추가하여 총 74.4만 주 규모의 자기주식 소각 계획이며, 배당가능이익 한도(74.4억 원) 대비 134% 수준으로 충분한 여력 확보.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 밸로프</p>",
-      "feedback": "자기주식 취득은 주가안정 및 주주가치 제고 신호로 긍정적이나, 소각 목적의 통상적 경영 결의로서 임상, 실적 수주 등 본질적 호재 부재; 100억 원 규모 취득은 중소형주 자본 안정화 차원에서 일반적 수준",
-      "stocks": [
-        "밸로프"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000324",
       "direction": "up",
       "updated_at": "2026-05-06 15:35:15"
     }
