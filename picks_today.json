@@ -1,44 +1,44 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-02",
   "strategy": "hybrid",
-  "generated_at": "2026-06-01T15:05:07",
+  "generated_at": "2026-06-02T15:04:56",
   "count": 4,
   "picks": [
     {
-      "stock_code": "086790",
-      "name_kr": "하나금융지주",
-      "ms_score": 62,
-      "ai_score": 97,
-      "confidence": "HIGH",
-      "reason": "[T] tech 97 / earn 0 (RSI 34, 5일 -5.7%)",
-      "entry_price": 115100.0
-    },
-    {
       "stock_code": "009540",
       "name_kr": "HD한국조선해양",
-      "ms_score": 60,
-      "ai_score": 95,
+      "ms_score": 57,
+      "ai_score": 92,
       "confidence": "HIGH",
-      "reason": "[E] tech 48 / earn 95 (RSI 34, 5일 +0.5%)",
-      "entry_price": 423000.0
+      "reason": "[T] tech 93 / earn 0 (RSI 32, 5일 -9.1%)",
+      "entry_price": 404500.0
     },
     {
-      "stock_code": "010130",
-      "name_kr": "고려아연",
+      "stock_code": "010140",
+      "name_kr": "삼성중공업",
+      "ms_score": 77,
+      "ai_score": 89,
+      "confidence": "HIGH",
+      "reason": "[T] tech 89 / earn 0 (RSI 31, 5일 -9.5%)",
+      "entry_price": 27550.0
+    },
+    {
+      "stock_code": "006400",
+      "name_kr": "삼성SDI",
       "ms_score": 62,
       "ai_score": 84,
       "confidence": "HIGH",
-      "reason": "[E+T] tech 84 / earn 60 (RSI 33, 5일 -4.0%)",
-      "entry_price": 1373000.0
+      "reason": "[E] tech 0 / earn 84 (RSI 54, 5일 +1.6%)",
+      "entry_price": 652000.0
     },
     {
-      "stock_code": "055550",
-      "name_kr": "신한지주",
+      "stock_code": "005490",
+      "name_kr": "POSCO홀딩스",
       "ms_score": 58,
-      "ai_score": 83,
+      "ai_score": 82,
       "confidence": "HIGH",
-      "reason": "[T] tech 84 / earn 0 (RSI 40, 5일 -4.7%)",
-      "entry_price": 93600.0
+      "reason": "[T] tech 82 / earn 0 (RSI 28, 5일 -6.6%)",
+      "entry_price": 413000.0
     }
   ]
 }
