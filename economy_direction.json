@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T21:05:02",
+  "generated_at": "2026-06-02T21:08:42",
   "count": 500,
   "posts": [
     {
@@ -1630,6 +1630,62 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 6910,
+      "title": "AI 붐이 인플레이션 압력을 가중시키고 있으며, 이는 글로벌 중앙은행의 금리 인상 기조를 강화할 가능성이 높음. USD/KRW 환율 상승과 한국 수출주 수익성 악화, 채권 금리 상승으로 이어질 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-02",
+      "summary": "<p>AI 붐이 인플레이션 압력을 가중시키고 있으며, 이는 글로벌 중앙은행의 금리 인상 기조를 강화할 가능성이 높음. USD/KRW 환율 상승과 한국 수출주 수익성 악화, 채권 금리 상승으로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI frenzy stokes inflation heat too Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "인플레이션 심화 → 미국 금리 인상 우려 → 달러 강세·원화 약세·채권 금리 상승 → 한국 경제의 자금 조달비용 증가 및 수출 경쟁력 약화",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "LG화학",
+        "현대차",
+        "기아"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdXFvbjBVdll5VmplS3JBTTdQV2lvVDd2SXhxdlNwcWliZkthelpncTJLLVRNQ29hN2NuamU5RFdKSG41X3dDWVB0NXBSSXY4V2JxNkxPcVJteVptODFUbE4wel81Vi1qSlJLaDh0clpkeUpzYlFBdWIwZFpZV3V2R1h1aGdodXFtSEl4RVphV0hQMS1hb2VVVXFVSW55dDRCUmJpRnRPRQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-02 21:08:05"
+    },
+    {
+      "id": 6899,
+      "title": "AI 낙관론이 중동 불안을 상쇄하면서 글로벌 주식이 반등. AI 수요 강세는 HBM, 메모리 반도체 관련 한국 종목에 긍정적 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-02",
+      "summary": "<p>AI 낙관론이 중동 불안을 상쇄하면서 글로벌 주식이 반등. AI 수요 강세는 HBM, 메모리 반도체 관련 한국 종목에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Stocks bounce as AI optimism offsets Middle East anxiety Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 호재는 SK하이닉스·삼성전자의 고부가가치 반도체(HBM, 메모리) 수요 증가로 직결되는 명확한 긍정 요인",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMEdoZ1Q1dzhvd1BRTU5aOF8yeWhTbUZla1A1MzZucXd1ai1Ud0xSemdBOTUwNXVPc3NRU3p6NmE1YlhUYkVZWW1ZRFg5MHh2Q1ZtaTdZUERPNU5Xb2doMk95ODlvczhLX2RPOE5qTGxyaVZZdjNBcXVmQUEzcWhHc1N2UQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-02 21:07:24"
     },
     {
       "id": 6824,
@@ -12836,50 +12892,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800401",
       "direction": "up",
       "updated_at": "2026-05-06 14:35:02"
-    },
-    {
-      "id": 1319,
-      "title": "엑시콘 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260506",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 엑시콘</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "엑시콘"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506900318",
-      "direction": "up",
-      "updated_at": "2026-05-06 13:35:03"
-    },
-    {
-      "id": 1318,
-      "title": "우원개발 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260506",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 우원개발</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "우원개발"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506900336",
-      "direction": "up",
-      "updated_at": "2026-05-06 13:35:02"
     }
   ],
   "events": [
