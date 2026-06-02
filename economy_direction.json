@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:05:11",
+  "generated_at": "2026-06-02T13:35:15",
   "count": 500,
   "posts": [
     {
@@ -9650,6 +9650,28 @@
       "updated_at": "2026-05-10 15:08:28"
     },
     {
+      "id": 6799,
+      "title": "나인테크 — 단일판매ㆍ공급계약체결              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260602",
+      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 나인테크</p>",
+      "feedback": "수주 — 본문 규모 확인",
+      "stocks": [
+        "나인테크"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602900275",
+      "direction": "up",
+      "updated_at": "2026-06-02 13:35:15"
+    },
+    {
       "id": 6794,
       "title": "엠씨넥스 — 주요사항보고서(자기주식취득결정)",
       "category": "주식",
@@ -12836,28 +12858,6 @@
       "impact_score": 6,
       "source_type": "disclosure",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504800297",
-      "direction": "up",
-      "updated_at": "2026-05-04 11:35:02"
-    },
-    {
-      "id": 844,
-      "title": "HD한국조선해양 — 단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결(자회사의 주요경영사항)               · HD한국조선해양</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "HD한국조선해양"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504800307",
       "direction": "up",
       "updated_at": "2026-05-04 11:35:02"
     }
