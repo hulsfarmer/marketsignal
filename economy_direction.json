@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T12:05:02",
+  "generated_at": "2026-06-03T12:08:49",
   "count": 500,
   "posts": [
     {
@@ -1632,6 +1632,33 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 7036,
+      "title": "중동 분쟁 확대와 협상 교착으로 유가가 상승세를 보이고 있다. 한국의 에너지·화학 관련 기업들의 수익성에 직접적인 영향을 미칠 것으로 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-03",
+      "summary": "<p>중동 분쟁 확대와 협상 교착으로 유가가 상승세를 보이고 있다. 한국의 에너지·화학 관련 기업들의 수익성에 직접적인 영향을 미칠 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil prices rise as new Middle East hostilities flare and talks stall Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승은 에너지·석유화학 기업의 수익성에 직접 영향을 주는 의미있는 매크로 변화이며, S-Oil, GS, SK이노베이션 등 한국 주요 종목의 경영 실적에 즉각적 영향",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이sharon",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRktPRENWZHRDVGluSHgybDl4djZHUEhxNDJOdzVFRjR0NzFNV3BlemJvLUxCSTBfeElPN0lBQ2FWVnNra1owTi0tR05NM3JaVnhDQzBxMDVUTVJhQ2ZPQUY5QldBa3hfbnJRLTlINk5BQkN3djFuVWlUVTFSUFJjd0Y4eWpCbXFmZ2k4b0xoRFhjcVAzLXd1MFZlSXJ0b0kxOUppUEwtN0JSdU91ZWVzM1RtMA?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-03 12:08:17"
+    },
+    {
       "id": 7004,
       "title": "유로존 인플레이션 상승으로 ECB의 6월 기준금리 인상 가능성이 높아짐. 이는 글로벌 금리 인상 사이클 강화를 의미하며, USD 강세와 원화 약세 압력으로 작용할 전망.",
       "category": "거시",
@@ -1850,6 +1877,32 @@
       "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlNFZU5LUi02WFE5WjRfNmRCMEtBWGlOa2VwMjlDY25yUWdETHcyM2xrOFR6VVF1UWxjS1JxWkhRXy1pczB0Z0RwcFBIMG9FZnVNYWlqd21rZGl5NV9CSDNLc25NVnlDZ3UtYWpfN3o3ZVF0T2Y1RU9rVjk4V2ppZVExRVIzT2ktYTZyVEhRSHRVYWt3emxQRmVTZjQ1QlZkaEhlTFNZVjZ3T2d4WmdsY1lfWFBESkU?oc=5",
       "direction": "down",
       "updated_at": "2026-06-02 15:08:16"
+    },
+    {
+      "id": 7021,
+      "title": "AI 수요 급증으로 글로벌 기업들의 채권 발행이 증가하면서 자금 조달 시장이 재편되고 있으며, 이는 AI 반도체 수요 확대와 관련 기업들의 자본투자 확대를 의미한다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-01",
+      "summary": "<p>AI 수요 급증으로 글로벌 기업들의 채권 발행이 증가하면서 자금 조달 시장이 재편되고 있으며, 이는 AI 반도체 수요 확대와 관련 기업들의 자본투자 확대를 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI debt sales reshape global corporate bond markets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 채권 시장 확대는 반도체·메모리 기업들의 설비투자 자금 조달 용이성 증가로 이어져 SK하이닉스·삼성전자 같은 한국 반도체 기업의 수요 전망과 경영 안정성에 긍정적 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOV9YVVpRZUlZdVNpXzhTRkxRQVh4NzRfNi0zbXJ5MmlnbEpnbDRvdWg2eFNybjdXNVlReGdWWDZwMGtGcGZKQ25PejZhUVByYzU2b1hXc0dvd3pPMVpFOUs4QkpNMmxFd0N1U1hZanpVNzMtUHdPdEktRXgyRGhhT2QycnRLNWxwUEd4ZHNCUXBjeU4wVXMyTmREV1YwRE5SWlpfNVRKYw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-03 12:07:13"
     },
     {
       "id": 6823,
@@ -12875,50 +12928,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800865",
       "direction": "up",
       "updated_at": "2026-05-06 17:35:13"
-    },
-    {
-      "id": 1397,
-      "title": "녹십자 — 투자판단관련주요경영사항              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260506",
-      "summary": "<p>헌터라제 ICV(헌터증후군 치료제)가 페루에서 품목허가 승인(2026.04.30)되어 2027년 출시 예정. 희귀질환 치료제로 중증형 환자(전체의 약 70%)를 대상으로 중추신경 손상에 대한 새로운 치료방법을 제시하나, 구체적 매출 규모·시장규모·투여 대상 환자 수 등 정량적 근거 부재.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · 녹십자</p>",
-      "feedback": "신약 해외 품목허가는 긍정적이나 단일 국가(페루) 승인, 1년 후 출시 예정, 희귀질환 시장의 제한된 규모로 인해 단기 실적 영향 제한적",
-      "stocks": [
-        "녹십자"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800910",
-      "direction": "up",
-      "updated_at": "2026-05-06 17:35:13"
-    },
-    {
-      "id": 1396,
-      "title": "두산에너빌리티 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260506",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 두산에너빌리티</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "두산에너빌리티"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800911",
-      "direction": "up",
-      "updated_at": "2026-05-06 17:35:09"
     }
   ],
   "events": [
