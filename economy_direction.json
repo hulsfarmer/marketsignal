@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T03:05:02",
+  "generated_at": "2026-06-04T03:08:47",
   "count": 500,
   "posts": [
     {
@@ -1630,6 +1630,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 7145,
+      "title": "알파벳이 AI 투자 확대를 위해 847.5억 달러 규모의 유상증자를 단행. 글로벌 빅테크의 AI 경쟁 심화로 반도체 수요 증가 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-03",
+      "summary": "<p>알파벳이 AI 투자 확대를 위해 847.5억 달러 규모의 유상증자를 단행. 글로벌 빅테크의 AI 경쟁 심화로 반도체 수요 증가 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Alphabet to raise $84.75 billion in upsized equity offering to fund AI ambitions Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 수요 급증 → 고급 칩(HBM, 파운드리) 수급 긴장 심화 → SK하이닉스·삼성전자 등 한국 반도체 기업의 수주·가격 협상력 강화 기대",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdmpkczl1MS0xdHp6WmRHZ2ZRa1J3TkJCeG9majZxZnJLREVzcUpSaDNLbS02aV85TXJUZFBfN0JNOXo5d0Z4dUphZS1TZl9MU1JqQWxTYk8yU1ZXYndtRkEzaXp6d0JTNU5oSERUVURaNUk1MUZfTXMwaHhkMWV1VjBnSUFXLWlIdGE3anNLYWZiT2dLMmxPMVNST2wxZmF0NVJMdG16U0dRc2VFNFFZTC0yZGE1c2xTVWxqVVl1NmFDZVU?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-04 03:07:27"
     },
     {
       "id": 7118,
@@ -12920,28 +12947,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000593",
       "direction": "neutral",
       "updated_at": "2026-05-06 17:35:24"
-    },
-    {
-      "id": 1407,
-      "title": "KG케미칼 — 자기주식취득결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260506",
-      "summary": "<p>자사주 매입 마감 — 결과 보고</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식취득결과보고서 · KG케미칼</p>",
-      "feedback": "자사주 매입 마감 — 결과 보고",
-      "stocks": [
-        "KG케미칼"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000629",
-      "direction": "up",
-      "updated_at": "2026-05-06 17:35:17"
     }
   ],
   "events": [
