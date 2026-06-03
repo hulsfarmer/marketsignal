@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T00:05:02",
+  "generated_at": "2026-06-04T00:08:43",
   "count": 500,
   "posts": [
     {
@@ -1630,6 +1630,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 7118,
+      "title": "Morgan Stanley가 AI 칩 수요 증가로 인한 '칩플레이션'이 데이터센터를 넘어 전 경제로 확산될 수 있다고 경고했으며, 이는 메모리·파운드리 수요 증가를 의미하지만 동시에 칩 가격 상승으로 인한 산업 전반의 원가 부담 증가 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-03",
+      "summary": "<p>Morgan Stanley가 AI 칩 수요 증가로 인한 '칩플레이션'이 데이터센터를 넘어 전 경제로 확산될 수 있다고 경고했으며, 이는 메모리·파운드리 수요 증가를 의미하지만 동시에 칩 가격 상승으로 인한 산업 전반의 원가 부담 증가 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI &#x27;chipflation&#x27; spreading from data centers to wider economy, Morgan Stanley warns Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 칩 수요 급증은 SK하이닉스·삼성전자 메모리 부문의 호재이나, '칩플레이션'으로 인한 업계 원가 상승과 가격 조정 압력은 산업 전반에 구조적 영향을 미칠 가능성",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaVBGMGp6RkxyYVBOSDVaTlhSMEhpc29xRVVjSTRiZlBKbGt2dTJFdVdUSVl2WXNzRmhYeW1JcjBXNHdDWWxNeFVsUVl0WmhxYVNVUGRPYWFJdjM3eExUMFR6MFprVTMwcTZNenNKZlNvVHU0ZmVpWGxqakdlcnhqNWJ0Ukw5ZHhVVGRTUWo5U254eHZSM2dMRjB5QlNEQ09SYkNDbUgwSW05VE0wVzQyS3oycnpUdHJGWVpVX3NhN201YVhaODJ4dW5kZjh6QQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-04 00:07:12"
     },
     {
       "id": 7064,
@@ -12914,28 +12941,6 @@
       "source_type": "disclosure",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000629",
       "direction": "up",
-      "updated_at": "2026-05-06 17:35:17"
-    },
-    {
-      "id": 1406,
-      "title": "인콘 — 주요사항보고서(유형자산양수결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260506",
-      "summary": "<p>자산 양수</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(유형자산양수결정) · 인콘</p>",
-      "feedback": "자산 양수",
-      "stocks": [
-        "인콘"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000603",
-      "direction": "neutral",
       "updated_at": "2026-05-06 17:35:17"
     }
   ],
