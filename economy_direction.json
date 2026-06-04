@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T13:05:02",
+  "generated_at": "2026-06-04T13:35:10",
   "count": 500,
   "posts": [
     {
@@ -1107,6 +1107,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUTFxOXlWSDVWM2Nwd3QzSHIweGh6em9RXzJjQ3U0UjdQRlExOExNd1VMQVRlRDZpZjlySlBoZFZVS3pwN2pVM3pUdVV0U1BqSWR0YzM2YkN4cV9pRlhtRmZKYXJQMlZqd0VTcGZ0bzFKZkpXRVlIdklGaUVuTFlsVlJJcl84UHB3ZXRrb1NUVDA4M3oyV0hITUxyQTdUSHFLVy02bnRsMlY?oc=5",
       "direction": "down",
       "updated_at": "2026-05-11 21:07:06"
+    },
+    {
+      "id": 7255,
+      "title": "세나테크놀로지 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260604",
+      "summary": "<p>세나테크놀로지가 50억 원 규모의 자기주식취득 신탁계약을 중도해지하고 121,650주(발행주식 대비 2.2%)를 반환받아 1개월 내 소각 예정. 자기주식취득 완료에 따른 계획적 해지로, 주주가치 제고 목적의 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 세나테크놀로지</p>",
+      "feedback": "50억 원 규모 자사주 소각은 EPS 개선 및 주주가치 제고 직결 요인이며, 계획대로 실행되는 호재성 공시이나 소각 실행 대기 중이라 즉각적 영향은 제한적",
+      "stocks": [
+        "세나테크놀로지"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604000139",
+      "direction": "up",
+      "updated_at": "2026-06-04 13:35:09"
     },
     {
       "id": 6888,
@@ -12974,28 +12996,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508900203",
       "direction": "up",
       "updated_at": "2026-05-08 11:35:04"
-    },
-    {
-      "id": 1870,
-      "title": "셀트리온 — 자기주식취득결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260508",
-      "summary": "<p>자사주 매입 마감 — 결과 보고</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식취득결과보고서 · 셀트리온</p>",
-      "feedback": "자사주 매입 마감 — 결과 보고",
-      "stocks": [
-        "셀트리온"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000081",
-      "direction": "up",
-      "updated_at": "2026-05-08 10:35:05"
     }
   ],
   "events": [
