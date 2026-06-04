@@ -1,44 +1,53 @@
 {
-  "date": "2026-06-02",
+  "date": "2026-06-04",
   "strategy": "hybrid",
-  "generated_at": "2026-06-02T15:04:56",
-  "count": 4,
+  "generated_at": "2026-06-04T15:05:02",
+  "count": 5,
   "picks": [
-    {
-      "stock_code": "009540",
-      "name_kr": "HD한국조선해양",
-      "ms_score": 57,
-      "ai_score": 92,
-      "confidence": "HIGH",
-      "reason": "[T] tech 93 / earn 0 (RSI 32, 5일 -9.1%)",
-      "entry_price": 404500.0
-    },
     {
       "stock_code": "010140",
       "name_kr": "삼성중공업",
-      "ms_score": 77,
-      "ai_score": 89,
+      "ms_score": 63,
+      "ai_score": 94,
       "confidence": "HIGH",
-      "reason": "[T] tech 89 / earn 0 (RSI 31, 5일 -9.5%)",
-      "entry_price": 27550.0
+      "reason": "[T] tech 94 / earn 0 (RSI 33, 5일 -5.9%)",
+      "entry_price": 27700.0
     },
     {
-      "stock_code": "006400",
-      "name_kr": "삼성SDI",
+      "stock_code": "086790",
+      "name_kr": "하나금융지주",
+      "ms_score": 55,
+      "ai_score": 88,
+      "confidence": "HIGH",
+      "reason": "[E] tech 43 / earn 88 (RSI 43, 5일 -1.2%)",
+      "entry_price": 117000.0
+    },
+    {
+      "stock_code": "138040",
+      "name_kr": "메리츠금융지주",
       "ms_score": 62,
-      "ai_score": 84,
+      "ai_score": 86,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 84 (RSI 54, 5일 +1.6%)",
-      "entry_price": 652000.0
+      "reason": "[E] tech 15 / earn 87 (RSI 49, 5일 +1.3%)",
+      "entry_price": 106100.0
     },
     {
-      "stock_code": "005490",
-      "name_kr": "POSCO홀딩스",
-      "ms_score": 58,
-      "ai_score": 82,
+      "stock_code": "034020",
+      "name_kr": "두산에너빌리티",
+      "ms_score": 60,
+      "ai_score": 85,
       "confidence": "HIGH",
-      "reason": "[T] tech 82 / earn 0 (RSI 28, 5일 -6.6%)",
-      "entry_price": 413000.0
+      "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -7.8%)",
+      "entry_price": 100000.0
+    },
+    {
+      "stock_code": "329180",
+      "name_kr": "HD현대중공업",
+      "ms_score": 67,
+      "ai_score": 83,
+      "confidence": "HIGH",
+      "reason": "[T] tech 84 / earn 0 (RSI 42, 5일 -9.5%)",
+      "entry_price": 673000.0
     }
   ]
 }

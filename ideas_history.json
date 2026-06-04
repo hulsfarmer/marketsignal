@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-06-02T16:10:50",
+  "generated_at": "2026-06-04T15:05:03",
   "dates": [
+    "2026-06-04",
     "2026-06-02",
     "2026-06-01",
     "2026-05-15",
@@ -43,6 +44,139 @@
     }
   },
   "by_date": {
+    "2026-06-04": {
+      "ai": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "055550",
+            "name_kr": "신한지주",
+            "ms_score": 62,
+            "ai_score": 65,
+            "confidence": "MEDIUM",
+            "reason": "5000억 자사주 취득 소각이라는 주주환원 강화 재료가 있으며 RSI 53으로 종가매수 최적 구간(30~60)에 해당합니다. 5일 +1.5%로 완만한 상승이지만 20일 -1.6% 조정에서 회복 국면 진입 가능성이 있고, 이전 하나금융·신한지주 실패 사례와 달리 RSI가 과매도권이 아닌 중립권에 위치한 점이 차별화됩니다.",
+            "entry_price": 96400.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "035720",
+            "name_kr": "카카오",
+            "ms_score": 58,
+            "ai_score": 63,
+            "confidence": "MEDIUM",
+            "reason": "카카오페이증권 예탁자산 20조 돌파와 임원 동시 매수라는 내부자 신뢰 신호가 긍정적이며 부정 뉴스가 없는 순수 긍정 3건입니다. RSI 49로 중립 구간이고 20일 -9.7% 조정 후 5일 +5.1% 반등세로 기술적 반등 패턴(100% 성공률)에 근접합니다. 당일 +0%로 급등 차익실현 리스크가 없어 내일 추가 반영 기대가 가능합니다.",
+            "entry_price": 42550.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "267250",
+            "name_kr": "HD현대",
+            "ms_score": 67,
+            "ai_score": 61,
+            "confidence": "LOW",
+            "reason": "과거 2026-06-01 성공 사례(+1.26%)와 동일 종목으로 조선·원전 복합 모멘텀이 지속되고 있으며 RSI 38로 과매도 진입 구간입니다. 5일 -3.1%로 낙폭이 과도하지 않아 이전 실패 패턴(5일 -5.7% 이상)과 구분되며 기술적 반등 성공 패턴 조건을 부분적으로 충족합니다. EB 발행 논란은 부정 요인이나 이미 주가에 반영된 것으로 판단됩니다.",
+            "entry_price": 276500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 62,
+            "ai_score": 58,
+            "confidence": "LOW",
+            "reason": "국민연금 178만주 추가 매수와 삼성증권 목표가 상향이라는 기관 수급 신호가 긍정적이며 긍정 뉴스 4건으로 후보군 중 최다입니다. RSI 23으로 극도 과매도 구간이나 20일 -31.4% 낙폭이 크다는 위험이 있어 최소 비중으로 접근 권고합니다. POSCO홀딩스 실패 패턴과 유사하므로 비중을 낮추되 기술적 반등 가능성에 베팅합니다.",
+            "entry_price": 59900.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 63,
+            "ai_score": 94,
+            "confidence": "HIGH",
+            "reason": "[T] tech 94 / earn 0 (RSI 33, 5일 -5.9%)",
+            "entry_price": 27700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 55,
+            "ai_score": 88,
+            "confidence": "HIGH",
+            "reason": "[E] tech 43 / earn 88 (RSI 43, 5일 -1.2%)",
+            "entry_price": 117000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "138040",
+            "name_kr": "메리츠금융지주",
+            "ms_score": 62,
+            "ai_score": 86,
+            "confidence": "HIGH",
+            "reason": "[E] tech 15 / earn 87 (RSI 49, 5일 +1.3%)",
+            "entry_price": 106100.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "034020",
+            "name_kr": "두산에너빌리티",
+            "ms_score": 60,
+            "ai_score": 85,
+            "confidence": "HIGH",
+            "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -7.8%)",
+            "entry_price": 100000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "329180",
+            "name_kr": "HD현대중공업",
+            "ms_score": 67,
+            "ai_score": 83,
+            "confidence": "HIGH",
+            "reason": "[T] tech 84 / earn 0 (RSI 42, 5일 -9.5%)",
+            "entry_price": 673000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-06-02": {
       "ai": {
         "count": 3,
@@ -146,33 +280,8 @@
         ]
       },
       "vol": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "090360",
-            "name_kr": "로보스타",
-            "open_price": 151400,
-            "close_price": 158800,
-            "trade_value": 248954627900,
-            "market_cap": 1548300000000,
-            "sector": "기계·장비",
-            "rarity_months": 3,
-            "score": 4.6,
-            "notes": "KOSDAQ | 등락 +29.9% | 턴오버 16.1% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "043260",
-            "name_kr": "성호전자",
-            "open_price": 40050,
-            "close_price": 48400,
-            "trade_value": 586382599600,
-            "market_cap": 3432664633200,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 0.7,
-            "notes": "KOSDAQ | 등락 +22.7% | 턴오버 17.1% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-06-01": {
@@ -278,33 +387,8 @@
         ]
       },
       "vol": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "022100",
-            "name_kr": "포스코DX",
-            "open_price": 33850,
-            "close_price": 38200,
-            "trade_value": 277792684625,
-            "market_cap": 5807726647800,
-            "sector": "일반서비스",
-            "rarity_months": 3,
-            "score": 3.5,
-            "notes": "KOSPI | 등락 +17.7% | 턴오버 4.8% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "066575",
-            "name_kr": "LG전자우",
-            "open_price": 104500,
-            "close_price": 121500,
-            "trade_value": 312035192950,
-            "market_cap": 2087527828500,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 1.5,
-            "notes": "KOSPI | 등락 +27.0% | 턴오버 14.9% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-05-15": {
@@ -423,45 +507,8 @@
         ]
       },
       "vol": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "001740",
-            "name_kr": "SK네트웍스",
-            "open_price": 8250,
-            "close_price": 9310,
-            "trade_value": 381202893270,
-            "market_cap": 1867529106590,
-            "sector": "유통",
-            "rarity_months": 3,
-            "score": 7.0,
-            "notes": "KOSPI | 등락 +17.9% | 턴오버 20.4% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "067310",
-            "name_kr": "하나마이크론",
-            "open_price": 48000,
-            "close_price": 54200,
-            "trade_value": 577433743375,
-            "market_cap": 3602361049200,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 4.6,
-            "notes": "KOSDAQ | 등락 +21.5% | 턴오버 16.0% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "036540",
-            "name_kr": "SFA반도체",
-            "open_price": 8420,
-            "close_price": 8820,
-            "trade_value": 256441946405,
-            "market_cap": 1450539872460,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": -4.2,
-            "notes": "KOSDAQ | 등락 +6.5% | 턴오버 17.7%"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-05-13": {
@@ -541,45 +588,8 @@
         ]
       },
       "vol": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "012200",
-            "name_kr": "계양전기",
-            "open_price": 11910,
-            "close_price": 13500,
-            "trade_value": 455483793935,
-            "market_cap": 367508191500,
-            "sector": "기계·장비",
-            "rarity_months": 3,
-            "score": 10.0,
-            "notes": "KOSPI | 등락 +22.8% | 턴오버 123.9% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "332570",
-            "name_kr": "PS일렉트로닉스",
-            "open_price": 12840,
-            "close_price": 14390,
-            "trade_value": 323151933925,
-            "market_cap": 672179391570,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 9.8,
-            "notes": "KOSDAQ | 등락 +18.7% | 턴오버 48.1% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "439960",
-            "name_kr": "코스모로보틱스",
-            "open_price": 35500,
-            "close_price": 40550,
-            "trade_value": 397759755300,
-            "market_cap": 1302016138300,
-            "sector": "의료·정밀기기",
-            "rarity_months": 0,
-            "score": 1.1,
-            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 30.5% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-05-12": {
@@ -659,81 +669,8 @@
         ]
       },
       "vol": {
-        "count": 6,
-        "picks": [
-          {
-            "stock_code": "348340",
-            "name_kr": "뉴로메카",
-            "open_price": 70000,
-            "close_price": 74600,
-            "trade_value": 278523106050,
-            "market_cap": 922216464600,
-            "sector": "기계·장비",
-            "rarity_months": 3,
-            "score": 6.0,
-            "notes": "KOSDAQ | 등락 +11.2% | 턴오버 30.2%"
-          },
-          {
-            "stock_code": "007610",
-            "name_kr": "선도전기",
-            "open_price": 13710,
-            "close_price": 16080,
-            "trade_value": 371459732560,
-            "market_cap": 289440000000,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 5.0,
-            "notes": "KOSPI | 등락 +24.9% | 턴오버 128.3% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "483650",
-            "name_kr": "달바글로벌",
-            "open_price": 222000,
-            "close_price": 250000,
-            "trade_value": 245336691000,
-            "market_cap": 3105385000000,
-            "sector": "화학",
-            "rarity_months": 3,
-            "score": 3.8,
-            "notes": "KOSPI | 등락 +14.4% | 턴오버 7.9% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "439960",
-            "name_kr": "코스모로보틱스",
-            "open_price": 25350,
-            "close_price": 31200,
-            "trade_value": 340767928500,
-            "market_cap": 1001797867200,
-            "sector": "의료·정밀기기",
-            "rarity_months": 0,
-            "score": 3.4,
-            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 34.0% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "064400",
-            "name_kr": "LG씨엔에스",
-            "open_price": 71900,
-            "close_price": 72100,
-            "trade_value": 237368001000,
-            "market_cap": 6985476850800,
-            "sector": "IT 서비스",
-            "rarity_months": 3,
-            "score": 3.3,
-            "notes": "KOSPI | 등락 +2.3% | 턴오버 3.4% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "319400",
-            "name_kr": "현대무벡스",
-            "open_price": 41800,
-            "close_price": 42150,
-            "trade_value": 734048071975,
-            "market_cap": 4694500043850,
-            "sector": "기계·장비",
-            "rarity_months": 0,
-            "score": 0.6,
-            "notes": "KOSDAQ | 등락 +8.9% | 턴오버 15.6% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-05-11": {
@@ -839,57 +776,8 @@
         ]
       },
       "vol": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "264850",
-            "name_kr": "이랜시스",
-            "open_price": 7890,
-            "close_price": 9250,
-            "trade_value": 257461441040,
-            "market_cap": 280225161000,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 3.0,
-            "notes": "KOSDAQ | 등락 +14.9% | 턴오버 91.9% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "319400",
-            "name_kr": "현대무벡스",
-            "open_price": 38100,
-            "close_price": 38750,
-            "trade_value": 250432078075,
-            "market_cap": 4315821511250,
-            "sector": "기계·장비",
-            "rarity_months": 0,
-            "score": -3.4,
-            "notes": "KOSDAQ | 등락 +2.1% | 턴오버 5.8%"
-          },
-          {
-            "stock_code": "108490",
-            "name_kr": "로보티즈",
-            "open_price": 335500,
-            "close_price": 379500,
-            "trade_value": 284926012000,
-            "market_cap": 5562342126000,
-            "sector": "기계·장비",
-            "rarity_months": 0,
-            "score": -3.5,
-            "notes": "KOSDAQ | 등락 +13.4% | 턴오버 5.1% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "336260",
-            "name_kr": "두산퓨얼셀",
-            "open_price": 88300,
-            "close_price": 98200,
-            "trade_value": 200414530400,
-            "market_cap": 6431483893200,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": -3.7,
-            "notes": "KOSPI | 등락 +13.8% | 턴오버 3.1%"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-05-08": {
@@ -995,45 +883,8 @@
         ]
       },
       "vol": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "319400",
-            "name_kr": "현대무벡스",
-            "open_price": 34450,
-            "close_price": 37600,
-            "trade_value": 644771518575,
-            "market_cap": 4187739066400,
-            "sector": "기계·장비",
-            "rarity_months": 2,
-            "score": 6.5,
-            "notes": "KOSDAQ | 등락 +21.3% | 턴오버 15.4% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "125490",
-            "name_kr": "한라캐스트",
-            "open_price": 17220,
-            "close_price": 18970,
-            "trade_value": 230382138950,
-            "market_cap": 692449617440,
-            "sector": "운송장비·부품",
-            "rarity_months": 3,
-            "score": 6.3,
-            "notes": "KOSDAQ | 등락 +12.7% | 턴오버 33.3% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "108490",
-            "name_kr": "로보티즈",
-            "open_price": 315500,
-            "close_price": 332000,
-            "trade_value": 220276934250,
-            "market_cap": 4866133296000,
-            "sector": "기계·장비",
-            "rarity_months": 0,
-            "score": -1.5,
-            "notes": "KOSDAQ | 등락 +9.9% | 턴오버 4.5%"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-05-07": {
@@ -1126,57 +977,8 @@
         ]
       },
       "vol": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "017550",
-            "name_kr": "수산세보틱스",
-            "open_price": 3415,
-            "close_price": 3900,
-            "trade_value": 202231307422,
-            "market_cap": 243356607000,
-            "sector": "기계·장비",
-            "rarity_months": 3,
-            "score": 8.0,
-            "notes": "KOSPI | 등락 +25.2% | 턴오버 83.1% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "138080",
-            "name_kr": "오이솔루션",
-            "open_price": 44900,
-            "close_price": 54100,
-            "trade_value": 281494522125,
-            "market_cap": 669636707800,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 7.2,
-            "notes": "KOSDAQ | 등락 +21.3% | 턴오버 42.0%"
-          },
-          {
-            "stock_code": "203650",
-            "name_kr": "드림시큐리티",
-            "open_price": 3750,
-            "close_price": 4160,
-            "trade_value": 548435460610,
-            "market_cap": 416776147840,
-            "sector": "IT 서비스",
-            "rarity_months": 0,
-            "score": 4.0,
-            "notes": "KOSDAQ | 등락 +10.8% | 턴오버 131.6% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "0011T0",
-            "name_kr": "채비",
-            "open_price": 17000,
-            "close_price": 17240,
-            "trade_value": 301305533585,
-            "market_cap": 806578227200,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 1.7,
-            "notes": "KOSDAQ | 등락 +0.4% | 턴오버 37.4% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-05-06": {
@@ -1282,93 +1084,8 @@
         ]
       },
       "vol": {
-        "count": 7,
-        "picks": [
-          {
-            "stock_code": "452190",
-            "name_kr": "한빛레이저",
-            "open_price": 8580,
-            "close_price": 10050,
-            "trade_value": 207109512615,
-            "market_cap": 240401597850,
-            "sector": "기계·장비",
-            "rarity_months": 3,
-            "score": 8.0,
-            "notes": "KOSDAQ | 등락 +23.0% | 턴오버 86.2%"
-          },
-          {
-            "stock_code": "336260",
-            "name_kr": "두산퓨얼셀",
-            "open_price": 60000,
-            "close_price": 76200,
-            "trade_value": 328578608650,
-            "market_cap": 4990621921200,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 5.7,
-            "notes": "KOSPI | 등락 +25.7% | 턴오버 6.6% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "161580",
-            "name_kr": "필옵틱스",
-            "open_price": 51500,
-            "close_price": 63000,
-            "trade_value": 283703743000,
-            "market_cap": 1476861561000,
-            "sector": "기계·장비",
-            "rarity_months": 3,
-            "score": 4.9,
-            "notes": "KOSDAQ | 등락 +29.5% | 턴오버 19.2% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "003470",
-            "name_kr": "유안타증권",
-            "open_price": 6790,
-            "close_price": 7830,
-            "trade_value": 232890973710,
-            "market_cap": 1562841190080,
-            "sector": "증권",
-            "rarity_months": 3,
-            "score": 4.5,
-            "notes": "KOSPI | 등락 +29.9% | 턴오버 14.9% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "203650",
-            "name_kr": "드림시큐리티",
-            "open_price": 2915,
-            "close_price": 3380,
-            "trade_value": 224137042492,
-            "market_cap": 338630620120,
-            "sector": "IT 서비스",
-            "rarity_months": 0,
-            "score": 1.0,
-            "notes": "KOSDAQ | 등락 +17.0% | 턴오버 66.2% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "064260",
-            "name_kr": "다날",
-            "open_price": 7810,
-            "close_price": 7990,
-            "trade_value": 219517647110,
-            "market_cap": 604407201430,
-            "sector": "IT 서비스",
-            "rarity_months": 0,
-            "score": -0.4,
-            "notes": "KOSDAQ | 등락 +7.5% | 턴오버 36.3%"
-          },
-          {
-            "stock_code": "011790",
-            "name_kr": "SKC",
-            "open_price": 140000,
-            "close_price": 161200,
-            "trade_value": 318548622800,
-            "market_cap": 6104369637600,
-            "sector": "화학",
-            "rarity_months": 0,
-            "score": -1.5,
-            "notes": "KOSPI | 등락 +30.0% | 턴오버 5.2% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-05-04": {
@@ -1461,57 +1178,8 @@
         ]
       },
       "vol": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "199820",
-            "name_kr": "제일일렉트릭",
-            "open_price": 18730,
-            "close_price": 22250,
-            "trade_value": 306687051605,
-            "market_cap": 494395000000,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 5.0,
-            "notes": "KOSDAQ | 등락 +28.9% | 턴오버 62.0% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "033100",
-            "name_kr": "제룡전기",
-            "open_price": 79500,
-            "close_price": 91500,
-            "trade_value": 234404252300,
-            "market_cap": 1469710423500,
-            "sector": "전기·전자",
-            "rarity_months": 2,
-            "score": 1.6,
-            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 15.9%"
-          },
-          {
-            "stock_code": "103590",
-            "name_kr": "일진전기",
-            "open_price": 131200,
-            "close_price": 143700,
-            "trade_value": 284643145350,
-            "market_cap": 6852390543000,
-            "sector": "전기·전자",
-            "rarity_months": 2,
-            "score": 0.4,
-            "notes": "KOSPI | 등락 +17.3% | 턴오버 4.2%"
-          },
-          {
-            "stock_code": "490470",
-            "name_kr": "세미파이브",
-            "open_price": 46000,
-            "close_price": 49150,
-            "trade_value": 229796299325,
-            "market_cap": 1664160020000,
-            "sector": "일반서비스",
-            "rarity_months": 0,
-            "score": -4.6,
-            "notes": "KOSDAQ | 등락 +15.8% | 턴오버 13.8% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-30": {
@@ -1591,81 +1259,8 @@
         ]
       },
       "vol": {
-        "count": 6,
-        "picks": [
-          {
-            "stock_code": "199820",
-            "name_kr": "제일일렉트릭",
-            "open_price": 16890,
-            "close_price": 17510,
-            "trade_value": 349959228845,
-            "market_cap": 389072200000,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 10.0,
-            "notes": "KOSDAQ | 등락 +5.2% | 턴오버 89.9%"
-          },
-          {
-            "stock_code": "125020",
-            "name_kr": "티씨머티리얼즈",
-            "open_price": 7750,
-            "close_price": 8860,
-            "trade_value": 200794377690,
-            "market_cap": 310441553000,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 8.0,
-            "notes": "KOSDAQ | 등락 +21.4% | 턴오버 64.7%"
-          },
-          {
-            "stock_code": "046890",
-            "name_kr": "서울반도체",
-            "open_price": 16000,
-            "close_price": 16250,
-            "trade_value": 216050677545,
-            "market_cap": 947462750000,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 5.3,
-            "notes": "KOSDAQ | 등락 +13.5% | 턴오버 22.8%"
-          },
-          {
-            "stock_code": "025860",
-            "name_kr": "남해화학",
-            "open_price": 9590,
-            "close_price": 10880,
-            "trade_value": 399608258010,
-            "market_cap": 540505811840,
-            "sector": "화학",
-            "rarity_months": 0,
-            "score": 5.0,
-            "notes": "KOSPI | 등락 +15.2% | 턴오버 73.9% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "432720",
-            "name_kr": "퀄리타스반도체",
-            "open_price": 22100,
-            "close_price": 24800,
-            "trade_value": 223762454200,
-            "market_cap": 351083977600,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 3.0,
-            "notes": "KOSDAQ | 등락 +13.5% | 턴오버 63.7%"
-          },
-          {
-            "stock_code": "062040",
-            "name_kr": "산일전기",
-            "open_price": 222500,
-            "close_price": 268000,
-            "trade_value": 590143695250,
-            "market_cap": 8205047800000,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": -0.3,
-            "notes": "KOSPI | 등락 +21.3% | 턴오버 7.2% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-29": {
@@ -1758,21 +1353,8 @@
         ]
       },
       "vol": {
-        "count": 1,
-        "picks": [
-          {
-            "stock_code": "0011T0",
-            "name_kr": "채비",
-            "open_price": 15250,
-            "close_price": 21300,
-            "trade_value": 2774107750660,
-            "market_cap": 996526464000,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 13.0,
-            "notes": "KOSDAQ | 등락 +73.2% | 턴오버 278.4% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-28": {
@@ -1878,33 +1460,8 @@
         ]
       },
       "vol": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "241520",
-            "name_kr": "DSC인베스트먼트",
-            "open_price": 16160,
-            "close_price": 18000,
-            "trade_value": 253037352330,
-            "market_cap": 478800000000,
-            "sector": "금융",
-            "rarity_months": 2,
-            "score": 1.0,
-            "notes": "KOSDAQ | 등락 +12.5% | 턴오버 52.8% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "490470",
-            "name_kr": "세미파이브",
-            "open_price": 37700,
-            "close_price": 39950,
-            "trade_value": 251389944450,
-            "market_cap": 1352659060000,
-            "sector": "일반서비스",
-            "rarity_months": 0,
-            "score": -2.1,
-            "notes": "KOSDAQ | 등락 +6.2% | 턴오버 18.6% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-27": {
@@ -1997,69 +1554,8 @@
         ]
       },
       "vol": {
-        "count": 5,
-        "picks": [
-          {
-            "stock_code": "030530",
-            "name_kr": "원익홀딩스",
-            "open_price": 32700,
-            "close_price": 35000,
-            "trade_value": 251502774300,
-            "market_cap": 2703329335000,
-            "sector": "화학",
-            "rarity_months": 3,
-            "score": 3.9,
-            "notes": "KOSDAQ | 등락 +9.9% | 턴오버 9.3% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "209640",
-            "name_kr": "와이제이링크",
-            "open_price": 7860,
-            "close_price": 9330,
-            "trade_value": 220860556665,
-            "market_cap": 265374552180,
-            "sector": "기계·장비",
-            "rarity_months": 0,
-            "score": 1.0,
-            "notes": "KOSDAQ | 등락 +24.1% | 턴오버 83.2%"
-          },
-          {
-            "stock_code": "108490",
-            "name_kr": "로보티즈",
-            "open_price": 301500,
-            "close_price": 343000,
-            "trade_value": 428214096250,
-            "market_cap": 5027360604000,
-            "sector": "기계·장비",
-            "rarity_months": 2,
-            "score": -1.1,
-            "notes": "KOSDAQ | 등락 +17.3% | 턴오버 8.5% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "011790",
-            "name_kr": "SKC",
-            "open_price": 118900,
-            "close_price": 123700,
-            "trade_value": 222269131700,
-            "market_cap": 4684308462600,
-            "sector": "화학",
-            "rarity_months": 0,
-            "score": -1.5,
-            "notes": "KOSPI | 등락 +6.5% | 턴오버 4.7%"
-          },
-          {
-            "stock_code": "222080",
-            "name_kr": "씨아이에스",
-            "open_price": 16720,
-            "close_price": 17050,
-            "trade_value": 230587050930,
-            "market_cap": 1326151455200,
-            "sector": "기계·장비",
-            "rarity_months": 0,
-            "score": -4.3,
-            "notes": "KOSDAQ | 등락 +3.4% | 턴오버 17.4%"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-23": {
@@ -2086,33 +1582,8 @@
         ]
       },
       "vol": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "046120",
-            "name_kr": "오르비텍",
-            "open_price": 11210,
-            "close_price": 12440,
-            "trade_value": 243436505365,
-            "market_cap": 409639272880,
-            "sector": "일반서비스",
-            "rarity_months": 1,
-            "score": 2.0,
-            "notes": "KOSDAQ | 등락 +13.6% | 턴오버 59.4% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "097230",
-            "name_kr": "HJ중공업",
-            "open_price": 31150,
-            "close_price": 32850,
-            "trade_value": 268666418225,
-            "market_cap": 2966202050400,
-            "sector": "건설",
-            "rarity_months": 0,
-            "score": -1.1,
-            "notes": "KOSPI | 등락 +6.0% | 턴오버 9.1% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-22": {
@@ -2286,57 +1757,8 @@
         ]
       },
       "vol": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "222080",
-            "name_kr": "씨아이에스",
-            "open_price": 12940,
-            "close_price": 16310,
-            "trade_value": 667033923045,
-            "market_cap": 1268594148640,
-            "sector": "기계·장비",
-            "rarity_months": 1,
-            "score": 9.0,
-            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 52.6% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "073490",
-            "name_kr": "LIG아큐버",
-            "open_price": 52000,
-            "close_price": 55700,
-            "trade_value": 223885225550,
-            "market_cap": 423534222200,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 8.0,
-            "notes": "KOSDAQ | 등락 +15.8% | 턴오버 52.9% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "077970",
-            "name_kr": "STX엔진",
-            "open_price": 45350,
-            "close_price": 50700,
-            "trade_value": 252488132350,
-            "market_cap": 2035506794100,
-            "sector": "기계·장비",
-            "rarity_months": 3,
-            "score": 4.2,
-            "notes": "KOSPI | 등락 +9.7% | 턴오버 12.4%"
-          },
-          {
-            "stock_code": "010060",
-            "name_kr": "OCI홀딩스",
-            "open_price": 273500,
-            "close_price": 299000,
-            "trade_value": 271587147250,
-            "market_cap": 5582399368000,
-            "sector": "금융",
-            "rarity_months": 0,
-            "score": -3.5,
-            "notes": "KOSPI | 등락 +9.5% | 턴오버 4.9% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-20": {
@@ -2416,45 +1838,8 @@
         ]
       },
       "vol": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "356680",
-            "name_kr": "엑스게이트",
-            "open_price": 14950,
-            "close_price": 16480,
-            "trade_value": 420635816550,
-            "market_cap": 470396748160,
-            "sector": "IT 서비스",
-            "rarity_months": 0,
-            "score": 5.0,
-            "notes": "KOSDAQ | 등락 +9.9% | 턴오버 89.4% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "158430",
-            "name_kr": "아톤",
-            "open_price": 9100,
-            "close_price": 9930,
-            "trade_value": 237838838585,
-            "market_cap": 243107173560,
-            "sector": "IT 서비스",
-            "rarity_months": 0,
-            "score": 3.0,
-            "notes": "KOSDAQ | 등락 +12.7% | 턴오버 97.8%"
-          },
-          {
-            "stock_code": "067310",
-            "name_kr": "하나마이크론",
-            "open_price": 36050,
-            "close_price": 38500,
-            "trade_value": 239023870075,
-            "market_cap": 2558872701000,
-            "sector": "전기·전자",
-            "rarity_months": 2,
-            "score": -1.1,
-            "notes": "KOSDAQ | 등락 +6.8% | 턴오버 9.3% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-17": {
@@ -2533,57 +1918,8 @@
         "picks": []
       },
       "vol": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "456010",
-            "name_kr": "아이씨티케이",
-            "open_price": 23050,
-            "close_price": 25600,
-            "trade_value": 458029362350,
-            "market_cap": 355887462400,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 5.0,
-            "notes": "KOSDAQ | 등락 +19.9% | 턴오버 128.7% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "082740",
-            "name_kr": "한화엔진",
-            "open_price": 48700,
-            "close_price": 56200,
-            "trade_value": 259241297400,
-            "market_cap": 4689729380400,
-            "sector": "기계·장비",
-            "rarity_months": 3,
-            "score": 3.6,
-            "notes": "KOSPI | 등락 +16.6% | 턴오버 5.5% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "093370",
-            "name_kr": "후성",
-            "open_price": 12950,
-            "close_price": 13890,
-            "trade_value": 406104869825,
-            "market_cap": 1489776533700,
-            "sector": "화학",
-            "rarity_months": 0,
-            "score": 2.7,
-            "notes": "KOSPI | 등락 +22.9% | 턴오버 27.3% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "010820",
-            "name_kr": "퍼스텍",
-            "open_price": 11840,
-            "close_price": 13380,
-            "trade_value": 347972186110,
-            "market_cap": 652568530440,
-            "sector": "금속",
-            "rarity_months": 0,
-            "score": 1.0,
-            "notes": "KOSPI | 등락 +14.1% | 턴오버 53.3% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-16": {
@@ -2662,45 +1998,8 @@
         "picks": []
       },
       "vol": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "388050",
-            "name_kr": "지투파워",
-            "open_price": 14040,
-            "close_price": 15100,
-            "trade_value": 253541372910,
-            "market_cap": 282512498700,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 8.0,
-            "notes": "KOSDAQ | 등락 +8.0% | 턴오버 89.7% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "011790",
-            "name_kr": "SKC",
-            "open_price": 100400,
-            "close_price": 119200,
-            "trade_value": 240505547250,
-            "market_cap": 4513901121600,
-            "sector": "화학",
-            "rarity_months": 3,
-            "score": 3.5,
-            "notes": "KOSPI | 등락 +19.4% | 턴오버 5.3% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "010060",
-            "name_kr": "OCI홀딩스",
-            "open_price": 262500,
-            "close_price": 275000,
-            "trade_value": 200235008000,
-            "market_cap": 5134313800000,
-            "sector": "금융",
-            "rarity_months": 0,
-            "score": -1.6,
-            "notes": "KOSPI | 등락 +17.0% | 턴오버 3.9% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-15": {
@@ -2779,21 +2078,8 @@
         "picks": []
       },
       "vol": {
-        "count": 1,
-        "picks": [
-          {
-            "stock_code": "010060",
-            "name_kr": "OCI홀딩스",
-            "open_price": 219500,
-            "close_price": 235500,
-            "trade_value": 219688454000,
-            "market_cap": 4396839636000,
-            "sector": "금융",
-            "rarity_months": 3,
-            "score": 3.5,
-            "notes": "KOSPI | 등락 +25.2% | 턴오버 5.0% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-14": {
@@ -2872,69 +2158,8 @@
         "picks": []
       },
       "vol": {
-        "count": 5,
-        "picks": [
-          {
-            "stock_code": "432720",
-            "name_kr": "퀄리타스반도체",
-            "open_price": 16380,
-            "close_price": 20550,
-            "trade_value": 231113253675,
-            "market_cap": 290918376600,
-            "sector": "전기·전자",
-            "rarity_months": 3,
-            "score": 8.0,
-            "notes": "KOSDAQ | 등락 +30.0% | 턴오버 79.4%"
-          },
-          {
-            "stock_code": "037030",
-            "name_kr": "파워넷",
-            "open_price": 7100,
-            "close_price": 8370,
-            "trade_value": 234972303380,
-            "market_cap": 213543743040,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": 3.0,
-            "notes": "KOSDAQ | 등락 +19.6% | 턴오버 110.0%"
-          },
-          {
-            "stock_code": "490470",
-            "name_kr": "세미파이브",
-            "open_price": 37150,
-            "close_price": 37300,
-            "trade_value": 246450037600,
-            "market_cap": 1262933240000,
-            "sector": "일반서비스",
-            "rarity_months": 0,
-            "score": 0,
-            "notes": "KOSDAQ | 등락 +2.2% | 턴오버 19.5% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "069540",
-            "name_kr": "빛과전자",
-            "open_price": 6300,
-            "close_price": 6390,
-            "trade_value": 251810921700,
-            "market_cap": 623712289230,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": -2.0,
-            "notes": "KOSDAQ | 등락 +29.9% | 턴오버 40.4% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "062040",
-            "name_kr": "산일전기",
-            "open_price": 182900,
-            "close_price": 186600,
-            "trade_value": 221874509100,
-            "market_cap": 5712917610000,
-            "sector": "전기·전자",
-            "rarity_months": 0,
-            "score": -3.6,
-            "notes": "KOSPI | 등락 +7.9% | 턴오버 3.9%"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-13": {
@@ -3013,45 +2238,8 @@
         "picks": []
       },
       "vol": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "490470",
-            "name_kr": "세미파이브",
-            "open_price": 31300,
-            "close_price": 36600,
-            "trade_value": 471192062175,
-            "market_cap": 1239232080000,
-            "sector": "일반서비스",
-            "rarity_months": 3,
-            "score": 8.8,
-            "notes": "KOSDAQ | 등락 +16.9% | 턴오버 38.0% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "025860",
-            "name_kr": "남해화학",
-            "open_price": 8250,
-            "close_price": 9330,
-            "trade_value": 264859539300,
-            "market_cap": 463503605190,
-            "sector": "화학",
-            "rarity_months": 3,
-            "score": 8.0,
-            "notes": "KOSPI | 등락 +17.5% | 턴오버 57.1% | ★ 섹터 대장주"
-          },
-          {
-            "stock_code": "018470",
-            "name_kr": "조일알미늄",
-            "open_price": 1600,
-            "close_price": 1920,
-            "trade_value": 212859138205,
-            "market_cap": 243132904320,
-            "sector": "금속",
-            "rarity_months": 3,
-            "score": 8.0,
-            "notes": "KOSPI | 등락 +26.8% | 턴오버 87.5% | ★ 섹터 대장주"
-          }
-        ]
+        "count": 0,
+        "picks": []
       }
     },
     "2026-04-12": {
