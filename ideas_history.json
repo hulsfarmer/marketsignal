@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T15:05:17",
+  "generated_at": "2026-06-05T16:10:41",
   "dates": [
     "2026-06-05",
     "2026-06-04",
@@ -30,17 +30,17 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 62,
-      "correct": 26,
-      "hit_rate": 41.9,
-      "avg_return": 0.05,
-      "avg_return_open": 0.51
+      "total": 66,
+      "correct": 29,
+      "hit_rate": 43.9,
+      "avg_return": 0.11,
+      "avg_return_open": 0.56
     },
     "hybrid": {
-      "total": 54,
-      "correct": 24,
-      "hit_rate": 44.4,
-      "avg_return": -0.14,
+      "total": 59,
+      "correct": 27,
+      "hit_rate": 45.8,
+      "avg_return": -0.09,
       "avg_return_open": 0.43
     }
   },
@@ -151,10 +151,10 @@
             "confidence": "MEDIUM",
             "reason": "5000억 자사주 취득 소각이라는 주주환원 강화 재료가 있으며 RSI 53으로 종가매수 최적 구간(30~60)에 해당합니다. 5일 +1.5%로 완만한 상승이지만 20일 -1.6% 조정에서 회복 국면 진입 가능성이 있고, 이전 하나금융·신한지주 실패 사례와 달리 RSI가 과매도권이 아닌 중립권에 위치한 점이 차별화됩니다.",
             "entry_price": 96400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 100100.0,
+            "return_pct": 3.84,
+            "return_pct_open": 3.84,
+            "correct": 1
           },
           {
             "stock_code": "035720",
@@ -164,10 +164,10 @@
             "confidence": "MEDIUM",
             "reason": "카카오페이증권 예탁자산 20조 돌파와 임원 동시 매수라는 내부자 신뢰 신호가 긍정적이며 부정 뉴스가 없는 순수 긍정 3건입니다. RSI 49로 중립 구간이고 20일 -9.7% 조정 후 5일 +5.1% 반등세로 기술적 반등 패턴(100% 성공률)에 근접합니다. 당일 +0%로 급등 차익실현 리스크가 없어 내일 추가 반영 기대가 가능합니다.",
             "entry_price": 42550.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 42000.0,
+            "return_pct": -1.29,
+            "return_pct_open": -1.29,
+            "correct": 0
           },
           {
             "stock_code": "267250",
@@ -177,10 +177,10 @@
             "confidence": "LOW",
             "reason": "과거 2026-06-01 성공 사례(+1.26%)와 동일 종목으로 조선·원전 복합 모멘텀이 지속되고 있으며 RSI 38로 과매도 진입 구간입니다. 5일 -3.1%로 낙폭이 과도하지 않아 이전 실패 패턴(5일 -5.7% 이상)과 구분되며 기술적 반등 성공 패턴 조건을 부분적으로 충족합니다. EB 발행 논란은 부정 요인이나 이미 주가에 반영된 것으로 판단됩니다.",
             "entry_price": 276500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 280000.0,
+            "return_pct": 1.27,
+            "return_pct_open": 1.27,
+            "correct": 1
           },
           {
             "stock_code": "047050",
@@ -190,10 +190,10 @@
             "confidence": "LOW",
             "reason": "국민연금 178만주 추가 매수와 삼성증권 목표가 상향이라는 기관 수급 신호가 긍정적이며 긍정 뉴스 4건으로 후보군 중 최다입니다. RSI 23으로 극도 과매도 구간이나 20일 -31.4% 낙폭이 크다는 위험이 있어 최소 비중으로 접근 권고합니다. POSCO홀딩스 실패 패턴과 유사하므로 비중을 낮추되 기술적 반등 가능성에 베팅합니다.",
             "entry_price": 59900.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 60200.0,
+            "return_pct": 0.5,
+            "return_pct_open": 0.5,
+            "correct": 1
           }
         ]
       },
@@ -208,10 +208,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 94 / earn 0 (RSI 33, 5일 -5.9%)",
             "entry_price": 27700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 28400.0,
+            "return_pct": 2.53,
+            "return_pct_open": 2.53,
+            "correct": 1
           },
           {
             "stock_code": "086790",
@@ -221,10 +221,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 43 / earn 88 (RSI 43, 5일 -1.2%)",
             "entry_price": 117000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 120600.0,
+            "return_pct": 3.08,
+            "return_pct_open": 3.08,
+            "correct": 1
           },
           {
             "stock_code": "138040",
@@ -234,10 +234,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 15 / earn 87 (RSI 49, 5일 +1.3%)",
             "entry_price": 106100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 106500.0,
+            "return_pct": 0.38,
+            "return_pct_open": 0.38,
+            "correct": 1
           },
           {
             "stock_code": "034020",
@@ -247,10 +247,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -7.8%)",
             "entry_price": 100000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 99200.0,
+            "return_pct": -0.8,
+            "return_pct_open": -0.8,
+            "correct": 0
           },
           {
             "stock_code": "329180",
@@ -260,10 +260,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 84 / earn 0 (RSI 42, 5일 -9.5%)",
             "entry_price": 673000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 651000.0,
+            "return_pct": -3.27,
+            "return_pct_open": -3.27,
+            "correct": 0
           }
         ]
       },
