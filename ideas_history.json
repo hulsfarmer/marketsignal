@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-06-04T16:10:30",
+  "generated_at": "2026-06-05T15:05:17",
   "dates": [
+    "2026-06-05",
     "2026-06-04",
     "2026-06-02",
     "2026-06-01",
@@ -44,6 +45,100 @@
     }
   },
   "by_date": {
+    "2026-06-05": {
+      "ai": {
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "035720",
+            "name_kr": "카카오",
+            "ms_score": 55,
+            "ai_score": 58,
+            "confidence": "LOW",
+            "reason": "RSI 34로 과매도 영역에 진입하여 기술적 반등 가능성이 있으며 카카오페이증권 예탁자산 20조 돌파 뉴스는 긍정적 재료입니다. 20일 -9.3% 낙폭은 저가 매수 매력을 제공하며 뉴스가 주가에 충분히 반영되지 않은 상태입니다. 5일 +4.7% 반등이 부담 요인이나 RSI 과매도 구간에서의 추가 하락 제한으로 위험 대비 기대수익이 양호합니다.",
+            "entry_price": 42000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "033780",
+            "name_kr": "KT&G",
+            "ms_score": 58,
+            "ai_score": 91,
+            "confidence": "HIGH",
+            "reason": "[T] tech 92 / earn 0 (RSI 36, 5일 -4.3%)",
+            "entry_price": 175800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "329180",
+            "name_kr": "HD현대중공업",
+            "ms_score": 67,
+            "ai_score": 70,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 70 / earn 0 (RSI 47, 5일 -7.5%)",
+            "entry_price": 651000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 67,
+            "ai_score": 60,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 61 / earn 0 (RSI 41, 5일 -2.5%)",
+            "entry_price": 176500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005490",
+            "name_kr": "POSCO홀딩스",
+            "ms_score": 62,
+            "ai_score": 57,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 0 / earn 57 (RSI 23, 5일 -4.3%)",
+            "entry_price": 402000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 62,
+            "ai_score": 54,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 34 / earn 54 (RSI 42, 5일 +4.6%)",
+            "entry_price": 120600.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-06-04": {
       "ai": {
         "count": 4,
