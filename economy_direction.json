@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T00:05:02",
+  "generated_at": "2026-06-06T00:08:33",
   "count": 500,
   "posts": [
     {
@@ -197,6 +197,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 7607,
+      "title": "미국 주식시장이 반도체 주가 하락과 고용 데이터 발표로 연방준비제도의 매파적 기조 우려로 하락. 한국의 SK하이닉스, 삼성전자 등 반도체 주요 기업들이 글로벌 칩 약세의 직접적 영향을 받을 전망.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-05",
+      "summary": "<p>미국 주식시장이 반도체 주가 하락과 고용 데이터 발표로 연방준비제도의 매파적 기조 우려로 하락. 한국의 SK하이닉스, 삼성전자 등 반도체 주요 기업들이 글로벌 칩 약세의 직접적 영향을 받을 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Wall St slides as chip stocks fall, jobs data fuels hawkish Fed fears Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 칩 약세 + Fed 매파 우려는 한국 반도체·메모리 기업의 수익성과 밸류에이션에 직접적 악영향 미치며, 한국 수출주도형 시장 전반에 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-06 00:07:12"
     },
     {
       "id": 7192,
@@ -1723,6 +1750,90 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 7619,
+      "title": "5월 미국 고용 데이터가 강세를 보이며 미 금리 인상 기대감이 상승했습니다. 이는 달러화 강세와 미국 채권 수익률 상승으로 이어져 한국 원화 약세(USD/KRW 상승)와 외국인 주식 매도 압력을 초래할 수 있습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-05",
+      "summary": "<p>5월 미국 고용 데이터가 강세를 보이며 미 금리 인상 기대감이 상승했습니다. 이는 달러화 강세와 미국 채권 수익률 상승으로 이어져 한국 원화 약세(USD/KRW 상승)와 외국인 주식 매도 압력을 초래할 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): VIEW Strong May jobs number sends yields, rate expectations higher Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 인상 기대 상승은 달러 강세→원화 약세, 외국인 자금 이탈 가능성→KOSPI 하락 압력의 명확한 연쇄 영향을 미치는 의미있는 매크로 악재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대차",
+        "LG화학"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0doVHYtamJHcEthVVF2b1Aydkx1dW1uUUxvSTk0Nnp4a3o4QjBTWWc1ajc4YTFvYzRzNS02a3dOdFczaGdKcFBvb0k2Z2pTTllkdG5oNnBacTR2NzhKWG5oampmeHpIWXYycnk0eEw0c2NGOWt0SlBhMnJSXzN4M0NyN0U1aHh4NlpDSnVORF9CSk5jeEZEYWlXVVJJdWV4TEdQMkRDODdxakFySnFZ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-06 00:07:57"
+    },
+    {
+      "id": 7618,
+      "title": "6월 강한 고용지표에 따라 12월 미국 금리 인상 가능성이 상승했습니다. 이는 달러 강세와 한국 수출주 약세를 초래할 수 있으며, 외국인 자금 이탈 우려로 KOSPI에 악영향을 미칠 수 있습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-05",
+      "summary": "<p>6월 강한 고용지표에 따라 12월 미국 금리 인상 가능성이 상승했습니다. 이는 달러 강세와 한국 수출주 약세를 초래할 수 있으며, 외국인 자금 이탈 우려로 KOSPI에 악영향을 미칠 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US rate futures lift rate hike odds in December after strong jobs report Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 인상 시사는 USD/KRW 상승(수출 악화), 외국인 투자 회피, 국내 채권 금리 상승 연쇄 등 거시 변수의 의미있는 변화를 유발",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대차",
+        "LG화학",
+        "포스코",
+        "삼성SDI",
+        "LG전자"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0I1Z3FSNU43a3U3dU9QZmE0QXd2MEVoVlZzTjNfSlVacFZpY2lvY0V5bHBkeHNJenAyZXlyZUUtZkxoMVZ4VVNsQVNLcnVyYnFUWlhiZXRhVzh4T1FCd253cVB3SmhXMEo3NzYxMENvY3FqcHQydVVQMzl4bDFBZmw4SjRKTm9xRXo1U0VTVjF0bEVyanptRXdjMGZsVFVrMUhvaEdoelYzUQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-06 00:07:53"
+    },
+    {
+      "id": 7606,
+      "title": "비트코인 관심이 약화되고 투자자들이 AI와 대형 기업 IPO로 몰리고 있다. 이는 AI/반도체 섹터에 자금 유입을 가속화시켜 SK하이닉스, 삼성전자 등 한국 AI칩 관련 종목에 긍정적 영향을 미칠 수 있다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-05",
+      "summary": "<p>비트코인 관심이 약화되고 투자자들이 AI와 대형 기업 IPO로 몰리고 있다. 이는 AI/반도체 섹터에 자금 유입을 가속화시켜 SK하이닉스, 삼성전자 등 한국 AI칩 관련 종목에 긍정적 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Bitcoin&#x27;s star fades, as investors flock to lustre of AI and megacap IPOs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 투자자의 AI 섹터 집중 현상이 명확하게 드러나 한국 반도체·AI칩 수요 전망 개선 및 관련 한국 종목의 펀더멘탈 개선으로 이어질 가능성이 높음",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRS1vTjdBbG45ZlBuOE9kbjk2WVU4YmZLaVNpYWtOR0ZEaldfWnNoUlAzcnFXOWlGZFpIZGxlYU9ycElwSUpzMlFMRk9iZUprUG5Jcnc3ZHlBa2VBMVJKWFFSZlZQMWoxdy1nSS1fT2xkTFA2cktWSW53OEsxOVVMYjd5c2dvazBqY2tVcE94b2xjT1FfaTZHLW5wZTJ4emh4TjN6Um5vVHM1Nnk1RXZ0VQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-06 00:07:09"
     },
     {
       "id": 7513,
@@ -12933,94 +13044,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000885",
       "direction": "neutral",
       "updated_at": "2026-05-14 00:35:04"
-    },
-    {
-      "id": 3382,
-      "title": "미래산업 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260513",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 미래산업</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "미래산업"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513801200",
-      "direction": "up",
-      "updated_at": "2026-05-13 18:35:07"
-    },
-    {
-      "id": 3352,
-      "title": "윤성에프앤씨 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260513",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 윤성에프앤씨</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "윤성에프앤씨"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900851",
-      "direction": "up",
-      "updated_at": "2026-05-13 17:35:44"
-    },
-    {
-      "id": 3341,
-      "title": "필에너지 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260513",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 필에너지</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "필에너지"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900876",
-      "direction": "up",
-      "updated_at": "2026-05-13 17:35:32"
-    },
-    {
-      "id": 3308,
-      "title": "제이에스링크 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260513",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 제이에스링크</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "제이에스링크"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900735",
-      "direction": "up",
-      "updated_at": "2026-05-13 16:35:26"
     }
   ],
   "events": [
