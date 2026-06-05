@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T06:05:02",
+  "generated_at": "2026-06-06T06:08:32",
   "count": 500,
   "posts": [
     {
@@ -197,6 +197,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 7655,
+      "title": "글로벌 반도체 주가가 1조 달러 이상 하락했으며, 이는 SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 한국 반도체 주요 종목에 직접적인 악영향을 미칠 것으로 예상된다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-05",
+      "summary": "<p>글로벌 반도체 주가가 1조 달러 이상 하락했으며, 이는 SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 한국 반도체 주요 종목에 직접적인 악영향을 미칠 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Chip selloff erases over $1 trillion in stock market value Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "반도체 섹터 전 범위에 걸친 대규모 낙찬으로 한국의 주요 메모리/파운드리 기업들의 주가 하락 및 투자 심리 악화가 불가피함",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT1dxeHpfT3VRaWg4NVg2eW5SMmxTNGgzY0x2azZFQ1ItdVlEZjlPQjVtNzdxRGNLYThRRi1MNTRyVmZkQkpCZ18yZzkwbVRvNlBsVUdjVGVLN1VBVVcwOTZfU0NHYzV1MjFlbHFVb3RfenhQUlFqbW9BUlUtZ1lWV3RFblNMdmg1RW13YlU0aG82ZWVTM2tHOV9BcGdGWE9qVWROM1hYTWZCX3lSTHV5V1VQVQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-06 06:07:04"
     },
     {
       "id": 7607,
@@ -13033,28 +13060,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514901194",
       "direction": "up",
       "updated_at": "2026-05-15 08:35:22"
-    },
-    {
-      "id": 3580,
-      "title": "에코글로우 — 주요사항보고서(유형자산양수결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260514",
-      "summary": "<p>자산 양수</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(유형자산양수결정) · 에코글로우</p>",
-      "feedback": "자산 양수",
-      "stocks": [
-        "에코글로우"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514001306",
-      "direction": "neutral",
-      "updated_at": "2026-05-15 07:35:14"
     }
   ],
   "events": [
