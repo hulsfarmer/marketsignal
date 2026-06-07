@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T09:05:02",
+  "generated_at": "2026-06-07T09:07:41",
   "count": 500,
   "posts": [
     {
@@ -1777,6 +1777,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 7805,
+      "title": "미국-이란 군사 충돌 우려로 중동 지정학적 긴장 고조. 유가 상승 압력이 강화되면서 에너지·화학 관련 한국 기업의 원가 부담 증가 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-06",
+      "summary": "<p>미국-이란 군사 충돌 우려로 중동 지정학적 긴장 고조. 유가 상승 압력이 강화되면서 에너지·화학 관련 한국 기업의 원가 부담 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): U.S.-Iran strikes, Wall Street fears, Paramount lawsuit and Cape Verde Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 분쟁 심화는 유가 급등으로 이어져 에너지·석유화학 의존도 높은 한국 기업들의 수익성 악화 가능성",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcEhkXzdJbXZFNTY5ak41UEx0cjdaanRaZXNJR2lHd1Q5Mld3dEdJQlFtTm43VXhDcFZQWTVZWEdzR2lZMXloVkNkMFIxSWJ4QTRRV3JxYkpGaER1UExpZ0xCSlZNY3NaUHktdS1yQmJrYjZkZWdpU0JPSWVUdThrcHNfNEN1clVLRUFtYVo3Rko2NmNiaktfZGhMb2FMZ0QtMTAxelhqSy1KczQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-07 09:07:19"
     },
     {
       "id": 7767,
@@ -13048,28 +13075,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514900697",
       "direction": "up",
       "updated_at": "2026-05-15 13:35:32"
-    },
-    {
-      "id": 3849,
-      "title": "세보엠이씨 — 단일판매ㆍ공급계약체결(자율공시)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260514",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결(자율공시)               · 세보엠이씨</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "세보엠이씨"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514900645",
-      "direction": "up",
-      "updated_at": "2026-05-15 12:35:22"
     }
   ],
   "events": [
