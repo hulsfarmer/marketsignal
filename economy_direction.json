@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T23:40:02",
+  "generated_at": "2026-06-08T00:05:01",
   "count": 500,
   "posts": [
     {
@@ -13525,6 +13525,22 @@
       "event_type": "매매거래정지 시작",
       "title": "미래산업 — 주식분할결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800375"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한온시스템",
+      "event_date": "2026-07-08",
+      "event_type": "합병등기",
+      "title": "한온시스템 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800802"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한국타이어앤테크놀로지",
+      "event_date": "2026-07-08",
+      "event_type": "합병등기",
+      "title": "한국타이어앤테크놀로지 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513800270"
     }
   ]
 }
