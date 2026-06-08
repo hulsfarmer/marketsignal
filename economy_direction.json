@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T21:05:02",
+  "generated_at": "2026-06-08T21:08:22",
   "count": 500,
   "posts": [
     {
@@ -1856,6 +1856,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8049,
+      "title": "한국 반도체 산업 침체로 개인투자자(앤미)의 마진 차입금이 급증하며 손실 위험이 커지고 있음. 칩 약세가 KOSPI 기술주와 반도체 종목의 낙수 효과를 심화시킬 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-08",
+      "summary": "<p>한국 반도체 산업 침체로 개인투자자(앤미)의 마진 차입금이 급증하며 손실 위험이 커지고 있음. 칩 약세가 KOSPI 기술주와 반도체 종목의 낙수 효과를 심화시킬 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Chip rout puts Korea&#x27;s &#x27;ant&#x27; investors to the test as margin debt soars Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "반도체 산업 부진이 한국 주가지수 기술주 비중 확대로 이어지며, 마진 채무 폭증은 시장 변동성 확대 및 매도 압박 위험 증가",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "삼성SDI",
+        "LG디스플레이",
+        "메모리 반도체 관련 중소형주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbHhzTG1xelJvQV9zZlFFTDhPT2lqU1VCZV9SYjNnTmJEeHdVb2w3YXIteG9idmlubXZBUXlDMVZMdGxjWElkZHEyTjZKbGhlMmM1cldvTkNucF8ycmNjVUJZQWppV3Z2NlI3NURqajZPRGQxTjJkQ0JBR2FFNE5RQlVXem1kX0tjV2Z5MTNPU3M2Z201dkk2MWRuZERYdWtRRlZsYVIyWDVwM2Q4VjJmNg?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-08 21:07:42"
+    },
+    {
+      "id": 8040,
+      "title": "중국 군부가 대만 주변에서 활동하는 가운데 글로벌 반도체 기업 임원들이 대만 테크쇼에 몰려 지정학적 긴장 고조. 한국 반도체 업체들의 대만 공급망 의존도와 지역 리스크 재부각.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-08",
+      "summary": "<p>중국 군부가 대만 주변에서 활동하는 가운데 글로벌 반도체 기업 임원들이 대만 테크쇼에 몰려 지정학적 긴장 고조. 한국 반도체 업체들의 대만 공급망 의존도와 지역 리스크 재부각.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Chinese military hovered as global executives flocked to Taiwan tech show Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "대만-중국 지정학적 긴장은 한국 반도체 기업의 공급망 리스크, 수출 환경 악화, 글로벌 반도체 산업 재편 우려로 이어져 SK하이닉스·삼성전자 등에 중기적 악재 가능성",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRllHUTlfM3g0OERTazg1OFFOTmljeHdmVGgtY0NVQWxlZ3pjdVRUeVgxUHlsZndGbGx2dXQ0WUhxSUI5a1lGaUpZNTlvRkItRGNNQlRtQ0ViZmo5eWdrMjlIMGY4a2puYjloTkJaR01SMEZQSV95WDdEVXE2TE8xRXlySDI1UFNuazBxYkR6eGNoVnBSQjNkSC1ENjZfZnVqdHB5ZDNaTThhaFNWb1RJUjNabjMtQ2RCZ0xHeUlsNA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-08 21:07:05"
     },
     {
       "id": 8029,
@@ -13103,50 +13157,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529800510",
       "direction": "up",
       "updated_at": "2026-05-30 07:35:22"
-    },
-    {
-      "id": 6038,
-      "title": "비트컴퓨터 — 자기주식취득결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260529",
-      "summary": "<p>자사주 매입 마감 — 결과 보고</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식취득결과보고서 · 비트컴퓨터</p>",
-      "feedback": "자사주 매입 마감 — 결과 보고",
-      "stocks": [
-        "비트컴퓨터"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529000601",
-      "direction": "up",
-      "updated_at": "2026-05-30 07:35:21"
-    },
-    {
-      "id": 6037,
-      "title": "금호건설 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260529",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 금호건설</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "금호건설"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529800636",
-      "direction": "up",
-      "updated_at": "2026-05-30 07:35:20"
     }
   ],
   "events": [
