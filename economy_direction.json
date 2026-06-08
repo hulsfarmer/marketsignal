@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T00:05:02",
+  "generated_at": "2026-06-09T00:08:45",
   "count": 500,
   "posts": [
     {
@@ -1856,6 +1856,83 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8067,
+      "title": "반도체 업황 약세('Chip chill'), 고용시장 견조('jobs heat'), 지정학적 긴장('war')이 혼재된 상황. 한국의 SK하이닉스, 삼성전자 등 메모리·파운드리 업체들의 수요 전망과 지정학적 리스크에 직결.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-08",
+      "summary": "<p>반도체 업황 약세('Chip chill'), 고용시장 견조('jobs heat'), 지정학적 긴장('war')이 혼재된 상황. 한국의 SK하이닉스, 삼성전자 등 메모리·파운드리 업체들의 수요 전망과 지정학적 리스크에 직결.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Chip chill, jobs heat and war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "반도체 약세 신호는 한국 메모리 대장주들에 악재지만, 고용 견조와 지정학 리스크는 글로벌 수급 재편 신호로 작용 가능해 의미있는 산업 변화 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSTVmOXBHMnFmQXB2bi0tSEpvZjhTR2lzdXpSanBxTGRvaGNxbVotRnBHT3loRzNOYUVJMnJkMmFOMzl0c1JBWHNJdFZxQmJMOGNPQW5uTHp2R0VIR3NoenZJR1A0UDQ1T29KZXNuY0FzQmwwd1UyN09yYURrVVNTRUNFYl9CSzdWelBnWVZrWTZUYnhUWXE0?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-09 00:07:35"
+    },
+    {
+      "id": 8063,
+      "title": "삼성전자 칩 사업 총괄이 엔비디아 CEO와 차세대 파운드리 기술에 대해 논의했다고 발표. 삼성전자의 파운드리 사업 강화 및 엔비디아와의 협력 가능성을 시사하는 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-08",
+      "summary": "<p>삼성전자 칩 사업 총괄이 엔비디아 CEO와 차세대 파운드리 기술에 대해 논의했다고 발표. 삼성전자의 파운드리 사업 강화 및 엔비디아와의 협력 가능성을 시사하는 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Samsung Elec&#x27;s chip chief says he discussed next-generation foundry with Nvidia CEO Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "삼성전자 파운드리의 핵심 고객인 엔비디아와의 기술 협력 논의는 삼성 반도체 사업의 경쟁력 강화 신호로, 메모리·파운드리 사업 전망 개선 호재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTW5KUjVHcDUyZlFEVFVNWHZDOVdUcDVFdnVDMFAtcDRTMk14MkdGd2dqMzU5Sm13UlNIR3JvbFNOQ3VNUW1POWl0VlQ1Zl9WUDhFS0xaRlFwNWkzdGdRTFJwOFhkWm01Z2Y0T3JsNzhYcmNGZ1Nic215aVdtSzQtQU9yMmN0ZXRjb0lnbHNFV1pzaXY2bC1nVXNqRHQ4MzV1c282blJ4QmlLUnVlX0RDYi16WEwwZTZjdXFmc2hwMG1aUHVjaWpBQzVpSUR2dw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-09 00:07:19"
+    },
+    {
+      "id": 8060,
+      "title": "알파벳이 인텔에 300만 개 자체 설계 칩(AI 칩) 생산을 주문. 구글의 AI 칩 자급화 전략 강화로 NVIDIA 의존도 감소 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-08",
+      "summary": "<p>알파벳이 인텔에 300만 개 자체 설계 칩(AI 칩) 생산을 주문. 구글의 AI 칩 자급화 전략 강화로 NVIDIA 의존도 감소 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Alphabet taps Intel to make three million in-house chips, The Information reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 칩 수급 구도 변화로 HBM·파운드리 수요 재편 가능성 있고, 한국 반도체 업체의 AI 칩 기회·위협 동시 존재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZmR2dkxzTTRVc2F2MzdYOFR2MzVPSXdkWm9NSlBGdkQ1b05uZ3VzRVFzcVEtRXhQZUc4WVhkMmRhcngzNGNWUDBLSGNLSHZoN0U5b1FDd2hKR0t3dTdlak1RMnNVU25UdEx4YnpwbHJTaGo3NndhNVltT3NmaF8wYTFjdTFjTkdDN1VYeUx3akNNUlVzVjAwSWNIVDZidFJ4dXBhVEw2enYyZUxyN0JqV3FKZW91am1EeHc?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-06-09 00:07:07"
     },
     {
       "id": 8049,
@@ -13091,72 +13168,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529800181",
       "direction": "up",
       "updated_at": "2026-05-30 07:35:40"
-    },
-    {
-      "id": 6049,
-      "title": "파두 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260529",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 파두</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "파두"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529900216",
-      "direction": "up",
-      "updated_at": "2026-05-30 07:35:40"
-    },
-    {
-      "id": 6043,
-      "title": "우진비앤지 — 주요사항보고서(무상증자결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260529",
-      "summary": "<p>우진비앤지가 기존주식 5,775,623주(자기주식 제외)에 대해 1주당 0.2주씩 무상증자(총 1,155,124주 신규 발행)를 결정했으며, 주식발행초과금 2,887,810,000원을 재원으로 함. 증자 후 발행주식총수는 6,930,747주로 약 20% 증가할 예정</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(무상증자결정) · 우진비앤지</p>",
-      "feedback": "통상적인 무상증자 결의로 유통주식 공급 확대에 따른 기술적 희석 우려는 있으나, 자본잠식 해소·자본금 건전화 의도로 평가되며 기존주주 지분가치 보존 성격",
-      "stocks": [
-        "우진비앤지"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529000302",
-      "direction": "up",
-      "updated_at": "2026-05-30 07:35:26"
-    },
-    {
-      "id": 6040,
-      "title": "HD현대마린엔진 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260529",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · HD현대마린엔진</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "HD현대마린엔진"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529800510",
-      "direction": "up",
-      "updated_at": "2026-05-30 07:35:22"
     }
   ],
   "events": [
