@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T06:05:02",
+  "generated_at": "2026-06-09T06:08:34",
   "count": 500,
   "posts": [
     {
@@ -1856,6 +1856,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8114,
+      "title": "연방준비제도(Fed)의 금리 인상 기조가 AI 랠리의 강세를 제약할 수 있다는 우려가 제기되고 있습니다. 고금리 환경은 고배당 가치주 선호로 이어져 고성장 기술주 중심의 AI 수혜주 약세를 초래할 수 있습니다. 이는 한국의 반도체·기술주 외국인 자금 유출과 원화 약세(",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-08",
+      "summary": "<p>연방준비제도(Fed)의 금리 인상 기조가 AI 랠리의 강세를 제약할 수 있다는 우려가 제기되고 있습니다. 고금리 환경은 고배당 가치주 선호로 이어져 고성장 기술주 중심의 AI 수혜주 약세를 초래할 수 있습니다. 이는 한국의 반도체·기술주 외국인 자금 유출과 원화 약세(USD/KRW 상승)로 이어질 가능성이 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): The AI rally may have finally met its match - the Fed Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed의 금리 정책이 글로벌 자산배분과 환율에 직접 영향을 미치며, 특히 한국 반도체·기술주의 외국인 수급과 환율 변동성을 촉발하는 의미있는 매크로 신호",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "Kakao",
+        "LG전자"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZFh0ZXR3OW5raVRWQ2pXM2NDUWNoVnh6WFlISWJuM2ExbW9YdjZmWDhwVFBGbzFZaUVldUYtRlJPZnVlMkRuWjdhRFdPVi1HV0NGX3dIcjM5NTE5ZC1PZW10WTdYQTRTWU56czVvVWJ3M2dGZ0tXeHkwVzliV0hFZXY1YTlGTnNWbGNsY2pXZ1dtc3dIbkQ0TnhtaE1ZaDk0S0hRYWZvTkJCOUNQUUZnZkxB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-09 06:07:52"
     },
     {
       "id": 8067,
@@ -13146,28 +13173,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529800152",
       "direction": "up",
       "updated_at": "2026-05-30 07:35:41"
-    },
-    {
-      "id": 6050,
-      "title": "대우건설 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260529",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 대우건설</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "대우건설"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529800181",
-      "direction": "up",
-      "updated_at": "2026-05-30 07:35:40"
     }
   ],
   "events": [
