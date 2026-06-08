@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T15:04:30",
+  "generated_at": "2026-06-08T16:10:18",
   "dates": [
     "2026-06-05",
     "2026-06-04",
@@ -30,18 +30,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 66,
+      "total": 67,
       "correct": 29,
-      "hit_rate": 43.9,
-      "avg_return": 0.11,
-      "avg_return_open": 0.56
+      "hit_rate": 43.3,
+      "avg_return": 0.05,
+      "avg_return_open": 0.51
     },
     "hybrid": {
-      "total": 59,
-      "correct": 27,
-      "hit_rate": 45.8,
-      "avg_return": -0.09,
-      "avg_return_open": 0.43
+      "total": 64,
+      "correct": 30,
+      "hit_rate": 46.9,
+      "avg_return": -0.07,
+      "avg_return_open": 0.51
     }
   },
   "by_date": {
@@ -57,10 +57,10 @@
             "confidence": "LOW",
             "reason": "RSI 34로 과매도 영역에 진입하여 기술적 반등 가능성이 있으며 카카오페이증권 예탁자산 20조 돌파 뉴스는 긍정적 재료입니다. 20일 -9.3% 낙폭은 저가 매수 매력을 제공하며 뉴스가 주가에 충분히 반영되지 않은 상태입니다. 5일 +4.7% 반등이 부담 요인이나 RSI 과매도 구간에서의 추가 하락 제한으로 위험 대비 기대수익이 양호합니다.",
             "entry_price": 42000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 40250.0,
+            "return_pct": -4.17,
+            "return_pct_open": -1.79,
+            "correct": 0
           }
         ]
       },
@@ -75,10 +75,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 92 / earn 0 (RSI 36, 5일 -4.3%)",
             "entry_price": 175800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 179300.0,
+            "return_pct": 1.99,
+            "return_pct_open": 2.16,
+            "correct": 1
           },
           {
             "stock_code": "329180",
@@ -88,10 +88,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 70 / earn 0 (RSI 47, 5일 -7.5%)",
             "entry_price": 651000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 664000.0,
+            "return_pct": 2.0,
+            "return_pct_open": -0.31,
+            "correct": 1
           },
           {
             "stock_code": "068270",
@@ -101,10 +101,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 61 / earn 0 (RSI 41, 5일 -2.5%)",
             "entry_price": 176500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 171400.0,
+            "return_pct": -2.89,
+            "return_pct_open": 1.81,
+            "correct": 0
           },
           {
             "stock_code": "005490",
@@ -114,10 +114,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 57 (RSI 23, 5일 -4.3%)",
             "entry_price": 402000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 390000.0,
+            "return_pct": -2.99,
+            "return_pct_open": -0.12,
+            "correct": 0
           },
           {
             "stock_code": "086790",
@@ -127,10 +127,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 34 / earn 54 (RSI 42, 5일 +4.6%)",
             "entry_price": 120600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 123600.0,
+            "return_pct": 2.49,
+            "return_pct_open": 4.23,
+            "correct": 1
           }
         ]
       },
