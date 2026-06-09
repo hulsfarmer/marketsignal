@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T03:05:02",
+  "generated_at": "2026-06-10T03:08:55",
   "count": 500,
   "posts": [
     {
@@ -1912,6 +1912,32 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8301,
+      "title": "Apollo·Blackstone이 Anthropic의 350억 달러 규모 AI 칩 용량 확대에 투자하며 Broadcom과 새로운 제휴를 체결. 고급 반도체 수요 증가로 HBM, 파운드리 등 한국 공급사의 수혜 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-09",
+      "summary": "<p>Apollo·Blackstone이 Anthropic의 350억 달러 규모 AI 칩 용량 확대에 투자하며 Broadcom과 새로운 제휴를 체결. 고급 반도체 수요 증가로 HBM, 파운드리 등 한국 공급사의 수혜 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Apollo, Blackstone back Anthropic&#x27;s $35 billion capacity expansion in new Broadcom tie-up Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 칩 대규모 수요 확대는 SK하이닉스 HBM, 삼성전자 파운드리/메모리 수요 증가의 긍정 신호이나, Broadcom 중심 공급망 재편으로 한국 반도체 입지 상대적 약화 우려도 병존.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbFA5U1F5QUJxUzRPajhCRFp4RXpLbzlxQWJOdjlqVTdPRnBwMmVTSXNoNTQ1U1JBWmc2NHVTeHlCaXhoRkFwaUVqOXRHNVFHSkE4N2dPNVRrcy0yZnh3M1IwV0hXX0hiaVdRVGpQUzBkNGlIcDZkVTluM2xvakR3aG5VWVpLdmRhTkUxR2NJWDVhWmhEdHVhNTBDc3RYV2V3cDBaVk1HY2FMaDlZTElsbmYtOUs2WjlpR24yRUJCeE4xMkk?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-10 03:07:06"
     },
     {
       "id": 8290,
@@ -13213,28 +13239,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604900170",
       "direction": "up",
       "updated_at": "2026-06-04 10:35:01"
-    },
-    {
-      "id": 6843,
-      "title": "마녀공장 — 주요사항보고서(자기주식취득신탁계약체결결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260602",
-      "summary": "<p>마녀공장이 500억 원 규모의 자기주식 취득 신탁계약을 체결(2026.6.2~12.2). 예상 취득 수량 362,581주(13,790원/주 기준), 현재 보유 자기주식 332,905주 대비 약 109% 증가 규모. 배당가능이익 한도(83.8억 원) 내 진행으로 재무 건전성 문제 없음.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 마녀공장</p>",
-      "feedback": "자기주식 매입은 주주가치 제고 신호이나, 통상적 자본정책 범위 내 규모이고 주가 영향은 신탁 운용 기간 중 점진적 수요 효과에 한정됨.",
-      "stocks": [
-        "마녀공장"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000317",
-      "direction": "up",
-      "updated_at": "2026-06-02 16:35:28"
     }
   ],
   "events": [
