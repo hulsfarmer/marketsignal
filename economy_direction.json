@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T06:05:02",
+  "generated_at": "2026-06-10T06:08:45",
   "count": 500,
   "posts": [
     {
@@ -1912,6 +1912,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8341,
+      "title": "미국 EIA가 유가 인상을 경고하며 석유 재고가 수십 년 만의 최저 수준으로 향하고 있다고 발표. 이는 국제유가 상승을 시사하며 정유·석유화학 기업들의 수익성 악화로 이어질 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-09",
+      "summary": "<p>미국 EIA가 유가 인상을 경고하며 석유 재고가 수십 년 만의 최저 수준으로 향하고 있다고 발표. 이는 국제유가 상승을 시사하며 정유·석유화학 기업들의 수익성 악화로 이어질 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil inventories headed toward multi-decade lows, US EIA warns Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승은 정유·석유화학 기업의 원가 부담 증가로 직결되며, S-Oil·GS·SK이노베이션 등 관련 한국 주요 기업들의 실적에 명확한 부정적 영향 미칠 수 있음",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc08xby1mT09rLVg0ODdFdzJIendQdGlpSkZNamgtcHFGM3c3dWFXbGplUlBmSkNGY2k4SzJOVDZKQlppV1BGMks1YXRESVRpdmkwajZSMnR1UnJmUE9QbHhLQ09BRjFtbkY0cnctdjdYM0FsdHNWYW8wNmpfbnJTLXIwNEEwZ2tuRkRIWklNQ29QTFFORVpMRk1KY3lKX1FQQTRsWUJHbXNpdlM0TW1oR29Ea2Z0NnM?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-10 06:08:07"
     },
     {
       "id": 8301,
@@ -13217,28 +13244,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604900159",
       "direction": "up",
       "updated_at": "2026-06-04 10:35:02"
-    },
-    {
-      "id": 7217,
-      "title": "예스티 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260604",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 예스티</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "예스티"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604900170",
-      "direction": "up",
-      "updated_at": "2026-06-04 10:35:01"
     }
   ],
   "events": [
