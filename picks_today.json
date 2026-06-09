@@ -1,7 +1,44 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "strategy": "hybrid",
-  "generated_at": "2026-06-08T15:04:29",
-  "count": 0,
-  "picks": []
+  "generated_at": "2026-06-09T15:05:05",
+  "count": 4,
+  "picks": [
+    {
+      "stock_code": "010140",
+      "name_kr": "삼성중공업",
+      "ms_score": 60,
+      "ai_score": 97,
+      "confidence": "HIGH",
+      "reason": "[T] tech 98 / earn 0 (RSI 34, 5일 -5.3%)",
+      "entry_price": 26100.0
+    },
+    {
+      "stock_code": "068270",
+      "name_kr": "셀트리온",
+      "ms_score": 60,
+      "ai_score": 95,
+      "confidence": "HIGH",
+      "reason": "[T] tech 96 / earn 0 (RSI 37, 5일 -12.8%)",
+      "entry_price": 159400.0
+    },
+    {
+      "stock_code": "267250",
+      "name_kr": "HD현대",
+      "ms_score": 67,
+      "ai_score": 88,
+      "confidence": "HIGH",
+      "reason": "[T] tech 89 / earn 0 (RSI 40, 5일 -11.7%)",
+      "entry_price": 248000.0
+    },
+    {
+      "stock_code": "086790",
+      "name_kr": "하나금융지주",
+      "ms_score": 62,
+      "ai_score": 86,
+      "confidence": "HIGH",
+      "reason": "[E] tech 32 / earn 87 (RSI 48, 5일 -1.3%)",
+      "entry_price": 112400.0
+    }
+  ]
 }
