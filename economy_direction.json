@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T15:05:02",
+  "generated_at": "2026-06-10T15:08:16",
   "count": 500,
   "posts": [
     {
@@ -1912,6 +1912,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8423,
+      "title": "OpenAI가 Nvidia 지원으로 오하이오 데이터센터 임차를 검토 중. AI 인프라 투자 확대로 고대역폭 메모리(HBM) 및 파운드리 수요 증가 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-10",
+      "summary": "<p>OpenAI가 Nvidia 지원으로 오하이오 데이터센터 임차를 검토 중. AI 인프라 투자 확대로 고대역폭 메모리(HBM) 및 파운드리 수요 증가 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): OpenAI weighs leasing Ohio data center with Nvidia backing, The Information reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 데이터센터 대규모 확장으로 HBM, 고급 반도체 수요 증가 → SK하이닉스·삼성전자 등 한국 반도체 공급망 수혜 기대",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX0cwZnpJbGdWR0xBeU1KYXdYLW1WX2d6VzJUNnVmWEZScTRXWHNYTS1ka1lWWFo2bVNlaklWV2dhMXlVU01mblJRM2o3RlN6d3pwUjdhR0twRmRsaktIM3hpd3FGRGJXbFA2S0VDNE5lbjRrdzhVN0lZLTYyRVUtcHBlNTFNN0lMaFFRbmFpVEpra1NVUFpUMWxvaWcteERoblF6OHN4eldFZDdMUXV6cjJzTUFRZGs4dmx6YWp4SWg1SXM?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-10 15:07:05"
     },
     {
       "id": 8405,
@@ -10730,6 +10757,34 @@
       "updated_at": "2026-05-10 21:08:00"
     },
     {
+      "id": 8431,
+      "title": "미국 11월 무역적자가 34년 만에 최대 규모로 확대되었으며, 이는 달러 강세 지속과 미국 금리 인상 압력으로 이어져 원/달러 환율 상승, 외국인 주식 이탈, 한국 채권 금리 상승을 초래할 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-01-29",
+      "summary": "<p>미국 11월 무역적자가 34년 만에 최대 규모로 확대되었으며, 이는 달러 강세 지속과 미국 금리 인상 압력으로 이어져 원/달러 환율 상승, 외국인 주식 이탈, 한국 채권 금리 상승을 초래할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US trade deficit widens by the most in nearly 34 years in November Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 무역수지 악화는 Fed의 긴축 기조 강화 신호로 작용하여 달러 강세, 원화 약세, 외국인 주식 이탈 등 한국 증시에 직접적 부정적 영향 미침.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG전자",
+        "현대자동차",
+        "포스코",
+        "대한항공"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3F6OTFMazRKdTI4TGt4ajh4SEx3RXlObXJBTW9VeUdodlc1Y1RxQm1XV1lvNnNwQ3BISE5QZVQzQW00dnV6aW1LTUdEeUhVMVFqd0VYLTAwMTluZk04MUdvWGlscy1fSVdVdmVyb01XRTZRMU9EanlnRXF3UTlkWjhzSjJNNUdDT2FYRi1oWG5uOW9FN2VHeFNzVXNLVmhRUXJR?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-10 15:07:35"
+    },
+    {
       "id": 3045,
       "title": "글로벌 주요 증권사들이 2026년 연방준비제도(Fed)의 금리 정책 방향을 놓고 의견이 크게 엇갈리고 있습니다. 이는 USD/KRW 환율 변동성 확대, 외국인의 한국 주식 수급 불확실성, 그리고 한국 채권 금리 변동성 확대로 이어질 가능성이 높습니다.",
       "category": "거시",
@@ -13212,50 +13267,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000279",
       "direction": "neutral",
       "updated_at": "2026-06-05 14:35:04"
-    },
-    {
-      "id": 7492,
-      "title": "베노티앤알 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260605",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 베노티앤알</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "베노티앤알"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605900419",
-      "direction": "up",
-      "updated_at": "2026-06-05 14:35:03"
-    },
-    {
-      "id": 7469,
-      "title": "테스 — 단일판매ㆍ공급계약체결(자율공시)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260605",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결(자율공시)               · 테스</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "테스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605900283",
-      "direction": "up",
-      "updated_at": "2026-06-05 11:35:07"
     }
   ],
   "events": [
