@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-06-09T16:10:26",
+  "generated_at": "2026-06-10T15:05:18",
   "dates": [
+    "2026-06-10",
     "2026-06-09",
     "2026-06-05",
     "2026-06-04",
@@ -46,6 +47,113 @@
     }
   },
   "by_date": {
+    "2026-06-10": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "329180",
+            "name_kr": "HD현대중공업",
+            "ms_score": 67,
+            "ai_score": 68,
+            "confidence": "MEDIUM",
+            "reason": "과거 성공 사례(+2.00%)와 동일한 기술적_반등 패턴(RSI 47~52 구간, 5일 낙폭 후 반등)이 재현되는 구간입니다. 키움증권의 올해 수주목표 초과 달성 전망이라는 긍정 뉴스가 있으며, 5일 -9.1% 낙폭으로 과도한 조정 후 기술적 반등 가능성이 높습니다. RSI 52로 과매수 부담 없이 반등 조건을 충족합니다.",
+            "entry_price": 612000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005490",
+            "name_kr": "POSCO홀딩스",
+            "ms_score": 62,
+            "ai_score": 62,
+            "confidence": "LOW",
+            "reason": "RSI 26의 극초과매도 구간으로 기술적_반등 패턴의 핵심 조건에 해당하며, 한화증권 목표가 상향과 1분기 실적 상회라는 긍정 뉴스가 존재합니다. 다만 과거 실패 사례(-2.99%)가 있어 신중히 접근하되, RSI 36 수준의 KT&G가 +1.99% 성공한 선례처럼 극과매도 구간의 반등 가능성에 베팅합니다.",
+            "entry_price": 364500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 67,
+            "ai_score": 96,
+            "confidence": "HIGH",
+            "reason": "[T] tech 96 / earn 0 (RSI 36, 5일 -6.7%)",
+            "entry_price": 25850.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "034020",
+            "name_kr": "두산에너빌리티",
+            "ms_score": 60,
+            "ai_score": 95,
+            "confidence": "HIGH",
+            "reason": "[T] tech 96 / earn 0 (RSI 37, 5일 -7.7%)",
+            "entry_price": 92300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "009540",
+            "name_kr": "HD한국조선해양",
+            "ms_score": 67,
+            "ai_score": 93,
+            "confidence": "HIGH",
+            "reason": "[T] tech 93 / earn 0 (RSI 38, 5일 -5.5%)",
+            "entry_price": 362500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 62,
+            "ai_score": 82,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 83 (RSI 54, 5일 +1.7%)",
+            "entry_price": 119000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "010950",
+            "name_kr": "S-Oil",
+            "ms_score": 62,
+            "ai_score": 76,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 0 / earn 76 (RSI 51, 5일 +2.4%)",
+            "entry_price": 110900.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-06-09": {
       "ai": {
         "count": 2,
