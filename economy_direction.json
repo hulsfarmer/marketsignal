@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T15:08:16",
+  "generated_at": "2026-06-10T15:35:22",
   "count": 500,
   "posts": [
     {
@@ -11839,6 +11839,28 @@
       "updated_at": "2026-05-10 15:08:28"
     },
     {
+      "id": 8445,
+      "title": "웹젠 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260610",
+      "summary": "<p>웹젠이 110만 주(발행주식 3.56% 규모) 약 109억 원 규모의 자기주식 취득을 결정했으며, 배당가능이익 610억 원 범위 내에서 2026년 6월~9월 중 코스닥 장내 직접 매입할 예정. 기존 보유 자기주식 189만 주에 추가로 적립하여 주가안정 및 주주가치 제고를 목표로 함.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 웹젠</p>",
+      "feedback": "자사주 매입 결정은 기술적 호재이나, 취득 규모가 발행주식의 3.56%로 중규모 수준이고 배당가능이익 범위 내 통상적 운용에 해당하여 제한적 영향",
+      "stocks": [
+        "웹젠"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000289",
+      "direction": "up",
+      "updated_at": "2026-06-10 15:35:14"
+    },
+    {
       "id": 8421,
       "title": "뉴로핏 — 단일판매ㆍ공급계약체결              ",
       "category": "주식",
@@ -13244,28 +13266,6 @@
       "source_type": "disclosure",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605800422",
       "direction": "up",
-      "updated_at": "2026-06-05 14:35:04"
-    },
-    {
-      "id": 7493,
-      "title": "코스메카코리아 — 주요사항보고서(유형자산양수결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260605",
-      "summary": "<p>자산 양수</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(유형자산양수결정) · 코스메카코리아</p>",
-      "feedback": "자산 양수",
-      "stocks": [
-        "코스메카코리아"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000279",
-      "direction": "neutral",
       "updated_at": "2026-06-05 14:35:04"
     }
   ],
