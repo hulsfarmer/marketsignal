@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T18:05:02",
+  "generated_at": "2026-06-10T18:08:58",
   "count": 500,
   "posts": [
     {
@@ -1934,6 +1934,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8485,
+      "title": "미국 5월 휘발유 가격 상승으로 소비자물가지수(CPI) 재상승 가능성. 이는 Fed의 금리 인하 시기 지연을 의미하며, USD/KRW 환율 상승과 한국 수출주 부진으로 이어질 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-10",
+      "summary": "<p>미국 5월 휘발유 가격 상승으로 소비자물가지수(CPI) 재상승 가능성. 이는 Fed의 금리 인하 시기 지연을 의미하며, USD/KRW 환율 상승과 한국 수출주 부진으로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Higher gasoline prices likely pushed up US consumer inflation again in May Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 인플레이션 재점화 우려는 Fed 기준금리 정상화 시기를 연장시켜 달러 강세, 원화 약세, 해외 수익 한국 기업의 실적 악화 압력으로 작용",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "SK이노베이션",
+        "포스코인터내셔널"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON0xPY1FVc0ZVQm42RFZIOFlScjlMdWljWVRWRHdDWXVNUldzX1BUbnozelpnYVlhRXlYT0M2VXFXUGdLdS1Zb2tZekY3VWhVTDlqaFVkVGFhWjgxdUdDQUxMUEp6ajJlREpMOXFrNXVTYmwwU1BPdkJCRF84UXJITnl6QTlRajNNQ3VZSDBnazBCazRCNUdIX0tPNHJnTElBY0dKNDFwbEVfajBBZjA4RkNGbVhMczludjZWSWJwUnBvSVczVlE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-10 18:07:56"
     },
     {
       "id": 8423,
@@ -13245,28 +13273,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605800533",
       "direction": "up",
       "updated_at": "2026-06-05 15:35:06"
-    },
-    {
-      "id": 7500,
-      "title": "신흥 — 주요사항보고서(자기주식취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260605",
-      "summary": "<p>신흥이 주주가치 제고를 위해 2026년 6월~9월 중 100,000주(발행주식의 약 1.06%)를 최대 135.7억 원 규모로 자기주식 취득하기로 결정. 배당가능이익 한도 94.0억 원 대비 약 144% 수준으로 충분한 자본여력 내에서 추진되며, 기존 자기주식 137,489주(1.46%)를 추가로 보유할 예정.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 신흥</p>",
-      "feedback": "자기주식 취득은 기술적 주가 부양 신호이나, 규모가 발행주식의 1% 수준으로 제한적이고 소각 계획 미표기로 실질적 가치 창출 불명확",
-      "stocks": [
-        "신흥"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000222",
-      "direction": "up",
-      "updated_at": "2026-06-05 14:35:14"
     }
   ],
   "events": [
