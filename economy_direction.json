@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T12:05:02",
+  "generated_at": "2026-06-11T12:08:28",
   "count": 500,
   "posts": [
     {
@@ -1988,6 +1988,62 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8640,
+      "title": "미국의 이란 공습으로 유가 상승하면서 기술주 낙세와 함께 글로벌 주식이 후퇴했음. 유가 상승은 한국의 에너지 수입 비용 증가로 이어질 수 있으며, 기술주 약세는 한국 반도체·IT 기업의 외국인 수급 악화 우려로 작용.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-11",
+      "summary": "<p>미국의 이란 공습으로 유가 상승하면서 기술주 낙세와 함께 글로벌 주식이 후퇴했음. 유가 상승은 한국의 에너지 수입 비용 증가로 이어질 수 있으며, 기술주 약세는 한국 반도체·IT 기업의 외국인 수급 악화 우려로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Shares retreat as techs extend losses, US strikes on Iran lift oil Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "유가 급등 + 기술주 동반 약세로 한국 증시의 외국인 자금 이탈 압력 + USD/KRW 강세 가능성 높음",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "LG화학",
+        "S-Oil",
+        "GS에너지"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iNlU3bUZXWVJpaVhJRXMwVG1LcUMyUmE1UWFvWTVlQnhqODM1bUZsM2txQmJZRzI4NUNYVlJFRVBkcnVpZHVLQnZaRDhGOV9xVTVnSU5PdEhfdVZJVm40ZU9SaExNWTFvMGZWWEI2dU1wTEwtTEZoVGxkTQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-11 12:07:46"
+    },
+    {
+      "id": 8631,
+      "title": "중국이 AI 데이터센터용 인듐 포스파이드(InP) 수출을 통제하면서 글로벌 AI 인프라 확대가 위협받고 있음. 한국 반도체 기업들의 HBM, 메모리 수출 경쟁력에 간접 영향.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-11",
+      "summary": "<p>중국이 AI 데이터센터용 인듐 포스파이드(InP) 수출을 통제하면서 글로벌 AI 인프라 확대가 위협받고 있음. 한국 반도체 기업들의 HBM, 메모리 수출 경쟁력에 간접 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Focus: China&#x27;s control over indium phosphide exports threatens AI data centre rollout Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 데이터센터 공급망 교란은 SK하이닉스·삼성전자의 HBM/메모리 수요 둔화 리스크로 작용하며, 한국 반도체 수출 전망에 중장기 부정적 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOXBrMUJic3lqQjF0SkRUdmE0dkNGU2E2ZWJvVlZnRmF5UFNtUzVKN2E1b0FwbG5BTU8teVJjYnEwLTFFZ09lZHhHVFJTYU9lSWI5WF9XLUp2cmY4U21kZ1RMa3FrR3JkQ2VSZXZtWEl5ZlJBZWtKaHBhUG1Uc0ZmZEFpZXNZQW52RWhUN0hVME9SZEMxcGxKMlRINlZnekJRWkZOaXlVSVk2bWE0ZGgwY19DdHM3WVBicEVvR3VSUTZjaEE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-11 12:07:08"
     },
     {
       "id": 8575,
@@ -13279,50 +13335,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608900413",
       "direction": "up",
       "updated_at": "2026-06-08 11:35:02"
-    },
-    {
-      "id": 7937,
-      "title": "동원개발 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260608",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 동원개발</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "동원개발"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608900412",
-      "direction": "up",
-      "updated_at": "2026-06-08 11:35:02"
-    },
-    {
-      "id": 7935,
-      "title": "에이텍모빌리티 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260608",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 에이텍모빌리티</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "에이텍모빌리티"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608900257",
-      "direction": "up",
-      "updated_at": "2026-06-08 10:35:02"
     }
   ],
   "events": [
