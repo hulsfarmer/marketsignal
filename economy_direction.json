@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-06-12T00:05:02",
+  "generated_at": "2026-06-12T00:08:36",
   "count": 500,
   "posts": [
+    {
+      "id": 8767,
+      "title": "이란이 미국 공격 이후 호르무즈 해협 폐쇄를 선언했으며, 이는 전 세계 석유 공급의 약 30%가 지나가는 전략적 해로의 차단으로 유가 급등을 초래할 수 있다. 한국은 중동 석유 수입 의존도가 높아 에너지 비용 상승 부담이 직접적이다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-10",
+      "summary": "<p>이란이 미국 공격 이후 호르무즈 해협 폐쇄를 선언했으며, 이는 전 세계 석유 공급의 약 30%가 지나가는 전략적 해로의 차단으로 유가 급등을 초래할 수 있다. 한국은 중동 석유 수입 의존도가 높아 에너지 비용 상승 부담이 직접적이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran announces closure of Strait of Hormuz after US attacks Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협 폐쇄는 글로벌 석유 공급 위기 수준의 공급망 충격이며, 한국의 에너지 수입 의존도가 극도로 높아 정유·화학 산업의 원가 급증 및 경영 악화를 초래할 구조적 악재",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 9,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmpTVDJ1X0ZfVjgxckExb2VxOTN2QXFJam16RVhPSE9ZSFozY2ZIYU1MckpJRHI1ZDlVclNYUjM0TWh0Z3NWY1NmVUZPejFDV3ZYTjVwa1BmcF93TzJhQk9MOW5rTWsxMktNWGtBVUhiZUgtcWliUklDdGV5anJFSFVCSU1weTJ3UWliN0JfRjJraEh4VlZjaGJ2d2FWMEJzTTdFWk95YzVZaTQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-12 00:08:02"
+    },
     {
       "id": 8026,
       "title": "연방준비제도(Fed) 금리 인상 우려로 글로벌 기술주가 급락하면서 한국 KOSPI가 8% 이상 하락했다. 미국 금리 인상은 USD/KRW 환율 상승과 외국인 자본 이탈을 초래해 한국 증시에 직접적인 악영향을 미친다.",
@@ -2015,6 +2042,61 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8768,
+      "title": "세계은행이 글로벌 경제성장률 전망을 2.5%로 하향 조정했으며, 전쟁 여파가 금융시장으로 확대될 경우 1.3%까지 급락할 수 있다고 경고했습니다. 이는 유가 및 원자재 가격 변동성 확대로 한국의 에너지·화학 기업들에 부정적 영향을 줄 수 있습니다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-11",
+      "summary": "<p>세계은행이 글로벌 경제성장률 전망을 2.5%로 하향 조정했으며, 전쟁 여파가 금융시장으로 확대될 경우 1.3%까지 급락할 수 있다고 경고했습니다. 이는 유가 및 원자재 가격 변동성 확대로 한국의 에너지·화학 기업들에 부정적 영향을 줄 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): World Bank cuts global growth outlook to 2.5%, warns of drop to 1.3% if war fallout spreads to markets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "글로벌 경제성장 둔화 전망과 지정학적 리스크 심화는 유가·원자재 수급 불안정을 초래하여 에너지·화학주의 수익성 악화 우려를 높입니다.",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXJMaXlUUXFZTmlXTUpicEs1RjdDaW81LW94d1dHZldGMEJWWmF2YjVRNTY1SFJucGQ1T2RLQ1kxQWpUN3F1bC1SajZQamVzUVUxQjBhOTNwYkhoZ19oMlBhVE02TzZCbFNjN0dCcktybEVVNDNYUGx5Tkd1WHZPVWNCSW9kaVZUZTNrWmk3ZWRuN01KLV9uSGM2MjVVWTJHUjRkdWFjUDh2NEhaeEVEMGtCa3BnWDFaTFRZeWJzbnFVdmM?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-12 00:08:07"
+    },
+    {
+      "id": 8765,
+      "title": "미국 5월 생산자물가지수(PPI)가 예상을 상회하며 상승했으며, 에너지 가격 급등이 주요 요인. 인플레이션 우려 확대로 Fed의 금리 인상 가능성 부각 → 달러 강세 및 한국 수출기업 수익성 악화 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-11",
+      "summary": "<p>미국 5월 생산자물가지수(PPI)가 예상을 상회하며 상승했으며, 에너지 가격 급등이 주요 요인. 인플레이션 우려 확대로 Fed의 금리 인상 가능성 부각 → 달러 강세 및 한국 수출기업 수익성 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US producer prices increase more than expected in May amid jump in energy costs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 긴축 기조 강화 신호는 USD/KRW 상승, 외국인 증시 이탈, 채권 금리 상승을 초래하여 한국 수출주·경기민감주에 단기 악영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대자동차",
+        "LG화학",
+        "한국조선해양",
+        "포스코"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTVIQ0lPVDVsWHMxbEdTR0xKMWZDTFhYbjh3VTlEblpieUJZVXpWQTBGOWozZGRwNGE4VmwwSWNLUEN5dVR3Uk5PcmpPcDlpN1pRU2JCS2dNZTFua1daRGdFeHBBUUlvWUI0aFZ5S3JYb2h5aGFOTFFPdF8zY05RRE9fbHFPZXZ1Z2lGMnZ1TUJSSTdYTE5nTlN4Q2RPS0U5cFpjUWpmRVRBU18wZDhjZFJQUzloSUVMNXprZ2wwUGt2Mkk?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-12 00:07:53"
     },
     {
       "id": 8745,
@@ -13290,72 +13372,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609900201",
       "direction": "up",
       "updated_at": "2026-06-09 10:35:08"
-    },
-    {
-      "id": 8146,
-      "title": "쎄크 — 단일판매ㆍ공급계약체결(자율공시)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260609",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결(자율공시)               · 쎄크</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "쎄크"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609900219",
-      "direction": "up",
-      "updated_at": "2026-06-09 10:35:08"
-    },
-    {
-      "id": 8039,
-      "title": "플레이그램 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260608",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 플레이그램</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "플레이그램"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608801027",
-      "direction": "up",
-      "updated_at": "2026-06-08 18:35:05"
-    },
-    {
-      "id": 8038,
-      "title": "팸텍 — 단일판매ㆍ공급계약체결(자율공시)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260608",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결(자율공시)               · 팸텍</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "팸텍"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608901034",
-      "direction": "up",
-      "updated_at": "2026-06-08 18:35:04"
     }
   ],
   "events": [
