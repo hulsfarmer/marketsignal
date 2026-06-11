@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T09:05:11",
+  "generated_at": "2026-06-11T09:08:37",
   "count": 500,
   "posts": [
     {
@@ -227,6 +227,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 8606,
+      "title": "트럼프 대통령이 이란에 대한 강경한 군사 행동을 예고하고 호르무즈 해협을 통한 석유 공급 장악을 언급했으며, 이는 글로벌 유가 급등과 한국의 에너지·화학 업종에 악영향을 미칠 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-10",
+      "summary": "<p>트럼프 대통령이 이란에 대한 강경한 군사 행동을 예고하고 호르무즈 해협을 통한 석유 공급 장악을 언급했으며, 이는 글로벌 유가 급등과 한국의 에너지·화학 업종에 악영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump says US will attack Iran &#x27;very hard&#x27; and has taken oil through Hormuz Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협 지정학적 위기 심화 → 유가 급등 가능성 → 에너지·석화 수입국 한국의 원가 부담 증대 및 수익성 악화",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUdOeWRybkJaaDV4dzVCMFdsOUJSSHhBaHliNV9WajdMUXgxTGx2QldYLXF3akJSSW5meGpzcW53QnFqOWpKQVpkci1aTUY4WEtkYlFGNHk3b3B0ci0zSjYzOENmd2xzcEFzUVBFbi04dk5QdTF3dWRPTGVJemJ3cmprRURzeFQ2T1YtejUxUVFMMXBKWTJjU1ZXcDAxTEZPTnp0OTJ3?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-11 09:08:14"
     },
     {
       "id": 8564,
@@ -13296,28 +13323,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800044",
       "direction": "up",
       "updated_at": "2026-06-08 08:35:01"
-    },
-    {
-      "id": 7578,
-      "title": "코스메카코리아 — [첨부정정]주요사항보고서(유형자산양수결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260605",
-      "summary": "<p>자산 양수</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(유형자산양수결정) · 코스메카코리아</p>",
-      "feedback": "자산 양수",
-      "stocks": [
-        "코스메카코리아"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000640",
-      "direction": "neutral",
-      "updated_at": "2026-06-05 18:35:11"
     }
   ],
   "events": [
