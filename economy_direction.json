@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T00:05:02",
+  "generated_at": "2026-06-13T00:08:42",
   "count": 500,
   "posts": [
     {
@@ -2064,6 +2064,61 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8996,
+      "title": "새로운 연방준비제도 의장 체제에서 금리 정책의 불확실성이 증대되면서 미국 주가지수 변동성이 커질 전망. 이는 USD/KRW 환율 변동성 확대와 외국인의 한국 주식 수급 변화로 이어질 가능성이 높음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-12",
+      "summary": "<p>새로운 연방준비제도 의장 체제에서 금리 정책의 불확실성이 증대되면서 미국 주가지수 변동성이 커질 전망. 이는 USD/KRW 환율 변동성 확대와 외국인의 한국 주식 수급 변화로 이어질 가능성이 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Wall St Week Ahead- Newly led Fed poses markets wildcard for rockier US indexes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 정책 불확실성은 달러화 강세/약세, 외국인 자금 흐름, 채권 금리에 직결되어 KOSPI와 한국 수출기업의 수익성에 영향을 미치는 의미있는 매크로 요인",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "삼성SDI",
+        "NAVER",
+        "카카오"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0hPaE5BT1VkR0h3QzkydWFxU3Jvd3R1RVRzcEl3SjBPTmctMFNQZXpFVE1CX0pjM184MHRIMGVsMkUxWHgtdWU5Q1luQVhHY0R4ejhpMHV5cW1qeFhzTDZyUi10ajE1QkRleE8taVRhcHNBVUR0MkxXZlhPVXBibzYyUVFqUUNtdWFwV3FpTm5GNFI5cUw3dEl5Y3U5bWR5TkprQVJHUnVGV0tjQXZBV1hmSDF5U2dwX2V2TGdpWXAwSS1KX2c?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-06-13 00:07:54"
+    },
+    {
+      "id": 8985,
+      "title": "SK하이닉스가 미국 상장을 위해 나스닥 선택을 추진 중. 한국 반도체 기업의 글로벌 자금 조달 강화로 HBM 등 첨단 제품 경쟁력 강화 기대.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-12",
+      "summary": "<p>SK하이닉스가 미국 상장을 위해 나스닥 선택을 추진 중. 한국 반도체 기업의 글로벌 자금 조달 강화로 HBM 등 첨단 제품 경쟁력 강화 기대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Exclusive: South Korea&#x27;s SK Hynix to opt for Nasdaq for planned US listing, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "SK하이닉스의 미국 직상장은 한국 반도체 산업의 글로벌 입지 강화와 자금 조달 확대를 의미하며, 경쟁사 삼성전자에도 간접적 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMkU2V1FrUkRUM0E4UkVxVjlWYjVNbU1kYzI4SkJoTkxtWDZWVm10WVpsMkFGYWhIVE9FWmxnRmxOcHZaeTBpeERFOHNyVzRjc1RTVWpKT3lLRV9NYU5IVzJUNGx6LXpmczFPUHdzOVVaMDU2RXlCeDNMSkpmQkd3Q3BibXV3ZFlmQmtJOEZDN2xtYU9TWEJ6YXZzVUYxR3B5N3ptVW5Tc0xVQ21wX3l4MS05NjBVc25xZUdrVWQ5UnhVdw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-13 00:07:12"
     },
     {
       "id": 8962,
@@ -13379,50 +13434,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000207",
       "direction": "up",
       "updated_at": "2026-06-10 13:35:08"
-    },
-    {
-      "id": 8383,
-      "title": "서울평가정보 — 주요사항보고서(자기주식취득신탁계약체결결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260610",
-      "summary": "<p>서울평가정보가 120억 원 규모로 764,331주(주당 1,570원)의 자기주식을 12개월간 취득하기로 결정. 순자산 325억 원 대비 3.7% 규모의 자사주 매입으로, 취득 후 소각 예정으로 주주가치 제고 목적.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 서울평가정보</p>",
-      "feedback": "자사주 매입 결정은 통상 호재이나, 규모가 순자산 대비 3.7%에 불과하고 소각까지 12개월 소요로 즉각적 효과 제한적.",
-      "stocks": [
-        "서울평가정보"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000076",
-      "direction": "up",
-      "updated_at": "2026-06-10 11:35:11"
-    },
-    {
-      "id": 8381,
-      "title": "프레스티지바이오로직스 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260610",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 프레스티지바이오로직스</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "프레스티지바이오로직스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610900230",
-      "direction": "up",
-      "updated_at": "2026-06-10 11:35:04"
     }
   ],
   "events": [
