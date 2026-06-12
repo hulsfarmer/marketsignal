@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T18:05:01",
+  "generated_at": "2026-06-12T18:08:40",
   "count": 500,
   "posts": [
     {
@@ -2064,6 +2064,31 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 8930,
+      "title": "TSMC 회장이 대만의 인재 부족과 물 부족 문제를 우려. 글로벌 파운드리 공급망 리스크 대두로 SK하이닉스·삼성전자의 파운드리/HBM 수요 증대 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-12",
+      "summary": "<p>TSMC 회장이 대만의 인재 부족과 물 부족 문제를 우려. 글로벌 파운드리 공급망 리스크 대두로 SK하이닉스·삼성전자의 파운드리/HBM 수요 증대 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): TSMC boss frets about shortages of talent, water in Taiwan Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "TSMC의 생산 제약 우려는 한국 반도체 기업들의 파운드리·메모리 수요 증가로 이어질 수 있는 공급망 변화 신호",
+      "stocks": [
+        "삼성전자",
+        "SK하이nicholas"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbHFpTkI0bFF1ZHF0Q1kxR3VHYXlySG1BTkJFMEdfNkRZb011eFhuLWhCRlI0aGpoNmNmTDd6M29wYnY0cFhVcWJNRk9LOE8zbGsybm1tV29Qb3pGZFFVRVhQMEs5b3ZSN2pKekg1ZDBPUl9JOFRjeEg5WGdsTTR1Tk5oYW9VNlJGN21LV2V6Z01CME41NVpQNVRWS0RRTkIzNGRNeERLRUF1UQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-12 18:07:11"
     },
     {
       "id": 8862,
@@ -13385,28 +13410,6 @@
       "impact_score": 6,
       "source_type": "disclosure",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610800152",
-      "direction": "up",
-      "updated_at": "2026-06-10 10:35:04"
-    },
-    {
-      "id": 8376,
-      "title": "유디엠텍 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260610",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 유디엠텍</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "유디엠텍"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610900166",
       "direction": "up",
       "updated_at": "2026-06-10 10:35:04"
     }
