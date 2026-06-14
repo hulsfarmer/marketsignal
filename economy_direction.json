@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T23:40:01",
+  "generated_at": "2026-06-15T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13918,6 +13918,30 @@
       "event_type": "신주 효력발생",
       "title": "미래산업 — 주식분할결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800375"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "코미코",
+      "event_date": "2026-07-15",
+      "event_type": "임시주주총회",
+      "title": "코미코 — 주식분할결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512900988"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "휴온스",
+      "event_date": "2026-07-15",
+      "event_type": "합병반대의사통지 접수 종료",
+      "title": "휴온스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000408"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "폰드그룹",
+      "event_date": "2026-07-15",
+      "event_type": "배당금지급예정일",
+      "title": "폰드그룹 — 현금ㆍ현물배당결정              (분기배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612900525"
     }
   ]
 }
