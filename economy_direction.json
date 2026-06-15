@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T11:05:31",
+  "generated_at": "2026-06-15T11:35:03",
   "count": 500,
   "posts": [
     {
@@ -12813,6 +12813,28 @@
       "updated_at": "2026-05-10 15:08:28"
     },
     {
+      "id": 9251,
+      "title": "스피어 — 단일판매ㆍ공급계약체결              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260615",
+      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 스피어</p>",
+      "feedback": "수주 — 본문 규모 확인",
+      "stocks": [
+        "스피어"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900219",
+      "direction": "up",
+      "updated_at": "2026-06-15 11:35:02"
+    },
+    {
       "id": 9241,
       "title": "쓰리빌리언 — 단일판매ㆍ공급계약체결(자율공시)              ",
       "category": "주식",
@@ -13427,28 +13449,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610900825",
       "direction": "up",
       "updated_at": "2026-06-10 17:35:12"
-    },
-    {
-      "id": 8462,
-      "title": "시선AI — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260610",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 시선AI</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "시선AI"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610900913",
-      "direction": "up",
-      "updated_at": "2026-06-10 17:35:10"
     }
   ],
   "events": [
