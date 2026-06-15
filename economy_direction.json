@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T21:05:02",
+  "generated_at": "2026-06-15T21:08:39",
   "count": 500,
   "posts": [
     {
@@ -2086,6 +2086,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 9381,
+      "title": "호르무즈 해협의 기뢰 제거 작업이 수주 소요될 전망으로, 중동 유류 공급 차질 우려가 고조되고 있다. 한국의 주요 에너지·화학 기업들의 유가 상승 영향도 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-15",
+      "summary": "<p>호르무즈 해협의 기뢰 제거 작업이 수주 소요될 전망으로, 중동 유류 공급 차질 우려가 고조되고 있다. 한국의 주요 에너지·화학 기업들의 유가 상승 영향도 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Scouring the Strait of Hormuz for mines could take weeks Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협 기뢰 위협은 글로벌 유가 변동성을 높이는 주요 공급망 리스크로, 한국 정유·화학사의 원유 수급 및 수익성에 직결된 의미있는 악재.",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUjZWMjhsRk5kcFhHYzNzcGd0aklxYUJjcE55WGN5cVpKbVNvQW5POEVGdVNBQzVQcG5jOEVfc3JBQ2J2eUs3dUI2VWgzOU9WSzZ2ZmlQOC13dzJFdU13X0lyNkZtWUxwMmUxLWtDbm00LVlNMXc1NUZRXzFKZkpMeU5zTEdSem9lQWw5VVhRTFJRckduU096UFpYazNqZlBj?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-15 21:08:15"
     },
     {
       "id": 9273,
@@ -13437,28 +13464,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612900559",
       "direction": "up",
       "updated_at": "2026-06-12 15:35:11"
-    },
-    {
-      "id": 8900,
-      "title": "KCC건설 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260612",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · KCC건설</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "KCC건설"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612900603",
-      "direction": "up",
-      "updated_at": "2026-06-12 15:35:07"
     }
   ],
   "events": [
