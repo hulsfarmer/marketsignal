@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T15:05:58",
+  "generated_at": "2026-06-15T16:10:50",
   "dates": [
     "2026-06-15",
     "2026-06-12",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 73,
-      "correct": 31,
-      "hit_rate": 42.5,
-      "avg_return": 0.13,
-      "avg_return_open": 0.57
+      "total": 76,
+      "correct": 34,
+      "hit_rate": 44.7,
+      "avg_return": 0.24,
+      "avg_return_open": 0.75
     },
     "hybrid": {
-      "total": 77,
-      "correct": 34,
-      "hit_rate": 44.2,
-      "avg_return": 0.02,
-      "avg_return_open": 0.51
+      "total": 82,
+      "correct": 38,
+      "hit_rate": 46.3,
+      "avg_return": 0.18,
+      "avg_return_open": 0.68
     }
   },
   "by_date": {
@@ -155,10 +155,10 @@
             "confidence": "HIGH",
             "reason": "자사주 5000억원 취득·소각, 국민연금 9%대 진입, 기관·외국인 쌍끌이 매수로 수급_개선 패턴(100% 성공률) 해당. RSI 52로 건전한 중립 구간이며 5일 -9.9% 낙폭 후 회복 초기 단계로 기술적_반등 조건도 충족. 과거 신한지주 수급_개선 패턴이 +4.22% 성공 사례로 기록된 동일 패턴.",
             "entry_price": 96900.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 99600.0,
+            "return_pct": 2.79,
+            "return_pct_open": 2.58,
+            "correct": 1
           },
           {
             "stock_code": "329180",
@@ -168,10 +168,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 45로 기술적_반등 패턴 구간(100% 성공률)에 해당하며 조선·원전 복합 모멘텀 진행 중. 5일 -2.7% 소폭 조정으로 한화오션 대비 상대적 언더퍼폼 상태에서 갭 메우기 가능성 존재. 2026-06-10 동일 종목 RSI 47~52 구간 기술적_반등 패턴으로 +4.74% 성공 사례가 있으나, 호재_선반영 리스크를 감안해 비중 조절 필요.",
             "entry_price": 646000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 650000.0,
+            "return_pct": 0.62,
+            "return_pct_open": 3.25,
+            "correct": 1
           },
           {
             "stock_code": "005490",
@@ -181,10 +181,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 14로 극도의 과매도 상태이며 5일 -8.2%, 20일 -25.2% 급락 후 기술적 반등 조건 충족. 한화증권 목표가 상향 및 1분기 실적 기대치 상회 호재가 아직 가격에 덜 반영된 상태. 다만 RSI가 30 이하로 낮아 추가 하락 리스크도 존재하므로 RSI_과열 실패 패턴을 역으로 활용하는 극단적 과매도 반등 전략으로 접근.",
             "entry_price": 358000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 377000.0,
+            "return_pct": 5.31,
+            "return_pct_open": 5.45,
+            "correct": 1
           }
         ]
       },
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 46 / earn 93 (RSI 31, 5일 -0.7%)",
             "entry_price": 58100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 59400.0,
+            "return_pct": 2.24,
+            "return_pct_open": 3.44,
+            "correct": 1
           },
           {
             "stock_code": "010140",
@@ -212,10 +212,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 91 / earn 0 (RSI 31, 5일 -8.8%)",
             "entry_price": 25300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 26900.0,
+            "return_pct": 6.32,
+            "return_pct_open": 4.55,
+            "correct": 1
           },
           {
             "stock_code": "267250",
@@ -225,10 +225,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 89 / earn 0 (RSI 31, 5일 -9.6%)",
             "entry_price": 245500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 244000.0,
+            "return_pct": -0.61,
+            "return_pct_open": 2.85,
+            "correct": 0
           },
           {
             "stock_code": "068270",
@@ -238,10 +238,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 74 / earn 70 (RSI 38, 5일 -3.0%)",
             "entry_price": 166200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 173000.0,
+            "return_pct": 4.09,
+            "return_pct_open": 2.89,
+            "correct": 1
           },
           {
             "stock_code": "180640",
@@ -251,10 +251,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 70 (RSI 51, 5일 +3.0%)",
             "entry_price": 118400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 119900.0,
+            "return_pct": 1.27,
+            "return_pct_open": 2.87,
+            "correct": 1
           }
         ]
       },
