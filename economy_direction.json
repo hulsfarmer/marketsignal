@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T23:40:02",
+  "generated_at": "2026-06-17T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13498,30 +13498,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "휴온스글로벌",
-      "event_date": "2026-06-16",
-      "event_type": "배당금지급예정일",
-      "title": "휴온스글로벌 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512900815"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "HD현대",
-      "event_date": "2026-06-16",
-      "event_type": "배당금지급예정일",
-      "title": "HD현대 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513800524"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "모니터랩",
-      "event_date": "2026-06-16",
-      "event_type": "합병반대의사통지 종료",
-      "title": "모니터랩 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000161"
-    },
-    {
-      "stock_code": "",
       "stock_name": "티쓰리",
       "event_date": "2026-06-17",
       "event_type": "배당금지급예정일",
@@ -13999,6 +13975,22 @@
       "event_type": "주주총회",
       "title": "나이스정보통신 — 주식분할결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602900609"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "모니터랩",
+      "event_date": "2026-07-17",
+      "event_type": "채권자이의제출 종료",
+      "title": "모니터랩 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000161"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "엑스페릭스",
+      "event_date": "2026-07-17",
+      "event_type": "채권자이의제출기간 종료",
+      "title": "엑스페릭스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000184"
     }
   ]
 }
