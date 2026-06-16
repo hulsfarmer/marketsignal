@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T03:05:02",
+  "generated_at": "2026-06-17T03:08:20",
   "count": 500,
   "posts": [
     {
@@ -2108,6 +2108,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 9623,
+      "title": "5월 미국 수입물가가 예상보다 크게 상승했으며, 이는 인플레이션 지속성을 시사함. 향후 Fed 금리 인상 가능성 상승으로 USD/KRW 환율 상승 압력, 한국 수출 기업 수익성 악화 초래 가능.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-16",
+      "summary": "<p>5월 미국 수입물가가 예상보다 크게 상승했으며, 이는 인플레이션 지속성을 시사함. 향후 Fed 금리 인상 가능성 상승으로 USD/KRW 환율 상승 압력, 한국 수출 기업 수익성 악화 초래 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US import prices increase more than expected in May Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "인플레이션 지표 악화는 Fed의 긴축 기조 강화를 의미하며, 원화 약세 및 외국인 자금 유출 가능성으로 KOSPI 및 수출 대기업에 부정적 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대차",
+        "LG화학",
+        "NAVER",
+        "카카오"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZngtVFlMMmlWcGdyd3RnYmM1dTVxX2JlSkVJa2Z0dm0tX0dpSVotM2ppZjRGZHNVR05vbWNxSzRaMWg1TlNEYlVBUmpCRnlxbFVTQ1hSZVpBc3VrekhhUFV1TTVORjFZYXdJVG1wTU15bXUwZjN2TWljWmRoX2lYSXFiLVNxOWdpQzE3MmhuVkxwTFVxUXdmSQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-17 03:07:41"
     },
     {
       "id": 9603,
@@ -13479,28 +13507,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900756",
       "direction": "up",
       "updated_at": "2026-06-15 17:35:03"
-    },
-    {
-      "id": 9312,
-      "title": "코나아이 — 자기주식취득결과보고서",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260615",
-      "summary": "<p>자사주 매입 마감 — 결과 보고</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식취득결과보고서 · 코나아이</p>",
-      "feedback": "자사주 매입 마감 — 결과 보고",
-      "stocks": [
-        "코나아이"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000213",
-      "direction": "up",
-      "updated_at": "2026-06-15 16:35:16"
     }
   ],
   "events": [
