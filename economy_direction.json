@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:05:02",
+  "generated_at": "2026-06-16T15:08:03",
   "count": 500,
   "posts": [
     {
@@ -2086,6 +2086,32 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 9505,
+      "title": "OpenAI의 지난해 지출이 340억 달러에 달한 것으로 보도됨. 막대한 AI 인프라 투자로 고성능 반도체(HBM, GPU) 수요 증가 신호로, 한국 메모리 반도체 수급 개선과 수익성 향상에 긍정적 영향 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-16",
+      "summary": "<p>OpenAI의 지난해 지출이 340억 달러에 달한 것으로 보도됨. 막대한 AI 인프라 투자로 고성능 반도체(HBM, GPU) 수요 증가 신호로, 한국 메모리 반도체 수급 개선과 수익성 향상에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "OpenAI의 초대형 지출은 고급 반도체(HBM/GPU) 대량 수요를 의미하며, SK하이닉스·삼성전자 등 한국 반도체 기업의 주요 고객사 실적 호조로 이어질 가능성 높음",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObG14cjl0dTdRdWhUWmROcmN1WXhXM2RnZ25TczRBdDNsUW43a0tSR25MLTdXcmF5bE1wRXh5Wk1TWmVpMWt0N0ZGQjBEbmpmajcwT1JqQWdvdTNpWklmOGstQlMzWFlVSkZmQ1hndFpnRG5FUVB4RG5NV1BMR2VYSExIY3ZHVW14UE9JREI3QmswbE8yanNueWNRbXBLNnEyUGpZVEFBRzdlbXhEUmd2aW5SeFRRZ3lHVTRVVVpqVDhIR0U?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-16 15:07:06"
     },
     {
       "id": 9496,
@@ -13462,28 +13488,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900219",
       "direction": "up",
       "updated_at": "2026-06-15 11:35:02"
-    },
-    {
-      "id": 9241,
-      "title": "쓰리빌리언 — 단일판매ㆍ공급계약체결(자율공시)              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260615",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결(자율공시)               · 쓰리빌리언</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "쓰리빌리언"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900204",
-      "direction": "up",
-      "updated_at": "2026-06-15 10:35:02"
     }
   ],
   "events": [
