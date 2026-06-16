@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-06-15T16:10:50",
+  "generated_at": "2026-06-16T15:05:13",
   "dates": [
+    "2026-06-16",
     "2026-06-15",
     "2026-06-12",
     "2026-06-11",
@@ -29,8 +30,7 @@
     "2026-04-17",
     "2026-04-16",
     "2026-04-15",
-    "2026-04-14",
-    "2026-04-13"
+    "2026-04-14"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,100 @@
     }
   },
   "by_date": {
+    "2026-06-16": {
+      "ai": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 63,
+            "ai_score": 74,
+            "confidence": "HIGH",
+            "reason": "2700억원 규모 자사주 매입 공시는 수급_개선 패턴(성공률 100%)에 해당하며, RSI 40으로 적정 구간에 위치합니다. 20일 -2.8%로 낙폭이 크지 않아 추가 하락 리스크가 제한적이고, 과거 셀트리온 +4.09% 성공 사례(RSI 38, 자사주 관련)와 유사한 패턴입니다.",
+            "entry_price": 175000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 64,
+            "ai_score": 70,
+            "confidence": "MEDIUM",
+            "reason": "RSI 29로 과매도 구간에 진입해 기술적_반등 패턴(성공률 100%)이 유효하며, 유가 100달러 돌파와 미국 가스전·희토류 투자 등 펀더멘탈 호재가 아직 완전히 반영되지 않은 상태입니다. 과거 포스코인터내셔널 +2.24% 성공 사례(RSI 31)와 유사한 구조로 단기 반등 가능성이 높습니다.",
+            "entry_price": 59900.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "000660",
+            "name_kr": "SK하이닉스",
+            "ms_score": 77,
+            "ai_score": 60,
+            "confidence": "LOW",
+            "reason": "ADR 상장 임박이라는 중기 모멘텀 호재가 아직 완전히 반영되지 않았으며, RSI 58로 과매수 직전이지만 아직 매수 가능 구간입니다. 시장 영향력 66점으로 강세 환경에서 반도체 대형주 모멘텀이 유효하나, 5일 +3.3% 상승으로 단기 탄력이 제한적일 수 있어 비중 조절이 필요합니다.",
+            "entry_price": 2288000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "005490",
+            "name_kr": "POSCO홀딩스",
+            "ms_score": 62,
+            "ai_score": 47,
+            "confidence": "LOW",
+            "reason": "[T] tech 47 / earn 0 (RSI 34, 5일 +8.4%)",
+            "entry_price": 395000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "006400",
+            "name_kr": "삼성SDI",
+            "ms_score": 58,
+            "ai_score": 44,
+            "confidence": "LOW",
+            "reason": "[T] tech 44 / earn 0 (RSI 37, 5일 +7.4%)",
+            "entry_price": 553000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "034020",
+            "name_kr": "두산에너빌리티",
+            "ms_score": 67,
+            "ai_score": 44,
+            "confidence": "LOW",
+            "reason": "[T] tech 44 / earn 0 (RSI 37, 5일 +8.1%)",
+            "entry_price": 99800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-06-15": {
       "ai": {
         "count": 3,
@@ -2758,86 +2852,6 @@
             "return_pct": null,
             "return_pct_open": null,
             "correct": null
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 0,
-        "picks": []
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-04-13": {
-      "ai": {
-        "count": 5,
-        "picks": [
-          {
-            "stock_code": "047050",
-            "name_kr": "포스코인터내셔널",
-            "ms_score": 58,
-            "ai_score": 72,
-            "confidence": "HIGH",
-            "reason": "영업이익 역대 최고 뉴스가 있으나 장중 급등 후 현재 +0.0%로 정체 중이고, 5일 -6.7% 조정으로 저가 매수 기회. RSI 49(중립)와 국민연금 매수 기관 신뢰도로 내일 반등 가능성 높음.",
-            "entry_price": 75200.0,
-            "exit_price": 74800.0,
-            "return_pct": -0.53,
-            "return_pct_open": null,
-            "correct": 0
-          },
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 62,
-            "ai_score": 68,
-            "confidence": "HIGH",
-            "reason": "영업이익 1조원 클럽 입성으로 실적 컨센서스 상회, 배당 750원 + 자사주 2500억 매입 검토로 주주환원 강화. 5일 +2.0%의 안정적 상승이지만 과매수 아닌 RSI 50으로 추가 상승 여력 있음.",
-            "entry_price": 199700.0,
-            "exit_price": 195200.0,
-            "return_pct": -2.25,
-            "return_pct_open": null,
-            "correct": 0
-          },
-          {
-            "stock_code": "024110",
-            "name_kr": "기업은행",
-            "ms_score": 62,
-            "ai_score": 66,
-            "confidence": "MEDIUM",
-            "reason": "분기 배당 도입으로 주주환원 강화 신호가 명확하고, 5일 +3.5% 상승 후 현재 정체(+0.0%)로 조정 완료 단계. RSI 43으로 저가 영역이며 배당 매력도로 내일 재상승 가능.",
-            "entry_price": 22350.0,
-            "exit_price": 22250.0,
-            "return_pct": -0.45,
-            "return_pct_open": null,
-            "correct": 0
-          },
-          {
-            "stock_code": "012330",
-            "name_kr": "현대모비스",
-            "ms_score": 62,
-            "ai_score": 65,
-            "confidence": "MEDIUM",
-            "reason": "역대 최대 실적 달성과 국민연금 지분 확대(9.51%)로 기관 신뢰도 상승. 5일 +3.6% 상승 후 현재 +0.0% 정체로 일부 조정 예상되나, RSI 54의 중립 구간에서 로보틱스 성장성으로 내일 재반등 가능.",
-            "entry_price": 402500.0,
-            "exit_price": 391500.0,
-            "return_pct": -2.73,
-            "return_pct_open": null,
-            "correct": 0
-          },
-          {
-            "stock_code": "000100",
-            "name_kr": "유한양행",
-            "ms_score": 58,
-            "ai_score": 64,
-            "confidence": "MEDIUM",
-            "reason": "밸류업 약속 이행(주식 소각, 경영진 매수)과 실적·주주환원 목표 상회 달성이 긍정적. 5일 +1.2%의 완만한 상승으로 뉴스가 덜 반영되었고, RSI 45로 종가매수 적기.",
-            "entry_price": 92900.0,
-            "exit_price": 92100.0,
-            "return_pct": -0.86,
-            "return_pct_open": null,
-            "correct": 0
           }
         ]
       },

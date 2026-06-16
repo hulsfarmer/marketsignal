@@ -1,35 +1,35 @@
 {
-  "date": "2026-06-15",
+  "date": "2026-06-16",
   "strategy": "hybrid",
-  "generated_at": "2026-06-15T15:05:56",
+  "generated_at": "2026-06-16T15:05:12",
   "count": 3,
   "picks": [
     {
-      "stock_code": "068270",
-      "name_kr": "셀트리온",
-      "ms_score": 70,
-      "ai_score": 48,
+      "stock_code": "005490",
+      "name_kr": "POSCO홀딩스",
+      "ms_score": 62,
+      "ai_score": 47,
       "confidence": "LOW",
-      "reason": "[T] tech 49 / earn 0 (RSI 36, 5일 +8.5%)",
-      "entry_price": 173000.0
+      "reason": "[T] tech 47 / earn 0 (RSI 34, 5일 +8.4%)",
+      "entry_price": 395000.0
     },
     {
-      "stock_code": "010140",
-      "name_kr": "삼성중공업",
-      "ms_score": 73,
-      "ai_score": 46,
-      "confidence": "LOW",
-      "reason": "[T] tech 46 / earn 0 (RSI 37, 5일 +3.1%)",
-      "entry_price": 26900.0
-    },
-    {
-      "stock_code": "267250",
-      "name_kr": "HD현대",
-      "ms_score": 63,
+      "stock_code": "006400",
+      "name_kr": "삼성SDI",
+      "ms_score": 58,
       "ai_score": 44,
       "confidence": "LOW",
-      "reason": "[T] tech 44 / earn 0 (RSI 26, 5일 -1.6%)",
-      "entry_price": 244000.0
+      "reason": "[T] tech 44 / earn 0 (RSI 37, 5일 +7.4%)",
+      "entry_price": 553000.0
+    },
+    {
+      "stock_code": "034020",
+      "name_kr": "두산에너빌리티",
+      "ms_score": 67,
+      "ai_score": 44,
+      "confidence": "LOW",
+      "reason": "[T] tech 44 / earn 0 (RSI 37, 5일 +8.1%)",
+      "entry_price": 99800.0
     }
   ]
 }
