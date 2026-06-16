@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T16:05:02",
+  "generated_at": "2026-06-16T16:35:24",
   "count": 500,
   "posts": [
     {
@@ -13028,6 +13028,28 @@
       "updated_at": "2026-05-10 15:08:28"
     },
     {
+      "id": 9538,
+      "title": "SK바이오사이언스 — 자기주식취득결과보고서",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260616",
+      "summary": "<p>자사주 매입 마감 — 결과 보고</p>\n<p style='color:#718096;font-size:.9em'>📋 자기주식취득결과보고서 · SK바이오사이언스</p>",
+      "feedback": "자사주 매입 마감 — 결과 보고",
+      "stocks": [
+        "SK바이오사이언스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 6,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000207",
+      "direction": "up",
+      "updated_at": "2026-06-16 16:35:24"
+    },
+    {
       "id": 9525,
       "title": "DKME — 단일판매ㆍ공급계약체결(자율공시)              ",
       "category": "주식",
@@ -13466,28 +13488,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900440",
       "direction": "up",
       "updated_at": "2026-06-15 15:35:03"
-    },
-    {
-      "id": 9272,
-      "title": "에스원 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260615",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 에스원</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "에스원"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615800352",
-      "direction": "up",
-      "updated_at": "2026-06-15 14:35:12"
     }
   ],
   "events": [
