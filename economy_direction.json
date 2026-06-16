@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T00:05:02",
+  "generated_at": "2026-06-17T00:08:39",
   "count": 500,
   "posts": [
     {
@@ -2108,6 +2108,36 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 9603,
+      "title": "UBS가 2026년 내 Fed 금리 인하 가능성이 없으며 6월 FOMC에서 매파적 기조가 나타날 것으로 예상. 이는 USD 강세 지속 및 신흥국 자본 유출 압박을 의미하며, 한국 원화 약세와 외국인 주식 매도 우려 가중.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-16",
+      "summary": "<p>UBS가 2026년 내 Fed 금리 인하 가능성이 없으며 6월 FOMC에서 매파적 기조가 나타날 것으로 예상. 이는 USD 강세 지속 및 신흥국 자본 유출 압박을 의미하며, 한국 원화 약세와 외국인 주식 매도 우려 가중.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): UBS expects no Fed easing this year; sees hawkish tone in June meeting Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 매파 기조 고착화는 USD/KRW 환율 상승, 외국인 순매도 가속화, 채권 금리 상승 압력으로 이어져 한국 증시와 기업 실적에 직접적 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대차",
+        "기아",
+        "LG전자",
+        "한국조선해양"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdU84Vm45TVNBWGIxZC03QUQxNVdKcm9wUTBNaE11LXZZSnlseGVSS1pVUnJnTzI2ZFo0VWxmYlRhOWU5V1JTSUVRUi1oZVpXVjZEQTFmVzlSdV9PdEE1b1BCSlUyQ3JNN2p6OFNHcURTOEZfR2IwZks3NXFnSV84MGJPTDdlYkhZTW1vSkdKeXg0ZjRrb2V1NEE0Q1hielNiNmFHSVFoaUVnM3BBM3NfaQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-17 00:07:50"
     },
     {
       "id": 9585,
@@ -13471,28 +13501,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000213",
       "direction": "up",
       "updated_at": "2026-06-15 16:35:16"
-    },
-    {
-      "id": 9307,
-      "title": "기가비스 — 단일판매ㆍ공급계약체결              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260615",
-      "summary": "<p>수주 — 본문 규모 확인</p>\n<p style='color:#718096;font-size:.9em'>📋 단일판매ㆍ공급계약체결               · 기가비스</p>",
-      "feedback": "수주 — 본문 규모 확인",
-      "stocks": [
-        "기가비스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 6,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900536",
-      "direction": "up",
-      "updated_at": "2026-06-15 16:35:14"
     }
   ],
   "events": [
