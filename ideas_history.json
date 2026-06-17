@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T15:05:33",
+  "generated_at": "2026-06-17T16:10:34",
   "dates": [
     "2026-06-17",
     "2026-06-16",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 79,
-      "correct": 37,
-      "hit_rate": 46.8,
-      "avg_return": 0.39,
-      "avg_return_open": 0.94
+      "total": 82,
+      "correct": 39,
+      "hit_rate": 47.6,
+      "avg_return": 0.54,
+      "avg_return_open": 1.1
     },
     "hybrid": {
-      "total": 85,
-      "correct": 41,
-      "hit_rate": 48.2,
+      "total": 88,
+      "correct": 42,
+      "hit_rate": 47.7,
       "avg_return": 0.38,
-      "avg_return_open": 0.86
+      "avg_return_open": 0.85
     }
   },
   "by_date": {
@@ -142,10 +142,10 @@
             "confidence": "HIGH",
             "reason": "2700억원 규모 자사주 매입 공시는 수급_개선 패턴(성공률 100%)에 해당하며, RSI 40으로 적정 구간에 위치합니다. 20일 -2.8%로 낙폭이 크지 않아 추가 하락 리스크가 제한적이고, 과거 셀트리온 +4.09% 성공 사례(RSI 38, 자사주 관련)와 유사한 패턴입니다.",
             "entry_price": 175000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 174500.0,
+            "return_pct": -0.29,
+            "return_pct_open": -0.29,
+            "correct": 0
           },
           {
             "stock_code": "047050",
@@ -155,10 +155,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 29로 과매도 구간에 진입해 기술적_반등 패턴(성공률 100%)이 유효하며, 유가 100달러 돌파와 미국 가스전·희토류 투자 등 펀더멘탈 호재가 아직 완전히 반영되지 않은 상태입니다. 과거 포스코인터내셔널 +2.24% 성공 사례(RSI 31)와 유사한 구조로 단기 반등 가능성이 높습니다.",
             "entry_price": 59900.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 65300.0,
+            "return_pct": 9.02,
+            "return_pct_open": 9.02,
+            "correct": 1
           },
           {
             "stock_code": "000660",
@@ -168,10 +168,10 @@
             "confidence": "LOW",
             "reason": "ADR 상장 임박이라는 중기 모멘텀 호재가 아직 완전히 반영되지 않았으며, RSI 58로 과매수 직전이지만 아직 매수 가능 구간입니다. 시장 영향력 66점으로 강세 환경에서 반도체 대형주 모멘텀이 유효하나, 5일 +3.3% 상승으로 단기 탄력이 제한적일 수 있어 비중 조절이 필요합니다.",
             "entry_price": 2288000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 2382000.0,
+            "return_pct": 4.11,
+            "return_pct_open": 4.11,
+            "correct": 1
           }
         ]
       },
@@ -186,10 +186,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 47 / earn 0 (RSI 34, 5일 +8.4%)",
             "entry_price": 395000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 390000.0,
+            "return_pct": -1.27,
+            "return_pct_open": -1.27,
+            "correct": 0
           },
           {
             "stock_code": "006400",
@@ -199,10 +199,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 44 / earn 0 (RSI 37, 5일 +7.4%)",
             "entry_price": 553000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 549000.0,
+            "return_pct": -0.72,
+            "return_pct_open": -0.72,
+            "correct": 0
           },
           {
             "stock_code": "034020",
@@ -212,10 +212,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 44 / earn 0 (RSI 37, 5일 +8.1%)",
             "entry_price": 99800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 103300.0,
+            "return_pct": 3.51,
+            "return_pct_open": 3.51,
+            "correct": 1
           }
         ]
       },
