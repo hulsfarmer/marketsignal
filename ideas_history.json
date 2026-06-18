@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T15:05:06",
+  "generated_at": "2026-06-18T16:10:36",
   "dates": [
     "2026-06-18",
     "2026-06-17",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 82,
-      "correct": 39,
-      "hit_rate": 47.6,
-      "avg_return": 0.54,
-      "avg_return_open": 1.1
+      "total": 84,
+      "correct": 41,
+      "hit_rate": 48.8,
+      "avg_return": 0.58,
+      "avg_return_open": 1.15
     },
     "hybrid": {
-      "total": 88,
-      "correct": 42,
-      "hit_rate": 47.7,
-      "avg_return": 0.38,
-      "avg_return_open": 0.85
+      "total": 91,
+      "correct": 44,
+      "hit_rate": 48.4,
+      "avg_return": 0.37,
+      "avg_return_open": 0.82
     }
   },
   "by_date": {
@@ -168,10 +168,10 @@
             "confidence": "MEDIUM",
             "reason": "미국 투자운용사의 5.1% 대규모 지분 매수는 수급_개선 패턴(100% 성공률)의 핵심 조건인 외국인 폭풍 매수와 유사하며, 신한지주 성공 사례(+6.02%)와 동일한 외국인 대규모 수급 개선 구조입니다. RSI 44로 안정적인 중립 구간이며 5일 +1.6%로 뉴스가 아직 주가에 충분히 반영되지 않은 상태입니다. IBK증권 목표가 39만원 제시는 현재가 대비 약 49% 상승 여력을 시사합니다.",
             "entry_price": 261000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 266500.0,
+            "return_pct": 2.11,
+            "return_pct_open": 2.11,
+            "correct": 1
           },
           {
             "stock_code": "010140",
@@ -181,10 +181,10 @@
             "confidence": "MEDIUM",
             "reason": "블랙록 5% 지분 공시는 기관 수급_개선 신호로, 과거 삼성중공업이 2026-06-15 +6.51% 성공을 거둔 동일 종목입니다. RSI 43으로 과매수 아닌 중립 구간이며 당일 등락 0%로 호재가 아직 충분히 반영되지 않았을 가능성이 있습니다. 5일 +8.1%가 부담이나 20일 -4.9%의 낙폭을 감안하면 추가 상승 여력이 있습니다.",
             "entry_price": 28100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 28950.0,
+            "return_pct": 3.02,
+            "return_pct_open": 3.02,
+            "correct": 1
           }
         ]
       },
@@ -199,10 +199,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 44 / earn 0 (RSI 37, 5일 +7.4%)",
             "entry_price": 390000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 384500.0,
+            "return_pct": -1.41,
+            "return_pct_open": -1.41,
+            "correct": 0
           },
           {
             "stock_code": "068270",
@@ -212,10 +212,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 37 / earn 0 (RSI 40, 5일 +4.3%)",
             "entry_price": 174500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 174600.0,
+            "return_pct": 0.06,
+            "return_pct_open": 0.06,
+            "correct": 1
           },
           {
             "stock_code": "329180",
@@ -225,10 +225,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 33 / earn 0 (RSI 42, 5일 +8.9%)",
             "entry_price": 698000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 707000.0,
+            "return_pct": 1.29,
+            "return_pct_open": 1.29,
+            "correct": 1
           }
         ]
       },
