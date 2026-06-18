@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T00:05:01",
+  "generated_at": "2026-06-19T00:08:42",
   "count": 500,
   "posts": [
     {
@@ -2275,6 +2275,34 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 10083,
+      "title": "G10 경제권의 금리 인상이 예상되면서 USD/KRW 환율 상승과 글로벌 금리 인상 추세가 심화될 것으로 보임. 한국 수출 기업의 수익성 악화와 외국인 자본 유출 압력, 국내 채권 금리 상승으로 이어질 가능성이 높음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-18",
+      "summary": "<p>G10 경제권의 금리 인상이 예상되면서 USD/KRW 환율 상승과 글로벌 금리 인상 추세가 심화될 것으로 보임. 한국 수출 기업의 수익성 악화와 외국인 자본 유출 압력, 국내 채권 금리 상승으로 이어질 가능성이 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Rate hikes are on for the G10 economies Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "G10 금리 인상은 달러강세→원약세, 글로벌 경기둔화 우려, 외국인 주식 수급 악화로 KOSPI에 의미있는 부정적 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "NAVER",
+        "카카오"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQXhUdGVza3BBUTFXQTcyMGozLVFFUWR2OGM3TDRaTXdXVDFweFljaW1qYmw0NGdnUm0zMzlSREFRMFp5MEZGdWVSM0dGV1J5VDFhZlJ3ME42NnRFQkoyV1lHMWM5Z1k0LUUzb3UxbGFfUVZQNVJtM213bHBpTTRpeXo1MzFST2Ntc0wtZW9KZVFTYkE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-19 00:07:57"
+    },
+    {
       "id": 10049,
       "title": "Fed 의장 Warsh 취임으로 금리 정책의 예측 가능성이 낮아질 전망. 변동성 확대는 USD/KRW 환율 변동성을 키우고 외국인 자금 수급 불안정을 초래할 수 있어 한국 증시에 부정적 영향 예상.",
       "category": "거시",
@@ -2330,6 +2358,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BRXh5eWZwMEJXbXNrRFlNWHV5Z21LRWZqaHVyVWkwZE4wZmVJVTNqeFljdmJtemh6Z1U5TXRJSW5NOFprMllCLUlmQzNDMGhFQnE4Qm5jTDhOVDZlOUJ6UnhwVUtLNkJ3YjNmNmhZRWJGR2pEQVBlUlJqZEc4Sjg?oc=5",
       "direction": "neutral",
       "updated_at": "2026-06-18 18:07:53"
+    },
+    {
+      "id": 10071,
+      "title": "트럼프 행정부가 반도체·AI 등 전략적 핵심 산업에 지분 인수 방식으로 투자하는 정책으로 전환. 미국 반도체 공급망 자립화 강화로 한국 메모리/파운드리 기업의 미국 시장 접근성과 경쟁 구도 변화 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-17",
+      "summary": "<p>트럼프 행정부가 반도체·AI 등 전략적 핵심 산업에 지분 인수 방식으로 투자하는 정책으로 전환. 미국 반도체 공급망 자립화 강화로 한국 메모리/파운드리 기업의 미국 시장 접근성과 경쟁 구도 변화 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump administration pivots to buying stakes in critical sectors Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국의 전략적 반도체 투자 확대는 한국 주요 수출 기업(SK하이닉스, 삼성전자)의 미국 사업 환경과 공급망 역학을 직접 변화시킬 수 있는 정책적 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORGlsaUNLd2dtbm8wS3hVczZ3cks2MWZfZFl6R0FiSjFpVHJBeWJYUFFqOW1VNVFkWE1IaW1paENCa1czc0NJcWxXZ1MtVDZMLUdEQWdfeGNXSTFpdU5BaUZQZmRVN0RqeVhISjFFbzJ5ZnNoZUU0OUV0dzlNc1VRenBzNHZZazdoaTQ3R2ltVFRYT0stMl83NndNUGEwdS1DSXVMRldvNUhMeEcxamVQZHVNdXAwQ1VKV3pXdzhmRmROYy1fby0xNmNhQVpDeW9P?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-06-19 00:07:07"
     },
     {
       "id": 10026,
@@ -13512,63 +13567,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxdWE4a3VKLVZrOUNLZ0hfZG9fTEI5QW8xcXRrQy1OZjYtMWU5dUlFcGs5d2JFR0ZRLVhJUEh5SWFoZ3V5OVhNSmVDUEFMd1RRZk1nOWtDb2I0b3N2R05KWFZfbjBkRnZxbFdfcnE2ZnU?oc=5",
       "direction": "down",
       "updated_at": "2026-06-10 21:08:14"
-    },
-    {
-      "id": 5421,
-      "title": "중국이 2008년 이후 처음으로 위안화 중간값을 달러당 7위안 아래로 설정했습니다. 이는 위안화 약세를 의미하며 중국 수출 경쟁력 강화를 노리는 조치입니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2019-08-07",
-      "summary": "<p>중국이 2008년 이후 처음으로 위안화 중간값을 달러당 7위안 아래로 설정했습니다. 이는 위안화 약세를 의미하며 중국 수출 경쟁력 강화를 노리는 조치입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China sets yuan mid-point below key 7/dlr for first time since 2008 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "위안화 약세는 중국산 수출품 가격 경쟁력을 높여 한국의 수출 기업(자동차, 철강, 화학)들과의 경쟁 심화 초래 예상",
-      "stocks": [
-        "현대자동차",
-        "기아자동차",
-        "POSCO",
-        "LG화학",
-        "SK케미칼",
-        "아모레퍼시픽"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUGxsSWYzeUxuSzYzbkJJbTJCd2NyX1lvS0NVSjR4dHY3S2p6cHZXbzZ6QVBXbGlFY3Z5eGNSdFl4dGRaTUdPalNZelo1MkxBZVNTQ1RJY3lXc1NadzVndllTUzU2Mnpfa2VZVFlnVnhMWWdkNlRHTlNmQzNlck9yYnVCcjJnWGxqRlo5SDlXLVpRc1RXYk1yZjBHSzcwdzR5TVdJZW80X2RiYmMwZjlxZFZRN1JWY0NjNDVGR0FB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-16 21:07:54"
-    },
-    {
-      "id": 2586,
-      "title": "중국 위안화(CNY)가 달러당 7위안을 넘어 사상 최저치로 약세 전환. 중국 경제 약화 신호로, 한국의 수출 의존도 높은 화장품·자동차·철강·게임 등 주요 산업의 중국 시장 수익성 악화 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2019-08-04",
-      "summary": "<p>중국 위안화(CNY)가 달러당 7위안을 넘어 사상 최저치로 약세 전환. 중국 경제 약화 신호로, 한국의 수출 의존도 높은 화장품·자동차·철강·게임 등 주요 산업의 중국 시장 수익성 악화 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s offshore yuan weakens beyond 7 per dollar, lowest on record Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 약세 신호로 한국 주요 수출 산업(자동차·화장품·철강·게임)의 중국 시장 경쟁력 약화 및 수익성 감소 우려",
-      "stocks": [
-        "현대자동차",
-        "기아자동차",
-        "LG생활건강",
-        "아모레퍼시픽",
-        "POSCO",
-        "엔씨소프트",
-        "넥슨"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT2EwNEN1cl9KOHFhQW1EUVI5S2hIQUN4bGJzOUtFbUlJMmxMOVlMRmVaVnh2dUI4ZDBUc1BKcWVqY0NlcklLNlZkNlc4bFNpSDFaVFpDNjhYTzE0dlV3cEp1Tm9Bcy1FVXlSOGNGQ2ZwMnk1TG9leC15Wk5XMmdyYXEtWmZvLTFRUFRFSXpTRG5IcEJBSjBSbjhZRDI1VmxtbUEtSnJEVTE4MFB3UExWelVwZGJsdHJKRXNKZg?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-11 15:09:18"
     }
   ],
   "events": [
