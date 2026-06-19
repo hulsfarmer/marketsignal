@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T23:40:02",
+  "generated_at": "2026-06-20T00:05:01",
   "count": 500,
   "posts": [
     {
@@ -13548,30 +13548,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "신세계",
-      "event_date": "2026-06-19",
-      "event_type": "배당금지급예정일",
-      "title": "신세계 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800367"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "광주신세계",
-      "event_date": "2026-06-19",
-      "event_type": "배당금지급예정일",
-      "title": "광주신세계 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513800504"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "현대엘리베이터",
-      "event_date": "2026-06-19",
-      "event_type": "배당금지급예정일",
-      "title": "현대엘리베이터 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514801062"
-    },
-    {
-      "stock_code": "",
       "stock_name": "미래산업",
       "event_date": "2026-06-24",
       "event_type": "임시주주총회",
@@ -14025,6 +14001,38 @@
       "event_type": "배당금지급예정일",
       "title": "대신정보통신 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618900166"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "HL홀딩스",
+      "event_date": "2026-07-20",
+      "event_type": "배당금지급예정일",
+      "title": "HL홀딩스 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800689"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "모니터랩",
+      "event_date": "2026-07-20",
+      "event_type": "합병기일",
+      "title": "모니터랩 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000161"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "엑스페릭스",
+      "event_date": "2026-07-20",
+      "event_type": "합병기일",
+      "title": "엑스페릭스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000184"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KX",
+      "event_date": "2026-07-20",
+      "event_type": "주주총회",
+      "title": "KX — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617900417"
     }
   ]
 }
