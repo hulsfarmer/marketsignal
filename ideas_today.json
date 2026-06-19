@@ -1,146 +1,173 @@
 {
-  "date": "2026-06-18",
-  "generated_at": "2026-06-18T16:10:35",
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T16:10:27",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-06-18T16:10:35",
-      "pick_date": "2026-06-18",
-      "count": 2,
+      "updated_at": "2026-06-19T16:10:27",
+      "pick_date": "2026-06-19",
+      "count": 3,
       "picks": [
         {
-          "stock_code": "033780",
-          "name_kr": "KT&G",
-          "ms_score": 55,
+          "stock_code": "034020",
+          "name_kr": "두산에너빌리티",
+          "ms_score": 67,
           "ai_score": 65,
           "confidence": "MEDIUM",
-          "reason": "5일 수익률 +1.1%로 호재가 덜 반영된 상태이며, RSI 55로 중립 영역에서 안정적인 종가매수 조건을 충족합니다. AI·클라우드 신사업 확대라는 중기 모멘텀이 유효하고 과열페널티가 없어 차익실현 리스크가 낮습니다. 부정 뉴스가 일부 있으나 긍정 뉴스 비중(3/2)이 우세하여 내일 소폭 상승 가능성이 있습니다.",
-          "entry_price": 187200.0
+          "reason": "RSI 44 중립 구간에서 엔비디아향 매출 증가 목표주가 상향 및 체코 수주 긍정 뉴스가 주가에 아직 덜 반영된 상태(1일 0.0%)입니다. 과거 2026-06-16 동일 종목 RSI 37 + 기술적_반등 패턴으로 +3.51% 성공 사례가 있으며, 5일 +7.0% 상승이나 당일 약세 마감으로 추가 급등 피로감보다는 반등 여력이 우세합니다.",
+          "entry_price": 99600.0
         },
         {
-          "stock_code": "068270",
-          "name_kr": "셀트리온",
-          "ms_score": 70,
-          "ai_score": 62,
+          "stock_code": "010140",
+          "name_kr": "삼성중공업",
+          "ms_score": 77,
+          "ai_score": 63,
           "confidence": "MEDIUM",
-          "reason": "2700억원 규모 자사주 매입은 수급_개선 패턴(100% 성공률)에 해당하며, RSI 44로 과매수 부담이 없습니다. 5일 +5.0% 상승으로 일부 반영되었으나 호재_선반영 실패율(75%)을 감안해도 자사주 매입의 지속적 수급 지지 효과가 단기에 소멸되기 어렵습니다. 긍정 뉴스 5건으로 시장 심리가 우호적입니다.",
-          "entry_price": 174600.0
+          "reason": "블랙록 5% 지분 공시라는 기관 수급 개선 신호가 유효하며, RSI 49 중립 구간으로 과매수 부담이 없습니다. 과거 2026-06-17 동일 종목에서 블랙록 지분 공시 + 수급_개선 패턴으로 +3.02% 성공한 사례가 있어 패턴 반복 가능성이 높고, 5일 +3.0%로 과열 징후 없이 뉴스 모멘텀이 지속될 여지가 있습니다.",
+          "entry_price": 27700.0
+        },
+        {
+          "stock_code": "006400",
+          "name_kr": "삼성SDI",
+          "ms_score": 55,
+          "ai_score": 60,
+          "confidence": "MEDIUM",
+          "reason": "RSI 24로 극단적 과매도 구간 진입, 5일 -3.1% / 20일 -8.4% 하락으로 낙폭 과대 상태에서 외국인 매수 관심 증가 및 업황 회복 기대감이 수급 개선 신호로 작용하고 있습니다. 기술적_반등(100% 성공률) 패턴 조건에 가장 강하게 부합하며, RSI 24는 역사적으로 단기 반등 확률이 높은 수준으로 종가매수 후 단기 되돌림을 기대할 수 있습니다.",
+          "entry_price": 522000.0
         }
       ],
       "accuracy": {
-        "total": 84,
+        "total": 86,
         "correct": 41,
-        "hit_rate": 48.8,
-        "avg_return": 0.58,
-        "avg_return_open": 1.15,
-        "yesterday_date": "2026-06-17",
+        "hit_rate": 47.7,
+        "avg_return": 0.52,
+        "avg_return_open": 1.05,
+        "yesterday_date": "2026-06-18",
         "yesterday": [
           {
-            "stock_code": "010140",
-            "name_kr": "삼성중공업",
-            "entry_price": 28100.0,
-            "exit_price": 28950.0,
-            "return_pct": 3.02,
-            "return_pct_open": 3.02,
-            "correct": 1
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "entry_price": 174600.0,
+            "exit_price": 173600.0,
+            "return_pct": -0.57,
+            "return_pct_open": -0.57,
+            "correct": 0
           },
           {
-            "stock_code": "036570",
-            "name_kr": "엔씨소프트",
-            "entry_price": 261000.0,
-            "exit_price": 266500.0,
-            "return_pct": 2.11,
-            "return_pct_open": 2.11,
-            "correct": 1
+            "stock_code": "033780",
+            "name_kr": "KT&G",
+            "entry_price": 187200.0,
+            "exit_price": 180400.0,
+            "return_pct": -3.63,
+            "return_pct_open": -3.63,
+            "correct": 0
           }
         ]
       }
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-06-18T16:10:35",
-      "pick_date": "2026-06-18",
+      "updated_at": "2026-06-19T16:10:27",
+      "pick_date": "2026-06-19",
       "count": 5,
       "picks": [
         {
-          "stock_code": "051900",
-          "name_kr": "LG생활건강",
-          "ms_score": 58,
-          "ai_score": 95,
+          "stock_code": "024110",
+          "name_kr": "기업은행",
+          "ms_score": 62,
+          "ai_score": 97,
           "confidence": "HIGH",
-          "reason": "[E] tech 30 / earn 96 (RSI 43, 5일 +0.4%)",
-          "entry_price": 239500.0
-        },
-        {
-          "stock_code": "036570",
-          "name_kr": "엔씨소프트",
-          "ms_score": 58,
-          "ai_score": 75,
-          "confidence": "MEDIUM",
-          "reason": "[E] tech 28 / earn 75 (RSI 44, 5일 +2.5%)",
-          "entry_price": 266500.0
+          "reason": "[E] tech 0 / earn 98 (RSI 66, 5일 +0.2%)",
+          "entry_price": 21850.0
         },
         {
           "stock_code": "047050",
           "name_kr": "포스코인터내셔널",
           "ms_score": 64,
-          "ai_score": 72,
-          "confidence": "MEDIUM",
-          "reason": "[T] tech 33 / earn 72 (RSI 42, 5일 +2.8%)",
-          "entry_price": 59700.0
+          "ai_score": 94,
+          "confidence": "HIGH",
+          "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -5.2%)",
+          "entry_price": 56300.0
+        },
+        {
+          "stock_code": "051910",
+          "name_kr": "LG화학",
+          "ms_score": 58,
+          "ai_score": 92,
+          "confidence": "HIGH",
+          "reason": "[E] tech 41 / earn 93 (RSI 41, 5일 -0.7%)",
+          "entry_price": 342500.0
         },
         {
           "stock_code": "005490",
           "name_kr": "POSCO홀딩스",
           "ms_score": 62,
-          "ai_score": 45,
-          "confidence": "LOW",
-          "reason": "[T] tech 46 / earn 0 (RSI 37, 5일 +7.4%)",
-          "entry_price": 384500.0
+          "ai_score": 73,
+          "confidence": "MEDIUM",
+          "reason": "[T] tech 66 / earn 74 (RSI 31, 5일 -2.6%)",
+          "entry_price": 367000.0
         },
         {
           "stock_code": "267250",
           "name_kr": "HD현대",
           "ms_score": 67,
-          "ai_score": 29,
-          "confidence": "LOW",
-          "reason": "[T] tech 30 / earn 0 (RSI 43, 5일 +6.9%)",
-          "entry_price": 262500.0
+          "ai_score": 68,
+          "confidence": "MEDIUM",
+          "reason": "[T] tech 69 / earn 0 (RSI 34, 5일 -2.2%)",
+          "entry_price": 238500.0
         }
       ],
       "accuracy": {
-        "total": 91,
+        "total": 96,
         "correct": 44,
-        "hit_rate": 48.4,
-        "avg_return": 0.37,
-        "avg_return_open": 0.82,
-        "yesterday_date": "2026-06-17",
+        "hit_rate": 45.8,
+        "avg_return": 0.11,
+        "avg_return_open": 0.53,
+        "yesterday_date": "2026-06-18",
         "yesterday": [
           {
-            "stock_code": "329180",
-            "name_kr": "HD현대중공업",
-            "entry_price": 698000.0,
-            "exit_price": 707000.0,
-            "return_pct": 1.29,
-            "return_pct_open": 1.29,
-            "correct": 1
+            "stock_code": "051900",
+            "name_kr": "LG생활건강",
+            "entry_price": 239500.0,
+            "exit_price": 237000.0,
+            "return_pct": -1.04,
+            "return_pct_open": -1.04,
+            "correct": 0
           },
           {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "entry_price": 174500.0,
-            "exit_price": 174600.0,
-            "return_pct": 0.06,
-            "return_pct_open": 0.06,
-            "correct": 1
+            "stock_code": "036570",
+            "name_kr": "엔씨소프트",
+            "entry_price": 266500.0,
+            "exit_price": 258500.0,
+            "return_pct": -3.0,
+            "return_pct_open": -3.0,
+            "correct": 0
           },
           {
             "stock_code": "005490",
             "name_kr": "POSCO홀딩스",
-            "entry_price": 390000.0,
-            "exit_price": 384500.0,
-            "return_pct": -1.41,
-            "return_pct_open": -1.41,
+            "entry_price": 384500.0,
+            "exit_price": 367000.0,
+            "return_pct": -4.55,
+            "return_pct_open": -4.55,
+            "correct": 0
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "entry_price": 59700.0,
+            "exit_price": 56300.0,
+            "return_pct": -5.7,
+            "return_pct_open": -5.7,
+            "correct": 0
+          },
+          {
+            "stock_code": "267250",
+            "name_kr": "HD현대",
+            "entry_price": 262500.0,
+            "exit_price": 238500.0,
+            "return_pct": -9.14,
+            "return_pct_open": -9.14,
             "correct": 0
           }
         ]
@@ -148,8 +175,8 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-06-18T16:10:35",
-      "pick_date": "2026-06-18",
+      "updated_at": "2026-06-19T16:10:27",
+      "pick_date": "2026-06-19",
       "count": 0,
       "picks": [],
       "watching": [],
