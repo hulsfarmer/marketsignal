@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T12:05:02",
+  "generated_at": "2026-06-23T12:08:40",
   "count": 500,
   "posts": [
     {
@@ -2415,6 +2415,65 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 10672,
+      "title": "미국 연방준비제도(Fed) 금리 인상 기대감이 높아지면서 아시아 주식이 하락했고, 유가는 상승했다. 한국은 USD/KRW 환율 상승으로 수출주 수익성 개선이 예상되지만, 외국인 자금 이탈과 채권 금리 상승으로 성장주·고금리 민감주는 압박을 받을 전망이다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-23",
+      "summary": "<p>미국 연방준비제도(Fed) 금리 인상 기대감이 높아지면서 아시아 주식이 하락했고, 유가는 상승했다. 한국은 USD/KRW 환율 상승으로 수출주 수익성 개선이 예상되지만, 외국인 자금 이탈과 채권 금리 상승으로 성장주·고금리 민감주는 압박을 받을 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asia shares slip as markets reprice Fed expectations, oil gains Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 기대 전환은 한국의 환율·자금 흐름·채권 시장에 직접 영향을 미치는 주요 매크로 신호이며, 외국인 수급과 산업별 영향이 명확하다.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "포스코",
+        "현대중공업",
+        "금융주(KB금융",
+        "신한금융)",
+        "에너지주(SK이노베이션",
+        "S-Oil)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmhDU00zNnJxQ0g3SWFxOFJ0RVlnTl8tSHl2cS1sRS16eTJtVmxHOU15dkRqR2NKU3BRMUZtTEx1RjFzSVFwRzRWVFpQdnNBU1VwMDM5RFpBTU1HRzJiV2tFUXhvdGRSenhPcTVVVldGV2pDd0lEZms2UVMwUmE4RzJLYnhJYWloLVJUNA?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-06-23 12:08:09"
+    },
+    {
+      "id": 10661,
+      "title": "중국이 미국 반도체·희토류 기업들을 겨냥한 수출규제를 단행. 한국의 SK하이닉스, 삼성전자 등 글로벌 공급망 주요 플레이어들의 미중 기술 경쟁 심화로 인한 수혜/리스크 노출 증가.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-22",
+      "summary": "<p>중국이 미국 반도체·희토류 기업들을 겨냥한 수출규제를 단행. 한국의 SK하이닉스, 삼성전자 등 글로벌 공급망 주요 플레이어들의 미중 기술 경쟁 심화로 인한 수혜/리스크 노출 증가.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China targets US rare earth and other firms with export controls Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미중 반도체·희토류 공급망 갈등 심화로 한국 반도체·소재 기업들의 수출 환경 변동성 확대 및 대체수급 기회 발생",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaTFRNGkzaENWU2dUd0hseGlKUjVhT0NlVVAwRUVlcFRPQW5BdEZhWVdwSFQ0ZGJaaTlYcXFScEdkUGFRcWdyUFpyZHhVU1dCdzE0bUk3RHQwdU5TVnZGa25IUGN1X01qRXo4SU9Nd2hKT0pEYVJNM1VLdXdaaHdrSHh6R2MySFp1RTdwc3YxUC1mN2ZrbVBLYkg2LUg1N3BOZk84TGRDX2NQcWM3M1BOSlc0eFZZZw?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-06-23 12:07:31"
     },
     {
       "id": 10634,
@@ -13452,63 +13511,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaDN1X2VZUncwbUpkLVo1SElPbjJoak5ZUW5qaFRkRU1WcE05aXU3ZVdHRXBXcUFzVkJHLTZuMlVNaW1RRTJ4VG44Q3o0ZlhRWXlkOGFEc2NPTktCdEFGbl95SkdOc3M2TF9wZTRQSjJWZjNUaUF5aFB5ZXhuMDBmZ01feENrX2RxZTk1VVFMaWZqcExKOS1DU05iV0wxS01FOWh0QlhCQ3FsU2E0MEVEU013?oc=5",
       "direction": "up",
       "updated_at": "2026-05-10 03:08:30"
-    },
-    {
-      "id": 5423,
-      "title": "중국 중앙은행이 소비·무역 금융 지원 확대에 나선다. 중국의 경기 부양책으로 수출 수요 회복과 내수 소비 증가를 기대할 수 있으며, 한국의 자동차·화장품·철강 수출 기업들과 면세점·게임 업체들에 긍정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2025-05-09",
-      "summary": "<p>중국 중앙은행이 소비·무역 금융 지원 확대에 나선다. 중국의 경기 부양책으로 수출 수요 회복과 내수 소비 증가를 기대할 수 있으며, 한국의 자동차·화장품·철강 수출 기업들과 면세점·게임 업체들에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s central bank to spur financing support for consumption, trade Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국의 주요 통화정책 부양은 한국 주요 수출산업(자동차·화장품·철강)의 중국 수요 회복과 내수 소비 개선으로 이어질 가능성이 높아 의미있는 거시 변화",
-      "stocks": [
-        "현대",
-        "기아",
-        "아모레G",
-        "LG생활건강",
-        "POSCO",
-        "신라젠(면세점)",
-        "넷마블",
-        "엔씨소프트"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLXJYYVROQlprN08zcG1BQy0zMmNCQTdrdkIxTjdqU1BIZWVsYVBLb3ZGbzE1cUxwelJ0TEFYVzJHbF9EM1pBQnJncGxxUWMyOUJsakhIR1YtVTA4QjVhd1liYUNVN0gtZmNiZjJ5ZXFELWgzWEhlQTRfdmVKTE41dTIzeTNNWHdrTGttOHhySHdKVjJxbG5mSy1sdTNzX292dmNWNUJxRWFCMlpjeXU2V0NVT2Q?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-16 21:08:03"
-    },
-    {
-      "id": 10014,
-      "title": "트럼프 관세 위협 강화로 글로벌 제약 주가 급락. 한국의 CDMO·바이오 기업들(삼성바이오로직스, 셀트리온 등)도 수출 의존도 높아 부정적 영향 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2025-04-09",
-      "summary": "<p>트럼프 관세 위협 강화로 글로벌 제약 주가 급락. 한국의 CDMO·바이오 기업들(삼성바이오로직스, 셀트리온 등)도 수출 의존도 높아 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Global pharma shares plunge as Trump doubles down on tariff threat Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "한국 CDMO·바이오 기업들의 주요 수출처인 미국 제약사들의 실적 악화 및 위축으로 수주·매출 감소 우려 발생",
-      "stocks": [
-        "삼성바이오로직스",
-        "셀트리온",
-        "유한양행",
-        "SK바이오사이언스",
-        "한미약품"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbU1vS2tSVDN0NU5fS2N6YnlORmxxV3VZYnF6dGhVd0ZJUXRzdm5mUHJQVi0yQkN6TkVNN1ZvVDc0cldLSXo1OXVJWHFTb0RKZ05NX0k3Rlc5NkZnS1g5d1czdlZuTDU0YVJmdGZmcXhMRnlMZnJYS1Y5SjFnZmRNbU9fYndpOHlfS1RRZnRsa2xoOXEyUjdQZjR4N3ZpYnc1RjdURWpvbEl5b3NMWUc3cTA3LUdVaXVuM2t2VzRfeVBtck4tY2dBZkhmRWlHQk02RWc?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-18 18:07:38"
     }
   ],
   "events": [
