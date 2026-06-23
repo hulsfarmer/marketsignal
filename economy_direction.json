@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T23:40:02",
+  "generated_at": "2026-06-24T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -14027,6 +14027,30 @@
       "event_type": "배당금지급예정일",
       "title": "코리아에셋투자증권 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900533"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "미래산업",
+      "event_date": "2026-07-24",
+      "event_type": "매매거래정지 종료",
+      "title": "미래산업 — 주식분할결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800375"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "우진",
+      "event_date": "2026-07-24",
+      "event_type": "배당금지급예정일",
+      "title": "우진 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800425"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "피에스텍",
+      "event_date": "2026-07-24",
+      "event_type": "배당금지급예정일",
+      "title": "피에스텍 — 현금ㆍ현물배당결정              (분기배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612900526"
     }
   ]
 }
