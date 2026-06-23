@@ -1,13 +1,41 @@
 {
-  "date": "2026-06-22",
-  "generated_at": "2026-06-22T16:10:34",
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T16:10:47",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-06-22T16:10:34",
-      "pick_date": "2026-06-22",
-      "count": 0,
-      "picks": [],
+      "updated_at": "2026-06-23T16:10:47",
+      "pick_date": "2026-06-23",
+      "count": 3,
+      "picks": [
+        {
+          "stock_code": "034020",
+          "name_kr": "두산에너빌리티",
+          "ms_score": 67,
+          "ai_score": 68,
+          "confidence": "MEDIUM",
+          "reason": "한-베트남 원전 MOU 체결 호재가 5일 -8.8% 하락 속에 아직 주가에 충분히 반영되지 않은 상태로, RSI 44는 기술적_반등 패턴(성공률 100%) 진입 조건에 부합합니다. 과거 두산에너빌리티 2026-06-16 +3.51% 성공 사례와 동일하게 RSI 30~50 구간 + 정책 모멘텀 조합으로 반등 가능성이 높습니다.",
+          "entry_price": 94200.0
+        },
+        {
+          "stock_code": "180640",
+          "name_kr": "한미반도체",
+          "ms_score": 67,
+          "ai_score": 65,
+          "confidence": "MEDIUM",
+          "reason": "곽동신 회장의 80억원 자사주 추가 매입은 수급_개선 패턴(성공률 100%)의 핵심 신호로, 내부자 매수는 주가 하방을 강하게 지지합니다. 5일 -11.0% 조정 후 RSI 50 중립 구간에서 경영진 신뢰도 매수가 반등 트리거가 될 수 있으며, 호재가 아직 덜 반영된 상태입니다.",
+          "entry_price": 113800.0
+        },
+        {
+          "stock_code": "105560",
+          "name_kr": "KB금융",
+          "ms_score": 62,
+          "ai_score": 58,
+          "confidence": "MEDIUM",
+          "reason": "외국인 지분율 80% 돌파는 수급_개선 신호로 긍정적이며, RSI 50 중립 구간에서 5일 -8.7% 조정으로 과도한 낙폭이 나타나 기술적 반등 조건을 충족합니다. 부정적 요인(자사주 규제)은 이미 알려진 재료로 추가 하락 촉매는 제한적입니다.",
+          "entry_price": 157000.0
+        }
+      ],
       "accuracy": {
         "total": 86,
         "correct": 41,
@@ -39,10 +67,38 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-06-22T16:10:34",
-      "pick_date": "2026-06-22",
-      "count": 0,
-      "picks": [],
+      "updated_at": "2026-06-23T16:10:47",
+      "pick_date": "2026-06-23",
+      "count": 3,
+      "picks": [
+        {
+          "stock_code": "005490",
+          "name_kr": "POSCO홀딩스",
+          "ms_score": 58,
+          "ai_score": 91,
+          "confidence": "HIGH",
+          "reason": "[T] tech 92 / earn 0 (RSI 32, 5일 -11.2%)",
+          "entry_price": 346500.0
+        },
+        {
+          "stock_code": "267250",
+          "name_kr": "HD현대",
+          "ms_score": 60,
+          "ai_score": 84,
+          "confidence": "HIGH",
+          "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -17.6%)",
+          "entry_price": 224000.0
+        },
+        {
+          "stock_code": "010140",
+          "name_kr": "삼성중공업",
+          "ms_score": 63,
+          "ai_score": 78,
+          "confidence": "MEDIUM",
+          "reason": "[T] tech 79 / earn 0 (RSI 44, 5일 -6.8%)",
+          "entry_price": 26200.0
+        }
+      ],
       "accuracy": {
         "total": 96,
         "correct": 44,
@@ -101,8 +157,8 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-06-22T16:10:34",
-      "pick_date": "2026-06-22",
+      "updated_at": "2026-06-23T16:10:47",
+      "pick_date": "2026-06-23",
       "count": 0,
       "picks": [],
       "watching": [],
