@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T18:05:02",
+  "generated_at": "2026-06-23T18:08:39",
   "count": 500,
   "posts": [
     {
@@ -2459,6 +2459,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 10754,
+      "title": "나스닥 선물이 기술주 약세와 Fed 인상 우려로 2% 하락. 미국 금리 인상 가능성 강화는 반도체·AI 업종에 부정적 영향을 미치며 한국의 SK하이닉스, 삼성전자 등 수출 반도체 주가 압박 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-23",
+      "summary": "<p>나스닥 선물이 기술주 약세와 Fed 인상 우려로 2% 하락. 미국 금리 인상 가능성 강화는 반도체·AI 업종에 부정적 영향을 미치며 한국의 SK하이닉스, 삼성전자 등 수출 반도체 주가 압박 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nasdaq futures fall 2% on tech worries, Fed hike bets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "Fed 인상 우려와 기술주 약세는 한국 반도체·AI 관련 주가에 직결되는 의미있는 악재이며, 특히 메모리/HBM 수요 선행지표로 작용",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON2t3ZXZzXzl6MTZCNnY4U09lU2l4ZWZENmdOZVZuNVF2VzFjYlFleVlLR1FHNlFwbjlvRnZVVjFsOGo1RXBsOGUzVk1xVERVal9SbVFxeG1CdVhSaHZtajFlUDRRZFllalVYdVRGY1J5ZGN1bVFfN2xmRHB0aTdxQjJBRVhIMFI0NWI3SjlXeTdRWUQxaU9rRA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-23 18:07:05"
     },
     {
       "id": 10706,
@@ -13466,35 +13493,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLVpEbWRNRWppTURQUi11dkJOVGhWTTVTNDVtNC1hby1rUW9jZnlvWHA3WEJwRW1HUGRrUzl6MFVjT3F3bExlNXMzeEF4VGh4MmxxVHU3enIzalZXS0N3TDdYTFNDc3A5QnRSTDhVQjZTX01yWmt4azF2ckRCN04wWldxdDBRTUZkbTVqbWV6NktVcHVnSkRud2U2MG1PZkZQM3JyeWgxVWs5NGk2ekE?oc=5",
       "direction": "up",
       "updated_at": "2026-06-04 12:08:41"
-    },
-    {
-      "id": 2359,
-      "title": "중국 경제가 11월 성장이 정체되면서 개혁 요구가 커지고 있다. 중국 경제 둔화는 한국의 주요 수출처인 화장품, 자동차, 철강 등 한국 기업들의 중국 시장 수요 감소로 이어질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2025-12-14",
-      "summary": "<p>중국 경제가 11월 성장이 정체되면서 개혁 요구가 커지고 있다. 중국 경제 둔화는 한국의 주요 수출처인 화장품, 자동차, 철강 등 한국 기업들의 중국 시장 수요 감소로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s economy stalls in November as calls grow for reform Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국은 한국의 최대 수출국이며, 경제 정체는 화장품·자동차·철강·게임 등 주요 수출 산업 실적에 직접적 악영향을 미칠 가능성 높음",
-      "stocks": [
-        "아모레퍼시픽",
-        "LG생활건강",
-        "현대자동차",
-        "기아",
-        "POSCO",
-        "엔씨소프트",
-        "넥슨"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYV8zdDlPQU1zX25QRGpUWWFTeWt2QmcyalBTcm1fUTJyYWlyV3IxYkRsNjFTQlIyQkMzSXJSdlNGRlhhay1qX3BvdV9hZkUyS0xkb2plQmZwb1RsMzVua3pVbFNIWVNkLWM2OFg1XzdjWUVySWZGdWU2Nkx2VzUxYlF0UVhRTWpCNzBWTHItQ0VQSlRaNUFGNF95ZVZJMXM?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-10 12:07:55"
     }
   ],
   "events": [
