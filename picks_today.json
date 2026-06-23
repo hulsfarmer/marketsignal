@@ -1,53 +1,35 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-23",
   "strategy": "hybrid",
-  "generated_at": "2026-06-19T15:05:02",
-  "count": 5,
+  "generated_at": "2026-06-23T15:05:56",
+  "count": 3,
   "picks": [
-    {
-      "stock_code": "024110",
-      "name_kr": "기업은행",
-      "ms_score": 62,
-      "ai_score": 97,
-      "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 98 (RSI 66, 5일 +0.2%)",
-      "entry_price": 21850.0
-    },
-    {
-      "stock_code": "047050",
-      "name_kr": "포스코인터내셔널",
-      "ms_score": 64,
-      "ai_score": 94,
-      "confidence": "HIGH",
-      "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -5.2%)",
-      "entry_price": 56300.0
-    },
-    {
-      "stock_code": "051910",
-      "name_kr": "LG화학",
-      "ms_score": 58,
-      "ai_score": 92,
-      "confidence": "HIGH",
-      "reason": "[E] tech 41 / earn 93 (RSI 41, 5일 -0.7%)",
-      "entry_price": 342500.0
-    },
     {
       "stock_code": "005490",
       "name_kr": "POSCO홀딩스",
-      "ms_score": 62,
-      "ai_score": 73,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 66 / earn 74 (RSI 31, 5일 -2.6%)",
-      "entry_price": 367000.0
+      "ms_score": 58,
+      "ai_score": 91,
+      "confidence": "HIGH",
+      "reason": "[T] tech 92 / earn 0 (RSI 32, 5일 -11.2%)",
+      "entry_price": 346500.0
     },
     {
       "stock_code": "267250",
       "name_kr": "HD현대",
-      "ms_score": 67,
-      "ai_score": 68,
+      "ms_score": 60,
+      "ai_score": 84,
+      "confidence": "HIGH",
+      "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -17.6%)",
+      "entry_price": 224000.0
+    },
+    {
+      "stock_code": "010140",
+      "name_kr": "삼성중공업",
+      "ms_score": 63,
+      "ai_score": 78,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 69 / earn 0 (RSI 34, 5일 -2.2%)",
-      "entry_price": 238500.0
+      "reason": "[T] tech 79 / earn 0 (RSI 44, 5일 -6.8%)",
+      "entry_price": 26200.0
     }
   ]
 }
