@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T15:05:02",
+  "generated_at": "2026-06-24T15:08:45",
   "count": 500,
   "posts": [
     {
@@ -254,6 +254,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 10952,
+      "title": "SK하이닉스가 고부가가치 HBM(High Bandwidth Memory) 칩 사업에 집중한 전략으로 시가총액에서 삼성전자를 추월했다. 이는 AI 메모리 칩 수요 증가에 따른 틈새시장 공략의 성공 사례로, 한국 반도체 기업의 AI 시대 포지셔닝 변화를 보여준다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-24",
+      "summary": "<p>SK하이닉스가 고부가가치 HBM(High Bandwidth Memory) 칩 사업에 집중한 전략으로 시가총액에서 삼성전자를 추월했다. 이는 AI 메모리 칩 수요 증가에 따른 틈새시장 공략의 성공 사례로, 한국 반도체 기업의 AI 시대 포지셔닝 변화를 보여준다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): How SK Hynix&#x27;s bet on a niche memory chip made it more valuable than Samsung Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "SK하이닉스의 시가총액 초월은 한국 기업의 AI 칩 경쟁력을 입증하며 메모리 반도체 업종 내 성과 분화를 명확히 보여주는 의미있는 산업 뉴스로, 삼성전자와 관련 메모리 업체들의 전략 재평가를 촉발할 수 있음",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzZyMHVEbFBPMjFsTEx3UG01MUF3MnduN2RTbGlhQkdHM1pNYWJtbkNUb0JIc3VfdTMwNFRfOVo2MWhTc09HLTBqdUJjX1NKYnVWbDh1WEdVZ2JBZG5VcW15Yk9hWHpDWHh5UmlwM3VySFk1YzIzX1FzUHlldUJlSklUODJFMnotelN1UVZwbVMyR1YxNXM1LUtTY09Dd0ZscWF2RXk4RFhWaXhqUmZwb01Eb0FtMVdVVXRKTUZUSmhNbEE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-24 15:07:09"
     },
     {
       "id": 10922,
@@ -2513,6 +2540,116 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 10961,
+      "title": "Fed 금리 인상 베팅으로 달러가 1년 이상 고점으로 상승하면서 루피 약세 예상. 달러 강세는 USD/KRW 상승으로 이어져 한국 수출기업 실적 개선과 외국인 자금 이탈 압력 동시 발생.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-24",
+      "summary": "<p>Fed 금리 인상 베팅으로 달러가 1년 이상 고점으로 상승하면서 루피 약세 예상. 달러 강세는 USD/KRW 상승으로 이어져 한국 수출기업 실적 개선과 외국인 자금 이탈 압력 동시 발생.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Rupee to slide after dollar powers to over 1-year high on Fed hike bets, risk-off Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 인상 신호는 한국 원화 약세, 해외 금리 차익거래(carry trade) 축소, 외국인 펀드 회수 등 거시적 영향이 크지만 장기적 경제 불확실성도 내재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "SK이노베이션",
+        "포스코",
+        "롯데칠성음료"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTDc3b0NWTmNSeUVnSEp4am84eC1DaFdweEVjekxyVF93OEUzcS00OF8wR1FZM01jTDBYTjl0Uk51ZHpwY3l0TUpFQmV2RHBuOVZCRXYySW85UjJnb1pBcjR4R3BETTlGaVo3TzNMWUJHRVozeXV3NEM3Nm94XzF6WS1lbDlwZFJEMDdnaVRkeTIzUFRDNk1rcWFuSDYzRVhSeE84UUZLbTRqRmNOLVNBWnAxallGMnhSZGE0?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-24 15:07:48"
+    },
+    {
+      "id": 10959,
+      "title": "달러화가 13개월 만에 최고치를 기록했으며, 미국 금리인상 베팅과 주식 급락이 달러 수요를 증가시켰다. 강달러는 USD/KRW 환율 상승으로 이어져 한국 수출주와 외국인 자금 유출에 악영향을 줄 전망이다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-24",
+      "summary": "<p>달러화가 13개월 만에 최고치를 기록했으며, 미국 금리인상 베팅과 주식 급락이 달러 수요를 증가시켰다. 강달러는 USD/KRW 환율 상승으로 이어져 한국 수출주와 외국인 자금 유출에 악영향을 줄 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar at 13-month high as rate hike bets, stock rout boost demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "강달러·금리인상 베팅은 한국 증시 외국인 매도, 원화약세, 저금리 자산 매력 감소로 이어지는 의미있는 매크로 악재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "포스코",
+        "카카오"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOczZuSmJEdVo0aFFaY2p3SjlQLVdvUnVoeERsdk5YRXRUbnJRaUticjVzTGk0X2xYYzRoMGNNOG9xMEVCa28tal92RzdqaC04V0pOajRaa2ZiSWtMYy1waHhMSjMta0h4bXlER0hGWUZZVUliT0lDeFhWUXY5RkthUUViVnpiVUZZZmt5XzRpTE9yVmlzek9ickd2b2d4TkVEMVRJcnRqeVZvNzJPSG9nbnpRejY?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-24 15:07:40"
+    },
+    {
+      "id": 10953,
+      "title": "한국 정부가 삼성전자, SK하이닉스와 새로운 반도체 투자 계획을 논의 중이라고 대통령 보좌관이 발표. HBM, 메모리, 파운드리 등 전략적 핵심 분야 투자 확대 추진으로 보임.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-24",
+      "summary": "<p>한국 정부가 삼성전자, SK하이닉스와 새로운 반도체 투자 계획을 논의 중이라고 대통령 보좌관이 발표. HBM, 메모리, 파운드리 등 전략적 핵심 분야 투자 확대 추진으로 보임.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea discussing new chip investments with Samsung, SK Hynix, presidential adviser says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "정부 차원의 반도체 대규모 투자 논의는 한국 주도 산업의 성장 기반 강화 신호로, SK하이닉스·삼성전자 등 관련 종목과 공급망 업체에 호재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUTU1OU9NUDJTeEJRZDg0UnFOMjAyOHJTcG5qa3N5dUlwVmtIUy1xN2pCM1VWMHNzeVlvTGVxSGNBMURKWGpaNk9IQlJiQTNoSUdjVUd6LXRqc2djODk5OU12bmNzNmZfeldhOUVCWGk2NUZTMGhTQ3piRmQ0aFhpbVo1N0lKVU4tdjh4NFZIWHV3YVlONXhpQWM1VVdjLWhfNzJ6VklZUDgzYzZnSEkzQmJjTnNKcFJndmN5YnlCV3g2cTVhdGhXd1BnNEFNQQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-24 15:07:15"
+    },
+    {
+      "id": 10951,
+      "title": "엔비디아의 중국 수출 금지 AI칩이 중국 암시장에서 가격이 2배 상승했으며, 이는 미국의 대중국 반도체 제재가 강화되고 있음을 시사한다. 한국 반도체 기업들의 중국 시장 점유율 확대 기회가 증가할 수 있다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-24",
+      "summary": "<p>엔비디아의 중국 수출 금지 AI칩이 중국 암시장에서 가격이 2배 상승했으며, 이는 미국의 대중국 반도체 제재가 강화되고 있음을 시사한다. 한국 반도체 기업들의 중국 시장 점유율 확대 기회가 증가할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nvidia&#x27;s banned AI chips double in price on China&#x27;s black market, FT reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국의 대중 반도체 제재 강화로 한국 SK하이닉스·삼성전자의 고급 칩 수출 수요 증가 가능성이 높으며, 공급망 재편이 예상되는 의미있는 산업 변화",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcGlTQURDRVp6VExuVE5WM3dyX05FZHh2VG5tZ2l5Q2ZtWXpTVVF6OWc5QTR0T01sMWtncEx3ZnlOSlhLbmN0dVZhTjh0SWVlenlzR0ljYnN3NnluWEZCUGlfUTYyQjE4N3hrRTJBd3c2Q0xnaUJ6WXRLeVNWbjFpb3lTOEU5ZmtfRS03c1NMaWd6NjVTLUY4a3g1Z0lxeGVwZjVKay1sakNrRWdSY01DTHFPNkpQb2pRRUVqd2VXdw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-24 15:07:05"
     },
     {
       "id": 10921,
@@ -13345,142 +13482,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHpzZkd1ZFJRYnliTmJJVE1faWpRN1I4YzVzWG9YeDlfbS1zQVBEOU01MlFSTHhZY05zRk1JNk80SmZkTWZLek5BM09YS0hWQll3NHVnMTBVU05oX3NmX2xCLWNvMndvYk1tMkg4enNqUnMzT2tUWlFnY1dZN1M5UG9FN1ZIR3VLcTlaZzcyZlBfUHg3OUhxRGh6a2xwNm50OVh3S21Ca1JpUEtUcmx3QUxIYkN1U1E0aHVFaWdTUQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-04 03:07:28"
-    },
-    {
-      "id": 847,
-      "title": "중국이 미국의 기술 기업 투자를 제한하기로 보도됨. 한국 반도체·파운드리 기업들은 중국 수출 규제 강화에 따른 글로벌 공급망 재편 및 대체 수요 증가 기회 창출 가능성",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-24",
-      "summary": "<p>중국이 미국의 기술 기업 투자를 제한하기로 보도됨. 한국 반도체·파운드리 기업들은 중국 수출 규제 강화에 따른 글로벌 공급망 재편 및 대체 수요 증가 기회 창출 가능성</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China to curb US investment in tech companies, Bloomberg News reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "중국의 미국 기술투자 제한은 글로벌 반도체 수급·공급망에 의미있는 변수이며, SK하이닉스·삼성전자 등 한국 기업의 고부가가치 제품 수요 증가 가능성 있음",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFdEX2pWSVFCVHJNRXBZMGRDQzdxTDdFNDZ5MlhCZzhYNEhfRWRmel91d1BQSnpXS0RpWDl5ZFFKQTg3QmhJVFFoWXRqTEJITUE4MjJlU1BvbHUyUDAzc0xEdXpIazR1Q3lKVVRYV3Azamd4ZGVSWGpTYmhVQUVtSUQyVWFVQUUtWTdrX1pMUFVPa05nYkpmWjNmdHBhTlZCUTMwMlhlS0Z2QWxvNVlJ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-04 12:07:08"
-    },
-    {
-      "id": 726,
-      "title": "Fed의 금리 인상 기조가 2026년 말까지 지속될 가능성이 높아지면서 달러 강세가 연장될 것으로 예상된다. 이는 USD/KRW 환율 상승으로 이어져 한국 수출주(반도체, 화학, 자동차)에는 긍정적이나, 외국인 자금 유출 우려로 KOSPI 외국인 수급에는 부정적 영향을",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-23",
-      "summary": "<p>Fed의 금리 인상 기조가 2026년 말까지 지속될 가능성이 높아지면서 달러 강세가 연장될 것으로 예상된다. 이는 USD/KRW 환율 상승으로 이어져 한국 수출주(반도체, 화학, 자동차)에는 긍정적이나, 외국인 자금 유출 우려로 KOSPI 외국인 수급에는 부정적 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed rate cut pushed back to late 2026 on war-related inflation risks: Reuters poll Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "글로벌 금리 경로 변화는 환율·외국인 수급·채권 금리 등 다층적으로 한국 시장에 영향을 미치는 의미있는 거시 뉴스이나, 아직 시간이 있는 미래 시점의 예측성 뉴스라 급성 영향은 제한적",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "기아",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWszZ19GeFVWZWFiNVNHV1RNcTFvRmtubmhJTjRwZnNrWkh1c0NxSTZIY1NILTVqVVVrb0NzMkN6VXAtN2VldjRGczI2MDFNTlFtQzlqa1dSZlNkNXpYZV9pbTJBbjhtNFZiS2tSci1wS3F6dlpCZV9ueTBEWjlIUjJGNF9FeENleldEdlI0LXB4MHRNSlB6bkNZQTJwb1p6b08yV3ZtUVNCWVczd1VqbXpzRjFoalU?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-03 22:14:42"
-    },
-    {
-      "id": 2263,
-      "title": "중국 1분기 경제 반등이 이란 전쟁으로 인한 글로벌 경기 악화로 위험에 처함. 중국 수요 부진과 지정학적 리스크 심화는 한국의 중국 수출 의존 업종(자동차, 화학, 철강)에 하방 압력",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-16",
-      "summary": "<p>중국 1분기 경제 반등이 이란 전쟁으로 인한 글로벌 경기 악화로 위험에 처함. 중국 수요 부진과 지정학적 리스크 심화는 한국의 중국 수출 의존 업종(자동차, 화학, 철강)에 하방 압력</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s Q1 economic rebound faces rough seas as Iran war jolts global outlook Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 모멘텀 약화와 지정학적 불확실성 확대는 한국의 주요 수출처 수요 부진과 글로벌 공급망 혼란을 초래하는 의미있는 악재",
-      "stocks": [
-        "현대차",
-        "기아",
-        "POSCO",
-        "LG생활건강",
-        "아모레G"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT0pySGZlMXMzbWl0cTJnbEJqUDFScnpSYkJFMjBNZ1M0Z21MZnFucVlqY1hLVnMwbThKY1VjYy10cklnSzRZWlBGbU9RcnNIaUhUeTNaVm04Zkc5bGJvV3JNUElaaTRDVVladk5YRkRYSmhMbWhnN2R5d2V3MzkwcUpoLWNQU2hTVWJXdDZMWmxkM0F0ZzRoamNEbFdwWlc4M1d4dDlaRExEZlFRcjVmUVNIWVV2dw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-09 21:08:31"
-    },
-    {
-      "id": 2498,
-      "title": "전쟁으로 인한 글로벌 부채 증가가 국제 권력 구도를 재편할 것으로 예상되며, 이는 중국을 포함한 주요국들의 경제·정치 영향력 변화를 초래할 가능성이 높음. 한국의 주요 수출산업(자동차, 반도체, 화학)은 글로벌 경기 둔화와 중국 수요 부진의 영향을 받을 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-13",
-      "summary": "<p>전쟁으로 인한 글로벌 부채 증가가 국제 권력 구도를 재편할 것으로 예상되며, 이는 중국을 포함한 주요국들의 경제·정치 영향력 변화를 초래할 가능성이 높음. 한국의 주요 수출산업(자동차, 반도체, 화학)은 글로벌 경기 둔화와 중국 수요 부진의 영향을 받을 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - War-fuelled debt spiral will shape global power Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "글로벌 부채 심화로 인한 경기 약세 리스크가 중국 경제 둔화를 초래하고, 한국의 주요 수출 시장 축소 및 고금리 환경 장기화로 이어질 가능성 있음.",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "POSCO",
-        "LG생활건강",
-        "아모레퍼시픽",
-        "엔씨소프트"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHlRcHhXeHdXVEpNZ0lvNGlYb2tzMERIYmhGNDF3SFNQTVV3R2N1dGswdmNKQ0o5MTMtWkhqdDhkS283MzRhdkZ3Qk1BcDN1MFViU090V0M1R29zNFo0aTdmQ2d3cERDLWFFRDRpZGhuWlNxMlZwZE9WbzJZNmpGZ0ZzMVMzakRnNVdlNzlCZTNfZ1JBeUt5eWhwSVVLNnUwbjd5VFZNSk03TmdE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-11 09:08:45"
-    },
-    {
-      "id": 2169,
-      "title": "중동 전쟁으로 인한 항공 운송로 차단이 제약사 의약품(특히 암치료제) 공급망을 위협하고 있으며, 국내 CDMO·바이오 기업들의 글로벌 수출 및 국제 협력에 차질이 예상된다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-03-31",
-      "summary": "<p>중동 전쟁으로 인한 항공 운송로 차단이 제약사 의약품(특히 암치료제) 공급망을 위협하고 있으며, 국내 CDMO·바이오 기업들의 글로벌 수출 및 국제 협력에 차질이 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Middle East war disrupts pharma air routes, risks cancer drugs supply Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "제약·바이오 글로벌 공급망 차단은 삼성바이오로직스, 셀트리온 등 수출 기반 CDMO·바이오기업의 경쟁력과 수익성에 직접 영향을 미치는 주요 산업 이슈",
-      "stocks": [
-        "삼성바이오로직스",
-        "셀트리온",
-        "한미약품",
-        "SK바이오사이언스"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUHYzQlZfcnVwVFp3aG12SjRPWXg3akh6TkpfdHMyYkc0YmJ4WEI2QURsb3NzMzloWTJZQWNfb1ZBYkMyT3lEam5QbHcyZHZoeF9FWEU2SFYtSWdJZUpaQkV0UG4wQmF3bGpBQnBtOHl6WUNLd1pxR3NhSXNIV3FRV0FkOGNlaXdYczhWZW8wTElVckJzdWw3cHN1bTY0a2pxOHpqUTZQNlJDOVQtdmFPMk0zanhzdkdkSmpXM1hZRQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-09 12:07:18"
     }
   ],
   "events": [
