@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T09:05:02",
+  "generated_at": "2026-06-24T09:08:44",
   "count": 500,
   "posts": [
     {
@@ -2486,6 +2486,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 10885,
+      "title": "반도체 업황 악화를 의미하는 'Chip wreck' 헤드라인으로 추정되며, 글로벌 칩 산업의 구조적 약세가 HBM 수요 부진, 메모리 가격 하락 압력으로 이어질 가능성 높음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-23",
+      "summary": "<p>반도체 업황 악화를 의미하는 'Chip wreck' 헤드라인으로 추정되며, 글로벌 칩 산업의 구조적 약세가 HBM 수요 부진, 메모리 가격 하락 압력으로 이어질 가능성 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trading Day: Chip wreck Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "반도체 산업 전반의 부정적 신호는 한국의 메모리·파운드리 수출 경쟁력과 수익성에 직결되는 명확한 악재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV2Q3MUFjRFVSRHMtWHB1WTRIajUwcmVBOUlYYlRFaENsWG5BMnZUd3c0dWx3V0tybHBTMEU3bTVVenRzdzNUd1R4cl9VSW9CTEtIV2FpeVhEVWw3ZmdxeXB2Ukc5Wm0taTl0SkxfQVhnd3RSdzZuNmFPcGhoSHhYQnNKaFhMM0JwX2FMUmhDNFBqdmlSRDhnWnZSdW9Ec3B1ZGRBMnJB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-24 09:07:06"
     },
     {
       "id": 10826,
@@ -13456,34 +13483,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0Z2bmNaaW5VZ0pxWmtZZ3dGZnN3QVNjZkFGZm9wTV96V1hzVTNUZ3VmNG90SWcwZ2h6ZHJJaWZDQ0tTSVhDN3FieVRpanRmRWF1bDdza193YUVzLW84SW05cllheHBfRV9hbDFjZXZTTWxkSURUX1hTWmQ3cEU2U0t4ZGRfa21mdFVqcFlLVHpLZERUYlFpc19tam5IcTR4X0YxbFl3ZG9sZERhUlNGNXVhU0xJNENXeW5BcUNYMGR6OFU?oc=5",
       "direction": "down",
       "updated_at": "2026-05-10 21:08:00"
-    },
-    {
-      "id": 8431,
-      "title": "미국 11월 무역적자가 34년 만에 최대 규모로 확대되었으며, 이는 달러 강세 지속과 미국 금리 인상 압력으로 이어져 원/달러 환율 상승, 외국인 주식 이탈, 한국 채권 금리 상승을 초래할 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-01-29",
-      "summary": "<p>미국 11월 무역적자가 34년 만에 최대 규모로 확대되었으며, 이는 달러 강세 지속과 미국 금리 인상 압력으로 이어져 원/달러 환율 상승, 외국인 주식 이탈, 한국 채권 금리 상승을 초래할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US trade deficit widens by the most in nearly 34 years in November Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 무역수지 악화는 Fed의 긴축 기조 강화 신호로 작용하여 달러 강세, 원화 약세, 외국인 주식 이탈 등 한국 증시에 직접적 부정적 영향 미침.",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대자동차",
-        "포스코",
-        "대한항공"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3F6OTFMazRKdTI4TGt4ajh4SEx3RXlObXJBTW9VeUdodlc1Y1RxQm1XV1lvNnNwQ3BISE5QZVQzQW00dnV6aW1LTUdEeUhVMVFqd0VYLTAwMTluZk04MUdvWGlscy1fSVdVdmVyb01XRTZRMU9EanlnRXF3UTlkWjhzSjJNNUdDT2FYRi1oWG5uOW9FN2VHeFNzVXNLVmhRUXJR?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-10 15:07:35"
     }
   ],
   "events": [
