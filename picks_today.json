@@ -1,35 +1,7 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "strategy": "hybrid",
-  "generated_at": "2026-06-23T15:05:56",
-  "count": 3,
-  "picks": [
-    {
-      "stock_code": "005490",
-      "name_kr": "POSCO홀딩스",
-      "ms_score": 58,
-      "ai_score": 91,
-      "confidence": "HIGH",
-      "reason": "[T] tech 92 / earn 0 (RSI 32, 5일 -11.2%)",
-      "entry_price": 346500.0
-    },
-    {
-      "stock_code": "267250",
-      "name_kr": "HD현대",
-      "ms_score": 60,
-      "ai_score": 84,
-      "confidence": "HIGH",
-      "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -17.6%)",
-      "entry_price": 224000.0
-    },
-    {
-      "stock_code": "010140",
-      "name_kr": "삼성중공업",
-      "ms_score": 63,
-      "ai_score": 78,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 79 / earn 0 (RSI 44, 5일 -6.8%)",
-      "entry_price": 26200.0
-    }
-  ]
+  "generated_at": "2026-06-24T15:04:49",
+  "count": 0,
+  "picks": []
 }
