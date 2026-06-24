@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T21:05:01",
+  "generated_at": "2026-06-24T21:08:43",
   "count": 500,
   "posts": [
     {
@@ -254,6 +254,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 11038,
+      "title": "SK하이닉스가 7월 미국 상장을 통해 최대 290억 달러를 조달할 예정. HBM 반도체 글로벌 리더로서 자금력 강화로 AI칩 경쟁력 확보.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-24",
+      "summary": "<p>SK하이닉스가 7월 미국 상장을 통해 최대 290억 달러를 조달할 예정. HBM 반도체 글로벌 리더로서 자금력 강화로 AI칩 경쟁력 확보.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea&#x27;s SK Hynix to raise up to $29 billion in US listing in July Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "SK하이닉스의 미국 상장과 대규모 자금조달은 HBM 경쟁력 강화 및 한국 반도체 위상 상승 신호로, 관련 공급망(한미반도체, 이수페타시스) 및 삼성전자 경쟁 심화 우려 병존",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcHZpd3FfSXFqZWF1UlNscmxPUVJtSEhLMTNxNjhUYktCaWRWbmRjUzNGSzRKWEE5MklCWGU4cm8zN1RGeEhTWTgyV0pXR2ZVMFVUMXhWczFkNTRXTjlUU2ltLWFMbG9PbGhOdUNVRktKNXVOMVFDbnk5RkdXSnVEM01id1pNZDc2dWFPQkQ3OFRmYXZtbmNRQTdkdDNMbXN4d1FwRTVOTndDUjJpZ3c?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-06-24 21:07:08"
     },
     {
       "id": 10952,
@@ -13455,33 +13482,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSTljTXlld2NZUEpMNUZ6RFlXS2VVNFJWcTd6UGQ5M3d5RkJJU1U3WEJnOXhnbVI5UmRIT09mdnNmQXk4QW9tcVVESzJyaU1KM3BQSndIdWowN19fSHdlY2ZWN1kxTTNId1VWTDZKRzlpUHB1MGNFbml0dWNqajNIVUg0Yl9nbG00RnNXbi1DeTBFU2dCOFZ2U0VZcHRWR3lDZkVVZE1FVWhqZEw0WXVV?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-04 18:07:29"
-    },
-    {
-      "id": 762,
-      "title": "중국이 미국과의 무역 휴전 기간 동안 경제 정책 도구를 확대하고 있으며, 이는 반도체·AI 등 첨단산업 경쟁 심화로 이어질 수 있다. 한국 반도체 기업들의 중국 시장 경쟁 압력 증가 및 수출 구조 변화 가능성.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-26",
-      "summary": "<p>중국이 미국과의 무역 휴전 기간 동안 경제 정책 도구를 확대하고 있으며, 이는 반도체·AI 등 첨단산업 경쟁 심화로 이어질 수 있다. 한국 반도체 기업들의 중국 시장 경쟁 압력 증가 및 수출 구조 변화 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): How China has expanded its economic toolkit during its trade truce with the US Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "중국의 경제정책 확대는 한국 반도체(HBM·메모리·파운드리) 기업들의 중국 시장 경쟁 심화 및 공급망 구도 변화를 초래할 수 있는 주요 거시 변수",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHpzZkd1ZFJRYnliTmJJVE1faWpRN1I4YzVzWG9YeDlfbS1zQVBEOU01MlFSTHhZY05zRk1JNk80SmZkTWZLek5BM09YS0hWQll3NHVnMTBVU05oX3NmX2xCLWNvMndvYk1tMkg4enNqUnMzT2tUWlFnY1dZN1M5UG9FN1ZIR3VLcTlaZzcyZlBfUHg3OUhxRGh6a2xwNm50OVh3S21Ca1JpUEtUcmx3QUxIYkN1U1E0aHVFaWdTUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 03:07:28"
     }
   ],
   "events": [
