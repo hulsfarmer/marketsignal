@@ -1,7 +1,35 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "strategy": "hybrid",
-  "generated_at": "2026-06-24T15:04:49",
-  "count": 0,
-  "picks": []
+  "generated_at": "2026-06-25T15:05:30",
+  "count": 3,
+  "picks": [
+    {
+      "stock_code": "105560",
+      "name_kr": "KB금융",
+      "ms_score": 62,
+      "ai_score": 99,
+      "confidence": "HIGH",
+      "reason": "[T] tech 99 / earn 0 (RSI 35, 5일 -6.9%)",
+      "entry_price": 151800.0
+    },
+    {
+      "stock_code": "010140",
+      "name_kr": "삼성중공업",
+      "ms_score": 67,
+      "ai_score": 94,
+      "confidence": "HIGH",
+      "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -11.2%)",
+      "entry_price": 24600.0
+    },
+    {
+      "stock_code": "005490",
+      "name_kr": "POSCO홀딩스",
+      "ms_score": 62,
+      "ai_score": 92,
+      "confidence": "HIGH",
+      "reason": "[T] tech 92 / earn 0 (RSI 32, 5일 -9.7%)",
+      "entry_price": 331500.0
+    }
+  ]
 }
