@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T14:35:22",
+  "generated_at": "2026-06-25T14:40:03",
   "count": 500,
   "posts": [
     {
@@ -13864,6 +13864,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "폴레드",
+      "event_date": "2026-07-10",
+      "event_type": "배당기준일",
+      "title": "폴레드 — 현금ㆍ현물배당결정              (중간배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625900306"
+    },
+    {
+      "stock_code": "",
       "stock_name": "코미코",
       "event_date": "2026-07-15",
       "event_type": "임시주주총회",
@@ -14045,6 +14053,14 @@
       "event_type": "배당금지급예정일",
       "title": "피에스텍 — 현금ㆍ현물배당결정              (분기배당)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612900526"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "폴레드",
+      "event_date": "2026-07-24",
+      "event_type": "배당금지급예정일",
+      "title": "폴레드 — 현금ㆍ현물배당결정              (중간배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625900306"
     }
   ]
 }
