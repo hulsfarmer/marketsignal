@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T09:05:12",
+  "generated_at": "2026-06-25T09:08:10",
   "count": 500,
   "posts": [
     {
@@ -2567,6 +2567,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 11145,
+      "title": "기술주 약세가 인플레이션 완화 긍정 효과를 상쇄하면서 글로벌 증시 약세 심화. 이는 USD/KRW 환율 상승, KOSPI 외국인 매도 압박, 한국 반도체·기술주 동반 하락으로 이어질 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-24",
+      "summary": "<p>기술주 약세가 인플레이션 완화 긍정 효과를 상쇄하면서 글로벌 증시 약세 심화. 이는 USD/KRW 환율 상승, KOSPI 외국인 매도 압박, 한국 반도체·기술주 동반 하락으로 이어질 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trading Day: Tech jitters smother inflation relief Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "글로벌 기술주 약세는 한국의 반도체·IT 수출 기업과 외국인 투자 심리에 직접 영향을 미치는 주요 매크로 변수",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "LG디스플레이",
+        "현대차"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU0pkU0RoMXFxRTJXY0p5a0RhcDR2QVFfdGpzbnF4MGJOWGlTbGlYUE5KMjZ4UldmdjJCcWdiajBCSkk3Tm5NWEQzdVd4YVJfUE02UVdxanJJVWh0LXpsMFNaaWhtQkt5TzJZYy00NGJabjhScXA3Q2E2cWJ3aHBNUXpXWl9UV09PamhrMDh2YmNTci1tbF95dGtXSnFhT2JVYTJsbXpB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-25 09:07:30"
     },
     {
       "id": 11070,
@@ -13450,34 +13478,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcV9OQzVYM01iYWRrc2IyX00xR3I1VmZQM3hBZFhndDR0UXhMd0c1ZnJDaEZHUVZPZzBrd2Z4TE1LV1RoYm1CZng1Zkk2SmU4dHMzYUZiMzNhc1B4N1UyV0YyS1VMUkF1N1lSenFtUFVDV1lHcjJnZmhJcTRiSkQtX3MxVHhWakpBR2lQbWlVaXY4VDFEeU5KZ0x0eElvRW1rQ0w4cWVXSHVMYnBsT05Gbzl3?oc=5",
       "direction": "up",
       "updated_at": "2026-05-04 09:07:27"
-    },
-    {
-      "id": 728,
-      "title": "미국 4월 소비자심리지수가 사상 최저로 급락하고 인플레이션 기대치가 상승했다. 이는 USD/KRW 강세(달러 가치 상대적 상승), KOSPI 외국인 매도 압력, 한국 채권 금리 상승 가능성을 야기한다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-27",
-      "summary": "<p>미국 4월 소비자심리지수가 사상 최저로 급락하고 인플레이션 기대치가 상승했다. 이는 USD/KRW 강세(달러 가치 상대적 상승), KOSPI 외국인 매도 압력, 한국 채권 금리 상승 가능성을 야기한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US consumer sentiment slumps to record low in April; inflation expectations rise Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 경제 약화 신호는 연준의 금리 인상 지속 가능성을 높여 달러 강세와 외국인 주식 이탈을 초래하고, 한국 수출·경기에 부정적 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대자동차",
-        "현대모비스",
-        "롯데칠성음료"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaVRoN1VGQ2Y5SDlHTUUxTnBtR3VVY0loMlJZQVh5ck15N2x5LWxVNkstWkw5eGNFTjJlOGZmUDZaSnAzb1dxanZDWW9XVDdTWnhiczNzTjBqNFhCbm13OGl5M2JYYl9md1Z4VUhjbXVsNnBoUTNQb0R0dVNqYkcwazJaNVBXMi1DU08ycy1qSkt3RlQ4a1lYR2RYczBOdw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:14:49"
     }
   ],
   "events": [
