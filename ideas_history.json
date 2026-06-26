@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T15:04:45",
+  "generated_at": "2026-06-26T16:10:37",
   "dates": [
     "2026-06-26",
     "2026-06-25",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 89,
+      "total": 91,
       "correct": 41,
-      "hit_rate": 46.1,
-      "avg_return": 0.38,
-      "avg_return_open": 0.84
+      "hit_rate": 45.1,
+      "avg_return": 0.36,
+      "avg_return_open": 0.8
     },
     "hybrid": {
-      "total": 99,
-      "correct": 44,
-      "hit_rate": 44.4,
-      "avg_return": -0.1,
-      "avg_return_open": 0.31
+      "total": 102,
+      "correct": 45,
+      "hit_rate": 44.1,
+      "avg_return": -0.15,
+      "avg_return_open": 0.25
     }
   },
   "by_date": {
@@ -155,10 +155,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 42로 종가매수에 유리한 30~60 구간 내 가장 안정적인 위치에 있으며, 자사주 4000억원 소각은 아직 주가에 충분히 반영되지 않은 수급_개선 신호입니다. 5일 -9.4% 하락 후 오늘 보합으로 기술적_반등 조건을 충족하며, 20일 낙폭(-3.5%)이 타 종목 대비 작아 상대적 방어력이 높습니다.",
             "entry_price": 114200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 114000.0,
+            "return_pct": -0.18,
+            "return_pct_open": -0.18,
+            "correct": 0
           },
           {
             "stock_code": "009540",
@@ -168,10 +168,10 @@
             "confidence": "LOW",
             "reason": "RSI 47로 중립 구간에 위치하며 5일 -12.6% 낙폭 후 오늘 보합으로 매도세 소진 신호가 나타납니다. 최대 20억달러 교환사채 발행은 재무 건전성을 시사하는 긍정 뉴스로 수급_개선 기대가 있으나, 뚜렷한 반등 촉매 부재와 약세 시장 환경을 고려해 보수적 비중으로 접근합니다.",
             "entry_price": 368000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 366000.0,
+            "return_pct": -0.54,
+            "return_pct_open": -0.54,
+            "correct": 0
           }
         ]
       },
@@ -186,10 +186,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 99 / earn 0 (RSI 35, 5일 -6.9%)",
             "entry_price": 151800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 151900.0,
+            "return_pct": 0.07,
+            "return_pct_open": 0.07,
+            "correct": 1
           },
           {
             "stock_code": "010140",
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -11.2%)",
             "entry_price": 24600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 23800.0,
+            "return_pct": -3.25,
+            "return_pct_open": -3.25,
+            "correct": 0
           },
           {
             "stock_code": "005490",
@@ -212,10 +212,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 92 / earn 0 (RSI 32, 5일 -9.7%)",
             "entry_price": 331500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 323000.0,
+            "return_pct": -2.56,
+            "return_pct_open": -2.56,
+            "correct": 0
           }
         ]
       },
