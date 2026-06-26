@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T23:40:03",
+  "generated_at": "2026-06-27T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13466,22 +13466,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "SV인베스트먼트",
-      "event_date": "2026-06-26",
-      "event_type": "주주총회",
-      "title": "SV인베스트먼트 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514901627"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "대신정보통신",
-      "event_date": "2026-06-26",
-      "event_type": "주주총회",
-      "title": "대신정보통신 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618900166"
-    },
-    {
-      "stock_code": "",
       "stock_name": "미코",
       "event_date": "2026-06-29",
       "event_type": "채권자이의 제출 마감",
@@ -14103,6 +14087,22 @@
       "event_type": "배당금지급예정일",
       "title": "폴레드 — 현금ㆍ현물배당결정              (중간배당)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625900306"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "미래산업",
+      "event_date": "2026-07-27",
+      "event_type": "신주권 상장",
+      "title": "미래산업 — 주식분할결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800375"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "씨앤투스",
+      "event_date": "2026-07-27",
+      "event_type": "합병반대의사통지 종료",
+      "title": "씨앤투스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000282"
     }
   ]
 }
