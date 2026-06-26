@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T12:05:02",
+  "generated_at": "2026-06-26T12:08:06",
   "count": 500,
   "posts": [
     {
@@ -2695,6 +2695,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 11431,
+      "title": "이란이 화물선에 발포했다는 미국 관리의 발언으로, 중동 지역 긴장 고조. 호르무즈 해협 운송로 불안정성 심화로 유가 상승 압력 및 에너지·화학 기업의 원가 상승 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-25",
+      "summary": "<p>이란이 화물선에 발포했다는 미국 관리의 발언으로, 중동 지역 긴장 고조. 호르무즈 해협 운송로 불안정성 심화로 유가 상승 압력 및 에너지·화학 기업의 원가 상승 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran fired on cargo ship, US officials tell Reuters Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 분쟁 심화 → 유가 급등 가능성 높아 → S-Oil, GS, SK이노베이션 등 에너지·화학주 실적 악화 우려 및 원자재 가격 변동성 증가",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb1JqTWo2bzlJWXAwR2pkVTMyRVpTZkotam9lUlBxMzhyZ1FRM195WWlpay1nemFSX0kxTU9reDJVRnZQYm5QbTVxMUtsajZkVllBZUxaVUQ3YWJWSnRQYVZDX1QzQjhZdjV4Yjh2c1F0N2dvNnNrWXJ0YS1ZNU1HNXRyNmlxM2FycnBNUFVaQWExTVBNY2JIb1JaMDh4WWJPTmRF?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-26 12:07:51"
     },
     {
       "id": 11397,
@@ -13440,35 +13467,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFlzZVg4MzRHa2h6dXZ5NWE2d084M0lyRk5YeERRN1FCenNHVXBtcmVDb255Qzh1bFdpV2NTLVczU0JGRVFxcTcxUEY2dFptb3VUVXhKSDZzaTd6NFdrUEtiaG53MjY2cW5fUjAxTUY3Q0FZaXR2eFRTd1BjMVZfMDJGdTVYMGdhQmpQUS1YZ3RKcmt4Q0tKWllOTm5LU2Flc0YxaTNQZ1k?oc=5",
       "direction": "up",
       "updated_at": "2026-05-04 15:08:09"
-    },
-    {
-      "id": 825,
-      "title": "유가 급등과 이란 지정학적 우려로 미국 증시는 보합으로 마감했으며, 연방준비제도(Fed) 금리 결정과 기업 실적이 시장의 주요 관심사. 유가 상승은 에너지 수입국 한국의 교역조건 악화를 초래할 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-29",
-      "summary": "<p>유가 급등과 이란 지정학적 우려로 미국 증시는 보합으로 마감했으며, 연방준비제도(Fed) 금리 결정과 기업 실적이 시장의 주요 관심사. 유가 상승은 에너지 수입국 한국의 교역조건 악화를 초래할 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil soars, US stocks end muted on Iran worries with earnings, Fed in focus Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 정책 불확실성과 유가 급등이 USD/KRW 환율, 한국 기업의 수입비용, 그리고 외국인 자금 수급에 직접 영향을 미치는 매크로 변수",
-      "stocks": [
-        "SK이노베이션",
-        "S-Oil",
-        "GS에너지",
-        "삼성전자",
-        "LG화학",
-        "현대차",
-        "대형 수출 기업"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9od0NpclZ4VU9xb3Q5Qm9fNFk3ejI5a3ZrWmlTMmpqb0lWT0g3ZExrdmh6MnlfZTRabkVXS1hENXlEakN6QVJFaE1COWk1N0xfdTV1d2EyUS1uTjlsUnV3SVdoTU00RWtidE1NRDFBOVhaY2JQVEJyQkRfZw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 09:08:05"
     }
   ],
   "events": [
