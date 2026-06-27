@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T03:05:01",
+  "generated_at": "2026-06-28T03:07:52",
   "count": 500,
   "posts": [
     {
@@ -254,6 +254,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 11741,
+      "title": "호르무즈 해협 유조선 피격 사건으로 이란-미국 간 긴장 고조, 평화협정 이후 최악의 대립 상황. 중동 지정학적 리스크 확대로 유가 상승 압력 가능성 높음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-27",
+      "summary": "<p>호르무즈 해협 유조선 피격 사건으로 이란-미국 간 긴장 고조, 평화협정 이후 최악의 대립 상황. 중동 지정학적 리스크 확대로 유가 상승 압력 가능성 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Tanker struck in Hormuz as Iran, US trade attacks in worst escalation since peace deal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 공급망 리스크 급증으로 유가 변동성 확대 시 유정/석유화학 계열 한국 종목 수익성에 직접 영향",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOamVFR0VfZVlNU01BWjNWakdNczVUSHAzNWFlM0J3MGV1b0ZmbldmdnhQUHVpLTNabjVZSG5tSDJ0RDlQREk0emJnT3ZGbjFEZjVpTEt2UDgxOXpMdWV3dTIzX1ZtQVNpeUdDRVplMkUxd0FVNzNPTEFwZ3BVSUo4SG1BcHFDeEdYS2tIM3RUaWpZNEtyeWlub0h5c29pNjJmdDZ6Y2tha2hKWkNGa3Y0Y2JNYnk4ZWJuUlk4?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-28 03:07:22"
     },
     {
       "id": 11318,
@@ -13435,32 +13462,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORGZRa0oycWlMaXFEakh0LUIxRnFfRTI5R3pZQXNXZXJmSzNhSXpIcWJTRmgyUkZ2THY0VzVWeUJDT180RXlBdTUzYzdwWGxVTGIxczN3LVM1aWxxMS1JdDQzYXNRQ2NOTnIwY0RtZkpudkthUjhxbzVXbzR6dzhaQXBqczBWaVl3bVgtSk14Ty1BR082cGxBQ21COGp0a2IxdjE2NDlldjh6SUFXSXAyejlxRWh0Y2Jfd3VDY1c1NA?oc=5",
       "direction": "up",
       "updated_at": "2026-05-04 06:10:03"
-    },
-    {
-      "id": 783,
-      "title": "알파벳이 클라우드 부문 사상 최고 실적으로 분기 매출 예상을 상회했으며, 이는 AI 인프라 수요 증가를 반영. 한국 메모리/파운드리 업체들의 AI칩 수요 지속성을 긍정적으로 시사.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>알파벳이 클라우드 부문 사상 최고 실적으로 분기 매출 예상을 상회했으며, 이는 AI 인프라 수요 증가를 반영. 한국 메모리/파운드리 업체들의 AI칩 수요 지속성을 긍정적으로 시사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Alphabet revenue tops expectations on record quarter for cloud unit Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 대형 기술사의 AI/클라우드 강한 성장이 SK하이닉스 HBM, 삼성전자 D램/파운드리 수요 전망을 개선시키는 호재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVGtaR1g4ZGZaM1lyUzIxZDJlQU0tWDlHaC1SLU1fYmZnNC1ndEVKdWdLXzZDTzRGMDVVM25FTE0yd1ZOZHR5Q3NCcTNaSTN1TDhVVDVTNVpxeUhKaV93MzJ2WmlONk1fTnM5OVc3b0t1YjNWZklCQUZ5X29mZnkwYWNxYTMyM2todk9QVnh6dTBmYS12bFNKS21uRkhUOWZ2eEtobFpQSHJzLUJYYW8wc0dwQVA2LTQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-04 06:08:43"
     }
   ],
   "events": [
