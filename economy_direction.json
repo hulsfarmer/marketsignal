@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T21:05:02",
+  "generated_at": "2026-06-29T21:08:40",
   "count": 500,
   "posts": [
     {
@@ -2918,6 +2918,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 12001,
+      "title": "호르무즈 해협 유조선 이탈로 유가 공급망 재편 예상. 한국의 주요 에너지·화학 기업들의 유가 변동성 노출 증가 및 정제마진 변화 초래.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-29",
+      "summary": "<p>호르무즈 해협 유조선 이탈로 유가 공급망 재편 예상. 한국의 주요 에너지·화학 기업들의 유가 변동성 노출 증가 및 정제마진 변화 초래.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Hormuz oil exodus sets stage for chaotic rebalancing act Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 유가 공급 구조 변화는 한국의 정유·화학 기업들의 수익성에 직접적 영향을 미치며, 에너지 수입국으로서 거시경제 리스크 상승",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR2p4V01TS19VbzhydC1vMzhvNlBuMXdmS0ZyekVuZmk0aU9GVlc2MGM2bFdJQlcxdEZOQVpYeGJqUW5QUVI2am1hY3NrZ2dfSzVPbXVOdE1PM1lMRnE5UkFEdUpfNUVOVjV6VXhaWkhsVEZ6eklsOXpvcUVFdVVRYXBGVy1DaU9hdkZfbU01YkVCakJGX2p0R1JXNmpOenhmNXVlOElWMGczVlo5RkVuOHNwWmQ4Y3pYX3htQ0RR?oc=5",
+      "direction": "down",
+      "updated_at": "2026-06-29 21:07:54"
+    },
+    {
+      "id": 11990,
+      "title": "한국이 반도체·AI 분야 3대 메가 프로젝트를 추진 중이며, SK하이닉스의 HBM, 삼성전자의 메모리/파운드리 등이 핵심 대상. 정부 주도 대규모 투자로 글로벌 경쟁력 강화 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-29",
+      "summary": "<p>한국이 반도체·AI 분야 3대 메가 프로젝트를 추진 중이며, SK하이닉스의 HBM, 삼성전자의 메모리/파운드리 등이 핵심 대상. 정부 주도 대규모 투자로 글로벌 경쟁력 강화 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Key facts on South Korea&#x27;s three chip and AI &#x27;mega projects&#x27; Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "한국 반도체·AI 산업의 국가 전략적 메가 프로젝트 보도로, 관련 핵심 종목들의 중장기 성장성 및 정부 지원 신뢰도 상향 평가 가능",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNnRKRHFyQlZFbnRGMEJPclZSWHJOU1NObHFnSUR2QUlZZmJsMXhUZlFaS21TVUZ5bFZVdTZKa1R2XzJYcDdpT01vYzR1V2k4OVhnNUlEbnBJc1FhSTVZY29zaDJqTnNEanRvckU2NXdnTXFjelN0aGxncnRSZG44dVg5RFNFeGc0dmMtNGEtcE55RnhQWm85dkRDMFVXazdNVTRZNzk3Z041YTk1S3c?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-29 21:07:06"
     },
     {
       "id": 11956,
@@ -13385,64 +13439,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcHNVN1NrZlRqOHVvRTdsSFM5V2JtQ2V6VEpncnpycXQxUTdrbkdVLVhIdnE0b1YtbHRIdlNkaU5kVXB4dlIyRTRGcUZMclg1UVBzWVRhbmNmX295RGZVZnJ3TlZtak5PbDFjRkR1WUplREF2QXU1Y2FVTUgxM01iN3hnUlJ5dl9rOUItNmM2NHFfcXEzeFNNdHI1d0Rfc0gzODBXUDBYTHB6WGYyV0M2alJKQkw5NTVZMWlWSHhMWUtreWRTZmtMWjNJVlVYYURfbS1PWF9n?oc=5",
       "direction": "up",
       "updated_at": "2026-05-05 12:07:22"
-    },
-    {
-      "id": 747,
-      "title": "Fed 관계자 Hammack가 금리 인하 편향을 더 이상 신호하는 것이 적절하지 않다고 발언했으며, 이는 Fed의 금리 인하 전망 축소를 의미한다. 이에 따라 USD/KRW 환율 상승압력과 외국인 자금 유출 우려로 한국 주식시장에 부정적 영향이 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-01",
-      "summary": "<p>Fed 관계자 Hammack가 금리 인하 편향을 더 이상 신호하는 것이 적절하지 않다고 발언했으며, 이는 Fed의 금리 인하 전망 축소를 의미한다. 이에 따라 USD/KRW 환율 상승압력과 외국인 자금 유출 우려로 한국 주식시장에 부정적 영향이 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Hammack says no longer appropriate to signal rate cut bias Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed의 매파적 기조 강화는 달러 강세(원화 약세)와 글로벌 주식시장 약세로 이어져 KOSPI 외국인 수급 악화와 한국 수출 기업의 수익성 개선 지연을 초래할 수 있기 때문",
-      "stocks": [
-        "카카오",
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "기아",
-        "포스코",
-        "삼성SDI"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeFdrNlRWdm5YU2dNdEtuSFNmeC1UVmhDcFBlOUZZb2w3U0hhcFNIblFobkRzNkduUTEwS2c4VHJMek93eW1mRWluSXpLQjNrdlRGWGxaQjRqUmdYdkFWaW1PUlNwMmV6cWszT05zRlhhS1pxTjFkYVcxUmNmY3dXSEFBVUM4UFc3YVdqS2hrUnN3Z2RZV2ZCbFdNZFdBdnFkS3A3VEVoRG4?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-04 00:08:07"
-    },
-    {
-      "id": 727,
-      "title": "미국 연방준비제도가 유가 충격으로 인해 금리 인하 방침을 철회해야 한다는 정책당국자 발언. 이는 달러 강세 지속과 한국 수출기업 수익성 악화, 외국인 자금 이탈 가능성을 시사.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-01",
-      "summary": "<p>미국 연방준비제도가 유가 충격으로 인해 금리 인하 방침을 철회해야 한다는 정책당국자 발언. 이는 달러 강세 지속과 한국 수출기업 수익성 악화, 외국인 자금 이탈 가능성을 시사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed should ditch rate-cut lean because of oil shock, policymakers say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed의 금리 정책 선회는 USD/KRW 환율 상승, 글로벌 수출 기업 수익성 악화, 외국인 수급 변화로 직결되는 의미있는 글로벌 매크로 신호",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "삼성SDI",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNktfZTR3cElZWm5BdVlVTHN4WHBISHdHMV9RaEdINFJ4b0FfWllFay1mbXBzN1ZBVTZKeEpPQzF4aVJBa2VPcm5iTTVBeVpfam4xV2FFdEVaRzhkUC1jQlBNZkFVQk9wX1ZpUkprYnJKVlY2Zm94bEQyYXhLc1VtYkZIRzRlSGFfTjFaOGdOdG1fM2h4dll2ekpZOWVfUG1ZaGxvNEhJWUVtTmU0ZFJKbFE5RlpZcDIzcUhmeWhB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:14:45"
     }
   ],
   "events": [
