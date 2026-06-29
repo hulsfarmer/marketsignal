@@ -1,44 +1,7 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-29",
   "strategy": "hybrid",
-  "generated_at": "2026-06-26T15:04:44",
-  "count": 4,
-  "picks": [
-    {
-      "stock_code": "047050",
-      "name_kr": "포스코인터내셔널",
-      "ms_score": 60,
-      "ai_score": 90,
-      "confidence": "HIGH",
-      "reason": "[T] tech 91 / earn 0 (RSI 39, 5일 -12.0%)",
-      "entry_price": 48400.0
-    },
-    {
-      "stock_code": "010140",
-      "name_kr": "삼성중공업",
-      "ms_score": 77,
-      "ai_score": 87,
-      "confidence": "HIGH",
-      "reason": "[T] tech 87 / earn 0 (RSI 40, 5일 -13.6%)",
-      "entry_price": 23800.0
-    },
-    {
-      "stock_code": "055550",
-      "name_kr": "신한지주",
-      "ms_score": 58,
-      "ai_score": 73,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 73 / earn 0 (RSI 46, 5일 -6.3%)",
-      "entry_price": 94500.0
-    },
-    {
-      "stock_code": "105560",
-      "name_kr": "KB금융",
-      "ms_score": 72,
-      "ai_score": 59,
-      "confidence": "MEDIUM",
-      "reason": "[E] tech 0 / earn 60 (RSI 50, 5일 -4.0%)",
-      "entry_price": 151900.0
-    }
-  ]
+  "generated_at": "2026-06-29T15:04:45",
+  "count": 0,
+  "picks": []
 }
