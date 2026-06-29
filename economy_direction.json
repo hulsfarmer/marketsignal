@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T11:05:17",
+  "generated_at": "2026-06-29T11:35:17",
   "count": 500,
   "posts": [
     {
@@ -1808,6 +1808,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 11882,
+      "title": "엠오티 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260629",
+      "summary": "<p>엠오티가 300억 원 규모로 자기주식 576,923주(주당 5,200원)를 취득하기로 결정했으며, 배당가능이익 한도(약 208억 원) 대비 14.4% 수준의 자사주 매입임. 취득 후 1/3은 임직원 주식보상, 2/3은 소각 목적으로 진행될 예정.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 엠오티</p>",
+      "feedback": "자사주 매입 결정은 주당가치 제고 신호로 긍정적이나, 계약 규모가 배당가능이익의 14.4%에 불과하고 실제 취득은 향후 시장가격 변동에 따라 결정되는 신탁 구조라 즉시 주가 상승 영향은 제한적임",
+      "stocks": [
+        "엠오티"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000123",
+      "direction": "up",
+      "updated_at": "2026-06-29 11:35:08"
     },
     {
       "id": 11501,
@@ -13430,33 +13452,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbHBGRFByajhJQko2UHJTamF4SUNaV2J6OVhOeUR1ZnhLdU1LQzVzM2hUeElqRTM0THkzc1RZSjFkUW5oUGdBNWtnckh2enlTU1lmTXhxZms3SzZsLUhwVzNvajRIMWFJd0pnbTZjNXFLYThuVXVkVHZ6OVdYVjB0WHNMOHRnbDZqT1k1ODFqcjNsOVNHUnlGaVFwOG9kdw?oc=5",
       "direction": "down",
       "updated_at": "2026-05-04 21:07:23"
-    },
-    {
-      "id": 879,
-      "title": "AI 호황이 지속되며 글로벌 반도체 수요가 밝아지고 있는 가운데, 일본이 환율 개입에 나섰다. 한국의 HBM·메모리 반도체 수출주들에게 AI 수요 강세는 긍정적이나, 엔저 개입은 일본 경쟁사의 가격 경쟁력을 제약할 수 있다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-04-30",
-      "summary": "<p>AI 호황이 지속되며 글로벌 반도체 수요가 밝아지고 있는 가운데, 일본이 환율 개입에 나섰다. 한국의 HBM·메모리 반도체 수출주들에게 AI 수요 강세는 긍정적이나, 엔저 개입은 일본 경쟁사의 가격 경쟁력을 제약할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trading Day: AI glow brightens, Japan intervenes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 호황 확대는 한국 메모리/HBM 수요 증가 신호로 작용하며, 일본 환율 개입은 한국 반도체 기업의 상대적 가격 경쟁력 개선 가능성을 높인다.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQajhnazRzaTAtaW4xcl9velVqeEJRQUdSQzFNa2FEVmRPUFFpdk9yQkp1Z1ppZHhmZm1aZXpXMjA4Y3o4ZmIyb3lfTW5TNXdHOFdQYnM3WnhGMkJKWWVTcGt5MjczV1lEYXhhVUo1eWZINDdPVzVzZXJuc0plZnJ1WEtFZklIUXE1TEh1TTdPV1BBTlJtUUtVNEpXWHlFcG96bF9VXzNR?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-04 15:07:55"
     }
   ],
   "events": [
