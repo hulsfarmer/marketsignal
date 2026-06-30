@@ -1,7 +1,44 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "strategy": "hybrid",
-  "generated_at": "2026-06-29T15:04:45",
-  "count": 0,
-  "picks": []
+  "generated_at": "2026-06-30T15:05:03",
+  "count": 4,
+  "picks": [
+    {
+      "stock_code": "086790",
+      "name_kr": "하나금융지주",
+      "ms_score": 58,
+      "ai_score": 93,
+      "confidence": "HIGH",
+      "reason": "[E] tech 27 / earn 94 (RSI 47, 5일 -0.6%)",
+      "entry_price": 114800.0
+    },
+    {
+      "stock_code": "329180",
+      "name_kr": "HD현대중공업",
+      "ms_score": 73,
+      "ai_score": 93,
+      "confidence": "HIGH",
+      "reason": "[E+T] tech 35 / earn 93 (RSI 41, 5일 +0.7%)",
+      "entry_price": 592000.0
+    },
+    {
+      "stock_code": "267250",
+      "name_kr": "HD현대",
+      "ms_score": 60,
+      "ai_score": 84,
+      "confidence": "HIGH",
+      "reason": "[T] tech 85 / earn 0 (RSI 34, 5일 -3.8%)",
+      "entry_price": 203000.0
+    },
+    {
+      "stock_code": "047050",
+      "name_kr": "포스코인터내셔널",
+      "ms_score": 64,
+      "ai_score": 38,
+      "confidence": "LOW",
+      "reason": "[T] tech 38 / earn 0 (RSI 40, 5일 +2.2%)",
+      "entry_price": 51400.0
+    }
+  ]
 }

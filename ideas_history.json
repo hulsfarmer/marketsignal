@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-06-29T16:10:35",
+  "generated_at": "2026-06-30T15:05:04",
   "dates": [
+    "2026-06-30",
     "2026-06-26",
     "2026-06-25",
     "2026-06-23",
@@ -29,8 +30,7 @@
     "2026-04-29",
     "2026-04-28",
     "2026-04-27",
-    "2026-04-23",
-    "2026-04-22"
+    "2026-04-23"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,100 @@
     }
   },
   "by_date": {
+    "2026-06-30": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "034020",
+            "name_kr": "두산에너빌리티",
+            "ms_score": 67,
+            "ai_score": 58,
+            "confidence": "MEDIUM",
+            "reason": "RSI 47 중립 구간에서 20일 -17.7% 급락 후 체코 프로젝트·SMR 호재가 미반영 상태로 기술적 반등 패턴에 해당합니다. 과거 2026-06-16 동일 종목 +3.51% 성공 사례와 RSI 및 5일 수익률 패턴이 유사합니다. 특허 리스크는 단기 영향 제한적이며 긍정 뉴스 3건 대비 부정 1건으로 수급 개선 기대가 유효합니다.",
+            "entry_price": 88000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 67,
+            "ai_score": 57,
+            "confidence": "MEDIUM",
+            "reason": "임원진의 연속 자사주 매입(최성안 부회장 포함)은 수급 개선 패턴(성공률 100%)의 핵심 신호로, 과거 2026-06-17 +3.02% 성공 사례와 동일한 조건입니다. RSI 44 중립 구간, 20일 -11.2% 조정 충분, 긍정 뉴스 5건/부정 0건으로 종가매수 최적 조건을 갖췄습니다. 단, 6월 26일 실패 경험이 있어 시장 전반 약세 시 익절 기준을 엄격히 설정해야 합니다.",
+            "entry_price": 24450.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 58,
+            "ai_score": 93,
+            "confidence": "HIGH",
+            "reason": "[E] tech 27 / earn 94 (RSI 47, 5일 -0.6%)",
+            "entry_price": 114800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "329180",
+            "name_kr": "HD현대중공업",
+            "ms_score": 73,
+            "ai_score": 93,
+            "confidence": "HIGH",
+            "reason": "[E+T] tech 35 / earn 93 (RSI 41, 5일 +0.7%)",
+            "entry_price": 592000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "267250",
+            "name_kr": "HD현대",
+            "ms_score": 60,
+            "ai_score": 84,
+            "confidence": "HIGH",
+            "reason": "[T] tech 85 / earn 0 (RSI 34, 5일 -3.8%)",
+            "entry_price": 203000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 64,
+            "ai_score": 38,
+            "confidence": "LOW",
+            "reason": "[T] tech 38 / earn 0 (RSI 40, 5일 +2.2%)",
+            "entry_price": 51400.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-06-26": {
       "ai": {
         "count": 2,
@@ -2857,87 +2951,6 @@
             "return_pct": -0.22,
             "return_pct_open": -0.22,
             "correct": 0
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-04-22": {
-      "ai": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "138040",
-            "name_kr": "메리츠금융지주",
-            "ms_score": 62,
-            "ai_score": 65,
-            "confidence": "MEDIUM",
-            "reason": "2천억 규모 자사주 소각과 임원 동시 매수는 강력한 주주가치 제고 신호이며, 5일 -0.4%로 호재가 거의 미반영된 상태입니다. RSI 62로 중립권이고 긍정 뉴스 5개로 후보 중 뉴스 밀도가 가장 높아 내일 반영 기대감이 있습니다.",
-            "entry_price": 116800.0,
-            "exit_price": 115500.0,
-            "return_pct": -1.11,
-            "return_pct_open": -1.11,
-            "correct": 0
-          },
-          {
-            "stock_code": "005830",
-            "name_kr": "DB손해보험",
-            "ms_score": 55,
-            "ai_score": 60,
-            "confidence": "MEDIUM",
-            "reason": "20일 -12.3% 낙폭 이후 자사주 소각 1752억원 실행과 행동주의 투자자 밸류업 촉구라는 이중 호재가 아직 당일 0% 변동으로 미반영 상태입니다. RSI 59로 중립권이며 과거 자사주 소각+해외 확장 이중 재료로 +1.94% 성공 사례와 유사한 패턴입니다.",
-            "entry_price": 170700.0,
-            "exit_price": 172100.0,
-            "return_pct": 0.82,
-            "return_pct_open": 0.82,
-            "correct": 1
-          },
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 55,
-            "ai_score": 52,
-            "confidence": "LOW",
-            "reason": "자사주 911만주 소각으로 주당가치 개선 효과가 있으나 지배구조 리스크가 동시에 부각되고 있어 투자심리가 상쇄됩니다. 과거 셀트리온 종가매수 실패 사례(-2.25%)가 있어 5순위로 배치하며 비중 축소를 권고합니다.",
-            "entry_price": 203000.0,
-            "exit_price": 204000.0,
-            "return_pct": 0.49,
-            "return_pct_open": 0.49,
-            "correct": 1
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "024110",
-            "name_kr": "기업은행",
-            "ms_score": 62,
-            "ai_score": 95,
-            "confidence": "HIGH",
-            "reason": "[E] tech 0 / earn 96 (RSI 64, 5일 +0.5%)",
-            "entry_price": 22550.0,
-            "exit_price": 22350.0,
-            "return_pct": -0.89,
-            "return_pct_open": -0.89,
-            "correct": 0
-          },
-          {
-            "stock_code": "047050",
-            "name_kr": "포스코인터내셔널",
-            "ms_score": 62,
-            "ai_score": 21,
-            "confidence": "LOW",
-            "reason": "[T] tech 22 / earn 0 (RSI 46, 5일 +6.6%)",
-            "entry_price": 77500.0,
-            "exit_price": 80600.0,
-            "return_pct": 4.0,
-            "return_pct_open": 4.0,
-            "correct": 1
           }
         ]
       },
