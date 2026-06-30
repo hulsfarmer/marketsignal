@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T09:05:47",
+  "generated_at": "2026-06-30T09:08:28",
   "count": 500,
   "posts": [
     {
@@ -2918,6 +2918,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 12106,
+      "title": "한국 수출이 거의 5년 만에 가장 강한 성장률을 기록할 것으로 예상되며, 이는 특히 화학·에너지 관련 주요 수출 산업의 수익성 개선을 의미한다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-29",
+      "summary": "<p>한국 수출이 거의 5년 만에 가장 강한 성장률을 기록할 것으로 예상되며, 이는 특히 화학·에너지 관련 주요 수출 산업의 수익성 개선을 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea exports set to grow at strongest pace in nearly 5 decades: Reuters poll Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "수출 호황은 한국 주력 산업(화학, 석유화학, 에너지)의 실적 개선으로 이어져 관련 종목들의 실적 모멘텀 강화가 예상됨.",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3pLWENpV0VfOHFXbk8wR29OeTBjbUNpZXhUS3lHVThJdWNIdFl5TG9sa0k2TE9yYUNTeFlCWlNZMGdGZlQwbTdjLTd3UmFqZEtINFhiSkRjZmZTbGlKQmlIeE5oTUZadkcwT0JNNmU2N1FMaF9icXlBVFZCTmJOdkxLREZVTHAzRlRXcl90S1NLX203cUluazc3YXg3WGY3cEdJRDZDSkdXSHd2ZWl5enR0YjlWZw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-06-30 09:08:01"
     },
     {
       "id": 12001,
@@ -13412,33 +13439,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdjFrR3JOODNsLVBXSWtFc1NPU0tzT3JpYTFVd2E3akJRQ0o4OWJNcm8tLWJJSlJSMElpdUh3LW9uQ1FrX0RzbWlVMERKcE1wT0NfOGdkSHlHM25TQ1Z6ZWpJWE5aUXJ3d3JsOHZoRlRWN1AtY05HZVdaTUtfVk1jNlM3T1dpcmY5ekowYzVqOF9FbjRzT1IzeG1rUjM5aTA?oc=5",
       "direction": "down",
       "updated_at": "2026-05-03 22:14:22"
-    },
-    {
-      "id": 1078,
-      "title": "S&P 500이 빅테크 실적 호조로 4년 만에 최대 분기 이익 성장률을 기록할 것으로 전망되며, 이는 AI 수요 확대와 반도체 호실적을 반영한 것. 한국의 SK하이닉스, 삼성전자 등 메모리·파운드리 수급 개선 및 수익성 증대로 연결될 긍정 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-01",
-      "summary": "<p>S&P 500이 빅테크 실적 호조로 4년 만에 최대 분기 이익 성장률을 기록할 것으로 전망되며, 이는 AI 수요 확대와 반도체 호실적을 반영한 것. 한국의 SK하이닉스, 삼성전자 등 메모리·파운드리 수급 개선 및 수익성 증대로 연결될 긍정 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): S&amp;P 500 profit eyes sharpest quarterly growth in four years after Big Tech results Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "빅테크 호실적 → AI/HBM 수요 확대 → SK하이닉스·삼성 메모리 사업 호조 + 파운드리 경쟁력 강화로 의미있는 한국 반도체 호재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcHNVN1NrZlRqOHVvRTdsSFM5V2JtQ2V6VEpncnpycXQxUTdrbkdVLVhIdnE0b1YtbHRIdlNkaU5kVXB4dlIyRTRGcUZMclg1UVBzWVRhbmNmX295RGZVZnJ3TlZtak5PbDFjRkR1WUplREF2QXU1Y2FVTUgxM01iN3hnUlJ5dl9rOUItNmM2NHFfcXEzeFNNdHI1d0Rfc0gzODBXUDBYTHB6WGYyV0M2alJKQkw5NTVZMWlWSHhMWUtreWRTZmtMWjNJVlVYYURfbS1PWF9n?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-05 12:07:22"
     }
   ],
   "events": [
