@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T15:05:02",
+  "generated_at": "2026-06-30T15:08:36",
   "count": 500,
   "posts": [
     {
@@ -2918,6 +2918,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 12169,
+      "title": "바이두가 자체 개발 AI 칩의 IPO를 추진하며 극도의 AI 열풍을 반영하고 있다. 이는 중국의 AI 반도체 자립화 움직임을 의미하며, 글로벌 AI 칩 수요 경쟁 심화로 이어질 것으로 예상된다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-06-29",
+      "summary": "<p>바이두가 자체 개발 AI 칩의 IPO를 추진하며 극도의 AI 열풍을 반영하고 있다. 이는 중국의 AI 반도체 자립화 움직임을 의미하며, 글로벌 AI 칩 수요 경쟁 심화로 이어질 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - Baidu chip IPO channels extreme AI frenzy Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국 AI 칩 자립화 진전은 한국 HBM/메모리 반도체 수출 경쟁 심화를 의미하며, 동시에 고성능 칩 수요 확대는 SK하이닉스·삼성전자에 단기 호재로 작용 가능",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ1ZzVGhnYzR6ZW5vOFZTYUtycWp4bktNYy03eHRuRUNBU2E5aDIxVS02d0Z1bjQwWFZ6ZTZEc2ZFN29LNWNHeWhPNmVnNnllaEp2MDVCU2RMN0Q1a2VwZVlNSEdwbU9nVTZaRjZpR0FMa1FvRHpYR2JYNmVNbGtiVGx3Vjd0aXJERm5nenV0OUZ2VERUSUdFQ3oxd2dKREp4dXJUSg?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-06-30 15:07:06"
     },
     {
       "id": 12106,
@@ -13410,35 +13437,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ0ZndVVGdTVhdldFSV9tenlGWHhJalh3SU1sbk1ORGk5MzFWbFBaSDBFX0JJUERxUEhyOVZiRmM3dm9nd0NMdjJXMnJFN1o1enhHZzZxVUp3NFJ3azVIaEZfcHFpck5lOUx3dGpGeThtNFVaWF9TZmlzenZ3NjM0LW15UHpLWDdCVUNUM2loT25ieEpIN1E?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-04 03:08:38"
-    },
-    {
-      "id": 721,
-      "title": "Fed 고위험 Goolsbee 부의장이 최근 인플레이션 데이터를 '나쁜 뉴스'로 평가했으며, 이는 Fed의 금리 인하 시기 지연 가능성을 시사. USD/KRW 강세 지속 및 한국 수출주(반도체, 자동차) 실적 악화 우려로 이어질 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-02",
-      "summary": "<p>Fed 고위험 Goolsbee 부의장이 최근 인플레이션 데이터를 '나쁜 뉴스'로 평가했으며, 이는 Fed의 금리 인하 시기 지연 가능성을 시사. USD/KRW 강세 지속 및 한국 수출주(반도체, 자동차) 실적 악화 우려로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Recent inflation data was &#x27;bad news,&#x27; Fed&#x27;s Goolsbee says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 인플레이션 우려 표현은 금리 인하 연기 신호로, 달러 강세→원화 약세→외국인 주식 수급 부정적, 고금리 장기화로 한국 기업 차입비용 상승 영향",
-      "stocks": [
-        "반도체(삼성전자",
-        "SK하이닉스)",
-        "자동차(현대차",
-        "기아)",
-        "화학(LG화학)",
-        "은행(KB금융",
-        "신한금융)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdjFrR3JOODNsLVBXSWtFc1NPU0tzT3JpYTFVd2E3akJRQ0o4OWJNcm8tLWJJSlJSMElpdUh3LW9uQ1FrX0RzbWlVMERKcE1wT0NfOGdkSHlHM25TQ1Z6ZWpJWE5aUXJ3d3JsOHZoRlRWN1AtY05HZVdaTUtfVk1jNlM3T1dpcmY5ekowYzVqOF9FbjRzT1IzeG1rUjM5aTA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-03 22:14:22"
     }
   ],
   "events": [
