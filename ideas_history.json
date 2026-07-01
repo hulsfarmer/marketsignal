@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-06-30T16:10:23",
+  "generated_at": "2026-07-01T15:05:01",
   "dates": [
+    "2026-07-01",
     "2026-06-30",
     "2026-06-26",
     "2026-06-25",
@@ -29,8 +30,7 @@
     "2026-04-30",
     "2026-04-29",
     "2026-04-28",
-    "2026-04-27",
-    "2026-04-23"
+    "2026-04-27"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,113 @@
     }
   },
   "by_date": {
+    "2026-07-01": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "030200",
+            "name_kr": "KT",
+            "ms_score": 62,
+            "ai_score": 78,
+            "confidence": "HIGH",
+            "reason": "RSI 23으로 극도 과매도 구간에 진입하여 기술적_반등 패턴(성공률 100%) 조건에 가장 부합하는 종목입니다. 국민연금의 투자 방식 변경('단순→일반')과 NH투자증권 목표가 상향은 수급_개선 신호로 작용하며, 5일 +2.3%로 아직 호재가 충분히 반영되지 않은 상태입니다.",
+            "entry_price": 52900.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 64,
+            "ai_score": 68,
+            "confidence": "MEDIUM",
+            "reason": "RSI 37로 과매도 영역에 진입했으며, 국민연금 178만주 추가 매입과 삼성증권 목표가 상향이라는 수급_개선 신호가 동시에 나타나고 있습니다. 20일 -17.9%의 낙폭 과대 상태에서 기관 대규모 매입은 기술적_반등 패턴과 수급_개선 패턴이 겹치는 구간으로 반등 가능성이 높습니다.",
+            "entry_price": 49150.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 58,
+            "ai_score": 96,
+            "confidence": "HIGH",
+            "reason": "[E] tech 13 / earn 96 (RSI 50, 5일 +0.3%)",
+            "entry_price": 114600.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "329180",
+            "name_kr": "HD현대중공업",
+            "ms_score": 67,
+            "ai_score": 91,
+            "confidence": "HIGH",
+            "reason": "[E] tech 38 / earn 92 (RSI 40, 5일 +0.8%)",
+            "entry_price": 592000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005490",
+            "name_kr": "POSCO홀딩스",
+            "ms_score": 62,
+            "ai_score": 83,
+            "confidence": "HIGH",
+            "reason": "[T] tech 83 / earn 56 (RSI 39, 5일 -4.4%)",
+            "entry_price": 317000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 67,
+            "ai_score": 80,
+            "confidence": "HIGH",
+            "reason": "[T] tech 80 / earn 0 (RSI 43, 5일 -5.3%)",
+            "entry_price": 23300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "009540",
+            "name_kr": "HD한국조선해양",
+            "ms_score": 60,
+            "ai_score": 77,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 78 / earn 0 (RSI 43, 5일 -4.9%)",
+            "entry_price": 350000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-06-30": {
       "ai": {
         "count": 2,
@@ -2922,34 +3029,6 @@
             "exit_price": 94100.0,
             "return_pct": -0.74,
             "return_pct_open": -0.74,
-            "correct": 0
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-04-23": {
-      "ai": {
-        "count": 0,
-        "picks": []
-      },
-      "hybrid": {
-        "count": 1,
-        "picks": [
-          {
-            "stock_code": "024110",
-            "name_kr": "기업은행",
-            "ms_score": 62,
-            "ai_score": 78,
-            "confidence": "MEDIUM",
-            "reason": "[E] tech 0 / earn 78 (RSI 66, 5일 -2.2%)",
-            "entry_price": 22350.0,
-            "exit_price": 22300.0,
-            "return_pct": -0.22,
-            "return_pct_open": -0.22,
             "correct": 0
           }
         ]
