@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T15:05:02",
+  "generated_at": "2026-07-02T15:08:43",
   "count": 500,
   "posts": [
     {
@@ -3153,6 +3153,61 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 12732,
+      "title": "아시아 주식이 반도체 업체 약세로 하락 중이며, 미국 고용 통계 발표를 앞두고 있음. 반도체 산업 약세는 한국의 삼성전자, SK하이닉스 등 수출 주력 기업에 직접 영향을 미칠 수 있고, 미국 경제 데이터는 USD/KRW 환율과 외국인 수급에 영향",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-02",
+      "summary": "<p>아시아 주식이 반도체 업체 약세로 하락 중이며, 미국 고용 통계 발표를 앞두고 있음. 반도체 산업 약세는 한국의 삼성전자, SK하이닉스 등 수출 주력 기업에 직접 영향을 미칠 수 있고, 미국 경제 데이터는 USD/KRW 환율과 외국인 수급에 영향</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asian shares fall on chipmaker drag; US jobs data looms Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "반도체 약세가 한국 주요 수출 기업에 직접 영향을 주고, 미국 고용 데이터는 연쇄적으로 금리·환율·외국인 자금 흐름을 결정하는 주요 매크로 이벤트",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "Kakao",
+        "현대차",
+        "기아"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hNUdGZ1o0UkVpa1k0SDE5eG1CUlhJZGhIaklZMjV1VVEtekJxazZHMV8xT2lrU25mWlJuSVJxQ3ZtWF9iNEVsQk9tQjRqazRPUTRLYk9VWHVaRjM0a2FVa29SSUJfakV3MXU5Z0ZLTS1Gc0NhQmlQOEZZOA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-02 15:07:54"
+    },
+    {
+      "id": 12722,
+      "title": "외국인 투자자들이 AI 관련 아시아 주식을 기록적 속도로 매도하고 있으며, AI 수혜주가 과도하게 붐비면서 투자 선호가 분산되고 있다. 한국의 SK하이닉스, 삼성전자 등 AI 칩 공급업체들이 직접적 영향을 받을 수 있다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-01",
+      "summary": "<p>외국인 투자자들이 AI 관련 아시아 주식을 기록적 속도로 매도하고 있으며, AI 수혜주가 과도하게 붐비면서 투자 선호가 분산되고 있다. 한국의 SK하이닉스, 삼성전자 등 AI 칩 공급업체들이 직접적 영향을 받을 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Foreigners dump Asia stocks at record pace as AI winners get crowded Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 반도체 수요 모멘텀 약화 우려로 인한 외국인 자금 이탈은 한국 HBM·메모리 관련 종목의 실적 전망 부담 초래",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHBEUlp6WVk1YUwwMG5Xd2pGdDlmTEFPQlpKZGdQVTUtOTB0em1rNm9sSWp6QnkxeGNEcjVOUlEtM2NMR2E1WHgzZGQ4SnZvcDNTc2Y0U1AtLS1UekR1S1h5TEc1QmFnd3ZacWJXbHpJMm1oSWZXMFdwdGR4NXFqeGRGaTlwTXVxb0xrR1N2ZmVfUzZHN3pDQTctUE1nd2huX3ByV0F6SGlUS2EzSlc0bmZFUVFnNVpr?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-02 15:07:06"
     },
     {
       "id": 12557,
@@ -13347,59 +13402,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0NSNjJhWU4zcy1MX25YN3hVT1J0QjBEa3pNWU5POU93NUZKUllNaUtaeXpfZjZZa3FQNnh2N0t5QVc0RnM3SmhwUl9HM0NmT0lRTktOdFFxVHV3ZDl3YU5FT2tmNlBSdWJZRVV2R0dpSGwyM1JYMEE3SEVRS19oNU1xQnEzZmkyZUFMSFF5MzJjQjRuSEtJT2piR2thSGpZVThUN2NIZFZoc3p5SWp3eFE0SEkybFBL?oc=5",
       "direction": "down",
       "updated_at": "2026-05-08 06:11:14"
-    },
-    {
-      "id": 1717,
-      "title": "미국 전력회사 AEP가 자본계획을 78억 달러로 확대하며 AI 데이터센터 전력 수요 급증에 대응. 이는 글로벌 반도체·AI 인프라 수요 증가 신호로 한국 메모리반도체(SK하이닉스, 삼성전자) 및 파운드리 수요에 긍정적 영향.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-05",
-      "summary": "<p>미국 전력회사 AEP가 자본계획을 78억 달러로 확대하며 AI 데이터센터 전력 수요 급증에 대응. 이는 글로벌 반도체·AI 인프라 수요 증가 신호로 한국 메모리반도체(SK하이닉스, 삼성전자) 및 파운드리 수요에 긍정적 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AEP raises capital plan to $78 billion as data center power demand skyrockets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "데이터센터 전력 투자 확대는 AI·반도체 초호황 지속 신호로, 한국 HBM·메모리 수출 및 파운드리 수요 증대를 시사하는 의미있는 매크로 긍정 신호",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTzBKNWlldzRrdzhQU09YdVRIejBsU0dqaVhzWkhHUnNiWVZqMG9LUGRtV2JYYUFGSG5keHlOeUZpNGo5TlVEVm1pcXoycXkzMWZLTW1SdUV0XzVhRHUzY203ZDhMVXlEbHMydjJ2dTYwWjFEWi16bzRFN0hOUE9FVXRvbmVUTmNPYl82RkdkRlpTR2MzYXQxbWhDaXlFUjhoZlFPSm5EZ0J0RzZvV2Nma1I2TmI2MFBZTHdhbVNHMl9FQzFNYWppNg?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-07 21:07:05"
-    },
-    {
-      "id": 1542,
-      "title": "이란 전쟁으로 인한 에너지 위기가 아시아 전역에 불균등한 피해를 주고 있으며, 에너지 수급 악화로 인한 비용 상승이 예상됨. 중국 등 주요 에너지 소비국의 경제 부담 증가는 한국의 수출 수요 감소 및 에너지 가격 상승 압박으로 작용할 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-05",
-      "summary": "<p>이란 전쟁으로 인한 에너지 위기가 아시아 전역에 불균등한 피해를 주고 있으며, 에너지 수급 악화로 인한 비용 상승이 예상됨. 중국 등 주요 에너지 소비국의 경제 부담 증가는 한국의 수출 수요 감소 및 에너지 가격 상승 압박으로 작용할 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asia battles rising, uneven toll of energy crisis caused by Iran war Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "에너지 공급망 충격은 한국의 주력 수출산업(자동차, 철강, 화학) 비용 상승과 중국 수요 약화를 동시에 초래하는 의미있는 매크로 악재",
-      "stocks": [
-        "POSCO",
-        "현대자동차",
-        "기아",
-        "LG생활건강",
-        "아모레퍼시픽"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaTVmYjdyQ1lEUGsya0U0R0JXdDNlZFRJeks1M1JkZDNHaTdRVkc2RHh0eXdlSFpsbVducndkcFBJb2ExSGNqZmF1a0tFTnFQNlFaYzBzUXpEcnNXXy15MzlxLU9LdXRPWWhhOUhST24wUElwb0JQcFpsWmJ4TTQ2Q2tQajR3eENaUDlvR2NTcTJjazE5LW4wSU5QVnVaSWE5THc4S3M4Y0V5NzhlbU9lUmFVSkpmeUU?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-07 06:11:54"
     }
   ],
   "events": [
