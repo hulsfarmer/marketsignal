@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T18:05:01",
+  "generated_at": "2026-07-02T18:08:40",
   "count": 500,
   "posts": [
     {
@@ -3153,6 +3153,32 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 12774,
+      "title": "중국의 저가 AI 모델이 Anthropic, OpenAI와의 경쟁에서 추격하고 있으며, 이는 글로벌 AI 칩 수요 전망과 한국 메모리/파운드리 반도체 수급에 부정적 신호를 발신",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-02",
+      "summary": "<p>중국의 저가 AI 모델이 Anthropic, OpenAI와의 경쟁에서 추격하고 있으며, 이는 글로벌 AI 칩 수요 전망과 한국 메모리/파운드리 반도체 수급에 부정적 신호를 발신</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국 AI 모델의 급속한 성능 향상은 글로벌 고급칩 수요 성장률 둔화 우려를 심화시켜 SK하이닉스 HBM과 삼성전자 파운드리 수요 전망을 압박",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRHN2T0NPR3ZJMWZheVBDbUxxS1pBbHpfSjBmSTNseVFEU0FUcnc1OFJJNzNGZVB1M1ZIdExGb0NfTWpKYnhTSm8xRUhzbm14RWRNRWJyaWctbjVLWmdRM0d1UjFBalpyNDJoTDNwVldrRGxGN1U0aUtUcEp3a2t1aDYxdFpfRFMzZDZodUNNdEJpMkoyOWFYakZLb1NrZ0M4a01qQW9HTkFUQkltaGNjWk9CcXYxUGdndmNPclNEOVlxVFk?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-02 18:07:20"
     },
     {
       "id": 12732,
@@ -13375,33 +13401,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRThBWWVHdGdiN3dET0g1cHdKeTM1QmZsVjBDY3BPMUVzY2lpWDZUSlVwYnNfck94d3BnMnNNNEh6SHdoV2o0WmJzY0ZybUZCSFBJd3g5T1ZsYmpHX1hMYThTWGZkVlBiODQ4YlRMNUxadzZOcjctb2tMaEZKbzlEbmExY0hGSmV2Nm9VekJ4ekxTSENfY3g3YWZQQ3VfeVFsVUpQelFLQkZhcmhCTEtn?oc=5",
       "direction": "up",
       "updated_at": "2026-05-08 15:09:49"
-    },
-    {
-      "id": 1808,
-      "title": "이란이 호르무즈 해협 선박 통항 관리를 위한 새로운 메커니즘을 구축했다. 호르무즈 해협은 전 세계 석유 해상 운송량의 약 20-30%가 통과하는 전략적 요충지로, 한국의 에너지 수입 경로에 직결된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-05",
-      "summary": "<p>이란이 호르무즈 해협 선박 통항 관리를 위한 새로운 메커니즘을 구축했다. 호르무즈 해협은 전 세계 석유 해상 운송량의 약 20-30%가 통과하는 전략적 요충지로, 한국의 에너지 수입 경로에 직결된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran sets up new mechanism to manage vessel transit through Hormuz Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "이란의 일방적 통항 관리 강화는 유가 변동성 증가 및 해운료 상승 리스크를 야기하며, 에너지 다소비·원유 정제업인 S-Oil, SK이노베이션, GS 등에 직접 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0NSNjJhWU4zcy1MX25YN3hVT1J0QjBEa3pNWU5POU93NUZKUllNaUtaeXpfZjZZa3FQNnh2N0t5QVc0RnM3SmhwUl9HM0NmT0lRTktOdFFxVHV3ZDl3YU5FT2tmNlBSdWJZRVV2R0dpSGwyM1JYMEE3SEVRS19oNU1xQnEzZmkyZUFMSFF5MzJjQjRuSEtJT2piR2thSGpZVThUN2NIZFZoc3p5SWp3eFE0SEkybFBL?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-08 06:11:14"
     }
   ],
   "events": [
