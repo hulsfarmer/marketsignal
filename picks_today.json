@@ -1,53 +1,53 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "strategy": "hybrid",
-  "generated_at": "2026-07-01T15:05:00",
+  "generated_at": "2026-07-02T15:04:59",
   "count": 5,
   "picks": [
     {
-      "stock_code": "086790",
-      "name_kr": "하나금융지주",
-      "ms_score": 58,
-      "ai_score": 96,
+      "stock_code": "011200",
+      "name_kr": "HMM",
+      "ms_score": 57,
+      "ai_score": 100,
       "confidence": "HIGH",
-      "reason": "[E] tech 13 / earn 96 (RSI 50, 5일 +0.3%)",
-      "entry_price": 114600.0
+      "reason": "[E] tech 34 / earn 100 (RSI 42, 5일 +0.0%)",
+      "entry_price": 18660.0
     },
     {
-      "stock_code": "329180",
-      "name_kr": "HD현대중공업",
-      "ms_score": 67,
-      "ai_score": 91,
+      "stock_code": "207940",
+      "name_kr": "삼성바이오로직스",
+      "ms_score": 57,
+      "ai_score": 92,
       "confidence": "HIGH",
-      "reason": "[E] tech 38 / earn 92 (RSI 40, 5일 +0.8%)",
-      "entry_price": 592000.0
+      "reason": "[E] tech 0 / earn 93 (RSI 58, 5일 +0.7%)",
+      "entry_price": 1396000.0
     },
     {
       "stock_code": "005490",
       "name_kr": "POSCO홀딩스",
-      "ms_score": 62,
-      "ai_score": 83,
-      "confidence": "HIGH",
-      "reason": "[T] tech 83 / earn 56 (RSI 39, 5일 -4.4%)",
-      "entry_price": 317000.0
+      "ms_score": 72,
+      "ai_score": 75,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 68 / earn 75 (RSI 32, 5일 -2.5%)",
+      "entry_price": 315000.0
     },
     {
-      "stock_code": "010140",
-      "name_kr": "삼성중공업",
-      "ms_score": 67,
-      "ai_score": 80,
-      "confidence": "HIGH",
-      "reason": "[T] tech 80 / earn 0 (RSI 43, 5일 -5.3%)",
-      "entry_price": 23300.0
+      "stock_code": "005930",
+      "name_kr": "삼성전자",
+      "ms_score": 57,
+      "ai_score": 67,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 67 / earn 0 (RSI 48, 5일 -12.3%)",
+      "entry_price": 314500.0
     },
     {
       "stock_code": "009540",
       "name_kr": "HD한국조선해양",
       "ms_score": 60,
-      "ai_score": 77,
+      "ai_score": 60,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 78 / earn 0 (RSI 43, 5일 -4.9%)",
-      "entry_price": 350000.0
+      "reason": "[T] tech 60 / earn 0 (RSI 39, 5일 -2.0%)",
+      "entry_price": 358500.0
     }
   ]
 }

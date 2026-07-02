@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-01T16:10:25",
+  "generated_at": "2026-07-02T15:05:01",
   "dates": [
+    "2026-07-02",
     "2026-07-01",
     "2026-06-30",
     "2026-06-26",
@@ -29,8 +30,7 @@
     "2026-05-04",
     "2026-04-30",
     "2026-04-29",
-    "2026-04-28",
-    "2026-04-27"
+    "2026-04-28"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,139 @@
     }
   },
   "by_date": {
+    "2026-07-02": {
+      "ai": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 77,
+            "ai_score": 68,
+            "confidence": "HIGH",
+            "reason": "RSI 38 과매도 구간에서 2734억원 신규 수주 호재와 임원진 자사주 매입(수급_개선 패턴 100% 성공률)이 동시 발생했습니다. 5일 -0.2%로 호재가 아직 미반영 상태이며, 기술적_반등 패턴 조건을 충족합니다.",
+            "entry_price": 23750.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 62,
+            "ai_score": 65,
+            "confidence": "MEDIUM",
+            "reason": "RSI 44 중립권으로 과열 우려 없고, 두나무 1조 투자·블록체인 신사업 기대감이 5일 +2.1%로 아직 충분히 반영되지 않은 상태입니다. 긍정 뉴스 4건, 부정 0건으로 뉴스 분위기가 균형적으로 양호합니다.",
+            "entry_price": 116400.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "030200",
+            "name_kr": "KT",
+            "ms_score": 62,
+            "ai_score": 63,
+            "confidence": "MEDIUM",
+            "reason": "국민연금의 '일반투자' 전환은 수급_개선 패턴(성공률 100%)에 해당하는 구조적 신호입니다. RSI 44 중립권, 5일 +3.3%로 호재가 아직 완전히 반영되지 않았으며 목표가 상향이 추가 상승 여력을 지지합니다.",
+            "entry_price": 53700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 77,
+            "ai_score": 60,
+            "confidence": "MEDIUM",
+            "reason": "2700억원 자사주 매입은 수급_개선 신호이며 RSI 51 중립권으로 과열 부담이 없습니다. 5일 +0.8%로 호재 반영이 초기 단계이고, 긍정 뉴스 4건 대비 부정 1건으로 뉴스 우위가 명확합니다.",
+            "entry_price": 174500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "011200",
+            "name_kr": "HMM",
+            "ms_score": 57,
+            "ai_score": 100,
+            "confidence": "HIGH",
+            "reason": "[E] tech 34 / earn 100 (RSI 42, 5일 +0.0%)",
+            "entry_price": 18660.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "207940",
+            "name_kr": "삼성바이오로직스",
+            "ms_score": 57,
+            "ai_score": 92,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 93 (RSI 58, 5일 +0.7%)",
+            "entry_price": 1396000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005490",
+            "name_kr": "POSCO홀딩스",
+            "ms_score": 72,
+            "ai_score": 75,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 68 / earn 75 (RSI 32, 5일 -2.5%)",
+            "entry_price": 315000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005930",
+            "name_kr": "삼성전자",
+            "ms_score": 57,
+            "ai_score": 67,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 67 / earn 0 (RSI 48, 5일 -12.3%)",
+            "entry_price": 314500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "009540",
+            "name_kr": "HD한국조선해양",
+            "ms_score": 60,
+            "ai_score": 60,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 60 / earn 0 (RSI 39, 5일 -2.0%)",
+            "entry_price": 358500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-07-01": {
       "ai": {
         "count": 2,
@@ -2936,100 +3069,6 @@
             "return_pct": 1.2,
             "return_pct_open": 1.2,
             "correct": 1
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-04-27": {
-      "ai": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "032640",
-            "name_kr": "LG유플러스",
-            "ms_score": 58,
-            "ai_score": 65,
-            "confidence": "MEDIUM",
-            "reason": "배당금 확정과 자사주 소각은 배당_효과 성공 패턴(100% 성공률)과 일치하며, 5일 -4.7% 낙폭으로 호재가 아직 충분히 반영되지 않은 저가 매수 기회입니다. RSI 60으로 과매수 부담이 없고, 외국인 순매수가 수급 측면에서 추가 상승을 뒷받침합니다. 긍정 3건/부정 0건으로 리스크 대비 기대수익이 양호합니다.",
-            "entry_price": 16600.0,
-            "exit_price": 16430.0,
-            "return_pct": -1.02,
-            "return_pct_open": -1.02,
-            "correct": 0
-          },
-          {
-            "stock_code": "012330",
-            "name_kr": "현대모비스",
-            "ms_score": 62,
-            "ai_score": 62,
-            "confidence": "MEDIUM",
-            "reason": "5000억 자사주 소각이라는 대규모 주주환원 재료와 로보틱스 신사업 성장 동력이 동시에 부각되어 있습니다. 20일 +6.2% 상승이 부담이나, 당일 등락 0%로 추가 과열 징후가 없고 RSI 61로 아직 과매수 영역 진입 전입니다. 긍정 3건/부정 0건의 깨끗한 센티멘트와 배당_효과 패턴 적용 가능성이 있습니다.",
-            "entry_price": 422500.0,
-            "exit_price": 432500.0,
-            "return_pct": 2.37,
-            "return_pct_open": 2.37,
-            "correct": 1
-          },
-          {
-            "stock_code": "251270",
-            "name_kr": "넷마블",
-            "ms_score": 55,
-            "ai_score": 58,
-            "confidence": "LOW",
-            "reason": "5일 -2.1% 하락으로 코웨이 장내 매수와 넷마블네오 완전자회사 편입 호재가 아직 주가에 충분히 반영되지 않은 상태로, 실적_반영 패턴과 유사한 저평가 구간입니다. RSI 61로 과매수 부담이 없고 당일 등락 0%로 추가 급등 리스크가 없습니다. 다만 부정 뉴스 1건과 낮은 AI 원점수(55)를 감안해 LOW 신뢰도로 편입합니다.",
-            "entry_price": 50400.0,
-            "exit_price": 50000.0,
-            "return_pct": -0.79,
-            "return_pct_open": -0.79,
-            "correct": 0
-          },
-          {
-            "stock_code": "047050",
-            "name_kr": "포스코인터내셔널",
-            "ms_score": 58,
-            "ai_score": 56,
-            "confidence": "LOW",
-            "reason": "과거 성공 사례(+4.00%, +2.75%, +2.67%)가 반복된 검증된 종목으로 삼성증권 목표가 상향과 국민연금 지분 확대라는 실적_반영 패턴이 유효합니다. 단, 5일 +5.9%, 20일 +7.8%로 호재_선반영 실패 패턴(72% 실패율) 위험이 높아 LOW 신뢰도로 편입하며 소액 비중 권고합니다. RSI 62와 이란 휴전 관련 변동성을 감안한 리스크 관리가 필요합니다.",
-            "entry_price": 81300.0,
-            "exit_price": 81300.0,
-            "return_pct": 0.0,
-            "return_pct_open": 0.0,
-            "correct": 0
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "024110",
-            "name_kr": "기업은행",
-            "ms_score": 55,
-            "ai_score": 88,
-            "confidence": "HIGH",
-            "reason": "[E] tech 0 / earn 89 (RSI 68, 5일 -1.1%)",
-            "entry_price": 22350.0,
-            "exit_price": 22200.0,
-            "return_pct": -0.67,
-            "return_pct_open": -0.67,
-            "correct": 0
-          },
-          {
-            "stock_code": "000100",
-            "name_kr": "유한양행",
-            "ms_score": 62,
-            "ai_score": 76,
-            "confidence": "MEDIUM",
-            "reason": "[E] tech 0 / earn 76 (RSI 62, 5일 -2.4%)",
-            "entry_price": 94800.0,
-            "exit_price": 94100.0,
-            "return_pct": -0.74,
-            "return_pct_open": -0.74,
-            "correct": 0
           }
         ]
       },
