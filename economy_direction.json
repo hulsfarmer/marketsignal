@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T23:40:02",
+  "generated_at": "2026-07-04T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13416,38 +13416,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "성호전자",
-      "event_date": "2026-07-03",
-      "event_type": "합병기일",
-      "title": "성호전자 — [첨부추가]주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "위지윅스튜디오",
-      "event_date": "2026-07-03",
-      "event_type": "합병등기",
-      "title": "위지윅스튜디오 — 회사합병결정(종속회사의주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508900634"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "다우기술",
-      "event_date": "2026-07-03",
-      "event_type": "합병승인 이사회 결의",
-      "title": "다우기술 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000363"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "코리아에셋투자증권",
-      "event_date": "2026-07-03",
-      "event_type": "배당기준일",
-      "title": "코리아에셋투자증권 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900533"
-    },
-    {
-      "stock_code": "",
       "stock_name": "다우기술",
       "event_date": "2026-07-06",
       "event_type": "채권자이의제출 공고일",
@@ -14029,6 +13997,30 @@
       "event_type": "합병기일",
       "title": "꿈비 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000275"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한샘",
+      "event_date": "2026-08-03",
+      "event_type": "합병등기예정일",
+      "title": "한샘 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000792"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "레드캡투어",
+      "event_date": "2026-08-03",
+      "event_type": "배당금지급예정일",
+      "title": "레드캡투어 — 현금ㆍ현물배당결정              (분기배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702900283"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "세아제강지주",
+      "event_date": "2026-08-03",
+      "event_type": "배당지급예정일",
+      "title": "세아제강지주 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703800246"
     }
   ]
 }
