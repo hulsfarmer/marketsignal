@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T18:05:02",
+  "generated_at": "2026-07-03T18:08:15",
   "count": 500,
   "posts": [
     {
@@ -3180,6 +3180,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13030,
+      "title": "미국 고용 데이터 부진으로 Fed 금리 인상 가능성이 낮아지며 달러화가 주간 하락 추세. 달러 약세는 USD/KRW 환율 하락을 초래하여 한국 수출 기업의 환율 수익성 악화로 이어질 전망.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-03",
+      "summary": "<p>미국 고용 데이터 부진으로 Fed 금리 인상 가능성이 낮아지며 달러화가 주간 하락 추세. 달러 약세는 USD/KRW 환율 하락을 초래하여 한국 수출 기업의 환율 수익성 악화로 이어질 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar heads for weekly drop as jobs data dims Fed hike bets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 인상 지연 → 달러 약세 → 환율 하락 → 한국 수출 기업 실적 악화 및 외국인 자금 유입 둔화의 연쇄 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "포스코",
+        "삼성화학"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOE94UmQ5Unp5SGlXRTRVazdOLUxKQ09sMXNmYWxaSU9qNWNmWTktajhLaXdFdVgzT21YdGc1MmlFTk5saFBha0xhX1dPX2IydVozWFZQNi1GdDBmS1hvUVBJZ09BYlNMczBQSWFBUnVUWW5HUkJoUURwQkpCRDA3emVHS0tHc0Q2U2c0SnlmUzBIZ1hqLW9XVUJPeVR5eE1uWjJXZmM0WHd5aUJ5?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-03 18:07:24"
     },
     {
       "id": 12962,
@@ -13383,33 +13411,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOEtfazVvN0k3d051M1dPOTdLNUthUjd2LUpSdTUtX0RRVE4wQzU0SWRCcUV4QnNxdUJWbWNEalVGbGNaaEZXaGRmaTA1ZUFpLVUtVzNxUE9WRk1IcWt6SmhNSWpvcWJ6SnhCRDdlZDN5RUM2U1RHNVdENlJhMUNPSVlkWmpCU2ZUbklkdEJnX3dBR2d0bWRIMS1DZUYtZ1BxbXFpZWtZeUpEUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-10 03:07:04"
-    },
-    {
-      "id": 2178,
-      "title": "미국과 이란이 전쟁 종료를 위한 1페이지 양해각서 체결을 앞두고 있다는 보도. 중동 지정학적 긴장 완화 시 유가 하락 → 에너지 수입 비용 감소 및 글로벌 경기 안정화로 한국 수출 기업에 긍정적.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-06",
-      "summary": "<p>미국과 이란이 전쟁 종료를 위한 1페이지 양해각서 체결을 앞두고 있다는 보도. 중동 지정학적 긴장 완화 시 유가 하락 → 에너지 수입 비용 감소 및 글로벌 경기 안정화로 한국 수출 기업에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US and Iran closing in on one-page memo to end war, Axios reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "중동 분쟁 완화 → 유가 하락 가능성 → USD/KRW 약세 압력, KOSPI 외국인 매수 유입, 반도체·자동차 수출 기업 이익률 개선의 매크로 긍정 신호",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대자동차",
-        "LG화학",
-        "S-Oil"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUHNJTHhoVmFfcWpPdGF3TGhuT0pTSk54dkNBXzZtRnN0bDNMOEZTZDVxS0d3eHYyaFA1RWVfODNBWWU0T3lkSFlEY21Ob2pXZHNNRkNqTVdfMk1UMFZRVVduYlAxdmR6Q3hEWlppRUpGaFJ1elB0SEVaV0hCS3ZHWTdqNnI3aGtmQXJXbm5JODJOZ1lDckRxY01jUDFoZW9tRlFWSzR0eDU?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-09 12:07:51"
     }
   ],
   "events": [
