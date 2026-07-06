@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T21:05:02",
+  "generated_at": "2026-07-06T21:08:00",
   "count": 500,
   "posts": [
     {
@@ -3300,6 +3300,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13392,
+      "title": "헤지펀드가 4주 연속 반도체 주식을 매도하며 AI 관련 주가 조정이 심화되고 있다. SK하이닉스(HBM), 삼성전자 등 한국 메모리/파운드리 기업의 주가 하락 압력이 증가할 것으로 예상된다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-06",
+      "summary": "<p>헤지펀드가 4주 연속 반도체 주식을 매도하며 AI 관련 주가 조정이 심화되고 있다. SK하이닉스(HBM), 삼성전자 등 한국 메모리/파운드리 기업의 주가 하락 압력이 증가할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Hedge funds dumped chip stocks for a fourth week as AI shares sold off Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 열풍 후퇴에 따른 반도체 주가 조정 장기화는 한국의 주요 메모리·파운드리 기업들의 실적 전망과 밸류에이션에 직접적 악영향을 미친다.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc2ZRa1Y5RXpRdWtNOGYwQlh1UlowNWdQYlJ0dEllUHZTMENCUnVJM2RXWGZiYXJ3S3VVWVQyd09tREJXNEdqUXVQYUZGQkliSXl1LUxhbWRPVVZDSkxkQUVGUUNRNlc2eFplOUxWMUU2S0ZyaVpTM1hHVUo4bWFDV1RHQkdZRGFOTjA4ckhyYWhvMW5oREstS2VpWndDRllveEdqYXE5Qm43ZWhjR2V1anRIUHg?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-06 21:07:09"
     },
     {
       "id": 13318,
@@ -13367,35 +13394,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONklHT1ZKQm0xX3RiT2ZRcWhVbEs2TVRORmNGMmt4bUFfdEJ2eEhZRXRBdzhEbWtlVkZ4NWxWV0Zub2FNQVJia3N4UGpDVzhfcFE5LVhoWUE5VEJJZTRCRHl6N0lfZHZfb281QjZtUngtTGpRWWFxTmtCdHhtWkJIbTkwOEFmbG5ZSXhGc0NTZEE0NGI1RWMzemQ4d09aWXZTNXhtekxuZzlDa1VJQ2w5allRT0I1aUZiQWtzU1NIZy1MN01ndC1QYlZn?oc=5",
       "direction": "up",
       "updated_at": "2026-05-10 12:07:47"
-    },
-    {
-      "id": 2212,
-      "title": "중국 경제가 2010년에 강한 성장세를 보이고 있으며, 이는 한국의 주요 수출 산업인 자동차, 화장품, 철강 등의 중국 수요 증가로 이어질 것으로 예상됨. 중국 소비 회복은 한국 기업들의 중국 시장 실적 개선에 긍정적 영향을 미칠 가능성이 높음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>중국 경제가 2010년에 강한 성장세를 보이고 있으며, 이는 한국의 주요 수출 산업인 자동차, 화장품, 철강 등의 중국 수요 증가로 이어질 것으로 예상됨. 중국 소비 회복은 한국 기업들의 중국 시장 실적 개선에 긍정적 영향을 미칠 가능성이 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s economy roars into 2010 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국은 한국의 최대 수출국으로, 중국 경제 성장은 자동차·화장품·철강·게임 등 주요 수출 산업의 수요 증가를 직접적으로 견인하는 거시 호재",
-      "stocks": [
-        "현대자동차",
-        "기아자동차",
-        "아모레퍼시픽",
-        "LG생활건강",
-        "POSCO",
-        "넥슨",
-        "엔씨소프트"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnpIZVhxd1RHSm9iUUgzY29zVF91S0E2MHc3cEU1Nm1ieExTdUFpT3UtM0loemNfYUhYTmdBcW1fcnJaVGE4cHNoaGhkdGhrSnBmWjkxeTFJeW16b1FENk1tNnI4YXM2Wko3V3g4a1E5cUJYN0dtTnRUUEpILU5BektRbURNSzlHRTdYbW42Yw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-09 15:08:43"
     }
   ],
   "events": [
