@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T00:05:02",
+  "generated_at": "2026-07-07T00:08:29",
   "count": 500,
   "posts": [
     {
@@ -3300,6 +3300,59 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13406,
+      "title": "모건스탠리가 AI 투자자들이 칩메이커에서 하이퍼스케일러(NVDA, MSFT, GOOG 등 대형 AI 인프라 기업)로 투자 방향을 전환할 수 있다고 분석. 이는 HBM·메모리 수요 둔화 우려를 야기하며 SK하이닉스·삼성전자 등 한국 반도체 기업에 악재.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-06",
+      "summary": "<p>모건스탠리가 AI 투자자들이 칩메이커에서 하이퍼스케일러(NVDA, MSFT, GOOG 등 대형 AI 인프라 기업)로 투자 방향을 전환할 수 있다고 분석. 이는 HBM·메모리 수요 둔화 우려를 야기하며 SK하이닉스·삼성전자 등 한국 반도체 기업에 악재.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI investors may pivot to hyperscalers from chipmakers, Morgan Stanley says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 투자 흐름 재편 신호는 메모리/칩 수요 전망에 직결되는 의미있는 산업 변화로, 한국 반도체 기업들의 AI 칩 수요 모멘텀을 약화시킬 수 있음.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZkRmUHRzNzdsLWFnc0dvQXdYOWF3SkVrQVFIWUFnNXU3M3BDV3FZcWRVbjNMRlltWTNSNV85ZEFBNTQ5RjA5MVZEVERkVHJvdmxES1lSdDFwVktMeEN3OVdDNkRGenExTXRqWDdmZG0wb1RoWFVjdldDSXpQY2FoY3M1Q05kel9waTI5UGxxQ2M5TmNsMHVCVUUzazFIUTU1N2dacGFDQ0xqLXN3bU9oXw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-07 00:07:14"
+    },
+    {
+      "id": 13404,
+      "title": "TeraWulf가 Anthropic과 190억 달러 규모의 데이터센터 임차 계약을 체결했으며, 이는 AI 인프라 수요 급증을 반영. 한국 HBM·메모리 반도체 수요 확대 신호로 작용 가능.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-06",
+      "summary": "<p>TeraWulf가 Anthropic과 190억 달러 규모의 데이터센터 임차 계약을 체결했으며, 이는 AI 인프라 수요 급증을 반영. 한국 HBM·메모리 반도체 수요 확대 신호로 작용 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): TeraWulf jumps on $19 billion data center lease deal with Anthropic Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "초대형 AI 데이터센터 투자는 고사양 반도체·HBM·서버 메모리 수요를 견인하며, SK하이닉스 등 HBM 공급사에 중장기 긍정 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVDl4N3FZenJYeGFlSUY2QkVFMlV3eHNxTWlHdzVJTlFoN0FMejNyVjZXMHZ2ek1Tai1rMHF5LU9ZdFgtVHd3ZnU4N2FFY3hlazNnUUxGTE9tRnNxSnhIVmlVYjJUZ2w1N2gxcVhtcVozamxkX2JqYTJvVzliNGtOejlURDZXZTBBQTRoa05PZzB5MmNHX25UTV9KNF9KYVRKbFFTSjRhUlBUcm5u?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-07 00:07:05"
     },
     {
       "id": 13392,
@@ -13340,60 +13393,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS056UFp2Y28xTm5Hb3pPdUpJaWdSUFZDU09mczI2eEtqZWdYN2pXbm5HOTdmLUtvelB1SURVX2Y4eHhqNTlYbVJNMmM1ZTJTY3NVTGFYUGNmLUlwWDdtSGU2YzBlemMxWVNTUWd6S2w2Sk1kRUdaN2VtSDFURzkyYmRwSi1VS0diNGY0Rl9aUDFsRHRHSHlDYm8xWm1ZYVRyMWdOcnR5YlRFNnRCWG10b2tUR2drN01BcGxteXNKc1U2cFptRTBWRUJmdDM?oc=5",
       "direction": "up",
       "updated_at": "2026-05-08 18:07:05"
-    },
-    {
-      "id": 3247,
-      "title": "IEA 수장이 이란 전쟁으로 에너지 시장이 '위험한 상황'에 빠질 수 있다고 경고. 유가 상승 압박으로 한국의 수입물가 상승 및 경常수지 악화 우려, USD/KRW 약세 압력 가능.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>IEA 수장이 이란 전쟁으로 에너지 시장이 '위험한 상황'에 빠질 수 있다고 경고. 유가 상승 압박으로 한국의 수입물가 상승 및 경常수지 악화 우려, USD/KRW 약세 압력 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Energy markets headed into &#x27;troubled waters&#x27; amid Iran war, head of IEA says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 급등 시 한국의 에너지 수입비 증가, 인플레이션 압력, 경상수지 악화로 원화약세 및 채권금리 상승 가능성 높음",
-      "stocks": [
-        "SK이노베이션",
-        "GS에너지",
-        "한국전력",
-        "S-Oil",
-        "현대오일뱅크"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmtGQjBLakhyaEF5QmdfVFZMaHpPa1Y0UXFGY2dQWjFfakVaWGw1dzZaWkVhV2k1ekF6cFAxbjVSSF8xSDl0XzRSYnY5Z0trbldEOHcxUVJwR05OaW4zVU1SOVBublVYX3JOS2ViMkZRdWJScFg1X3lYSUx2T0lKdkdfRjdLNXdOWkdVVDJ2Zkt6VGJmTVAtS1dZTVlZS1oyUFFOWTJPUnB1cFJZUVJMSFJOUFFvOWc?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 15:09:43"
-    },
-    {
-      "id": 2357,
-      "title": "싱가포르 석유제품 재고가 9개월 만에 최저 수준으로 하락했으며, 미국-이란 전쟁으로 인한 공급 차질이 주요 원인. 이는 유가 상승 압력으로 작용하여 한국의 정유사 및 화학사에 긍정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>싱가포르 석유제품 재고가 9개월 만에 최저 수준으로 하락했으며, 미국-이란 전쟁으로 인한 공급 차질이 주요 원인. 이는 유가 상승 압력으로 작용하여 한국의 정유사 및 화학사에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Singapore&#x27;s oil product stocks hit over nine-month lows as US-Iran war cuts supply Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학적 위험 확대로 유가 상승 가능성이 높아져 정유·화학 기업의 마진 개선이 예상되지만, 동시에 원가 상승 부담도 존재하여 중간 수준의 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONklHT1ZKQm0xX3RiT2ZRcWhVbEs2TVRORmNGMmt4bUFfdEJ2eEhZRXRBdzhEbWtlVkZ4NWxWV0Zub2FNQVJia3N4UGpDVzhfcFE5LVhoWUE5VEJJZTRCRHl6N0lfZHZfb281QjZtUngtTGpRWWFxTmtCdHhtWkJIbTkwOEFmbG5ZSXhGc0NTZEE0NGI1RWMzemQ4d09aWXZTNXhtekxuZzlDa1VJQ2w5allRT0I1aUZiQWtzU1NIZy1MN01ndC1QYlZn?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-10 12:07:47"
     }
   ],
   "events": [
