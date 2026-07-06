@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T06:05:02",
+  "generated_at": "2026-07-07T06:08:11",
   "count": 500,
   "posts": [
     {
@@ -3300,6 +3300,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13452,
+      "title": "미국 Fed 윌러 위원이 인플레이션 상방 위험을 강조하며 매파적 기조를 드러냈다. 이는 Fed의 금리 인상 지속 가능성을 시사하며, USD/KRW 환율 상승과 외국인의 한국 주식 매도 압력으로 작용할 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-06",
+      "summary": "<p>미국 Fed 윌러 위원이 인플레이션 상방 위험을 강조하며 매파적 기조를 드러냈다. 이는 Fed의 금리 인상 지속 가능성을 시사하며, USD/KRW 환율 상승과 외국인의 한국 주식 매도 압력으로 작용할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Waller says risks in US tilted towards high inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 매파 신호는 달러 강세(원화 약세) 및 외국인 수급 악화로 이어져 KOSPI와 수출주에 직접적 부정 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "삼성물산",
+        "포스코"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOGt3RXdNWHJ4ZG93TVNqOVJGTWdFcnRVZ2JKZ0dDVEZTVlFpMHZqSTZwbjdCRDdxNEIyMWFRcnFGZldKVzBWVTIwNDhPZnN1anA4NEtXQWlVOTRSci1FQVhGc3pSUmRuT0lxTUdjaGZocHdidGNSdDRfV194dVhqN3U1V3NfbWRUUE5tblJBN0R0a0JCNzkxNG44MA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-07 06:07:16"
     },
     {
       "id": 13436,
@@ -13367,33 +13395,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd1FSMWZ0aVozaXBUVHBwTU1xTVlvcmRrU254U2FFdTlTeFBrSTdBUXFPZmYyNTdyUzNjMC1najdoRTNOWnRoWWlzemFZVGl3WWJGam1vb1FJa29MSmJQREJ0QWp0Zy1TUWxxbURXbzlhT3YteENzQzNFMXBlOFk2WlpEVEFRaFRoeEowcjg1VmJYLS10Yi1j?oc=5",
       "direction": "up",
       "updated_at": "2026-05-09 00:07:09"
-    },
-    {
-      "id": 2065,
-      "title": "중동 평화 협상 진전 시 유가 하락 가능성이 높아지면서 에너지·화학 관련 한국 기업들의 수익성 개선이 예상됨. S-Oil, GS, SK이노베이션 등 정유사와 LG화학, 롯데케미칼 등 석유화학사가 영향권에 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>중동 평화 협상 진전 시 유가 하락 가능성이 높아지면서 에너지·화학 관련 한국 기업들의 수익성 개선이 예상됨. S-Oil, GS, SK이노베이션 등 정유사와 LG화학, 롯데케미칼 등 석유화학사가 영향권에 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Seven markets to track if peace breaks out in the Middle East Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학적 안정화는 유가 변동성 완화로 이어져 정유·석유화학 산업의 마진 개선을 가져올 수 있는 의미있는 매크로 변화",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이silon",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQejhMNzlOZXh6MFZiS0ZSSk1QbXVFTTNrQUpJaWNHRnNkZlhBNlNTMzgzSHlRckVVd2JlSENESGRUbjJmbFd1RkQ5b2pBVC1yTERrdWVxQkZvYXlKWmZRMUxTd3JtdGFuMnpuVGZDdjNKRHpFTHE0Qlg2dU16V050WHJPWFg1Q3M2Y3JSUlB3RU9uY3FicllpME1XRQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-08 21:08:27"
     }
   ],
   "events": [
