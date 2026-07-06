@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T15:05:34",
+  "generated_at": "2026-07-06T15:07:59",
   "count": 500,
   "posts": [
     {
@@ -3234,6 +3234,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13318,
+      "title": "삼성전자가 2분기 실적 발표를 통해 반도체 시장의 수요 신호를 제시할 것으로 예상되며, 이는 글로벌 칩 수급 및 한국 반도체 기업들의 향후 실적 방향성을 나타내는 지표가 될 것으로 보임.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-06",
+      "summary": "<p>삼성전자가 2분기 실적 발표를 통해 반도체 시장의 수요 신호를 제시할 것으로 예상되며, 이는 글로벌 칩 수급 및 한국 반도체 기업들의 향후 실적 방향성을 나타내는 지표가 될 것으로 보임.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Samsung to serve chip taster for earnings feast Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "삼성전자 실적은 한국 증시 최대 기업 뉴스이며, 반도체 경기 신호로 작용해 KOSPI 및 관련 산업 펀드 수급에 직접 영향을 미침",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "삼성SDI",
+        "삼성전기",
+        "메모리 관련 장비·소재주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RNjg0VnZqWVlQYUV1S1AwYWViU3poUWsyOE1laVlCdTIxWXN6SlRwQkZidkhWUHczUWhIaXF2c1B5eDV5eHA4bjNNNGpJN2dMVktGRWVaUFd2Sjkxb044VklZajVaREc0RUZZa0tJMXFBV2Fxdzlib0FkYVFfOUE?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-07-06 15:07:15"
     },
     {
       "id": 13279,
@@ -13387,34 +13414,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUEVSN2hFdTRJYzg5WHlkRmM2aDlHaTVUc3RCY1p6eVF3Uk5yckhYRjJPZkpQZ0xSTVc5YmVJQ0JBcnR5TUhOLXFLbXpVcEhJR2JNSHR0NktVREZtOVJ4M0RnT0QxVDVUZ0dqV1k2c2FUTnpTU3Njc2c3YXF5S2Z5c3ZTVHpZUnZLMUtFbmRzbGJaZjVzZzZNWUlwdXVsRDBVMXlnRUt2d2NxWGVPTDVkOWwwOEhhZzE3WGc?oc=5",
       "direction": "down",
       "updated_at": "2026-05-08 15:09:09"
-    },
-    {
-      "id": 1913,
-      "title": "Fed의 해머댁(Hammack) 위원이 인플레이션이 높은 가운데 금리를 '상당 기간' 현 수준에 유지할 가능성이 높다고 발언. 미 금리 인상 가능성 축소는 달러 약세 및 한국 수출주 호재, 외국인 자금유입 촉발 요인.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-07",
-      "summary": "<p>Fed의 해머댁(Hammack) 위원이 인플레이션이 높은 가운데 금리를 '상당 기간' 현 수준에 유지할 가능성이 높다고 발언. 미 금리 인상 가능성 축소는 달러 약세 및 한국 수출주 호재, 외국인 자금유입 촉발 요인.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Hammack says rates likely on hold &#x27;for quite some time&#x27; amid elevated inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 인상 연기 시그널은 USD/KRW 약세→수출 기업 호재, 글로벌 주식시장 유동성 개선→외국인 매수 가능성 높아 한국 증시에 의미있는 긍정 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대자동차",
-        "LG화학",
-        "포스코",
-        "삼성SDI"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd2Q4SUthZ2xKVnlFMnZJZ1dLdHhra1dqeloza0Z0YVVBMHRkQnZybzBqQ3BOSGFYQ2xaYmlUY09RRmxvVG9oR0wxczBjUmNaM05nNURkbGNHcWFBN2h2bk56X2VMN0lXTWFCa0M1WmFSb0FRdzdOTUJ5UDRVQThZR3pfd1c1dDB4VEJRb3ZVLUhvaUk5MnpfZlZSQUJrcXdiNXRNcFYxdWRrMEZXdDVMMHVFRHg2d0NIcV9YNFN3QWFRQ1AwZVk2YnhETkR2c2VxaW5jSl9uSHBqQQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-08 12:08:05"
     }
   ],
   "events": [
