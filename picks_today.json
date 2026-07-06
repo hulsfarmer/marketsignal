@@ -1,53 +1,53 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-06",
   "strategy": "hybrid",
-  "generated_at": "2026-07-03T15:05:40",
+  "generated_at": "2026-07-06T15:05:21",
   "count": 5,
   "picks": [
     {
-      "stock_code": "010140",
-      "name_kr": "삼성중공업",
-      "ms_score": 77,
-      "ai_score": 97,
+      "stock_code": "033780",
+      "name_kr": "KT&G",
+      "ms_score": 62,
+      "ai_score": 86,
       "confidence": "HIGH",
-      "reason": "[E] tech 29 / earn 98 (RSI 26, 5일 -0.2%)",
-      "entry_price": 22950.0
+      "reason": "[E] tech 40 / earn 86 (RSI 39, 5일 +1.4%)",
+      "entry_price": 175100.0
     },
     {
-      "stock_code": "005490",
-      "name_kr": "POSCO홀딩스",
-      "ms_score": 65,
-      "ai_score": 59,
+      "stock_code": "010140",
+      "name_kr": "삼성중공업",
+      "ms_score": 70,
+      "ai_score": 77,
       "confidence": "MEDIUM",
-      "reason": "[E] tech 26 / earn 59 (RSI 25, 5일 +4.1%)",
-      "entry_price": 317500.0
+      "reason": "[T] tech 78 / earn 0 (RSI 30, 5일 -3.9%)",
+      "entry_price": 23500.0
     },
     {
       "stock_code": "009150",
       "name_kr": "삼성전기",
       "ms_score": 64,
-      "ai_score": 54,
+      "ai_score": 76,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 54 / earn 0 (RSI 47, 5일 -3.4%)",
-      "entry_price": 1926000.0
+      "reason": "[E] tech 43 / earn 76 (RSI 47, 5일 -2.4%)",
+      "entry_price": 1989000.0
     },
     {
-      "stock_code": "024110",
-      "name_kr": "기업은행",
-      "ms_score": 58,
-      "ai_score": 52,
+      "stock_code": "005490",
+      "name_kr": "POSCO홀딩스",
+      "ms_score": 55,
+      "ai_score": 70,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 47 / earn 52 (RSI 34, 5일 +4.8%)",
-      "entry_price": 20600.0
+      "reason": "[T] tech 70 / earn 61 (RSI 27, 5일 -3.9%)",
+      "entry_price": 320000.0
     },
     {
-      "stock_code": "011200",
-      "name_kr": "HMM",
-      "ms_score": 57,
-      "ai_score": 49,
-      "confidence": "LOW",
-      "reason": "[T] tech 50 / earn 0 (RSI 35, 5일 +4.3%)",
-      "entry_price": 19100.0
+      "stock_code": "047050",
+      "name_kr": "포스코인터내셔널",
+      "ms_score": 64,
+      "ai_score": 68,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 68 / earn 59 (RSI 26, 5일 -4.1%)",
+      "entry_price": 49300.0
     }
   ]
 }
