@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T18:05:02",
+  "generated_at": "2026-07-07T18:08:42",
   "count": 500,
   "posts": [
     {
@@ -374,6 +374,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 13582,
+      "title": "삼성전자의 약한 실적 전망으로 AI 관련 우려가 확대되면서 아시아 주식이 하락했습니다. 한국의 메모리반도체 및 파운드리 업체들이 직접적 영향을 받을 것으로 예상됩니다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-07",
+      "summary": "<p>삼성전자의 약한 실적 전망으로 AI 관련 우려가 확대되면서 아시아 주식이 하락했습니다. 한국의 메모리반도체 및 파운드리 업체들이 직접적 영향을 받을 것으로 예상됩니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asian stocks tumble on AI jitters after Samsung forecast; oil stable Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "삼성전자 부진 신호는 SK하이닉스, 한미반도체 등 메모리칩 업계 전반의 약세 심화로 이어질 수 있으며, AI 반도체 수요 둔화 우려가 한국 반도체 섹터 전체에 직접 타격",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTlVmYWxzRk02MjZPWnI4ZlAwZG5xbkd6elBjQjNZUEloOWpIejgxS0FTenhWX0s1Z2tmSWdpQmM5MElHQmZUZmUxNXBHV0F5YW9STzNQZHFiYlVSYzRfSjVWclIzblNkSEQxcjNVcS1Mb0JXUHhfb05ZYnM0LVJjbnBCaw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-07 18:07:17"
     },
     {
       "id": 13464,
@@ -13369,33 +13396,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUXE2eTdZSy1NMHZIZUgwNHhyR29DajhiVDhOYmVyQXZKTTBTX3V1MGNiNnZCckJ3MmNIek5rNDJ0U3c2Y0dmekJSNnRJMjRQMEp5Mmh2eFQ3X0pVeWRfNkRTR0pxX2NuZ0I2VlludkFTYXB5WndoekdwbWdVUDdQdU12N1VyM1JfajZuSXdYZ3N4YldUd3NEd3dpSkg4bkE?oc=5",
       "direction": "up",
       "updated_at": "2026-05-10 00:07:40"
-    },
-    {
-      "id": 2153,
-      "title": "미국 4월 고용 강세 지속으로 Fed의 기준금리 인상 가능성 높아짐. USD 강세 및 KRW 약세 압력 증가, 한국 수출기업 실적 개선에도 달러화 강한 환경 지속으로 외국인 자금 유출 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>미국 4월 고용 강세 지속으로 Fed의 기준금리 인상 가능성 높아짐. USD 강세 및 KRW 약세 압력 증가, 한국 수출기업 실적 개선에도 달러화 강한 환경 지속으로 외국인 자금 유출 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): April jobs report shows continued strength Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "美 강한 고용 → Fed 금리 인상 연장 경로 강화 → USD/KRW 상승 압력 및 글로벌 안전자산 선호로 KOSPI 외국인 수급 악화 가능",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWDBDaXBROWJvWm53ZnRfUXVZamZ2cG5teGxXT085YlVkMklSeGg0bE92LTNUUTgzWHJ1S1dYZjZ5QmhoZFY5Wm1vMW5qMklSMWJLY1FRRGV5bU1hT0kxeDRlN2ljY0JlUkZLSlBPMkFEenFJNWhJNHNPMVNHUC0zNnhZSUZ5bmgybHdKbVdZVmZ3TUJ2TWZV?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-09 09:07:58"
     }
   ],
   "events": [
