@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T15:05:27",
+  "generated_at": "2026-07-07T16:10:51",
   "dates": [
     "2026-07-07",
     "2026-07-06",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 103,
-      "correct": 47,
-      "hit_rate": 45.6,
-      "avg_return": 0.29,
-      "avg_return_open": 0.8
+      "total": 105,
+      "correct": 48,
+      "hit_rate": 45.7,
+      "avg_return": 0.28,
+      "avg_return_open": 0.78
     },
     "hybrid": {
-      "total": 125,
-      "correct": 58,
-      "hit_rate": 46.4,
-      "avg_return": -0.16,
-      "avg_return_open": 0.18
+      "total": 130,
+      "correct": 61,
+      "hit_rate": 46.9,
+      "avg_return": -0.21,
+      "avg_return_open": 0.12
     }
   },
   "by_date": {
@@ -168,10 +168,10 @@
             "confidence": "HIGH",
             "reason": "RSI 28의 극단적 과매도 구간으로 기술적_반등(성공률 100%) 패턴에 해당합니다. 민영화 추진과 2조1432억원 자사주 소각이라는 수급_개선(성공률 100%) 신호가 동시에 작동하고 있으며, 5일 -0.3%로 낙폭이 제한적이어서 호재_선반영 위험도 낮습니다.",
             "entry_price": 19170.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 19380.0,
+            "return_pct": 1.1,
+            "return_pct_open": 1.1,
+            "correct": 1
           },
           {
             "stock_code": "034020",
@@ -181,10 +181,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 27의 극단적 과매도 구간에서 기술적_반등 조건을 충족합니다. 체코·SMR 호재가 아직 주가에 충분히 반영되지 않은 상태(5일 -2.0%)이며, 20일 +0.5%로 중기 추세는 긍정적입니다.",
             "entry_price": 86200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 85500.0,
+            "return_pct": -0.81,
+            "return_pct_open": -0.81,
+            "correct": 0
           }
         ]
       },
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 40 / earn 86 (RSI 39, 5일 +1.4%)",
             "entry_price": 175100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 172600.0,
+            "return_pct": -1.43,
+            "return_pct_open": -1.43,
+            "correct": 0
           },
           {
             "stock_code": "010140",
@@ -212,10 +212,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 78 / earn 0 (RSI 30, 5일 -3.9%)",
             "entry_price": 23500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 23700.0,
+            "return_pct": 0.85,
+            "return_pct_open": 0.85,
+            "correct": 1
           },
           {
             "stock_code": "009150",
@@ -225,10 +225,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 43 / earn 76 (RSI 47, 5일 -2.4%)",
             "entry_price": 1989000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1828000.0,
+            "return_pct": -8.09,
+            "return_pct_open": -8.09,
+            "correct": 0
           },
           {
             "stock_code": "005490",
@@ -238,10 +238,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 70 / earn 61 (RSI 27, 5일 -3.9%)",
             "entry_price": 320000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 321500.0,
+            "return_pct": 0.47,
+            "return_pct_open": 0.47,
+            "correct": 1
           },
           {
             "stock_code": "047050",
@@ -251,10 +251,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 68 / earn 59 (RSI 26, 5일 -4.1%)",
             "entry_price": 49300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 50000.0,
+            "return_pct": 1.42,
+            "return_pct_open": 1.42,
+            "correct": 1
           }
         ]
       },
