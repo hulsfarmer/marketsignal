@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T00:05:02",
+  "generated_at": "2026-07-08T00:08:48",
   "count": 500,
   "posts": [
     {
@@ -3381,6 +3381,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13645,
+      "title": "미국 5월 무역적자가 급증하며 자본재 수입이 사상 최고치를 기록했다. 이는 반도체·AI칩 등 첨단 수입품 증가를 시사하며 한국 반도체 업체의 미국 수출 호실적 기대감을 높인다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-07",
+      "summary": "<p>미국 5월 무역적자가 급증하며 자본재 수입이 사상 최고치를 기록했다. 이는 반도체·AI칩 등 첨단 수입품 증가를 시사하며 한국 반도체 업체의 미국 수출 호실적 기대감을 높인다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US trade deficit widens sharply in May as capital goods imports hit record high Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 자본재 수입 증가는 반도체·AI칩 수요 강세를 반영하며, SK하이닉스·삼성전자의 핵심 수출처인 미국 고객사들의 발주 증가로 이어질 가능성이 높다.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZXVGUWhvckhjbnlmLUN4ZUtvd3E1QnBGUEN6Z1h0MFZMU1lTYl9QUS1nV2tEYVBmUzFqdkxmb1ljYkxORGxtRnlkNm12WFZXOHNMb0Q4SWpDaklYaldtY19aSFdzMFJUNVliWTNPSkVTX0xLMklVellCZ2RNY1ExSVJnZFJqTkk1WW9LOHJjTzNQdFFEMWg5UWVMYzQyRGxGbkRWWU83WmwtRnRNZW1vVlZ5UU1BeEE1OEE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-08 00:07:22"
     },
     {
       "id": 13626,
@@ -13360,33 +13387,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmowSnVOelhFSkZuUkVCMEN2TDl4NWRidHB2ak5jQkVHcUxRd2RoNW9mMkJlNTNLU0FkeWpvdGtSd0hKV2doZXdZN2NyeVdyOTJXSWVaYmkyeF9rb005d1lPYWZGLXQtRTdObUJFMWw3b1lBUDhVYUZJcEQxclIteTdzNW5PeHhGZUhZNGVjNkVZQ2NGMzZkNWNsb09hS1ZNV2RwamRncDg3STBiMGRVNmxpNkt2S1o3QTQyTW9Qc25oUQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-11 18:08:01"
-    },
-    {
-      "id": 2227,
-      "title": "미국-이란 간 걸프만 해상 충돌이 격화되면서 전쟁 종료 협상이 교착 상태에 빠짐. 중동 지역 긴장 고조로 유가 변동성 확대 우려, 한국의 에너지·화학 관련 기업들의 원자재 비용 및 유가 영향 커짐.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-09",
-      "summary": "<p>미국-이란 간 걸프만 해상 충돌이 격화되면서 전쟁 종료 협상이 교착 상태에 빠짐. 중동 지역 긴장 고조로 유가 변동성 확대 우려, 한국의 에너지·화학 관련 기업들의 원자재 비용 및 유가 영향 커짐.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US, Iran no closer to ending war as Gulf clashes flare Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 분쟁 심화는 글로벌 유가 변동성을 직결하며, S-Oil·GS·SK이노베이션 등 정유·에너지 기업과 LG화학·롯데케미칼 같은 화학 업체의 원가 구조에 유의미한 영향을 미침.",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlNJcVlISWZXdENyOVI2ZU50RS1KcnN2eEY0M25rNTI0eTdJTzFDSmlnSGRfX19RcmRSZ1dOYllLZG81Z0hDZGJmMVBhb0ctdVJCb3FFUDJyX1lYNm1fVXd5VFJGdk1EN2h3TEpyd1ByYVJ6TEZ0aXZjSllXR1cyTUtpRDdvZmItZG44ekJhQUpBanI5RncxLVRoQQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-09 18:07:59"
     }
   ],
   "events": [
