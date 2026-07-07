@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T21:05:02",
+  "generated_at": "2026-07-07T21:08:48",
   "count": 500,
   "posts": [
     {
@@ -374,6 +374,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 13620,
+      "title": "한국 KOSPI지수가 거의 5% 급락했으며, AI 우려로 인한 반도체 업체들의 주가 하락이 주요 원인. SK하이닉스, 삼성전자 등 한국 칩메이커들이 직격탄을 맞은 상황.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-07",
+      "summary": "<p>한국 KOSPI지수가 거의 5% 급락했으며, AI 우려로 인한 반도체 업체들의 주가 하락이 주요 원인. SK하이닉스, 삼성전자 등 한국 칩메이커들이 직격탄을 맞은 상황.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): S.Korea&#x27;s KOSPI tumbles nearly 5% as chipmakers slump on AI worries Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "한국 주식시장 전체 지수가 5% 급락하고 주요 반도체 종목들이 동반 하락하여 한국 증시에 직접적이고 즉각적인 악영향 발생",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUxrR01LMGxJRUJUUGxGdHZiU0hsc2FYU2tuZW90bGk2ZWxhajl6WU1sYTBJb1lHLVpKZ2VoR0N2T3laNnUtOFk1TFFneGhXNFJhYTR4Y245eUFuTk9jMmM5OUxSbjczNTRZRVZERDR2dWZoMjhVcmZEQmhja29UOFU0bWNRUFNUQ0hYcE1tTXBkMnFpV0hPTHk0SUF1OWZ1RkY3ZmJ6X0hiWVdjZTgxXy16UQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-07 21:07:23"
     },
     {
       "id": 13582,
@@ -3354,6 +3381,87 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13626,
+      "title": "호르무즈 해협 근처에서 사우디 유조선이 LNG 탱커와 충돌로 손상됨. 중동 유가 공급 불안 심화로 유가 상승 압력 발생, 한국의 에너지 수입 비용 증가 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-07",
+      "summary": "<p>호르무즈 해협 근처에서 사우디 유조선이 LNG 탱커와 충돌로 손상됨. 중동 유가 공급 불안 심화로 유가 상승 압력 발생, 한국의 에너지 수입 비용 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Saudi-Flagged crude oil tanker damaged near Hormuz after LNG tanker hit, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협 공급망 충격은 한국의 중유·원유 수입에 직접 영향을 미치며, 유가 상승은 정유·화학주에 단기 마진 악화 요인으로 작용",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN0VzR0ZTV1Rwb2FaaXNRWDAzWGFzeVZMT1ZOeVA4NUdTVWZTRjBpYWUwdU80NWtod0NNTG9oTGdudGNpNjhOOFVnOGpTZnFzY1YxeE9aSXphMTVDM0NNM2Q1bnZZRlc1bXh0T0FRbzNTbzJBaXlHM0ExazZOc3ZYcWkxekNyZWlBWWlyckZRdV9QRjNJN0phN19UOC1Va2Q5dWdIOUhlTS1NMS15cjAxSEQyRWNzYlpoZnJJZXZvX3pBSGFWSC1ZdWxaZ1E5dw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-07 21:07:50"
+    },
+    {
+      "id": 13618,
+      "title": "삼성전자의 기록적 이익에도 불구하고 나스닥 선물이 하락하며 글로벌 칩 수급 불안감이 해소되지 않음. 메모리/파운드리 업체들의 실적 개선이 시장 우려를 충분히 상쇄하지 못한 상황.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-07",
+      "summary": "<p>삼성전자의 기록적 이익에도 불구하고 나스닥 선물이 하락하며 글로벌 칩 수급 불안감이 해소되지 않음. 메모리/파운드리 업체들의 실적 개선이 시장 우려를 충분히 상쇄하지 못한 상황.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nasdaq futures fall after Samsung&#x27;s record profit fails to allay chip jitters Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "반도체 업계 전반의 수급 불안심화는 SK하이닉스, 삼성전자 등 한국 칩 업체들의 가격 약세 압력 및 투자심리 악화로 직결될 수 있는 의미있는 산업 악재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkRnZVFOUXdNU3JYa1lRMEFEQ0MwWGZMRkZ4TW1PM1JaUmQ4aEhTQlNsdlp1cVBTRVZ4LWZ0RDBJNU40a0tJS1JvaEtjZWczcHJWOFVncTBCYzh3NVFUS1M3UG1tZWJ4VDNsc1VkNkg2eVByZkhacEhDS1hQaGJlaUpGUG5qR0dhbzZ3RzRVSGpDdW94RlJWUFFNR0Mwc05lZ1hqRUJ3ZWVoaTRKTDJFSEtQaXRIdEVvQnc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-07 21:07:14"
+    },
+    {
+      "id": 13616,
+      "title": "중국 딥씩이 자체 AI 칩 개발 중이라는 보도로, 한국 메모리·파운드리 업체의 중국 고객 수요 감소 위험 증가. SK하이닉스의 HBM 수출, 삼성전자의 파운드리 경쟁력 약화 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-07",
+      "summary": "<p>중국 딥씩이 자체 AI 칩 개발 중이라는 보도로, 한국 메모리·파운드리 업체의 중국 고객 수요 감소 위험 증가. SK하이닉스의 HBM 수출, 삼성전자의 파운드리 경쟁력 약화 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): EXCLUSIVE: China&#x27;s DeepSeek developing its own AI chip, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국의 AI 칩 자급화 추진은 한국 반도체 기업의 중국 시장 점유율 하락 및 글로벌 공급망 재편 신호로, 주요 수출 고객사 수요 감소 우려",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGRQQzRJX0VFTThJbC1JZnM2NUpNVHZQeEhxODdQejNBODNSLXpYMGdvSWxJMVhRSFBEOWplZy1NMU5qSnFxc3dpOEczN01EcVRQSk1mSXo3ejlMaUoxcks3LURaeGZ0Q3EyZ2dBQVN0QkRXNWg0YWpyOXJ2TjUtLVF4elZRU1VqdUVCdEhGNnFfYV9uYTdaT3V4MVFEZ2swRmlfRw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-07 21:07:05"
     },
     {
       "id": 13509,
@@ -13279,123 +13387,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlNJcVlISWZXdENyOVI2ZU50RS1KcnN2eEY0M25rNTI0eTdJTzFDSmlnSGRfX19RcmRSZ1dOYllLZG81Z0hDZGJmMVBhb0ctdVJCb3FFUDJyX1lYNm1fVXd5VFJGdk1EN2h3TEpyd1ByYVJ6TEZ0aXZjSllXR1cyTUtpRDdvZmItZG44ekJhQUpBanI5RncxLVRoQQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-09 18:07:59"
-    },
-    {
-      "id": 2397,
-      "title": "미국-중국 무역전쟁 심화로 위안화가 11년 만에 최저치까지 급락하고 중국 주식이 하락했다. 이는 한국의 중국 수출 경쟁력 약화와 중국 수요 부진으로 이어질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>미국-중국 무역전쟁 심화로 위안화가 11년 만에 최저치까지 급락하고 중국 주식이 하락했다. 이는 한국의 중국 수출 경쟁력 약화와 중국 수요 부진으로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s yuan slumps to 11-year low, stocks fall as U.S. trade war escalates Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 악화는 한국의 주요 수출국 수요 감소와 위안화 약세로 인한 가격 경쟁력 악화를 초래하며, 화장품·자동차·철강 등 주요 산업에 직접 영향",
-      "stocks": [
-        "아모레G",
-        "LG생활건강",
-        "현대자동차",
-        "기아",
-        "POSCO",
-        "롯데면세점",
-        "신세계면세점",
-        "넷마블",
-        "엔씨소프트"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUktTMWRXZm92eHBtYUxSTWJMZ0Q4SnNGMXozM2FGSVpPcnRaa2pselVYbWVBeTdsMV8ybmtWd2hteWJZT1p6bjFhaXFqdktLTGt1ekUzTWJ6dWZMV2RXQUlaYmZua29BN2JKSDhLbjlmOUlpbVR6VUFmc1ZSajdXRGFfQUFTTFpYbEF2aVlUdGdhVTZGZUZYcTEzUDhHeVNUYlFyMzRZYUxmTFlKaGFhMk9TX0NFMVp4N3Z2WHA3YlRJN0dSeUE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-10 18:07:45"
-    },
-    {
-      "id": 2346,
-      "title": "소니가 메모리 가격 급등으로 게이밍 사업 매출 감소를 전망했다. 이는 메모리 반도체 수급 부족과 가격 상승이 글로벌 전자기기 제조사의 수익성을 악화시키고 있음을 시사한다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>소니가 메모리 가격 급등으로 게이밍 사업 매출 감소를 전망했다. 이는 메모리 반도체 수급 부족과 가격 상승이 글로벌 전자기기 제조사의 수익성을 악화시키고 있음을 시사한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Sony forecasts lower gaming business sales amid memory price surge Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "메모리 가격 급등이 주요 글로벌 고객사의 실적 악화로 이어지며 한국 메모리 반도체 수출 수요 둔화 우려를 증폭시키고, SK하이닉스·삼성전자의 메모리 가격 상승세 지속성에 대한 불확실성 증가",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNci1nMExHdVNzTTdGZHAxZ0dlT2tqaENONDRUaWlod1Bldnhrc1ZSZ1VmTzdkemZJMmVLSHZBRHR2MjNvZGhOREdaU0Z6SnhlUzFXeW0taW5vM3B0VllibDQ5N3U2c2hEVW9QczhWMlN3LWd4VFFXMmhVRzV4c2lzTDZtZzBuZXJxTXdfZnRLWURTa3BhTHhyaGE3SmhwMGlfekhYcU95eVJnVVk?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-10 12:07:06"
-    },
-    {
-      "id": 2285,
-      "title": "중국 4월 은행 대출이 신용수요 부진으로 급감할 것으로 예상된다. 중국 경제 약세가 심화되면서 한국의 화장품, 자동차, 철강 등 주요 수출 산업의 중국 시장 수요 감소가 우려된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>중국 4월 은행 대출이 신용수요 부진으로 급감할 것으로 예상된다. 중국 경제 약세가 심화되면서 한국의 화장품, 자동차, 철강 등 주요 수출 산업의 중국 시장 수요 감소가 우려된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s April bank lending seen plunging amid soft credit demand: Reuters poll Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 신용수요 부진은 경기 둔화 신호로, 한국의 주요 수출 산업(자동차·화장품·철강)의 중국 수요 감소를 시사하는 의미있는 부정적 매크로 신호",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "POSCO",
-        "아모레퍼시픽",
-        "LG생활건강",
-        "롯데면세점"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdEp1czhpSDE3REl3d252aDQ0bXZ4OFBRRkgxVWJuajdJVmY3a0pwNWdtU3BfbVdnOTlKdDBVeUJFRDhTZVFBZFZTX3pkajE2ZjZrZTNFWW5wMTBRMnFhdFVLY1I5SG5Ubm9Xam9GUnhDS1RzRXFfVURLaUh5bjRpYWx2dUF5cHJub2Z0cjFpLV9OWS1ybml4ZWtLejlJQTVWd19ZR2djYjNocGFSR0RHVWNXVzVMa2NGUEE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-10 00:08:19"
-    },
-    {
-      "id": 2274,
-      "title": "미국 소비자심리지수가 5월 초 사상 최저를 기록했으며, 이는 미국 경기 둔화 우려를 높여 Fed의 금리 인하 가능성을 키우고 있다. 달러 약세와 외국인 한국주 매수 확대로 이어질 가능성이 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>미국 소비자심리지수가 5월 초 사상 최저를 기록했으며, 이는 미국 경기 둔화 우려를 높여 Fed의 금리 인하 가능성을 키우고 있다. 달러 약세와 외국인 한국주 매수 확대로 이어질 가능성이 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US consumer sentiment hits record low in early May Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 경기 부진 신호는 Fed 금리 인하 선제를 강화하여 USD/KRW 약세, 외국인 매수 확대, 한국 수출주 수혜 등 긍정적 연쇄효과를 유발할 수 있다.",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "기아",
-        "포스코",
-        "LG전자",
-        "네이버",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUXE2eTdZSy1NMHZIZUgwNHhyR29DajhiVDhOYmVyQXZKTTBTX3V1MGNiNnZCckJ3MmNIek5rNDJ0U3c2Y0dmekJSNnRJMjRQMEp5Mmh2eFQ3X0pVeWRfNkRTR0pxX2NuZ0I2VlludkFTYXB5WndoekdwbWdVUDdQdU12N1VyM1JfajZuSXdYZ3N4YldUd3NEd3dpSkg4bkE?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-10 00:07:40"
     }
   ],
   "events": [
