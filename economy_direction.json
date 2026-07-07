@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T12:05:02",
+  "generated_at": "2026-07-07T12:08:36",
   "count": 500,
   "posts": [
     {
@@ -3327,6 +3327,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13509,
+      "title": "중국의 희토류 수출 제한이 심화되면서 일본 기업들의 경고가 커지고 있음. 한국의 화학·에너지 기업들도 희토류 공급망 차질 위험에 노출되어 있으며, 전자·배터리 산업 원가 상승 압력 증가 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-06",
+      "summary": "<p>중국의 희토류 수출 제한이 심화되면서 일본 기업들의 경고가 커지고 있음. 한국의 화학·에너지 기업들도 희토류 공급망 차질 위험에 노출되어 있으며, 전자·배터리 산업 원가 상승 압력 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Corporate Japan&#x27;s rare-earth warnings get louder as China keeps the spigot closed Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중국의 희토류 공급 제한은 한국 화학·에너지·전자산업의 주요 원자재 조달 경로 차단으로 작용하여 LG화학, SK이노베이션 등의 원가 상승과 공급망 리스크 심화.",
+      "stocks": [
+        "LG화학",
+        "SK이노베이션",
+        "S-Oil",
+        "GS",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtcURfVG1qWkVQcUJ0c3JfNHpqNi1pM1F1dDVUMEYzdE1JOWI1WGZZMnF3eVNtampuZ0g1VTlOY1p6WDJNRmFoS21wUDhGb1hSbml2ZUdRb1pqXzZGdGFCd01XTm1jNXBHWFRYLU9oSHlJWW0tSDdoZlR4cmk4MFV2QThqZGdjUFh6SjcwY1ViZXNzbEx4WTNqZUY0S2tiZWtQc3Fn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-07 12:07:36"
+    },
+    {
+      "id": 13503,
+      "title": "네덜란드 무역장관이 중국을 방문하며 반도체 장비 분쟁(ASML 수출 제한, Nexperia 분쟁)이 고조되고 있습니다. 글로벌 반도체 공급망 긴장이 심화되고 있습니다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-06",
+      "summary": "<p>네덜란드 무역장관이 중국을 방문하며 반도체 장비 분쟁(ASML 수출 제한, Nexperia 분쟁)이 고조되고 있습니다. 글로벌 반도체 공급망 긴장이 심화되고 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dutch trade minister heads to China as Nexperia dispute and ASML curbs loom Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "ASML 수출 제한과 반도체 장비·소재 분야 미중 갈등 심화는 한국 메모리·파운드리 산업의 경쟁 구도 변화와 공급망 리스크를 초래할 수 있습니다.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb0l2dGQxdVlSZWY5UlpHcVl1YUFfTVZBWEg3YWVoRTR0ZVBYcnJHWFM0MUdxVXZ2a19Cc1N2QlE3MjZJdVEwVVpwYlBiR2VyTkZkZ2pUbmNWdjFrQVF3NS1NM2JvNWd1bmxzS3RrX2ZudUM5ajNocUQ2NTB5VmFwNU1IdDFoLVMwd2N6MF9aeUNsWUwtNUdkSFpVUmd0Y0pGdVM4QXZvNmJNZmlvMS1RMXlYcEJ0d3F5WXptUA?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-07-07 12:07:07"
     },
     {
       "id": 13452,
@@ -13342,59 +13396,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWDBDaXBROWJvWm53ZnRfUXVZamZ2cG5teGxXT085YlVkMklSeGg0bE92LTNUUTgzWHJ1S1dYZjZ5QmhoZFY5Wm1vMW5qMklSMWJLY1FRRGV5bU1hT0kxeDRlN2ljY0JlUkZLSlBPMkFEenFJNWhJNHNPMVNHUC0zNnhZSUZ5bmgybHdKbVdZVmZ3TUJ2TWZV?oc=5",
       "direction": "down",
       "updated_at": "2026-05-09 09:07:58"
-    },
-    {
-      "id": 2111,
-      "title": "미국 고용 데이터 강세로 연준의 금리 인하 가능성이 제한되고 있으며, 이는 달러 강세 지속과 신흥국 자산 매력 약화로 이어질 전망. 한국의 USD/KRW 환율 상승 압력과 외국인 주식 매도 우려가 증대.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>미국 고용 데이터 강세로 연준의 금리 인하 가능성이 제한되고 있으며, 이는 달러 강세 지속과 신흥국 자산 매력 약화로 이어질 전망. 한국의 USD/KRW 환율 상승 압력과 외국인 주식 매도 우려가 증대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Strong US jobs data complicates any Warsh push for lower rates Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 금리 경로 전망이 한국의 환율, 외국인 수급, 채권 금리에 직결되는 매크로 변수로 작용하기 때문",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcURjam8xSFBkaGt4YXRydXQ2dGlTWDlVUTBGQjhySnMxUmxpUGt5Q1NxaVNfRHRxVVoxbVVGSjRnMWd2VWJwMWZnc1VIdjlYc1FWSnZhTXlmTkhnTDdFaGRZUmxUdGFVeFNGMUxMZDdaYUdCWFdBX1RjY3FMLWRNc20tZ0xsOVVSMF9ieDg2NVMxOGhyZjVqcEJsLUlvTklnU1Y2SE1jWEQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-09 03:08:09"
-    },
-    {
-      "id": 2095,
-      "title": "미국 S&P 500과 나스닥이 기술주 랠리와 강한 고용 데이터에 힘입어 사상 최고치를 기록. 글로벌 AI/반도체 수요 회복 신호로 SK하이닉스, 삼성전자 등 한국 메모리·파운드리 업체에 긍정적 영향 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-08",
-      "summary": "<p>미국 S&P 500과 나스닥이 기술주 랠리와 강한 고용 데이터에 힘입어 사상 최고치를 기록. 글로벌 AI/반도체 수요 회복 신호로 SK하이닉스, 삼성전자 등 한국 메모리·파운드리 업체에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): S&amp;P 500, Nasdaq hit record highs on tech rally, strong jobs data Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미국 기술주 강세와 양호한 고용지표는 글로벌 반도체 수요 개선 신호이며, 한국 주요 메모리·파운드리 업체의 실적 개선으로 이어질 가능성이 높음",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOGVILXcwU3hObHYzalJvRDNUTDVJS0pXNnR6QjVtNXhtTTNSclRlejJYRjRiX2pJcmlOMGVBdzZvOUdzNWg1aV9GQVdWdzBOUUVEX3NaaGhTcHlyNEJEcFlVOHJGWnJWVlZNZHNnMC0wQ0ZPZmRxMTZYdGF4T1MwcDdLcUM4Q0xyNzJJRHVyUlJUT0lKM21leFU5dVc?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-09 03:07:05"
     }
   ],
   "events": [
