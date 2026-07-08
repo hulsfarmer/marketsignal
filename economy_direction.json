@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T00:05:02",
+  "generated_at": "2026-07-09T00:08:44",
   "count": 500,
   "posts": [
     {
@@ -3408,6 +3408,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13892,
+      "title": "트럼프의 신규 무역 위협으로 스페인 시장이 타격을 받고 있으며, 이는 글로벌 공급망과 무역 긴장 심화를 의미. 반도체·IT 수출 의존도가 높은 한국 기업들도 관세 리스크와 수요 위축 우려에 직면.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-08",
+      "summary": "<p>트럼프의 신규 무역 위협으로 스페인 시장이 타격을 받고 있으며, 이는 글로벌 공급망과 무역 긴장 심화를 의미. 반도체·IT 수출 의존도가 높은 한국 기업들도 관세 리스크와 수요 위축 우려에 직면.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Spanish markets hit by Trump&#x27;s renewed trade threat Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 관세 정책 불확실성 확대는 글로벌 반도체·IT 수요 위축과 한국 수출 기업들의 경쟁력 약화를 초래할 수 있는 의미있는 매크로 악재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWndrS0pGb3l1OEtCZ3kxOHF0ZlRPbkNwY2w1R0h1THhfZVl6OFQ1cGpCRXMtRkhiN1UxSVB2QmUyaXBYUXVOemRhdS1tcmJCeVU2bVNyYi1PVWVFZHNxajU3T3N2MS1yRFdBVzNjZ3VXREFNcE1PX2t2N3ZXaUl4VmpTUVNLV1c0dzNadXhucGlwVXlkX2lOenBqczZtTnh1NldrTjFR?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-09 00:07:16"
     },
     {
       "id": 13888,
@@ -13357,33 +13384,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONXU1bkVTV3NFUWRDVjhIdEJiS0NxbUdxWm00Y2ZYQ1AyUm5wMnA1eXRYelJCSGprMjlJZ3BVYURZbUZHR1JNZlExV1ZuY2Y0eWNqVzBLblFkWjZURldzWTMxc2pMdVVrMEpqajd2UUR4Q2p4eEZUa1VFQjNLUUlvdmxYajVHLXJiMnRXY1pVYzhXWHItWHcxdnJNWUs3UFV5U01ZUkNjWGJRZjRObWU2bHRxYTlvc01PeWtRaS1NSTJhODA?oc=5",
       "direction": "up",
       "updated_at": "2026-05-12 03:08:38"
-    },
-    {
-      "id": 2727,
-      "title": "4월 OPEC 원유 생산량이 호르무즈 해협 수출 차질로 사상 최저 수준을 기록했다. 한국은 중동 원유 수입 의존도가 높아 유가 상승 압력이 가해질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-11",
-      "summary": "<p>4월 OPEC 원유 생산량이 호르무즈 해협 수출 차질로 사상 최저 수준을 기록했다. 한국은 중동 원유 수입 의존도가 높아 유가 상승 압력이 가해질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "OPEC 공급 차질은 국제유가 상승 압력으로 작용하며, 원유 수입국 한국의 에너지·화학 기업들의 원가 부담 증대로 이어짐",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFkyWS1GOUpEZ2ZONlZDWXJJVjV0QWg4N1hzYU5Vc1oxQld5dnRQeWlOY0hTS0pvQkFnQldPN3FBM3VsN1hfTGttM3g5WU1YbFY4bXhWbGFCRGxMYThQZDgwTG9oWXBlRmRBa1RNb1BkRWZCX3FVMldPbHkwTmtmcTVPNml0N1VpVG4zUFExaHlnT1JIZVo1WmVsbHItMU9WcnlnUzdtVS1KSHV2dThrb1hCTFNnd2taVmNsMzNJaGk0ci1iQTlzVllVbHM?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-12 03:08:22"
     }
   ],
   "events": [
