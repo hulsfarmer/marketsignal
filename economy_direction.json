@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T18:35:07",
+  "generated_at": "2026-07-08T18:40:04",
   "count": 500,
   "posts": [
     {
@@ -13439,6 +13439,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "NHN",
+      "event_date": "2026-07-10",
+      "event_type": "합병계약일",
+      "title": "NHN — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000501"
+    },
+    {
+      "stock_code": "",
       "stock_name": "씨앤투스",
       "event_date": "2026-07-13",
       "event_type": "주주확정기준일",
@@ -13815,6 +13823,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "NHN",
+      "event_date": "2026-07-23",
+      "event_type": "주주확정기준일",
+      "title": "NHN — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000501"
+    },
+    {
+      "stock_code": "",
       "stock_name": "미래산업",
       "event_date": "2026-07-24",
       "event_type": "매매거래정지 종료",
@@ -14148,6 +14164,14 @@
       "event_type": "배당지급예정일",
       "title": "유니크 — 현금ㆍ현물배당결정              (분기배당)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706900525"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "NHN",
+      "event_date": "2026-08-06",
+      "event_type": "합병반대의사통지 종료",
+      "title": "NHN — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000501"
     },
     {
       "stock_code": "",
