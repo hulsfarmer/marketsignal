@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T21:05:02",
+  "generated_at": "2026-07-08T21:09:07",
   "count": 500,
   "posts": [
     {
@@ -3408,6 +3408,58 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13888,
+      "title": "트럼프 대통령이 이란과의 전쟁 종료를 위한 임시 합의가 '끝났다'고 선언. 중동 지정학적 긴장 고조로 유가 변동성 확대 우려로 한국 에너지·화학 기업들의 수익성에 영향 가능.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-08",
+      "summary": "<p>트럼프 대통령이 이란과의 전쟁 종료를 위한 임시 합의가 '끝났다'고 선언. 중동 지정학적 긴장 고조로 유가 변동성 확대 우려로 한국 에너지·화학 기업들의 수익성에 영향 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump says interim accord with Iran to end war is &quot;over&quot; Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 긴장 심화로 유가 급등 가능성 증가 → 정유·석유화학 원가 부담 증대, 한국 에너지 기업의 이익 악화 위험",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTdTS2FQMm9xU19JZGVBRG9UUEtKOHF4SkVZVGlQMldHVjJCVjdSNDlyMjE2djFVeVJuU1NPZE5xWGlRdWZya0xsbkJKTG8zVFE2SmNwUlBYZFNLbVJ6ZlNsY1JTWkhiNi1lU0xpU1BNTVNiN2RQWXMwc25ub0dRQlFOZUdEa1ZkMGZESFJZcGpKc1hNSVowcy1rbFdOUy1XWVE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-08 21:09:07"
+    },
+    {
+      "id": 13870,
+      "title": "SK하이닉스가 280억 달러 규모 ADR(미국예탁증권) 공모에서 초과구독을 달성하고 수요일 북빌드를 종료. 글로벌 자본시장에서 강한 수요를 보여 한국 반도체 기업의 국제 자금 조달 여력 증명.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-08",
+      "summary": "<p>SK하이닉스가 280억 달러 규모 ADR(미국예탁증권) 공모에서 초과구독을 달성하고 수요일 북빌드를 종료. 글로벌 자본시장에서 강한 수요를 보여 한국 반도체 기업의 국제 자금 조달 여력 증명.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): SK Hynix to close $28 billion ADR bookbuild on Wednesday after oversubscription, source says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "SK하이닉스의 대규모 성공적 해외 자금 조달은 한국 반도체 산업의 글로벌 신뢰도와 HBM 수요 강세를 반영하는 긍정 신호로, 관련 한국 종목에 호재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbkFzdHZlN3RHMWJlMEhKNGtORTFObkFENG4yaEVWcEdZejVVYTgyZ1dYYXVTMlA2eTJ5a1NNeUZZRnViUEYwbmlxVURVQmNsOGRCdVBfcjJQQV9aWk0xb2ZibTZIcDVRR0ZnUFF1N2ZTM2NCN0FMdFBtYXZkd1J2RldyNDYtNGZPZ1Q2b2NodVY0RzdmZkdoN19PdFRfNWFNNzJYLTVmNmhHZWF4cEFKWHlhWkhiQlhLd0RJRHZMM1Qxd1JSWVE1WWVha3VIb0hx?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-08 21:07:41"
     },
     {
       "id": 13857,
@@ -13332,60 +13384,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFkyWS1GOUpEZ2ZONlZDWXJJVjV0QWg4N1hzYU5Vc1oxQld5dnRQeWlOY0hTS0pvQkFnQldPN3FBM3VsN1hfTGttM3g5WU1YbFY4bXhWbGFCRGxMYThQZDgwTG9oWXBlRmRBa1RNb1BkRWZCX3FVMldPbHkwTmtmcTVPNml0N1VpVG4zUFExaHlnT1JIZVo1WmVsbHItMU9WcnlnUzdtVS1KSHV2dThrb1hCTFNnd2taVmNsMzNJaGk0ci1iQTlzVllVbHM?oc=5",
       "direction": "down",
       "updated_at": "2026-05-12 03:08:22"
-    },
-    {
-      "id": 2725,
-      "title": "아람코 CEO가 호르무즈 해협 차질로 인해 석유 시장 회복이 2027년까지 연장될 수 있다고 경고. 유가 상승 압력은 USD/KRW 환율 상승과 수출기업 수익성 악화로 이어질 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-11",
-      "summary": "<p>아람코 CEO가 호르무즈 해협 차질로 인해 석유 시장 회복이 2027년까지 연장될 수 있다고 경고. 유가 상승 압력은 USD/KRW 환율 상승과 수출기업 수익성 악화로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 상승이 에너지·원자재 가격 상승, 달러 강세, 수출기업 실적 악화로 연쇄되어 코스피와 기업 실적에 의미있는 부정적 영향 예상",
-      "stocks": [
-        "현대차",
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "포스코",
-        "한국조선해양"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQXR5c1g0TUk5NDlLTl8yN2h4ZUNrMXdPM2JfcW9kcTUwdXRCT2ZxSjk2cDFMd1Fld202dVFQR25GM25MNDM4WEFoU2plZ2J4bjdYMVFDTDNFLXQ5MzJwTkQ0Z0lRUGg4MmpORmxXR0dCeXRMLXN3XzF3blFfWk1aeHJuNmFaQmZwN29SaktqREZHWThUOURrTGQ3dVJvZ1NTMkUxLUMzWHJVbHUzMGJZcy1FOFZEM3pnb3JGcmIwM2ZPLXdoVTI0?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-12 03:08:13"
-    },
-    {
-      "id": 2708,
-      "title": "트럼프 대통령이 머스크(Tesla/xAI), 쿡(Apple), Boeing CEO와 함께 중국 방문 예정. 미중 고위급 경제 협상 신호로, 반도체·AI 산업 공급망 재편 가능성 제기.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-11",
-      "summary": "<p>트럼프 대통령이 머스크(Tesla/xAI), 쿡(Apple), Boeing CEO와 함께 중국 방문 예정. 미중 고위급 경제 협상 신호로, 반도체·AI 산업 공급망 재편 가능성 제기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Elon Musk, Apple&#x27;s Cook and Boeing CEO going to China with Trump, official says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미중 경제 협상 재개로 중국 반도체 수요 전망 및 한국 메모리/파운드리 업체의 공급망 위상 변동 가능성 높음",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQckMyb0VyUlFWdTJMYTZoTHFsZkEtSld4THFVS1RtdktkTy1yaUJQTWhfdmhMbnNKZUROS0tJVmxkc2tUUG9jRGswZEhCdWdNYWl5c1U2dUVQejhGS0l2R0xnRlU5Y3QzOEp0V05LTndmUm5yUTVCVTU1anVzaWdGX0p0MzVEUFRTQUxVczBHNEJYQ0RGRXduVzRPOU1RcUw1SnVZRzVNb0ZOc0p4dFozRTBuLVNoWjBqcG42RWx3?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-05-12 03:07:06"
     }
   ],
   "events": [
