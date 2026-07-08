@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T03:05:02",
+  "generated_at": "2026-07-09T03:08:37",
   "count": 500,
   "posts": [
     {
@@ -3408,6 +3408,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13920,
+      "title": "트럼프 행정부의 정책으로 유가 상승이 예상되면서 인플레이션 우려가 부각되고 있다. 이는 USD/KRW 환율 상승, 한국 채권 금리 인상 압력, 수출 기업 수익성 악화로 이어질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-08",
+      "summary": "<p>트럼프 행정부의 정책으로 유가 상승이 예상되면서 인플레이션 우려가 부각되고 있다. 이는 USD/KRW 환율 상승, 한국 채권 금리 인상 압력, 수출 기업 수익성 악화로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Investors get inflation &#x27;wake-up call&#x27; as Trump fires up oil prices Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "유가 상승→인플레이션→글로벌 금리 인상 경로는 원화약세, 수출 경쟁력 약화, 외국인 주식 이탈 압력을 초래하는 의미있는 매크로 악재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대자동차",
+        "LG화학",
+        "롯데정유",
+        "S-Oil"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOUlsWGRCWlNlNDNKOWRucV85aUlzWVRwaUpkanJjbGltWURSSWlFbWUwaFpwX0JjbXRfa2Z0cHk4WXJ2QlJiSDNOeG9PcXphYUNnRDZTQmdkTks4MDVqV3lRODZrVE1oSU02c0h5RkItN1FtMG45cDVwQUoyYko0elhIaGoyY3Y1RFhERA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-09 03:07:26"
     },
     {
       "id": 13892,
@@ -13357,33 +13385,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNGtMTURYWC1ZdW14ejRtTWZNUmJvZXhJSS1rc21FSFpYM3RnZVNBbFg1S1hwWjdZZm1CWmsyNkl4dHhCWWtuVFo2ekR6MEFESHRjQl9DUGN5UG1vUVdLNUgtWVBZTjdsSXJRYUs1N3FzMlJ2bWY0OTRJOTlwREpEVGVvUGNVTm01WGtZMS1CTzRTaHg3MnN5UzVYUXFMaFN2WkFlNnpB?oc=5",
       "direction": "up",
       "updated_at": "2026-05-12 09:07:12"
-    },
-    {
-      "id": 2731,
-      "title": "트럼프 대통령이 이란과의 휴전협상이 '생명유지 장치'에 의존 중이라며 테헤란의 대응을 거부했으며, 이는 중동 지정학적 긴장 고조로 유가 변동성 확대를 초래할 것으로 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-11",
-      "summary": "<p>트럼프 대통령이 이란과의 휴전협상이 '생명유지 장치'에 의존 중이라며 테헤란의 대응을 거부했으며, 이는 중동 지정학적 긴장 고조로 유가 변동성 확대를 초래할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump says Iran ceasefire on &#x27;life support&#x27; after rejecting Tehran&#x27;s response Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 긴장 고조 시 유가 급등 가능성이 높아져 에너지·석유화학 기반 한국 에너지·화학주의 수익성 개선 및 수급 구조 변화에 직접 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONXU1bkVTV3NFUWRDVjhIdEJiS0NxbUdxWm00Y2ZYQ1AyUm5wMnA1eXRYelJCSGprMjlJZ3BVYURZbUZHR1JNZlExV1ZuY2Y0eWNqVzBLblFkWjZURldzWTMxc2pMdVVrMEpqajd2UUR4Q2p4eEZUa1VFQjNLUUlvdmxYajVHLXJiMnRXY1pVYzhXWHItWHcxdnJNWUs3UFV5U01ZUkNjWGJRZjRObWU2bHRxYTlvc01PeWtRaS1NSTJhODA?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-12 03:08:38"
     }
   ],
   "events": [
