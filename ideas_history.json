@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T15:04:39",
+  "generated_at": "2026-07-08T16:10:31",
   "dates": [
     "2026-07-08",
     "2026-07-07",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 105,
-      "correct": 48,
-      "hit_rate": 45.7,
-      "avg_return": 0.28,
-      "avg_return_open": 0.78
+      "total": 107,
+      "correct": 49,
+      "hit_rate": 45.8,
+      "avg_return": 0.25,
+      "avg_return_open": 0.72
     },
     "hybrid": {
-      "total": 130,
-      "correct": 61,
-      "hit_rate": 46.9,
-      "avg_return": -0.21,
-      "avg_return_open": 0.12
+      "total": 135,
+      "correct": 62,
+      "hit_rate": 45.9,
+      "avg_return": -0.26,
+      "avg_return_open": 0.06
     }
   },
   "by_date": {
@@ -155,10 +155,10 @@
             "confidence": "HIGH",
             "reason": "RSI 26의 극도 과매도 구간에서 임원진 자사주 매입이라는 수급 개선 신호가 결합되어 과거 성공 패턴(기술적_반등 100% + 수급_개선 100%)에 정확히 부합합니다. 5일 +1.7% 상승은 반등 초입 수준으로 추가 상승 여력이 남아 있으며, 20일 -8.3% 낙폭 대비 회복 탄력성이 기대됩니다.",
             "entry_price": 23700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 22450.0,
+            "return_pct": -5.27,
+            "return_pct_open": -5.27,
+            "correct": 0
           },
           {
             "stock_code": "030200",
@@ -168,10 +168,10 @@
             "confidence": "LOW",
             "reason": "RSI 45 중립권에서 국민연금의 투자 목적 변경(단순→일반투자)이라는 수급 개선 신호와 삼성증권의 하반기 이익 성장 전망이 긍정 재료로 작용합니다. 5일 +3.0% 상승이 다소 부담이나 20일 +1.3%로 과열 수준은 아니며, AI·배당 등 미반영 재료가 상존하여 보수적 편입이 유효합니다.",
             "entry_price": 54500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 55500.0,
+            "return_pct": 1.83,
+            "return_pct_open": 1.83,
+            "correct": 1
           }
         ]
       },
@@ -186,10 +186,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 100 / earn 0 (RSI 35, 5일 -7.3%)",
             "entry_price": 451500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 445000.0,
+            "return_pct": -1.44,
+            "return_pct_open": -1.44,
+            "correct": 0
           },
           {
             "stock_code": "005490",
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 35 / earn 86 (RSI 29, 5일 +1.4%)",
             "entry_price": 321500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 315500.0,
+            "return_pct": -1.87,
+            "return_pct_open": -1.87,
+            "correct": 0
           },
           {
             "stock_code": "068270",
@@ -212,10 +212,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 85 (RSI 51, 5일 +1.5%)",
             "entry_price": 175900.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 178200.0,
+            "return_pct": 1.31,
+            "return_pct_open": 1.31,
+            "correct": 1
           },
           {
             "stock_code": "047050",
@@ -225,10 +225,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 45 / earn 83 (RSI 33, 5일 +1.7%)",
             "entry_price": 50000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 49700.0,
+            "return_pct": -0.6,
+            "return_pct_open": -0.6,
+            "correct": 0
           },
           {
             "stock_code": "032830",
@@ -238,10 +238,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 59 / earn 0 (RSI 39, 5일 -1.9%)",
             "entry_price": 393500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 375000.0,
+            "return_pct": -4.7,
+            "return_pct_open": -4.7,
+            "correct": 0
           }
         ]
       },
