@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-07-08T18:05:02",
+  "generated_at": "2026-07-08T18:08:00",
   "count": 500,
   "posts": [
+    {
+      "id": 13850,
+      "title": "한국 KOSPI가 6월 고점 대비 20% 하락했으며, 반도체 주가 부진이 주요 원인. SK하이닉스, 삼성전자 등 한국 반도체 기업들의 실적 부진과 주가 약세가 시장 전반에 부정적 영향.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-08",
+      "summary": "<p>한국 KOSPI가 6월 고점 대비 20% 하락했으며, 반도체 주가 부진이 주요 원인. SK하이닉스, 삼성전자 등 한국 반도체 기업들의 실적 부진과 주가 약세가 시장 전반에 부정적 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea&#x27;s KOSPI drops 20% from June record close as chipmakers drag Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "한국 주요 수출 산업인 반도체 섹터 20% 낙폭은 전체 증시에 직결되는 심각한 악재이며, HBM·메모리·파운드리 등 한국 반도체 기업의 경쟁력 약화 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 9,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMnBQOE1fVmRvbXNHdHBLZTVmakUxdDNfY2o1N2NZLWU5b3AyMlpYTlFyanFFbEFfdC02UGNfTGlHRVNsYXc0aGh4aEVIUHdXQTZlbUtFOVhtbEtaelFLTUFIdHpFX1lRS2VjVGpMNGRqa2tSVWhveUVHSkVPUUhoYUpscENVd0F4a3pvTTQ3aHA0Y01VbTg3RllEMlp3dGRGQjh2ZHpKMGtINjFocVFQVkFRS1hLTUpNeHdQNmVmR1Q?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-08 18:07:15"
+    },
     {
       "id": 13255,
       "title": "삼성전자가 AI 메모리 수요 급증으로 영업이익이 18배 증가할 것으로 예상된다. 한국 메모리 반도체 업계의 AI 사이클 수익성 개선을 시사하며, SK하이닉스(HBM)와 삼성전자(D램/낸드) 등 한국 메모리 강자들의 실적 개선 가능성을 높인다.",
@@ -3381,6 +3408,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 13857,
+      "title": "미국이 이란에 대한 새로운 공습을 완료했다고 발표. 중동 긴장 고조로 유가 상승 압력이 지속되며, 한국의 에너지·화학 관련 기업들의 원가 부담 증가 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-08",
+      "summary": "<p>미국이 이란에 대한 새로운 공습을 완료했다고 발표. 중동 긴장 고조로 유가 상승 압력이 지속되며, 한국의 에너지·화학 관련 기업들의 원가 부담 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US says it has completed a new round of strikes on Iran Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 지정학적 리스크 심화로 유가 상승 가능성 높아 에너지·화학주에 직접적 원가 영향",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNGdfTTZZUTJuczJONlh3R3NBTmd2VFQ4YlBWSC1fYzBOT3VCUnU1NGJXaGFvcnNINVdSZFdNVjJSTHp2MExDOUFDdlJUNFY2OG1oLXRLdjgzVERUS0lLUkREbXB2Q1lKaVd5VWlpZmpNSXR6aTFzdjZYMmNBNklIaDQxUzBqcTVwM2hLYXQxTGdWX2s4UWVOYnZmcm40bVd1RldWdUlR?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-08 18:07:50"
+    },
+    {
+      "id": 13852,
+      "title": "호르무즈 해협에서 선박 공격 이후 유조선 4척이 항로 회피. 중동 공급망 차질로 한국의 에너지·화학 수입선 악화 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-08",
+      "summary": "<p>호르무즈 해협에서 선박 공격 이후 유조선 4척이 항로 회피. 중동 공급망 차질로 한국의 에너지·화학 수입선 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Four oil and gas tankers turn back from Hormuz strait after vessel attacks Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승 압력으로 에너지·석유화학 수입원가 상승 → S-Oil, SK이노베이션 등 정제·화학업체 마진 악화",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUGg0M1U4ckhfRFJKQTRnZjUwSFFHZWlrX0U0dHJXT2hDMkE3NzItM19WT2d1QmZPdUg4c3hsQmJ1NFgzeTl1RnpUTlpYeUdKdTVLRnh1WUIzbFplcW1ESl9WOUMyOFpoNndlcmZ2czBzVXJJWTlVbjZ5U294SWMxdnhLaHpGNnE3UU1WR3dROC1oTkxXOEEwT0xYVnFzLXNpNnYxclc3UUoxd3REUkx2YWQzNWtqWm5JaFJF?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-08 18:07:28"
     },
     {
       "id": 13765,
@@ -13305,87 +13386,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQckMyb0VyUlFWdTJMYTZoTHFsZkEtSld4THFVS1RtdktkTy1yaUJQTWhfdmhMbnNKZUROS0tJVmxkc2tUUG9jRGswZEhCdWdNYWl5c1U2dUVQejhGS0l2R0xnRlU5Y3QzOEp0V05LTndmUm5yUTVCVTU1anVzaWdGX0p0MzVEUFRTQUxVczBHNEJYQ0RGRXduVzRPOU1RcUw1SnVZRzVNb0ZOc0p4dFozRTBuLVNoWjBqcG42RWx3?oc=5",
       "direction": "neutral",
       "updated_at": "2026-05-12 03:07:06"
-    },
-    {
-      "id": 2660,
-      "title": "평화 협상 진전이 지체되는 가운데 AI 랠리는 계속되고 있으며, 이는 AI 반도체 수요 지속을 시사한다. 한국의 HBM 및 메모리 반도체 기업들에게 긍정적 시장환경을 유지할 것으로 예상된다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-11",
-      "summary": "<p>평화 협상 진전이 지체되는 가운데 AI 랠리는 계속되고 있으며, 이는 AI 반도체 수요 지속을 시사한다. 한국의 HBM 및 메모리 반도체 기업들에게 긍정적 시장환경을 유지할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Peace progress stalls, AI rally does not Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 산업의 지속적 호조가 한국 반도체 주요 기업(SK하이닉스, 삼성전자)의 고부가가치 칩 수요를 지원하는 명확한 호재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kRDNVWFgxQWllSzNPQzJMbjA3cGpDUFl4N00zcWJBUFk0WVBOUVdXa0tMZ3VZTmtibVdhSmlUT2tDZmFRVDhnb0dpRi1rYXhpXzZ5aUZSZUo1azhQSnZfVHZubnVmTkVJZzB2aUc4SWJtMHMzV2ZHQzBQY1pjZzQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-11 21:07:14"
-    },
-    {
-      "id": 2651,
-      "title": "호르무즈 해협 화물선 공격으로 한국 선박이 피격되었으며, 한국이 대응을 약속했다. 중동 지정학적 긴장 고조로 유가 상승 압력 및 해운 리스크 증가가 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-11",
-      "summary": "<p>호르무즈 해협 화물선 공격으로 한국 선박이 피격되었으며, 한국이 대응을 약속했다. 중동 지정학적 긴장 고조로 유가 상승 압력 및 해운 리스크 증가가 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea condemns attack on cargo ship in Strait of Hormuz, vows response Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 해역 공급망 불안정으로 유가 상승 가능성과 정유·화학 기업의 원가 부담 증가, 한국 선사의 운임 수익성 개선 양면 영향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa3NtcFJfQlR3R2g1TzluelJ1QVhCcUZ5Z2hlb2FzZjhUeUY3RHZOSjdndGdkMG9FZTQ3Um0ybDc2UVRBWWhqeWRKNUtDdjlaaklMYVVCQzhHWGxrWFNoMkVBYkZ5blRHWnRJUFFYal9lbTFQMnl4TE5XV0hrMjVBM0k1NTVkS0xqb0NXb205UnU3NEhKX2ZLc3JrU0UzSkNXdFVNc0xqVklNVmFPclVrTDN0cTgyMk9aLWozOHJB?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-11 18:08:42"
-    },
-    {
-      "id": 2647,
-      "title": "호르무즈 해협 폐쇄 위협이 석유뿐 아니라 중국 전기차 산업까지 확대되면서 공급망 교란 우려 심화. 한국 에너지·화학 기업의 유가 상승 및 중국 EV 시장 수축에 따른 화학품 수요 감소 양면 영향 직면.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-11",
-      "summary": "<p>호르무즈 해협 폐쇄 위협이 석유뿐 아니라 중국 전기차 산업까지 확대되면서 공급망 교란 우려 심화. 한국 에너지·화학 기업의 유가 상승 및 중국 EV 시장 수축에 따른 화학품 수요 감소 양면 영향 직면.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Hormuz closure extends well beyond oil to threaten Chinese EVs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "주요 공급망 초크포인트(호르무즈)의 지정학적 위험이 유가와 중국 EV 산업에 동시 타격으로, 한국 에너지·화학 기업의 수익성 및 시장 수요에 의미있는 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWJIdEtOdm1kVmQxMG51YXBoTTZKQ3FSSVgxbkI2ZGxjMDdSQlNKMm90MmtieVRCVzYtRnU0VXlIbWY4RF9NVzR0dHl2SUNSUjlza1lpMDgtQlBQUjNIM0dwVlZMX2k3NUdLREZ3NjR4NEdzdXgxdFpLUHd3VTFyQlBNdUtxVGhBbjRmdWlhMHVmMy1hbVZZb2FLUzAwWmo3R2dEWlJsZmpHUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-11 18:08:27"
     }
   ],
   "events": [
