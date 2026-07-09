@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-08T16:10:31",
+  "generated_at": "2026-07-09T15:05:10",
   "dates": [
+    "2026-07-09",
     "2026-07-08",
     "2026-07-07",
     "2026-07-06",
@@ -29,8 +30,7 @@
     "2026-05-12",
     "2026-05-11",
     "2026-05-08",
-    "2026-05-07",
-    "2026-05-06"
+    "2026-05-07"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,100 @@
     }
   },
   "by_date": {
+    "2026-07-09": {
+      "ai": {
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 77,
+            "ai_score": 78,
+            "confidence": "HIGH",
+            "reason": "RSI 24의 극단적 과매도 구간으로 과거 성공 패턴인 '기술적_반등(성공률 100%)'에 정확히 부합합니다. 경영진의 연쇄적 자사주 매입은 '수급_개선(성공률 100%)' 신호로 이중 호재이나, 지난주 동일 패턴에서 실패(-5.27%)한 이력이 있어 포지션 규모 조절이 필요합니다. 5일 -7.8%, 20일 -16.4%의 누적 낙폭이 반등 에너지를 축적하고 있습니다.",
+            "entry_price": 21150.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 59,
+            "ai_score": 98,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 99 (RSI 55, 5일 +0.1%)",
+            "entry_price": 176800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 57,
+            "ai_score": 94,
+            "confidence": "HIGH",
+            "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -5.9%)",
+            "entry_price": 48750.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 58,
+            "ai_score": 87,
+            "confidence": "HIGH",
+            "reason": "[E] tech 16 / earn 88 (RSI 48, 5일 +1.2%)",
+            "entry_price": 122300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "006400",
+            "name_kr": "삼성SDI",
+            "ms_score": 62,
+            "ai_score": 79,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -12.4%)",
+            "entry_price": 412000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "003550",
+            "name_kr": "LG",
+            "ms_score": 62,
+            "ai_score": 43,
+            "confidence": "LOW",
+            "reason": "[T] tech 43 / earn 0 (RSI 38, 5일 +3.5%)",
+            "entry_price": 102500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-07-08": {
       "ai": {
         "count": 1,
@@ -3001,113 +3095,6 @@
             "return_pct": 1.64,
             "return_pct_open": 1.64,
             "correct": 1
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-05-06": {
-      "ai": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "316140",
-            "name_kr": "우리금융지주",
-            "ms_score": 58,
-            "ai_score": 72,
-            "confidence": "HIGH",
-            "reason": "RSI 30으로 극도의 과매도 구간에 진입해 있으며, 5일 +0.3%로 하락세가 멈추는 기술적 반등 신호가 감지됩니다. 동양생명 완전 자회사 전환이라는 구조개편 호재가 아직 충분히 반영되지 않았고, 성공 패턴인 '기술적_반등(100% 성공률)'과 'RSI 저점 매수' 조건에 부합합니다.",
-            "entry_price": 33300.0,
-            "exit_price": 32600.0,
-            "return_pct": -2.1,
-            "return_pct_open": -2.1,
-            "correct": 0
-          },
-          {
-            "stock_code": "000270",
-            "name_kr": "기아",
-            "ms_score": 60,
-            "ai_score": 60,
-            "confidence": "MEDIUM",
-            "reason": "RSI 57로 중립 구간 내에 있고, 5일 +0.9%로 완만한 상승 추세를 유지하며 기술적_반등 패턴과 일치합니다. 2026~2028년 주주환원율 35% 이상이라는 중기 배당 공약은 배당_효과 패턴에 해당하며, 호재가 장기적 관점에서 아직 충분히 주가에 반영되지 않은 상태입니다.",
-            "entry_price": 154000.0,
-            "exit_price": 154600.0,
-            "return_pct": 0.39,
-            "return_pct_open": 0.39,
-            "correct": 1
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 5,
-        "picks": [
-          {
-            "stock_code": "003490",
-            "name_kr": "대한항공",
-            "ms_score": 58,
-            "ai_score": 98,
-            "confidence": "HIGH",
-            "reason": "[E] tech 21 / earn 98 (RSI 47, 5일 -0.2%)",
-            "entry_price": 24500.0,
-            "exit_price": 24550.0,
-            "return_pct": 0.2,
-            "return_pct_open": 0.2,
-            "correct": 1
-          },
-          {
-            "stock_code": "105560",
-            "name_kr": "KB금융",
-            "ms_score": 62,
-            "ai_score": 97,
-            "confidence": "HIGH",
-            "reason": "[E] tech 0 / earn 98 (RSI 55, 5일 +0.2%)",
-            "entry_price": 157800.0,
-            "exit_price": 158900.0,
-            "return_pct": 0.7,
-            "return_pct_open": 0.7,
-            "correct": 1
-          },
-          {
-            "stock_code": "000100",
-            "name_kr": "유한양행",
-            "ms_score": 68,
-            "ai_score": 84,
-            "confidence": "HIGH",
-            "reason": "[T] tech 84 / earn 62 (RSI 36, 5일 -3.8%)",
-            "entry_price": 90500.0,
-            "exit_price": 87800.0,
-            "return_pct": -2.98,
-            "return_pct_open": -2.98,
-            "correct": 0
-          },
-          {
-            "stock_code": "207940",
-            "name_kr": "삼성바이오로직스",
-            "ms_score": 56,
-            "ai_score": 84,
-            "confidence": "HIGH",
-            "reason": "[T] tech 51 / earn 84 (RSI 41, 5일 -1.6%)",
-            "entry_price": 1485000.0,
-            "exit_price": 1480000.0,
-            "return_pct": -0.34,
-            "return_pct_open": -0.34,
-            "correct": 0
-          },
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 64,
-            "ai_score": 69,
-            "confidence": "MEDIUM",
-            "reason": "[T] tech 47 / earn 70 (RSI 48, 5일 -3.0%)",
-            "entry_price": 197800.0,
-            "exit_price": 194700.0,
-            "return_pct": -1.57,
-            "return_pct_open": -1.57,
-            "correct": 0
           }
         ]
       },
