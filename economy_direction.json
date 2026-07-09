@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T00:05:02",
+  "generated_at": "2026-07-10T00:08:48",
   "count": 500,
   "posts": [
     {
@@ -3457,6 +3457,88 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 14152,
+      "title": "미국이 채권 유입보다 주식 유입에 더 의존하면서 달러 약세 위험이 증가하고 있다는 경고. 미국의 외국인 자금 수급 구조 변화로 인한 USD/KRW 약세 압력 및 KOSPI 외국인 매수 심화 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-09",
+      "summary": "<p>미국이 채권 유입보다 주식 유입에 더 의존하면서 달러 약세 위험이 증가하고 있다는 경고. 미국의 외국인 자금 수급 구조 변화로 인한 USD/KRW 약세 압력 및 KOSPI 외국인 매수 심화 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US relies more on foreign stock than debt flows, a dollar risk, Deutsche Bank warns Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "달러 약세 신호는 원화 강세 → 한국 수출주 경쟁력 약화, 외국인의 주식 선호는 KOSPI 변동성 증가 및 환율 영향으로 한국 증시 변동성 확대 예상",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대차",
+        "기아"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSmhhQWZpaGR2X3BMck56ZzloTTFZMmN0bnM3T041RUNqQ2FqUjVOQU42MG5WamZySGIyR0NBWU44aDBITy1DdFpraEU4eEgtYlpOX1VreFRGaGlid1d5bVBlb21zNGpwTXR4TFdwNXF6NWo4aXRqQnlYUWowdExSWE9HVzY4cHYyZHFjNm9sRU1IU3ZYdnFzRnRQbHp5bTNsaldtdDBvT2w1ZE9odDhUMEM1bEFKZDUxcGt4bG9uaGZMUFFLTFRnaQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-10 00:08:24"
+    },
+    {
+      "id": 14136,
+      "title": "마이크론이 2035년까지 미국에 2,500억 달러를 투자하기로 확대 발표. 미국 반도체 패권 강화로 글로벌 경쟁 심화 및 한국 메모리·파운드리 업체들의 경쟁 압력 증가 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-09",
+      "summary": "<p>마이크론이 2035년까지 미국에 2,500억 달러를 투자하기로 확대 발표. 미국 반도체 패권 강화로 글로벌 경쟁 심화 및 한국 메모리·파운드리 업체들의 경쟁 압력 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Micron boosts U.S. investment plan again, commits $250 billion through 2035 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 반도체 투자 확대는 한국 메모리(SK하이닉스, 삼성) 및 파운드리 경쟁 심화 신호로, 글로벌 공급망 재편 및 미국 내 현지화 압력 증대",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLWc0Y2R2MHQ0eXRvalR3ZHVqSGZ3a0pobWJ1RGE2N1lXVUFvU05EcW9YWjY3d21NaUJBblRxOHdfNWVDQU1pX2I1eHJkYnB3dmhvdkRsbVVhN1JSNE1taHZTUGJNRVpsOTFDTXBPRVJDdFVsel9jUVBNcDZ2YUlySjFXcjJEanA1eG1TSS1WTVJBN2hDZE5R?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-10 00:07:13"
+    },
+    {
+      "id": 14135,
+      "title": "AI 랠리 이후 반도체 주가가 경고 신호를 보이고 있는 상황. 과열된 상승장 이후 조정 압력이 증가하면서 SK하이닉스, 삼성전자 등 한국 반도체주도 수익 실현 매물 출현 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-09",
+      "summary": "<p>AI 랠리 이후 반도체 주가가 경고 신호를 보이고 있는 상황. 과열된 상승장 이후 조정 압력이 증가하면서 SK하이닉스, 삼성전자 등 한국 반도체주도 수익 실현 매물 출현 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Mapping the Market: Chip stocks flash warning signs after blistering rally Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "반도체 업종 전반의 밸류에이션 조정 신호는 한국의 메모리/파운드리 주도 기업들의 주가 약세로 직결될 수 있는 의미있는 산업 동향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOenZwY0NudHlNQkdXTXpwMjBDblljUnBnaEpvd0NfY0l4SGlfVGU5RThWR2c0czVPOUZZaXNqREdxNFNETGxQYnNlQmVid1N4THJ6aTRjRjUya2pPS0xwYlZSS2c3bFN5Yk9CSzQ3NFI5OUJHRWdCbFA1dEZDZWR2RS0wcw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-10 00:07:10"
     },
     {
       "id": 14117,
@@ -13293,92 +13375,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd25sY09xV1pPeTFrc0wzT1BDU2lUbkY3U2ZDbnA5YjRndW5vTU16aHhDTVRacXBtaEJrYWprRC1zbkl1dGFZUlhYOU9MQU1SSkV4NmU4ajZYSWVKRl9fR250NzI0ZWRacmhDel9kZVFMS3lJc0dNT183RG9DcDh2WUcwOUFwS1g2bGxBQU9CcU83WE40T3VsRHZoRXJSa1hjZUprbTJBWHRUOVNQLTJqUmlPTWptdw?oc=5",
       "direction": "up",
       "updated_at": "2026-05-15 06:10:30"
-    },
-    {
-      "id": 3373,
-      "title": "Fed 금리 인하 논의가 대두되고 있으며, 이는 USD/KRW 환율 약세, 외국인 자금의 신흥시장 회귀, 한국 채권 금리 하락을 유도할 수 있다. 수출주와 고금리 수혜주에 상반된 영향을 미칠 것으로 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>Fed 금리 인하 논의가 대두되고 있으며, 이는 USD/KRW 환율 약세, 외국인 자금의 신흥시장 회귀, 한국 채권 금리 하락을 유도할 수 있다. 수출주와 고금리 수혜주에 상반된 영향을 미칠 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Holdouts against the tide - the case for Fed cuts Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 인하 가능성은 환율·외국인 수급·채권 금리 등 한국 시장의 주요 변수들을 직접 영향하는 의미있는 매크로 변화",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대자동차",
-        "포스코",
-        "삼성SDI",
-        "네이버",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTUJXU1FpREZJbHJ0WElwdzlkdWZ0b3ZaYk1GYldRMWExYzVycU5yN3d4cFJfbldEZjV5d0RWNHN3WE9yU1VNYkVzRzdmcGpVVGZmRUphYnJWb21sVzhFb2lOMnc1VTNPVU9ZektnSjZOZUJUQlNlX1pVaHhfUGRaRHZYSEliY09xdEtwUThScWpyTW1CLXhqQjdMeFVURnJkbTB4dUR2NA?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-13 18:08:05"
-    },
-    {
-      "id": 3244,
-      "title": "4월 미국 CPI가 예상을 상회하며 상승했고, 이에 따라 채권 수익률이 급등했다. 이는 미 금리 인상 가능성을 높여 USD/KRW 환율 상승 및 한국 증시 외국인 자금 유출 압력으로 작용할 것으로 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>4월 미국 CPI가 예상을 상회하며 상승했고, 이에 따라 채권 수익률이 급등했다. 이는 미 금리 인상 가능성을 높여 USD/KRW 환율 상승 및 한국 증시 외국인 자금 유출 압력으로 작용할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): April CPI rises more than expected; bond yields climb Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 금리 전망 상향으로 달러 강세·외국인 주식 자금 유출·국내 채권 금리 상승 압력이 직결되는 의미있는 매크로 악재",
-      "stocks": [
-        "수출주(삼성전자",
-        "SK하이닉스",
-        "LG화학)",
-        "고금리 민감주(대형 건설사",
-        "금융주)",
-        "원화 약세 영향주(자동차",
-        "전자)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOV9NN1FRaWp0MG4tby03MFBsemdkbzhhd1B0NENHdDcwSmxYVUVzX0ViZzZKRzRHLXp5eUJHd01adFFSb0RqVjI2R01HUkl2Z21uRW9iSTk2NGw1Nmswc2RnYlp1SjZuVWxiT3FpNnE1QW9INGttZXhzMXZQMEtCcXhZcG1aUzJ2VkhyNHljcFJvRElIaGNxRGk5WmxIb2ZDYU9mUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 15:09:32"
-    },
-    {
-      "id": 3189,
-      "title": "미 EIA가 중동 공급 차질이 기존 추정치보다 훨씬 심각함을 인정. 유가 상승 압력으로 이어질 가능성 높으며, 한국의 에너지 수입 비용 증가와 USD/KRW 환율 상승 유발 가능.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-12",
-      "summary": "<p>미 EIA가 중동 공급 차질이 기존 추정치보다 훨씬 심각함을 인정. 유가 상승 압력으로 이어질 가능성 높으며, 한국의 에너지 수입 비용 증가와 USD/KRW 환율 상승 유발 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US EIA concedes Middle East supply disruptions are far worse than prior estimates Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 급등 시 한국 무역수지·기업 수익성 악화, 외국인 증시 이탈, 원화 약세 초래로 거시경제 부담 가중",
-      "stocks": [
-        "에너지·화학·해운·정유 관련 종목 (SK에너지",
-        "GS에너지",
-        "한국조선해양",
-        "현대중공업",
-        "롯데케미칼)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLW1HcUxrdUV6MENHMkxtelp5b3ZMeGNkR0lDbGo4T0w1em9aeXRYXzBHTGp5cEJ1VzlRUnpZeGpuOGRJSmdWb3l5VVYxSl9PSDF1dmtzel9ZaGhUb3J4elZlUTAzTzk2dndNLUdMem54emZORU5LVkV4OEUyeDRFQm44QURac21YcVBnVU5Qb1JSa05PMmVtZHQtVmhJOEVXLUdOZ0NlZEpNVTlJcGlmd2xRT2xmdHVudFRrVnJVWkk1MUM3c3BRQWI3WQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 12:08:36"
     }
   ],
   "events": [
