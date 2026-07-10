@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T15:04:53",
+  "generated_at": "2026-07-10T16:10:45",
   "dates": [
     "2026-07-10",
     "2026-07-09",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 108,
+      "total": 109,
       "correct": 49,
-      "hit_rate": 45.4,
-      "avg_return": 0.23,
-      "avg_return_open": 0.69
+      "hit_rate": 45.0,
+      "avg_return": 0.22,
+      "avg_return_open": 0.67
     },
     "hybrid": {
-      "total": 140,
-      "correct": 63,
-      "hit_rate": 45.0,
-      "avg_return": -0.33,
-      "avg_return_open": -0.03
+      "total": 145,
+      "correct": 64,
+      "hit_rate": 44.1,
+      "avg_return": -0.36,
+      "avg_return_open": -0.07
     }
   },
   "by_date": {
@@ -155,10 +155,10 @@
             "confidence": "HIGH",
             "reason": "RSI 24의 극단적 과매도 구간으로 과거 성공 패턴인 '기술적_반등(성공률 100%)'에 정확히 부합합니다. 경영진의 연쇄적 자사주 매입은 '수급_개선(성공률 100%)' 신호로 이중 호재이나, 지난주 동일 패턴에서 실패(-5.27%)한 이력이 있어 포지션 규모 조절이 필요합니다. 5일 -7.8%, 20일 -16.4%의 누적 낙폭이 반등 에너지를 축적하고 있습니다.",
             "entry_price": 21150.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20950.0,
+            "return_pct": -0.95,
+            "return_pct_open": -0.95,
+            "correct": 0
           }
         ]
       },
@@ -173,10 +173,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 99 (RSI 55, 5일 +0.1%)",
             "entry_price": 176800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 173100.0,
+            "return_pct": -2.09,
+            "return_pct_open": -2.09,
+            "correct": 0
           },
           {
             "stock_code": "047050",
@@ -186,10 +186,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -5.9%)",
             "entry_price": 48750.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 48700.0,
+            "return_pct": -0.1,
+            "return_pct_open": -0.1,
+            "correct": 0
           },
           {
             "stock_code": "086790",
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 16 / earn 88 (RSI 48, 5일 +1.2%)",
             "entry_price": 122300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 122600.0,
+            "return_pct": 0.25,
+            "return_pct_open": 0.25,
+            "correct": 1
           },
           {
             "stock_code": "006400",
@@ -212,10 +212,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -12.4%)",
             "entry_price": 412000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 401500.0,
+            "return_pct": -2.55,
+            "return_pct_open": -2.55,
+            "correct": 0
           },
           {
             "stock_code": "003550",
@@ -225,10 +225,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 43 / earn 0 (RSI 38, 5일 +3.5%)",
             "entry_price": 102500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 101300.0,
+            "return_pct": -1.17,
+            "return_pct_open": -1.17,
+            "correct": 0
           }
         ]
       },
