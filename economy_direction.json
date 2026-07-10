@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-07-11T06:05:02",
+  "generated_at": "2026-07-11T06:08:27",
   "count": 500,
   "posts": [
+    {
+      "id": 14401,
+      "title": "SK하이닉스 CEO가 2027년 메모리 반도체 최악의 공급 부족 예상, 2030년 이후 수요가 공급을 초과할 것으로 전망. AI 수요 급증으로 HBM 등 고부가 메모리 수급 극도로 타이트될 전망.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-10",
+      "summary": "<p>SK하이닉스 CEO가 2027년 메모리 반도체 최악의 공급 부족 예상, 2030년 이후 수요가 공급을 초과할 것으로 전망. AI 수요 급증으로 HBM 등 고부가 메모리 수급 극도로 타이트될 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): SK Hynix CEO sees worst memory shortage in 2027, demand to outstrip supply beyond 2030 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "반도체 메모리 공급 부족 심화는 SK하이닉스·삼성 메모리 부문의 가격 인상 및 마진 개선 호재이며, AI 수요 지속으로 한국 반도체 수출 경쟁력 강화 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 9,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYjVueXBiSlgxQ3VUNFpJWWRsZlJtSkVUeEgyaWNDOThCcERWVHZVZnJxQm5XRUExZy1xTC1PT3JRZDVrbUprT0NlajM3SGwtT3AwbFc3aDhMZ3lGblgzbW5zOXFjOUE4Z25PdW5sR1BOZDlFdkNnYkMzZkRmSUhjNjE3c0wwLTBDOEtMMFVqYUQwTmdjeVB6NXE3SXlWRnRobjRUSXJnMWhxS2lYQ1RXVkw4d2hVVS01V0Q4cUFZa21SOUNwRnlWdnpVUWE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-11 06:07:08"
+    },
     {
       "id": 13850,
       "title": "한국 KOSPI가 6월 고점 대비 20% 하락했으며, 반도체 주가 부진이 주요 원인. SK하이닉스, 삼성전자 등 한국 반도체 기업들의 실적 부진과 주가 약세가 시장 전반에 부정적 영향.",
@@ -401,6 +428,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 14406,
+      "title": "Fed가 관세, 이란 전쟁, AI 구축 등으로 인한 인플레이션 '가속'을 언급했으며, 이는 향후 Fed의 금리 인상 지속 가능성을 시사. USD/KRW 상승 압력과 한국 수출 기업의 수익성 악화, 채권 금리 상승으로 이어질 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-10",
+      "summary": "<p>Fed가 관세, 이란 전쟁, AI 구축 등으로 인한 인플레이션 '가속'을 언급했으며, 이는 향후 Fed의 금리 인상 지속 가능성을 시사. USD/KRW 상승 압력과 한국 수출 기업의 수익성 악화, 채권 금리 상승으로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed report cites &#x27;stepped-up&#x27; inflation due to tariffs, Iran war, AI buildout Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed의 인플레이션 우려는 금리 경로에 직접 영향을 미치며, 달러 강세→원화 약세→수출 대기업 수익 악화, 고금리 지속→국내 성장주 밸류에이션 압박 등 거시적 영향이 명확함.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "현대차",
+        "LG전자"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWmpCaExTSktkWXFGQjlDZ2pzOHlSNm0xcXJqcWJGUkdNaWRlSnJldzhzSUZaT2drZy1RZVM5TmVJbGltTHhUU3hzeFpvbGZjbmlJWkxjejUwZVY0UTFscU45ekt2LWlBZUM3c1dtc2R1VE05OXA3NmxCVUxBVVFUQ0ZuSm0zejV6ZlE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-11 06:07:26"
     },
     {
       "id": 14385,
@@ -13293,64 +13347,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV3RVYThHNG45dlpvOEkzT3ZmeXFzTXZpcmY3TjlORlh2bEdKcW1pS0dxeU4xcWU1QjE3MFFzREROd0VOOUo4aktrWFpMNUhodjRORGphWXA2MWFjeFhMY3BLUWdKNGQ5bWxoQnIxWDZkRDU1S1R6ZHF2VFFlVTBVZzZtWkdUZ0RGamhBdlZKbnkzTE5MUlRqcUtTQmxqT3kxbXJzUzAxRQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-15 09:08:08"
-    },
-    {
-      "id": 3504,
-      "title": "Warsh가 연방준비제도 의장으로 확인되었으며 인플레이션이 상승세를 보이고 있음. Fed의 새로운 의장 취임은 향후 금리 정책 기조에 영향을 미칠 것으로 예상되며, 이는 USD/KRW 환율과 한국 채권 시장에 직접적 영향을 줄 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>Warsh가 연방준비제도 의장으로 확인되었으며 인플레이션이 상승세를 보이고 있음. Fed의 새로운 의장 취임은 향후 금리 정책 기조에 영향을 미칠 것으로 예상되며, 이는 USD/KRW 환율과 한국 채권 시장에 직접적 영향을 줄 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): QUOTE BOX Warsh wins confirmation as Fed chair, with inflation on the march Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 의장 교체는 향후 미국 금리 정책 방향성을 결정하는 중요한 이벤트로, USD/KRW 환율, 외국인 자금 수급, 한국 채권 금리에 상당한 영향을 미칠 수 있음.",
-      "stocks": [
-        "금융주 (KB금융",
-        "신한금융",
-        "NH투자증권)",
-        "수출기업 (삼성전자",
-        "SK하이닉스",
-        "현대자동차)",
-        "고배당주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZUFnUGFDbmpDeFloOGxXazIwX20tcXBFeF9aTUpDTkJUODFYU1pUS1VjR2Q4ZjI1VXM5d0laelQ2VUt6NFNUWnM5RU11eEtDUGcwRFpuRVhuLTRmcTlFcS1lOGwzemN0T3pUZXRUb25hRlNCQUdIaEtWM0paQnpzSmJVRDVwZW5NSmY4TEM2ZlRaRklOSFpqTkp0cjhocWVERWgxMm8xSzl3ZHAybkE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-15 06:11:27"
-    },
-    {
-      "id": 3503,
-      "title": "Fed 콜린스 위원이 인플레이션 억제를 위해 추가 금리 인상이 필요할 수 있다고 언급. 이는 달러 강세(USD/KRW 상승)와 외국인 주식 이탈, 채권 금리 상승으로 이어져 한국 증시에 부정적 영향 가능성",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>Fed 콜린스 위원이 인플레이션 억제를 위해 추가 금리 인상이 필요할 수 있다고 언급. 이는 달러 강세(USD/KRW 상승)와 외국인 주식 이탈, 채권 금리 상승으로 이어져 한국 증시에 부정적 영향 가능성</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Collins says rate hikes may be needed to curb inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed의 매파적 입장은 USD/KRW 환율 상승, 외국인 자금 유출, 한국 기업 수출 경쟁력 약화로 이어지는 의미있는 매크로 악재",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차",
-        "기아",
-        "LG화학"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTWdoRERINm1EMzhrWmdMWjRWZ2VQMmFjWF9MZGNieFc3UVd3YnhpNFJKX2I2R092Q0htdFFINnlmMmdELU5SR1VCM1Y5c3hvQlJsSXFuRnNEQWo0Si1nZFJ1d0VtQTdLakMwS2lNT0h0TXlZY1FQX2w0MUszMUhRYUVzQmg0ZDNuQ01uanFCTk9rMTJBeFIwWjMtbE9yM2xrRU5MRWg3LW0?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-15 06:11:21"
     }
   ],
   "events": [
