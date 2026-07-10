@@ -1,53 +1,44 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "strategy": "hybrid",
-  "generated_at": "2026-07-09T15:05:08",
-  "count": 5,
+  "generated_at": "2026-07-10T15:04:52",
+  "count": 4,
   "picks": [
-    {
-      "stock_code": "068270",
-      "name_kr": "셀트리온",
-      "ms_score": 59,
-      "ai_score": 98,
-      "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 99 (RSI 55, 5일 +0.1%)",
-      "entry_price": 176800.0
-    },
     {
       "stock_code": "047050",
       "name_kr": "포스코인터내셔널",
       "ms_score": 57,
-      "ai_score": 94,
-      "confidence": "HIGH",
-      "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -5.9%)",
-      "entry_price": 48750.0
-    },
-    {
-      "stock_code": "086790",
-      "name_kr": "하나금융지주",
-      "ms_score": 58,
       "ai_score": 87,
       "confidence": "HIGH",
-      "reason": "[E] tech 16 / earn 88 (RSI 48, 5일 +1.2%)",
-      "entry_price": 122300.0
+      "reason": "[E+T] tech 49 / earn 88 (RSI 40, 5일 -1.2%)",
+      "entry_price": 48700.0
     },
     {
       "stock_code": "006400",
       "name_kr": "삼성SDI",
       "ms_score": 62,
-      "ai_score": 79,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -12.4%)",
-      "entry_price": 412000.0
+      "ai_score": 81,
+      "confidence": "HIGH",
+      "reason": "[T] tech 82 / earn 0 (RSI 28, 5일 -14.1%)",
+      "entry_price": 401500.0
     },
     {
-      "stock_code": "003550",
-      "name_kr": "LG",
-      "ms_score": 62,
-      "ai_score": 43,
-      "confidence": "LOW",
-      "reason": "[T] tech 43 / earn 0 (RSI 38, 5일 +3.5%)",
-      "entry_price": 102500.0
+      "stock_code": "010140",
+      "name_kr": "삼성중공업",
+      "ms_score": 70,
+      "ai_score": 78,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 79 / earn 0 (RSI 26, 5일 -10.8%)",
+      "entry_price": 20950.0
+    },
+    {
+      "stock_code": "055550",
+      "name_kr": "신한지주",
+      "ms_score": 58,
+      "ai_score": 78,
+      "confidence": "MEDIUM",
+      "reason": "[E] tech 0 / earn 79 (RSI 63, 5일 -2.1%)",
+      "entry_price": 105000.0
     }
   ]
 }

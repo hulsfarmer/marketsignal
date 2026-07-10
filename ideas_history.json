@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-09T16:10:30",
+  "generated_at": "2026-07-10T15:04:53",
   "dates": [
+    "2026-07-10",
     "2026-07-09",
     "2026-07-08",
     "2026-07-07",
@@ -29,8 +30,7 @@
     "2026-05-13",
     "2026-05-12",
     "2026-05-11",
-    "2026-05-08",
-    "2026-05-07"
+    "2026-05-08"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,100 @@
     }
   },
   "by_date": {
+    "2026-07-10": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 62,
+            "ai_score": 62,
+            "confidence": "MEDIUM",
+            "reason": "자사주 소각, 배당 확대, 임원 주식 매입 등 '수급_개선' 패턴(100% 성공률)에 해당하는 긍정 신호가 누적되어 있습니다. RSI 54로 중립권에 위치하며 5일 -2.4%로 호재 대비 주가 반영이 미미해 추가 상승 여력이 있습니다. 단, RSI가 54로 과열 패턴(84% 실패)에는 해당하지 않아 리스크가 제한적입니다.",
+            "entry_price": 122600.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "011200",
+            "name_kr": "HMM",
+            "ms_score": 60,
+            "ai_score": 58,
+            "confidence": "LOW",
+            "reason": "산업은행 단독 매각 검토 및 자사주 소각이라는 수급 개선 재료가 있으며 RSI 48로 종가매수 유리 구간(30~60)에 해당합니다. 과거 07-06 HMM +1.10%(RSI 28) 성공 사례와 비교하면 현재 RSI는 더 중립적이나, '호재_선반영' 실패 패턴(93% 실패) 리스크가 있어 비중을 최소화하고 신뢰도를 LOW로 부여합니다.",
+            "entry_price": 19320.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 57,
+            "ai_score": 87,
+            "confidence": "HIGH",
+            "reason": "[E+T] tech 49 / earn 88 (RSI 40, 5일 -1.2%)",
+            "entry_price": 48700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "006400",
+            "name_kr": "삼성SDI",
+            "ms_score": 62,
+            "ai_score": 81,
+            "confidence": "HIGH",
+            "reason": "[T] tech 82 / earn 0 (RSI 28, 5일 -14.1%)",
+            "entry_price": 401500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 70,
+            "ai_score": 78,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 79 / earn 0 (RSI 26, 5일 -10.8%)",
+            "entry_price": 20950.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "055550",
+            "name_kr": "신한지주",
+            "ms_score": 58,
+            "ai_score": 78,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 0 / earn 79 (RSI 63, 5일 -2.1%)",
+            "entry_price": 105000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-07-09": {
       "ai": {
         "count": 1,
@@ -3000,100 +3094,6 @@
             "exit_price": 114100.0,
             "return_pct": 0.26,
             "return_pct_open": -0.26,
-            "correct": 1
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-05-07": {
-      "ai": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "018260",
-            "name_kr": "삼성SDS",
-            "ms_score": 62,
-            "ai_score": 63,
-            "confidence": "MEDIUM",
-            "reason": "KKR 전략적 제휴와 STO 플랫폼 수주라는 미반영 성장 재료가 존재하며, 5일 -1.4%의 소폭 하락으로 뉴스가 아직 주가에 덜 반영되어 있습니다. RSI 41로 적정 매수 구간이고, 긍정 뉴스 5건에 부정 0건인 완전 긍정 구도로 AI·STO 테마 모멘텀 유입 기대가 높습니다.",
-            "entry_price": 170000.0,
-            "exit_price": 176600.0,
-            "return_pct": 3.88,
-            "return_pct_open": 3.88,
-            "correct": 1
-          },
-          {
-            "stock_code": "007070",
-            "name_kr": "GS리테일",
-            "ms_score": 58,
-            "ai_score": 57,
-            "confidence": "LOW",
-            "reason": "실적 발표 임박과 미래에셋증권의 매수 상향 평가가 단기 촉매로 작용할 수 있으며, RSI 46의 중립 구간으로 추가 상승 여력이 남아 있습니다. 5일 -3.4% 하락으로 호재가 미반영된 상태이나, 경영진 주식 증여 이슈가 단기 불확실성 요인으로 작용할 수 있어 비중 조절이 필요합니다.",
-            "entry_price": 22450.0,
-            "exit_price": 23550.0,
-            "return_pct": 4.9,
-            "return_pct_open": 4.9,
-            "correct": 1
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "105560",
-            "name_kr": "KB금융",
-            "ms_score": 58,
-            "ai_score": 99,
-            "confidence": "HIGH",
-            "reason": "[E] tech 0 / earn 99 (RSI 52, 5일 +0.1%)",
-            "entry_price": 158900.0,
-            "exit_price": 161200.0,
-            "return_pct": 1.45,
-            "return_pct_open": 1.45,
-            "correct": 1
-          },
-          {
-            "stock_code": "180640",
-            "name_kr": "한미반도체",
-            "ms_score": 63,
-            "ai_score": 89,
-            "confidence": "HIGH",
-            "reason": "[T] tech 90 / earn 0 (RSI 37, 5일 -4.4%)",
-            "entry_price": 109700.0,
-            "exit_price": 113800.0,
-            "return_pct": 3.74,
-            "return_pct_open": 3.74,
-            "correct": 1
-          },
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 60,
-            "ai_score": 85,
-            "confidence": "HIGH",
-            "reason": "[T] tech 86 / earn 0 (RSI 41, 5일 -5.9%)",
-            "entry_price": 194700.0,
-            "exit_price": 202500.0,
-            "return_pct": 4.01,
-            "return_pct_open": 4.01,
-            "correct": 1
-          },
-          {
-            "stock_code": "055550",
-            "name_kr": "신한지주",
-            "ms_score": 62,
-            "ai_score": 74,
-            "confidence": "MEDIUM",
-            "reason": "[E+T] tech 68 / earn 74 (RSI 32, 5일 -2.6%)",
-            "entry_price": 97300.0,
-            "exit_price": 98900.0,
-            "return_pct": 1.64,
-            "return_pct_open": 1.64,
             "correct": 1
           }
         ]
