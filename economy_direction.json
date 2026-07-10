@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T21:05:02",
+  "generated_at": "2026-07-10T21:08:10",
   "count": 500,
   "posts": [
     {
@@ -401,6 +401,32 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 14336,
+      "title": "SK하이닉스가 미국 시장에서 HBM(고대역폭메모리) 제품으로 공식 진출하며 AI 칩 수요 확대에 베팅. 글로벌 AI 수요 증가로 한국 메모리 반도체 업체들의 성장 기회 확대 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-10",
+      "summary": "<p>SK하이닉스가 미국 시장에서 HBM(고대역폭메모리) 제품으로 공식 진출하며 AI 칩 수요 확대에 베팅. 글로벌 AI 수요 증가로 한국 메모리 반도체 업체들의 성장 기회 확대 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): SK Hynix&#x27;s marquee US debut to test AI appetite Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "SK하이닉스의 미국 HBM 사업 확대는 AI 반도체 공급망 재편을 의미하며, 삼성전자 등 한국 반도체 업체들의 고부가 AI 칩 경쟁력 강화 시그널로 작용",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSWhFRmx4bEZ1MW5rMXlkYmN0d0RqeXR6XzhQOXpiTlJBUGhub1gtWDhkb0hrM1RteDhnTmxacklUTXQ3UjRJb3laeEJoSFZXV0ljWklqMTVTYlpnNzMyLXRTd2xzWTB1QkZkNlI1RnFnWE1FX2kzNkVCTlNLMWpKUDhCVUJ5ZGxoQU1DalJLNFhvTVRZN0ZuSDVDZW1LR0duc3pZ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-10 21:07:15"
     },
     {
       "id": 14225,
@@ -3528,6 +3554,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 14337,
+      "title": "S&P 500과 나스닥 선물이 SK하이닉스 상장과 중동 리스크에 따라 약세를 보이고 있으며, 글로벌 반도체 시장 심리가 악화되는 상황이다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-10",
+      "summary": "<p>S&P 500과 나스닥 선물이 SK하이닉스 상장과 중동 리스크에 따라 약세를 보이고 있으며, 글로벌 반도체 시장 심리가 악화되는 상황이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): S&amp;P 500, Nasdaq futures slip as investors eye SK Hynix listing, Middle East risks Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "SK하이닉스 상장 이슈와 미국 증시 부진은 한국 반도체주 심리 악화 및 자금 이탈 압력으로 작용할 가능성이 높다.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjluWjNOdGZuYndpR0lTLThCLUx1UFYwaElxZFBIQmZSZjM5YWFJekxqdmhGU3lZVENKYkdSTGxjRzJ3eVhnSlZFelVyYUhPdG4yMHQ2ZVRINjh2TlZYRG1ZR2FWN2tnMExQRnRKYVo1ZTNWNlEyUE96NUJLcjEtcnpOSkpyU2E4bFRranlybjlwbFV6c2V5X0toYnU5ZWVJRDJyUElhRWtnMmM1YS1EX2xMV3dDbHVPVEVJcV8wNkoyTjBUREF0ZE02SlhXNVk?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-10 21:07:18"
     },
     {
       "id": 14245,
@@ -13301,61 +13354,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWtUSWhTSzFKdzVzZ244azhMQjMzVE9FWVlicnBmeXlSTFVrdjlqbWxNcTA4aUlWNldBby13LUc3QXJVV05zNWtEM202M3JEWE9nNjVSYUlRQnNmNXRMVVBEeXlVZEw3TjJkQk5rM2I5U1VvdllUbi1PSjlUSVBCeTdNYUVkOGtNTEZjNy1FRlBoLTNJbl83Q2lFU2l0Mm85SVE?oc=5",
       "direction": "down",
       "updated_at": "2026-05-14 00:08:15"
-    },
-    {
-      "id": 3428,
-      "title": "반도체 업종의 호황이 식을 위험에 처해 있으며, 이는 미국 주식 랠리 둔화로 이어질 수 있음. SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 한국 반도체 주요 기업들의 실적 모멘텀이 약화될 가능성.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>반도체 업종의 호황이 식을 위험에 처해 있으며, 이는 미국 주식 랠리 둔화로 이어질 수 있음. SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 한국 반도체 주요 기업들의 실적 모멘텀이 약화될 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Sizzling semiconductor trade at risk of cooling - and stalling US stocks rally Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "반도체 산업 전체의 성장 둔화 신호는 한국의 메모리·파운드리 기업들의 가격 경쟁력 악화 및 실적 심화로 직결되는 명확한 악재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDlEX0swclZvbE1tWTVxa3o1bV91dkhsaFVVVHVSeFI2d0s1a0hjcGdZdnVzZ2c2RnFkbFhVd0dtaTdpV3M2MS11R0Frd1hqZzBfampZMzdPWnJTVndCa0J3ZW5BZElYZy1UcVR2OWdDTURMQjZuOXRIT01odHMxdWt4VWcyWnBlMnNGZ3VjMXlyTUVILWtHWHIzLTVtS1JRd3lveEFzUnRNckZvSFdvVg?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-14 00:07:05"
-    },
-    {
-      "id": 3419,
-      "title": "미국 금리가 4% 수준에서의 구조적 문제점을 다룬 기사로, 글로벌 금리 기조 변화를 시사. USD/KRW 환율 상승 압력과 한국 채권·주식시장의 외국인 자금 이탈 가능성 증가.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>미국 금리가 4% 수준에서의 구조적 문제점을 다룬 기사로, 글로벌 금리 기조 변화를 시사. USD/KRW 환율 상승 압력과 한국 채권·주식시장의 외국인 자금 이탈 가능성 증가.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): The 4% problem Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 금리 구조 문제는 글로벌 자금 흐름과 환율에 직결되어 한국 외국인 수급·환차익·채권 금리에 의미있는 영향을 미침",
-      "stocks": [
-        "금융주(KB금융",
-        "신한금융)",
-        "수출 대형주(삼성전자",
-        "SK하이닉스",
-        "POSCO)",
-        "고배당주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XOHRiSldqOVZOODlXVVZwaEhmRUF5Zm00TDdXcnFVOEJHQU9aOEh2cFBOMUtRRHd4SWliMlFjS1huUWpwMk90ckNhSS1FS2ZGUEdKaGViMGMxMUlqMU1JSTRJQzlfSUY3cUo0OE1CdkJOSXk4clRPNkd0VW5fazA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 21:08:08"
     }
   ],
   "events": [
