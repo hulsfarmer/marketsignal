@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T12:05:02",
+  "generated_at": "2026-07-10T12:08:13",
   "count": 500,
   "posts": [
     {
@@ -3506,6 +3506,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 14245,
+      "title": "칩 산업 중심의 랠리로 미국-이란 휴전 불확실성을 무시하는 시장 심리. 반도체 수요 회복 신호로 한국의 SK하이닉스, 삼성전자 등 메모리/파운드리 사업 부문에 긍정적.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-09",
+      "summary": "<p>칩 산업 중심의 랠리로 미국-이란 휴전 불확실성을 무시하는 시장 심리. 반도체 수요 회복 신호로 한국의 SK하이닉스, 삼성전자 등 메모리/파운드리 사업 부문에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trading Day: What war? Chip-led rally helps markets ignore on-again, off-again US-Iran truce Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 칩 수요 회복세가 주요 지표이며, SK하이닉스의 HBM과 삼성전자의 메모리/파운드리 수익성 개선에 직결되는 의미있는 산업 호재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1N2Ukoyd25SczJJNXFaTF9XcEVlSUU0dlpNdVhmRG5vQ1RFd09WVzVKYUdxaE9hYU9hMU9yYS1kblEzeUt2bGlWOG5QaDZPdjBxTk9pYnNrRVk2M2pPSTdNdmpHRk9aQUlWRGExS2lvVXliUkZRajhrcFZwanhSZFEtTy1DcEZuZ245U1Q3aGxFV2o0QlBfZ2c4RQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-10 12:07:08"
     },
     {
       "id": 14178,
@@ -13333,35 +13360,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNENyZVd1OHEwbTAxeE80T2lqb015TXZBS2RsQ0xSOUxoRVJ4Smk3UmhFejQ3U3hsMGlBQjdjTlMwVFhoOHdDbi12QUcybzZOVUlkVEdaNjBrdmdSU3pkT2JHdy03alFfV2NzX3B1UjM4WUtNZ01hbnI3aDE1RmVtTVhqZUc2S2JIMjVkS0lUMFVyVVJDdjlrS1NBRFVNRTVGc0RJMHZvNHlvd0xSM3NJ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-13 21:07:05"
-    },
-    {
-      "id": 3243,
-      "title": "미국 인플레이션 상승으로 Fed 추가 인상 가능성이 높아지면서 달러화가 1주일 고점 근처까지 강세를 보이고 있으며, USD/KRW 환율 상승과 외국인의 한국 주식 매도 압력이 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>미국 인플레이션 상승으로 Fed 추가 인상 가능성이 높아지면서 달러화가 1주일 고점 근처까지 강세를 보이고 있으며, USD/KRW 환율 상승과 외국인의 한국 주식 매도 압력이 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar near one-week high as hot U.S. inflation fans Fed hike bets, peace talks stall Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 인상 가능성 상승은 달러 강세→원화 약세, 외국인 자금 유출로 KOSPI에 직접적 악영향을 미치는 의미있는 매크로 변수이다.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "LG화학",
-        "현대차",
-        "기아",
-        "KB금융",
-        "신한금융"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTlBlN1JuYVYxQVplOV9kT2U1Q25QOHNOdW9YZkVLR3ZHdms1aDZOZnN0R0VUWlJ5Q0VZYXpjX1BWZ1A4cXdJYkVCXy00cFdvT2ZGeWJVX2xWR00ybktaVWU2VldUMzVrdnFnU1gwUXQ0UVJkaGRzQlA5Mk9RUTRZYmpBVms4WWp1ZnBfRVNfYzdzQzFZaUktOVpsUUNaTGk4MXJSRWVseFQtcV9DWXg5NkdqVUNYMC1Cb2ZfSno4ekk1cTl2S2JzZmRPcVllaUE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-13 15:09:28"
     }
   ],
   "events": [
