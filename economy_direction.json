@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T15:05:02",
+  "generated_at": "2026-07-11T15:08:02",
   "count": 500,
   "posts": [
     {
@@ -3664,6 +3664,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 14481,
+      "title": "러시아의 디젤 수출 금지로 글로벌 공급 부족이 심화되면서 유가 상승 압력이 가중되고 있다. 한국의 정유·화학 업체들은 원유 수입 비용 상승과 제품 수출 경쟁력 약화라는 이중 영향을 받을 전망이다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-11",
+      "summary": "<p>러시아의 디젤 수출 금지로 글로벌 공급 부족이 심화되면서 유가 상승 압력이 가중되고 있다. 한국의 정유·화학 업체들은 원유 수입 비용 상승과 제품 수출 경쟁력 약화라는 이중 영향을 받을 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Russia&#x27;s diesel export ban deepens global supply crunch Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "글로벌 에너지 공급망 충격으로 정유·화학 산업 원가 상승과 유가 변동성 확대는 한국 종목들의 실적과 주가에 직접적 영향을 미치는 의미있는 매크로 악재",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQODlSbTR5S3p1eVA1NElSZFNsVXd2a0ticUw4M29iNWRnWnRxUHRBczVVR2FEQzhKSE5ERFdhc3pXcTZMTHRNTzB5T0NERnpYVWFycEhYakZTUnpzenJvQThyTzZrd1Z4SVNVdnZpTHdrQnhxOUFfVGxIckZyVUF5UGFMcVhkTWxPYTIzTEpMclJ2X19VdV9nSGZpWmZPMThqLUdOclplVzNhdw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-11 15:07:56"
     },
     {
       "id": 14435,
@@ -13322,33 +13349,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWTRvX0k1Z25tTWFFSkR3RjlVaXVvTlkyWnRhdUI2NVU3aTNqSXJhdElqOXFSTUFacDQxTmpjZzJQRnc3TkNPZ2loQ1VJUWxnSmY1UVpidWQzQUE3M3RUZnhkWjNIVllOV01GeFo4XzVRX04xZk00QzI4TmRxYUIwM0tLdTJCV1ljX0VXeTJVTHU1SENNdVM0ZkV2NV9XYW1yaVhQUG9vaERHMzZDbkk5TWl4TnB1SG8?oc=5",
       "direction": "up",
       "updated_at": "2026-05-16 12:07:24"
-    },
-    {
-      "id": 3809,
-      "title": "시진핑 주석이 트럼프에게 대만 문제 오취급이 '위험한' 상황으로 이어질 수 있다고 경고. 미중 지정학적 긴장 고조로 반도체 공급망 불확실성 증대.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-13",
-      "summary": "<p>시진핑 주석이 트럼프에게 대만 문제 오취급이 '위험한' 상황으로 이어질 수 있다고 경고. 미중 지정학적 긴장 고조로 반도체 공급망 불확실성 증대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Xi tells Trump that mishandling of Taiwan could lead to &#x27;dangerous&#x27; place Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "대만 정세 악화는 메모리·파운드리 공급망 및 수출 환경 악화로 이어져 SK하이닉스·삼성전자 등 한국 반도체 업체의 경영 리스크 상당",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS3lkbXo1Qi03THB1M3ZabG5xUFNTNzloZl96QTUyTGItdm5WMWd4eVhWTEtDd0plRHBmYTVYUU94bXAtN3AxYzQ1aUdUR203NmM5YjFfZGNaT3F5a01BcnJxTTVRUUsyU1d5b01zRU9nNDNNLU54ZkNkckxDS0J2NTI0MGU1OGp0X3VVRFlxNHJkU3ZvMkF2Y1lrdEE2TDhUX3VoS2cxdWZ5Zw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-15 12:07:17"
     }
   ],
   "events": [
