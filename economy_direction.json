@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T15:05:02",
+  "generated_at": "2026-07-13T15:07:42",
   "count": 500,
   "posts": [
     {
@@ -3757,6 +3757,32 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 14648,
+      "title": "TSMC 2분기 매출이 전년 동기 대비 36% 증가하며 시장 예상을 상회했으며, AI 수요 강세를 반영한 실적으로 글로벌 반도체 경기 회복 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-13",
+      "summary": "<p>TSMC 2분기 매출이 전년 동기 대비 36% 증가하며 시장 예상을 상회했으며, AI 수요 강세를 반영한 실적으로 글로벌 반도체 경기 회복 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): TSMC Q2 revenue jumps 36% from a year earlier, beating market expectations Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "TSMC 초강세는 파운드리·메모리 시장 경기 개선을 시사하여 삼성전자·SK하이닉스 같은 한국 반도체 업체에 긍정적 동향으로 작용하나, 동시에 경쟁 강화 압박도 내재.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcEVtckxTOVlzOGY4clpUVGtUcEpoUTc1Qjg5NWxTUFh3TFRwbjJyTkhSLXh0d1AxVE5JRUJOVlVMQWxVT2NUMERNSzBRc1lWYnQyX0x2S0hjci1kLTNTTm9aQ3BaTWpvRHdqemxSYXZiSmVuQXI5eUdJblYxa01wSnl0U085Z056NldneVZBNVQ3VzBKTTVPZHlkRVRzR2JZX3J1NG1GVnk1WmRRUjlmNHBvYUFaekNQS1VMYw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-13 15:07:04"
     },
     {
       "id": 14632,
@@ -13297,35 +13323,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaThlNEd0YTRNdGhud19mNFZjNGo4eEY5eWxCZkF1VkFQVGRzOWVOWHFRWWpiWFBVVFROZE9GeXo0VjBacTdCRzZybVpzeHpLZDFCamdOcFlNUmV6ejBmeEZ4MzdzdmVTZlhycUxTSU1RRmpZa3lpajNsY3AzcmlJOUVmTDBRcktWWURWR0NSemt3LS1aREJvUmxWcHpXa1JiZlhWUnZFVFNic0RqYXhWWnJ5akJDYXptaUlyczdkYVo?oc=5",
       "direction": "down",
       "updated_at": "2026-05-18 21:07:13"
-    },
-    {
-      "id": 5000,
-      "title": "중국 4월 신규 대출이 예상외로 축소되며 수요 부진이 심화. 중국 경제 둔화는 수출 의존도 높은 한국 자동차, 화장품, 철강 등 주요 산업의 수익성 악화로 직결될 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-14",
-      "summary": "<p>중국 4월 신규 대출이 예상외로 축소되며 수요 부진이 심화. 중국 경제 둔화는 수출 의존도 높은 한국 자동차, 화장품, 철강 등 주요 산업의 수익성 악화로 직결될 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China April new loans unexpectedly shrink as weak demand weighs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 부양 부재와 신용 위축은 한국의 주요 수출처인 중국 수요 감소를 의미하며, 자동차·화장품·철강 등 대중국 의존도 높은 종목에 의미있는 악영향.",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "LG생활건강",
-        "아모레퍼시픽",
-        "POSCO",
-        "기아EV9 관련",
-        "면세업체"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYkh3Uzg2cmhfTmM5OFk4a3hibjFuLXlPMEhRSFhZRWt6V0R4dVUxUUVhOHZlREJ6eW5zamlidmpJeXVIMmhMM2NvN3pGYzlvQUlRMkx4NmphOTVQMVhpMHhlck4xQ3lxRUx5Q0o5Um9aVURidDFoaVM5SjJ5NkkxX3MxaGpfOEk2THNRbG5uVWZNTHlFWFlObWtCUmthclVxX2dDa3FMaFZyRnBvOURNVHoxZmtpUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-16 12:08:28"
     }
   ],
   "events": [
