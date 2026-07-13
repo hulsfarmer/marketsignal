@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T12:05:02",
+  "generated_at": "2026-07-13T12:07:48",
   "count": 500,
   "posts": [
     {
@@ -3757,6 +3757,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 14632,
+      "title": "중동 재무장과 호르무즈 해협 폐쇄 우려로 달러화가 강세를 보임. 유가 상승 가능성으로 인한 글로벌 경제 불확실성 증대로 USD/KRW 환율 상승 압력 및 외국인 자금 이탈 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-13",
+      "summary": "<p>중동 재무장과 호르무즈 해협 폐쇄 우려로 달러화가 강세를 보임. 유가 상승 가능성으로 인한 글로벌 경제 불확실성 증대로 USD/KRW 환율 상승 압력 및 외국인 자금 이탈 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar jumps on renewed Middle East attacks, Hormuz closure Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "유가 급등 시 원화 약세·외국인 순매도 가능성 높고, 경기 불확실성으로 수출 기업 실적 부담 증가 예상",
+      "stocks": [
+        "SK에너지",
+        "S-Oil",
+        "현대차",
+        "기아",
+        "삼성SDI",
+        "LG화학"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVjVMa3FGTU1NQ1pSWXVaRllPTTBLc0xYR1dlQS1URUdySXZOb1ZaT3RxUFNlUmo4djVDcTNrWVpNOUFsNnpkcW5nWFJyZWlKamtvMlppZkYyTUpLeFBGc1dYUHYtcTNSTjk2aVhDSjI2OUV0MU81eDBsMUNaRGxiZHQ2SzUzRTBsd290RGZRTWl0NUZ0Mi1LVnBsMVMzSWlqNVJUeEJQQVp4cTRUUGhj?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-13 12:07:16"
     },
     {
       "id": 14595,
@@ -13298,33 +13326,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYkh3Uzg2cmhfTmM5OFk4a3hibjFuLXlPMEhRSFhZRWt6V0R4dVUxUUVhOHZlREJ6eW5zamlidmpJeXVIMmhMM2NvN3pGYzlvQUlRMkx4NmphOTVQMVhpMHhlck4xQ3lxRUx5Q0o5Um9aVURidDFoaVM5SjJ5NkkxX3MxaGpfOEk2THNRbG5uVWZNTHlFWFlObWtCUmthclVxX2dDa3FMaFZyRnBvOURNVHoxZmtpUQ?oc=5",
       "direction": "down",
       "updated_at": "2026-05-16 12:08:28"
-    },
-    {
-      "id": 4840,
-      "title": "AI 랠리 지속과 트럼프-시진핑 정상회담이 시장 중심. 미-중 관계 진전 시 반도체·AI 수요 확대 가능성 vs. 지정학적 리스크 상존.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-14",
-      "summary": "<p>AI 랠리 지속과 트럼프-시진핑 정상회담이 시장 중심. 미-중 관계 진전 시 반도체·AI 수요 확대 가능성 vs. 지정학적 리스크 상존.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: AI rally powers on, Trump-Xi summit takes centre stage Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미-중 정상회담은 AI/반도체 공급망과 한국 반도체 수출(중국 수요)에 직결된 주요 매크로 이벤트이며, AI 랠리 지속은 HBM·메모리 칩 수요 강화 신호",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1naEl0MGpmTGV1a3hxRWRWWmIwWlZhUEc5XzQ1NjNFMG1uVFpIbWhfS3NuN2lFR1JTWFBBWndpMVdlSVQtLW5kSHZQMlNnRUVJazBjMlBnQVlpN2g4T2wyYW54UUFFM25YeXVmNU4yQnpfeDg1Wmh6UXh3a3hUaEE?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-16 09:07:23"
     }
   ],
   "events": [
