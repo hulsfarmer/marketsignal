@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:05:02",
+  "generated_at": "2026-07-15T03:08:48",
   "count": 500,
   "posts": [
     {
@@ -3938,6 +3938,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 15008,
+      "title": "Fed가 7월 금리 인상을 건너뛸 것으로 예상되며, 인플레이션 냉각이 배경. USD/KRW 환율 약세 압력 및 수출주 반등 기대감으로 이어질 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-14",
+      "summary": "<p>Fed가 7월 금리 인상을 건너뛸 것으로 예상되며, 인플레이션 냉각이 배경. USD/KRW 환율 약세 압력 및 수출주 반등 기대감으로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Traders expect Fed to skip July rate hike as inflation cools Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 결정은 한국의 환율·채권·외국인 수급에 직접 영향을 미치는 주요 매크로 변수",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "포스코",
+        "카카오"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPejVocHU3MHFoUThMM0FoSk5ILWllYXdVa09OYmEtTjFoelpoVFl3T2kyYUR3UE85SnVLb01CbjV4TkJhMC0zajNCUHhza3c5RnJJaElFbnUyMV9YSmJ6VDUtWHFBUEdwSHd4eWUxMjNONzd2SS1zaENIdVJfWFFmX200YnV3Ym5YekpxVXBjVm91OWRXUy1xVTJHbkE4cHFOTDJF?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-15 03:07:41"
+    },
+    {
+      "id": 14999,
+      "title": "엔비디아가 중국으로 강력한 H200 AI 칩 출하를 시작했다는 미국 관계자 발언으로, 미국의 대중 반도체 수출 규제 완화 신호가 포착됨. 이는 글로벌 AI 칩 수급 완화와 한국 메모리·파운드리 업체들의 경쟁 심화를 의미.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-14",
+      "summary": "<p>엔비디아가 중국으로 강력한 H200 AI 칩 출하를 시작했다는 미국 관계자 발언으로, 미국의 대중 반도체 수출 규제 완화 신호가 포착됨. 이는 글로벌 AI 칩 수급 완화와 한국 메모리·파운드리 업체들의 경쟁 심화를 의미.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US official says Nvidia has begun shipping powerful H200 AI chips to China Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "엔비dia의 중국 수출 재개는 글로벌 AI 칩 시장 경쟁 격화로 이어져 SK하이닉스의 HBM 수요 불확실성과 삼성의 파운드리 수요에 부정적 영향 예상",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaDItR0c4WHhNYk9SeEpucGtPSmk3ZnBnS1lPUll3QkNSLWx3LWpWTk92MldIc3RlWGJUVTQ5ZFQtT3pBSkhfN3B4ZDB4VFpvVEZTVThMMXFVS1hhTGZBSFI2OXRncjFTVndGTUwyRHpXb0I3UXFRZWhBOUpFRm15MURsUnRXMFJfak5sOWNDZlJFWDdJT3Y3NVRleW5iZFZzM2hwUQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-15 03:07:04"
     },
     {
       "id": 14997,
@@ -13239,63 +13293,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT01mM0pTTkhnZ09iVzB5SUNodFE5RG5jRUJyVUxmdzUyeV9oeUZieEUycmQ2Q1QtTi1ZLWhsTUVtV3NhdkpTdkRfNmdiMGpjQ3ZISHh2YXpHUTVGWUs1aUh1REE1NEo5WHh5dWwzejRSd3lHNG9IYWJwQjdpdXhKOFlHV0xDU3dCcEJQV1FjZlFaRWlYVzNLYWY3WWdFdHZ6M24tV194eWJfSkJCM0tPUHk1NA?oc=5",
       "direction": "up",
       "updated_at": "2026-05-30 21:07:08"
-    },
-    {
-      "id": 6128,
-      "title": "S&P 500과 나스닥이 AI 낙관론으로 사상 최고가를 기록했고, 마이크론이 1조 달러 클럽에 진입했다. 글로벌 반도체 수요 확대 신호로 SK하이닉스, 삼성전자 등 한국 메모리/파운드리 기업들에 긍정적.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-26",
-      "summary": "<p>S&P 500과 나스닥이 AI 낙관론으로 사상 최고가를 기록했고, 마이크론이 1조 달러 클럽에 진입했다. 글로벌 반도체 수요 확대 신호로 SK하이닉스, 삼성전자 등 한국 메모리/파운드리 기업들에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): S&amp;P 500, Nasdaq hit record closing highs on AI optimism, Micron joins $1 trillion club Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 수요 확대와 반도체 강세 트렌드가 명확히 드러나며, HBM·메모리 수요 증가로 한국 주요 반도체 기업들의 실적 개선 기대감 상승",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRWWDF6RVpndmREd3hkYTZ4Q1YyNmVLN09uSGlUaGdJaTdXM3kxM3lwNXRWdU9vX3NUSS1HR040RzVKQU5YZGFtU1BvSjBnTDBZWExDY0ZLLUcyamhXV0FGWVliZUxfWjFVYlFVckEyRmlsMmVaVEgzTHVOcFZLM0wtU0tHaWU3emFJdmprT0NSdUtq?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-30 18:07:05"
-    },
-    {
-      "id": 6125,
-      "title": "전쟁으로 인한 인플레이션 우려가 금리인상 베팅을 부추기면서 금값이 하락했다. 이는 글로벌 금리 인상 사이클 강화를 의미하며, USD/KRW 환율 상승과 한국 채권 금리 상승 압력으로 이어질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-26",
-      "summary": "<p>전쟁으로 인한 인플레이션 우려가 금리인상 베팅을 부추기면서 금값이 하락했다. 이는 글로벌 금리 인상 사이클 강화를 의미하며, USD/KRW 환율 상승과 한국 채권 금리 상승 압력으로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gold falls as war-driven inflation fears fuel rate-hike bets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 매파적 기조 강화는 원화 약세, 수출주 외국인 매도, 고배당주 등 금리민감주에 직접 악영향을 미치는 의미있는 매크로 변수",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "포스코",
-        "삼성물산",
-        "KB금융",
-        "신한지주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORlJCLUk1UjZTTllqd1RacFBFNXZWanBUZkZpVTlyWktFYm1Fb01OZVpBX2tyelRoWnptU2RsZVRtTktJZEp4MnVoVWdaaGJENnJLT09jLVREUmNuVnhXSVo3R0J3VFc5MGhaUHZ5Y2FaODhjVXVRRE1PekJKNVltR3ZremkyM005M2J5VWV1Y1hsZXFQeVh6bWk3QlRQdlVJdUpzMUxn?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-30 15:08:32"
     }
   ],
   "events": [
