@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-13T16:10:21",
+  "generated_at": "2026-07-14T15:05:15",
   "dates": [
+    "2026-07-14",
     "2026-07-13",
     "2026-07-10",
     "2026-07-09",
@@ -29,8 +30,7 @@
     "2026-06-01",
     "2026-05-15",
     "2026-05-13",
-    "2026-05-12",
-    "2026-05-11"
+    "2026-05-12"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,100 @@
     }
   },
   "by_date": {
+    "2026-07-14": {
+      "ai": {
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "035720",
+            "name_kr": "카카오",
+            "ms_score": 58,
+            "ai_score": 58,
+            "confidence": "MEDIUM",
+            "reason": "임원진 5억원 주식 매수, 자사주 소각, 카카오페이 완전 자회사 전환 등 다수의 '수급_개선' 신호가 동시에 발생하며 긍정 뉴스 5건이 집중되었습니다. RSI 54로 과매수 부담 없이 중립권이고 5일 -1.8%로 호재가 아직 주가에 미반영된 상태로 종가 매수 조건에 부합합니다.",
+            "entry_price": 34750.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 62,
+            "ai_score": 90,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 91 (RSI 61, 5일 -0.9%)",
+            "entry_price": 21150.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "006400",
+            "name_kr": "삼성SDI",
+            "ms_score": 58,
+            "ai_score": 88,
+            "confidence": "HIGH",
+            "reason": "[E] tech 48 / earn 89 (RSI 40, 5일 -1.1%)",
+            "entry_price": 440000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "009150",
+            "name_kr": "삼성전기",
+            "ms_score": 60,
+            "ai_score": 81,
+            "confidence": "HIGH",
+            "reason": "[T] tech 81 / earn 0 (RSI 28, 5일 -21.8%)",
+            "entry_price": 1289000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "329180",
+            "name_kr": "HD현대중공업",
+            "ms_score": 77,
+            "ai_score": 79,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -11.7%)",
+            "entry_price": 487500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 73,
+            "ai_score": 60,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 60 / earn 0 (RSI 38, 5일 -1.8%)",
+            "entry_price": 22050.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-07-13": {
       "ai": {
         "count": 1,
@@ -2974,113 +3068,6 @@
             "exit_price": 153600.0,
             "return_pct": -3.27,
             "return_pct_open": -3.27,
-            "correct": 0
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-05-11": {
-      "ai": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "029780",
-            "name_kr": "삼성카드",
-            "ms_score": 58,
-            "ai_score": 82,
-            "confidence": "HIGH",
-            "reason": "RSI 22로 극도의 과매도 구간이며 5일 -4.5%, 20일 -6.1%의 누적 낙폭은 기술적 반등 압력을 높입니다. 과거 성공 패턴인 '기술적_반등(100% 성공률)'에 가장 부합하며, 자사주 전략 변화와 목표가 63,000원 제시는 미반영 호재로 작용할 수 있습니다. RSI 30~60 유리 구간 진입 시 강한 반등 기대.",
-            "entry_price": 50900.0,
-            "exit_price": 50200.0,
-            "return_pct": -1.38,
-            "return_pct_open": -1.38,
-            "correct": 0
-          },
-          {
-            "stock_code": "000100",
-            "name_kr": "유한양행",
-            "ms_score": 61,
-            "ai_score": 79,
-            "confidence": "HIGH",
-            "reason": "RSI 3으로 역사적 과매도 극단 구간에 해당하며 5일 -5.5%, 20일 -7.7%의 낙폭은 기술적 반등 가능성을 극대화합니다. 임원진 동반 주식 매입과 자사주 소각이라는 강력한 주주환원 신호는 아직 주가에 미반영된 상태입니다. 과거 셀트리온(RSI 41, +4.01%), 한미반도체(RSI 37, +3.74%) 성공 패턴과 유사하며 반등 폭이 클 수 있습니다.",
-            "entry_price": 86600.0,
-            "exit_price": 84600.0,
-            "return_pct": -2.31,
-            "return_pct_open": -2.31,
-            "correct": 0
-          },
-          {
-            "stock_code": "088350",
-            "name_kr": "한화생명",
-            "ms_score": 58,
-            "ai_score": 68,
-            "confidence": "MEDIUM",
-            "reason": "RSI 47로 중립 구간이며 5일 -1.7%의 소폭 하락으로 단기 저점 형성 가능성이 있습니다. 키움증권의 목표주가 8500원 상향과 배당 수익률 3%대 평가는 호재이며, 현재가 4800원 대비 상승 여력이 존재합니다. 뉴스 분위기 58점, 시장 영향력 62점의 중립적 환경에서 배당 매력과 리포트 호재의 조합이 단기 반등을 지지합니다.",
-            "entry_price": 4800.0,
-            "exit_price": 4690.0,
-            "return_pct": -2.29,
-            "return_pct_open": -2.29,
-            "correct": 0
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 67,
-            "ai_score": 89,
-            "confidence": "HIGH",
-            "reason": "[E+T] tech 50 / earn 90 (RSI 39, 5일 -1.1%)",
-            "entry_price": 198400.0,
-            "exit_price": 191300.0,
-            "return_pct": -3.58,
-            "return_pct_open": -3.58,
-            "correct": 0
-          },
-          {
-            "stock_code": "021240",
-            "name_kr": "코웨이",
-            "ms_score": 62,
-            "ai_score": 82,
-            "confidence": "HIGH",
-            "reason": "[E] tech 0 / earn 83 (RSI 60, 5일 +1.7%)",
-            "entry_price": 87600.0,
-            "exit_price": 92800.0,
-            "return_pct": 5.94,
-            "return_pct_open": 5.94,
-            "correct": 1
-          },
-          {
-            "stock_code": "017670",
-            "name_kr": "SK텔레콤",
-            "ms_score": 58,
-            "ai_score": 58,
-            "confidence": "MEDIUM",
-            "reason": "[T] tech 59 / earn 0 (RSI 38, 5일 -1.7%)",
-            "entry_price": 93500.0,
-            "exit_price": 98200.0,
-            "return_pct": 5.03,
-            "return_pct_open": 5.03,
-            "correct": 1
-          },
-          {
-            "stock_code": "006360",
-            "name_kr": "GS건설",
-            "ms_score": 58,
-            "ai_score": 39,
-            "confidence": "LOW",
-            "reason": "[T] tech 40 / earn 0 (RSI 46, 5일 -1.8%)",
-            "entry_price": 37350.0,
-            "exit_price": 36200.0,
-            "return_pct": -3.08,
-            "return_pct_open": -3.08,
             "correct": 0
           }
         ]
