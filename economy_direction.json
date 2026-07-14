@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T15:05:05",
+  "generated_at": "2026-07-14T15:08:39",
   "count": 500,
   "posts": [
     {
@@ -455,6 +455,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 14864,
+      "title": "한국이 세계 최악의 약세장(베어마켓)을 기록 중이며, 반도체·AI 산업 약세가 주요 원인으로 지목되고 있다. SK하이닉스, 삼성전자 등 주력 종목의 실적 부진과 글로벌 수요 둔화가 영향을 미치고 있다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-14",
+      "summary": "<p>한국이 세계 최악의 약세장(베어마켓)을 기록 중이며, 반도체·AI 산업 약세가 주요 원인으로 지목되고 있다. SK하이닉스, 삼성전자 등 주력 종목의 실적 부진과 글로벌 수요 둔화가 영향을 미치고 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Inside South Korea&#x27;s world-beating bear market Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "한국 증시 전반의 약세 원인을 진단하는 기사로, 반도체·AI 관련 핵심 수출 산업의 구조적 부진이 국가 경제 및 주식시장에 직결되는 중요한 뉴스",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaEJndTJ6U0M1a0pZNjRWQmRvUS1HRUpuUmdlcUtMZWhqY3NZbS1sZ1RZdmlsWHJOakF0M3hlX0hwZlgzWmJEMTV3WUthQkN0S01KbjdxWjl0X0NJcXNOZXJJZlZ4SmNadnRlWms1UkJqcXVrM3YtbTJVSm9sejBhYTBlS3NKUG5sTzQ3QU5kdkdDV09EcnBsWWRvdVFnTFU5S0E?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-14 15:07:17"
+    },
+    {
+      "id": 14863,
+      "title": "한국이 2026년 경제성장률을 5년 최고치로 전망하며 AI 칩 붐을 주요 동력으로 지목. SK하이닉스의 HBM과 삼성전자의 메모리/파운드리 사업이 직접 수혜",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-14",
+      "summary": "<p>한국이 2026년 경제성장률을 5년 최고치로 전망하며 AI 칩 붐을 주요 동력으로 지목. SK하이닉스의 HBM과 삼성전자의 메모리/파운드리 사업이 직접 수혜</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea forecasts 2026 economic growth at 5-year high on AI chip boom Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "한국 반도체 수출 주력산업(메모리, HBM)의 수요 증가 신호로 SK하이닉스·삼성전자 등 주요 종목에 구체적 호재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlJqdXFSbm1RMkt5ZU5oOG5mUHZiblBGVE9aQ1RDSDlpRTVPNFA1SHlKYkFNc3MxbHppV3ZyMVNGUTFvSlZkb0lhR2w2WU9MY1FMSHdZQUdpTnhDY3ZpNG5MLXJkMTRVTHBnOTZpQVJCY2ROWXNQeUpITmNKWEx1ZWt1MFV2UjB3S0F1VWYwa1FHRkdzQlRLTHEtYm1QNVdqWFpDM2lnWi1UUVNKb0E5eHZGOGUxYUZqcnhaLXJYWQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-14 15:07:13"
     },
     {
       "id": 14769,
@@ -3832,6 +3886,58 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 14862,
+      "title": "TSMC가 AI 붐으로 5분기 연속 사상 최고 수익을 기록할 것으로 예상되며, 이는 한국의 SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 반도체 업체들의 경쟁 심화와 수급 구도 변화를 의미한다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-14",
+      "summary": "<p>TSMC가 AI 붐으로 5분기 연속 사상 최고 수익을 기록할 것으로 예상되며, 이는 한국의 SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 반도체 업체들의 경쟁 심화와 수급 구도 변화를 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): TSMC seen riding AI boom to fifth straight quarter of record profit Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "TSMC의 파운드리 독점 우위 강화는 삼성전자 파운드리 사업 약화 신호이며, AI 칩 공급 선호도 심화로 HBM 수급은 긍정적이나 전반 경쟁력 격차 심화는 부정적",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZXNNZTY0OFNsNFNDUVliQ081ZU9neVBvcHVpSS1FQ21uNFlKZ3lKTTN0R1VnQlRITnRlOU5TemY5bERQUExjcFBwVU5yejVyQWJ0ZjU0aW1UdDdiWXdlRjhsUFNpUy1BcC1BRXhtTnRkWXZ1a19xYXU0MDRoUTdFdWtJUHNIcDI2QUVDaW8zQlByaTRmejV1c1c1eFRqMFBZZGRqc05KVDFaRENCME9FTHFQdnRTc0U?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-14 15:07:10"
+    },
+    {
+      "id": 14861,
+      "title": "엔비디아가 아시아 AI칩 고객 리스트를 절반으로 축소했다고 FT 보도. 이는 AI칩 수급 구조 재편과 관련 공급망 영향을 시사하며, HBM 수요 전망과 한국 반도체사의 고객 다각화 필요성을 제기.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-14",
+      "summary": "<p>엔비디아가 아시아 AI칩 고객 리스트를 절반으로 축소했다고 FT 보도. 이는 AI칩 수급 구조 재편과 관련 공급망 영향을 시사하며, HBM 수요 전망과 한국 반도체사의 고객 다각화 필요성을 제기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nvidia halves Asia AI chip customer list, FT reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "엔비디아 고객 재편은 HBM·메모리 수요 패턴 변화로 이어지며, SK하이닉스·삼성의 AI칩 공급망 전략과 향후 수주에 직접 영향을 미치는 의미있는 산업 동향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ042c2NBTzI2SnhBeFZzMC03WndWMmFTRG1KbXI4V2hacnh2SWZUZ29nbkRvcUNVRi1NVEhWd19hSmNNNzh0QzNLVjhZcjFLWXhGdjFhLXIxcDRnUEQ0X0RRaXRVckJRd2Q1bmNpTklSbW5NUnNJUTdNejllLTVpTzF2QkI5V1YwUHVCWVgyREVXZG1QVS1fYWNGRVFweUlVQlpJSVhWNDF6WDd2TGc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-14 15:07:06"
     },
     {
       "id": 14840,
@@ -13203,114 +13309,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPekVWYk9YT0VyV29vWWpoRjlBZWFmU3kyR3Rvdm54bW53U045emxJODI3ZFRkS285MC1VSVQ3azlBb2prWXY4OEpLZlVYeGVma0VkQ1UzWkJiQU1uLUh1MVNFYnV2MUtBVXpUeVpGdHNsYThWcHQ3UmktbVJIZkpHV2xuNVZHb01jYW5FeUlwT0hzZVkwS0xub0hrS3g0QU1Rb3VCRk0xVlJ2czA?oc=5",
       "direction": "down",
       "updated_at": "2026-05-18 12:07:29"
-    },
-    {
-      "id": 5746,
-      "title": "삼성전자가 한국 노조와 임금 협상을 재개하며 칩 제조업체에서 파업 위험이 고조되고 있다. 파업 발생 시 메모리/파운드리 생산 차질로 글로벌 공급망에 영향을 미칠 수 있다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-18",
-      "summary": "<p>삼성전자가 한국 노조와 임금 협상을 재개하며 칩 제조업체에서 파업 위험이 고조되고 있다. 파업 발생 시 메모리/파운드리 생산 차질로 글로벌 공급망에 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Samsung Electronics, South Korean union resume pay talks as strike looms at chip giant Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "삼성전자 파업은 세계 메모리·파운드리 공급 차질의 직결 요인으로, 한국 반도체주와 글로벌 수급에 의미 있는 악재",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTS1TUUtVWHY4LWNkWVVfS0t0Q0FkdzBpOEY1LTktUFIxY2ViUXNVYzh6MFhRQ1p3NV9hMUs5NHRoNkhnMHVQU1pKYTVtTF9lT2k3a1F4YzF3bjR6cWloQ0pNc1ktLTVnWUpEeFUwLWs0OUtUdDRkSkk0Q3ROU01BdDQ4NmFXb3FoV3RYQVh0dEtVREZqOG04RlBoc01Nck1JdEx6NE15UWhWZGhaOXJfZld5dmlsUkFEbE1aT2tqemJWU0NFUXBKRVE5bnB4NExKV2c?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-18 12:07:08"
-    },
-    {
-      "id": 5655,
-      "title": "엔비디아의 주가 상승 모멘텀이 주목받고 있으며, 이는 AI 반도체 수요 강세를 시사한다. SK하이닉스(HBM 공급), 삼성전자(메모리/파운드리) 등 한국 반도체 기업들의 수혜 가능성이 높다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-17",
-      "summary": "<p>엔비디아의 주가 상승 모멘텀이 주목받고 있으며, 이는 AI 반도체 수요 강세를 시사한다. SK하이닉스(HBM 공급), 삼성전자(메모리/파운드리) 등 한국 반도체 기업들의 수혜 가능성이 높다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Week Ahead: Nvidia’s moment Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 AI 반도체 강세 신호는 HBM·메모리 수요 증가로 이어져 한국 반도체 주요 기업들에 의미 있는 긍정 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaFZSSGtLRFNqdlFfZnhJNVZpN09yOWs3X3ZZdGpiR21wY3BORHM1aW9iVDdTVWxXQXRieFptaUhzcUpiV0FrYWJ1RHVYcVRhVlh6cnp6WXR6TURQaWRqSUxzVUo0WXdXc3dTdVFmQXpzOGNsRHRGR1daLXQ3LThiZWhoZEpfZ25YZDVubFdlWHNZQXRF?oc=5",
-      "direction": "up",
-      "updated_at": "2026-05-18 00:07:04"
-    },
-    {
-      "id": 5614,
-      "title": "한국 정부가 삼성전자 파업을 피하기 위해 모든 옵션을 추진하겠다고 발표. 반도체 주요 생산업체의 공급망 차질 위험 대응 시도로, 메모리/파운드리 사업 영향 우려 상황.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-17",
-      "summary": "<p>한국 정부가 삼성전자 파업을 피하기 위해 모든 옵션을 추진하겠다고 발표. 반도체 주요 생산업체의 공급망 차질 위험 대응 시도로, 메모리/파운드리 사업 영향 우려 상황.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea says it will pursue all options to avoid Samsung strike Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "삼성전자 파업은 한국 반도체 수출 및 글로벌 공급망에 직접 영향을 미치는 의미있는 리스크 요인으로, 메모리·파운드리 생산 차질 시 한국 반도체주 전반에 악재",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTGlHR0pfeEljcmtyQlg1YnkzUGRjNUViWUpST1V6anRicXRzRDdaa1FzTEl4UlFpWGo0YlJWOVhMVU1MS1JBYjkzRk5TSDctMDNJa1ZBRG9BV2psRjBCVVlYT080a0JGUE85dFprRTBVUGNFbVo3R2lXRVRiR1JURXdzeHdLWElneXROM1J2MHVra09vOXRaaFcyWmJPbkw5ajJ5V0VTVnV3S3ppbDBIX2tNbkN5d1lBRmtZNVEwSFM?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-17 15:07:05"
-    },
-    {
-      "id": 5550,
-      "title": "트럼프 전 대통령이 이란과의 전쟁으로 인한 경제적 고통을 감수할 가치가 있다고 주장하며 농촌 유권자들이 동의하고 있음. 중동 지정학적 긴장 고조는 유가 급등으로 이어질 가능성이 높아 에너지·화학 관련 한국 종목에 영향.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-16",
-      "summary": "<p>트럼프 전 대통령이 이란과의 전쟁으로 인한 경제적 고통을 감수할 가치가 있다고 주장하며 농촌 유권자들이 동의하고 있음. 중동 지정학적 긴장 고조는 유가 급등으로 이어질 가능성이 높아 에너지·화학 관련 한국 종목에 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump says Iran war is worth the economic pain. These rural voters agree. Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "이란 분쟁 심화 시 유가 급등이 확실하여 에너지·화학 기업의 원가 상승과 정유·석화 마진 악화 우려로 직접적 산업 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmxMdlNJMXdlUF9ZOFk0RW1tYlpwSkdiREhNRWVfUnZER1dCQnFIUjNIZElVazZVako3N0tDek1tQzU5V18teTFTWW9nSUVKaG85bldoSDRjWHFubjVZTk1fTDBEQklZV3RsNlJ2Z294MFcwbXk4Vy02T0hQbldzbG1tcUpueTAzV0NBa0lkUUowOThPX3AyRXZ6MVU5dksydktzMDAyWHJkeG04ZWFOT3JvTUJENDduX3Fj?oc=5",
-      "direction": "down",
-      "updated_at": "2026-05-17 00:07:30"
     }
   ],
   "events": [
