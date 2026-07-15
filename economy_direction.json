@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T18:08:32",
+  "generated_at": "2026-07-15T18:35:20",
   "count": 500,
   "posts": [
     {
@@ -301,6 +301,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 15225,
+      "title": "엔켐 — 회사합병결정(종속회사의주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260715",
+      "summary": "<p>엔켐이 자회사 Enchem America Inc.를 통해 나스닥 상장사 THE GROWHUB LIMITED를 역삼각합병으로 인수하며, 합병 후 최소 85% 지분 확보로 경영권 장악. Enchem America 기업가치 4억 USD(약 5,969억원)로 자산총액 대비 20.11% 규모의 대형 해외 M&A 거래.</p>\n<p style='color:#718096;font-size:.9em'>📋 회사합병결정(종속회사의주요경영사항)               · 엔켐</p>",
+      "feedback": "나스닥 상장사 인수를 통한 미국 자본시장 진출 및 대규모 해외 M&A(약 6,000억원대)이나, 상대사의 나스닥 상장폐지 위험 통지 상황으로 성공 불확실성이 높음",
+      "stocks": [
+        "엔켐"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715900769",
+      "direction": "up",
+      "updated_at": "2026-07-15 18:35:19"
     },
     {
       "id": 12690,
@@ -13278,33 +13300,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRHduSXhpVDRyZk1KaktVUHFlX3JqWmhPTUI1dldCVmpNMEU3dGhTVVpucmRHN3JCemdXazJPR3ZXVWNFRTN5SjFCT1VQTUZFNzN0WTF0S0ctMk9Wbjd0bW1HLVNKWVNieTd2WnVxaDF5WlZ1XzYtMHFZaWNmRlhxSXMtY3g3VHRkYzFIWDdpLXNtOVJ5dGd2YzNDT1ZpQzZUenUxX0hTSzVBNlNGMUFBQVZZN2gxbDZaQjNtMFBTaG1YUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-06-01 21:07:56"
-    },
-    {
-      "id": 6521,
-      "title": "미국이 이란을 재차 공격했으며, 트럼프 대통령은 호르무즈 해협 관련 거래를 부인했습니다. 중동 긴장 고조로 유가 상승 압력이 증가하여 에너지·화학 기업의 수익성에 영향을 미칠 전망입니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-05-27",
-      "summary": "<p>미국이 이란을 재차 공격했으며, 트럼프 대통령은 호르무즈 해협 관련 거래를 부인했습니다. 중동 긴장 고조로 유가 상승 압력이 증가하여 에너지·화학 기업의 수익성에 영향을 미칠 전망입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US strikes Iran again, official says, after Trump denies deal on Strait of Hormuz Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 분쟁 심화로 유가 상승 가능성 높음 → SK이노베이션, S-Oil 등 에너지·정유 기업과 LG화학, 롯데케미칼 등 화학사의 수익성 개선 호재",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWJLNTAwYTVGSkZnNzU5aUtkM0RhMUpvdXBkN1FzSW52RVhEZG9TZzdMTEJlNnc4QWUzdkhrRkh6R25nRnE3dnpUd3FxYzd3RmluZ1NuZTF1WHlYZEJKV0xnQ3FHVVlZY3RyMWVKc1NVMFVYZ2NlUXJibVZGbjRrVDk2QVVjSU5GUFJNRXd0WnNlMkZmcFpiajk1SWNTblU5bUpfSmRqQTR0UUtUam90WHJaZDhYS0JCa0h5ZUdWenFSckVa?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-01 12:08:25"
     }
   ],
   "events": [
