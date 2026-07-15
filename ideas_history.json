@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:05:29",
+  "generated_at": "2026-07-15T16:10:25",
   "dates": [
     "2026-07-15",
     "2026-07-14",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 112,
+      "total": 113,
       "correct": 52,
-      "hit_rate": 46.4,
-      "avg_return": 0.29,
-      "avg_return_open": 0.71
+      "hit_rate": 46.0,
+      "avg_return": 0.27,
+      "avg_return_open": 0.67
     },
     "hybrid": {
-      "total": 154,
+      "total": 159,
       "correct": 68,
-      "hit_rate": 44.2,
-      "avg_return": -0.35,
-      "avg_return_open": -0.17
+      "hit_rate": 42.8,
+      "avg_return": -0.42,
+      "avg_return_open": -0.25
     }
   },
   "by_date": {
@@ -129,10 +129,10 @@
             "confidence": "MEDIUM",
             "reason": "임원진 5억원 주식 매수, 자사주 소각, 카카오페이 완전 자회사 전환 등 다수의 '수급_개선' 신호가 동시에 발생하며 긍정 뉴스 5건이 집중되었습니다. RSI 54로 과매수 부담 없이 중립권이고 5일 -1.8%로 호재가 아직 주가에 미반영된 상태로 종가 매수 조건에 부합합니다.",
             "entry_price": 34750.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 33850.0,
+            "return_pct": -2.59,
+            "return_pct_open": -2.59,
+            "correct": 0
           }
         ]
       },
@@ -147,10 +147,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 91 (RSI 61, 5일 -0.9%)",
             "entry_price": 21150.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 21100.0,
+            "return_pct": -0.24,
+            "return_pct_open": -0.24,
+            "correct": 0
           },
           {
             "stock_code": "006400",
@@ -160,10 +160,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 48 / earn 89 (RSI 40, 5일 -1.1%)",
             "entry_price": 440000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 427500.0,
+            "return_pct": -2.84,
+            "return_pct_open": -2.84,
+            "correct": 0
           },
           {
             "stock_code": "009150",
@@ -173,10 +173,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 81 / earn 0 (RSI 28, 5일 -21.8%)",
             "entry_price": 1289000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1260000.0,
+            "return_pct": -2.25,
+            "return_pct_open": -2.25,
+            "correct": 0
           },
           {
             "stock_code": "329180",
@@ -186,10 +186,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -11.7%)",
             "entry_price": 487500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 466000.0,
+            "return_pct": -4.41,
+            "return_pct_open": -4.41,
+            "correct": 0
           },
           {
             "stock_code": "010140",
@@ -199,10 +199,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 60 / earn 0 (RSI 38, 5일 -1.8%)",
             "entry_price": 22050.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 21250.0,
+            "return_pct": -3.63,
+            "return_pct_open": -3.63,
+            "correct": 0
           }
         ]
       },
