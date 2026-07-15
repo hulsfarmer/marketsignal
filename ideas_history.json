@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-14T16:10:40",
+  "generated_at": "2026-07-15T15:05:29",
   "dates": [
+    "2026-07-15",
     "2026-07-14",
     "2026-07-13",
     "2026-07-10",
@@ -29,8 +30,7 @@
     "2026-06-02",
     "2026-06-01",
     "2026-05-15",
-    "2026-05-13",
-    "2026-05-12"
+    "2026-05-13"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,74 @@
     }
   },
   "by_date": {
+    "2026-07-15": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 64,
+            "ai_score": 55,
+            "confidence": "MEDIUM",
+            "reason": "국민연금 지분 증가(7.05%)와 삼성증권 목표가 인상은 수급_개선 패턴(100% 성공률)에 해당하는 긍정 신호입니다. 그러나 5일 +5.2% 상승으로 호재 선반영 리스크(93% 실패율)가 존재하며 RSI 57은 중립 구간입니다. 과거 성공 사례(2026-07-13, +2.22%)와 유사한 구조이나 단기 차익실현 매물 리스크를 고려해 소량 진입을 권장합니다.",
+            "entry_price": 51300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "011200",
+            "name_kr": "HMM",
+            "ms_score": 60,
+            "ai_score": 48,
+            "confidence": "LOW",
+            "reason": "RSI 61로 과열 직전 수준이며 RSI_과열 패턴의 실패율이 88%로 매우 높아 부담스러운 구간입니다. 한국투자증권의 중립 의견과 5일 -1.4% 하락 추세가 겹쳐 단기 반등 모멘텀이 약하고, 부정 뉴스와 긍정 뉴스가 혼재해 방향성이 불명확합니다. 4개 후보 중 소거법으로 포함하나 최소 비중 또는 관망을 권장합니다.",
+            "entry_price": 19760.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 62,
+            "ai_score": 92,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 93 (RSI 64, 5일 +0.7%)",
+            "entry_price": 21100.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 73,
+            "ai_score": 42,
+            "confidence": "LOW",
+            "reason": "[T] tech 42 / earn 0 (RSI 38, 5일 +0.5%)",
+            "entry_price": 21250.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-07-14": {
       "ai": {
         "count": 1,
@@ -2988,87 +3056,6 @@
             "return_pct": null,
             "return_pct_open": null,
             "correct": null
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-05-12": {
-      "ai": {
-        "count": 1,
-        "picks": [
-          {
-            "stock_code": "161390",
-            "name_kr": "한국타이어앤테크놀로지",
-            "ms_score": 58,
-            "ai_score": 62,
-            "confidence": "MEDIUM",
-            "reason": "삼성증권·대신증권·한국투자증권 등 복수 증권사의 목표가 일제 인상(8~9.3만원대)으로 기관 수급 유입 기대가 있으며, RSI 54로 중립 구간에 위치합니다. 5일 -0.7%, 20일 -6.0%로 낙폭이 누적되어 목표가 상향에도 주가 미반영 구간이 남아 있습니다. 호재_선반영 리스크는 존재하나 복수 기관의 동시 커버리지 개시가 촉매 역할을 할 수 있습니다.",
-            "entry_price": 61100.0,
-            "exit_price": 59200.0,
-            "return_pct": -3.11,
-            "return_pct_open": -3.11,
-            "correct": 0
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "086790",
-            "name_kr": "하나금융지주",
-            "ms_score": 62,
-            "ai_score": 100,
-            "confidence": "HIGH",
-            "reason": "[E] tech 0 / earn 100 (RSI 60, 5일 +0.0%)",
-            "entry_price": 126600.0,
-            "exit_price": 123100.0,
-            "return_pct": -2.76,
-            "return_pct_open": -2.76,
-            "correct": 0
-          },
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 60,
-            "ai_score": 82,
-            "confidence": "HIGH",
-            "reason": "[E+T] tech 83 / earn 67 (RSI 35, 5일 -3.3%)",
-            "entry_price": 191300.0,
-            "exit_price": 193300.0,
-            "return_pct": 1.05,
-            "return_pct_open": 1.05,
-            "correct": 1
-          },
-          {
-            "stock_code": "180640",
-            "name_kr": "한미반도체",
-            "ms_score": 67,
-            "ai_score": 57,
-            "confidence": "MEDIUM",
-            "reason": "[T] tech 57 / earn 0 (RSI 37, 5일 -1.2%)",
-            "entry_price": 110900.0,
-            "exit_price": 109700.0,
-            "return_pct": -1.08,
-            "return_pct_open": -1.08,
-            "correct": 0
-          },
-          {
-            "stock_code": "105560",
-            "name_kr": "KB금융",
-            "ms_score": 58,
-            "ai_score": 27,
-            "confidence": "LOW",
-            "reason": "[T] tech 28 / earn 0 (RSI 44, 5일 +0.6%)",
-            "entry_price": 158800.0,
-            "exit_price": 153600.0,
-            "return_pct": -3.27,
-            "return_pct_open": -3.27,
-            "correct": 0
           }
         ]
       },

@@ -1,53 +1,26 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "strategy": "hybrid",
-  "generated_at": "2026-07-14T15:05:14",
-  "count": 5,
+  "generated_at": "2026-07-15T15:05:28",
+  "count": 2,
   "picks": [
     {
       "stock_code": "024110",
       "name_kr": "기업은행",
       "ms_score": 62,
-      "ai_score": 90,
+      "ai_score": 92,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 91 (RSI 61, 5일 -0.9%)",
-      "entry_price": 21150.0
-    },
-    {
-      "stock_code": "006400",
-      "name_kr": "삼성SDI",
-      "ms_score": 58,
-      "ai_score": 88,
-      "confidence": "HIGH",
-      "reason": "[E] tech 48 / earn 89 (RSI 40, 5일 -1.1%)",
-      "entry_price": 440000.0
-    },
-    {
-      "stock_code": "009150",
-      "name_kr": "삼성전기",
-      "ms_score": 60,
-      "ai_score": 81,
-      "confidence": "HIGH",
-      "reason": "[T] tech 81 / earn 0 (RSI 28, 5일 -21.8%)",
-      "entry_price": 1289000.0
-    },
-    {
-      "stock_code": "329180",
-      "name_kr": "HD현대중공업",
-      "ms_score": 77,
-      "ai_score": 79,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -11.7%)",
-      "entry_price": 487500.0
+      "reason": "[E] tech 0 / earn 93 (RSI 64, 5일 +0.7%)",
+      "entry_price": 21100.0
     },
     {
       "stock_code": "010140",
       "name_kr": "삼성중공업",
       "ms_score": 73,
-      "ai_score": 60,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 60 / earn 0 (RSI 38, 5일 -1.8%)",
-      "entry_price": 22050.0
+      "ai_score": 42,
+      "confidence": "LOW",
+      "reason": "[T] tech 42 / earn 0 (RSI 38, 5일 +0.5%)",
+      "entry_price": 21250.0
     }
   ]
 }
