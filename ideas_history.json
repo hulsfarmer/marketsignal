@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T15:06:31",
+  "generated_at": "2026-07-16T16:10:25",
   "dates": [
     "2026-07-16",
     "2026-07-15",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 113,
-      "correct": 52,
-      "hit_rate": 46.0,
-      "avg_return": 0.27,
-      "avg_return_open": 0.67
+      "total": 115,
+      "correct": 54,
+      "hit_rate": 47.0,
+      "avg_return": 0.28,
+      "avg_return_open": 0.68
     },
     "hybrid": {
-      "total": 159,
-      "correct": 68,
-      "hit_rate": 42.8,
-      "avg_return": -0.42,
-      "avg_return_open": -0.25
+      "total": 161,
+      "correct": 70,
+      "hit_rate": 43.5,
+      "avg_return": -0.4,
+      "avg_return_open": -0.23
     }
   },
   "by_date": {
@@ -168,10 +168,10 @@
             "confidence": "MEDIUM",
             "reason": "국민연금 지분 증가(7.05%)와 삼성증권 목표가 인상은 수급_개선 패턴(100% 성공률)에 해당하는 긍정 신호입니다. 그러나 5일 +5.2% 상승으로 호재 선반영 리스크(93% 실패율)가 존재하며 RSI 57은 중립 구간입니다. 과거 성공 사례(2026-07-13, +2.22%)와 유사한 구조이나 단기 차익실현 매물 리스크를 고려해 소량 진입을 권장합니다.",
             "entry_price": 51300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 51400.0,
+            "return_pct": 0.19,
+            "return_pct_open": 0.19,
+            "correct": 1
           },
           {
             "stock_code": "011200",
@@ -181,10 +181,10 @@
             "confidence": "LOW",
             "reason": "RSI 61로 과열 직전 수준이며 RSI_과열 패턴의 실패율이 88%로 매우 높아 부담스러운 구간입니다. 한국투자증권의 중립 의견과 5일 -1.4% 하락 추세가 겹쳐 단기 반등 모멘텀이 약하고, 부정 뉴스와 긍정 뉴스가 혼재해 방향성이 불명확합니다. 4개 후보 중 소거법으로 포함하나 최소 비중 또는 관망을 권장합니다.",
             "entry_price": 19760.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20100.0,
+            "return_pct": 1.72,
+            "return_pct_open": 1.72,
+            "correct": 1
           }
         ]
       },
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 93 (RSI 64, 5일 +0.7%)",
             "entry_price": 21100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 21250.0,
+            "return_pct": 0.71,
+            "return_pct_open": 0.71,
+            "correct": 1
           },
           {
             "stock_code": "010140",
@@ -212,10 +212,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 42 / earn 0 (RSI 38, 5일 +0.5%)",
             "entry_price": 21250.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 21850.0,
+            "return_pct": 2.82,
+            "return_pct_open": 2.82,
+            "correct": 1
           }
         ]
       },
