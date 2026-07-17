@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T21:05:01",
+  "generated_at": "2026-07-17T21:08:12",
   "count": 500,
   "posts": [
     {
@@ -4168,6 +4168,37 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 15672,
+      "title": "일본 닛케이지수가 기술주 급락과 중동 분쟁으로 조정장(10% 하락)에 진입. 아시아 전역 기술주 약세와 위험자산 회피 심화로 한국 반도체·수출주 동반 약세 압력, USD/KRW 환율 상승 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-17",
+      "summary": "<p>일본 닛케이지수가 기술주 급락과 중동 분쟁으로 조정장(10% 하락)에 진입. 아시아 전역 기술주 약세와 위험자산 회피 심화로 한국 반도체·수출주 동반 약세 압력, USD/KRW 환율 상승 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Japan&#x27;s Nikkei slides into correction zone on tech selloff, Middle East conflict Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "아시아 최대 증시 중 하나의 조정장 진입은 역내 기술주·수출주 동반 약세를 유발하고, 한국 반도체·전자·자동차 등 수출 의존도 높은 종목에 직접 부정적 영향 미침",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG전자",
+        "현대자동차",
+        "기아",
+        "삼성SDI",
+        "LG디스플레이",
+        "NAVER",
+        "카카오"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMldydU90QTlkSFdDSGlhQ0RSbXpTSks4aDVnMXJYNEtrc0gzVlFxYk5Na0d5NVBFZnYwcFdlWW1zeFlhRUJlMEZVS1V3eUNadHhRQ2RGTkVMb1hJVzZqU2ZVSlk4YXh0NGV5N01nZVRTSlJ2dDdNWHdpc0IxSHk4WkFScXB3RWVZTUpvR25kV1k0LUlDZXpRNEpDeHN1ZzZCZUpSS3BYeGk1dl8zTXd5Qk9oZ2JNbTZnQVd2dkVqbElzTG9reGI3Ukhn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-17 21:07:18"
+    },
+    {
       "id": 15664,
       "title": "글로벌 반도체 업종 약세(칩 로우트)로 주가가 하락했으나, 주간 기준으로 유가는 상승세를 이어갈 것으로 예상됨. 한국의 반도체·디스플레이 업체는 부정적, 에너지·화학 기업은 긍정적 영향 예상.",
       "category": "거시",
@@ -4607,6 +4638,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMEJHUEN2amRSQmw5SGtqZ2lLRG5zcm80NnZQTjZWc3R5V2xVRUNYeC1QeEFwQmF4S1FkZWRzYjZJa0dRQWdrWE9HS0VXZXVIc1pWQkZnWHNaUVFPMzFsWmdJTTVZUWlRVGZMQTRSd1V0UlZ1TzJmZ0czcGFXazAtaG5JTVEtMlB4cW12SXdaMFN4bFdRbW5KRUNYaVo5a2VWUEhCMkRoSlJDN3lCWjlycFBCYzdpQjRaZXFYNGctTHk?oc=5",
       "direction": "down",
       "updated_at": "2026-07-16 15:08:24"
+    },
+    {
+      "id": 15677,
+      "title": "이란·후티 세력의 홍해 해운로 위협으로 유가 변동성 확대 우려. 한국의 주요 에너지·화학 기업들의 원유 조달 비용 및 수익성에 직접 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-15",
+      "summary": "<p>이란·후티 세력의 홍해 해운로 위협으로 유가 변동성 확대 우려. 한국의 주요 에너지·화학 기업들의 원유 조달 비용 및 수익성에 직접 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Why Iranian, Houthi threats to Red Sea shipping matter more for oil now Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "글로벌 주요 해상 운송로 차질로 유가 변동성 심화 → S-Oil, SK이노베이션 등 석유정제·화학 산업의 원가 및 마진 압박 실질적",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb2VIVDBvQW5VRElkejZ4aTNza0V1ZmRZaWRnanljRVI4c0l0VnBZeG9pNm5YajNORzM1NFVaZW11NGh6T2pZeU9jZmpiQl9fWXhpemcyZjlDTGltOXhzdk5ZblBQM0xpcmlhS0ZzWkJmRFdhWTRURHNMamd4dThqMDNGYXZvNXJ6d0x3eTBZWWl4MUZZTnZ5d3NCZnJzWTNieEVGc1Y0MlU1VjVTUnYzR0dVVVJKUVJfSl8wTjZhVEUzSFBOZnc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-17 21:07:39"
     },
     {
       "id": 15493,
@@ -13245,59 +13303,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOV9YVVpRZUlZdVNpXzhTRkxRQVh4NzRfNi0zbXJ5MmlnbEpnbDRvdWg2eFNybjdXNVlReGdWWDZwMGtGcGZKQ25PejZhUVByYzU2b1hXc0dvd3pPMVpFOUs4QkpNMmxFd0N1U1hZanpVNzMtUHdPdEktRXgyRGhhT2QycnRLNWxwUEd4ZHNCUXBjeU4wVXMyTmREV1YwRE5SWlpfNVRKYw?oc=5",
       "direction": "up",
       "updated_at": "2026-06-03 12:07:13"
-    },
-    {
-      "id": 6823,
-      "title": "한국 인플레이션이 2년 만에 최고조에 달하면서 기준금리 인상이 임박한 상황. 금리 인상은 기업 차입비용 증가와 소비 둔화로 이어져 한국 증시에 부정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-01",
-      "summary": "<p>한국 인플레이션이 2년 만에 최고조에 달하면서 기준금리 인상이 임박한 상황. 금리 인상은 기업 차입비용 증가와 소비 둔화로 이어져 한국 증시에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea inflation hits two-year high, imminent rate hike in play Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "금리 인상은 한국 증시 전반의 밸류에이션 압박 및 기업 실적 악화 요인이며, 에너지·화학주의 유가 영향도 함께 고려되는 의미있는 매크로 변화",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnlYOTdwUGhWaW9KMGdIcFZEOEhyd2VabGJFdWQwSGE5UTdrTTRnSmtsVGY3amRBeVI2TXhJazd4QmhqbHROVUhtZzVsWUJwNzJ2V0Z2VVZsSkx0ZnBKMlpfdVB6R2JtTzY0d0xyZ3M2ak1GcVQ2NDAyYWxZc2ktUWZfaVoza0Y4bE44TXprdks4eF82a3NtUk1vdkRMbkZzSmJXeHRNQmNLbmM?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-02 15:08:13"
-    },
-    {
-      "id": 6771,
-      "title": "새 CEO 그렉 에이블 체제의 버크셔해서웨이가 2일간 168억 달러를 투자. 반도체·AI 분야 대규모 자본 유입 신호로 글로벌 반도체 수요 강세 시사.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-01",
-      "summary": "<p>새 CEO 그렉 에이블 체제의 버크셔해서웨이가 2일간 168억 달러를 투자. 반도체·AI 분야 대규모 자본 유입 신호로 글로벌 반도체 수요 강세 시사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Berkshire, under new CEO Greg Abel, invests $16.8 billion in two days Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 메가펀드의 반도체·AI 투자 확대는 한국 반도체(HBM, 메모리) 수요 전망 개선 신호로 작용",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFIycUhEcURBbkFRUktHU01zc1BCQlo2ODFQSkswQllodEdCVUdJaEZjNGg0SjQ2dTNiekN2MWQyOWtZbmR0aF96V3VvT21IcXlKakRvdFV6NGdkNTRiTnNmd1RFcmxSZmhremtJYW0zWGExLVhvLUFYV0cwYzdqdlZKR3Voa09sUnlOQkQ0Mk9nQkQ4WW0xcXh6RVRPakN0NHRXUU8tYW5GODAwQ1Zfa0FFUDItSE9UV1E?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-02 12:07:19"
     }
   ],
   "events": [
