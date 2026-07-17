@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T18:05:02",
+  "generated_at": "2026-07-17T18:08:21",
   "count": 500,
   "posts": [
     {
@@ -477,6 +477,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 15655,
+      "title": "아시아 주식시장이 기술주 대량 매도로 급락하는 '블러드배스'를 경험 중이며, 한국의 반도체 주요 기업들(SK하이닉스, 삼성전자)이 글로벌 기술주 동반 하락의 직격탄을 맞을 것으로 예상된다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-17",
+      "summary": "<p>아시아 주식시장이 기술주 대량 매도로 급락하는 '블러드배스'를 경험 중이며, 한국의 반도체 주요 기업들(SK하이닉스, 삼성전자)이 글로벌 기술주 동반 하락의 직격탄을 맞을 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): &#x27;Bloodbath&#x27;: Analysts react to Asian shares sinking on tech selloff Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "아시아 광역 기술주 대량 매도는 한국 메모리반도체·파운드리 수출 부진 우려와 주가 동반 하락으로 이어질 수 있는 의미있는 부정적 매크로 충격",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSVJOZngtYmRxdXlreVFWNDhPaFpsZ254UkJxT0ZhMk9jSlR0RkhWeEtMNHgwZlk1TWk0dG8yaTQ3TVJfaXdoY2lpQ2lLTV9TX0djRVRwUkp1cDFjSzBIOXRIeHozeHZBcl9neWV1T0RQVms2Z2xrV3pHelRjQTVaUDdiWVdLQnFB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-17 18:07:13"
     },
     {
       "id": 15627,
@@ -4139,6 +4166,87 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 15664,
+      "title": "글로벌 반도체 업종 약세(칩 로우트)로 주가가 하락했으나, 주간 기준으로 유가는 상승세를 이어갈 것으로 예상됨. 한국의 반도체·디스플레이 업체는 부정적, 에너지·화학 기업은 긍정적 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-17",
+      "summary": "<p>글로벌 반도체 업종 약세(칩 로우트)로 주가가 하락했으나, 주간 기준으로 유가는 상승세를 이어갈 것으로 예상됨. 한국의 반도체·디스플레이 업체는 부정적, 에너지·화학 기업은 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Stocks sink as chip rout deepens, oil set for weekly gain Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "반도체 약세는 SK하이닉스·삼성전자 등에 직접 악재이나, 유가 상승은 S-Oil·GS·SK이노베이션 등 에너지·화학주에 호재로 작용하는 mixed signal",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-07-17 18:08:01"
+    },
+    {
+      "id": 15658,
+      "title": "시진핑 중국 주석이 중국을 새로운 글로벌 AI 질서의 리더로 제시하며 미국 AI 패권에 도전. 중국의 AI 기술 고도화 및 글로벌 영향력 확대 추진으로 한국 반도체 수출 경쟁 심화 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-17",
+      "summary": "<p>시진핑 중국 주석이 중국을 새로운 글로벌 AI 질서의 리더로 제시하며 미국 AI 패권에 도전. 중국의 AI 기술 고도화 및 글로벌 영향력 확대 추진으로 한국 반도체 수출 경쟁 심화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Xi pitches China as leader of new global AI order, challenging US dominance Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국의 AI 기술 고도화는 HBM·고급 반도체 수요 증대는 호재이지만, 중국 자체 반도체 자급화 추진 및 글로벌 경쟁 심화는 한국 업체의 시장 잠식 위험 악재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZVpoVTlwUHY0LXNXd19nbFlNWVZoWDdQeVVFSi1ISkZzYVI1YUlzQTR6OXd3XzNhWDhsaTRkdnByczNqMlE4bm1JTHhyaEk2VXhrUDRFdmVjdHN3RW9FZU1OTW5aMnMzTmk1VW5sMUNGTkhYYVc1LUN5bUJJWkNBdUJFSU0wNUZyMDdtZklkRkJPLXBTRlhHQmZ1S1dQSVdTZ3l4OC13TE5aVWNBSUZfeHpfRVRwTG9hdzFKWkdVa2RfaVoxeWpr?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-07-17 18:07:31"
+    },
+    {
+      "id": 15653,
+      "title": "AI 투자자들 사이에서 하이퍼스케일러(대형 클라우드 기업)의 지출 성장 둔화를 선제적으로 대비하는 움직임이 나타남. HBM·메모리·파운드리 수요 성장 둔화 가능성에 따라 한국 반도체 기업(SK하이닉스, 삼성전자) 실적 모멘텀 약화 우려.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-17",
+      "summary": "<p>AI 투자자들 사이에서 하이퍼스케일러(대형 클라우드 기업)의 지출 성장 둔화를 선제적으로 대비하는 움직임이 나타남. HBM·메모리·파운드리 수요 성장 둔화 가능성에 따라 한국 반도체 기업(SK하이닉스, 삼성전자) 실적 모멘텀 약화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Among AI crowd, some investors position for slower hyperscaler spending growth Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 인프라 투자 성장의 고점 신호로 해석되어 메모리·파운드리 수요 전망에 직접 영향을 미치는 의미있는 산업 동향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeExHTUY3Vmh5NDY2OVZPQlAwMmtkc052S0NsSDdPcUl6dDBFamx1TjFFSDFqdnB6S1V4dXdYTWItbUJZWVlaTUVDTnA2ekZmWktvS2RuOWNRZWJ4LW9uOThYY1U5NnlST1MwQ1NydVNmM1lhTkcyTlZtNFRPWXZkTDRwNUp3WUJtZWJxTHh1TnpNcV9IU3RvN0hCaldKMTdpMmdJT1IzZGxNRS1JUEtFNDJsYXJIUllTc19MaHFmRG9ZUlpmRHN3ci1KUThKUXM?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-17 18:07:05"
     },
     {
       "id": 15629,
@@ -13190,114 +13298,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFIycUhEcURBbkFRUktHU01zc1BCQlo2ODFQSkswQllodEdCVUdJaEZjNGg0SjQ2dTNiekN2MWQyOWtZbmR0aF96V3VvT21IcXlKakRvdFV6NGdkNTRiTnNmd1RFcmxSZmhremtJYW0zWGExLVhvLUFYV0cwYzdqdlZKR3Voa09sUnlOQkQ0Mk9nQkQ4WW0xcXh6RVRPakN0NHRXUU8tYW5GODAwQ1Zfa0FFUDItSE9UV1E?oc=5",
       "direction": "up",
       "updated_at": "2026-06-02 12:07:19"
-    },
-    {
-      "id": 6739,
-      "title": "미국 상원의원들이 트럼프 행정부가 중국 기업의 해외 자회사로 AI 칩 수출을 허용한 것을 비판. 미국의 중국 AI 칩 제재 완화는 한국 반도체 기업들의 중국 시장 경쟁 심화 우려.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-01",
-      "summary": "<p>미국 상원의원들이 트럼프 행정부가 중국 기업의 해외 자회사로 AI 칩 수출을 허용한 것을 비판. 미국의 중국 AI 칩 제재 완화는 한국 반도체 기업들의 중국 시장 경쟁 심화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Sens. Warren and Kim blast Trump for allowing AI chips to be sent to overseas units of Chinese firms Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미국 AI 칩 수출 규제 완화 시 한국 HBM·메모리 수출 경쟁 심화 및 중국 수요 시장 축소 가능성으로 SK하이닉스·삼성전자에 중기적 악재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcjJrdVh4ZmNqRVoydDBXUEsxX19UMkU2WHpCVEMzWEtTdE5tS2p3NDEwY1dPOUR6ZEM3Z3JRamlfMjBtWDZ5eGtXRzFYR2xGN2lqS094blVSSWxWem81bnQ0dzBWMHg2MFQtYlU4OWlOeW9ic3Y4N1JGd25GcnF6bkhGazcwRHVQazVyaFlQUFR4U3pka0Vud0FKcEZ6aHNqWWphV3ZaU0p1LUNZSVczTEdXcmV3aVRqV0N6Ug?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-02 09:07:05"
-    },
-    {
-      "id": 6689,
-      "title": "엔비디아가 타이페이 만찬에서 SK하이닉스, 삼성전자 등 한국 반도체 업체들을 직접 접촉하며 AI 칩 수급 협력을 강화하는 중. 글로벌 AI 수요 증가에 따른 한국 메모리 반도체(HBM, DRAM, NAND) 수요 확대 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-01",
-      "summary": "<p>엔비디아가 타이페이 만찬에서 SK하이닉스, 삼성전자 등 한국 반도체 업체들을 직접 접촉하며 AI 칩 수급 협력을 강화하는 중. 글로벌 AI 수요 증가에 따른 한국 메모리 반도체(HBM, DRAM, NAND) 수요 확대 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nvidia courts Korea&#x27;s tech giants at Taipei dinner as AI push deepens Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "엔비디아의 직접적인 한국 기업 접촉은 AI 칩 공급망에서 한국 반도체의 수요 증가를 시사하며, SK하이닉스·삼성전자 같은 주요 수급처의 성장성을 뒷받침하는 긍정적 신호",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONWI0MkxIZ2twZzZBXzUyODRvT3lERDFDaC1MUmsyTHg1QTNENVI0T0FEZ0pnbXFPUzFOQjJybmJuNFBGbzJpblJKVm0zQWo4c0dKTjlnem1JVkpVZDhhZWUxZGR3WXBoMVBGZUVKLXB2QzZzdzgybW12eF8zeWRGZWNrUi1mb0ZfQ0kzNllqSFBXUThEVDkxZ1pndlp5QWRXa2FVeFBpRWJKNmxITjMyTkxsNElHUExx?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-02 03:07:08"
-    },
-    {
-      "id": 6686,
-      "title": "중국이 메타-마누스 차단 이후 외국인 거래 및 기술이전 규제를 확대하고 있으며, 이는 한국 기업들의 중국 내 M&A 및 기술 협력에 제약을 가할 것으로 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-01",
-      "summary": "<p>중국이 메타-마누스 차단 이후 외국인 거래 및 기술이전 규제를 확대하고 있으며, 이는 한국 기업들의 중국 내 M&A 및 기술 협력에 제약을 가할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China expands curbs on foreign deals, tech transfer after Meta-Manus block Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국의 규제 강화는 한국 화장품·자동차·게임 등 중국 시장 진출 기업들의 사업 확장과 기술 협력을 저해할 수 있는 의미있는 매크로 리스크 요인",
-      "stocks": [
-        "LG생활건강",
-        "아모레퍼시픽",
-        "현대자동차",
-        "기아",
-        "POSCO",
-        "넷마블",
-        "넥슨"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcnVnSjJkT3BMYUY4cklZeEE0eU1seTZianNLbkpBcmFMRWZNM0RldUl5N0MwRWtTYm5wOFREWGRlZDVnRGJyS29PYWZLUkpWZmpiTE5Nb2h6ZUhrcVNIOHhkbW9fU21TSVE3TXAtSkpDcm9mRkV1NFFWakR4YkRuQ0lrYkFqV3A3Ul93TUlvSzdqbUg5UzdPQTF4NTdrTWVBRVZjaGlVR0ZOTEV4MHRxUC01X2kzb2tuUERxXzhxNHo?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-02 00:08:45"
-    },
-    {
-      "id": 6638,
-      "title": "AI 투자 열풍이 미-이란 전쟁 우려를 압도하면서 US 선물지수가 상승, Nvidia와 Microsoft가 주도. 글로벌 반도체·AI 수요 강세가 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-01",
-      "summary": "<p>AI 투자 열풍이 미-이란 전쟁 우려를 압도하면서 US 선물지수가 상승, Nvidia와 Microsoft가 주도. 글로벌 반도체·AI 수요 강세가 SK하이닉스, 삼성전자 등 한국 반도체 기업에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US stock futures rise as AI push eclipses US-Iran war; Nvidia, Microsoft up Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 강세 장세는 HBM·메모리 수요 증가로 이어져 한국 반도체 기업들의 실적 개선 기대감 고조, 의미있는 긍정적 업종 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcUNQekF0VTVYU1pWSkxuYnE4cklIRTliQzVsN2NLUlItQ0Jvd1Q5My1lQlZJTUZMQmZpaWxDN1YtY3RGY1h0R1BIeHlrbm1qcFhpU1dxZjhfTmFwVERDd0VsOUFxTHRBZzNfNFdCYkFqVDE1ODVXVGNxaEpTdTd3SjlGZGMwRDdtUFBWQ3RtOVZoOGtGZmZWRGtnOUotbmxYejNobloxaGFqV1dSUWJRek5VYw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-01 21:07:05"
     }
   ],
   "events": [
