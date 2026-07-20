@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T23:40:02",
+  "generated_at": "2026-07-21T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13297,62 +13297,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "HL홀딩스",
-      "event_date": "2026-07-20",
-      "event_type": "배당금지급예정일",
-      "title": "HL홀딩스 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800689"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "모니터랩",
-      "event_date": "2026-07-20",
-      "event_type": "합병기일",
-      "title": "모니터랩 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000161"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "엑스페릭스",
-      "event_date": "2026-07-20",
-      "event_type": "합병기일",
-      "title": "엑스페릭스 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000184"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "KX",
-      "event_date": "2026-07-20",
-      "event_type": "주주총회",
-      "title": "KX — 회사합병결정(종속회사의주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617900417"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "제이에스코퍼레이션",
-      "event_date": "2026-07-20",
-      "event_type": "배당금지급예정일",
-      "title": "제이에스코퍼레이션 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626800876"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "레드캡투어",
-      "event_date": "2026-07-20",
-      "event_type": "배당기준일",
-      "title": "레드캡투어 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702900283"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "레뷰코퍼레이션",
-      "event_date": "2026-07-20",
-      "event_type": "배당금지급예정일",
-      "title": "레뷰코퍼레이션 — 현금ㆍ현물배당결정              (중간배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702900608"
-    },
-    {
-      "stock_code": "",
       "stock_name": "엑스페릭스",
       "event_date": "2026-07-21",
       "event_type": "합병등기",
@@ -14460,6 +14404,46 @@
       "stock_name": "우정바이오",
       "event_date": "2026-08-19",
       "event_type": "합병승인 이사회결의",
+      "title": "우정바이오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000143"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "네오위즈",
+      "event_date": "2026-08-20",
+      "event_type": "합병기일",
+      "title": "네오위즈 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611000607"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "네오위즈홀딩스",
+      "event_date": "2026-08-20",
+      "event_type": "합병기일",
+      "title": "네오위즈홀딩스 — 주요사항보고서(회사합병결정)(자회사의 주요경영사항)              (소규모합병)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611900782"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "이노테나",
+      "event_date": "2026-08-20",
+      "event_type": "배당금지급예정일",
+      "title": "이노테나 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714900319"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "젝시믹스",
+      "event_date": "2026-08-20",
+      "event_type": "배당기준일",
+      "title": "젝시믹스 — 현금ㆍ현물배당결정              (분기배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715900220"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "우정바이오",
+      "event_date": "2026-08-20",
+      "event_type": "채권자이의제출 공고",
       "title": "우정바이오 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000143"
     }
