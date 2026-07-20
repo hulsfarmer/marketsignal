@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:35:16",
+  "generated_at": "2026-07-20T15:40:04",
   "count": 500,
   "posts": [
     {
@@ -13988,6 +13988,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "우정바이오",
+      "event_date": "2026-08-04",
+      "event_type": "주주확정기준일",
+      "title": "우정바이오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000143"
+    },
+    {
+      "stock_code": "",
       "stock_name": "휴맥스",
       "event_date": "2026-08-05",
       "event_type": "합병반대의사통지 접수 시작",
@@ -14436,11 +14444,27 @@
     },
     {
       "stock_code": "",
+      "stock_name": "우정바이오",
+      "event_date": "2026-08-18",
+      "event_type": "합병반대의사통지 종료",
+      "title": "우정바이오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000143"
+    },
+    {
+      "stock_code": "",
       "stock_name": "S&K폴리텍",
       "event_date": "2026-08-19",
       "event_type": "채권자이의제출 공고 시작",
       "title": "S&K폴리텍 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000368"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "우정바이오",
+      "event_date": "2026-08-19",
+      "event_type": "합병승인 이사회결의",
+      "title": "우정바이오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000143"
     }
   ]
 }
