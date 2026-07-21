@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T23:40:02",
+  "generated_at": "2026-07-22T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13275,86 +13275,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "엑스페릭스",
-      "event_date": "2026-07-21",
-      "event_type": "합병등기",
-      "title": "엑스페릭스 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518000184"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "씨앤투스",
-      "event_date": "2026-07-21",
-      "event_type": "합병기일",
-      "title": "씨앤투스 — 회사합병결정(종속회사의주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612901043"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "지오엘리먼트",
-      "event_date": "2026-07-21",
-      "event_type": "배당금지급예정일",
-      "title": "지오엘리먼트 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702900186"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "KPX케미칼",
-      "event_date": "2026-07-21",
-      "event_type": "배당기준일",
-      "title": "KPX케미칼 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703800681"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "KPX홀딩스",
-      "event_date": "2026-07-21",
-      "event_type": "배당기준일",
-      "title": "KPX홀딩스 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703800697"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "진양홀딩스",
-      "event_date": "2026-07-21",
-      "event_type": "배당기준일",
-      "title": "진양홀딩스 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800243"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "진양산업",
-      "event_date": "2026-07-21",
-      "event_type": "배당기준일",
-      "title": "진양산업 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800290"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "오리온홀딩스",
-      "event_date": "2026-07-21",
-      "event_type": "배당기준일",
-      "title": "오리온홀딩스 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800354"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "오리온",
-      "event_date": "2026-07-21",
-      "event_type": "배당기준일",
-      "title": "오리온 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800377"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "진양폴리우레탄",
-      "event_date": "2026-07-21",
-      "event_type": "배당기준일",
-      "title": "진양폴리우레탄 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800433"
-    },
-    {
-      "stock_code": "",
       "stock_name": "모니터랩",
       "event_date": "2026-07-22",
       "event_type": "합병등기예정일",
@@ -14464,6 +14384,30 @@
       "event_type": "배당금지급예정일",
       "title": "AJ네트웍스 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721801229"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "코미코",
+      "event_date": "2026-08-21",
+      "event_type": "신주권 상장",
+      "title": "코미코 — 주식분할결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512900988"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KX",
+      "event_date": "2026-08-21",
+      "event_type": "합병기일",
+      "title": "KX — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000362"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "전진건설로봇",
+      "event_date": "2026-08-21",
+      "event_type": "배당지급예정일",
+      "title": "전진건설로봇 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721800856"
     }
   ]
 }
