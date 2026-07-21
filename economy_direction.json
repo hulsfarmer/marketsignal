@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T18:35:17",
+  "generated_at": "2026-07-21T18:40:03",
   "count": 500,
   "posts": [
     {
@@ -13947,6 +13947,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "AJ네트웍스",
+      "event_date": "2026-08-05",
+      "event_type": "배당기준일",
+      "title": "AJ네트웍스 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721801229"
+    },
+    {
+      "stock_code": "",
       "stock_name": "휴온스",
       "event_date": "2026-08-06",
       "event_type": "주식매수청구권행사 종료",
@@ -14448,6 +14456,14 @@
       "event_type": "배당금지급예정일",
       "title": "신풍 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721800388"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "AJ네트웍스",
+      "event_date": "2026-08-20",
+      "event_type": "배당금지급예정일",
+      "title": "AJ네트웍스 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721801229"
     }
   ]
 }
