@@ -1,53 +1,53 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "strategy": "hybrid",
-  "generated_at": "2026-07-20T15:05:16",
+  "generated_at": "2026-07-21T15:05:27",
   "count": 5,
   "picks": [
     {
-      "stock_code": "024110",
-      "name_kr": "기업은행",
-      "ms_score": 62,
-      "ai_score": 83,
-      "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 84 (RSI 68, 5일 +1.6%)",
-      "entry_price": 21600.0
-    },
-    {
-      "stock_code": "009150",
-      "name_kr": "삼성전기",
-      "ms_score": 57,
-      "ai_score": 82,
-      "confidence": "HIGH",
-      "reason": "[T] tech 83 / earn 0 (RSI 28, 5일 -19.4%)",
-      "entry_price": 1277000.0
-    },
-    {
       "stock_code": "047050",
       "name_kr": "포스코인터내셔널",
-      "ms_score": 60,
-      "ai_score": 71,
-      "confidence": "MEDIUM",
-      "reason": "[E] tech 18 / earn 72 (RSI 48, 5일 +2.8%)",
-      "entry_price": 50900.0
+      "ms_score": 74,
+      "ai_score": 100,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 100 (RSI 57, 5일 +0.0%)",
+      "entry_price": 50600.0
+    },
+    {
+      "stock_code": "024110",
+      "name_kr": "기업은행",
+      "ms_score": 55,
+      "ai_score": 97,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 98 (RSI 66, 5일 +0.2%)",
+      "entry_price": 21200.0
     },
     {
       "stock_code": "010140",
       "name_kr": "삼성중공업",
-      "ms_score": 77,
-      "ai_score": 43,
-      "confidence": "LOW",
-      "reason": "[T] tech 43 / earn 0 (RSI 39, 5일 -0.2%)",
-      "entry_price": 22300.0
+      "ms_score": 73,
+      "ai_score": 92,
+      "confidence": "HIGH",
+      "reason": "[T] tech 93 / earn 0 (RSI 38, 5일 -5.0%)",
+      "entry_price": 20950.0
     },
     {
-      "stock_code": "009540",
-      "name_kr": "HD한국조선해양",
-      "ms_score": 67,
-      "ai_score": 21,
-      "confidence": "LOW",
-      "reason": "[T] tech 22 / earn 0 (RSI 46, 5일 +4.0%)",
-      "entry_price": 354000.0
+      "stock_code": "259960",
+      "name_kr": "크래프톤",
+      "ms_score": 63,
+      "ai_score": 85,
+      "confidence": "HIGH",
+      "reason": "[T] tech 86 / earn 0 (RSI 41, 5일 -6.5%)",
+      "entry_price": 222500.0
+    },
+    {
+      "stock_code": "207940",
+      "name_kr": "삼성바이오로직스",
+      "ms_score": 81,
+      "ai_score": 68,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 68 / earn 61 (RSI 43, 5일 -3.9%)",
+      "entry_price": 1345000.0
     }
   ]
 }
