@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T11:05:37",
+  "generated_at": "2026-07-21T11:35:12",
   "count": 500,
   "posts": [
     {
@@ -2765,6 +2765,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 16194,
+      "title": "파커스 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260721",
+      "summary": "<p>파커스가 300억 원 규모로 자기주식 2,676,181주를 취득·소각하기로 결정. 현재 보유 자기주식 2,753,458주(지분율 19.60%)에 추가 취득으로 주당가치 개선 예상. 배당가능이익 한도 26.8억 원 대비 신탁 계약금액이 300억 원으로 법적 한도 범위 내 실행.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 파커스</p>",
+      "feedback": "자기주식 소각을 통한 주주가치 제고 호재이나, 실제 취득 규모가 주가 변동에 따라 변동되고 보유 예상기간이 미정인 점에서 확실성 제한",
+      "stocks": [
+        "파커스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721000053",
+      "direction": "up",
+      "updated_at": "2026-07-21 11:35:12"
     },
     {
       "id": 15973,
@@ -13260,35 +13282,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0doVHYtamJHcEthVVF2b1Aydkx1dW1uUUxvSTk0Nnp4a3o4QjBTWWc1ajc4YTFvYzRzNS02a3dOdFczaGdKcFBvb0k2Z2pTTllkdG5oNnBacTR2NzhKWG5oampmeHpIWXYycnk0eEw0c2NGOWt0SlBhMnJSXzN4M0NyN0U1aHh4NlpDSnVORF9CSk5jeEZEYWlXVVJJdWV4TEdQMkRDODdxakFySnFZ?oc=5",
       "direction": "down",
       "updated_at": "2026-06-06 00:07:57"
-    },
-    {
-      "id": 7618,
-      "title": "6월 강한 고용지표에 따라 12월 미국 금리 인상 가능성이 상승했습니다. 이는 달러 강세와 한국 수출주 약세를 초래할 수 있으며, 외국인 자금 이탈 우려로 KOSPI에 악영향을 미칠 수 있습니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-05",
-      "summary": "<p>6월 강한 고용지표에 따라 12월 미국 금리 인상 가능성이 상승했습니다. 이는 달러 강세와 한국 수출주 약세를 초래할 수 있으며, 외국인 자금 이탈 우려로 KOSPI에 악영향을 미칠 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US rate futures lift rate hike odds in December after strong jobs report Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 인상 시사는 USD/KRW 상승(수출 악화), 외국인 투자 회피, 국내 채권 금리 상승 연쇄 등 거시 변수의 의미있는 변화를 유발",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "LG화학",
-        "포스코",
-        "삼성SDI",
-        "LG전자"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0I1Z3FSNU43a3U3dU9QZmE0QXd2MEVoVlZzTjNfSlVacFZpY2lvY0V5bHBkeHNJenAyZXlyZUUtZkxoMVZ4VVNsQVNLcnVyYnFUWlhiZXRhVzh4T1FCd253cVB3SmhXMEo3NzYxMENvY3FqcHQydVVQMzl4bDFBZmw4SjRKTm9xRXo1U0VTVjF0bEVyanptRXdjMGZsVFVrMUhvaEdoelYzUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-06 00:07:53"
     }
   ],
   "events": [
