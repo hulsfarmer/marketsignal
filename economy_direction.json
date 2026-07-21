@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T18:05:02",
+  "generated_at": "2026-07-21T18:08:12",
   "count": 500,
   "posts": [
     {
@@ -4305,6 +4305,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 16254,
+      "title": "중국이 AI 모델과 반도체의 수출 통제를 강화할 것으로 보도됨. SK하이닉스, 삼성전자 등 한국 반도체 기업의 대중국 수출이 제약될 가능성.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-21",
+      "summary": "<p>중국이 AI 모델과 반도체의 수출 통제를 강화할 것으로 보도됨. SK하이닉스, 삼성전자 등 한국 반도체 기업의 대중국 수출이 제약될 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China considers tighter export controls on AI models and chips, FT reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국의 AI·반도체 수출 규제 강화는 한국 메모리·파운드리 업체의 주요 시장 접근성을 제한하는 공급망 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMnQtRVFFNl9xQzJhYWtqMjlrVEx5NW9FYmp4UzM3QlNHdjYwaDhfT3BTdkdaX0QwUHF2X0Z3a3pEMnl0b0RqN0VVMFZ2NndBT1YtWDhjbE85dGZKT2lpWmtFYTJaY1E5UHljUmVvcXhvV0FTTUFyck5GZHBYRU1Nc1hTNDg4aUxoeFFNZmhKOVVKcDNLQVo3SFBYcnZ0VFFhVlBhNndHOWtuMVZpaDhmVE9JY051NmVzQUx4QUln?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-21 18:07:05"
     },
     {
       "id": 16199,
@@ -13248,33 +13275,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPME5TUTRobTZNTTZ5LTVzM2JRZDBuQl85YjRGV2RTMXZKZXBiMWFBVk1oZERpWm1TWkVnR0NLRjRqZDdaZWVIZ2JpR20yQm9LRElJZTJtT0YweWxCT0pLQXVLRTZYV1dVOFFfd05OeENfVm14NG1PbVNyckFhSU0xN1VMcmFnWGl6QnZTZWRwNjEwbWF3VjBnWHZtcnN0d3Rvd0g2TTA2QlI?oc=5",
       "direction": "up",
       "updated_at": "2026-06-06 09:07:08"
-    },
-    {
-      "id": 7642,
-      "title": "글로벌 석유 재고가 고갈되면서 다음 유가 급등이 경제와 시장을 흔들 수 있다는 우려. 한국은 에너지 수입국으로서 유가 상승 시 정유·화학 기업의 원가 부담 증가 및 인플레이션 압력 직면.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-05",
-      "summary": "<p>글로벌 석유 재고가 고갈되면서 다음 유가 급등이 경제와 시장을 흔들 수 있다는 우려. 한국은 에너지 수입국으로서 유가 상승 시 정유·화학 기업의 원가 부담 증가 및 인플레이션 압력 직면.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Global oil inventories depleted, next price spike could roil economies, markets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 급등 시 정유·화학 산업에 직접적인 원가 압박 및 경제 전반의 인플레이션 심화로 한국 증시에 의미있는 악영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV01INndjOU8xWVM2Z1hYdU16cy1qQU85c0tLb0N6RDhaeG5Oa0J0YWQ4Yzh4TmRUUUJUTDBoVEdWUE5Kc2Y3NXFveG1NZHN6aVZpMHh5RV9waE96a3Z6ckxscHBVajJITGowdVFSeEV2cTVUaHhKcEFBSmxtdmFTU3Jpd1VMbzVyZnBN?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-06 03:07:56"
     }
   ],
   "events": [
