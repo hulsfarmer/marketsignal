@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:05:02",
+  "generated_at": "2026-07-21T12:07:58",
   "count": 500,
   "posts": [
     {
@@ -4283,6 +4283,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 16199,
+      "title": "전 지구적 전쟁 위험 고조로 유가 급등 우려. 한국의 에너지·화학 관련 기업들의 원재료비 상승 및 수익성 악화 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-20",
+      "summary": "<p>전 지구적 전쟁 위험 고조로 유가 급등 우려. 한국의 에너지·화학 관련 기업들의 원재료비 상승 및 수익성 악화 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trading Day: War clouds darken Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "지정학적 위험으로 유가 상승 시 에너지·석유화학 기업의 원가 부담 증가, 한국 주요 수출산업 경쟁력 약화 우려",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYXVTWnNEMkhKVndzUVlpc2VaU2tIa05vYnZwVXc0bEY2TlJsY0NSanJNdmZSaTFuUkVmVnhaeUNvOHFkdG55aDVaNk1OOW5oWS1EX2xKT0hRdlVXYmFvbmxWZ0FNQ1BIQmZrbHNVR1VJak5WNGZSb3Y3ejhpLXUwLVNVaUFnRF9jRnhPOUQwS2dWSExBbjI3R2l5V1U1QnppVVA5a1lB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-21 12:07:31"
     },
     {
       "id": 16101,
@@ -13254,34 +13281,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV0JkR3ZHY2thbGpLU2FrRnM5VWp3aHZicWd2VU1zamZ3aU9QVTZ3bjN6ejdEU0hGWmVDT1lKWDZGbjVlN2NZaGNJZktqa08xdHNxSzB5eHAtSEN2dTZMOGlkLWk4TkhMZUczNE1tWjluOUdaQnJIVTBxQkpHNHZUN0t3VldpR1dBWUFoc2xYNzRuaGFlUnpJbUdRcElSMlI2NW5J?oc=5",
       "direction": "down",
       "updated_at": "2026-06-06 03:07:32"
-    },
-    {
-      "id": 7619,
-      "title": "5월 미국 고용 데이터가 강세를 보이며 미 금리 인상 기대감이 상승했습니다. 이는 달러화 강세와 미국 채권 수익률 상승으로 이어져 한국 원화 약세(USD/KRW 상승)와 외국인 주식 매도 압력을 초래할 수 있습니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-05",
-      "summary": "<p>5월 미국 고용 데이터가 강세를 보이며 미 금리 인상 기대감이 상승했습니다. 이는 달러화 강세와 미국 채권 수익률 상승으로 이어져 한국 원화 약세(USD/KRW 상승)와 외국인 주식 매도 압력을 초래할 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): VIEW Strong May jobs number sends yields, rate expectations higher Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 인상 기대 상승은 달러 강세→원화 약세, 외국인 자금 이탈 가능성→KOSPI 하락 압력의 명확한 연쇄 영향을 미치는 의미있는 매크로 악재",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차",
-        "LG화학"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0doVHYtamJHcEthVVF2b1Aydkx1dW1uUUxvSTk0Nnp4a3o4QjBTWWc1ajc4YTFvYzRzNS02a3dOdFczaGdKcFBvb0k2Z2pTTllkdG5oNnBacTR2NzhKWG5oampmeHpIWXYycnk0eEw0c2NGOWt0SlBhMnJSXzN4M0NyN0U1aHh4NlpDSnVORF9CSk5jeEZEYWlXVVJJdWV4TEdQMkRDODdxakFySnFZ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-06 00:07:57"
     }
   ],
   "events": [
