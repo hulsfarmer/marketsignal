@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T15:05:21",
+  "generated_at": "2026-07-22T16:10:40",
   "dates": [
     "2026-07-22",
     "2026-07-21",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 120,
-      "correct": 55,
-      "hit_rate": 45.8,
-      "avg_return": 0.19,
-      "avg_return_open": 0.53
+      "total": 123,
+      "correct": 57,
+      "hit_rate": 46.3,
+      "avg_return": 0.21,
+      "avg_return_open": 0.54
     },
     "hybrid": {
-      "total": 175,
-      "correct": 73,
-      "hit_rate": 41.7,
-      "avg_return": -0.45,
-      "avg_return_open": -0.34
+      "total": 180,
+      "correct": 77,
+      "hit_rate": 42.8,
+      "avg_return": -0.37,
+      "avg_return_open": -0.26
     }
   },
   "by_date": {
@@ -181,10 +181,10 @@
             "confidence": "HIGH",
             "reason": "RSI 20으로 극도 과매도 구간에 진입했으며, 5일 -8.0%·20일 -29.5% 급락 후 오늘 보합으로 하락 속도가 둔화되는 기술적 반등 신호가 포착됩니다. 2분기 영업이익 1조원 추정 등 펀더멘탈 호재가 주가에 미반영된 상태로, 과거 성공 패턴인 '기술적_반등'(RSI 극도 과매도 + 낙폭 과대)에 정확히 부합합니다.",
             "entry_price": 448500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 451500.0,
+            "return_pct": 0.67,
+            "return_pct_open": 0.67,
+            "correct": 1
           },
           {
             "stock_code": "009150",
@@ -194,10 +194,10 @@
             "confidence": "HIGH",
             "reason": "RSI 22로 극도 과매도이며 20일 -42.8% 급락으로 낙폭 과대 상태입니다. 외국인·기관의 지속적 순매수와 IBK증권 목표가 상향이 동반되어 '수급_개선' 성공 패턴에 해당하며, 5일 -1.1%로 하락 속도가 크게 둔화되어 바닥 다지기 신호가 나타나고 있습니다.",
             "entry_price": 1275000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1310000.0,
+            "return_pct": 2.75,
+            "return_pct_open": 2.75,
+            "correct": 1
           },
           {
             "stock_code": "009540",
@@ -207,10 +207,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 46으로 중립 구간이며 20일 -14.5% 낙폭 후 5일 -0.4%로 하락 속도가 현저히 둔화되어 추세 전환 초입 신호가 포착됩니다. 과거 동일 종목 +5.67% 성공 사례와 동일한 '기술적_반등' 패턴이며, 3조원 규모 자금조달 뉴스가 추가 모멘텀으로 작용할 수 있습니다.",
             "entry_price": 340000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 338000.0,
+            "return_pct": -0.59,
+            "return_pct_open": -0.59,
+            "correct": 0
           }
         ]
       },
@@ -225,10 +225,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 100 (RSI 57, 5일 +0.0%)",
             "entry_price": 50600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 52600.0,
+            "return_pct": 3.95,
+            "return_pct_open": 3.95,
+            "correct": 1
           },
           {
             "stock_code": "024110",
@@ -238,10 +238,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 98 (RSI 66, 5일 +0.2%)",
             "entry_price": 21200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20550.0,
+            "return_pct": -3.07,
+            "return_pct_open": -3.07,
+            "correct": 0
           },
           {
             "stock_code": "010140",
@@ -251,10 +251,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 93 / earn 0 (RSI 38, 5일 -5.0%)",
             "entry_price": 20950.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 21250.0,
+            "return_pct": 1.43,
+            "return_pct_open": 1.43,
+            "correct": 1
           },
           {
             "stock_code": "259960",
@@ -264,10 +264,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 86 / earn 0 (RSI 41, 5일 -6.5%)",
             "entry_price": 222500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 234500.0,
+            "return_pct": 5.39,
+            "return_pct_open": 5.39,
+            "correct": 1
           },
           {
             "stock_code": "207940",
@@ -277,10 +277,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 68 / earn 61 (RSI 43, 5일 -3.9%)",
             "entry_price": 1345000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1395000.0,
+            "return_pct": 3.72,
+            "return_pct_open": 3.72,
+            "correct": 1
           }
         ]
       },
