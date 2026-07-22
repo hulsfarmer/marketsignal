@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T12:05:02",
+  "generated_at": "2026-07-22T12:08:34",
   "count": 500,
   "posts": [
     {
@@ -4327,6 +4327,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 16389,
+      "title": "미국 증시 반등에 힘입어 아시아 주식이 상승 지속하며 반도체주가 선도. 글로벌 경기 회복 신호로 한국 반도체 수출주(SK하이닉스, 삼성전자)에 긍정적.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-22",
+      "summary": "<p>미국 증시 반등에 힘입어 아시아 주식이 상승 지속하며 반도체주가 선도. 글로벌 경기 회복 신호로 한국 반도체 수출주(SK하이닉스, 삼성전자)에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asian stocks extend gains as US rebounds, chipmakers lead Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 경기 반등과 반도체 수요 회복 신호는 한국 메모리/파운드리 수출업체에 의미 있는 호재 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15bndqdmhfTjlVQXVscXkwMHFjU3hXNFR5RTdLSnY3a0trdmEzYlNGbm5LeUhxbVJSd21PR1FmQnJpeWxSdHN1aTEwalByRGZFcGtiRUhXeUZSeVdFMHFBekU3bzRvblRKMms0OW5vZkJPekhNSThGOERjRQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-22 12:07:05"
     },
     {
       "id": 16363,
@@ -13241,34 +13268,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbTR6aGlfWGhCWWdKS05SWUxZSDk0RU0zcVRxSDEzM3dYcWVubTExaTE4cTRpb3VnS2IxVFoyRUpqLTVhMEhXWkpCUjNDTmpCZUpra1lVMWY2X0xjel9xQmtIdnhMX1hWRmk1d09oZHd2MnlBNDhfaktHNEFRa1RqWmFZaW1aTlo1Sk8yM3NMaFYzeFNkRHU0aHlMRTU3RVBPOUlLVW9ydGY1ZEdxaHg5ZQ?oc=5",
       "direction": "down",
       "updated_at": "2026-06-08 12:08:32"
-    },
-    {
-      "id": 7951,
-      "title": "미국 연준의 금리 인상 베팅으로 기술주가 급락하며 AI 랠리가 흔들리고 있음. 이는 USD/KRW 환율 상승과 외국인의 한국 기술주 매도 압력으로 이어질 가능성이 높음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-08",
-      "summary": "<p>미국 연준의 금리 인상 베팅으로 기술주가 급락하며 AI 랠리가 흔들리고 있음. 이는 USD/KRW 환율 상승과 외국인의 한국 기술주 매도 압력으로 이어질 가능성이 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): VIEW Tech stocks dive as Fed bets rattle AI rally Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 정책 변화는 달러 강세·환율 상승·외국인 수급 악화를 초래하며, 한국 반도체·AI 관련 기술주에 직접적 악영향을 미치는 매크로 충격",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "Kakao",
-        "삼성SDI",
-        "LG에너지솔루션"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNDgtZ3Z4ZFBTLTd4X2RDZGpodnJvdzRfOGlSY3VOaFB6WXBVVklsbHhLLXJOQ183NmdKeDBMc1RsWW1VVC10OWRWWENReUUya0lMLWNmWjhZTGRjY21OQWE0cV95YVZNbDBPYUNGVm1hTWJrTG9wR1ZPdTY5aEdrd1hMN0s1Vms?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-08 12:07:47"
     }
   ],
   "events": [
