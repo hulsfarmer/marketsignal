@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T06:05:02",
+  "generated_at": "2026-07-23T06:08:42",
   "count": 500,
   "posts": [
     {
@@ -4376,6 +4376,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 16609,
+      "title": "유가가 2% 이상 오르며 수주일 고점을 기록했으며, 중동 분쟁이 석유 운송로 위협으로 작용. 한국의 주요 에너지·화학업체들의 수익성에 직접 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-22",
+      "summary": "<p>유가가 2% 이상 오르며 수주일 고점을 기록했으며, 중동 분쟁이 석유 운송로 위협으로 작용. 한국의 주요 에너지·화학업체들의 수익성에 직접 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil climbs more than 2% to multi-week high as Mideast conflict threatens oil transit routes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승은 정유·화학 업계 마진 악화 요인이나 에너지 관련 수익주들의 배당 매력도 증대로 의미있는 산업 영향",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVktKb0FFdG9HQ0VvZ0dKR2ozZExNVVZ5eU1Wc29kUmhBRHVQclVYNk14WXhfb0MxV2lyaEk2UDJLdGJOdk9sRjE2M3NaNXpmUVBOSTFTLVFHSTV0UnJKTG5fZm95czJacHdDVVU2cE8wd013R1B4M0RHcHF2YURVX3pmbENTbktzRzRfZ0htelRKU1hQNUp4Z3ZFNUV5RkZ1NFE3STNndlFVSVVFT0JHUWVudU1XXzcwQXc?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-23 06:08:16"
     },
     {
       "id": 16570,
@@ -13234,33 +13261,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbHhzTG1xelJvQV9zZlFFTDhPT2lqU1VCZV9SYjNnTmJEeHdVb2w3YXIteG9idmlubXZBUXlDMVZMdGxjWElkZHEyTjZKbGhlMmM1cldvTkNucF8ycmNjVUJZQWppV3Z2NlI3NURqajZPRGQxTjJkQ0JBR2FFNE5RQlVXem1kX0tjV2Z5MTNPU3M2Z201dkk2MWRuZERYdWtRRlZsYVIyWDVwM2Q4VjJmNg?oc=5",
       "direction": "down",
       "updated_at": "2026-06-08 21:07:42"
-    },
-    {
-      "id": 8040,
-      "title": "중국 군부가 대만 주변에서 활동하는 가운데 글로벌 반도체 기업 임원들이 대만 테크쇼에 몰려 지정학적 긴장 고조. 한국 반도체 업체들의 대만 공급망 의존도와 지역 리스크 재부각.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-08",
-      "summary": "<p>중국 군부가 대만 주변에서 활동하는 가운데 글로벌 반도체 기업 임원들이 대만 테크쇼에 몰려 지정학적 긴장 고조. 한국 반도체 업체들의 대만 공급망 의존도와 지역 리스크 재부각.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Chinese military hovered as global executives flocked to Taiwan tech show Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "대만-중국 지정학적 긴장은 한국 반도체 기업의 공급망 리스크, 수출 환경 악화, 글로벌 반도체 산업 재편 우려로 이어져 SK하이닉스·삼성전자 등에 중기적 악재 가능성",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRllHUTlfM3g0OERTazg1OFFOTmljeHdmVGgtY0NVQWxlZ3pjdVRUeVgxUHlsZndGbGx2dXQ0WUhxSUI5a1lGaUpZNTlvRkItRGNNQlRtQ0ViZmo5eWdrMjlIMGY4a2puYjloTkJaR01SMEZQSV95WDdEVXE2TE8xRXlySDI1UFNuazBxYkR6eGNoVnBSQjNkSC1ENjZfZnVqdHB5ZDNaTThhaFNWb1RJUjNabjMtQ2RCZ0xHeUlsNA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-08 21:07:05"
     }
   ],
   "events": [
