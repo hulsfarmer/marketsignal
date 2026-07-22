@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T09:05:18",
+  "generated_at": "2026-07-22T09:08:07",
   "count": 500,
   "posts": [
     {
@@ -4327,6 +4327,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 16363,
+      "title": "슈퍼마이크로 컴퓨터가 600억 달러 규모 주문을 확보하고 강한 마진율을 시현하며 주가 급등. AI 서버 시장의 수요 강세로 한국 메모리·파운드리 공급업체들의 성장성 재평가 계기.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-21",
+      "summary": "<p>슈퍼마이크로 컴퓨터가 600억 달러 규모 주문을 확보하고 강한 마진율을 시현하며 주가 급등. AI 서버 시장의 수요 강세로 한국 메모리·파운드리 공급업체들의 성장성 재평가 계기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Super Micro sees strong margins, books $60 billion in orders; shares jump Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 서버 시장의 실질적 수요 확대 신호로 SK하이닉스 HBM·삼성전자 메모리/파운드리의 공급 긍정성 강화",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWjJqS2h4N3J4Q0FHRUxCYURuby00QUtJY3Z6RkdKSDY4Ump2U0xjWDJ4enN0VWt5VU11VkcycDk2QXdHRjhOSlpmV3NmMkFONDYyNlZHWnRSVTFrTi1kLWNKTVZ5cHFxRTdwMDhyUW5Od0pUS2xvVEJVNExpWmtDeE9aZzBWU0tkYVlXekg4bTgwUk1zejYzVkRsV1g4STFKbHU4RU5n?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-22 09:07:09"
     },
     {
       "id": 16344,
@@ -13242,34 +13269,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNDgtZ3Z4ZFBTLTd4X2RDZGpodnJvdzRfOGlSY3VOaFB6WXBVVklsbHhLLXJOQ183NmdKeDBMc1RsWW1VVC10OWRWWENReUUya0lMLWNmWjhZTGRjY21OQWE0cV95YVZNbDBPYUNGVm1hTWJrTG9wR1ZPdTY5aEdrd1hMN0s1Vms?oc=5",
       "direction": "down",
       "updated_at": "2026-06-08 12:07:47"
-    },
-    {
-      "id": 7952,
-      "title": "아시아 시장이 기술주 급락으로 하락세를 보이고 있습니다. 글로벌 기술주 약세는 한국의 반도체·IT 기업 비중이 높은 KOSPI에 부정적 영향을 미치며, 외국인 자금 이탈과 원화 약세(USD/KRW 상승)를 초래할 수 있습니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-07",
-      "summary": "<p>아시아 시장이 기술주 급락으로 하락세를 보이고 있습니다. 글로벌 기술주 약세는 한국의 반도체·IT 기업 비중이 높은 KOSPI에 부정적 영향을 미치며, 외국인 자금 이탈과 원화 약세(USD/KRW 상승)를 초래할 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asia markets tumble as tech rout deepens Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "글로벌 기술주 약세는 KOSPI의 주요 구성종목(반도체, IT)에 직접 타격을 주고 외국인 매도 심화로 한국 증시 전반에 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "LG전자",
-        "넷마블"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeFRCX29KbXlhVmEwNV9yUFRNQjZUcXFKVFlubUFGNkdrRDd0Z0ZwY3RUTFlXVmg5N1ppXzFHZ2Niai01RmtXOW1lY0pDRFI0VXJTZF9jeWFqSnZVRjREWDVfM21yMHNTR2NGcDcyb2NKczljNGNuRHJua1BlUkp0cUg2UQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-08 12:07:51"
     }
   ],
   "events": [
