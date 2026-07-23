@@ -1,53 +1,53 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "strategy": "hybrid",
-  "generated_at": "2026-07-22T15:05:20",
+  "generated_at": "2026-07-23T15:05:02",
   "count": 5,
   "picks": [
     {
       "stock_code": "259960",
       "name_kr": "크래프톤",
-      "ms_score": 56,
-      "ai_score": 80,
+      "ms_score": 60,
+      "ai_score": 95,
       "confidence": "HIGH",
-      "reason": "[E] tech 30 / earn 80 (RSI 43, 5일 +2.0%)",
-      "entry_price": 234500.0
+      "reason": "[E] tech 34 / earn 96 (RSI 42, 5일 +0.4%)",
+      "entry_price": 231000.0
     },
     {
       "stock_code": "047050",
       "name_kr": "포스코인터내셔널",
-      "ms_score": 74,
-      "ai_score": 74,
-      "confidence": "MEDIUM",
-      "reason": "[E] tech 0 / earn 75 (RSI 56, 5일 +2.5%)",
-      "entry_price": 52600.0
+      "ms_score": 64,
+      "ai_score": 94,
+      "confidence": "HIGH",
+      "reason": "[E] tech 14 / earn 94 (RSI 50, 5일 +0.6%)",
+      "entry_price": 51700.0
     },
     {
-      "stock_code": "009540",
-      "name_kr": "HD한국조선해양",
-      "ms_score": 70,
-      "ai_score": 66,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 34 / earn 66 (RSI 42, 5일 +3.4%)",
-      "entry_price": 338000.0
-    },
-    {
-      "stock_code": "267250",
-      "name_kr": "HD현대",
+      "stock_code": "003670",
+      "name_kr": "포스코퓨처엠",
       "ms_score": 63,
-      "ai_score": 58,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 34 / earn 58 (RSI 41, 5일 +4.2%)",
-      "entry_price": 198000.0
+      "ai_score": 93,
+      "confidence": "HIGH",
+      "reason": "[T] tech 93 / earn 0 (RSI 32, 5일 -7.9%)",
+      "entry_price": 141100.0
     },
     {
-      "stock_code": "010140",
-      "name_kr": "삼성중공업",
-      "ms_score": 67,
-      "ai_score": 45,
-      "confidence": "LOW",
-      "reason": "[T] tech 46 / earn 0 (RSI 37, 5일 +0.0%)",
-      "entry_price": 21250.0
+      "stock_code": "034020",
+      "name_kr": "두산에너빌리티",
+      "ms_score": 60,
+      "ai_score": 85,
+      "confidence": "HIGH",
+      "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -5.2%)",
+      "entry_price": 69200.0
+    },
+    {
+      "stock_code": "009150",
+      "name_kr": "삼성전기",
+      "ms_score": 60,
+      "ai_score": 82,
+      "confidence": "HIGH",
+      "reason": "[T] tech 82 / earn 52 (RSI 29, 5일 -4.8%)",
+      "entry_price": 1345000.0
     }
   ]
 }
