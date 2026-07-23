@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T15:05:02",
+  "generated_at": "2026-07-23T15:08:45",
   "count": 500,
   "posts": [
     {
@@ -4398,6 +4398,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 16721,
+      "title": "미-이란 긴장 고조로 달러화 강세가 지속되는 가운데 엔화가 40년 저점에 근접하고 있음. USD/KRW 환율 상승 압력과 글로벌 리스크 오프 시장 심화로 한국 증시 외국인 수급 악화 및 안전자산 선호 현상 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-23",
+      "summary": "<p>미-이란 긴장 고조로 달러화 강세가 지속되는 가운데 엔화가 40년 저점에 근접하고 있음. USD/KRW 환율 상승 압력과 글로벌 리스크 오프 시장 심화로 한국 증시 외국인 수급 악화 및 안전자산 선호 현상 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US-Iran tensions underpin dollar as yen nears 40-year low Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "지정학적 긴장의 달러 강세와 엔화 약세는 USD/KRW 환율 상승→수출 기업 실적 개선과 외국인 주식 회피라는 상충된 영향을 미치며, 글로벌 리스크 회피 심화는 한국 증시 외국인 수급 악화로 이어짐.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대자동차",
+        "LG화학"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcmxmYW0zRFBGQlpfRDY2bXdwMk1FNzJQVDVOZXhHMTY3QlAzeG5DRDRqeHRNQk1ELWpLTEtSSGpkVjJrcHVzb3RNQmxHc3d2b1JEMGJ1TEN1bDJKVGFzcFl0d0FjbUNBRTRRMDJVM3BST2htNmwtRExMNGo2RTlSREhGZXZYa0ZneWUzY0s4RXVlTWxmLXI0cEJBSW1UbVJrWjBPNw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-23 15:08:12"
     },
     {
       "id": 16685,
@@ -13231,32 +13259,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaU5yM3NjTC1taHJiRXdkUHl3SVpxU3M3N1dwN0ptNjFYTmZ4b3AyenRoWjd3VnFSM0k0aUlmRC1EeHZrbmlqQzlhcVNyaVNxeFZORm9lVkNQY0ttWGtlSnB0REl5bE1DVURmeGl2RW9jSnF6SW1BeXZ0ZE42M1RBYjlsSkJ5YjIyTlJmTTVjTnhlZmdnajZfalR1Qk5XZnhaT192UQ?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 12:07:39"
-    },
-    {
-      "id": 8155,
-      "title": "Applied Digital이 미국 대형 클라우드 기업과 52억 달러 규모의 AI 데이터센터 임차 계약을 체결했으며, 이는 AI 인프라 투자 확대와 고대역폭 메모리 수요 증가를 시사한다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-08",
-      "summary": "<p>Applied Digital이 미국 대형 클라우드 기업과 52억 달러 규모의 AI 데이터센터 임차 계약을 체결했으며, 이는 AI 인프라 투자 확대와 고대역폭 메모리 수요 증가를 시사한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Applied Digital signs $5.2 billion AI data center lease with U.S. hyperscaler Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 데이터센터 대규모 투자 발표는 HBM, 고성능 메모리, 파운드리 수요 증가 신호로 작용하며 SK하이닉스·삼성전자의 AI칩 사업 전망을 긍정적으로 지원",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOazJZU3JwMjdXNnVsR0ZHN0VlcGFwV09jT1lMYmgtNFdNXzVqUmtFYlBWRzNZVEIyM3Jnd2tLV3pwanNfNGttaFRhYkJVVHFNcWhhZHRlMWZTOG8yZDdYNk0yRklvVi1xc0RsR1A1OTlYR1k4dklOdkxHUmpiNEV4UFpVM21RalJ4MTZZTl9ET0hRTWNBWWthUlJYajlGc01zT2NHOHZ1RkhrRmVkbEhDdkxCVVBTNmZJOURXUA?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-09 12:07:05"
     }
   ],
   "events": [
