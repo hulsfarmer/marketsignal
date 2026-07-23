@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T11:35:14",
+  "generated_at": "2026-07-23T11:40:03",
   "count": 500,
   "posts": [
     {
@@ -13930,6 +13930,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "그린케미칼",
+      "event_date": "2026-08-07",
+      "event_type": "배당기준일",
+      "title": "그린케미칼 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800218"
+    },
+    {
+      "stock_code": "",
       "stock_name": "다우기술",
       "event_date": "2026-08-10",
       "event_type": "합병기일",
@@ -14383,6 +14391,14 @@
       "event_type": "배당지급예정일",
       "title": "전진건설로봇 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721800856"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "그린케미칼",
+      "event_date": "2026-08-21",
+      "event_type": "배당금지급예정일",
+      "title": "그린케미칼 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800218"
     }
   ]
 }
