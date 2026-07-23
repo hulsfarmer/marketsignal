@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T15:05:03",
+  "generated_at": "2026-07-23T16:10:21",
   "dates": [
     "2026-07-23",
     "2026-07-22",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 123,
-      "correct": 57,
-      "hit_rate": 46.3,
-      "avg_return": 0.21,
-      "avg_return_open": 0.54
+      "total": 126,
+      "correct": 60,
+      "hit_rate": 47.6,
+      "avg_return": 0.25,
+      "avg_return_open": 0.58
     },
     "hybrid": {
-      "total": 180,
-      "correct": 77,
-      "hit_rate": 42.8,
-      "avg_return": -0.37,
-      "avg_return_open": -0.26
+      "total": 185,
+      "correct": 80,
+      "hit_rate": 43.2,
+      "avg_return": -0.31,
+      "avg_return_open": -0.2
     }
   },
   "by_date": {
@@ -181,10 +181,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 22의 극도 과매도 구간으로 과거 성공 패턴인 '기술적_반등'에 해당하며, 외국인 지분 확대와 증권가 목표가 유지로 수급 개선 신호가 동반됩니다. 20일 -34.2% 급락 후 5일 +4.0% 반등 초기 국면으로 추세 전환 가능성이 높고, 호재 뉴스가 아직 완전히 선반영되지 않은 상태입니다.",
             "entry_price": 1310000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1345000.0,
+            "return_pct": 2.67,
+            "return_pct_open": 2.67,
+            "correct": 1
           },
           {
             "stock_code": "018260",
@@ -194,10 +194,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 47로 종가매수 최적 구간(30~60)에 위치하며, 5일/20일 수익률이 평탄하여 호재_선반영 리스크가 낮습니다. NPUaaS 신사업 재료가 아직 주가에 충분히 반영되지 않은 상태로, 과열 패턴 없이 중립 구간에서 진입하는 안전한 매수 기회입니다.",
             "entry_price": 191500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 196000.0,
+            "return_pct": 2.35,
+            "return_pct_open": 2.35,
+            "correct": 1
           },
           {
             "stock_code": "024110",
@@ -207,10 +207,10 @@
             "confidence": "LOW",
             "reason": "분기배당 신설이라는 주주환원 정책 변화는 중장기 수급 개선 신호이며, 5일 -2.6% 하락으로 오히려 저가 매수 기회가 형성되었습니다. RSI 53으로 종가매수 적정 구간이나, 과거 RSI_과열 패턴 실패 경험 및 실적 부진 우려로 신뢰도를 LOW로 설정하며 소폭 비중만 권장합니다.",
             "entry_price": 20550.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20700.0,
+            "return_pct": 0.73,
+            "return_pct_open": 0.73,
+            "correct": 1
           }
         ]
       },
@@ -225,10 +225,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 30 / earn 80 (RSI 43, 5일 +2.0%)",
             "entry_price": 234500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 231000.0,
+            "return_pct": -1.49,
+            "return_pct_open": -1.49,
+            "correct": 0
           },
           {
             "stock_code": "047050",
@@ -238,10 +238,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 75 (RSI 56, 5일 +2.5%)",
             "entry_price": 52600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 51700.0,
+            "return_pct": -1.71,
+            "return_pct_open": -1.71,
+            "correct": 0
           },
           {
             "stock_code": "009540",
@@ -251,10 +251,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 34 / earn 66 (RSI 42, 5일 +3.4%)",
             "entry_price": 338000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 353500.0,
+            "return_pct": 4.59,
+            "return_pct_open": 4.59,
+            "correct": 1
           },
           {
             "stock_code": "267250",
@@ -264,10 +264,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 34 / earn 58 (RSI 41, 5일 +4.2%)",
             "entry_price": 198000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 212000.0,
+            "return_pct": 7.07,
+            "return_pct_open": 7.07,
+            "correct": 1
           },
           {
             "stock_code": "010140",
@@ -277,10 +277,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 46 / earn 0 (RSI 37, 5일 +0.0%)",
             "entry_price": 21250.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 21600.0,
+            "return_pct": 1.65,
+            "return_pct_open": 1.65,
+            "correct": 1
           }
         ]
       },
