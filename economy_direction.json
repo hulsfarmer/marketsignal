@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T23:40:02",
+  "generated_at": "2026-07-25T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13219,94 +13219,6 @@
     {
       "stock_code": "",
       "stock_name": "미래산업",
-      "event_date": "2026-07-24",
-      "event_type": "매매거래정지 종료",
-      "title": "미래산업 — 주식분할결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800375"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "우진",
-      "event_date": "2026-07-24",
-      "event_type": "배당금지급예정일",
-      "title": "우진 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800425"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "피에스텍",
-      "event_date": "2026-07-24",
-      "event_type": "배당금지급예정일",
-      "title": "피에스텍 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612900526"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "폴레드",
-      "event_date": "2026-07-24",
-      "event_type": "배당금지급예정일",
-      "title": "폴레드 — 현금ㆍ현물배당결정              (중간배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625900306"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "동남합성",
-      "event_date": "2026-07-24",
-      "event_type": "배당기준일",
-      "title": "동남합성 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708800257"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "미원홀딩스",
-      "event_date": "2026-07-24",
-      "event_type": "배당기준일",
-      "title": "미원홀딩스 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708800258"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "미원홀딩스",
-      "event_date": "2026-07-24",
-      "event_type": "배당금지급예정일",
-      "title": "미원홀딩스 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800284"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "미원에스씨",
-      "event_date": "2026-07-24",
-      "event_type": "배당금지급예정일",
-      "title": "미원에스씨 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800283"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "미원화학",
-      "event_date": "2026-07-24",
-      "event_type": "배당금지급예정일",
-      "title": "미원화학 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800680"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "케이씨씨글라스",
-      "event_date": "2026-07-24",
-      "event_type": "배당기준일",
-      "title": "케이씨씨글라스 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800617"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "유아이엘",
-      "event_date": "2026-07-24",
-      "event_type": "배당금지급예정일",
-      "title": "유아이엘 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715900341"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "미래산업",
       "event_date": "2026-07-27",
       "event_type": "신주권 상장",
       "title": "미래산업 — 주식분할결정              ",
@@ -14415,6 +14327,30 @@
       "event_type": "배당금지급예정일",
       "title": "SK디스커버리 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800658"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KX",
+      "event_date": "2026-08-24",
+      "event_type": "합병등기예정일",
+      "title": "KX — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000362"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KX",
+      "event_date": "2026-08-24",
+      "event_type": "합병등기",
+      "title": "KX — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617900417"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "두산밥캣",
+      "event_date": "2026-08-24",
+      "event_type": "배당금지급예정일",
+      "title": "두산밥캣 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800487"
     }
   ]
 }
