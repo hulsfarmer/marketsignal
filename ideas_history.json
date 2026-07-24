@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T15:05:17",
+  "generated_at": "2026-07-24T16:10:33",
   "dates": [
     "2026-07-24",
     "2026-07-23",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 126,
-      "correct": 60,
-      "hit_rate": 47.6,
-      "avg_return": 0.25,
-      "avg_return_open": 0.58
+      "total": 129,
+      "correct": 63,
+      "hit_rate": 48.8,
+      "avg_return": 0.38,
+      "avg_return_open": 0.73
     },
     "hybrid": {
-      "total": 185,
-      "correct": 80,
-      "hit_rate": 43.2,
-      "avg_return": -0.31,
-      "avg_return_open": -0.2
+      "total": 189,
+      "correct": 84,
+      "hit_rate": 44.4,
+      "avg_return": -0.17,
+      "avg_return_open": -0.07
     }
   },
   "by_date": {
@@ -155,10 +155,10 @@
             "confidence": "MEDIUM",
             "reason": "블랙록 5% 지분 공시와 한미 협력 기대감 등 강력한 호재가 있었음에도 불구하고 당일 상승분을 전부 반납하며 0% 마감하여 호재가 아직 충분히 반영되지 않은 상태입니다. RSI 42로 과매도~중립 구간에 위치하며, 20일 -12.2% 낙폭 과대로 기술적 반등 여력이 존재합니다. 성공 패턴인 '기술적_반등'과 '수급_개선' 조건을 동시에 충족합니다.",
             "entry_price": 21600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 23650.0,
+            "return_pct": 9.49,
+            "return_pct_open": 9.49,
+            "correct": 1
           },
           {
             "stock_code": "005490",
@@ -168,10 +168,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 41로 과매도~중립 구간이며 5일 -3.7%, 20일 -8.6%의 낙폭 과대 상태에서 실적 기대치 상회 및 목표가 상향이라는 긍정 뉴스가 아직 주가에 충분히 반영되지 않았습니다. 기관 매수 유입 신호와 함께 수급 개선 패턴이 감지되며, RSI 30~60 구간의 종가매수 핵심 조건에 해당합니다.",
             "entry_price": 303000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 323500.0,
+            "return_pct": 6.77,
+            "return_pct_open": 6.77,
+            "correct": 1
           },
           {
             "stock_code": "028260",
@@ -181,10 +181,10 @@
             "confidence": "LOW",
             "reason": "RSI 40으로 과매도에 근접한 구간이며 20일 -26.5%의 극심한 낙폭 과대 상태에서 자회사 지분 취득을 통한 지배구조 강화라는 긍정 재료가 존재합니다. 5일 -3.5% 조정으로 단기 과열 우려가 없으며, 낙폭 과대+긍정 뉴스 미반영이라는 기술적 반등 조건에 부합하나 장기 하락 추세가 지속 중임에 주의가 필요합니다.",
             "entry_price": 354000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 360000.0,
+            "return_pct": 1.69,
+            "return_pct_open": 1.69,
+            "correct": 1
           }
         ]
       },
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 34 / earn 96 (RSI 42, 5일 +0.4%)",
             "entry_price": 231000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 237500.0,
+            "return_pct": 2.81,
+            "return_pct_open": 2.81,
+            "correct": 1
           },
           {
             "stock_code": "047050",
@@ -225,10 +225,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 93 / earn 0 (RSI 32, 5일 -7.9%)",
             "entry_price": 141100.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 152200.0,
+            "return_pct": 7.87,
+            "return_pct_open": 7.87,
+            "correct": 1
           },
           {
             "stock_code": "034020",
@@ -238,10 +238,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -5.2%)",
             "entry_price": 69200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 73200.0,
+            "return_pct": 5.78,
+            "return_pct_open": 5.78,
+            "correct": 1
           },
           {
             "stock_code": "009150",
@@ -251,10 +251,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 82 / earn 52 (RSI 29, 5일 -4.8%)",
             "entry_price": 1345000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1448000.0,
+            "return_pct": 7.66,
+            "return_pct_open": 7.66,
+            "correct": 1
           }
         ]
       },
