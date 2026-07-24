@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T18:08:32",
+  "generated_at": "2026-07-24T18:35:13",
   "count": 500,
   "posts": [
     {
@@ -2792,6 +2792,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 17092,
+      "title": "SIMPAC — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260724",
+      "summary": "<p>SIMPAC의 심팩홀딩스 합병 관련 이사회 결의 무효확인 소송에서 1심 기각 판정을 받았으나, 엠제이파트너스가 항소를 제기한 상태. 합병비율 1:34.2122440로 진행 중인 상황에서 법적 불확실성이 지속되고 있음.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · SIMPAC</p>",
+      "feedback": "모회사 합병이라는 구조적 변화에 대한 법적 다툼으로 인한 실행 지연 및 주주가치 훼손 가능성(항소 계속 중으로 합병 효력 불확정 상태가 장기화될 수 있음)",
+      "stocks": [
+        "SIMPAC"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800899",
+      "direction": "down",
+      "updated_at": "2026-07-24 18:35:12"
     },
     {
       "id": 17048,
@@ -13190,35 +13212,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYzdwTDdobDFGZ3dzME0wNm9IbDR3aWxxS2NfWU0zWWFDMVkzX21zeS1PMVVGb0dFMVFaZmxpWnpDS1VVMnVxT2xEUS1GQ1VNb2k0OTdNZzhjc216WWlpaHJVSnF2Nnk2d1M4SmJqa2tPNi0xY3F4bTFFbXQxV0drRHlLYmZFeXdxcGhJaHM2dDZPemhHNkR2bE1ldDBjTXZ1ZmJoQTB2a3BRcmo0Rnh4SlF6aXQ?oc=5",
       "direction": "down",
       "updated_at": "2026-06-11 15:07:45"
-    },
-    {
-      "id": 8640,
-      "title": "미국의 이란 공습으로 유가 상승하면서 기술주 낙세와 함께 글로벌 주식이 후퇴했음. 유가 상승은 한국의 에너지 수입 비용 증가로 이어질 수 있으며, 기술주 약세는 한국 반도체·IT 기업의 외국인 수급 악화 우려로 작용.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-11",
-      "summary": "<p>미국의 이란 공습으로 유가 상승하면서 기술주 낙세와 함께 글로벌 주식이 후퇴했음. 유가 상승은 한국의 에너지 수입 비용 증가로 이어질 수 있으며, 기술주 약세는 한국 반도체·IT 기업의 외국인 수급 악화 우려로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Shares retreat as techs extend losses, US strikes on Iran lift oil Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 급등 + 기술주 동반 약세로 한국 증시의 외국인 자금 이탈 압력 + USD/KRW 강세 가능성 높음",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "LG화학",
-        "S-Oil",
-        "GS에너지"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iNlU3bUZXWVJpaVhJRXMwVG1LcUMyUmE1UWFvWTVlQnhqODM1bUZsM2txQmJZRzI4NUNYVlJFRVBkcnVpZHVLQnZaRDhGOV9xVTVnSU5PdEhfdVZJVm40ZU9SaExNWTFvMGZWWEI2dU1wTEwtTEZoVGxkTQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-11 12:07:46"
     }
   ],
   "events": [
