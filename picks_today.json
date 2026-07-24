@@ -1,53 +1,44 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "strategy": "hybrid",
-  "generated_at": "2026-07-23T15:05:02",
-  "count": 5,
+  "generated_at": "2026-07-24T15:05:16",
+  "count": 4,
   "picks": [
     {
       "stock_code": "259960",
       "name_kr": "크래프톤",
-      "ms_score": 60,
-      "ai_score": 95,
+      "ms_score": 56,
+      "ai_score": 87,
       "confidence": "HIGH",
-      "reason": "[E] tech 34 / earn 96 (RSI 42, 5일 +0.4%)",
-      "entry_price": 231000.0
+      "reason": "[E] tech 0 / earn 88 (RSI 51, 5일 -1.2%)",
+      "entry_price": 237500.0
     },
     {
-      "stock_code": "047050",
-      "name_kr": "포스코인터내셔널",
-      "ms_score": 64,
-      "ai_score": 94,
-      "confidence": "HIGH",
-      "reason": "[E] tech 14 / earn 94 (RSI 50, 5일 +0.6%)",
-      "entry_price": 51700.0
+      "stock_code": "068270",
+      "name_kr": "셀트리온",
+      "ms_score": 56,
+      "ai_score": 79,
+      "confidence": "MEDIUM",
+      "reason": "[E+T] tech 61 / earn 80 (RSI 31, 5일 -2.0%)",
+      "entry_price": 172200.0
     },
     {
-      "stock_code": "003670",
-      "name_kr": "포스코퓨처엠",
-      "ms_score": 63,
-      "ai_score": 93,
-      "confidence": "HIGH",
-      "reason": "[T] tech 93 / earn 0 (RSI 32, 5일 -7.9%)",
-      "entry_price": 141100.0
+      "stock_code": "024110",
+      "name_kr": "기업은행",
+      "ms_score": 62,
+      "ai_score": 74,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 46 / earn 74 (RSI 47, 5일 -2.5%)",
+      "entry_price": 21050.0
     },
     {
       "stock_code": "034020",
       "name_kr": "두산에너빌리티",
-      "ms_score": 60,
-      "ai_score": 85,
-      "confidence": "HIGH",
-      "reason": "[T] tech 85 / earn 0 (RSI 29, 5일 -5.2%)",
-      "entry_price": 69200.0
-    },
-    {
-      "stock_code": "009150",
-      "name_kr": "삼성전기",
-      "ms_score": 60,
-      "ai_score": 82,
-      "confidence": "HIGH",
-      "reason": "[T] tech 82 / earn 52 (RSI 29, 5일 -4.8%)",
-      "entry_price": 1345000.0
+      "ms_score": 63,
+      "ai_score": 49,
+      "confidence": "LOW",
+      "reason": "[T] tech 50 / earn 0 (RSI 35, 5일 +5.0%)",
+      "entry_price": 73200.0
     }
   ]
 }

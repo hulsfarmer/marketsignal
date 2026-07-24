@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-23T16:10:21",
+  "generated_at": "2026-07-24T15:05:17",
   "dates": [
+    "2026-07-24",
     "2026-07-23",
     "2026-07-22",
     "2026-07-21",
@@ -29,8 +30,7 @@
     "2026-06-15",
     "2026-06-12",
     "2026-06-11",
-    "2026-06-10",
-    "2026-06-09"
+    "2026-06-10"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,100 @@
     }
   },
   "by_date": {
+    "2026-07-24": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "ms_score": 67,
+            "ai_score": 55,
+            "confidence": "MEDIUM",
+            "reason": "RSI 56으로 과매수 직전 중립 구간이며, 2분기 영업이익 2조7000억이라는 실적 서프라이즈가 긍정적 수급을 유지시키는 요인입니다. 5일 -2.6%로 단기 조정을 받은 상태에서 실적 뉴스의 추가 반영 여지가 남아있어 '수급_개선' 패턴 적용이 가능합니다.",
+            "entry_price": 176300.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 67,
+            "ai_score": 53,
+            "confidence": "LOW",
+            "reason": "RSI 59로 과매수 경계선이나, 5일 -4.6% 조정으로 2500억 자사주 매입·소각 호재가 재부각될 여지가 있습니다. '수급_개선' 패턴(100% 성공률)에 부합하며, 배당 기대감이 하방을 지지하나 RSI가 60에 근접한 만큼 소량 진입 후 리스크 관리가 필요합니다.",
+            "entry_price": 130500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 4,
+        "picks": [
+          {
+            "stock_code": "259960",
+            "name_kr": "크래프톤",
+            "ms_score": 56,
+            "ai_score": 87,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 88 (RSI 51, 5일 -1.2%)",
+            "entry_price": 237500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "068270",
+            "name_kr": "셀트리온",
+            "ms_score": 56,
+            "ai_score": 79,
+            "confidence": "MEDIUM",
+            "reason": "[E+T] tech 61 / earn 80 (RSI 31, 5일 -2.0%)",
+            "entry_price": 172200.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 62,
+            "ai_score": 74,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 46 / earn 74 (RSI 47, 5일 -2.5%)",
+            "entry_price": 21050.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "034020",
+            "name_kr": "두산에너빌리티",
+            "ms_score": 63,
+            "ai_score": 49,
+            "confidence": "LOW",
+            "reason": "[T] tech 50 / earn 0 (RSI 35, 5일 +5.0%)",
+            "entry_price": 73200.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-07-23": {
       "ai": {
         "count": 3,
@@ -2975,100 +3069,6 @@
             "return_pct": -0.09,
             "return_pct_open": -0.09,
             "correct": 0
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-06-09": {
-      "ai": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "329180",
-            "name_kr": "HD현대중공업",
-            "ms_score": 67,
-            "ai_score": 68,
-            "confidence": "MEDIUM",
-            "reason": "2026-06-05 성공 사례(+2.00%)와 동일 종목으로 기술적_반등 패턴(100% 성공률) 해당. RSI 51로 중립 구간이며 5일 -9.2% 조정 후 VLGC 수주 호조라는 펀더멘탈 호재가 아직 충분히 반영되지 않은 상태. EB 발행 우려는 단기 심리 교란 요인이나 조선 수주 모멘텀이 지속되는 한 기술적 반등 가능성 유효.",
-            "entry_price": 621000.0,
-            "exit_price": 612000.0,
-            "return_pct": -1.45,
-            "return_pct_open": -1.45,
-            "correct": 0
-          },
-          {
-            "stock_code": "055550",
-            "name_kr": "신한지주",
-            "ms_score": 62,
-            "ai_score": 60,
-            "confidence": "LOW",
-            "reason": "연기금·외국인 순매수 상위 포함으로 수급_개선 패턴(100% 성공률) 해당하며 뉴스 긍정 4건으로 센티먼트 우수. RSI 55로 종가매수 적합 구간이나 5일 +4.9% 상승으로 일부 선반영 우려가 있어 LOW 신뢰도 부여. 금융주 방어 수요가 지속되는 환경에서 상대적 안정성 기대.",
-            "entry_price": 97100.0,
-            "exit_price": 101200.0,
-            "return_pct": 4.22,
-            "return_pct_open": 4.22,
-            "correct": 1
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 4,
-        "picks": [
-          {
-            "stock_code": "010140",
-            "name_kr": "삼성중공업",
-            "ms_score": 60,
-            "ai_score": 97,
-            "confidence": "HIGH",
-            "reason": "[T] tech 98 / earn 0 (RSI 34, 5일 -5.3%)",
-            "entry_price": 26100.0,
-            "exit_price": 25850.0,
-            "return_pct": -0.96,
-            "return_pct_open": -0.96,
-            "correct": 0
-          },
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 60,
-            "ai_score": 95,
-            "confidence": "HIGH",
-            "reason": "[T] tech 96 / earn 0 (RSI 37, 5일 -12.8%)",
-            "entry_price": 159400.0,
-            "exit_price": 170000.0,
-            "return_pct": 6.65,
-            "return_pct_open": 6.65,
-            "correct": 1
-          },
-          {
-            "stock_code": "267250",
-            "name_kr": "HD현대",
-            "ms_score": 67,
-            "ai_score": 88,
-            "confidence": "HIGH",
-            "reason": "[T] tech 89 / earn 0 (RSI 40, 5일 -11.7%)",
-            "entry_price": 248000.0,
-            "exit_price": 241000.0,
-            "return_pct": -2.82,
-            "return_pct_open": -2.82,
-            "correct": 0
-          },
-          {
-            "stock_code": "086790",
-            "name_kr": "하나금융지주",
-            "ms_score": 62,
-            "ai_score": 86,
-            "confidence": "HIGH",
-            "reason": "[E] tech 32 / earn 87 (RSI 48, 5일 -1.3%)",
-            "entry_price": 112400.0,
-            "exit_price": 119000.0,
-            "return_pct": 5.87,
-            "return_pct_open": 5.87,
-            "correct": 1
           }
         ]
       },
