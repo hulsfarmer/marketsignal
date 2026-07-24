@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T12:05:10",
+  "generated_at": "2026-07-24T12:08:21",
   "count": 500,
   "posts": [
     {
@@ -4530,6 +4530,89 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 16987,
+      "title": "유가 급등으로 인플레이션 우려가 부각되면서 아시아 주식이 하락했고 채권도 약세를 보임. 한국은 유가 상승에 따른 수입 비용 증가 및 기준금리 인상 압박으로 영향을 받을 전망.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-24",
+      "summary": "<p>유가 급등으로 인플레이션 우려가 부각되면서 아시아 주식이 하락했고 채권도 약세를 보임. 한국은 유가 상승에 따른 수입 비용 증가 및 기준금리 인상 압박으로 영향을 받을 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asian stocks skid as oil spike revives inflation fears, bonds take a hit Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "유가 상승→인플레 우려→금리 인상 시나리오는 원화 약세, 채권 금리 상승, 수입기업 수익성 악화 등 한국 시장 전반에 중대한 부정적 영향",
+      "stocks": [
+        "에너지/정유 관련주(SK에너지",
+        "S-Oil)",
+        "수입 비용 민감 기업(자동차",
+        "화학)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-24 12:07:28"
+    },
+    {
+      "id": 16986,
+      "title": "중동 정세 악화와 무역전쟁으로 인한 인플레이션 우려가 확대되면서 달러 강세와 미국 채권 수익률 급등이 동시 진행 중. 이는 USD/KRW 환율 상승으로 이어져 한국 수출기업의 원화 환산 실적 악화와 외국인 자금 이탈 압력으로 작용.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-24",
+      "summary": "<p>중동 정세 악화와 무역전쟁으로 인한 인플레이션 우려가 확대되면서 달러 강세와 미국 채권 수익률 급등이 동시 진행 중. 이는 USD/KRW 환율 상승으로 이어져 한국 수출기업의 원화 환산 실적 악화와 외국인 자금 이탈 압력으로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar rides yield surge as Middle East and trade wars raise inflation stakes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "달러 강세·금리 상승·외국인 이탈 압력이 KOSPI와 원화 기업들에 단기 악영향을 줄 수 있으나, 구조적 변화는 제한적",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대차",
+        "LG화학",
+        "포스코",
+        "SK이노베이션"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR1d1UDB3eEFoN2xlaHVUc19mMFZjSzJBRFVvXzVhVTBXZ3VmSEFNSktSejlPMzk5N1NWVEsyTGRsX200Z3h1RXVENjRuQ3g2UnRzYndRT3lEWE9TU1FXOUdQTzhFU3plM3RQTmVuX0xhZ2JIZjU1eWRnV1ZELUVxTVVyOGN0WjlZbHczbGxUSDNmYkEwSjZmU2ZwODQyMVlfTkp2WVBuOG1FWmJVTHJYVEtoU1Yza2huYUU2NWxTUUJVdDA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-24 12:07:24"
+    },
+    {
+      "id": 16998,
+      "title": "유조선이 호르무즈 해협과 바브엘만데브 해협을 우회하려면 월 1개월 추가 운항과 250만 달러의 추가 비용이 발생. 지정학적 리스크로 인한 해운 운송비 급증이 유가 상승 압력으로 작용.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-23",
+      "summary": "<p>유조선이 호르무즈 해협과 바브엘만데브 해협을 우회하려면 월 1개월 추가 운항과 250만 달러의 추가 비용이 발생. 지정학적 리스크로 인한 해운 운송비 급증이 유가 상승 압력으로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Add a month at sea and $2.5 million - what it costs oil tankers to flee Hormuz and Bab el-Mandeb Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 유조선 운송 경로 차단 시 유가 상승 → 정유·석유화학 한국 기업의 원료비 상승 악재, 다만 정유마진 개선 가능성도 있어 부분적 호재",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUlN1bTdzeXE4MGNNX3JUY0FhZVRPbXlMdXhWcnZuaXBJQnpjNEVJeGM2cnZJeExGWnN0YUZMaWxBN2xKdk04S0ItTnppcjM2aUJYaUZqdFpmWjFHNk54SjZsSXotUURVdzhCVzFac2FCRHhaZ28yMHkwbzVzQmNBZGk5TzRmVGo5M25FRmVDelN3UnotbDNmb3VjWFVJRkJfZnJITElmNzdtNExlam15a0hpUmJSYXk4Z3ZqOXRPZWh5WFVMRHZz?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-24 12:08:12"
     },
     {
       "id": 16935,
@@ -13144,90 +13227,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMThfbFpQWmlCV2h0c0pXalROOTJxOVpwZFlKVzJMUVpmNGNfOEk5TjFUZUdKZ1pxMmJGY0ozZXR5Y19lcHBqUklkcjRWWVMzSExoWUprVEx3WWNRUlBDaUM2VkZSR2tFa2lCdTNpYUxidUtPMXFBTFctVkhmbzViWTg2NWlIX193Z3NMU2taTXNzb1ptMkhsQzBrdw?oc=5",
       "direction": "down",
       "updated_at": "2026-06-11 06:07:46"
-    },
-    {
-      "id": 8556,
-      "title": "OPEC 석유 생산량이 2000년 이후 최저 수준으로 하락했으며, 미국의 이란 봉쇄가 주요 원인. 공급 감소로 유가 상승 압력이 가해져 국내 정유사와 화학사의 실적에 영향.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-10",
-      "summary": "<p>OPEC 석유 생산량이 2000년 이후 최저 수준으로 하락했으며, 미국의 이란 봉쇄가 주요 원인. 공급 감소로 유가 상승 압력이 가해져 국내 정유사와 화학사의 실적에 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): OPEC oil output lowest since at least 2000 as US blockade squeezes Iran, Reuters survey shows Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승은 정유업 마진 개선 호재이나 원료비 부담으로 화학사 악재, 한국의 중동 에너지 의존도 고려시 의미있는 매크로 변화",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX0dpcExhb084QkNZaXFTdWVRYTR1dElOeWFDaGZhbUhvMVFZdVo1ZFh4UFB2YVZUZjVtUzI0d25kanJOZXV4RFZTU24talNlN0hqVFMxbEhJZ0loR3haOWszU3MtdHdiSDEta3Z2M0tEN1p6ZklyTmplN1ZNdTkxc2VISkFjY0xsY0FmZThPd1RmMlp4cU9lVklsQmJfby1CM1AzajNrcndPN2h3bnpELU4ySzVIaFIyVC1zUWxoSGFaMUYyV0NGcXdMVnQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-11 03:08:03"
-    },
-    {
-      "id": 8546,
-      "title": "중동 지정학적 위험과 기술주 약세로 아시아 주식에서 외국인 자금 유출이 급증했으며, 한국의 반도체 대표주인 SK하이닉스·삼성전자 등 기술주가 직격탄을 받을 것으로 예상됨.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-10",
-      "summary": "<p>중동 지정학적 위험과 기술주 약세로 아시아 주식에서 외국인 자금 유출이 급증했으며, 한국의 반도체 대표주인 SK하이닉스·삼성전자 등 기술주가 직격탄을 받을 것으로 예상됨.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Foreign outflows from Asian equities surge on Middle East risks, tech rout Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "기술주 부진과 외국인 자금 이탈은 한국의 반도체·메모리 업종에 직접적인 악영향을 미치는 의미있는 부정적 신호",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTGJ4TlQ4d0l6VmNkTzh6eWIxbmt1TDhrZy1TMVRmRWRqOGRfb2FRdENoeVUwM1V4bmVMWjc3ZENoV2hDX1hrbTEtVXpibi1zbUJhR3BxRXVwd0JrWjdzSGZoZ21VMkFFeE9kTzJEWjdCRzRtY1hVWE5SeXVMYWZSUVJIcEFKc05LYWY0M21KSktSV2Q3dHVVazd3bWlrT0JQRGdGRWkyX0NtOGhRZi1uZ2UtWQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-11 03:07:11"
-    },
-    {
-      "id": 8529,
-      "title": "5월 미국 소비자물가지수(CPI)가 3년 만에 최대 낙폭을 기록했으며, 이는 미 연준의 금리 인하 가능성을 높여 달러 약세와 한국 수출주 선호도 상승으로 이어질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-10",
-      "summary": "<p>5월 미국 소비자물가지수(CPI)가 3년 만에 최대 낙폭을 기록했으며, 이는 미 연준의 금리 인하 가능성을 높여 달러 약세와 한국 수출주 선호도 상승으로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US consumer inflation posts largest increase in three years in May Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "인플레이션 둔화는 Fed 금리 인하 시나리오를 강화하여 USD/KRW 약세, 외국인 한국주 수급 개선, 수출주 상승장을 유도할 가능성이 높다.",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차",
-        "기아",
-        "LG전자",
-        "삼성SDI"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWNSSWh5eDBlWmZCYkN5ZjVjSFNVaC1jVmUteC1pelBkR2ltcmpwYUhYa01sV3Y5dGpGUGNFMDZMeTFRT082Wk5yb1BiU3ZQMjZqR2ZpLV9zY25oOU5STURWR2xjZ0dDVTlhQnB4RFNuRTVxd3ZKbVlDVWpvT1pFMmp2Z2JNa2JlTGJsNFN3?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-11 00:08:07"
     }
   ],
   "events": [
