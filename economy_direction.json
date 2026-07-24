@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T00:05:02",
+  "generated_at": "2026-07-25T00:08:38",
   "count": 500,
   "posts": [
     {
@@ -499,6 +499,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 17129,
+      "title": "미국 연방준비제도(Fed) 금리 결정과 기술주 중심의 실적 발표가 미국 증시의 변곡점이 될 것으로 예상되며, 이는 USD/KRW 환율 상승과 KOSPI의 외국인 수급에 직접 영향을 미칠 것으로 보임.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-24",
+      "summary": "<p>미국 연방준비제도(Fed) 금리 결정과 기술주 중심의 실적 발표가 미국 증시의 변곡점이 될 것으로 예상되며, 이는 USD/KRW 환율 상승과 KOSPI의 외국인 수급에 직접 영향을 미칠 것으로 보임.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 결정은 달러 강세 → 원화 약세, 기술주 실적 부진 시 글로벌 위험자산 회피 → 한국 수출주 및 반도체주 매도 압력 가능성이 높음.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "Kakao",
+        "LG전자",
+        "현대자동차"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQajIyMHNIZTNQeFlkNHB6ekVuZjNtbFhOcXgtRFhXR095VXRnaUJHSDhwRjFaX19BVTY2RlBoY0d2bEk0cEdxSXlxZ2otVHcwUDNjbGtMWi12U182MkhIR1FrS2dWY1p3NEdSZHAxSmFDZ1BWT2sxSU8tYWxDd255TmpTUGFBeWY3M3VUWlBJb3ZybDdnWm8tM2tGT25XbUZQZmkwX1NlU3BjZl9pcUVHWTBQWDBpTEZrQmFTSVNXaw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-25 00:07:48"
     },
     {
       "id": 16568,
@@ -4598,6 +4626,59 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 17128,
+      "title": "Fed 의장 Warsh가 채권 수익률 급등으로 어려운 상황에 직면. 미국 금리 인상 압박이 높아지면서 USD/KRW 환율 상승과 한국 외국인 자금 이탈 압력 발생 가능.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-24",
+      "summary": "<p>Fed 의장 Warsh가 채권 수익률 급등으로 어려운 상황에 직면. 미국 금리 인상 압박이 높아지면서 USD/KRW 환율 상승과 한국 외국인 자금 이탈 압력 발생 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed Chairman Warsh faces cruel summer as bond yields spike Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 금리 인상 시그널은 원화 약세, 외국인 수급 악화, 특히 고금리 민감 성장주·저금리 혜택주에 부정적 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "대형 성장주",
+        "부동산개발주"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYVRCMXNDaHJWRk9ET3BLVEJzU0loSnRRM3hNcTAxQ1pXT1VoWlA1MUJxelBHYlFyRVVGQkZUZkFNc0NfMFNYbE1KN3pXYzRWYnIwN0JTeDVXaEdfOEpaN0pJSU91aEppRURTR1JSSld2cVl5b3Bval8wb3N0MWI4ZlBBcXlUbDA0Q0MtdFcxa3dRMzFXWkZzdC1WTGJRbW02NkE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-25 00:07:44"
+    },
+    {
+      "id": 17119,
+      "title": "인텔이 AI 수요 부양으로 강한 실적 전망을 제시하며 주가 상승. 글로벌 반도체 산업의 AI 경쟁 심화로 SK하이닉스(HBM)와 삼성전자(메모리/파운드리)의 경쟁 강도 증가 예상.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-24",
+      "summary": "<p>인텔이 AI 수요 부양으로 강한 실적 전망을 제시하며 주가 상승. 글로벌 반도체 산업의 AI 경쟁 심화로 SK하이닉스(HBM)와 삼성전자(메모리/파운드리)의 경쟁 강도 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Intel rises as strong forecasts signal AI boost for turnaround Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "인텔의 AI 터라운드 성공 신호는 글로벌 반도체 수요 증가를 시사하지만, 동시에 한국 메모리/파운드리 업체들의 경쟁 강화로 이어져 엇갈린 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMjF3SUNia0lfWVVzRlZuam15MmRBcmR6eVBCRXNsdmxOVndwVzhLbzNlTU0zd3FXeGhvZWpvVFZBa1RvXzl1MlFFZTlwZXh0dkhTQldzWS1JMjFXZEdOYllVX2pOckYxUWcwV3RMSGhBTUR2cDh1Qi1FQk9ibVIwMjdLS2NhYXV3Tzk1NEQ5cTB5bFNFdUdSUFdwUUdqZzltSXc?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-07-25 00:07:09"
+    },
+    {
       "id": 17113,
       "title": "미국이 60개 교역국에 신규 관세를 부과함에 따라 한국 에너지·화학 기업들의 수출 경쟁력 약화 우려. 유가 변동성과 화학제품 수출 마진 축소 가능성이 주요 리스크.",
       "category": "거시",
@@ -4822,6 +4903,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR1d1UDB3eEFoN2xlaHVUc19mMFZjSzJBRFVvXzVhVTBXZ3VmSEFNSktSejlPMzk5N1NWVEsyTGRsX200Z3h1RXVENjRuQ3g2UnRzYndRT3lEWE9TU1FXOUdQTzhFU3plM3RQTmVuX0xhZ2JIZjU1eWRnV1ZELUVxTVVyOGN0WjlZbHczbGxUSDNmYkEwSjZmU2ZwODQyMVlfTkp2WVBuOG1FWmJVTHJYVEtoU1Yza2huYUU2NWxTUUJVdDA?oc=5",
       "direction": "down",
       "updated_at": "2026-07-24 12:07:24"
+    },
+    {
+      "id": 17120,
+      "title": "STMicroelectronics가 2분기 실적 부진으로 주가 14% 급락. 글로벌 반도체 수요 부진 신호로 SK하이닉스, 삼성전자 등 한국 메모리/파운드리 업체에도 실적 악화 우려 확대.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-23",
+      "summary": "<p>STMicroelectronics가 2분기 실적 부진으로 주가 14% 급락. 글로벌 반도체 수요 부진 신호로 SK하이닉스, 삼성전자 등 한국 메모리/파운드리 업체에도 실적 악화 우려 확대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): STMicroelectronics profit misses estimates, shares fall 14% Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 반도체 업황 약세 신호로 한국 메모리·파운드리 기업들의 2분기 이후 실적 부진 가능성을 가중시키는 악재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOXdNdjF2dkxTbGxzMWRzMERrZXhsY09HdUtGQ21IUGhud1JHTllZeHA5LVV3QjlUdEg2LXdEUHc5dUp4T0pIc282Y2w3b3h0Q0EzMTVjeEh0dWRMdF9iYzZBb2pHV1QwZWNPdnA5NjJYZkwzLUhsVlZpeWlSb25sdDJBVHVzNmF1Wm9FeE5yWkVrMGpBT01pazc1blJVeHRaTmpjMEJHd0k4Z0ozWkJmZnBJVGZzbnl6U1JmUFF3?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-25 00:07:12"
     },
     {
       "id": 16998,
@@ -13105,114 +13213,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0FpYlpHR3d1TXRlMk9nT24yR1JJSGd5WmVKVlp0bnpCcW01VmFSLVZPS3RFdnRRUlNBM2hLamlseXFGdl9iaV9pUUc5a3ZWcklrSzRTLU9LeUduSHlPOTRCRjk5dlhRcG9JZjRta05WSVV5UVBwNlM1b012YlBtNXc3NlRvLWxkeUZwSnNid1hZaEs5ZjJYRjZWbkRkYWZVbVVhOWVkT1g5WjFUX1lrbjlHNGZUOE16?oc=5",
       "direction": "down",
       "updated_at": "2026-06-12 09:08:28"
-    },
-    {
-      "id": 8822,
-      "title": "Google이 차세대 칩 제조를 위해 삼성전자와 협력 논의 중. 삼성의 파운드리 사업 수주 확대로 해석되며, 한국 반도체 업계의 글로벌 경쟁력 강화 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-11",
-      "summary": "<p>Google이 차세대 칩 제조를 위해 삼성전자와 협력 논의 중. 삼성의 파운드리 사업 수주 확대로 해석되며, 한국 반도체 업계의 글로벌 경쟁력 강화 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Google in talks with Samsung to make part of next-gen chip, The Information reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "삼성전자 파운드리 고객 다변화 및 수주 확대 가능성으로 메모리·파운드리 사업 성장 기대감 상승",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeHMzSTA1X3lZZFJrOUlSYi1oOXpBQ0Q3M2pOSW43Q0hibWkzaE1ELXhfZjI4cHc4R25mLVlwNnFNM2ZQaXpicl9UdHRsbjVuNTU1bEszcldPQ3I0WmNJRWpKVFB2QThGLW5KVnVUUDhXVWFlVWxYZk1Jbm1UZDVyQXhjRzUtLVFtU0ROS1F5eFdjR0J2Q1JVWS02OW5EOXpNYndtd21IRGpYRTViNG1Zc25CbFZmU1RINjlR?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-12 09:07:04"
-    },
-    {
-      "id": 8790,
-      "title": "선진국 4개 중앙은행이 동시에 금리 인상을 진행 중. USD/KRW 환율 상승 압력, 한국 수출기업 실적 악화, 채권 금리 상승으로 국내 금융시장에 부정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-11",
-      "summary": "<p>선진국 4개 중앙은행이 동시에 금리 인상을 진행 중. USD/KRW 환율 상승 압력, 한국 수출기업 실적 악화, 채권 금리 상승으로 국내 금융시장에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Four developed market central banks are now hiking rates Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "글로벌 주요 중앙은행의 동시 금리 인상은 한국 원화 약세, 외국인 자금 유출, 수출기업 수익성 악화로 이어져 KOSPI에 중대한 부정적 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "LG화학",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaTF0ZmI1Z1dPelZEcnlJTVZrZk1SYjlIQjVubTM1Zm5JcUxsRERNcDRYUWU5aDl0Yy14c1k4OUNfQnFzajVVbkUtVVhBN1cwRng2enIyTVJOSm1wdzZTVEtUTldYYzdpbjNfZjZSMWUyTjJubEdQamI4dkJqSjFNc2NZRjJFdGRRYVhTaTIwTmRUdw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-12 03:08:01"
-    },
-    {
-      "id": 8768,
-      "title": "세계은행이 글로벌 경제성장률 전망을 2.5%로 하향 조정했으며, 전쟁 여파가 금융시장으로 확대될 경우 1.3%까지 급락할 수 있다고 경고했습니다. 이는 유가 및 원자재 가격 변동성 확대로 한국의 에너지·화학 기업들에 부정적 영향을 줄 수 있습니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-11",
-      "summary": "<p>세계은행이 글로벌 경제성장률 전망을 2.5%로 하향 조정했으며, 전쟁 여파가 금융시장으로 확대될 경우 1.3%까지 급락할 수 있다고 경고했습니다. 이는 유가 및 원자재 가격 변동성 확대로 한국의 에너지·화학 기업들에 부정적 영향을 줄 수 있습니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): World Bank cuts global growth outlook to 2.5%, warns of drop to 1.3% if war fallout spreads to markets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "글로벌 경제성장 둔화 전망과 지정학적 리스크 심화는 유가·원자재 수급 불안정을 초래하여 에너지·화학주의 수익성 악화 우려를 높입니다.",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXJMaXlUUXFZTmlXTUpicEs1RjdDaW81LW94d1dHZldGMEJWWmF2YjVRNTY1SFJucGQ1T2RLQ1kxQWpUN3F1bC1SajZQamVzUVUxQjBhOTNwYkhoZ19oMlBhVE02TzZCbFNjN0dCcktybEVVNDNYUGx5Tkd1WHZPVWNCSW9kaVZUZTNrWmk3ZWRuN01KLV9uSGM2MjVVWTJHUjRkdWFjUDh2NEhaeEVEMGtCa3BnWDFaTFRZeWJzbnFVdmM?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-12 00:08:07"
-    },
-    {
-      "id": 8765,
-      "title": "미국 5월 생산자물가지수(PPI)가 예상을 상회하며 상승했으며, 에너지 가격 급등이 주요 요인. 인플레이션 우려 확대로 Fed의 금리 인상 가능성 부각 → 달러 강세 및 한국 수출기업 수익성 악화 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-11",
-      "summary": "<p>미국 5월 생산자물가지수(PPI)가 예상을 상회하며 상승했으며, 에너지 가격 급등이 주요 요인. 인플레이션 우려 확대로 Fed의 금리 인상 가능성 부각 → 달러 강세 및 한국 수출기업 수익성 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US producer prices increase more than expected in May amid jump in energy costs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 긴축 기조 강화 신호는 USD/KRW 상승, 외국인 증시 이탈, 채권 금리 상승을 초래하여 한국 수출주·경기민감주에 단기 악영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대자동차",
-        "LG화학",
-        "한국조선해양",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTVIQ0lPVDVsWHMxbEdTR0xKMWZDTFhYbjh3VTlEblpieUJZVXpWQTBGOWozZGRwNGE4VmwwSWNLUEN5dVR3Uk5PcmpPcDlpN1pRU2JCS2dNZTFua1daRGdFeHBBUUlvWUI0aFZ5S3JYb2h5aGFOTFFPdF8zY05RRE9fbHFPZXZ1Z2lGMnZ1TUJSSTdYTE5nTlN4Q2RPS0U5cFpjUWpmRVRBU18wZDhjZFJQUzloSUVMNXprZ2wwUGt2Mkk?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-12 00:07:53"
     }
   ],
   "events": [
