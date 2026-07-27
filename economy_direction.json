@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T12:05:51",
+  "generated_at": "2026-07-27T12:08:03",
   "count": 500,
   "posts": [
     {
@@ -4759,6 +4759,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 17412,
+      "title": "엔비디아가 OpenAI와 데이터센터 구축을 위한 2,500억 달러 규모 자금 조달 보증 논의 중. 이는 AI 인프라 수요 확대를 의미하며 고성능 반도체(HBM, 메모리) 수요 증가로 이어질 수 있음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-26",
+      "summary": "<p>엔비디아가 OpenAI와 데이터센터 구축을 위한 2,500억 달러 규모 자금 조달 보증 논의 중. 이는 AI 인프라 수요 확대를 의미하며 고성능 반도체(HBM, 메모리) 수요 증가로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nvidia in talks with OpenAI to guarantee $250 billion financing for data center, WSJ reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "초대형 AI 인프라 투자는 HBM·메모리 반도체 수요를 직접 증가시키는 호재이며, SK하이닉스 등 한국 반도체 업체의 공급처 지위 강화 신호",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQemxoQlhRcXdJWU9ITnV3LVJxNV9kYzVBanFYWUdVTE9oTVYwcnJCakp6aU9GWHJaeTM2eEdhdzFXVjRPT0J4cUZ1VmtOSnZ3WWQ4TkdmVnY0VnQ2R29LUUV5c1VoMnNiSFZ4enhhR2pEVFNvLVhLejFjN01tOEZpcGdWQ1RWbGNUUXdWeWNZN0s4N3RKcEMxeE9TdnZHYXVaQ3VYNHRPc1JyX1FSUHRkc0xjbkdCcTA4ZGFTdVZjU1M1akxSMEJxc1VnMW1ic1RFbEx1QTlB?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-27 12:07:04"
     },
     {
       "id": 17269,
@@ -13193,33 +13220,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUjZWMjhsRk5kcFhHYzNzcGd0aklxYUJjcE55WGN5cVpKbVNvQW5POEVGdVNBQzVQcG5jOEVfc3JBQ2J2eUs3dUI2VWgzOU9WSzZ2ZmlQOC13dzJFdU13X0lyNkZtWUxwMmUxLWtDbm00LVlNMXc1NUZRXzFKZkpMeU5zTEdSem9lQWw5VVhRTFJRckduU096UFpYazNqZlBj?oc=5",
       "direction": "down",
       "updated_at": "2026-06-15 21:08:15"
-    },
-    {
-      "id": 9273,
-      "title": "아시아 헤지펀드들이 AI 랠리로 3자리 수익률을 기록 중이며, 이는 AI 수요 증가에 따른 반도체 관련 종목의 강세를 반영하고 있습니다. SK하이닉스(HBM), 삼성전자 등 한국 메모리/파운드리 기업들이 AI 칩 수요 증가의 직접 수혜 대상입니다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-15",
-      "summary": "<p>아시아 헤지펀드들이 AI 랠리로 3자리 수익률을 기록 중이며, 이는 AI 수요 증가에 따른 반도체 관련 종목의 강세를 반영하고 있습니다. SK하이닉스(HBM), 삼성전자 등 한국 메모리/파운드리 기업들이 AI 칩 수요 증가의 직접 수혜 대상입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asia hedge funds notch triple-digit gains in AI-led rally Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "아시아 지역 AI 투자 랠리 확산은 한국의 주력 반도체 수출 수요 증가를 시사하며, SK하이닉스·삼성전자 등 핵심 공급처에 명확한 호재 신호입니다.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelJaQmJtN2V5OEVOSWtXd0VlaElGdkR5TkRtSnJPd1laUHJoeGdPZ3N6WTg2X0RjZ3NRem43TFVwUml2VmRJczdWRy1kOXFGZGdKNXRtVU9xNGRSUWdjdkxqQUtOSkQyNzh1Q1VCcUs4TmxQMGNCbDVhX2pCUmV3Tkpkc1dlemEzbW04eDJUaEEtTXdMdFFERWhJUjl4SGc3THUwZQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-15 15:07:05"
     }
   ],
   "events": [
