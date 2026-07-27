@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T16:35:23",
+  "generated_at": "2026-07-27T16:40:07",
   "count": 500,
   "posts": [
     {
@@ -13348,6 +13348,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-07-29",
+      "event_type": "합병계약일",
+      "title": "KR모터스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000259"
+    },
+    {
+      "stock_code": "",
       "stock_name": "코미코",
       "event_date": "2026-07-30",
       "event_type": "신주 효력발생",
@@ -13980,6 +13988,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-08-11",
+      "event_type": "주주확정기준일",
+      "title": "KR모터스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000259"
+    },
+    {
+      "stock_code": "",
       "stock_name": "대한항공",
       "event_date": "2026-08-12",
       "event_type": "주주총회",
@@ -14353,6 +14369,30 @@
       "event_type": "배당금지급예정일",
       "title": "두산 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800798"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-08-25",
+      "event_type": "합병반대의사통지 접수 종료",
+      "title": "KR모터스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000259"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-08-26",
+      "event_type": "합병승인 이사회결의일",
+      "title": "KR모터스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000259"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-08-26",
+      "event_type": "합병승인 이사회결의",
+      "title": "KR모터스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000262"
     }
   ]
 }
