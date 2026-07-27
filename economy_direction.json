@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T00:05:02",
+  "generated_at": "2026-07-28T00:08:24",
   "count": 500,
   "posts": [
     {
@@ -4877,6 +4877,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 17533,
+      "title": "미국 연방준비제도(Fed)의 7월 금리 결정을 두고 증권사들 사이에 '접전'이란 평가가 확산 중. 금리 인하 여부 불확실성이 높아지면서 USD/KRW 환율 변동성 확대 예상되며, 한국 수출주 및 외국인 수급에 영향 미칠 전망.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-27",
+      "summary": "<p>미국 연방준비제도(Fed)의 7월 금리 결정을 두고 증권사들 사이에 '접전'이란 평가가 확산 중. 금리 인하 여부 불확실성이 높아지면서 USD/KRW 환율 변동성 확대 예상되며, 한국 수출주 및 외국인 수급에 영향 미칠 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Growing number of brokerages see July Fed decision as &#x27;a close call&#x27; Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 결정의 불확실성 고조는 달러 강세/약세 방향을 좌우하며, 원화 약세→수출주 호재, 원화 강세→외국인 자금유출 악재로 작용할 수 있는 의미있는 매크로 이벤트",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "현대차",
+        "LG화학",
+        "삼성SDI"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa1VuQzdOeGxfQ1pnN09BTURpVUtqalhFNmNiaGtBOXJENWhzMjFZYzJxdC1zNGVFMjNKUmdneFA5Qkx2NU1PVWxLdHhSS1kzRGN0Q1VxUW1JaTNFalMyZWhMY2ZWSlBlY01EakRDY1lPaFlQZ3BzdXhoUVUteDRWNGhxeUUyNFBfMlpLSnI1NlVvNjE0ajVRMWVTX2ViUDBVMkxHaUVDVno?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-07-28 00:07:34"
+    },
+    {
+      "id": 17528,
+      "title": "중국이 자체 DUV(자외선) 반도체 제조 장비 생산을 시작했다고 보도됨. 이는 한국 반도체 장비 수출 시장 축소와 중국 반도체 자립화 가속을 의미하며, 특히 메모리·파운드리 경쟁 심화 우려를 야기.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-27",
+      "summary": "<p>중국이 자체 DUV(자외선) 반도체 제조 장비 생산을 시작했다고 보도됨. 이는 한국 반도체 장비 수출 시장 축소와 중국 반도체 자립화 가속을 의미하며, 특히 메모리·파운드리 경쟁 심화 우려를 야기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China begins making homegrown DUV chipmaking tools, The Information reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국의 반도체 자력화 진전은 삼성·SK하이닉스 등 한국 메모리 업체의 중국 시장 경쟁 심화와 장비업체 수출 축소로 이어져 한국 반도체 산업의 구조적 위협 요인이 되기 때문.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNczNKaVBKQlBhakFSU2NWSktCWHViODV0YmUzSnU5VWVVQkg2OWd2QUZteVB6RmZGLWdwV092R29aVElFX09naHB5TzQ3c2xhUXNBZllCcm9aWnhGRGhhRVc3UEt4NWxhYTRTZW1hdFVEM1RIajQxWl82b3JNMTF1eEo4X25BSGRoVFFuWElhSk9QSzJxZC1lZTlnc196YW9UY2NCaG9DaTExUUo5RnVjUDB1NVBVZzFvZlE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-28 00:07:11"
     },
     {
       "id": 17439,
@@ -13140,59 +13194,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJZSWFELTVQcFlfZlNmZTF0dlllSjh3Z0sxd3lRSE1MZmNOd1VpNFdOcGZXUk9PQUdsbmVCYU5nNFhUUmlPNDZMLVNQV2VscktGMEE1UTR0S1Rwb2tZRzRqcW03eGZIWWphYThRMVhIS05QTm9VUEFYN2x3ekpWN2R1OUNGczVDc1JtLVp1X1QxV1dEaDRSQi1sNTljaDN2eXFHMEZVcWNuZFc5?oc=5",
       "direction": "up",
       "updated_at": "2026-06-17 12:07:14"
-    },
-    {
-      "id": 9666,
-      "title": "미국 자산운용사들이 AI와 'MANGOS'(메타, 애플, 엔비디아, 구글, 오라클, 테슬라) 기업들을 추적하는 첫 ETF를 출시하며 AI 투자 열풍이 심화되고 있다. 이는 AI 반도체 수요 증대로 SK하이닉스(HBM), 삼성전자 등 한국 반도체 기업의 수혜 가능성을 높",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-16",
-      "summary": "<p>미국 자산운용사들이 AI와 'MANGOS'(메타, 애플, 엔비디아, 구글, 오라클, 테슬라) 기업들을 추적하는 첫 ETF를 출시하며 AI 투자 열풍이 심화되고 있다. 이는 AI 반도체 수요 증대로 SK하이닉스(HBM), 삼성전자 등 한국 반도체 기업의 수혜 가능성을 높인다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US asset managers file for first ETFs targeting Wall Street&#x27;s new obsession, AI and the &#x27;MANGOS&#x27; Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 투자 증대 트렌드 강화로 글로벌 고대역폭메모리·반도체 수요 증가 예상되며, 한국 반도체 수출 주요 고객(NVDA, TSMC 등)의 성장성 강화는 한국 반도체 업체에 중기 호재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTV80V19sdWhxLUNqeGJUaVFuWU9yQ0R0cWZ3VTR3QlozTnFfT0hCdWZPTmtuOHJzdUlNMXFLWW5TRXN0ZlcxRXdmOGloS20wUzdoUEg1NU5HZlRFeXhlYk1tT3ZENVluRnlRQlVYN04wdWZkV2FLVkVJTU4zcXJfbG5vOFg3YlpqVjdPVmN1NXR0QkR6YjNlVnRpLTJJNnlMSkNLb3JNTXY0NGVyVWY3V3J6VW1rajJLRDJWY0x2MzVlUVh1TDBwSURKMHN2dw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-17 09:07:18"
-    },
-    {
-      "id": 9641,
-      "title": "Warsh 새 연방준비제도 의장이 연방준비제도의 자산 규모 축소(밸런스시트) 정책을 주도할 기회를 얻게 됨. 향후 Fed의 통화정책 기조 변화가 USD/KRW 환율과 한국 채권 금리에 영향을 미칠 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-16",
-      "summary": "<p>Warsh 새 연방준비제도 의장이 연방준비제도의 자산 규모 축소(밸런스시트) 정책을 주도할 기회를 얻게 됨. 향후 Fed의 통화정책 기조 변화가 USD/KRW 환율과 한국 채권 금리에 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): As chair, Warsh finally has a chance to put stamp on Fed balance sheet Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 의장 교체에 따른 통화정책 방향 변화는 달러 강세/약세, 한국 채권 금리, 외국인 주식 수급에 직접 영향을 미치는 거시정책 신호",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "기아"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcDN0bGlLTG8zUVBUOTZzVFR1djNTZG1TYUxNXzIzYTFva0d3LXRBalc4VDUtOGtsVEtIb0N1eVlIZW9wUTdGaks2LWwtVG5nS3d1UnJ2VWpVc0VaYWNCT2h2LXd0VUhoVVh5eHBVY3ptVk5SSUU5RW1zajhHWlJ4eVVBR3FaRGdKN1dJMTNGTG9xTlR1X3FsWTJmdV9ncVZvcGtSUFk2REx1ZnVUNXFpQQ?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-06-17 06:07:40"
     }
   ],
   "events": [
