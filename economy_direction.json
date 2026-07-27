@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T06:05:02",
+  "generated_at": "2026-07-28T06:08:50",
   "count": 500,
   "posts": [
     {
@@ -4877,6 +4877,64 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 17575,
+      "title": "트럼프 전 대통령이 미 연준의 금리 인하를 촉구. 금리 인하 시 USD/KRW 약세, 외국인 주식 수급 개선, 채권 금리 하락으로 한국 시장에 긍정적.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-27",
+      "summary": "<p>트럼프 전 대통령이 미 연준의 금리 인하를 촉구. 금리 인하 시 USD/KRW 약세, 외국인 주식 수급 개선, 채권 금리 하락으로 한국 시장에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump says Fed should lower interest rates Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 금리 정책 방향성은 원달러 환율, 외국인 자금 흐름, 국채 금리에 직결되는 한국 증시 주요 변수",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "Kakao",
+        "현대차",
+        "기아",
+        "LG전자",
+        "금융주 (NH투자증권",
+        "삼성증권)"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVlpWNk9HMDBFMndqTlZjSnJiZFNRNGdELUFkNC1tX0NiV1ZubmYwenRmOGRLdzdTYmtGcV8tNXU0YlNMby1MNnc2WmNlWS1fN1RIN3NMeVcwRUZXd1pxMFBLSUNhd0wyTGxTajRiRXpCLUJBRDMxU05TeU1HREZtY3g4MUpNTGtMOWtKWTJNYjE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-28 06:07:51"
+    },
+    {
+      "id": 17567,
+      "title": "엔비디아가 클라우드 최적화(Cloudmaxxing) 경쟁에 빨려들면서 위험한 게임에 직면. 이는 메모리·칩 공급망 경쟁 심화와 마진율 압박으로 이어질 수 있어 한국 반도체사들의 수급·가격 협상력에 영향.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-27",
+      "summary": "<p>엔비디아가 클라우드 최적화(Cloudmaxxing) 경쟁에 빨려들면서 위험한 게임에 직면. 이는 메모리·칩 공급망 경쟁 심화와 마진율 압박으로 이어질 수 있어 한국 반도체사들의 수급·가격 협상력에 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - Cloudmaxxing sucks Nvidia into dangerous game Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 반도체 초강자 엔비디아의 전략 변화가 글로벌 칩 공급망 재편을 의미하며, SK하이닉스·삼성의 HBM·메모리 수급 및 가격 경쟁에 직접 영향을 줄 수 있음.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa2kycWVFZFJINVV4UmxoZDRhQVpXLVpzelRmUWw1aG9DSS1rdmdPRUV3cDJJZEtOdFBvcVdFOUJva0lqUjhkaHNtUVBRc2d2bGUySDJ1NUdQLUVPOGg1ZnFVV2RZcHh5ak4xd3VrLXphSTlxVnBEeEJnV2toS0VwbW1sZXY5Q3l3cDFGaklaLWF3LU5qeEJmdU81Rkhhc0NEY1B0WGgya18zQQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-28 06:07:10"
     },
     {
       "id": 17551,
@@ -13138,63 +13196,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR1NCX29Fck41YWdHTTdRNXpOeE1Ca3BiTjM2RmNjQkMxb3VhVzVOeVgzRFNxNGZQb01MY2d2S3JxWTBaYXJkTHVhMEtSYVNyM3NwaV9fNldJTlhVQTZrVUwxTUZnT3VycVVsS09GU2lfOUFLZFlsTUlUb3hVMU90c3IzOW5pUUJQbWJJaUh5NE95VG9qVmJoUjF1clVtOEpxZ2tQX25lbkZZNVFvOUI4Rndn?oc=5",
       "direction": "neutral",
       "updated_at": "2026-06-17 21:08:36"
-    },
-    {
-      "id": 9735,
-      "title": "새로운 연방준비제도 의장 Warsh 체제 첫 금리 결정을 앞두고 달러화가 약세를 보이는 중. Fed의 통화정책 기조 변화는 USD/KRW 환율과 한국 수출 기업의 실적에 직접 영향을 미칠 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-17",
-      "summary": "<p>새로운 연방준비제도 의장 Warsh 체제 첫 금리 결정을 앞두고 달러화가 약세를 보이는 중. Fed의 통화정책 기조 변화는 USD/KRW 환율과 한국 수출 기업의 실적에 직접 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar on the defensive ahead of first Fed decision under Warsh Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 정책 기조 전환은 환율, 외국인 자금 흐름, 수출 경쟁력에 영향을 주는 주요 매크로 변수로 한국 증시의 의미있는 변동 요인",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대차",
-        "현대모비스",
-        "포스코",
-        "SK이노베이션"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdkJCUU94WGx5UkN1MWF6aFdac2FRV2c4NVd4WHVkTXE3clBpZzVpdndJQmVJTDd1RllVdGtwNDZtS0xoYVNmZFFqSHJhUlBYczQxMXZKZ2hvSGdPOExILURHT1R3UHdYY2VwZWxoUE9SN2U0OW8zTDNBUHRYWU5VVUhkZWVuTE83OHk3a09XMWt6SEpwRjZMRE1janN2SGV3Wi1JbjBlaEQ0cmdy?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-06-17 15:07:50"
-    },
-    {
-      "id": 9734,
-      "title": "금값이 미-이란 핵협상 세부 내용과 Fed 금리 결정 발표를 기다리며 보합세를 유지 중. 금리 인상 시 원화 강세와 수출주 약세, 인하 시 수출주 긍정적 영향으로 한국 시장 방향성 결정될 예정.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-17",
-      "summary": "<p>금값이 미-이란 핵협상 세부 내용과 Fed 금리 결정 발표를 기다리며 보합세를 유지 중. 금리 인상 시 원화 강세와 수출주 약세, 인하 시 수출주 긍정적 영향으로 한국 시장 방향성 결정될 예정.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gold steady as investors await details of US-Iran deal, Fed verdict Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 결정은 USD/KRW 환율과 KOSPI 수출주(반도체, 자동차) 수급에 직결되는 주요 거시 이벤트로, 시장 방향성을 좌우할 중요 변수",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "현대차",
-        "LG화학",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZmo2a0piWUpISXJxNEJNWlprT0NaYUx4OU1pZzZ6QUp3dUZCdGlsTUQxNlhZaG9WaXVNT1I2ZWxUb2RUSERFZ3ZpSVktbGN6N1JNUFdZdUplNEJsMWdPX1d0bi03b0lWVGk3TjBaYkJBY3NNQXJpazhpYmNhVndseV9wNXVuSW1IRDlMMTZBTVROeFdBRmkwa0s4Yk9hWHZVcGlmLVdUVXZEdw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-06-17 15:07:41"
     }
   ],
   "events": [
