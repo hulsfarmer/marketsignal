@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T15:04:51",
+  "generated_at": "2026-07-27T16:10:38",
   "dates": [
     "2026-07-27",
     "2026-07-24",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 129,
-      "correct": 63,
-      "hit_rate": 48.8,
-      "avg_return": 0.38,
-      "avg_return_open": 0.73
+      "total": 131,
+      "correct": 64,
+      "hit_rate": 48.9,
+      "avg_return": 0.36,
+      "avg_return_open": 0.7
     },
     "hybrid": {
-      "total": 189,
-      "correct": 84,
-      "hit_rate": 44.4,
-      "avg_return": -0.17,
-      "avg_return_open": -0.07
+      "total": 193,
+      "correct": 87,
+      "hit_rate": 45.1,
+      "avg_return": -0.14,
+      "avg_return_open": -0.09
     }
   },
   "by_date": {
@@ -168,10 +168,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 56으로 과매수 직전 중립 구간이며, 2분기 영업이익 2조7000억이라는 실적 서프라이즈가 긍정적 수급을 유지시키는 요인입니다. 5일 -2.6%로 단기 조정을 받은 상태에서 실적 뉴스의 추가 반영 여지가 남아있어 '수급_개선' 패턴 적용이 가능합니다.",
             "entry_price": 176300.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 171500.0,
+            "return_pct": -2.72,
+            "return_pct_open": -0.79,
+            "correct": 0
           },
           {
             "stock_code": "086790",
@@ -181,10 +181,10 @@
             "confidence": "LOW",
             "reason": "RSI 59로 과매수 경계선이나, 5일 -4.6% 조정으로 2500억 자사주 매입·소각 호재가 재부각될 여지가 있습니다. '수급_개선' 패턴(100% 성공률)에 부합하며, 배당 기대감이 하방을 지지하나 RSI가 60에 근접한 만큼 소량 진입 후 리스크 관리가 필요합니다.",
             "entry_price": 130500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 132400.0,
+            "return_pct": 1.46,
+            "return_pct_open": -1.0,
+            "correct": 1
           }
         ]
       },
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 88 (RSI 51, 5일 -1.2%)",
             "entry_price": 237500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 242500.0,
+            "return_pct": 2.11,
+            "return_pct_open": -1.68,
+            "correct": 1
           },
           {
             "stock_code": "068270",
@@ -212,10 +212,10 @@
             "confidence": "MEDIUM",
             "reason": "[E+T] tech 61 / earn 80 (RSI 31, 5일 -2.0%)",
             "entry_price": 172200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 177600.0,
+            "return_pct": 3.14,
+            "return_pct_open": -0.81,
+            "correct": 1
           },
           {
             "stock_code": "024110",
@@ -225,10 +225,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 46 / earn 74 (RSI 47, 5일 -2.5%)",
             "entry_price": 21050.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 21350.0,
+            "return_pct": 1.43,
+            "return_pct_open": -0.95,
+            "correct": 1
           },
           {
             "stock_code": "034020",
@@ -238,10 +238,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 50 / earn 0 (RSI 35, 5일 +5.0%)",
             "entry_price": 73200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 72100.0,
+            "return_pct": -1.5,
+            "return_pct_open": -0.96,
+            "correct": 0
           }
         ]
       },
