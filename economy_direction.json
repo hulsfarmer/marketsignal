@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:35:23",
+  "generated_at": "2026-07-28T16:40:07",
   "count": 500,
   "posts": [
     {
@@ -14008,6 +14008,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "BNK금융지주",
+      "event_date": "2026-08-12",
+      "event_type": "배당기준일",
+      "title": "BNK금융지주 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800533"
+    },
+    {
+      "stock_code": "",
       "stock_name": "대한항공",
       "event_date": "2026-08-13",
       "event_type": "채권자이의 제출 시작",
@@ -14053,6 +14061,22 @@
       "event_type": "합병반대의사통지 종료",
       "title": "케이프 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000343"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "HD한국조선해양",
+      "event_date": "2026-08-13",
+      "event_type": "배당기준일",
+      "title": "HD한국조선해양 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800628"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "HD현대",
+      "event_date": "2026-08-13",
+      "event_type": "배당기준일",
+      "title": "HD현대 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800632"
     },
     {
       "stock_code": "",
@@ -14445,6 +14469,14 @@
       "event_type": "배당금지급예정일",
       "title": "HD현대일렉트릭 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800434"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "BNK금융지주",
+      "event_date": "2026-08-27",
+      "event_type": "배당금지급예정일",
+      "title": "BNK금융지주 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800533"
     }
   ]
 }
