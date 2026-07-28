@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T15:35:12",
+  "generated_at": "2026-07-28T15:40:05",
   "count": 500,
   "posts": [
     {
@@ -14000,6 +14000,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "HD현대일렉트릭",
+      "event_date": "2026-08-12",
+      "event_type": "배당기준일",
+      "title": "HD현대일렉트릭 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800434"
+    },
+    {
+      "stock_code": "",
       "stock_name": "대한항공",
       "event_date": "2026-08-13",
       "event_type": "채권자이의 제출 시작",
@@ -14125,6 +14133,14 @@
       "event_type": "배당지급예정일",
       "title": "무학 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800285"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "스튜디오삼익",
+      "event_date": "2026-08-14",
+      "event_type": "배당기준일",
+      "title": "스튜디오삼익 — 현금ㆍ현물배당결정              (분기배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728900406"
     },
     {
       "stock_code": "",
@@ -14413,6 +14429,22 @@
       "event_type": "배당금지급예정일",
       "title": "JB금융지주 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800823"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "스튜디오삼익",
+      "event_date": "2026-08-27",
+      "event_type": "배당금지급예정일",
+      "title": "스튜디오삼익 — 현금ㆍ현물배당결정              (분기배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728900406"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "HD현대일렉트릭",
+      "event_date": "2026-08-27",
+      "event_type": "배당금지급예정일",
+      "title": "HD현대일렉트릭 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800434"
     }
   ]
 }
