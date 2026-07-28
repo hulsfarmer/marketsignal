@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T18:05:02",
+  "generated_at": "2026-07-28T18:08:34",
   "count": 500,
   "posts": [
     {
@@ -4931,6 +4931,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 17719,
+      "title": "일본 규슈 지역 대규모 지진 발생. 반도체·전자산업 생산기지 피해 우려로 글로벌 공급망 차질 가능성 야기.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-28",
+      "summary": "<p>일본 규슈 지역 대규모 지진 발생. 반도체·전자산업 생산기지 피해 우려로 글로벌 공급망 차질 가능성 야기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Major earthquake hits Japan&#x27;s Kyushu region Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "일본은 반도체 소재·장비 주요 공급국이며, 규슈 지역 지진이 SK하이닉스·삼성전자 등의 수급 차질을 초래할 수 있음",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQREx4N194TTNIVm1ocmk3TEpxZ3hPSVpKQ2dwdEpuOTZNVXNsWVNjX1pjSGhkTHh6M01iWFZQeENTQ09KTHNQSzl0TzdwWGJqN2lrMmV2Vng4Z19ISUZWM1l3NXU1U2ptMENYZVRqSzd5Y0pLelAtOHJHZ19jbm5IdXhmYjhuekNDLW9aV1BvQUtUTTlLOWZhemRNSF81MS1LSXYybms2UGliMzhHaW14SW52V2ZOZw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-28 18:07:14"
+    },
+    {
+      "id": 17718,
+      "title": "엔비디아가 텍사스 데이터센터에 500억 달러 규모 임차 계약을 체결한 것으로 보도됨. AI 인프라 투자 확대는 고대역폭 메모리 수요 증가를 의미하며, 한국의 HBM·메모리 반도체 기업들에 긍정적 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-28",
+      "summary": "<p>엔비디아가 텍사스 데이터센터에 500억 달러 규모 임차 계약을 체결한 것으로 보도됨. AI 인프라 투자 확대는 고대역폭 메모리 수요 증가를 의미하며, 한국의 HBM·메모리 반도체 기업들에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nvidia behind $50 billion lease on Texas data center, FT reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 인프라 투자 급증은 SK하이닉스 HBM, 삼성 메모리 수요 견인의 명확한 호재이나, 뉴스 자체는 엔비디아 내부 소식으로 직접적 공급 확정은 아님.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN3hhTXBGOGJuOHRPd29ITFU3Y29ndDNjNWU4LTNNRzA2cE0wcm96dEFnNmcyM2xqUnQyb3hyT2sxQjNMUVQzTWF0b3Z5Njd5eXNxY2pnanRYWmxrQXAtY3RXcHVOSDNWRTRzOWZmQ0huSmFYa3Y1TFNwWElvdVI0a1RUajY0aXhqUGQ2R0lKRmtLdTlXUzZBUnZIM3duWG9DM1NJVDBkVkRvZw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-28 18:07:05"
     },
     {
       "id": 17671,
@@ -13132,61 +13186,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BRXh5eWZwMEJXbXNrRFlNWHV5Z21LRWZqaHVyVWkwZE4wZmVJVTNqeFljdmJtemh6Z1U5TXRJSW5NOFprMllCLUlmQzNDMGhFQnE4Qm5jTDhOVDZlOUJ6UnhwVUtLNkJ3YjNmNmhZRWJGR2pEQVBlUlJqZEc4Sjg?oc=5",
       "direction": "neutral",
       "updated_at": "2026-06-18 18:07:53"
-    },
-    {
-      "id": 10187,
-      "title": "연방준비제도 신임 의장 워시(Warsh) 체제 출범으로 미국 주식은 하락하고 달러는 강세를 보임. USD/KRW 환율 상승으로 한국 수출주 수익성 악화 우려, 외국인의 한국 주식 매도 압력 증가 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-17",
-      "summary": "<p>연방준비제도 신임 의장 워시(Warsh) 체제 출범으로 미국 주식은 하락하고 달러는 강세를 보임. USD/KRW 환율 상승으로 한국 수출주 수익성 악화 우려, 외국인의 한국 주식 매도 압력 증가 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trading Day: US stocks end lower, dollar jumps as Federal Reserve kicks off Warsh era Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 신임 의장 체제 전환은 금리·통화정책 기조 변화를 시사하며, 달러 강세는 환율 상승으로 수출 기업 이익 악화 및 외국인 자금 회수 유발",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "LG화학",
-        "삼성SDI",
-        "대형 수출주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXgzLXpId1Nfb2JFdTB1cnhvRVNEcFh0RGd3UGJoUXc1elJITHQxbGN6ZUw1WWFWS0xXMnNLY3NSa1NHSUlhVi14QzR5YjhGWWlhX3BaMWg5NE1fYzI2Wl8zRkxoSmdmSGRobHlDOUtYZ2k0YWk5UG9RcGY0bU9IQ2E1MFc3YkJBd01ZNkFpRm1yczloWV9WeDF5Smh4T1otMW14Vmln?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-19 12:07:44"
-    },
-    {
-      "id": 10071,
-      "title": "트럼프 행정부가 반도체·AI 등 전략적 핵심 산업에 지분 인수 방식으로 투자하는 정책으로 전환. 미국 반도체 공급망 자립화 강화로 한국 메모리/파운드리 기업의 미국 시장 접근성과 경쟁 구도 변화 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-17",
-      "summary": "<p>트럼프 행정부가 반도체·AI 등 전략적 핵심 산업에 지분 인수 방식으로 투자하는 정책으로 전환. 미국 반도체 공급망 자립화 강화로 한국 메모리/파운드리 기업의 미국 시장 접근성과 경쟁 구도 변화 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump administration pivots to buying stakes in critical sectors Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미국의 전략적 반도체 투자 확대는 한국 주요 수출 기업(SK하이닉스, 삼성전자)의 미국 사업 환경과 공급망 역학을 직접 변화시킬 수 있는 정책적 신호",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORGlsaUNLd2dtbm8wS3hVczZ3cks2MWZfZFl6R0FiSjFpVHJBeWJYUFFqOW1VNVFkWE1IaW1paENCa1czc0NJcWxXZ1MtVDZMLUdEQWdfeGNXSTFpdU5BaUZQZmRVN0RqeVhISjFFbzJ5ZnNoZUU0OUV0dzlNc1VRenBzNHZZazdoaTQ3R2ltVFRYT0stMl83NndNUGEwdS1DSXVMRldvNUhMeEcxamVQZHVNdXAwQ1VKV3pXdzhmRmROYy1fby0xNmNhQVpDeW9P?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-06-19 00:07:07"
     }
   ],
   "events": [
