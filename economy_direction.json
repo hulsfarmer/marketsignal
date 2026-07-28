@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T09:05:52",
+  "generated_at": "2026-07-28T09:07:40",
   "count": 500,
   "posts": [
     {
@@ -4877,6 +4877,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 17614,
+      "title": "카자흐스탄의 일일 석유 생산량이 수출 터미널 폐쇄로 절반 수준으로 급감했다. 전 세계 유가 상승 압력이 높아지면서 한국의 정유·화학 기업들의 원가 부담이 증가할 것으로 예상된다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-27",
+      "summary": "<p>카자흐스탄의 일일 석유 생산량이 수출 터미널 폐쇄로 절반 수준으로 급감했다. 전 세계 유가 상승 압력이 높아지면서 한국의 정유·화학 기업들의 원가 부담이 증가할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Kazakhstan&#x27;s daily oil output halves after export terminal closure, source says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "주요 유가 공급 차질로 글로벌 유가 상승 가능성이 높으며, 한국 정유·화학사들의 원료비 상승과 수익성 악화로 이어질 수 있다.",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeGgtaGpMYTdoS2Vxa1IzZHB2bnNFUy1RSlB0bEJDRUxhNkRReUhoTVlYdWs2WkpqeVlEZkpNQ0lwZjFuZVNGbVV6RUpZTFVJZmFpZHozVEU4aWlISVlLSVBZakhlejRWT2tyNTZ3YkZROUhFeF9IQlJRYVVwS1N5RmhITDZlclRUN3pPaENpc252dldyVWFZeWhQRW5Na1RnLUJMZVhLM0RmWHJ2aUUwZ3lNZGxxa044OWFFYmh2UkljN0NMNkhVOV96dDE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-28 09:07:38"
+    },
+    {
+      "id": 17606,
+      "title": "Cadence가 AI 칩 설계 수요 호황으로 연간 실적 전망을 상향 조정했으며, 이는 HBM·메모리·파운드리 등 한국 반도체 기업들의 AI 칩 수요 확대를 시사하는 긍정 신호",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-27",
+      "summary": "<p>Cadence가 AI 칩 설계 수요 호황으로 연간 실적 전망을 상향 조정했으며, 이는 HBM·메모리·파운드리 등 한국 반도체 기업들의 AI 칩 수요 확대를 시사하는 긍정 신호</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Cadence raises annual forecasts as demand booms for AI chip design Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 칩 설계 도구 수요 확대는 한국 메모리·파운드리 기업들의 고객사(NVIDIA 등) 매출 증가로 이어져 HBM/메모리 납기 확대 및 파운드리 수주 증대 기대",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도transparency",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZEw5TFphTEV5OHVidlJkNzRwS1c3WDgzMmU2Ql93X3plWmc4dVl6ZEJwSy1kMnBqc1NuRm5Ib0RqcFp5OVctX2VHcV8xWjdvWU5YVnB6THJlRnRMS3l5TnhUUzFRLVVpT2JUUGdHa2dhWDVlelhkSVpjdTh4ck1TUXBXeGxwN3RMd19pZVV1YWNTZm9CamMyUFRwaEdFcjNIRXZkWnVRUTNacU0zcUp3THducUpTWk1vZmNrdQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-28 09:07:05"
     },
     {
       "id": 17575,
@@ -13140,62 +13194,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ3RGdFdxNnpXLVpLTlkxemJqLUtGWTdweGp6YlNfUWw1M3pQb25JUDc4ZFZKYkR4MnkzSWpLY29sLWRuTFgyOS1pRmdJVE1BUVIycVJKQ3pnNU1DdUN3VThGT08takJiLWhxSGlWb3RCU3ptODRadTNRTXNPZFVETzhUWE9PdkFBNFhmWm9kcnNLS3BMTm5OUTl2U0dsZTg?oc=5",
       "direction": "down",
       "updated_at": "2026-06-18 06:07:28"
-    },
-    {
-      "id": 9877,
-      "title": "Fed 신임 의장 Warsh 체제 출범 하에 기준금리 동결 결정, 연중 1회 인상 전망. 미국 금리 경로 완화 신호로 달러 약세 가능성 및 신흥국 자산 매력도 상승.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-17",
-      "summary": "<p>Fed 신임 의장 Warsh 체제 출범 하에 기준금리 동결 결정, 연중 1회 인상 전망. 미국 금리 경로 완화 신호로 달러 약세 가능성 및 신흥국 자산 매력도 상승.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed begins Warsh era by keeping rates on hold, sees one hike later this year Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 경로가 한국의 USD/KRW 환율, 외국인 자금 수급, 채권 금리에 직결되는 주요 매크로 변수로 작용",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차",
-        "LG전자"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOVVoOVhjSkc1cnNGNlNHeUVzVkp3NWdJNkMyYW9mTXJUMUc0TTEzdEl0OE9iRjg0YVlTTHA0ZVNPY3gwYXpGa0VsbGVuMlZUTkpZX3dKdHhJOGQyejdNS1dhTjVSeUNibk1TdHM1eWh2eVhpdHpxMU55XzRrYUdtTkNuMExkeGg3a1N0WjJkOFc2RWN1eS1uaUFR?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-18 06:07:20"
-    },
-    {
-      "id": 9824,
-      "title": "인도 루피화가 유가 랠리와 달러 수요 사이에서 혼조를 보이는 가운데, 미 연방준비제도(Fed)의 금리 결정이 임박했다. Fed 정책 방향이 글로벌 달러 강세와 한국 원화 환율에 영향을 미칠 것으로 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-17",
-      "summary": "<p>인도 루피화가 유가 랠리와 달러 수요 사이에서 혼조를 보이는 가운데, 미 연방준비제도(Fed)의 금리 결정이 임박했다. Fed 정책 방향이 글로벌 달러 강세와 한국 원화 환율에 영향을 미칠 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Rupee nearly flat as oil-led rally faces off against dollar demand; Fed verdict looms Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 결정 임박이 글로벌 달러 수급과 USD/KRW 환율에 직접 영향을 미치고, 이는 KOSPI 외국인 수급 및 수출주(반도체·자동차·화학) 수익성에 파급 효과를 줄 수 있다.",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "LG화학",
-        "삼성화학",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR1NCX29Fck41YWdHTTdRNXpOeE1Ca3BiTjM2RmNjQkMxb3VhVzVOeVgzRFNxNGZQb01MY2d2S3JxWTBaYXJkTHVhMEtSYVNyM3NwaV9fNldJTlhVQTZrVUwxTUZnT3VycVVsS09GU2lfOUFLZFlsTUlUb3hVMU90c3IzOW5pUUJQbWJJaUh5NE95VG9qVmJoUjF1clVtOEpxZ2tQX25lbkZZNVFvOUI4Rndn?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-06-17 21:08:36"
     }
   ],
   "events": [
