@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T06:05:02",
+  "generated_at": "2026-07-29T06:08:14",
   "count": 500,
   "posts": [
     {
@@ -4958,6 +4958,35 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 17817,
+      "title": "파운드화 약세 및 유가 하락 속에 미국 금리인상 베팅 증가. USD/KRW 상승 압력으로 한국 수출주 수익성 악화, 외국인 주식 이탈 우려 초래.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-28",
+      "summary": "<p>파운드화 약세 및 유가 하락 속에 미국 금리인상 베팅 증가. USD/KRW 상승 압력으로 한국 수출주 수익성 악화, 외국인 주식 이탈 우려 초래.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Sterling slips as oil slides, US rate hike bets grow Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 긴축 심화 신호는 한국 채권 금리 상승·외국인 자금 유출 압력을 높이고, 달러 강세는 원화 약세를 초래해 한국 기업 수익성과 외인 수급에 직결된 거시 악재",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대자동차",
+        "포스코",
+        "삼성SDI",
+        "LG전자"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZVpsbUxqc1JmN1NCRGpPbFFZY3dsN19ZMEZKZ2dUd2lTX1MwdGdtNXhoUG1HT2ZQVzFCT2pfMlBXMHFmM2xibmtoRUNBVFpGbWFEVTZjRTNBd1Y3OFN4RUtLRDJQYlU4OXlTRUU1bVlidzhHT0lRV1FfRmhsN3k4ay1sUWlsQkN5NDZmVmRfU2lRMzFCQW9Sbw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-29 06:07:32"
     },
     {
       "id": 17777,
@@ -13154,33 +13183,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZG02bzJ4OGJXcmxfdVpUOF93YnROQ0h1YWd4WFNfbmlnaDBHb205WDBYdEE5VXFfVDVELThyWGs0RzlJZEpXeU5YNkpXU2VxNUhIVnV5MUdCVWRvYkc1YTdCaml5dGsyUXFodnR2eWRVNG5YTmRDbTl4bGVOanEwQnNzYnhRYUtYaWtGVGxsS2lpQWp4b3kzUw?oc=5",
       "direction": "down",
       "updated_at": "2026-06-19 18:07:27"
-    },
-    {
-      "id": 10198,
-      "title": "2026년 6월 미국-이란 핵협상 합의로 이란의 국제 위상 강화 및 중동 세력 재편이 예상되며, 유가 변동성과 중동 지정학적 리스크 완화가 한국의 에너지·화학 기업들에 영향을 미칠 것으로 보임.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-18",
-      "summary": "<p>2026년 6월 미국-이란 핵협상 합의로 이란의 국제 위상 강화 및 중동 세력 재편이 예상되며, 유가 변동성과 중동 지정학적 리스크 완화가 한국의 에너지·화학 기업들에 영향을 미칠 것으로 보임.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US-Iran deal redraws the Middle East: Iran gains, rivals alarmed Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학 리스크 완화로 유가 안정화 가능성 및 이란 제재 해제에 따른 원유 공급 증가 예상으로 정유·화학 업계의 원가 부담 경감 가능",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMHdqWU5BUEl6Rk5rSXlOWFpXQmtwRXdrRXlHeHlBSHFGbE1Nb1JaSUJFcnVVX1FLWlQ0b09ReTNNdFVySjNQeGdkUnpsbVg3X2lvWURuemFDOTFUQkVYRGItWkFEUE45MThwTUNQNElaYlE1akRDckRzNFZ0QWxyWkRzV3R2T2FBaTl3WXluSjQ4ZDdPZkd2eWg0OHVHblJlc1RfVnVjM1JEdkRVTzVnRWxB?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-19 12:08:26"
     }
   ],
   "events": [
