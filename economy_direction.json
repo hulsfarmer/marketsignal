@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T00:05:02",
+  "generated_at": "2026-07-30T00:08:33",
   "count": 500,
   "posts": [
     {
@@ -5145,6 +5145,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 18020,
+      "title": "일본의 주요 산업 허브를 강타한 지진으로 비즈니스 운영이 중단됨. 일본은 반도체·전자제품 핵심 부품 공급지로, 한국 반도체 업체들의 공급망 차질 우려",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-29",
+      "summary": "<p>일본의 주요 산업 허브를 강타한 지진으로 비즈니스 운영이 중단됨. 일본은 반도체·전자제품 핵심 부품 공급지로, 한국 반도체 업체들의 공급망 차질 우려</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Strong quake hits Japan&#x27;s production hub, disrupts business operations Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "일본은 반도체 소재·부품·장비의 주요 공급국으로, SK하이닉스·삼성전자 등 한국 반도체 업체의 생산 차질 가능성 존재",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2VYMDNrNVk1ZzA2djBhTDJsb3psVnpnaHVSemFZN1gxZ3Z2a2VmTWpRU1ZrN1pBSDlMTFdmeUNWbW1uclB1S1FfZXNDMXlVVWZVTHZCdmIzejJ1WWVFMHl3bUdCZ01qVnltb1RlamZETXlyYkQ5R19jaHYyY1dmeXEza1pxV1RrZHU0OG9RVnNpbkNCaEdNaDRDc0lNbl9hSk9sNXg4WHJYZmJBMWNBNkt4elU0Yk1VcWJZVmhNSkhfZXVhVXlaTQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-30 00:07:17"
     },
     {
       "id": 18006,
@@ -13143,33 +13170,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV2Q3MUFjRFVSRHMtWHB1WTRIajUwcmVBOUlYYlRFaENsWG5BMnZUd3c0dWx3V0tybHBTMEU3bTVVenRzdzNUd1R4cl9VSW9CTEtIV2FpeVhEVWw3ZmdxeXB2Ukc5Wm0taTl0SkxfQVhnd3RSdzZuNmFPcGhoSHhYQnNKaFhMM0JwX2FMUmhDNFBqdmlSRDhnWnZSdW9Ec3B1ZGRBMnJB?oc=5",
       "direction": "down",
       "updated_at": "2026-06-24 09:07:06"
-    },
-    {
-      "id": 10826,
-      "title": "Fed 금리 인상 베팅과 기술주 매도로 유럽 STOXX 600이 1주일 이상 최저치 기록. 금리 상승 우려는 USD/KRW 환율 상승으로 이어져 한국 수출주와 외국인 수급에 부정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-23",
-      "summary": "<p>Fed 금리 인상 베팅과 기술주 매도로 유럽 STOXX 600이 1주일 이상 최저치 기록. 금리 상승 우려는 USD/KRW 환율 상승으로 이어져 한국 수출주와 외국인 수급에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): STOXX 600 hits over one-week low on Fed hike bets, tech selloff Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 매파적 기조는 원화 약세, 글로벌 기술주 약세로 이어지며 한국 반도체·IT 수출주와 외국인 자금 이탈 우려 초래",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "LG전자"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMktPMmRwSjRMQlJGQXZWdTh0QmdicjEzZGdTUW9LdTFXTDViZUJaRGZrYkxrSklYdVdTOFFKbV9BMUpNTS1CZVE3NFhEcDZVSXhTYWFUOHBfQ1llc09hM0VMcE5fd01KWG9zTUZsLUpZS051a0l6QkgzQWh5OGFqVW8yX0pkbmNFaUFBcmlGSGlWYTk1UDgtMURDdUtsX3pTZUxXX2MtSGZXYjBfTzI5bzgzM05kNjE0T0ppNw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-24 00:08:15"
     }
   ],
   "events": [
