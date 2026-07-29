@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T16:05:02",
+  "generated_at": "2026-07-29T16:35:19",
   "count": 500,
   "posts": [
     {
@@ -3175,6 +3175,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 17957,
+      "title": "크래프톤 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260729",
+      "summary": "<p>크래프톤이 약 1조원(99,999,984,000원) 규모로 409,836주의 자기주식을 취득하여 전량 소각할 예정. 현재 보유 자기주식 2,679,374주(5.8%)에 추가로 취득 시 총 3,089,210주(6.7%)가 되며, 배당가능이익 한도(3.89조원) 내에서 추진되는 주주환원정책.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 크래프톤</p>",
+      "feedback": "자사주 소각을 통한 주주가치 제고는 긍정 신호이나, 장기 계획 이행 단계에 불과하고 실제 취득은 3개월 소요되므로 단기 주가에 미치는 영향은 제한적 (단기 수급 개선 효과는 제한적).",
+      "stocks": [
+        "크래프톤"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000354",
+      "direction": "up",
+      "updated_at": "2026-07-29 16:35:17"
     },
     {
       "id": 17498,
@@ -13156,34 +13178,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX0lWU2NUd05hc2JpNFpiQWtvUGJ5RjNYZnVTMHBYbmxVSE5kVW53N1hjeGJlQUZzLVVOZ2dnNDc4UDdxWkZIR005X1VIWnBBdEtJQWxscW9wdEs2aS11ZENmMzB2TFFzUkVzcUk2M0RfendOOUcxUF93dHBzaFdMWnI5NFBuV2I5RVNuYUgycDF6dk8tWFRpenZKTFk?oc=5",
       "direction": "up",
       "updated_at": "2026-06-23 09:07:31"
-    },
-    {
-      "id": 10572,
-      "title": "이란 전쟁으로 글로벌 유가 불안정성 심화, 주요국들의 전략유비축 경쟁 가속화. 유가 상승 시 에너지 수입국인 한국의 수입 인플레이션 압력 증가 및 USD/KRW 약세 유인.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-22",
-      "summary": "<p>이란 전쟁으로 글로벌 유가 불안정성 심화, 주요국들의 전략유비축 경쟁 가속화. 유가 상승 시 에너지 수입국인 한국의 수입 인플레이션 압력 증가 및 USD/KRW 약세 유인.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran war triggers global race to build oil reserves Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 급등 시 한국 수입물가·경상수지 악화, 외환시장 및 채권 금리에 직접 영향으로 매크로 리스크 상당",
-      "stocks": [
-        "SK에너지",
-        "GS에너지",
-        "S-Oil",
-        "한국조선해양",
-        "포스코인터내셔널",
-        "현대자동차"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ2VKQXhDQ0hnaDQtUUhLb21EZUhxSUVsQnBwUXBQMUMxYzRNWHM3ZkZmUDJubXFQZDBzY3JzTU1fdmtxNTBEN3RzazFRa2FHTWtfNnk1R3F1eVFmWkFyVG1sX3VPejFSNWZoU3NYZUJQZFlTWHZVZlhfd2FLcEJwUXpjVWhXYWJYOEgxZTROMFZQTDhMT3hfaTVyTGZGSHlnRXBkT1hQc0pvR2w4ZC1FdXRfQ1pYak54?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-23 06:08:35"
     }
   ],
   "events": [
