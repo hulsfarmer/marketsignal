@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-29T16:10:28",
+  "generated_at": "2026-07-30T15:04:37",
   "dates": [
+    "2026-07-30",
     "2026-07-29",
     "2026-07-28",
     "2026-07-27",
@@ -29,8 +30,7 @@
     "2026-06-19",
     "2026-06-18",
     "2026-06-17",
-    "2026-06-16",
-    "2026-06-15"
+    "2026-06-16"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,86 @@
     }
   },
   "by_date": {
+    "2026-07-30": {
+      "ai": {
+        "count": 0,
+        "picks": []
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "003550",
+            "name_kr": "LG",
+            "ms_score": 67,
+            "ai_score": 95,
+            "confidence": "HIGH",
+            "reason": "[T] tech 96 / earn 0 (RSI 37, 5일 -9.2%)",
+            "entry_price": 92200.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "066570",
+            "name_kr": "LG전자",
+            "ms_score": 57,
+            "ai_score": 94,
+            "confidence": "HIGH",
+            "reason": "[T] tech 95 / earn 0 (RSI 37, 5일 -19.7%)",
+            "entry_price": 150500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "329180",
+            "name_kr": "HD현대중공업",
+            "ms_score": 67,
+            "ai_score": 94,
+            "confidence": "HIGH",
+            "reason": "[T] tech 94 / earn 0 (RSI 33, 5일 -12.8%)",
+            "entry_price": 434000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "011200",
+            "name_kr": "HMM",
+            "ms_score": 64,
+            "ai_score": 64,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 0 / earn 64 (RSI 60, 5일 -3.6%)",
+            "entry_price": 20250.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "316140",
+            "name_kr": "우리금융지주",
+            "ms_score": 67,
+            "ai_score": 62,
+            "confidence": "MEDIUM",
+            "reason": "[E] tech 0 / earn 63 (RSI 62, 5일 +3.7%)",
+            "entry_price": 32050.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-07-29": {
       "ai": {
         "count": 4,
@@ -3000,100 +3080,6 @@
             "exit_price": 103300.0,
             "return_pct": 3.51,
             "return_pct_open": 3.51,
-            "correct": 1
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-06-15": {
-      "ai": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "005490",
-            "name_kr": "POSCO홀딩스",
-            "ms_score": 62,
-            "ai_score": 68,
-            "confidence": "MEDIUM",
-            "reason": "RSI 23으로 극단적 과매도 구간이며 자사주 소각이라는 명확한 주주환원 호재가 존재합니다. 20일 -22.5% 과도한 하락 후 5일 +5.0% 반등 시작 단계로 기술적_반등 패턴에 해당하나, 과거 실패 사례(RSI 31, -9.7%)를 감안해 포지션 비중 조절이 필요합니다.",
-            "entry_price": 377000.0,
-            "exit_price": 395000.0,
-            "return_pct": 4.77,
-            "return_pct_open": 4.77,
-            "correct": 1
-          },
-          {
-            "stock_code": "138040",
-            "name_kr": "메리츠금융지주",
-            "ms_score": 62,
-            "ai_score": 67,
-            "confidence": "MEDIUM",
-            "reason": "RSI 50 중립 구간으로 종가매수 최적 조건에 해당하며, 대표이사 직접 재매입이라는 경영진 신뢰 신호와 기관 저평가 추천이 수급_개선 패턴과 일치합니다. 5일 +5.9%로 일부 반영되었으나 뉴스 긍정 5건/부정 0건으로 추가 상승 여력이 남아있으며 RSI 과열 리스크가 없습니다.",
-            "entry_price": 108900.0,
-            "exit_price": 111300.0,
-            "return_pct": 2.2,
-            "return_pct_open": 2.2,
-            "correct": 1
-          },
-          {
-            "stock_code": "055550",
-            "name_kr": "신한지주",
-            "ms_score": 62,
-            "ai_score": 63,
-            "confidence": "MEDIUM",
-            "reason": "과거 2026-06-09 수급_개선 패턴으로 +4.22% 성공 사례와 동일한 외국인 폭풍 유입 및 목표가 상향 구조가 반복되고 있습니다. RSI 52로 과열 아닌 중립 구간이며 자사주 소각 등 주주환원 정책이 지속되어 하방이 제한적입니다. 단, 국민연금 지분 축소 리스크로 MEDIUM 신뢰도 유지합니다.",
-            "entry_price": 99600.0,
-            "exit_price": 105600.0,
-            "return_pct": 6.02,
-            "return_pct_open": 6.02,
-            "correct": 1
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 70,
-            "ai_score": 48,
-            "confidence": "LOW",
-            "reason": "[T] tech 49 / earn 0 (RSI 36, 5일 +8.5%)",
-            "entry_price": 173000.0,
-            "exit_price": 175000.0,
-            "return_pct": 1.16,
-            "return_pct_open": 1.16,
-            "correct": 1
-          },
-          {
-            "stock_code": "010140",
-            "name_kr": "삼성중공업",
-            "ms_score": 73,
-            "ai_score": 46,
-            "confidence": "LOW",
-            "reason": "[T] tech 46 / earn 0 (RSI 37, 5일 +3.1%)",
-            "entry_price": 26900.0,
-            "exit_price": 28650.0,
-            "return_pct": 6.51,
-            "return_pct_open": 6.51,
-            "correct": 1
-          },
-          {
-            "stock_code": "267250",
-            "name_kr": "HD현대",
-            "ms_score": 63,
-            "ai_score": 44,
-            "confidence": "LOW",
-            "reason": "[T] tech 44 / earn 0 (RSI 26, 5일 -1.6%)",
-            "entry_price": 244000.0,
-            "exit_price": 268000.0,
-            "return_pct": 9.84,
-            "return_pct_open": 9.84,
             "correct": 1
           }
         ]
