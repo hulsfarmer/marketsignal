@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T06:05:02",
+  "generated_at": "2026-07-31T06:08:43",
   "count": 500,
   "posts": [
     {
@@ -5320,6 +5320,59 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 18300,
+      "title": "대만 ASE Tech가 2026년 자본지출을 20억 달러 증액하며 강한 수요에 대응. AI·반도체 수요 확대로 패키징 업체의 투자 확대, 한국 반도체 공급망 전반에 긍정적 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-30",
+      "summary": "<p>대만 ASE Tech가 2026년 자본지출을 20억 달러 증액하며 강한 수요에 대응. AI·반도체 수요 확대로 패키징 업체의 투자 확대, 한국 반도체 공급망 전반에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Taiwan&#x27;s ASE Tech raises 2026 capex by $2 billion on strong demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 반도체 수요 증가 추세 확인으로 SK하이닉스·삼성전자 등 한국 메모리·파운드리 호재, 다만 ASE의 경쟁사 위치 강화로 한국 패키징업체는 경쟁 심화",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcDBjTXFZZlVXaVZOYXp1RDBLZXNFc1lIX1ZMZlJRVmxvZHNSS2hDel9DY3JkVTl2WFR6SU9JaGhYcDlVQjdFMzVjYWdoc21ja3M0VDJ6eF9EUWtpeHduNXBaMGtlY3NuVXFNOGxmbl9QTE42aUEyNVdrcXhISkU3V1o4RFBpbUxPaTR4OGU2b0lsNG5IZldpVTJVN2dfQm1uV1BDZkVmaVpsNjZwblRYVzhtRFlSdVU?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-31 06:07:18"
+    },
+    {
+      "id": 18297,
+      "title": "구글 지원 하에 Anthropic이 데이터센터 건설을 위해 은행권으로부터 150억 달러 대출을 추진 중. AI 인프라 투자 확대로 고성능 반도체 수요 증가 전망.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-30",
+      "summary": "<p>구글 지원 하에 Anthropic이 데이터센터 건설을 위해 은행권으로부터 150억 달러 대출을 추진 중. AI 인프라 투자 확대로 고성능 반도체 수요 증가 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Banks in talks to lend $15 billion for Anthropic data center backed by Google, WSJ reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 데이터센터 대규모 투자는 HBM·메모리·파운드리 수요 증가 신호로, 한국 반도체 기업들의 중장기 수익성 개선에 긍정적 영향.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLU9ob1o4VENpUVhkRzJQaDBnMERzSE9yTFZSU1ZiWlBCMEh1RHFiZHJpeHlpRmdwQ3dQQlpjR2cxUlJNWUYzRjhNaURkejRUMV91dFJJeGVhVHM4anhWNTE2Yjh0MnVJUjJmWG9JcDE0bkh2R3k2UVZ0WGhtWTZ1aDdTblBPZUNGWGZaWHNaX19sV3pZYzk0elhPN3hENC1CdklPemhZVGpGdUhRQlRLb256WkxfWUh1MWV1UWt1Nkp4bTZxOUpfc2pyYw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-07-31 06:07:06"
+    },
+    {
       "id": 18261,
       "title": "6월 미국 인플레이션이 둔화되었으나, 중동 분쟁으로 인한 유가 상승으로 인플레이션 반등 가능성 지적. 이는 Fed 금리 인하 기대감과 상충되어 USD/KRW 환율 변동성 확대 예상.",
       "category": "거시",
@@ -5628,6 +5681,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tZUpRQXhBTWNiQUpVakxxTnVOaEhBMEFFRHF5Q241a2dseHJ0NHpZQ1NNWnc1V3hrU3dVeThuUEp0RjFCaDlraTB1YldrUUloc3hOMHJKd2h5WlJla2JBQVJEbThYTDV4NEhPX2d6YmRibnoxQ1NaZWFhOA?oc=5",
       "direction": "down",
       "updated_at": "2026-07-30 12:07:35"
+    },
+    {
+      "id": 18316,
+      "title": "예멘 후티 반군이 홍해를 지나는 선박에 통행료 부과를 검토 중이며, 이는 국제 해운료 상승 및 유가 변동성 확대로 이어질 수 있어 에너지·화학 관련 한국 종목에 부정적 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-07-29",
+      "summary": "<p>예멘 후티 반군이 홍해를 지나는 선박에 통행료 부과를 검토 중이며, 이는 국제 해운료 상승 및 유가 변동성 확대로 이어질 수 있어 에너지·화학 관련 한국 종목에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): EXCLUSIVE: Yemen&#x27;s Houthis considering fees for ships sailing through Red Sea, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "홍해 통행료 도입 시 해운비 상승→유가 변동성 확대→한국의 석유화학·정유 기업들의 수입원가 증가 및 마진 압박",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZzFWSEJjR1NNV3libHZfdlE0dkVfbW9jdG5VX3NpbEg4OGJQSllPQ2RsZmoyNXFjVEFMZkdoME5wRHZMS3NrZlEzT2JUT2hPVXZnQkROOTV0YVJIQk80cEw2ODNKWnlMcmNXYVVFcng4UlVEOVUzYWkzYVhCU19HaHVnQ0JSQzVzSE9OQjdDYzNDRjZiWXZQeDlMandraXA3d1NtRzhHVWRBMlA3NExVblNTY3dYbUpXb2pjVnRkcGhEWWU1U0E?oc=5",
+      "direction": "down",
+      "updated_at": "2026-07-31 06:08:21"
     },
     {
       "id": 18206,
@@ -13076,92 +13156,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNVRZWlRWTkk4RmlHWHVySDY2aE9paWhtbm8wWHRRSlJSbnVSd24wTXEwLWZ1M1NPbE5sdklEU0VpVllFTk1ycXlfRlY3d1NERzFrNGdtZ3pnVmlwa2F4MEpfYVlUTDBDU0lGbGRTYnA0c1RnQnFBdk93ck13Uk5YbVBCTTZoSXlTRTVnR1RtckFyN3hYei1tX3lIU3hGaEtwSjkzYkkxekZaVm9tZjhUQlczdw?oc=5",
       "direction": "down",
       "updated_at": "2026-06-26 21:07:50"
-    },
-    {
-      "id": 11458,
-      "title": "2026년 하반기 달러화가 '승자독식' 강세 심화로 진입. 강달러는 USD/KRW 상승 압력, 한국 수출기업 수익성 악화, 외국인의 신흥시장(한국 포함) 이탈 가속화를 야기할 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-26",
-      "summary": "<p>2026년 하반기 달러화가 '승자독식' 강세 심화로 진입. 강달러는 USD/KRW 상승 압력, 한국 수출기업 수익성 악화, 외국인의 신흥시장(한국 포함) 이탈 가속화를 야기할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar rides into second half of 2026 on a &#x27;winner takes it all&#x27; wave Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "강달러 기조는 환율 상승, 외국인 자금 이탈, 수출기업 실적 악화로 이어져 KOSPI와 주요 종목에 의미있는 부정적 영향 미칠 가능성",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "기아",
-        "포스코",
-        "CJ",
-        "대형 제약사"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZVFXYlBRUWhEeFk1cW5iVzF5YW9FSWVzQVV4aXJSRkhwR3hUN09ya050MlNfWUVHTnJTZXl0RXJKSDRObkozSm9YdjU2cXo1Vm5sZW5ZdjBVMjJLQU1BanJrY3J4ZURyREdBeEdJaUtzbTI5NHh1VmFpTkpOeEJuYkZRYXVvQUtzYjdOaWtPNEFZQnJ4RUZ3WmtxT0MwYVlkQlp5RUJLMkYwYXkxYTFj?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-26 15:07:37"
-    },
-    {
-      "id": 11451,
-      "title": "AI 반도체 가격 상승('칩플레이션')에 대한 로이터 분석으로, 고성능 칩 수급 부족과 가격 상승세가 지속되는 상황. HBM, 파운드리 등 한국 반도체 기업의 수익성 개선 기회.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-26",
-      "summary": "<p>AI 반도체 가격 상승('칩플레이션')에 대한 로이터 분석으로, 고성능 칩 수급 부족과 가격 상승세가 지속되는 상황. HBM, 파운드리 등 한국 반도체 기업의 수익성 개선 기회.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Chipflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 반도체 공급 부족과 가격 상승은 SK하이닉스·삼성전자의 HBM/메모리 수익 증대 호재로, 반도체 산업 구조적 호재 신호",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kZUJQRkVoeVFWR0V4dWNNVFo2RHF2b1lYeTRuTWNMVkc1Mm9EUUJUZ2xmQWk4aFpKeDc1UGItakRnWFVrdVN5NGZrZnI0QnJUTm9ScXBlajJTMEhNWGViajgwMXlsUVJHb2NZdFBuWnZCX29YRU1XbGlFSmFLemM?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-26 15:07:05"
-    },
-    {
-      "id": 11561,
-      "title": "미국 1분기 GDP가 상향 조정되었으나 소비 지출이 거의 정체되는 모순적 신호 발생. 약한 소비는 Fed의 금리 인하 가능성을 높여 USD/KRW 약세와 한국 수출주 회복에 긍정적이나, 글로벌 수요 약화 신호로 반도체·자동차 등 수출 산업에는 부정적 영향 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-25",
-      "summary": "<p>미국 1분기 GDP가 상향 조정되었으나 소비 지출이 거의 정체되는 모순적 신호 발생. 약한 소비는 Fed의 금리 인하 가능성을 높여 USD/KRW 약세와 한국 수출주 회복에 긍정적이나, 글로벌 수요 약화 신호로 반도체·자동차 등 수출 산업에는 부정적 영향 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US first-quarter GDP revised sharply higher; but consumer spending nearly stalls Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 소비 부진은 한국 수출 전망 악화와 Fed 금리 인하 기대를 동시에 자극하며, 환율·외국인 수급·채권 금리 등 전반적 주식시장 변동성을 높임.",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대자동차",
-        "기아",
-        "삼성SDI",
-        "SK이노베이션"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQVotZm4yTnRycktSUGtjOFBmeXBrOVhQRHRIbFB4cDRCdWxpaUdRWXNkMXRRaE90cGJOdmFla2dCRlNDT3ZJX04zUk0xUlY3ZmRGc0JsZkZXUGpnTUZjVXNKdXpqWlppcDJEajQ3YTJnV1FHSWM4cTNIR0Y4U3VIRmw5emlyQVRSSDdyQk5URHR2UVpxWk9TdHVVRkQtTk0xaXZXWjFzWXFZWHhMbURmWG40RXpPc0FYRmdadw?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-06-26 21:08:05"
     }
   ],
   "events": [
