@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T15:08:20",
+  "generated_at": "2026-07-30T15:35:20",
   "count": 500,
   "posts": [
     {
@@ -3289,6 +3289,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 18182,
+      "title": "DL이앤씨 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260730",
+      "summary": "<p>DL이앤씨가 3개년 주주환원정책의 일환으로 555억 원 규모(배당가능이익 한도 590억 원의 94%)의 자기주식 신탁 매입을 결정했으며, 예상 취득 수량 1,059,160주(기존 보유 1,137,954주 대비 93% 규모)는 소각을 전제로 함.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · DL이앤씨</p>",
+      "feedback": "상당한 규모의 자기주식 매입으로 주주환원 의지 표현이나, 최종 취득 수량·가격이 시장 변동에 따라 불확실하고 실제 소각까지 별도 결의 필요로 단기 영향은 긍정적이나 제한적",
+      "stocks": [
+        "DL이앤씨"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000315",
+      "direction": "up",
+      "updated_at": "2026-07-30 15:35:18"
     },
     {
       "id": 18077,
@@ -13141,35 +13163,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb2xYMVNxREhIRmpJUjdXV3BXWTE1SmJER1YwOXhJVGozUkdScTdnWWRXLUxmOHhwWnAyOTY0MU9VVm5tZWNzd1ZmRUJCZGpNQ1I5Y0RTODJQZGFTNG9LYVpvT3hLa29uSkRjVjNXNFFoQmtCdG9CMHpRbktQY2pXR3p3ZFg4YXpWd1NCQ3NsellISWpQbHNtVnl4WVM2cVlvV1cyWDBwMlZpV3Zs?oc=5",
       "direction": "down",
       "updated_at": "2026-06-25 21:07:42"
-    },
-    {
-      "id": 11265,
-      "title": "Fed 금리 인상 베팅으로 달러 강세가 지속되면서 금은 7개월 저점 근처에서 약세를 보이고 있다. 이는 USD/KRW 환율 상승과 한국 수출주 수익성 악화로 이어질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-25",
-      "summary": "<p>Fed 금리 인상 베팅으로 달러 강세가 지속되면서 금은 7개월 저점 근처에서 약세를 보이고 있다. 이는 USD/KRW 환율 상승과 한국 수출주 수익성 악화로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gold under pressure near 7-month low as Fed rate-hike bets boost dollar Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "달러 강세는 한국의 환율 악화, 외국인 주식 자금 유출, 수출기업 실적 부담을 초래하는 의미있는 매크로 악재",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "현대모비스",
-        "LG디스플레이",
-        "SK이노베이션",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVkVOTXlYQ0o2aUd6NFRXc1liR1RxcXQzTjI4V1lLdGFxaDFPMUh1akY3VTZCNFdtaDNOWFZpSXRZVGZwUW11d1lyX1F0a0ZMT3FUZUFidkdjd1lxMmVuR28xWDdEQzFVY1lFTDkyVDdWTHpUWGJJN3o5ajZFcUZSOXJzbWt1S2VPdUoyTzlXR2wzMFFYeTFnN1o3bndwYUVVbDBCVGJB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-06-25 18:07:31"
     }
   ],
   "events": [
