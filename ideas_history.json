@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T15:05:36",
+  "generated_at": "2026-07-31T16:10:27",
   "dates": [
     "2026-07-31",
     "2026-07-30",
@@ -41,11 +41,11 @@
       "avg_return_open": 0.4
     },
     "hybrid": {
-      "total": 208,
-      "correct": 89,
-      "hit_rate": 42.8,
-      "avg_return": -0.44,
-      "avg_return_open": -0.39
+      "total": 213,
+      "correct": 93,
+      "hit_rate": 43.7,
+      "avg_return": -0.38,
+      "avg_return_open": -0.33
     }
   },
   "by_date": {
@@ -211,10 +211,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 96 / earn 0 (RSI 37, 5일 -9.2%)",
             "entry_price": 92200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 96400.0,
+            "return_pct": 4.56,
+            "return_pct_open": 4.56,
+            "correct": 1
           },
           {
             "stock_code": "066570",
@@ -224,10 +224,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 95 / earn 0 (RSI 37, 5일 -19.7%)",
             "entry_price": 150500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 148000.0,
+            "return_pct": -1.66,
+            "return_pct_open": -1.66,
+            "correct": 0
           },
           {
             "stock_code": "329180",
@@ -237,10 +237,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 94 / earn 0 (RSI 33, 5일 -12.8%)",
             "entry_price": 434000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 448000.0,
+            "return_pct": 3.23,
+            "return_pct_open": 3.23,
+            "correct": 1
           },
           {
             "stock_code": "011200",
@@ -250,10 +250,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 64 (RSI 60, 5일 -3.6%)",
             "entry_price": 20250.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20650.0,
+            "return_pct": 1.98,
+            "return_pct_open": 1.98,
+            "correct": 1
           },
           {
             "stock_code": "316140",
@@ -263,10 +263,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 63 (RSI 62, 5일 +3.7%)",
             "entry_price": 32050.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 32700.0,
+            "return_pct": 2.03,
+            "return_pct_open": 2.03,
+            "correct": 1
           }
         ]
       },
