@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T15:05:02",
+  "generated_at": "2026-08-01T15:08:46",
   "count": 500,
   "posts": [
     {
@@ -526,6 +526,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 18688,
+      "title": "한국 7월 수출이 AI 투자 수요 강세로 예상을 상회했으며, 특히 반도체 부문의 견조한 수출이 주요 견인 요인. SK하이닉스, 삼성전자 등 메모리/파운드리 업체들의 수출 호조가 반영된 결과.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-01",
+      "summary": "<p>한국 7월 수출이 AI 투자 수요 강세로 예상을 상회했으며, 특히 반도체 부문의 견조한 수출이 주요 견인 요인. SK하이닉스, 삼성전자 등 메모리/파운드리 업체들의 수출 호조가 반영된 결과.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea July exports beat forecasts on robust demand for AI investments Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 투자 수요 증가로 한국 반도체(HBM, 메모리, 파운드리) 수출 호조가 구체화되었으며, 주요 수출 산업의 실적 개선 신호로 작용.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ3pPc0djdWVnN3pKdUQ5UnlxS2pGVW9va3EwbEtFY05SVjVseHVGWTdDT2RHaWk1d0RYOFhMLUplRVdhZDRLb1F2WlYtcjgxUDJLcUtfTVZHWnNZUTd3azA1aG9Yd0lMbV9TMHpnV0UzMTBfWHZjOEU2aGxOczZWbUFYXzF0anRUbmVrX3FFZjdEZFBvNFdJY0tweEotXzhKM3pPQWNDWDZLQ1hBVDBCUmxoMF8yRWFZSzFBLXlpcWE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-01 15:07:06"
     },
     {
       "id": 18265,
@@ -5318,6 +5345,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 18697,
+      "title": "미국 재무부 채권 매도세가 확대되면서 연방준비제도(Fed)의 인플레이션 신용도 강화 필요성이 제기됨. 이는 향후 Fed의 금리 인하 시기 연장 가능성을 시사하며, USD/KRW 환율 상승과 한국 수출주 약세, 외국인 주식 자금 유출 압박으로 작용할 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-01",
+      "summary": "<p>미국 재무부 채권 매도세가 확대되면서 연방준비제도(Fed)의 인플레이션 신용도 강화 필요성이 제기됨. 이는 향후 Fed의 금리 인하 시기 연장 가능성을 시사하며, USD/KRW 환율 상승과 한국 수출주 약세, 외국인 주식 자금 유출 압박으로 작용할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Treasury selloff signals need to bolster Fed&#x27;s inflation credibility, Musalem tells FT Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed 인플레이션 신용도 강화 논의는 금리 기조 변화 신호로 USD 강세·환율 상승 및 외국인 자금 이탈 유발 가능성이 높아 한국 거시 환경에 의미있는 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "현대자동차",
+        "LG화학"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdm1UZEtzb3Zzem5MeU1jTGFIV2pKUzJSbjlhcWNrT1RNM3B1aWZBcDRsX3ZkbHBaQXBiTkVZY2pmeERNUmw2c2NVeldxR2VBT2dzeGJUZTVwalRIaWJOZUt3R0tuc29yeUt0R1k4bEJaUW1MTWtiT0szQl9mdml4X1VnRzROSUR6eG55dXZVVTZSbHRnaklpVWZFMExWdUV2ODl6MGFJM3NyVG1WaGd6UHRPdnVJYmFuNFRwMExqOXpGdjFReW9GdGhzRQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-01 15:07:38"
     },
     {
       "id": 18644,
@@ -13108,60 +13163,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
       "direction": "down",
       "updated_at": "2026-06-30 21:07:09"
-    },
-    {
-      "id": 12289,
-      "title": "AI 수요 급증으로 인한 채무 증가에 따라 글로벌 은행들이 창의적 금융 수단을 모색 중. AI 반도체 및 인프라 투자 자금 조달 확대로 한국 반도체 기업(HBM, 메모리, 파운드리)의 수출 및 투자 수요 증가 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-29",
-      "summary": "<p>AI 수요 급증으로 인한 채무 증가에 따라 글로벌 은행들이 창의적 금융 수단을 모색 중. AI 반도체 및 인프라 투자 자금 조달 확대로 한국 반도체 기업(HBM, 메모리, 파운드리)의 수출 및 투자 수요 증가 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Banks get creative and look further afield as AI-fueled debt soars Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 인프라 투자 확대는 한국 반도체 수요 증가로 이어지며, 글로벌 자금 유동성 개선은 한국 기술주의 펀딩 환경 개선",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdDBiVE50bXZsYUc3enlSS2I5WjlqVkJtRHF0S0Mtbms4cmR6bnRSNGpDRHczSDQ0VkpyY3JLSXpka2NBYU11amM2akJROFVaZzFOMmppaHJpd0ZjVjFqWnRrRmplV2hFaHZ3N0otLWtpUm1MTkVTMDJSNFBwMnRad1k3ekN5UmVNOGI0Y05fSGNCemhUaUhkbVhCcFhNaWdxbklhRVJ5RkE5eHV0b2FJVkxn?oc=5",
-      "direction": "up",
-      "updated_at": "2026-06-30 21:07:05"
-    },
-    {
-      "id": 12169,
-      "title": "바이두가 자체 개발 AI 칩의 IPO를 추진하며 극도의 AI 열풍을 반영하고 있다. 이는 중국의 AI 반도체 자립화 움직임을 의미하며, 글로벌 AI 칩 수요 경쟁 심화로 이어질 것으로 예상된다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-29",
-      "summary": "<p>바이두가 자체 개발 AI 칩의 IPO를 추진하며 극도의 AI 열풍을 반영하고 있다. 이는 중국의 AI 반도체 자립화 움직임을 의미하며, 글로벌 AI 칩 수요 경쟁 심화로 이어질 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - Baidu chip IPO channels extreme AI frenzy Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "중국 AI 칩 자립화 진전은 한국 HBM/메모리 반도체 수출 경쟁 심화를 의미하며, 동시에 고성능 칩 수요 확대는 SK하이닉스·삼성전자에 단기 호재로 작용 가능",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ1ZzVGhnYzR6ZW5vOFZTYUtycWp4bktNYy03eHRuRUNBU2E5aDIxVS02d0Z1bjQwWFZ6ZTZEc2ZFN29LNWNHeWhPNmVnNnllaEp2MDVCU2RMN0Q1a2VwZVlNSEdwbU9nVTZaRjZpR0FMa1FvRHpYR2JYNmVNbGtiVGx3Vjd0aXJERm5nenV0OUZ2VERUSUdFQ3oxd2dKREp4dXJUSg?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-06-30 15:07:06"
     }
   ],
   "events": [
