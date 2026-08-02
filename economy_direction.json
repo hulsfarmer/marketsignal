@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T18:05:02",
+  "generated_at": "2026-08-02T18:08:10",
   "count": 500,
   "posts": [
     {
@@ -5345,6 +5345,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 18776,
+      "title": "트럼프 대통령이 이란과의 빠른 협상을 희망하며 추가 공격을 연기하겠다고 발표. 이란 긴장 완화로 유가 하락 압력이 증가할 가능성이 높음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-01",
+      "summary": "<p>트럼프 대통령이 이란과의 빠른 협상을 희망하며 추가 공격을 연기하겠다고 발표. 이란 긴장 완화로 유가 하락 압력이 증가할 가능성이 높음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump says he will hold off on fresh Iran attack in hope of quick deal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동 지정학적 긴장 완화 → 유가 하락 우려 → 한국 석유화학·정유 기업의 마진 압박 영향",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQnFCZlNtaWNsWjNfQzZYSUltNnlianRRMlRsUmVqWFNEWlEwWERhVmp5dVdSazcwNmo4bTNzQjNwcW1rS1pYSFRzUXZvUkF5dEFRYzY4T3Q4UUF0ZVBFLXlxVzA5YnRXZTliVWN0M2ZlcV9WVEw4ZjZqblVxOFJ6N2JmX1FMSk5HUXdLWWpOM2l1SWI3b0E2NHB5UU5rLUFRbjRXUEZ6ajZ1VUt1N0JIdURWT1VNbkVHX2UxUVU1b1lFTzY4aFNaOEJ5TTJJdw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-02 18:07:15"
     },
     {
       "id": 18697,
@@ -13134,34 +13161,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
       "direction": "up",
       "updated_at": "2026-07-01 00:07:39"
-    },
-    {
-      "id": 12301,
-      "title": "2026년 하반기 미국 주식시장은 AI 투자 지속성, 기업 실적 전망, 연방준비제도(Fed) 금리 정책 방향에 따라 변동될 것으로 예상되며, 이는 USD/KRW 환율 강세와 KOSPI 외국인 수급, 한국 채권 금리에 연쇄 영향을 미칠 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-30",
-      "summary": "<p>2026년 하반기 미국 주식시장은 AI 투자 지속성, 기업 실적 전망, 연방준비제도(Fed) 금리 정책 방향에 따라 변동될 것으로 예상되며, 이는 USD/KRW 환율 강세와 KOSPI 외국인 수급, 한국 채권 금리에 연쇄 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI spending, earnings hopes, Fed outlook set to sway US stocks in second half Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 정책 기조, AI 투자 트렌드, 미국 기업 실적은 달러 강세→원화 약세, 외국인 자금 이탈, 한국 반도체·IT 업체 경쟁력 영향을 주는 주요 매크로 변수",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "LG전자",
-        "현대차"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-06-30 21:07:52"
     }
   ],
   "events": [
