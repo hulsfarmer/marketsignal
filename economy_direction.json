@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T08:35:04",
+  "generated_at": "2026-08-03T08:40:03",
   "count": 500,
   "posts": [
     {
@@ -13958,6 +13958,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "SK",
+      "event_date": "2026-08-18",
+      "event_type": "배당기준일",
+      "title": "SK — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800012"
+    },
+    {
+      "stock_code": "",
       "stock_name": "S&K폴리텍",
       "event_date": "2026-08-19",
       "event_type": "채권자이의제출 공고 시작",
@@ -14491,6 +14499,14 @@
       "event_type": "배당금지급예정일",
       "title": "덕양에너젠 — 현금ㆍ현물배당결정              (중간배당)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731901237"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "SK",
+      "event_date": "2026-08-31",
+      "event_type": "배당금지급예정일",
+      "title": "SK — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800012"
     },
     {
       "stock_code": "",
