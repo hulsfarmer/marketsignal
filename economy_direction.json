@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T23:40:02",
+  "generated_at": "2026-08-04T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13153,38 +13153,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "한샘",
-      "event_date": "2026-08-03",
-      "event_type": "합병등기예정일",
-      "title": "한샘 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000792"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "레드캡투어",
-      "event_date": "2026-08-03",
-      "event_type": "배당금지급예정일",
-      "title": "레드캡투어 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702900283"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "세아제강지주",
-      "event_date": "2026-08-03",
-      "event_type": "배당지급예정일",
-      "title": "세아제강지주 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703800246"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "에이피알",
-      "event_date": "2026-08-03",
-      "event_type": "배당기준일",
-      "title": "에이피알 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800385"
-    },
-    {
-      "stock_code": "",
       "stock_name": "디바이스",
       "event_date": "2026-08-04",
       "event_type": "합병등기예정일",
@@ -14590,6 +14558,14 @@
       "event_type": "분할등기",
       "title": "체리부로 — 회사분할결정(종속회사의주요경영사항)              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715900487"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "포스코인터내셔널",
+      "event_date": "2026-09-03",
+      "event_type": "배당금지급예정일",
+      "title": "포스코인터내셔널 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731800707"
     }
   ]
 }
