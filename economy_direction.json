@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T17:05:02",
+  "generated_at": "2026-08-03T17:35:19",
   "count": 500,
   "posts": [
     {
@@ -3372,6 +3372,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 18970,
+      "title": "IPARK현대산업개발 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260803",
+      "summary": "<p>공시 제목은 '투자판단관련주요경영사항'이나 본문 내용이 제공되지 않아 구체적인 계약 규모, 매출 비중, 임상 단계, 지분 비율 등의 수치를 확인할 수 없습니다.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · IPARK현대산업개발</p>",
+      "feedback": "공시 본문 내용 미제공으로 평가 불가능",
+      "stocks": [
+        "IPARK현대산업개발"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800943",
+      "direction": "neutral",
+      "updated_at": "2026-08-03 17:35:11"
+    },
+    {
+      "id": 18969,
+      "title": "HDC — 투자판단관련주요경영사항(자회사의 주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260803",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항(자회사의 주요경영사항)               · HDC</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "HDC"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800977",
+      "direction": "neutral",
+      "updated_at": "2026-08-03 17:35:08"
     },
     {
       "id": 18228,
@@ -13106,61 +13150,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQTNpc0JlcmktcWZKeE1Ra0hLYzNaNkZYSDBIQlhTM1VnLV9tZ2NuNDBuTDljWmhRTGR1MmxHZkRSdzJmY0hFNWNpRzFpenZ2NFAtOVRjdDJjZWFyWXBLN1U2QVB6RmZLMFA5YXM1R05GaXh2TDBmelpfMlpobUhRZHNXdWtPRVhV?oc=5",
       "direction": "up",
       "updated_at": "2026-07-01 12:08:13"
-    },
-    {
-      "id": 12391,
-      "title": "Fed 관계자가 높은 인플레이션을 억제하기 위해 추가 금리 인상이 필요할 수 있다고 언급. 이는 달러 강세와 한국 수출 경쟁력 약화, 외국인 주식 매도 가능성으로 이어질 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-30",
-      "summary": "<p>Fed 관계자가 높은 인플레이션을 억제하기 위해 추가 금리 인상이 필요할 수 있다고 언급. 이는 달러 강세와 한국 수출 경쟁력 약화, 외국인 주식 매도 가능성으로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Hammack tells CNBC rate hikes may be needed to quell high inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed의 매파적 기조는 USD/KRW 환율 상승, 외국인 자금 이탈, 고금리 기조 강화로 한국 경기 부담 가중",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "LG화학",
-        "NAVER",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeGJxNUJQYmFmQkF2SnJQY3lXcGV1b0tWT2ktRjdveUt2WkxyTmg1X3RzSjU5TGxTNDc5ekNDXzZWQUFUUEhjZWllcG5OMTVNSlprckVTbWExWW41b1pVdmpsMEJIWUpXZUZqalQzSmFFVTh2Q0RTdTM0blpJZzhDaHNCTGdxaUdmcDNaY25KbjFSc1hGQ3R3cndiSzNsRGp3U3ltYTcteXJ1ZWttUE1TQl8xYkhMRjhFQXc?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-01 09:07:17"
-    },
-    {
-      "id": 12353,
-      "title": "2026년 8월 브렌트유 선적 물량이 0으로 예상되는 사상 처음의 사태 발생. 글로벌 유가 벤치마크의 공급 차질은 유가 급등 압력으로 작용할 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-06-30",
-      "summary": "<p>2026년 8월 브렌트유 선적 물량이 0으로 예상되는 사상 처음의 사태 발생. 글로벌 유가 벤치마크의 공급 차질은 유가 급등 압력으로 작용할 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): No Brent crude oil cargoes set to load in August, a first for global price benchmark Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승 시나리오는 S-Oil, SK이노베이션 등 에너지/석유화학 계열에 호재지만, 전반적 경제 충격 우려로 혼합적 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZFdhenBZbDFiN3FQUWVIRlhGalVzZzY2YUwycWNwbmx3b2JrSTdKVlRhck50QWZrUXpydG1LRVZNWTdUVGVvbkFUNk1TdTBIU2dsX2hKR3Jtd3QtaXBrYVg0X0ZDaE9MTjRwMmMtZjlndEthXzJqSEplTXlmQUlkUWNvTGxsd0t6MEppeGJDNUpPLWk2SENaNW51ZjJsVElHaVZMcFlYZThJOVdQMng0ZEJmUVlCcnZZNDNwUURQMjA?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-01 03:08:28"
     }
   ],
   "events": [
