@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T15:05:23",
+  "generated_at": "2026-08-03T16:10:44",
   "dates": [
     "2026-08-03",
     "2026-07-31",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 139,
-      "correct": 65,
-      "hit_rate": 46.8,
-      "avg_return": 0.13,
-      "avg_return_open": 0.4
+      "total": 143,
+      "correct": 68,
+      "hit_rate": 47.6,
+      "avg_return": 0.17,
+      "avg_return_open": 0.42
     },
     "hybrid": {
-      "total": 213,
-      "correct": 93,
-      "hit_rate": 43.7,
-      "avg_return": -0.38,
-      "avg_return_open": -0.33
+      "total": 218,
+      "correct": 98,
+      "hit_rate": 45.0,
+      "avg_return": -0.21,
+      "avg_return_open": -0.24
     }
   },
   "by_date": {
@@ -155,10 +155,10 @@
             "confidence": "HIGH",
             "reason": "RSI 35로 과매도 영역에 진입하며 기술적 반등 조건을 충족하고, 5일 -2.4%로 낙폭이 과도하지 않아 추가 하락 리스크가 제한적입니다. 8850억 규모 자사주 매입·소각 계획은 강력한 주주환원 재료로 호재 선반영 우려가 낮으며, 성공 패턴인 기술적_반등 + 수급_개선 조건을 동시에 충족합니다.",
             "entry_price": 167400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 168500.0,
+            "return_pct": 0.66,
+            "return_pct_open": 0.06,
+            "correct": 1
           },
           {
             "stock_code": "055550",
@@ -168,10 +168,10 @@
             "confidence": "HIGH",
             "reason": "RSI 33으로 과매도 영역에서 역대급 어닝 서프라이즈와 7000억 자사주 취득이라는 강력한 펀더멘탈 재료가 아직 주가에 충분히 반영되지 않은 상태입니다. 5일 -3.5% 조정으로 저가 매수 기회이며, 성공 패턴인 기술적_반등 신호(RSI 과매도 + 단기 낙폭)와 수급_개선(어닝 서프라이즈)이 겹칩니다.",
             "entry_price": 100800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 100700.0,
+            "return_pct": -0.1,
+            "return_pct_open": 0.1,
+            "correct": 0
           },
           {
             "stock_code": "017670",
@@ -194,10 +194,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 41과 5일 -5.2% 낙폭으로 기술적 반등 구간이며, 2Q 영업익 컨센서스 상회 및 흑자전환이라는 실적 서프라이즈 재료가 아직 주가에 충분히 반영되지 않았습니다. 긍정 뉴스 5건으로 후보 중 최다이고 자사주 소각까지 더해진 복합 호재로 내일 반등 가능성이 있습니다.",
             "entry_price": 245500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 258000.0,
+            "return_pct": 5.09,
+            "return_pct_open": 2.85,
+            "correct": 1
           },
           {
             "stock_code": "086790",
@@ -207,10 +207,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 44로 중립~과매도 경계에서 2500억 자사주 소각이라는 명확한 주주환원 재료가 존재하며, 5일 -5.9% 낙폭으로 단기 저점 매수 기회입니다. 과거 2026-07-24에 동일 재료(자사주 매입·소각)로 +1.46% 성공한 패턴과 유사하나, 직전 추천(-2.11%) 실패를 고려해 비중 조절이 필요합니다.",
             "entry_price": 124600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 125400.0,
+            "return_pct": 0.64,
+            "return_pct_open": 1.28,
+            "correct": 1
           }
         ]
       },
@@ -225,10 +225,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 96 / earn 0 (RSI 36, 5일 -16.2%)",
             "entry_price": 358500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 397000.0,
+            "return_pct": 10.74,
+            "return_pct_open": 6.56,
+            "correct": 1
           },
           {
             "stock_code": "329180",
@@ -238,10 +238,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -7.7%)",
             "entry_price": 448000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 481000.0,
+            "return_pct": 7.37,
+            "return_pct_open": 3.79,
+            "correct": 1
           },
           {
             "stock_code": "009540",
@@ -251,10 +251,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 91 (RSI 57, 5일 -0.9%)",
             "entry_price": 368500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 384500.0,
+            "return_pct": 4.34,
+            "return_pct_open": 0.95,
+            "correct": 1
           },
           {
             "stock_code": "012330",
@@ -264,10 +264,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 89 / earn 0 (RSI 39, 5일 -7.7%)",
             "entry_price": 445000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 476000.0,
+            "return_pct": 6.97,
+            "return_pct_open": 5.73,
+            "correct": 1
           },
           {
             "stock_code": "003550",
@@ -277,10 +277,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 44 / earn 85 (RSI 44, 5일 -1.5%)",
             "entry_price": 96400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 101100.0,
+            "return_pct": 4.88,
+            "return_pct_open": 2.49,
+            "correct": 1
           }
         ]
       },
