@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-31T16:10:27",
+  "generated_at": "2026-08-03T15:05:23",
   "dates": [
+    "2026-08-03",
     "2026-07-31",
     "2026-07-30",
     "2026-07-29",
@@ -29,8 +30,7 @@
     "2026-06-25",
     "2026-06-23",
     "2026-06-19",
-    "2026-06-18",
-    "2026-06-17"
+    "2026-06-18"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,100 @@
     }
   },
   "by_date": {
+    "2026-08-03": {
+      "ai": {
+        "count": 1,
+        "picks": [
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "ms_score": 73,
+            "ai_score": 65,
+            "confidence": "MEDIUM",
+            "reason": "RSI 34로 후보군 중 가장 낮은 수준의 과매도 구간에 해당하며 기술적 반등 가능성이 높습니다. 2분기 영업이익 2조7000억원·증권 영업이익 176% 증가라는 실적 서프라이즈가 확인되었고, 5일 -2.4%의 소폭 조정으로 재료가 아직 충분히 반영되지 않은 상태입니다.",
+            "entry_price": 168500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "ms_score": 73,
+            "ai_score": 90,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 90 (RSI 54, 5일 -0.9%)",
+            "entry_price": 52200.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "005490",
+            "name_kr": "POSCO홀딩스",
+            "ms_score": 68,
+            "ai_score": 88,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 89 (RSI 52, 5일 -1.1%)",
+            "entry_price": 312500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "066570",
+            "name_kr": "LG전자",
+            "ms_score": 77,
+            "ai_score": 88,
+            "confidence": "HIGH",
+            "reason": "[T] tech 88 / earn 0 (RSI 40, 5일 -5.9%)",
+            "entry_price": 162100.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "011170",
+            "name_kr": "롯데케미칼",
+            "ms_score": 58,
+            "ai_score": 85,
+            "confidence": "HIGH",
+            "reason": "[T] tech 85 / earn 0 (RSI 41, 5일 -6.9%)",
+            "entry_price": 56500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 73,
+            "ai_score": 82,
+            "confidence": "HIGH",
+            "reason": "[T] tech 83 / earn 60 (RSI 38, 5일 -4.0%)",
+            "entry_price": 125400.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-07-31": {
       "ai": {
         "count": 5,
@@ -3052,87 +3146,6 @@
             "return_pct": -9.14,
             "return_pct_open": -9.14,
             "correct": 0
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-06-17": {
-      "ai": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "036570",
-            "name_kr": "엔씨소프트",
-            "ms_score": 62,
-            "ai_score": 62,
-            "confidence": "MEDIUM",
-            "reason": "미국 투자운용사의 5.1% 대규모 지분 매수는 수급_개선 패턴(100% 성공률)의 핵심 조건인 외국인 폭풍 매수와 유사하며, 신한지주 성공 사례(+6.02%)와 동일한 외국인 대규모 수급 개선 구조입니다. RSI 44로 안정적인 중립 구간이며 5일 +1.6%로 뉴스가 아직 주가에 충분히 반영되지 않은 상태입니다. IBK증권 목표가 39만원 제시는 현재가 대비 약 49% 상승 여력을 시사합니다.",
-            "entry_price": 261000.0,
-            "exit_price": 266500.0,
-            "return_pct": 2.11,
-            "return_pct_open": 2.11,
-            "correct": 1
-          },
-          {
-            "stock_code": "010140",
-            "name_kr": "삼성중공업",
-            "ms_score": 77,
-            "ai_score": 58,
-            "confidence": "MEDIUM",
-            "reason": "블랙록 5% 지분 공시는 기관 수급_개선 신호로, 과거 삼성중공업이 2026-06-15 +6.51% 성공을 거둔 동일 종목입니다. RSI 43으로 과매수 아닌 중립 구간이며 당일 등락 0%로 호재가 아직 충분히 반영되지 않았을 가능성이 있습니다. 5일 +8.1%가 부담이나 20일 -4.9%의 낙폭을 감안하면 추가 상승 여력이 있습니다.",
-            "entry_price": 28100.0,
-            "exit_price": 28950.0,
-            "return_pct": 3.02,
-            "return_pct_open": 3.02,
-            "correct": 1
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 3,
-        "picks": [
-          {
-            "stock_code": "005490",
-            "name_kr": "POSCO홀딩스",
-            "ms_score": 72,
-            "ai_score": 44,
-            "confidence": "LOW",
-            "reason": "[T] tech 44 / earn 0 (RSI 37, 5일 +7.4%)",
-            "entry_price": 390000.0,
-            "exit_price": 384500.0,
-            "return_pct": -1.41,
-            "return_pct_open": -1.41,
-            "correct": 0
-          },
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 70,
-            "ai_score": 37,
-            "confidence": "LOW",
-            "reason": "[T] tech 37 / earn 0 (RSI 40, 5일 +4.3%)",
-            "entry_price": 174500.0,
-            "exit_price": 174600.0,
-            "return_pct": 0.06,
-            "return_pct_open": 0.06,
-            "correct": 1
-          },
-          {
-            "stock_code": "329180",
-            "name_kr": "HD현대중공업",
-            "ms_score": 63,
-            "ai_score": 33,
-            "confidence": "LOW",
-            "reason": "[T] tech 33 / earn 0 (RSI 42, 5일 +8.9%)",
-            "entry_price": 698000.0,
-            "exit_price": 707000.0,
-            "return_pct": 1.29,
-            "return_pct_open": 1.29,
-            "correct": 1
           }
         ]
       },
