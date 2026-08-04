@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T10:05:10",
+  "generated_at": "2026-08-04T10:35:09",
   "count": 500,
   "posts": [
     {
@@ -3399,6 +3399,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 19126,
+      "title": "라온시큐어 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260804",
+      "summary": "<p>라온시큐어가 200억원 규모 자기주식취득 신탁계약을 완료하고 중도해지 결정. 취득한 265,461주(발행주식 대비 2.39%)를 자사 계좌로 입고 예정하며, 기존 보유 자기주식 300,000주와 합산 시 총 565,461주(5.09%) 보유.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 라온시큐어</p>",
+      "feedback": "200억원의 자기주식 매입 완료는 경영진의 주가 하방 신뢰도 표현이며, 추가 소각 가능성 포함한 긍정 신호지만, 계약 해지는 예정보다 조기 완료로 제한적 영향",
+      "stocks": [
+        "라온시큐어"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000052",
+      "direction": "up",
+      "updated_at": "2026-08-04 10:35:09"
     },
     {
       "id": 19003,
@@ -13115,34 +13137,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTGg2SFp1b01MWjdIT3J0dDdEd2ZkRkNnZmJDQkVzQ2tTa0hubXN6cmthRjVWd2FGUE1fcHNpQjhWYlY3UXdodjNiUGFQaXlnSVc1TmFudURlLVduQTlOakEwMFk2MG16WWlKM0hySnpUNlNtd3RHdWtjSEU2bEN4VlVSc1F5dFRqdHFKcnNoWVJ1N2xlbEtUMm15RWNKdw?oc=5",
       "direction": "up",
       "updated_at": "2026-07-03 09:08:09"
-    },
-    {
-      "id": 12892,
-      "title": "미국 고용 부진과 노동력 감소로 연준의 노동시장 평가 논쟁 재점화 예상. 약한 고용지표는 연준의 금리 인하 가능성을 높여 USD/KRW 약세와 한국 수출주 회복에 긍정적.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-02",
-      "summary": "<p>미국 고용 부진과 노동력 감소로 연준의 노동시장 평가 논쟁 재점화 예상. 약한 고용지표는 연준의 금리 인하 가능성을 높여 USD/KRW 약세와 한국 수출주 회복에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Weak jobs, declining labor force, could renew Fed debate over state of labor market Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "연준 금리 정책 방향 변화는 환율과 글로벌 수요에 직결되어 한국 수출 및 외국인 자금 흐름에 의미있는 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG디스플레이",
-        "현대자동차",
-        "삼성SDI",
-        "한화큐셀"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUpDX2luM3c3a29IMjNVQXk5dC1ueC1YUTNPeHVyUE1HSHN4d3hDUnItSjgwMmRZUW1ncjd0UWVXTFVIR2s0YThWbFEzSUtzVGI0NWloc1ZEdXMwUVl1aGFLTURkSVEwWGdTbGw3OS0zOW1pRVlGV0l0RUN3cTM1UTRfcjIzZ2wzSEtUbjhBVVpmbXlyazRtLTZ5akR5U2dNOTU1YzhJdTJNdzdHWlVLT2pITUhienp6ZXotYVBqX1Q?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-03 06:07:45"
     }
   ],
   "events": [
