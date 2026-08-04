@@ -1,182 +1,173 @@
 {
-  "date": "2026-08-03",
-  "generated_at": "2026-08-03T16:10:43",
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T16:10:23",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-08-03T16:10:43",
-      "pick_date": "2026-08-03",
-      "count": 1,
+      "updated_at": "2026-08-04T16:10:23",
+      "pick_date": "2026-08-04",
+      "count": 3,
       "picks": [
         {
-          "stock_code": "105560",
-          "name_kr": "KB금융",
-          "ms_score": 73,
-          "ai_score": 65,
+          "stock_code": "055550",
+          "name_kr": "신한지주",
+          "ms_score": 58,
+          "ai_score": 64,
           "confidence": "MEDIUM",
-          "reason": "RSI 34로 후보군 중 가장 낮은 수준의 과매도 구간에 해당하며 기술적 반등 가능성이 높습니다. 2분기 영업이익 2조7000억원·증권 영업이익 176% 증가라는 실적 서프라이즈가 확인되었고, 5일 -2.4%의 소폭 조정으로 재료가 아직 충분히 반영되지 않은 상태입니다.",
-          "entry_price": 168500.0
+          "reason": "1조2000억원 자사주 취득·소각이라는 강력한 주주환원 재료와 슈퍼SOL MAU 1100만 달성이라는 디지털 신사업 성과가 있으나 5일 +1.8%로 아직 충분히 반영되지 않은 상태입니다. RSI 42로 중립~약세 구간에서 긍정 뉴스 5건 모두 호재이며, 호재 선반영 리스크가 낮습니다. 시장 영향력 60점(보통) 환경에서 방어적 성격의 금융주 주주환원 재료는 안정적인 종가매수 후보입니다.",
+          "entry_price": 102700.0
+        },
+        {
+          "stock_code": "068270",
+          "name_kr": "셀트리온",
+          "ms_score": 77,
+          "ai_score": 58,
+          "confidence": "LOW",
+          "reason": "2700억원 자사주 매입 및 무상증자라는 강력한 주주가치 제고 정책이 긍정적이며, 긍정 뉴스 5건으로 센티멘트가 양호합니다. 다만 RSI 62로 과매수 경계에 근접해 있고 5일 +2.7% 부분 반영 상태이므로, 실패 패턴인 'RSI_과열(89% 실패율)'에 해당할 수 있어 신중한 접근이 필요합니다. 무상증자 기대감에 따른 추가 매수 유입 가능성을 감안해 소량 편입에 그치는 것이 바람직합니다.",
+          "entry_price": 182200.0
+        },
+        {
+          "stock_code": "003550",
+          "name_kr": "LG",
+          "ms_score": 67,
+          "ai_score": 56,
+          "confidence": "LOW",
+          "reason": "LG전자·LG유플러스 자사주 매입 및 배당 단행으로 그룹 전반의 주주환원 기조가 강화되고 있으며, 범LG家 M&A 긍정 뉴스가 중장기 성장 모멘텀을 지지합니다. RSI 54로 과매수 구간이 아니고 20일 -1.5%로 낙폭도 제한적입니다. 단, 5일 +7.1% 상승으로 단기 차익실현 압력이 존재해 낮은 확신도를 유지하며, 시장 강세 환경(영향력 60점)에서 모멘텀 종목으로 소량 포함합니다.",
+          "entry_price": 99700.0
         }
       ],
       "accuracy": {
-        "total": 143,
-        "correct": 68,
-        "hit_rate": 47.6,
+        "total": 144,
+        "correct": 69,
+        "hit_rate": 47.9,
         "avg_return": 0.17,
         "avg_return_open": 0.42,
-        "yesterday_date": "2026-07-31",
+        "yesterday_date": "2026-08-03",
         "yesterday": [
-          {
-            "stock_code": "051910",
-            "name_kr": "LG화학",
-            "entry_price": 245500.0,
-            "exit_price": 258000.0,
-            "return_pct": 5.09,
-            "return_pct_open": 2.85,
-            "correct": 1
-          },
           {
             "stock_code": "105560",
             "name_kr": "KB금융",
-            "entry_price": 167400.0,
-            "exit_price": 168500.0,
-            "return_pct": 0.66,
-            "return_pct_open": 0.06,
+            "entry_price": 168500.0,
+            "exit_price": 169500.0,
+            "return_pct": 0.59,
+            "return_pct_open": 0.59,
             "correct": 1
-          },
-          {
-            "stock_code": "086790",
-            "name_kr": "하나금융지주",
-            "entry_price": 124600.0,
-            "exit_price": 125400.0,
-            "return_pct": 0.64,
-            "return_pct_open": 1.28,
-            "correct": 1
-          },
-          {
-            "stock_code": "055550",
-            "name_kr": "신한지주",
-            "entry_price": 100800.0,
-            "exit_price": 100700.0,
-            "return_pct": -0.1,
-            "return_pct_open": 0.1,
-            "correct": 0
           }
         ]
       }
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-08-03T16:10:43",
-      "pick_date": "2026-08-03",
+      "updated_at": "2026-08-04T16:10:23",
+      "pick_date": "2026-08-04",
       "count": 5,
       "picks": [
         {
-          "stock_code": "047050",
-          "name_kr": "포스코인터내셔널",
-          "ms_score": 73,
+          "stock_code": "010140",
+          "name_kr": "삼성중공업",
+          "ms_score": 70,
           "ai_score": 90,
           "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 90 (RSI 54, 5일 -0.9%)",
-          "entry_price": 52200.0
+          "reason": "[E] tech 16 / earn 90 (RSI 48, 5일 +1.0%)",
+          "entry_price": 20900.0
         },
         {
           "stock_code": "005490",
           "name_kr": "POSCO홀딩스",
           "ms_score": 68,
-          "ai_score": 88,
+          "ai_score": 84,
           "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 89 (RSI 52, 5일 -1.1%)",
-          "entry_price": 312500.0
+          "reason": "[E] tech 12 / earn 85 (RSI 50, 5일 +1.5%)",
+          "entry_price": 303500.0
         },
         {
-          "stock_code": "066570",
-          "name_kr": "LG전자",
-          "ms_score": 77,
-          "ai_score": 88,
-          "confidence": "HIGH",
-          "reason": "[T] tech 88 / earn 0 (RSI 40, 5일 -5.9%)",
-          "entry_price": 162100.0
-        },
-        {
-          "stock_code": "011170",
-          "name_kr": "롯데케미칼",
-          "ms_score": 58,
-          "ai_score": 85,
-          "confidence": "HIGH",
-          "reason": "[T] tech 85 / earn 0 (RSI 41, 5일 -6.9%)",
-          "entry_price": 56500.0
+          "stock_code": "105560",
+          "name_kr": "KB금융",
+          "ms_score": 63,
+          "ai_score": 74,
+          "confidence": "MEDIUM",
+          "reason": "[T] tech 39 / earn 74 (RSI 39, 5일 +2.6%)",
+          "entry_price": 169500.0
         },
         {
           "stock_code": "086790",
           "name_kr": "하나금융지주",
-          "ms_score": 73,
-          "ai_score": 82,
-          "confidence": "HIGH",
-          "reason": "[T] tech 83 / earn 60 (RSI 38, 5일 -4.0%)",
-          "entry_price": 125400.0
+          "ms_score": 77,
+          "ai_score": 42,
+          "confidence": "LOW",
+          "reason": "[T] tech 42 / earn 0 (RSI 38, 5일 +3.2%)",
+          "entry_price": 126900.0
+        },
+        {
+          "stock_code": "066570",
+          "name_kr": "LG전자",
+          "ms_score": 63,
+          "ai_score": 40,
+          "confidence": "LOW",
+          "reason": "[T] tech 40 / earn 0 (RSI 39, 5일 +0.8%)",
+          "entry_price": 158800.0
         }
       ],
       "accuracy": {
-        "total": 218,
-        "correct": 98,
-        "hit_rate": 45.0,
-        "avg_return": -0.21,
-        "avg_return_open": -0.24,
-        "yesterday_date": "2026-07-31",
+        "total": 223,
+        "correct": 99,
+        "hit_rate": 44.4,
+        "avg_return": -0.24,
+        "avg_return_open": -0.27,
+        "yesterday_date": "2026-08-03",
         "yesterday": [
           {
-            "stock_code": "006400",
-            "name_kr": "삼성SDI",
-            "entry_price": 358500.0,
-            "exit_price": 397000.0,
-            "return_pct": 10.74,
-            "return_pct_open": 6.56,
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "entry_price": 125400.0,
+            "exit_price": 126900.0,
+            "return_pct": 1.2,
+            "return_pct_open": 1.2,
             "correct": 1
           },
           {
-            "stock_code": "329180",
-            "name_kr": "HD현대중공업",
-            "entry_price": 448000.0,
-            "exit_price": 481000.0,
-            "return_pct": 7.37,
-            "return_pct_open": 3.79,
-            "correct": 1
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "entry_price": 52200.0,
+            "exit_price": 51300.0,
+            "return_pct": -1.72,
+            "return_pct_open": -1.72,
+            "correct": 0
           },
           {
-            "stock_code": "012330",
-            "name_kr": "현대모비스",
-            "entry_price": 445000.0,
-            "exit_price": 476000.0,
-            "return_pct": 6.97,
-            "return_pct_open": 5.73,
-            "correct": 1
+            "stock_code": "066570",
+            "name_kr": "LG전자",
+            "entry_price": 162100.0,
+            "exit_price": 158800.0,
+            "return_pct": -2.04,
+            "return_pct_open": -2.04,
+            "correct": 0
           },
           {
-            "stock_code": "003550",
-            "name_kr": "LG",
-            "entry_price": 96400.0,
-            "exit_price": 101100.0,
-            "return_pct": 4.88,
-            "return_pct_open": 2.49,
-            "correct": 1
+            "stock_code": "011170",
+            "name_kr": "롯데케미칼",
+            "entry_price": 56500.0,
+            "exit_price": 55200.0,
+            "return_pct": -2.3,
+            "return_pct_open": -2.3,
+            "correct": 0
           },
           {
-            "stock_code": "009540",
-            "name_kr": "HD한국조선해양",
-            "entry_price": 368500.0,
-            "exit_price": 384500.0,
-            "return_pct": 4.34,
-            "return_pct_open": 0.95,
-            "correct": 1
+            "stock_code": "005490",
+            "name_kr": "POSCO홀딩스",
+            "entry_price": 312500.0,
+            "exit_price": 303500.0,
+            "return_pct": -2.88,
+            "return_pct_open": -2.88,
+            "correct": 0
           }
         ]
       }
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-08-03T16:10:43",
-      "pick_date": "2026-08-03",
+      "updated_at": "2026-08-04T16:10:23",
+      "pick_date": "2026-08-04",
       "count": 0,
       "picks": [],
       "watching": [],
