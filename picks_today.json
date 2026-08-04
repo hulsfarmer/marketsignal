@@ -1,53 +1,53 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "strategy": "hybrid",
-  "generated_at": "2026-08-03T15:05:22",
+  "generated_at": "2026-08-04T15:05:31",
   "count": 5,
   "picks": [
     {
-      "stock_code": "047050",
-      "name_kr": "포스코인터내셔널",
-      "ms_score": 73,
+      "stock_code": "010140",
+      "name_kr": "삼성중공업",
+      "ms_score": 70,
       "ai_score": 90,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 90 (RSI 54, 5일 -0.9%)",
-      "entry_price": 52200.0
+      "reason": "[E] tech 16 / earn 90 (RSI 48, 5일 +1.0%)",
+      "entry_price": 20900.0
     },
     {
       "stock_code": "005490",
       "name_kr": "POSCO홀딩스",
       "ms_score": 68,
-      "ai_score": 88,
+      "ai_score": 84,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 89 (RSI 52, 5일 -1.1%)",
-      "entry_price": 312500.0
+      "reason": "[E] tech 12 / earn 85 (RSI 50, 5일 +1.5%)",
+      "entry_price": 303500.0
     },
     {
-      "stock_code": "066570",
-      "name_kr": "LG전자",
-      "ms_score": 77,
-      "ai_score": 88,
-      "confidence": "HIGH",
-      "reason": "[T] tech 88 / earn 0 (RSI 40, 5일 -5.9%)",
-      "entry_price": 162100.0
-    },
-    {
-      "stock_code": "011170",
-      "name_kr": "롯데케미칼",
-      "ms_score": 58,
-      "ai_score": 85,
-      "confidence": "HIGH",
-      "reason": "[T] tech 85 / earn 0 (RSI 41, 5일 -6.9%)",
-      "entry_price": 56500.0
+      "stock_code": "105560",
+      "name_kr": "KB금융",
+      "ms_score": 63,
+      "ai_score": 74,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 39 / earn 74 (RSI 39, 5일 +2.6%)",
+      "entry_price": 169500.0
     },
     {
       "stock_code": "086790",
       "name_kr": "하나금융지주",
-      "ms_score": 73,
-      "ai_score": 82,
-      "confidence": "HIGH",
-      "reason": "[T] tech 83 / earn 60 (RSI 38, 5일 -4.0%)",
-      "entry_price": 125400.0
+      "ms_score": 77,
+      "ai_score": 42,
+      "confidence": "LOW",
+      "reason": "[T] tech 42 / earn 0 (RSI 38, 5일 +3.2%)",
+      "entry_price": 126900.0
+    },
+    {
+      "stock_code": "066570",
+      "name_kr": "LG전자",
+      "ms_score": 63,
+      "ai_score": 40,
+      "confidence": "LOW",
+      "reason": "[T] tech 40 / earn 0 (RSI 39, 5일 +0.8%)",
+      "entry_price": 158800.0
     }
   ]
 }
