@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T21:05:02",
+  "generated_at": "2026-08-05T21:08:05",
   "count": 500,
   "posts": [
     {
@@ -526,6 +526,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 19550,
+      "title": "삼성전자가 차세대 AI 메모리 기술을 출시했으며, 이는 HBM 등 고대역폭 메모리 시장에서 한국 반도체 기업들의 경쟁력 강화를 의미한다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-04",
+      "summary": "<p>삼성전자가 차세대 AI 메모리 기술을 출시했으며, 이는 HBM 등 고대역폭 메모리 시장에서 한국 반도체 기업들의 경쟁력 강화를 의미한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Samsung Electronics launches next-generation AI memory technology Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 메모리는 고부가가치 반도체 핵심 기술로, 삼성의 기술 선도는 SK하이닉스 등 국내 HBM 경쟁사에 긍정적 시장 신호를 주며 전반적 반도체 생태계 강화",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclAxcVpCMXBjdWcyTWJKZklWcEc5d1NIbjJjc2F5TFVmeGZqcUNHLW1PUmxlOFBWRkpzS2U2LUNqNG04Y2xQbThacTRsc3ViRFpsUkxYbUI2Z1JLT2M2QzZBdXRfUEtnMUlQSFd3QWdxYUlSZ2NHdjJYdTJ1bVJ4UUVJR3g0Y25yRUlVRjE1Zl91RGxsSW1mUUFCdU5kb3Z1c2ozZVl1aXI2RUFrSExlaVVpWFc2akhMWEJWcw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-05 21:07:14"
     },
     {
       "id": 19023,
@@ -13102,33 +13129,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbkFzdHZlN3RHMWJlMEhKNGtORTFObkFENG4yaEVWcEdZejVVYTgyZ1dYYXVTMlA2eTJ5a1NNeUZZRnViUEYwbmlxVURVQmNsOGRCdVBfcjJQQV9aWk0xb2ZibTZIcDVRR0ZnUFF1N2ZTM2NCN0FMdFBtYXZkd1J2RldyNDYtNGZPZ1Q2b2NodVY0RzdmZkdoN19PdFRfNWFNNzJYLTVmNmhHZWF4cEFKWHlhWkhiQlhLd0RJRHZMM1Qxd1JSWVE1WWVha3VIb0hx?oc=5",
       "direction": "up",
       "updated_at": "2026-07-08 21:07:41"
-    },
-    {
-      "id": 13857,
-      "title": "미국이 이란에 대한 새로운 공습을 완료했다고 발표. 중동 긴장 고조로 유가 상승 압력이 지속되며, 한국의 에너지·화학 관련 기업들의 원가 부담 증가 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-08",
-      "summary": "<p>미국이 이란에 대한 새로운 공습을 완료했다고 발표. 중동 긴장 고조로 유가 상승 압력이 지속되며, 한국의 에너지·화학 관련 기업들의 원가 부담 증가 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US says it has completed a new round of strikes on Iran Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학적 리스크 심화로 유가 상승 가능성 높아 에너지·화학주에 직접적 원가 영향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNGdfTTZZUTJuczJONlh3R3NBTmd2VFQ4YlBWSC1fYzBOT3VCUnU1NGJXaGFvcnNINVdSZFdNVjJSTHp2MExDOUFDdlJUNFY2OG1oLXRLdjgzVERUS0lLUkREbXB2Q1lKaVd5VWlpZmpNSXR6aTFzdjZYMmNBNklIaDQxUzBqcTVwM2hLYXQxTGdWX2s4UWVOYnZmcm40bVd1RldWdUlR?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-08 18:07:50"
     }
   ],
   "events": [
