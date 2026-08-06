@@ -1,44 +1,44 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "strategy": "hybrid",
-  "generated_at": "2026-08-05T15:04:36",
+  "generated_at": "2026-08-06T15:05:10",
   "count": 4,
   "picks": [
     {
-      "stock_code": "207940",
-      "name_kr": "삼성바이오로직스",
-      "ms_score": 56,
-      "ai_score": 98,
+      "stock_code": "030200",
+      "name_kr": "KT",
+      "ms_score": 55,
+      "ai_score": 94,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 98 (RSI 58, 5일 -0.2%)",
-      "entry_price": 1476000.0
+      "reason": "[E] tech 0 / earn 94 (RSI 51, 5일 -0.6%)",
+      "entry_price": 52500.0
     },
     {
-      "stock_code": "010950",
-      "name_kr": "S-Oil",
-      "ms_score": 58,
-      "ai_score": 95,
+      "stock_code": "024110",
+      "name_kr": "기업은행",
+      "ms_score": 62,
+      "ai_score": 87,
       "confidence": "HIGH",
-      "reason": "[E+T] tech 47 / earn 95 (RSI 38, 5일 -0.5%)",
-      "entry_price": 125800.0
+      "reason": "[E+T] tech 57 / earn 88 (RSI 33, 5일 -1.2%)",
+      "entry_price": 20200.0
     },
     {
-      "stock_code": "000660",
-      "name_kr": "SK하이닉스",
-      "ms_score": 57,
-      "ai_score": 48,
-      "confidence": "LOW",
-      "reason": "[T] tech 48 / earn 0 (RSI 36, 5일 +12.6%)",
-      "entry_price": 1577000.0
+      "stock_code": "105560",
+      "name_kr": "KB금융",
+      "ms_score": 70,
+      "ai_score": 80,
+      "confidence": "HIGH",
+      "reason": "[T] tech 38 / earn 80 (RSI 40, 5일 +2.0%)",
+      "entry_price": 170700.0
     },
     {
       "stock_code": "086790",
       "name_kr": "하나금융지주",
       "ms_score": 73,
-      "ai_score": 45,
-      "confidence": "LOW",
-      "reason": "[T] tech 46 / earn 0 (RSI 33, 5일 +6.0%)",
-      "entry_price": 127600.0
+      "ai_score": 67,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 48 / earn 68 (RSI 36, 5일 +3.2%)",
+      "entry_price": 128600.0
     }
   ]
 }
