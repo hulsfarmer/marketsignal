@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T09:05:02",
+  "generated_at": "2026-08-06T09:09:01",
   "count": 500,
   "posts": [
     {
@@ -5538,6 +5538,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 19653,
+      "title": "흑해 공격 급증으로 글로벌 원유·곡물 등 주요 상품 수송로 차질 심화. 한국의 에너지·화학 수입 의존도가 높아 유가 상승 및 공급망 불안정성 증대로 S-Oil, SK이노베이션 등 에너지·화학주에 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-05",
+      "summary": "<p>흑해 공격 급증으로 글로벌 원유·곡물 등 주요 상품 수송로 차질 심화. 한국의 에너지·화학 수입 의존도가 높아 유가 상승 및 공급망 불안정성 증대로 S-Oil, SK이노베이션 등 에너지·화학주에 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Surge in Black Sea attacks adds to strain on global commodity flows Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "원자재 공급망 차질은 유가 상승 압력으로 작용하며, 한국의 에너지·화학 수입 비중이 크기 때문에 관련 종목의 원재료비 상승 및 마진 악화 우려",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWXc2emFoSHcyanliMTRrTHZhd2hNRHNGUFl2OEhkOHhXcmw3RFNSQXBkSlJfVW81bXJsRVhBdnMyU09lNWRyRTBIN2NoN2xZLThvWUpINjBaNFZFRHFMQUl3WmMtZUlSNFVOVXotOF9YTXp3VnVQVDhTdXlwVlFRYXh5NFkzU3UxV0YtZFd2blJ6bi04QVZCUDU3ZnkwR2xtTVE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-06 09:08:16"
+    },
+    {
+      "id": 19639,
+      "title": "샌디스크가 AI 수요 견인으로 분기 매출 긍정 전망을 제시했으며, 이는 메모리·저장장치 시장의 강한 수요를 시사. SK하이닉스의 HBM과 삼성전자의 메모리 사업에 긍정적 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-05",
+      "summary": "<p>샌디스크가 AI 수요 견인으로 분기 매출 긍정 전망을 제시했으며, 이는 메모리·저장장치 시장의 강한 수요를 시사. SK하이닉스의 HBM과 삼성전자의 메모리 사업에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Sandisk forecasts upbeat quarterly revenue on AI-driven demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 수요 확대로 메모리·저장장치 시장 성장이 명확해지면서 한국 주요 반도체 기업들의 실적 개선 기대감 상승",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT3N1eVo1My1sajNUOFBkZmp2WDN0OWRlaDh0QTFycVVfajdqSEU4WmdBcG5Qa0hsdTRVcDZEeFdZZjYwaEdTTVhtYUNqOExXa3RzckpJR29QUzdaSENQX0RuejRZNVUzeTd1MkZOTjJtMlBCWGtQZ3NtQkpIVzl3NlJ0Zjc3TUJfZnBQRFNrR0V2TlI5c19DSHc0QWJVdWQzY3NhZ1dRYw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-06 09:07:09"
     },
     {
       "id": 19630,
@@ -13077,61 +13131,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVkg2NWtteXRjblpQRDNvZVBHcVdOTUlJYlYzZUltRS10OWVVSGpjcnU4bjl3U3doZnJMRGREdEoxaTAtMXRhTVA2WGJSUjZHN244dlZsSXM2SHJwbGxmYnZxdVJNb2JNRWd6M1ZPMmd2dmlHN3FpdWt3aUZjSFE0SHBGYUVRMlloTE5tSVNzcjJqOVNqZkdDRjhOS3Jja1gyYWN6VlVNNEVtZ2NrYWFyeWdLcmNwMUFNbExiWmJxS2R1eUdodXM0?oc=5",
       "direction": "up",
       "updated_at": "2026-07-09 09:07:49"
-    },
-    {
-      "id": 13982,
-      "title": "트럼프 전 대통령이 이란 핵합의를 '종료'라고 선언하며 지정학적 긴장 고조. 이에 따라 글로벌 주식은 하락하고 유가는 급등하며, 한국은 USD/KRW 환율 상승과 원유 수입비 증가로 수출 기업 부담 확대 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-08",
-      "summary": "<p>트럼프 전 대통령이 이란 핵합의를 '종료'라고 선언하며 지정학적 긴장 고조. 이에 따라 글로벌 주식은 하락하고 유가는 급등하며, 한국은 USD/KRW 환율 상승과 원유 수입비 증가로 수출 기업 부담 확대 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trading Day: War on, risk-off: Stocks drop, crude jumps as Trump calls Iran peace deal &#x27;over&#x27; Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "지정학적 리스크 상승으로 글로벌 리스크오프 심화 → 한국 외국인 자금 유출, 원달러 환율 상승, 에너지 수입비 부담 증가로 거시경제 악영향 가능성 높음",
-      "stocks": [
-        "에너지/조선: SK에너지",
-        "GS에너지",
-        "현대중공업 | 수출 관련: 삼성전자",
-        "LG전자",
-        "SK하이닉스 | 기타: KB금융",
-        "신한금융"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbWx0NmZfUVlHWUprN3hTRGhoUFNScTB1cHJsVWxvZTJpeW8zTGt0ektBSF9pZ1k2VVFwc2VXQTRvSktncEM3Ml9hdVR0VDJOTG8zQ1dOSmZHeWdaMnpyd09NZG14UGp4WmY1ZmxBWUZRQ0RfY2diYkpPcjVrQ1lDYU0zaE43RVJmV3ZISFhJQ3VIT1hBeGV5Si04dklEMjFnaGQwSWhn?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-09 09:07:41"
-    },
-    {
-      "id": 13972,
-      "title": "중국이 첨단 AI 모델에 대한 반도체 공급망 차단(실리콘 커튼) 검토 중. 한국의 HBM·메모리 반도체 수출 제약 우려로 SK하이닉스, 삼성전자 등에 부정적 영향 가능성.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-08",
-      "summary": "<p>중국이 첨단 AI 모델에 대한 반도체 공급망 차단(실리콘 커튼) 검토 중. 한국의 HBM·메모리 반도체 수출 제약 우려로 SK하이닉스, 삼성전자 등에 부정적 영향 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): NEWSLETTER: China weighs silicon curtain around sought-after AI models Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "중국의 AI칩 수입 제한은 한국 반도체 업체의 주요 고객사 수요 급감 및 공급망 재편 위험을 높여 메모리·파운드리 중심의 한국 반도체 산업에 직결된 악재.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGx1VW5GVElsZUZsbWtoM0xUX3pUeHd4bm0tSW94Y3ZFRUx6OXdzbmZHV21ELTV2RXJKTV82Wi0tMkxFS1VQY3VuQnVhd00xODBKd3l2SUJZODFucnU0djhxQXRRVERnV0VGZ2xDSk1teU9FZWU2dWxEaWZ0NW5QQWllNTZ0VVBTbEZBQVlCTHlYRDg3QzhFVDZvRmNobHJadjl4YzZhb2FEQzlrTTNSbWtxWlZPbXVoU3pnMG1ndXpQYW1Odlp0MA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-09 09:07:06"
     }
   ],
   "events": [
