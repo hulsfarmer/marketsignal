@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T17:35:19",
+  "generated_at": "2026-08-06T17:40:10",
   "count": 500,
   "posts": [
     {
@@ -14020,6 +14020,30 @@
     },
     {
       "stock_code": "",
+      "stock_name": "코오롱인더",
+      "event_date": "2026-08-21",
+      "event_type": "배당기준일",
+      "title": "코오롱인더 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800577"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "코오롱",
+      "event_date": "2026-08-21",
+      "event_type": "배당기준일",
+      "title": "코오롱 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800578"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한국앤컴퍼니",
+      "event_date": "2026-08-21",
+      "event_type": "배당기준일",
+      "title": "한국앤컴퍼니 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800421"
+    },
+    {
+      "stock_code": "",
       "stock_name": "KX",
       "event_date": "2026-08-24",
       "event_type": "합병등기예정일",
@@ -14585,6 +14609,22 @@
       "event_type": "배당금지급예정일",
       "title": "동국홀딩스 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800195"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "코오롱인더",
+      "event_date": "2026-09-04",
+      "event_type": "배당금지급예정일",
+      "title": "코오롱인더 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800577"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "코오롱",
+      "event_date": "2026-09-04",
+      "event_type": "배당금지급예정일",
+      "title": "코오롱 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800578"
     }
   ]
 }
