@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T12:05:08",
+  "generated_at": "2026-08-06T12:08:16",
   "count": 500,
   "posts": [
     {
@@ -5538,6 +5538,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 19682,
+      "title": "미국 연방준비제도 쿡 위원이 인플레이션이 완화되지 않으면 금리 인상을 추진할 준비가 되어 있다고 밝혔다. 이는 미국의 금리 인상 가능성을 시사하며, USD/KRW 환율 상승과 한국 수출주 부진으로 이어질 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-05",
+      "summary": "<p>미국 연방준비제도 쿡 위원이 인플레이션이 완화되지 않으면 금리 인상을 추진할 준비가 되어 있다고 밝혔다. 이는 미국의 금리 인상 가능성을 시사하며, USD/KRW 환율 상승과 한국 수출주 부진으로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Cook ready to raise rates if inflation doesn&#x27;t start easing Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "Fed의 매파적 신호는 달러 강세와 한국 수출 경쟁력 약화, 외국인 주식 자금 이탈 위험 증가로 KOSPI에 부정적 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "삼성SDI",
+        "포스코"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONDd0Vlp2NlhIcHd6bEhrdmVCeU9GSzdZM01JeXJ4MElkaG83Z0Nva0dLbzNya1pPUjlSQTJyS3pqRnoxWlY1c0lnSUlFVjJGcHEtSlZ1VXc4REhNODBFMzZ6eko5MmZWdVNSY25ERUM2X3VwZFNHaFE3WHlfRlF1X3hHYUhZR2VWcE5kSmNlbEtNTC1uRTBxZDBNLUtUOGROWTZ3cHlSLWRtdmN1N2FZ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-06 12:07:32"
     },
     {
       "id": 19653,
@@ -13104,33 +13132,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSXprNndiLVlsbzVIZ1gwNFZsSk9tRjV4YjNBTDBXNW93Tm1WdFZ4ajg1RDdwMnowQmNIRWpXYzlWUGx3a0piaVA1bjVGcFdTSWRrZEthSXFSckRJTk5ZekNURjJRZFNGQUhSdXRINlptUGpmb055Qkd1N0ZXLVJ6UEdSM2duLU1TdjJCQ0ZzTEpYUGdPVWg3ODlOOTIzMGtpRWF3VHN2bXczdDR1RmNzNkdlOGxHUDluWnNkdnRsZDBGVzJ4eXpxa2s3OA?oc=5",
       "direction": "up",
       "updated_at": "2026-07-09 09:07:56"
-    },
-    {
-      "id": 13984,
-      "title": "미국의 이란 추가 공습으로 유가가 배럴당 1달러 이상 상승. 중동 지정학적 긴장 고조로 에너지 가격 상승세 지속.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-08",
-      "summary": "<p>미국의 이란 추가 공습으로 유가가 배럴당 1달러 이상 상승. 중동 지정학적 긴장 고조로 에너지 가격 상승세 지속.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil rises more than a dollar per barrel as US launches fresh strikes against Iran Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승은 에너지·화학주의 수익성 개선 호재이나, 수입 원가 부담 증가로 이중 효과 발생",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVkg2NWtteXRjblpQRDNvZVBHcVdOTUlJYlYzZUltRS10OWVVSGpjcnU4bjl3U3doZnJMRGREdEoxaTAtMXRhTVA2WGJSUjZHN244dlZsSXM2SHJwbGxmYnZxdVJNb2JNRWd6M1ZPMmd2dmlHN3FpdWt3aUZjSFE0SHBGYUVRMlloTE5tSVNzcjJqOVNqZkdDRjhOS3Jja1gyYWN6VlVNNEVtZ2NrYWFyeWdLcmNwMUFNbExiWmJxS2R1eUdodXM0?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-09 09:07:49"
     }
   ],
   "events": [
