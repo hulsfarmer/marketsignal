@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:05:19",
+  "generated_at": "2026-08-07T16:10:46",
   "dates": [
     "2026-08-07",
     "2026-08-06",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 150,
-      "correct": 73,
-      "hit_rate": 48.7,
-      "avg_return": 0.2,
-      "avg_return_open": 0.44
+      "total": 151,
+      "correct": 74,
+      "hit_rate": 49.0,
+      "avg_return": 0.23,
+      "avg_return_open": 0.47
     },
     "hybrid": {
-      "total": 232,
-      "correct": 106,
-      "hit_rate": 45.7,
-      "avg_return": -0.16,
-      "avg_return_open": -0.19
+      "total": 236,
+      "correct": 110,
+      "hit_rate": 46.6,
+      "avg_return": -0.13,
+      "avg_return_open": -0.15
     }
   },
   "by_date": {
@@ -155,10 +155,10 @@
             "confidence": "MEDIUM",
             "reason": "자사주 1조2천억 취득·소각과 슈퍼앱 MAU 1100만 돌파라는 강력한 주주환원 뉴스가 있으며, RSI 41로 과매도 구간에 근접해 반등 여력이 존재합니다. 5일 수익률 +2.8%로 단기 급등 부담이 없고, 20일 -3.5%로 아직 호재가 충분히 반영되지 않은 상태입니다.",
             "entry_price": 103600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 107400.0,
+            "return_pct": 3.67,
+            "return_pct_open": 3.67,
+            "correct": 1
           }
         ]
       },
@@ -173,10 +173,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 94 (RSI 51, 5일 -0.6%)",
             "entry_price": 52500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 53500.0,
+            "return_pct": 1.9,
+            "return_pct_open": 1.9,
+            "correct": 1
           },
           {
             "stock_code": "024110",
@@ -186,10 +186,10 @@
             "confidence": "HIGH",
             "reason": "[E+T] tech 57 / earn 88 (RSI 33, 5일 -1.2%)",
             "entry_price": 20200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20350.0,
+            "return_pct": 0.74,
+            "return_pct_open": 0.74,
+            "correct": 1
           },
           {
             "stock_code": "105560",
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 38 / earn 80 (RSI 40, 5일 +2.0%)",
             "entry_price": 170700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 171500.0,
+            "return_pct": 0.47,
+            "return_pct_open": 0.47,
+            "correct": 1
           },
           {
             "stock_code": "086790",
@@ -212,10 +212,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 48 / earn 68 (RSI 36, 5일 +3.2%)",
             "entry_price": 128600.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 133300.0,
+            "return_pct": 3.65,
+            "return_pct_open": 3.65,
+            "correct": 1
           }
         ]
       },
