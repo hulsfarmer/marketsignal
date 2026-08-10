@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:35:17",
+  "generated_at": "2026-08-10T17:40:08",
   "count": 500,
   "posts": [
     {
@@ -13363,6 +13363,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "금호석유화학",
+      "event_date": "2026-08-12",
+      "event_type": "합병계약일",
+      "title": "금호석유화학 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000482"
+    },
+    {
+      "stock_code": "",
       "stock_name": "대한항공",
       "event_date": "2026-08-13",
       "event_type": "채권자이의 제출 시작",
@@ -13923,6 +13931,30 @@
     },
     {
       "stock_code": "",
+      "stock_name": "한국앤컴퍼니",
+      "event_date": "2026-08-25",
+      "event_type": "배당기준일",
+      "title": "한국앤컴퍼니 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800634"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "금호석유화학",
+      "event_date": "2026-08-25",
+      "event_type": "주주확정기준일",
+      "title": "금호석유화학 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000482"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한국타이어앤테크놀로지",
+      "event_date": "2026-08-25",
+      "event_type": "배당기준일",
+      "title": "한국타이어앤테크놀로지 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800633"
+    },
+    {
+      "stock_code": "",
       "stock_name": "KR모터스",
       "event_date": "2026-08-26",
       "event_type": "합병승인 이사회결의일",
@@ -13960,6 +13992,14 @@
       "event_type": "배당금지급예정일",
       "title": "대화제약 — 현금ㆍ현물배당결정              (분기배당)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805900219"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "금호석유화학",
+      "event_date": "2026-08-26",
+      "event_type": "합병반대의사통지 시작",
+      "title": "금호석유화학 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000482"
     },
     {
       "stock_code": "",
@@ -14504,6 +14544,30 @@
       "event_type": "배당금지급예정일",
       "title": "명인제약 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800791"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한국앤컴퍼니",
+      "event_date": "2026-09-09",
+      "event_type": "배당금지급예정일",
+      "title": "한국앤컴퍼니 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800634"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "금호석유화학",
+      "event_date": "2026-09-09",
+      "event_type": "합병반대의사통지 종료",
+      "title": "금호석유화학 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000482"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한국타이어앤테크놀로지",
+      "event_date": "2026-09-09",
+      "event_type": "배당금지급예정일",
+      "title": "한국타이어앤테크놀로지 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800633"
     }
   ]
 }
