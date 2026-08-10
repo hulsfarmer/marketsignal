@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T12:05:02",
+  "generated_at": "2026-08-10T12:08:28",
   "count": 500,
   "posts": [
     {
@@ -526,6 +526,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 20309,
+      "title": "이란이 호르무즈 해협 재개를 미국의 여러 양보 조건에 연계시키고 있음. 호르무즈 해협 폐쇄 시 글로벌 유가 급등으로 한국의 에너지·화학 기업에 직접 영향.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-09",
+      "summary": "<p>이란이 호르무즈 해협 재개를 미국의 여러 양보 조건에 연계시키고 있음. 호르무즈 해협 폐쇄 시 글로벌 유가 급등으로 한국의 에너지·화학 기업에 직접 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran ties Hormuz reopening to US concessions on several demands Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협은 글로벌 원유 공급의 30% 통과지점으로, 지정학적 긴장 심화 시 유가 급등이 SK이노베이션·S-Oil·GS 등 에너지·정유사와 LG화학·롯데케미칼 등 화학사의 원가 부담 및 수익성에 직접 타격",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmFvNGYwRDFRdHZrdWhBOWR0ZmVCdkZTSzRROXVNMG1UX1Azb04xa3ZCbEtYNkl4eFhSZG16b0xYeHNyd2tTdHhGWXFUTXJ6WFNVRjg3bmZYOEhEeHNaNHh4NU9qN0RQYXY3ZG13Qzh6Mk1LNG9jaGZraUZwRHVKY0hMZlFWUTdMOEpoaTRuemlPWEFJZUhsYk5TaUpNdWFqR1dId3NCM0xvYS1SNlNBMg?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-10 12:07:58"
     },
     {
       "id": 20048,
@@ -13079,33 +13106,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUFpPY1lfc0lIc0xsNVlaSkZQanVuM3RZd0lUMTdLMlktT0dLajFOWExXSTZEd1pJd1kteDBWeTk5UnFHMmFtdUE1cWdmMEZwaDR4M09lV3NENXlhTHIwOUc1NEhTbGNYQTBZUmFNYlRIT3RUWWNyc3JZOXR2WXFrTWRFTmc1V2FHWnlDRW90YkJrOW1WWGstZ0d1bS1JaEJYZTcya0dUdkN4VzZQczhz?oc=5",
       "direction": "down",
       "updated_at": "2026-07-14 12:07:31"
-    },
-    {
-      "id": 14595,
-      "title": "미국-이란 간 군사적 긴장 고조로 중동 증시가 약세를 보임. 유가 상승 압력으로 한국의 정유·화학 종목은 수익성 개선 기대되나, 지정학적 리스크 확대로 시장 심리 악화.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-12",
-      "summary": "<p>미국-이란 간 군사적 긴장 고조로 중동 증시가 약세를 보임. 유가 상승 압력으로 한국의 정유·화학 종목은 수익성 개선 기대되나, 지정학적 리스크 확대로 시장 심리 악화.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gulf bourses subdued as US and Iran exchange strikes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 변동성 확대와 중동 공급망 리스크가 정유·화학 산업에 직접 영향을 미치며, 지정학적 불확실성이 전반적 시장심리를 압박",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU1pXOXRCNmZyZWlJV04zUzZFZmtwSG01b1IwN3VENmRyaTRoOThIR3hHbmJVTWNpU1NVTVNtRUMzTmNWXzg1WGdfeEFnZUNEQ3BUdUwyTVdickl6aFdqRzRUOHJ2VXA4Wk9oazhIdnFoczZwa2Jld1hPOEZIRlprYk9SWndKdEU3Z3RTSWhSZWF5MnZYRzNxWVEtRUlpakhU?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-07-13 09:07:11"
     }
   ],
   "events": [
