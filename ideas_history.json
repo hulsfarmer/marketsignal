@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:05:26",
+  "generated_at": "2026-08-10T16:10:44",
   "dates": [
     "2026-08-10",
     "2026-08-07",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 151,
-      "correct": 74,
-      "hit_rate": 49.0,
-      "avg_return": 0.23,
-      "avg_return_open": 0.47
+      "total": 153,
+      "correct": 76,
+      "hit_rate": 49.7,
+      "avg_return": 0.26,
+      "avg_return_open": 0.46
     },
     "hybrid": {
-      "total": 236,
-      "correct": 110,
-      "hit_rate": 46.6,
-      "avg_return": -0.13,
-      "avg_return_open": -0.15
+      "total": 240,
+      "correct": 114,
+      "hit_rate": 47.5,
+      "avg_return": -0.1,
+      "avg_return_open": -0.14
     }
   },
   "by_date": {
@@ -142,10 +142,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 54로 과열 미진입 상태이며 2분기 영업이익 2조7000억의 강한 실적이 긍정적입니다. 5일 +1.8%로 상승폭이 제한적이어서 호재가 완전히 반영되지 않았을 가능성이 있으며, 과거 성공 사례(2026-08-05 +1.13%)와 유사한 기술적·펀더멘탈 조건을 갖추고 있습니다.",
             "entry_price": 171500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 175800.0,
+            "return_pct": 2.51,
+            "return_pct_open": -1.34,
+            "correct": 1
           },
           {
             "stock_code": "011170",
@@ -155,10 +155,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 52로 중립 구간에 위치하고 대산공장 분할·현대케미칼 합병 및 1.2조원 체질 개선이라는 구조적 호재가 존재합니다. 20일 -4.2%의 중기 하락 흐름에서 5일 +3.9%의 반등 초입 국면으로 호재가 아직 주가에 완전 반영되지 않은 상태이나, 소송 리스크가 있어 MEDIUM 신뢰도를 부여합니다.",
             "entry_price": 58700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 61000.0,
+            "return_pct": 3.92,
+            "return_pct_open": 1.02,
+            "correct": 1
           }
         ]
       },
@@ -173,10 +173,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 86 (RSI 67, 5일 +1.4%)",
             "entry_price": 125700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 126300.0,
+            "return_pct": 0.48,
+            "return_pct_open": -0.95,
+            "correct": 1
           },
           {
             "stock_code": "024110",
@@ -186,10 +186,10 @@
             "confidence": "HIGH",
             "reason": "[E+T] tech 54 / earn 86 (RSI 39, 5일 -1.4%)",
             "entry_price": 20350.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20750.0,
+            "return_pct": 1.97,
+            "return_pct_open": -0.74,
+            "correct": 1
           },
           {
             "stock_code": "005930",
@@ -199,10 +199,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 71 / earn 0 (RSI 47, 5일 -12.2%)",
             "entry_price": 230500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 231000.0,
+            "return_pct": 0.22,
+            "return_pct_open": 1.95,
+            "correct": 1
           },
           {
             "stock_code": "009150",
@@ -212,10 +212,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 17 / earn 0 (RSI 48, 5일 +7.6%)",
             "entry_price": 1229000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1278000.0,
+            "return_pct": 3.99,
+            "return_pct_open": 2.44,
+            "correct": 1
           }
         ]
       },
