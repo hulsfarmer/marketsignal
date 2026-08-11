@@ -1,35 +1,44 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "strategy": "hybrid",
-  "generated_at": "2026-08-10T15:05:24",
-  "count": 3,
+  "generated_at": "2026-08-11T15:05:08",
+  "count": 4,
   "picks": [
     {
       "stock_code": "024110",
       "name_kr": "기업은행",
       "ms_score": 58,
-      "ai_score": 75,
-      "confidence": "MEDIUM",
-      "reason": "[E] tech 0 / earn 75 (RSI 53, 5일 +2.5%)",
-      "entry_price": 20750.0
+      "ai_score": 95,
+      "confidence": "HIGH",
+      "reason": "[E+T] tech 32 / earn 95 (RSI 44, 5일 -0.5%)",
+      "entry_price": 20250.0
+    },
+    {
+      "stock_code": "316140",
+      "name_kr": "우리금융지주",
+      "ms_score": 60,
+      "ai_score": 95,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 96 (RSI 65, 5일 +0.5%)",
+      "entry_price": 33350.0
     },
     {
       "stock_code": "105560",
       "name_kr": "KB금융",
-      "ms_score": 73,
-      "ai_score": 62,
-      "confidence": "MEDIUM",
-      "reason": "[E] tech 0 / earn 63 (RSI 52, 5일 +3.7%)",
-      "entry_price": 175800.0
+      "ms_score": 60,
+      "ai_score": 82,
+      "confidence": "HIGH",
+      "reason": "[T] tech 23 / earn 83 (RSI 46, 5일 +1.7%)",
+      "entry_price": 171700.0
     },
     {
       "stock_code": "009150",
       "name_kr": "삼성전기",
-      "ms_score": 67,
-      "ai_score": 15,
+      "ms_score": 60,
+      "ai_score": 19,
       "confidence": "LOW",
-      "reason": "[T] tech 16 / earn 0 (RSI 49, 5일 +8.2%)",
-      "entry_price": 1278000.0
+      "reason": "[T] tech 19 / earn 0 (RSI 47, 5일 +7.5%)",
+      "entry_price": 1274000.0
     }
   ]
 }
