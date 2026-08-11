@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T15:05:09",
+  "generated_at": "2026-08-11T16:10:29",
   "dates": [
     "2026-08-11",
     "2026-08-10",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 153,
-      "correct": 76,
-      "hit_rate": 49.7,
-      "avg_return": 0.26,
-      "avg_return_open": 0.46
+      "total": 155,
+      "correct": 78,
+      "hit_rate": 50.3,
+      "avg_return": 0.29,
+      "avg_return_open": 0.48
     },
     "hybrid": {
-      "total": 240,
+      "total": 243,
       "correct": 114,
-      "hit_rate": 47.5,
-      "avg_return": -0.1,
-      "avg_return_open": -0.14
+      "hit_rate": 46.9,
+      "avg_return": -0.12,
+      "avg_return_open": -0.16
     }
   },
   "by_date": {
@@ -168,10 +168,10 @@
             "confidence": "MEDIUM",
             "reason": "삼성증권의 목표가 650,000원 제시로 현재가(496,500원) 대비 30% 이상 상승 여력이 남아 있으며, RSI 54로 과매수 부담이 없고 5일 수익률 +0.6%로 호재가 아직 충분히 반영되지 않았습니다. 긍정 뉴스 4건 대비 부정 0건으로 수급 심리가 일방적으로 우호적이며, 1일 등락 0%로 당일 눌림에서 종가 매수 시 내일 반응 기대가 가능합니다.",
             "entry_price": 496500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 505000.0,
+            "return_pct": 1.71,
+            "return_pct_open": 1.71,
+            "correct": 1
           },
           {
             "stock_code": "010140",
@@ -181,10 +181,10 @@
             "confidence": "MEDIUM",
             "reason": "대규모 수주 기대감과 조선업 전반의 훈풍이 지속되고 있으며, RSI 54로 안전한 중립 구간에 위치합니다. 시장 영향력 점수 62점의 강세 환경에서 모멘텀 종목 포함 전략이 유효하고, 5일 +5.5%로 일부 반영되었으나 수주 뉴스의 지속성 측면에서 추가 상승 여력이 남아 있습니다.",
             "entry_price": 22050.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 22550.0,
+            "return_pct": 2.27,
+            "return_pct_open": 2.27,
+            "correct": 1
           }
         ]
       },
@@ -199,10 +199,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 75 (RSI 53, 5일 +2.5%)",
             "entry_price": 20750.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20250.0,
+            "return_pct": -2.41,
+            "return_pct_open": -2.41,
+            "correct": 0
           },
           {
             "stock_code": "105560",
@@ -212,10 +212,10 @@
             "confidence": "MEDIUM",
             "reason": "[E] tech 0 / earn 63 (RSI 52, 5일 +3.7%)",
             "entry_price": 175800.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 171700.0,
+            "return_pct": -2.33,
+            "return_pct_open": -2.33,
+            "correct": 0
           },
           {
             "stock_code": "009150",
@@ -225,10 +225,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 16 / earn 0 (RSI 49, 5일 +8.2%)",
             "entry_price": 1278000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1274000.0,
+            "return_pct": -0.31,
+            "return_pct_open": -0.31,
+            "correct": 0
           }
         ]
       },
