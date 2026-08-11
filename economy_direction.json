@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:35:30",
+  "generated_at": "2026-08-11T16:40:05",
   "count": 500,
   "posts": [
     {
@@ -13900,6 +13900,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "서울보증보험",
+      "event_date": "2026-08-26",
+      "event_type": "배당기준일",
+      "title": "서울보증보험 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800395"
+    },
+    {
+      "stock_code": "",
       "stock_name": "휴맥스",
       "event_date": "2026-08-27",
       "event_type": "합병반대의사통지 접수 종료",
@@ -14537,6 +14545,14 @@
       "event_type": "배당금지급예정일",
       "title": "GKL — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800357"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "서울보증보험",
+      "event_date": "2026-09-10",
+      "event_type": "배당금지급예정일",
+      "title": "서울보증보험 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800395"
     }
   ]
 }
