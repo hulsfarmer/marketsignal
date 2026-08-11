@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:05:19",
+  "generated_at": "2026-08-11T09:08:04",
   "count": 500,
   "posts": [
     {
@@ -5750,6 +5750,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 20517,
+      "title": "리비아 국영석유공사(NOC)가 드론 공격이 계속되면 자와이야 정유소 폐쇄와 불가항력 선언을 경고. 리비아 석유 공급 차질 가능성으로 국제유가 상승 압력 전망.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-10",
+      "summary": "<p>리비아 국영석유공사(NOC)가 드론 공격이 계속되면 자와이야 정유소 폐쇄와 불가항력 선언을 경고. 리비아 석유 공급 차질 가능성으로 국제유가 상승 압력 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Libya&#x27;s NOC warns of force majeure, Zawiya refinery shutdown if drone attacks continue Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "중동/북아프리카 유가 공급 리스크는 국내 정유·석유화학 기업의 원가 상승과 마진 압박 요인으로 작용하나, 단기 불확실성만 남아있어 명확한 호·악재 판단 어려움",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaXltbWpibFBieFlGQi1PQXlTWktFYXdFSENITmhTenpTVFhpSkhhMG1CMUJKTXo4VUdDX29YdVpmRHViaHowb3k0WjE1ajdjM0JldlRVN0ZVZVlMYU5HaXFlVWlqcmQ5Uk9JbWxsUkhVVUlFSzlMUFNnSnJyNnBhQkR1WVV6UjJFenJPaVNSVVh0YUpwUkduWTFXSkhEMW9IeVhJMFpB?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-11 09:07:46"
     },
     {
       "id": 20430,
@@ -13063,33 +13090,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaW0tUldZeEtOTXVXNFlST05jYjZUMzcxcVZQNl9MVXh3ZXltWVVUcUlMelA2OENsVmdtSDNqTUVBSTBNdEVpbzg3Q1E2N28wMVBlYlZCVS1SYU5XUkVuMUdtUzUwcEJrWmRDYVp2ajg3cHdXMnpHbHhfSHc4Z2VaNmpVZUNrLTFKY2hBdmFwNWt3b2xJdzdRYzFpbUMxSERsdmtTZQ?oc=5",
       "direction": "down",
       "updated_at": "2026-07-14 06:07:22"
-    },
-    {
-      "id": 14791,
-      "title": "2분기 글로벌 스마트폰 출하량이 13년 만에 최저 수준으로 하락했으며, 메모리칩 수급 부족이 주요 원인. 메모리반도체 의존도 높은 SK하이닉스, 삼성전자 등 한국 반도체 기업의 수요 전망 악화 우려.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-13",
-      "summary": "<p>2분기 글로벌 스마트폰 출하량이 13년 만에 최저 수준으로 하락했으며, 메모리칩 수급 부족이 주요 원인. 메모리반도체 의존도 높은 SK하이닉스, 삼성전자 등 한국 반도체 기업의 수요 전망 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Global smartphone shipments in second quarter hit lowest in 13 years on memory chip crunch Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "스마트폰 수요 급감은 메모리칩 최대 수요처 둔화를 의미하며, DRAM·낸드플래시 가격 하락 압력으로 이어져 한국 메모리반도체 기업들의 실적 악화 신호",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUzVTX3dRNjRNZWhfaklORDE4aXE1RzV4NGwtNXVNSDBHMllBN1ZlOU44NnQxMWk5WXlXckRHcWNreFNGb3BKY1RFdjdIbWNNUF90TE1QVUtFTEMzeXNCTlFfRktPbXJETTNlLUk5MjZxQUZxVkItUkZ1NW1NWU5nVUVLYXl0d3FrU3B3U0NqQ1E0bGU3SHltSm1RTjk3NHVkdFRKOFRPNl9xZm5VNks1Q3N0bF9EZE4yRjhfZzVzT3dJVE5KZko0RFpxdjBldw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-14 06:07:05"
     }
   ],
   "events": [
