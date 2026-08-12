@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T12:05:02",
+  "generated_at": "2026-08-12T12:08:16",
   "count": 500,
   "posts": [
     {
@@ -526,6 +526,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 20787,
+      "title": "CoreWeave가 2026년 지출 계획을 확대하고 AI 수요 급증으로 분기 실적을 상회했으며, 이는 GPU/HBM 등 고성능 반도체 수요 증가를 의미함. SK하이닉스(HBM)와 삼성전자(메모리) 등 한국 반도체 업체의 공급 기회 확대 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-11",
+      "summary": "<p>CoreWeave가 2026년 지출 계획을 확대하고 AI 수요 급증으로 분기 실적을 상회했으며, 이는 GPU/HBM 등 고성능 반도체 수요 증가를 의미함. SK하이닉스(HBM)와 삼성전자(메모리) 등 한국 반도체 업체의 공급 기회 확대 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): CoreWeave boosts 2026 spending plan, beats quarterly estimates on AI demand surge Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 인프라 투자 확대로 HBM, 고대역폭메모리 수요 증가가 확실해지며, SK하이닉스와 삼성전자의 핵심 수익 동력인 프리미엄 메모리 판매 호기 확대",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQVJvWFV5SDAtNEhEZmZINXZ6TGs5ZXd3bkh1NEJCNi03OWFMYzJtY2psZWowOEtsMHNHazdOMUdybnc3S01vUjdVX1duN3E2bUxvZXFPZDNVR29Obm9jR1JIU2xWR1ZhWGh5WnI5ZWxabVA5dXphWk1OTVc2UEV1UjZpMmpZWHg5dVpEaVFkUjd6dV9HaUxTQldpMA?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-12 12:07:09"
     },
     {
       "id": 20751,
@@ -5958,6 +5985,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 20798,
+      "title": "미국-이란 핵합의 불확실성으로 유가 상승. 중동 공급 리스크 심화로 유가 오름세 지속 예상되며, 국내 정유·석유화학 업종에 긍정적.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-12",
+      "summary": "<p>미국-이란 핵합의 불확실성으로 유가 상승. 중동 공급 리스크 심화로 유가 오름세 지속 예상되며, 국내 정유·석유화학 업종에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Oil rises as doubts over US-Iran deal heighten supply concerns Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "유가 상승은 S-Oil, GS, SK이노베이션 등 정유사의 마진 개선 호재이지만, LG화학·롯데케미칼 등 원료비 상승 업종은 악재로 작용",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOajU2TkE4Zm1kOHlwM2hwX0VXeWJTNkFCblBrN0FuUDNfN1NMRFQ1NE1HREZGVE96UXMyajRlamxJaVZqMGxQNGRyZlBZQ2xnNVNEZjdBZ05zR25PWEFTNksxMk9iREoyNElfZ1h0aUdiTmFKdEJpZlJfUDk1d25ZTXptbnByMDFfRjk2R1oxZ29pNFZiQVhwTmRCaDIzUXdYSFlxZnl6aU05eG1WLWlQWg?oc=5",
+      "direction": "neutral",
+      "updated_at": "2026-08-12 12:07:51"
+    },
+    {
+      "id": 20786,
+      "title": "Jensen Huang(NVIDIA CEO)이 주도하는 5000억 달러 규모의 AI 산업 호황 속에서, 한국의 HBM·메모리 반도체 기업들이 AI칩 수요 급증의 직접 수혜자로 포지셔닝되고 있음을 시사하는 기사.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-11",
+      "summary": "<p>Jensen Huang(NVIDIA CEO)이 주도하는 5000억 달러 규모의 AI 산업 호황 속에서, 한국의 HBM·메모리 반도체 기업들이 AI칩 수요 급증의 직접 수혜자로 포지셔닝되고 있음을 시사하는 기사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - Jensen Huang takes wheel of $500 bln AI bandwagon Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 반도체 수요 호황이 HBM·고대역폭메모리 등 한국 기업의 핵심 수익원 창출 확대를 의미하며, 삼성·SK하이닉스의 반도체 수익성 개선과 직결된 의미있는 산업 기조 확인.",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOFJyWkdEX3llRDhxWWVfZmNhNlR6UzlZNjNzSjZ4MEZpMGNnTWZMaDMzU2lFeS1GT2lMendlODc4STV0MDJZQ2JHa1FQb3VPaENKQ24yQ0ZwdlpJczJqVU52cHFOUU1HWjlZUW9UNWhWdW5BTFpDSGp4M0ltaWo3N2tBZGlYSlQ5ZHNCbjVkb3hsUVQ4M2h3d195X21PZ2gwZDhYSThVWnh6UQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-12 12:07:05"
     },
     {
       "id": 20765,
@@ -12983,83 +13064,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPejVocHU3MHFoUThMM0FoSk5ILWllYXdVa09OYmEtTjFoelpoVFl3T2kyYUR3UE85SnVLb01CbjV4TkJhMC0zajNCUHhza3c5RnJJaElFbnUyMV9YSmJ6VDUtWHFBUEdwSHd4eWUxMjNONzd2SS1zaENIdVJfWFFmX200YnV3Ym5YekpxVXBjVm91OWRXUy1xVTJHbkE4cHFOTDJF?oc=5",
       "direction": "up",
       "updated_at": "2026-07-15 03:07:41"
-    },
-    {
-      "id": 14999,
-      "title": "엔비디아가 중국으로 강력한 H200 AI 칩 출하를 시작했다는 미국 관계자 발언으로, 미국의 대중 반도체 수출 규제 완화 신호가 포착됨. 이는 글로벌 AI 칩 수급 완화와 한국 메모리·파운드리 업체들의 경쟁 심화를 의미.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-14",
-      "summary": "<p>엔비디아가 중국으로 강력한 H200 AI 칩 출하를 시작했다는 미국 관계자 발언으로, 미국의 대중 반도체 수출 규제 완화 신호가 포착됨. 이는 글로벌 AI 칩 수급 완화와 한국 메모리·파운드리 업체들의 경쟁 심화를 의미.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US official says Nvidia has begun shipping powerful H200 AI chips to China Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "엔비dia의 중국 수출 재개는 글로벌 AI 칩 시장 경쟁 격화로 이어져 SK하이닉스의 HBM 수요 불확실성과 삼성의 파운드리 수요에 부정적 영향 예상",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaDItR0c4WHhNYk9SeEpucGtPSmk3ZnBnS1lPUll3QkNSLWx3LWpWTk92MldIc3RlWGJUVTQ5ZFQtT3pBSkhfN3B4ZDB4VFpvVEZTVThMMXFVS1hhTGZBSFI2OXRncjFTVndGTUwyRHpXb0I3UXFRZWhBOUpFRm15MURsUnRXMFJfak5sOWNDZlJFWDdJT3Y3NVRleW5iZFZzM2hwUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-15 03:07:04"
-    },
-    {
-      "id": 14997,
-      "title": "중국 메모리 반도체 업체 CXMT가 86억 달러 규모로 2026년 아시아 최대 IPO를 추진 중. 중국 반도체 산업의 자립화 강화 신호로, 한국 메모리 반도체(SK하이닉스, 삼성전자) 업체들의 중국 시장 경쟁 심화 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-14",
-      "summary": "<p>중국 메모리 반도체 업체 CXMT가 86억 달러 규모로 2026년 아시아 최대 IPO를 추진 중. 중국 반도체 산업의 자립화 강화 신호로, 한국 메모리 반도체(SK하이닉스, 삼성전자) 업체들의 중국 시장 경쟁 심화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China memory chipmaker CXMT aims to raise $8.6 billion in Asia&#x27;s biggest IPO of 2026 so far Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국의 메모리칩 자체 기술력 강화는 한국 반도체의 주요 경쟁사 부상을 의미하며, 글로벌 공급망과 가격 경쟁에 유의미한 영향을 미칠 수 있음",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQak92RVlRd0NJMk5aY29PcmpER2NZOC0tQ2VhdExIZVM1U3ZiemcwSS1lY1JjeEMxNVVCX01JMFhoN0h0a1o2akpWUkJfdEh0WDVKNmNacG54SHBDX0FGSVNaWUoteUNCNVpOTlhHRGpyU3pSb1VEU1J0eUo5cm5HRjlSR1BPVTcxeVZJTTkzRHpOZEN6YUFQekxWRDVVZ2VCWVJ0UURsS0VIeWN6ekhqZzROd0ktSG95NTBqX3dScVdyY01tR0RB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-15 00:08:43"
-    },
-    {
-      "id": 14975,
-      "title": "한국 여당이 자본 조달 규칙 완화를 추진하면서 SK하이닉스가 직접 수혜할 전망. HBM 등 고부가가치 반도체 사업 확대 자금 조성이 용이해질 가능성.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-14",
-      "summary": "<p>한국 여당이 자본 조달 규칙 완화를 추진하면서 SK하이닉스가 직접 수혜할 전망. HBM 등 고부가가치 반도체 사업 확대 자금 조성이 용이해질 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): SK Hynix set to benefit as South Korea&#x27;s ruling party seeks to ease capital-raising rules Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "SK하이닉스의 자본조달 제약 완화는 AI 반도체(HBM) 투자 확대로 이어져 경쟁력 강화에 유리하며, 한국 반도체 산업 전반의 긍정 신호.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMEhZTGxfRjRoWGJGOENvdEt3Y2V4S3RUc3h6UWc1dE9mOFg3dlVlTVIteGx5eDhKeHlfN1Q4bXp3NXRxaEtEc3dULWpRR2R1TWg4anROMW5WNHdXc0Y5NlRveFM3ejYxRG5kbDFmeXo1RzE4SkVxU0o0Nk1WcWZBelhvcTEtMzRXbURUdnVZdmwyUndvd1ZjWXdhWlJuY0NZbFN0bUZzT19pNVFhYlM4anVOSWZvNkFpVmdTbEp6SFdaazNpNWxSMVktVEZVcjA?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-15 00:07:10"
     }
   ],
   "events": [
