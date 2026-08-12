@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T18:05:02",
+  "generated_at": "2026-08-12T18:08:03",
   "count": 500,
   "posts": [
     {
@@ -6007,6 +6007,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 20890,
+      "title": "호르무즈 해협 해상 교역량이 분쟁 심화로 1주일 최저 수준으로 하락했다. 중동 긴장 고조로 유가 변동성이 커질 것으로 예상되어 한국의 에너지·화학 관련 기업들에 영향을 미칠 수 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-12",
+      "summary": "<p>호르무즈 해협 해상 교역량이 분쟁 심화로 1주일 최저 수준으로 하락했다. 중동 긴장 고조로 유가 변동성이 커질 것으로 예상되어 한국의 에너지·화학 관련 기업들에 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Hormuz shipping traffic falls to one-week low amid hostilities reuters.com</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협은 한국 석유 수입의 80% 이상이 통과하는 주요 해로로, 해상 운송 차질은 유가 급등 리스크를 높여 정유·석유화학 업계에 직접적 악영향 초래",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN1dzT200SXd2Z1ZNMmhKMEN1b1NITFZ5WGRCcU00Zm1KOUd4dC1sU0lERk1SNk5SaExMUlFBc1hzbmQ4YTJQNm15elZ6eUJCRlMzYzZabV9WTGNtWkFpQy02elVaeXhvQmRMSG5oRzgxWFc1b2Faa1hUNGJtV3pZbDZfMzJzMnJWdVM0UU9jMXVKbEpuWTVZSlhkMENxdGRfTFRCLVRqbjhSVXdkQ3lYb2RKYw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-12 18:07:41"
     },
     {
       "id": 20830,
@@ -13029,33 +13056,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb19oQ1R5VGhmanp2cndtdzVYYUs2R1h0ZWFwdVpndDItRDEtX1NSVmlqMHlaTS1Kd1RnUTFsaFJFMmJRNEZONW03eEVWek15Uk8tdGUxX1NEYkhCUFpIRnBWZ05qdmttRzREbzB5RW9sbXJHaWlJTkx5Q3g2OGE2T2xzbjZNcFpVY0dPRm1Va0xRcTFGMjVrUjlmM1FyYlhkUC0ydnQzUTdLQQ?oc=5",
       "direction": "down",
       "updated_at": "2026-07-15 15:08:44"
-    },
-    {
-      "id": 15121,
-      "title": "이란 긴장 고조로 유가 공급 리스크가 증가하면서 브렌트유의 선물 구조가 변화 중. 한국의 주요 에너지·화학 기업들의 원유 수입 비용 상승 요인으로 작용 가능.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-14",
-      "summary": "<p>이란 긴장 고조로 유가 공급 리스크가 증가하면서 브렌트유의 선물 구조가 변화 중. 한국의 주요 에너지·화학 기업들의 원유 수입 비용 상승 요인으로 작용 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Brent oil structure changes to reflect mounting supply risk as Iran tensions flare Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "유가 상승 압력은 한국의 에너지·석유화학 기업들의 원가 부담을 가중시키며, 관련 주요 종목(S-Oil, SK이노베이션, GS 등)의 실적에 직접 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNlAyVDlDN1dDd0JxZVdFRE84Zmp3anJyaWxIajl3T092MkMwZ3JzM2tjZElUeDJ3bVdhZWZySjJPM1VnYmljbEdDS0lJcjhPbGdpUGVweXB6azdTdUhyaDJCX05mX3VHZzBEY0JXa185XzRBQnpZUUF6SmZ0Yy1vVWhYa2hOR1p5cmYzMVhQU3Rpc1NMSllFX3VEeldtWXR1VWlzT1Z6LVBvRWoyMVRfS1daVmFRWjJfdE5WUEJuN3FzWGtfelFZ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-15 12:08:04"
     }
   ],
   "events": [
