@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T06:05:02",
+  "generated_at": "2026-08-13T06:08:37",
   "count": 500,
   "posts": [
     {
@@ -6007,6 +6007,32 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 20966,
+      "title": "시스코가 지속적인 AI 지출에 힘입어 연간 매출 전망을 컨센서스 이상으로 상향 조정. AI 인프라 수요 강세가 글로벌 반도체·메모리 업체의 성장 기회를 확대하는 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-12",
+      "summary": "<p>시스코가 지속적인 AI 지출에 힘입어 연간 매출 전망을 컨센서스 이상으로 상향 조정. AI 인프라 수요 강세가 글로벌 반도체·메모리 업체의 성장 기회를 확대하는 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Cisco forecasts annual revenue above estimates on sustained AI spending Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 IT 인프라 투자 확대 신호로 HBM, 메모리 반도체 수요 증대 가능성 높음에 따른 한국 메모리 반도체 업체의 긍정적 영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFNjVWhZOGJVZzBrMDdXRC13NkM3cW9lMjlicDZZc3duZXNTLWlZTEhBTDJuWTJvV3pkbEdoUWd2VVFmTWlCTTFCVlJjOFFsTXB3Y0JBZHROZExiUU4xZm1mbkhOSHF4MVRfdXpEdWp3NFdlbnhpQk5kSklmX3Y3cW5ockRIT0VSeWdWMQ?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-13 06:07:06"
     },
     {
       "id": 20955,
@@ -13011,34 +13037,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOblRyb2hpM2M2STFoQmZObWJfdWlkNzMtSlF6R09Pd2Vpaml6MDVCcmdTa0szOFh3UkF6cUdOS25vblB2b1QybmRtelB2WXlEajlQaFNRYXFxMDdPR2RidUhvRFRUVmZIc3A1VzljN29ZVEF4U09GRFMxaVY0V004SXY3b3FmdkU5YUN5bjc0TWRfZjAtbWFVUTRIeFJQSFcxbUhPWm1QN3dHMFBTelZLZFEzQWhmSXRZTHhHR2NLTEhib19VVEYydDhn?oc=5",
       "direction": "down",
       "updated_at": "2026-07-15 18:08:31"
-    },
-    {
-      "id": 15216,
-      "title": "중국 GDP 성장률이 예상을 밑돌면서 재정 구조 개선의 비용이 부각되었다. 중국 경기 둔화는 한국의 화장품, 자동차, 철강 등 주요 수출 업종에 수요 감소 압력을 미칠 것으로 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-15",
-      "summary": "<p>중국 GDP 성장률이 예상을 밑돌면서 재정 구조 개선의 비용이 부각되었다. 중국 경기 둔화는 한국의 화장품, 자동차, 철강 등 주요 수출 업종에 수요 감소 압력을 미칠 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - China GDP growth miss flags cost of fiscal repairs Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 성장 부진은 한국 주요 수출 업종(자동차, 화장품, 철강)의 수요 악화와 실적 부진으로 직결되는 의미있는 매크로 악재",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "LG생활건강",
-        "아모레퍼시픽",
-        "POSCO",
-        "CJ면세점"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTHdHZTdQOXpWUmJKX3RESS1UVkp4R3NEdE54ZlQ3aEUzbHZDNFdUdmRTNmZ2MElzRERVbjRpOVh6ZTlYcVZiLXZGMW9pUmZmN1M1WHVCZUVDVFNOSWVrX2w4RXZKc0FkcDRseDFfTWpUcUdxZVZBbExHTlFsX0l0alBEeHh6bkdjYlF2b05oODJiRk9PUUVnSkI4RERuZnNRRFVoT0VVQXk4ZVl2?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-15 18:08:27"
     }
   ],
   "events": [
