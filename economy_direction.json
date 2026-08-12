@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T17:35:19",
+  "generated_at": "2026-08-12T17:40:12",
   "count": 500,
   "posts": [
     {
@@ -13613,6 +13613,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "씨젠",
+      "event_date": "2026-08-21",
+      "event_type": "배당금지급예정일",
+      "title": "씨젠 — 현금ㆍ현물배당결정              (분기배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900644"
+    },
+    {
+      "stock_code": "",
       "stock_name": "KX",
       "event_date": "2026-08-24",
       "event_type": "합병등기예정일",
@@ -13773,6 +13781,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "콜마비앤에이치",
+      "event_date": "2026-08-26",
+      "event_type": "배당기준일",
+      "title": "콜마비앤에이치 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900585"
+    },
+    {
+      "stock_code": "",
       "stock_name": "휴맥스",
       "event_date": "2026-08-27",
       "event_type": "합병반대의사통지 접수 종료",
@@ -13858,6 +13874,22 @@
       "event_type": "배당기준일",
       "title": "동원산업 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800109"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "HS애드",
+      "event_date": "2026-08-27",
+      "event_type": "배당기준일",
+      "title": "HS애드 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800634"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "삼양식품",
+      "event_date": "2026-08-27",
+      "event_type": "배당기준일",
+      "title": "삼양식품 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800659"
     },
     {
       "stock_code": "",
@@ -14514,6 +14546,14 @@
       "event_type": "배당금지급예정일",
       "title": "한국단자공업 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800353"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "HS애드",
+      "event_date": "2026-09-11",
+      "event_type": "배당금지급예정일",
+      "title": "HS애드 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800634"
     }
   ]
 }
