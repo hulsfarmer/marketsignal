@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-08-11T16:10:29",
+  "generated_at": "2026-08-12T15:05:12",
   "dates": [
+    "2026-08-12",
     "2026-08-11",
     "2026-08-10",
     "2026-08-07",
@@ -29,8 +30,7 @@
     "2026-07-07",
     "2026-07-06",
     "2026-07-03",
-    "2026-07-02",
-    "2026-07-01"
+    "2026-07-02"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,126 @@
     }
   },
   "by_date": {
+    "2026-08-12": {
+      "ai": {
+        "count": 3,
+        "picks": [
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 77,
+            "ai_score": 65,
+            "confidence": "MEDIUM",
+            "reason": "5일 -1.8% 하락 후 RSI 40으로 기술적 반등 조건에 해당하며, 14조 규모 수주 기대감이라는 미반영 호재가 남아있습니다. 직전 추천일(08-10)에 +2.27% 성공 사례와 동일한 패턴(RSI 40~55 구간, 수주 기대감)으로 재현 가능성이 있습니다.",
+            "entry_price": 21800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 77,
+            "ai_score": 62,
+            "confidence": "MEDIUM",
+            "reason": "RSI 46(중립)이며 5일 -0.7%, 20일 -4.7%로 단기 조정을 거친 상태에서 호실적·배당 확대·4000억 자사주 매입 소각이라는 강한 긍정 뉴스가 복수로 존재합니다. 금융주 특성상 배당·자사주 소각은 수급 개선 패턴과 연결되며, 20일 하락 구간에서 호재 뉴스는 아직 완전히 반영되지 않은 상태입니다.",
+            "entry_price": 127700.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "012330",
+            "name_kr": "현대모비스",
+            "ms_score": 70,
+            "ai_score": 60,
+            "confidence": "MEDIUM",
+            "reason": "RSI 43으로 기술적 반등 구간이며 5일 -1.5% 소폭 조정 후 삼성증권의 목표가 650,000원 제시(현재가 대비 31% 상승 여력)라는 미반영 호재가 존재합니다. 직전 추천일(08-10)에 동일 종목이 +1.71% 성공을 기록한 패턴과 유사하게 '수급_개선' 및 '기술적_반등' 조건이 동시 충족됩니다.",
+            "entry_price": 495500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "017670",
+            "name_kr": "SK텔레콤",
+            "ms_score": 64,
+            "ai_score": 99,
+            "confidence": "HIGH",
+            "reason": "[T] tech 99 / earn 0 (RSI 35, 5일 -7.5%)",
+            "entry_price": 86000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "ms_score": 55,
+            "ai_score": 97,
+            "confidence": "HIGH",
+            "reason": "[E] tech 46 / earn 98 (RSI 38, 5일 -0.2%)",
+            "entry_price": 20150.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "009540",
+            "name_kr": "HD한국조선해양",
+            "ms_score": 67,
+            "ai_score": 94,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 95 (RSI 55, 5일 +0.5%)",
+            "entry_price": 398000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "009150",
+            "name_kr": "삼성전기",
+            "ms_score": 77,
+            "ai_score": 81,
+            "confidence": "HIGH",
+            "reason": "[T] tech 81 / earn 0 (RSI 42, 5일 -6.9%)",
+            "entry_price": 1262000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "ms_score": 63,
+            "ai_score": 63,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 64 / earn 0 (RSI 39, 5일 -2.4%)",
+            "entry_price": 166600.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-08-11": {
       "ai": {
         "count": 3,
@@ -3038,113 +3158,6 @@
             "exit_price": 362500.0,
             "return_pct": 1.12,
             "return_pct_open": 1.12,
-            "correct": 1
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-07-01": {
-      "ai": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "030200",
-            "name_kr": "KT",
-            "ms_score": 62,
-            "ai_score": 78,
-            "confidence": "HIGH",
-            "reason": "RSI 23으로 극도 과매도 구간에 진입하여 기술적_반등 패턴(성공률 100%) 조건에 가장 부합하는 종목입니다. 국민연금의 투자 방식 변경('단순→일반')과 NH투자증권 목표가 상향은 수급_개선 신호로 작용하며, 5일 +2.3%로 아직 호재가 충분히 반영되지 않은 상태입니다.",
-            "entry_price": 52900.0,
-            "exit_price": 53700.0,
-            "return_pct": 1.51,
-            "return_pct_open": 1.51,
-            "correct": 1
-          },
-          {
-            "stock_code": "047050",
-            "name_kr": "포스코인터내셔널",
-            "ms_score": 64,
-            "ai_score": 68,
-            "confidence": "MEDIUM",
-            "reason": "RSI 37로 과매도 영역에 진입했으며, 국민연금 178만주 추가 매입과 삼성증권 목표가 상향이라는 수급_개선 신호가 동시에 나타나고 있습니다. 20일 -17.9%의 낙폭 과대 상태에서 기관 대규모 매입은 기술적_반등 패턴과 수급_개선 패턴이 겹치는 구간으로 반등 가능성이 높습니다.",
-            "entry_price": 49150.0,
-            "exit_price": 51300.0,
-            "return_pct": 4.37,
-            "return_pct_open": 4.37,
-            "correct": 1
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 5,
-        "picks": [
-          {
-            "stock_code": "086790",
-            "name_kr": "하나금융지주",
-            "ms_score": 58,
-            "ai_score": 96,
-            "confidence": "HIGH",
-            "reason": "[E] tech 13 / earn 96 (RSI 50, 5일 +0.3%)",
-            "entry_price": 114600.0,
-            "exit_price": 116400.0,
-            "return_pct": 1.57,
-            "return_pct_open": 1.57,
-            "correct": 1
-          },
-          {
-            "stock_code": "329180",
-            "name_kr": "HD현대중공업",
-            "ms_score": 67,
-            "ai_score": 91,
-            "confidence": "HIGH",
-            "reason": "[E] tech 38 / earn 92 (RSI 40, 5일 +0.8%)",
-            "entry_price": 592000.0,
-            "exit_price": 615000.0,
-            "return_pct": 3.89,
-            "return_pct_open": 3.89,
-            "correct": 1
-          },
-          {
-            "stock_code": "005490",
-            "name_kr": "POSCO홀딩스",
-            "ms_score": 62,
-            "ai_score": 83,
-            "confidence": "HIGH",
-            "reason": "[T] tech 83 / earn 56 (RSI 39, 5일 -4.4%)",
-            "entry_price": 317000.0,
-            "exit_price": 315000.0,
-            "return_pct": -0.63,
-            "return_pct_open": -0.63,
-            "correct": 0
-          },
-          {
-            "stock_code": "010140",
-            "name_kr": "삼성중공업",
-            "ms_score": 67,
-            "ai_score": 80,
-            "confidence": "HIGH",
-            "reason": "[T] tech 80 / earn 0 (RSI 43, 5일 -5.3%)",
-            "entry_price": 23300.0,
-            "exit_price": 23750.0,
-            "return_pct": 1.93,
-            "return_pct_open": 1.93,
-            "correct": 1
-          },
-          {
-            "stock_code": "009540",
-            "name_kr": "HD한국조선해양",
-            "ms_score": 60,
-            "ai_score": 77,
-            "confidence": "MEDIUM",
-            "reason": "[T] tech 78 / earn 0 (RSI 43, 5일 -4.9%)",
-            "entry_price": 350000.0,
-            "exit_price": 358500.0,
-            "return_pct": 2.43,
-            "return_pct_open": 2.43,
             "correct": 1
           }
         ]
