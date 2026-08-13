@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T21:05:02",
+  "generated_at": "2026-08-13T21:08:29",
   "count": 500,
   "posts": [
     {
@@ -6119,6 +6119,32 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 21155,
+      "title": "중국 SMIC의 이익이 AI 칩 수요로 3배 이상 증가했으며, 이는 한국 파운드리(삼성전자)와 메모리(SK하이닉스) 업체들의 경쟁 심화를 의미하고 글로벌 AI 칩 공급망 확대를 시사한다.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-13",
+      "summary": "<p>중국 SMIC의 이익이 AI 칩 수요로 3배 이상 증가했으며, 이는 한국 파운드리(삼성전자)와 메모리(SK하이닉스) 업체들의 경쟁 심화를 의미하고 글로벌 AI 칩 공급망 확대를 시사한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): SMIC profit more than triples on AI-driven chip demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "중국 경쟁사의 급성장은 삼성전자 파운드리와 SK하이닉스 HBM의 시장 점유율 위협 요소이며, AI 칩 수요 확대 자체는 긍정적이나 SMIC 부상으로 인한 경쟁 심화가 한국 반도체 업체들의 마진 압박으로 작용할 수 있다.",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "한미반도체"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaW5SbklFWFdseXViUWtFTU5ybS1EX1NDUzRHM3lIaGZJcUFVMC1TLXQtbXRBem02TlRoX1U5QnRjTUwxMXRuZWxMS1NNVUUwREVXbXdLRlZFVF94eHF1dWxoWThRWWV2WG9RMHYxQWZwbElNeWtMM0k5bnV5a3loV1lBd3p5UDFtZ0xRbmcxcFpDWHhUbmhCWklGRWcxNG82?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-13 21:07:06"
+    },
+    {
       "id": 21072,
       "title": "미국 인플레이션이 양호해지면서 Fed 금리 인상 베팅이 축소되고 있으며, 달러화는 약세를 보이고 있다. 이는 USD/KRW 환율 하락으로 이어져 수출주 수익성 개선과 외국인 주식 매수 유입 가능성을 높인다.",
       "category": "거시",
@@ -6203,6 +6229,33 @@
       "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNazlfTWozZlI1am8yV1pmREdVZGswQ1NPWl92dGhIN3lVbWJRaFA2YWhWNDQ4NWwweXZpbmpLOGFmcDlUdDhBSGFyU1piOVBzam1JOEN2RVFDOXdWOFk2LTB1MklsRzRfVmlaR3BTb2ZFNmw2U0hjUnhNLUd3cVV0WElxVQ?oc=5",
       "direction": "up",
       "updated_at": "2026-08-13 12:07:13"
+    },
+    {
+      "id": 21156,
+      "title": "Coherent가 AI 수요 견조에 따른 긍정적 1분기 실적 전망을 발표했으며, 이는 한국의 SK하이닉스(HBM), 삼성전자 등 메모리·파운드리 기업들의 AI칩 수요 증대를 시사하는 신호로 작용할 수 있음.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-12",
+      "summary": "<p>Coherent가 AI 수요 견조에 따른 긍정적 1분기 실적 전망을 발표했으며, 이는 한국의 SK하이닉스(HBM), 삼성전자 등 메모리·파운드리 기업들의 AI칩 수요 증대를 시사하는 신호로 작용할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Coherent forecasts upbeat first quarter on robust AI demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 AI 칩 수요 회복 신호는 한국 반도체 기업들의 HBM·메모리 수출 전망 개선에 긍정적이며, AI 공급망 전반의 회복 추세를 강화",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQelFEblpSRlVxMEhyVnkyOGxYVzBhakN2aVZFTTQ5Slc5ckZmQ0g5NHEtUVZUV2oyX3QzcC1YUjMtWThGVzE1NTNLNFdSVHo3bWRBVnlfX3UtMXNGYk9yMG4tRm8zb0Y4djIxUWN1d2diTTRQeTg1aGRXbEd0UnI1eExfNXBGN203cF9aLVFJT1ZUdC1WSVMwZzI4QUFIS1ZoUXdka2dn?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-13 21:07:10"
     },
     {
       "id": 21031,
@@ -12958,63 +13011,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeVMwTTR0allWaTJSb3M3YVBOcEJURnZMUWUzWWNoYnlrNWZzeUtlYmt1cHhxY3VNX1RyRmhnZE9FNzg2QVJrdnRNSzFWcElpUG5ka29HeW0zcmZIS0lvelZsa2hhbGhnczQ2ejdxV2xTeWoyeFNUWmpfTkUyNnBtdzB4Vk5JWnkwaHgzX2szVzZIT05pbXF3eDZCeENZVFZtTnU0dkxNQkdjUQ?oc=5",
       "direction": "down",
       "updated_at": "2026-07-27 15:08:13"
-    },
-    {
-      "id": 15677,
-      "title": "이란·후티 세력의 홍해 해운로 위협으로 유가 변동성 확대 우려. 한국의 주요 에너지·화학 기업들의 원유 조달 비용 및 수익성에 직접 영향.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-15",
-      "summary": "<p>이란·후티 세력의 홍해 해운로 위협으로 유가 변동성 확대 우려. 한국의 주요 에너지·화학 기업들의 원유 조달 비용 및 수익성에 직접 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Why Iranian, Houthi threats to Red Sea shipping matter more for oil now Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "글로벌 주요 해상 운송로 차질로 유가 변동성 심화 → S-Oil, SK이노베이션 등 석유정제·화학 산업의 원가 및 마진 압박 실질적",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb2VIVDBvQW5VRElkejZ4aTNza0V1ZmRZaWRnanljRVI4c0l0VnBZeG9pNm5YajNORzM1NFVaZW11NGh6T2pZeU9jZmpiQl9fWXhpemcyZjlDTGltOXhzdk5ZblBQM0xpcmlhS0ZzWkJmRFdhWTRURHNMamd4dThqMDNGYXZvNXJ6d0x3eTBZWWl4MUZZTnZ5d3NCZnJzWTNieEVGc1Y0MlU1VjVTUnYzR0dVVVJKUVJfSl8wTjZhVEUzSFBOZnc?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-17 21:07:39"
-    },
-    {
-      "id": 15493,
-      "title": "중국의 지방정부 부채 정리가 경제 성장을 저해하고 있으며, 이는 중국 수출 감소 및 내수 부진으로 이어져 한국의 수출 의존 기업들(자동차, 화장품, 철강)의 실적 악화 위험을 높인다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-15",
-      "summary": "<p>중국의 지방정부 부채 정리가 경제 성장을 저해하고 있으며, 이는 중국 수출 감소 및 내수 부진으로 이어져 한국의 수출 의존 기업들(자동차, 화장품, 철강)의 실적 악화 위험을 높인다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - China’s local debt cleanup leaves a growth mess Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 둔화는 한국의 주요 수출 시장(자동차, 화장품, 철강 등)의 수요 감소로 직결되는 명확한 악재",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "LG생활건강",
-        "아모레퍼시픽",
-        "POSCO",
-        "현대차정기",
-        "게임사(넷마블",
-        "펍지)"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd1NGVzFGRTU4X0syeWl5YVVPdEdELTFtdFI0bTl0bFpBX200OFdZSWVIbjlkMm42OWo2SW1lNzM2eGgyWVhNS2lHclVLbTE2RldzVHIwanZjWEM1clRIR3E2eXBtU25RemVoUXFyMDRTQlJVQ1pHTFNIdGVrUjhwWGNJMzlVWDkxbll5ajRENFFITzJZbG9McjlSdHlwd2JfSjhsdWxBNFU?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-16 18:08:32"
     }
   ],
   "events": [
