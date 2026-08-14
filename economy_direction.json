@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T02:35:18",
+  "generated_at": "2026-08-15T02:40:13",
   "count": 500,
   "posts": [
     {
@@ -13397,6 +13397,14 @@
     },
     {
       "stock_code": "",
+      "stock_name": "지에스이",
+      "event_date": "2026-08-25",
+      "event_type": "배당금지급",
+      "title": "지에스이 — 현금ㆍ현물배당결정              (분기배당)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814902375"
+    },
+    {
+      "stock_code": "",
       "stock_name": "KR모터스",
       "event_date": "2026-08-26",
       "event_type": "합병승인 이사회결의일",
@@ -14378,6 +14386,14 @@
       "event_type": "합병반대의사통지 종료일",
       "title": "한국카본 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002642"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한국카본",
+      "event_date": "2026-09-14",
+      "event_type": "합병반대의사통지 종료",
+      "title": "한국카본 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002795"
     }
   ]
 }
