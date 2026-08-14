@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-08-13T16:10:47",
+  "generated_at": "2026-08-14T15:06:07",
   "dates": [
+    "2026-08-14",
     "2026-08-13",
     "2026-08-12",
     "2026-08-11",
@@ -29,8 +30,7 @@
     "2026-07-09",
     "2026-07-08",
     "2026-07-07",
-    "2026-07-06",
-    "2026-07-03"
+    "2026-07-06"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,113 @@
     }
   },
   "by_date": {
+    "2026-08-14": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "259960",
+            "name_kr": "크래프톤",
+            "ms_score": 73,
+            "ai_score": 71,
+            "confidence": "MEDIUM",
+            "reason": "RSI 42로 과매도에 근접하고 5일 -2.9%의 조정 후 신한투자 매수 상향과 서브노티카2 흥행 기대감이 아직 주가에 완전히 반영되지 않은 상태입니다. 게임주 특성상 흥행 기대감은 단기 수급 개선으로 이어질 수 있으며 호재_선반영 위험이 상대적으로 낮습니다.",
+            "entry_price": 234500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "009540",
+            "name_kr": "HD한국조선해양",
+            "ms_score": 67,
+            "ai_score": 66,
+            "confidence": "MEDIUM",
+            "reason": "RSI 48 중립 구간에서 5일 -6.8%의 과도한 낙폭이 발생하여 기술적 반등 여지가 있으며, 2분기 호실적은 펀더멘탈 훼손 없음을 확인시켜 줍니다. 목표가 하향이라는 부정 재료가 이미 주가에 반영된 상태로 추가 하락보다 단기 반등 가능성이 높다고 판단하나, 과거 실패 이력을 고려해 낮은 비중 접근을 권장합니다.",
+            "entry_price": 371500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "ms_score": 77,
+            "ai_score": 97,
+            "confidence": "HIGH",
+            "reason": "[E] tech 24 / earn 98 (RSI 46, 5일 -0.2%)",
+            "entry_price": 22000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "138040",
+            "name_kr": "메리츠금융지주",
+            "ms_score": 62,
+            "ai_score": 88,
+            "confidence": "HIGH",
+            "reason": "[T] tech 88 / earn 0 (RSI 40, 5일 -6.1%)",
+            "entry_price": 118600.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "033780",
+            "name_kr": "KT&G",
+            "ms_score": 62,
+            "ai_score": 87,
+            "confidence": "HIGH",
+            "reason": "[T] tech 88 / earn 0 (RSI 40, 5일 -7.9%)",
+            "entry_price": 173800.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "267250",
+            "name_kr": "HD현대",
+            "ms_score": 67,
+            "ai_score": 82,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 82 (RSI 63, 5일 +1.8%)",
+            "entry_price": 229000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "ms_score": 77,
+            "ai_score": 69,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 70 / earn 56 (RSI 45, 5일 -4.4%)",
+            "entry_price": 168100.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-08-13": {
       "ai": {
         "count": 2,
@@ -3025,113 +3132,6 @@
             "exit_price": 50000.0,
             "return_pct": 1.42,
             "return_pct_open": 1.42,
-            "correct": 1
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-07-03": {
-      "ai": {
-        "count": 2,
-        "picks": [
-          {
-            "stock_code": "009540",
-            "name_kr": "HD한국조선해양",
-            "ms_score": 63,
-            "ai_score": 70,
-            "confidence": "MEDIUM",
-            "reason": "RSI 32로 과매도 영역에 근접하여 기술적_반등 패턴 발동 조건에 해당합니다. 2.4조원 규모 교환사채 발행 성공은 자금력 확보라는 긍정 재료로, 희석 우려보다 유동성 확보 측면이 단기적으로 우세하게 반영될 수 있습니다. 조선 섹터 전반의 상승 흐름(HD현대중공업 +3.89% 성공 사례)과 동조 가능성이 높습니다.",
-            "entry_price": 362500.0,
-            "exit_price": 359500.0,
-            "return_pct": -0.83,
-            "return_pct_open": 1.79,
-            "correct": 0
-          },
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 73,
-            "ai_score": 62,
-            "confidence": "LOW",
-            "reason": "2,700억원 자사주 매입 및 무상증자 추진이라는 강력한 주주가치 제고 재료가 수급_개선 신호로 작용할 수 있습니다. RSI 51로 중립 구간에 위치하여 과매도·과열 리스크가 모두 낮은 안정적 구간입니다. 다만 5일 +6.5% 상승으로 호재 선반영 우려가 있어 신뢰도를 LOW로 설정하며 비중 축소 접근을 권장합니다.",
-            "entry_price": 176600.0,
-            "exit_price": 183600.0,
-            "return_pct": 3.96,
-            "return_pct_open": 4.02,
-            "correct": 1
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 5,
-        "picks": [
-          {
-            "stock_code": "010140",
-            "name_kr": "삼성중공업",
-            "ms_score": 77,
-            "ai_score": 97,
-            "confidence": "HIGH",
-            "reason": "[E] tech 29 / earn 98 (RSI 26, 5일 -0.2%)",
-            "entry_price": 22950.0,
-            "exit_price": 23500.0,
-            "return_pct": 2.4,
-            "return_pct_open": 0.22,
-            "correct": 1
-          },
-          {
-            "stock_code": "005490",
-            "name_kr": "POSCO홀딩스",
-            "ms_score": 65,
-            "ai_score": 59,
-            "confidence": "MEDIUM",
-            "reason": "[E] tech 26 / earn 59 (RSI 25, 5일 +4.1%)",
-            "entry_price": 317500.0,
-            "exit_price": 320000.0,
-            "return_pct": 0.79,
-            "return_pct_open": 0.47,
-            "correct": 1
-          },
-          {
-            "stock_code": "009150",
-            "name_kr": "삼성전기",
-            "ms_score": 64,
-            "ai_score": 54,
-            "confidence": "MEDIUM",
-            "reason": "[T] tech 54 / earn 0 (RSI 47, 5일 -3.4%)",
-            "entry_price": 1926000.0,
-            "exit_price": 1989000.0,
-            "return_pct": 3.27,
-            "return_pct_open": -1.56,
-            "correct": 1
-          },
-          {
-            "stock_code": "024110",
-            "name_kr": "기업은행",
-            "ms_score": 58,
-            "ai_score": 52,
-            "confidence": "MEDIUM",
-            "reason": "[T] tech 47 / earn 52 (RSI 34, 5일 +4.8%)",
-            "entry_price": 20600.0,
-            "exit_price": 21300.0,
-            "return_pct": 3.4,
-            "return_pct_open": 1.46,
-            "correct": 1
-          },
-          {
-            "stock_code": "011200",
-            "name_kr": "HMM",
-            "ms_score": 57,
-            "ai_score": 49,
-            "confidence": "LOW",
-            "reason": "[T] tech 50 / earn 0 (RSI 35, 5일 +4.3%)",
-            "entry_price": 19100.0,
-            "exit_price": 19170.0,
-            "return_pct": 0.37,
-            "return_pct_open": 0.73,
             "correct": 1
           }
         ]

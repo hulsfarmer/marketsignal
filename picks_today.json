@@ -1,53 +1,53 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "strategy": "hybrid",
-  "generated_at": "2026-08-13T15:04:49",
+  "generated_at": "2026-08-14T15:06:06",
   "count": 5,
   "picks": [
     {
-      "stock_code": "011200",
-      "name_kr": "HMM",
-      "ms_score": 57,
+      "stock_code": "010140",
+      "name_kr": "삼성중공업",
+      "ms_score": 77,
       "ai_score": 97,
       "confidence": "HIGH",
-      "reason": "[E] tech 23 / earn 98 (RSI 47, 5일 -0.2%)",
-      "entry_price": 21350.0
-    },
-    {
-      "stock_code": "024110",
-      "name_kr": "기업은행",
-      "ms_score": 58,
-      "ai_score": 90,
-      "confidence": "HIGH",
-      "reason": "[E] tech 53 / earn 90 (RSI 32, 5일 -1.0%)",
-      "entry_price": 20150.0
-    },
-    {
-      "stock_code": "017670",
-      "name_kr": "SK텔레콤",
-      "ms_score": 57,
-      "ai_score": 81,
-      "confidence": "HIGH",
-      "reason": "[T] tech 81 / earn 0 (RSI 37, 5일 -3.6%)",
-      "entry_price": 87800.0
+      "reason": "[E] tech 24 / earn 98 (RSI 46, 5일 -0.2%)",
+      "entry_price": 22000.0
     },
     {
       "stock_code": "138040",
       "name_kr": "메리츠금융지주",
       "ms_score": 62,
-      "ai_score": 77,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 78 / earn 0 (RSI 44, 5일 -5.3%)",
-      "entry_price": 119000.0
+      "ai_score": 88,
+      "confidence": "HIGH",
+      "reason": "[T] tech 88 / earn 0 (RSI 40, 5일 -6.1%)",
+      "entry_price": 118600.0
     },
     {
-      "stock_code": "086790",
-      "name_kr": "하나금융지주",
+      "stock_code": "033780",
+      "name_kr": "KT&G",
+      "ms_score": 62,
+      "ai_score": 87,
+      "confidence": "HIGH",
+      "reason": "[T] tech 88 / earn 0 (RSI 40, 5일 -7.9%)",
+      "entry_price": 173800.0
+    },
+    {
+      "stock_code": "267250",
+      "name_kr": "HD현대",
       "ms_score": 67,
+      "ai_score": 82,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 82 (RSI 63, 5일 +1.8%)",
+      "entry_price": 229000.0
+    },
+    {
+      "stock_code": "105560",
+      "name_kr": "KB금융",
+      "ms_score": 77,
       "ai_score": 69,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 70 / earn 0 (RSI 43, 5일 -4.0%)",
-      "entry_price": 127900.0
+      "reason": "[T] tech 70 / earn 56 (RSI 45, 5일 -4.4%)",
+      "entry_price": 168100.0
     }
   ]
 }
