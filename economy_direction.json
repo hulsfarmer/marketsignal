@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T00:05:01",
+  "generated_at": "2026-08-18T00:08:52",
   "count": 500,
   "posts": [
     {
@@ -6161,6 +6161,32 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 21710,
+      "title": "엔비디아가 OpenAI 데이터센터 구축을 위해 SB Energy에 15억 달러를 투자하기로 결정. AI 인프라 투자 확대로 고성능 반도체 수요 증가 신호.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-17",
+      "summary": "<p>엔비디아가 OpenAI 데이터센터 구축을 위해 SB Energy에 15억 달러를 투자하기로 결정. AI 인프라 투자 확대로 고성능 반도체 수요 증가 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nvidia to invest $1.5 billion in SB Energy under OpenAI data center deal Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "AI 데이터센터 투자 확대는 HBM·메모리·파운드리 수요 증가 신호로 한국 반도체 주요 기업들에 중기적 호재이나, 직접적 한국 기업 참여가 아닌 간접 효과",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZkxQZ0FIUUQ0X2p6bVF1NWw1eF9PQnBtRVJVbUk4eV83UkU5X0JjdmE0RnFDdkZOLVJNWWlCejVmOTdmdTFoT3FGWmhGOGVYdFdwcXNwWlAtaEVNRnFPYkZFVzhmY3ZBQ0xERGUtWFF6QWdxcVFqR2k4dkdDTkJHNURIdUJ0Rk05NE94ekVPMjYtaWNodnItODdIdGU4Qmw5bndYZ095UF9nRFc5RnRheGxtNXFCM2VWbXd5M2pCTGw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-18 00:07:05"
     },
     {
       "id": 21693,
@@ -12977,34 +13003,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNXVlMFZqaDVJQ0I0YzcweDlEUUdIdjFqTjNKcnBKWDJ2NktRZzNOQ3cyVlpsVEREWTBWR3hCNWNDMmpiajFESURySzE0eXZwUzJwSG1lcnZHVnRkc0FwdXdkY1I2V0xyLTgyMm9WSEwyXzMxdWFQYk5OeC1DQ2ItMVVPOUtQNWNOQWRWQ3UwMzVhWHVhc0MzX0lMMnhFdDQza0ktQ3VyZzMyaFVZSVFteGZnZ2REZGtyNTVSbEVWdDE4WWc?oc=5",
       "direction": "down",
       "updated_at": "2026-07-20 15:08:26"
-    },
-    {
-      "id": 15958,
-      "title": "브렌트유가 $90을 돌파했으며, 미국-이란 간 중동 군사 긴장 고조가 원유 공급 불안을 야기. 유가 상승은 한국의 수입 에너지 비용 증가와 USD/KRW 약세 압력으로 작용.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-20",
-      "summary": "<p>브렌트유가 $90을 돌파했으며, 미국-이란 간 중동 군사 긴장 고조가 원유 공급 불안을 야기. 유가 상승은 한국의 수입 에너지 비용 증가와 USD/KRW 약세 압력으로 작용.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Brent oil tops $90 as US, Iran intensify attacks in Middle East Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 급등은 한국의 교역조건 악화, 에너지 수입비 부담 증가, 인플레이션 우려로 이어지며 수출주도 기업과 채권시장에 부정적 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "S-Oil",
-        "GS칼텍스",
-        "한국조선해양"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbDB0dzIyZzhDNXdvemNBWHdxR3dnWXcwVk4xM082SDRRTm9xel9yX3hJeFBDN1hyQXZpRlVWcElHNi13amFSaXFZLUEtYWpva20xcmFjLWt2TEc0QjFlMDJRMHFPZ3dpb0hZNlBib1ZMNk4xNXdPcmNfUHRpRzNzVDRtdmZlY2MydWVLdS1uVnZXSkdHZjlYelZOZ1M0SXlnVzlBSGFUUU43YlE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-20 12:07:50"
     }
   ],
   "events": [
