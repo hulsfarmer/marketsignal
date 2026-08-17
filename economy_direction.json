@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T03:05:02",
+  "generated_at": "2026-08-18T03:08:22",
   "count": 500,
   "posts": [
     {
@@ -6161,6 +6161,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 21745,
+      "title": "이란이 미국과의 외교 실패 시 호르무즈 해협에서 공세 가능성을 위협. 전 세계 석유 공급의 약 21%가 통과하는 해협으로 한국의 에너지 수입 경로 위협 요소.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-17",
+      "summary": "<p>이란이 미국과의 외교 실패 시 호르무즈 해협에서 공세 가능성을 위협. 전 세계 석유 공급의 약 21%가 통과하는 해협으로 한국의 에너지 수입 경로 위협 요소.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails reuters.com</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협 긴장 고조 시 유가 급등 가능성으로 에너지·화학 관련 한국 종목에 단기 악재이나, 유가 상승은 일부 정유사에는 마진 개선 기회",
+      "stocks": [
+        "S-Oil",
+        "SK이노베migration",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-18 03:07:57"
     },
     {
       "id": 21710,
@@ -12976,33 +13003,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR01HZHVDNUtrR0hhUmxCcmFSdU5ibzN6Q0dQRjFkeWdZMmxEcVE5VXo1YUpZYy1laXJzNVdTNzJFd1kzV0g0LUtYaTlPOEdua20xRFRpbXdZTGJEdjNSU2RqblNDZW8taTdCdXY4bEQzakpNVjYwU3IwN0tRMW1kMGIzbENhdmU4VldKXzFjWWVUMGV4bDdaczFNQlZuZlM1YWxUYzB1NmlKd2VwUV9ubmdqQTEyTUxoMXVQekZEbw?oc=5",
       "direction": "up",
       "updated_at": "2026-07-20 18:07:05"
-    },
-    {
-      "id": 15990,
-      "title": "대만이 중국 선박 활동 급증을 보고하며 태평양 해상 공급망 차질 우려 제기. 한국의 에너지·화학 기업들이 의존하는 해운로 리스크 증가로 유가 변동성 확대 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-20",
-      "summary": "<p>대만이 중국 선박 활동 급증을 보고하며 태평양 해상 공급망 차질 우려 제기. 한국의 에너지·화학 기업들이 의존하는 해운로 리스크 증가로 유가 변동성 확대 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Taiwan says Chinese vessel activity jumps, raising fears for Pacific supply routes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "지정학적 긴장으로 인한 태평양 공급망 불안정화는 한국의 에너지·화학 수출입과 해운비 상승 리스크로 직결되는 의미있는 매크로 악재.",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNXVlMFZqaDVJQ0I0YzcweDlEUUdIdjFqTjNKcnBKWDJ2NktRZzNOQ3cyVlpsVEREWTBWR3hCNWNDMmpiajFESURySzE0eXZwUzJwSG1lcnZHVnRkc0FwdXdkY1I2V0xyLTgyMm9WSEwyXzMxdWFQYk5OeC1DQ2ItMVVPOUtQNWNOQWRWQ3UwMzVhWHVhc0MzX0lMMnhFdDQza0ktQ3VyZzMyaFVZSVFteGZnZ2REZGtyNTVSbEVWdDE4WWc?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-20 15:08:26"
     }
   ],
   "events": [
