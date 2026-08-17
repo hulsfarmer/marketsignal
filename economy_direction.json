@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:05:02",
+  "generated_at": "2026-08-17T12:07:53",
   "count": 500,
   "posts": [
     {
@@ -6163,6 +6163,33 @@
       "updated_at": "2026-05-03 21:51:57"
     },
     {
+      "id": 21641,
+      "title": "호르무즈 해협 유조선 공격으로 해운 활동 둔화. 중동 유가 불확실성 증대로 한국의 에너지·화학 기업들의 원유 수급 및 유가 변동성 리스크 확대.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-16",
+      "summary": "<p>호르무즈 해협 유조선 공격으로 해운 활동 둔화. 중동 유가 불확실성 증대로 한국의 에너지·화학 기업들의 원유 수급 및 유가 변동성 리스크 확대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Shipping slows through Strait of Hormuz after tanker attacks, data shows Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "주요 석유 공급로 차질은 유가 급등 요인이며, S-Oil·SK이노베이션 등 에너지·화학 기업의 수익성과 원가 구조에 의미있는 영향",
+      "stocks": [
+        "S-Oil",
+        "SK이노베이션",
+        "GS",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS011b1NvcmEzQUNzX2dVdzFyUmg1UnpkLXZqNW5nUFFxNGZpaE51amZaZWJDZnNTQi1yZDE2cGxwU09PdzhMWWJiV1lpMk0xSmJmb0dQNVdGN1F3RHBTaVQtRzlsU2Nwa2RER0ZlbngzOWc3aDV2MmMwRmNfZ2xXclpHRzE0RkFzeDZ3MjY2QTAwMlFPSEVTeTRQM0JDQ2VtQjVPQTFPZWxRaXB4YzBTbjBVSXlxQTBoMUE?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-17 12:07:24"
+    },
+    {
       "id": 21583,
       "title": "엔비디아가 OpenAI 데이터센터 딜 관련 SB Energy에 30억 달러 투자를 검토 중. AI 데이터센터 인프라 확대로 고대역폭 메모리(HBM) 및 파운드리 수요 증가 신호.",
       "category": "주식",
@@ -6213,6 +6240,34 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5",
       "direction": "up",
       "updated_at": "2026-08-15 12:07:22"
+    },
+    {
+      "id": 21640,
+      "title": "일본은행(BOJ)이 9월 금리 인상과 더욱 빠른 긴축 속도를 검토 중. 글로벌 금리 인상 사이클 강화로 달러 강세 및 한국 수출 경쟁력 약화 우려.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-14",
+      "summary": "<p>일본은행(BOJ)이 9월 금리 인상과 더욱 빠른 긴축 속도를 검토 중. 글로벌 금리 인상 사이클 강화로 달러 강세 및 한국 수출 경쟁력 약화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): BOJ eyeing September rate hike, faster pace of tightening, sources say Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "BOJ 긴축 강화는 엔화 상승, 달러 강세를 초래하여 USD/KRW 환율 상승 및 한국 수출 기업의 원화 약세 혜택 제한, 글로벌 금리 상승 압력으로 한국 채권·성장주 약세 예상",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG전자",
+        "현대자동차",
+        "카카오",
+        "네이버"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWHVuTnFNU0ZEVXdoQWJXd212Z3Bxd21Nc05LWV9KaS1oa1JmU2puVDJUQzk4b08xaUZSTGlZRFQxUjI1NEpCaUdLVkllYlR2MVZ4djJ5RzJ2LXlMN2xUWHRIVnBKdzhReXhDM05BblZQdWs3UmlNbVFlNVdEYUotNjBOTHJ3dHVnNWt0S1JmeFU2UzcwV3lyMzZxRl9kWDROcU5zUVdWNFRvNUJnMkpQRUZLZlpqWk1PZXpTMw?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-17 12:07:19"
     },
     {
       "id": 21585,
@@ -12949,60 +13004,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeWtrc3R6QmdYREpuRHNxR3dFNkJkVjdSMTRYcFhmRHJYQ18yaGFfSHcwbmVKSjZvWVo2M0FqdF9VZkJmbG9CVTVObEZTQ2t1amx5MTlJZ201YWR3cE9IMFNxVTNXdlp6SVV5MnZDLXotWS1EQVFNbUFFV2hZUWJJeUVScVNRaUhjci1zUXJoUTBnMFBkSnFzeWgwWkNpd2FqZ2hZQW14cTNCRDcydkp4X2p2QlYyRWlTRWFISmFoSllBY01OWmNlVWNpamk?oc=5",
       "direction": "down",
       "updated_at": "2026-07-20 12:07:05"
-    },
-    {
-      "id": 15873,
-      "title": "카스피해 석유 파이프라인 컨소시엄(CPC)이 드론 공격으로 인한 유조선 피해로 석유 적출을 중단했다. 주요 석유 공급 경로 차질로 유가 상승 압력이 발생할 것으로 예상된다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-19",
-      "summary": "<p>카스피해 석유 파이프라인 컨소시엄(CPC)이 드론 공격으로 인한 유조선 피해로 석유 적출을 중단했다. 주요 석유 공급 경로 차질로 유가 상승 압력이 발생할 것으로 예상된다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Caspian Pipeline Consortium oil loadings suspended after drone attacks on tankers, CPC says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "글로벌 석유 공급 차질은 유가 상승을 초래하여 에너지·화학 관련 한국 주요 종목들의 수익성에 직결되는 의미있는 매크로 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQjFsc1o5b28zLW5TaGc1eWFHWmJfLUpxOGZnOGRRV1BYNm9SYWlKZU9qN3ozSG42cmRBU2p1MHJQN1JvbEpyd1JOc2pCMmNqY0pUbWJMdDhyQVRUYzFSNjBQakhXRl83VkhoX0VuSm1PeDRVRlhIRENBWG9CLW52MVBxQWhaTnllMllDUXZuQmwzTnRhYU5hMmxMSXI1bWlkeGp3dHFweFRGRi1fTjk1UXotT3k0NGdKM2VEc2FIanNuelIzaTF0QWRB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-19 21:07:22"
-    },
-    {
-      "id": 15780,
-      "title": "이란이 미국의 야간 공습 이후 걸프만 국가들에 대한 공격을 재개했으며, 중동 긴장 고조로 유가 상승 압력이 계속되고 있다. 한국의 에너지·화학 기업들의 원유 구매 비용 증가와 수익성 악화 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-18",
-      "summary": "<p>이란이 미국의 야간 공습 이후 걸프만 국가들에 대한 공격을 재개했으며, 중동 긴장 고조로 유가 상승 압력이 계속되고 있다. 한국의 에너지·화학 기업들의 원유 구매 비용 증가와 수익성 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran renews attacks on Gulf states after another night of US strikes Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학적 위험 심화는 국제유가 상승을 야기하며, 한국의 주요 석유·석유화학 기업들의 원가 상승과 수익성 압박으로 이어지는 명확한 악재",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVgwRnh4bGg5bXVrMEdSNXEydXpjb0dCTmQwQlV2MHlydHJTU05DcUxIbktrZW82aGUwZ2F4R2h6bkJXOEpFQy1DREthRVFySzUzNkpVMGNSdXdTMlVjVFR4ZTkyYlRqRTU4bEo1cHR1Y3RMSDJ0UV9Ed01tbnVZbUdyN29ZZWpqQU5VZDd3b3dkS0VlMVp5UUJSZHdPVUUzVjZGNmFHWUJOYWVFZDd0ekJnV293QTg?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-18 15:07:27"
     }
   ],
   "events": [
