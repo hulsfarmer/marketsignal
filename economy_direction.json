@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:05:02",
+  "generated_at": "2026-08-18T15:07:50",
   "count": 500,
   "posts": [
     {
@@ -6161,6 +6161,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 21843,
+      "title": "호르무즈 해협에서 정체불명의 발사체에 맞은 선박에서 사상자 발생. 중동 지역 긴장 고조로 유가 상승 압력 가능성.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-18",
+      "summary": "<p>호르무즈 해협에서 정체불명의 발사체에 맞은 선박에서 사상자 발생. 중동 지역 긴장 고조로 유가 상승 압력 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Vessel struck by unknown projectile in Strait of Hormuz, crew casualty reported, UKMTO says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협은 전 세계 석유 공급의 약 21% 통과로, 중동 분쟁 심화 시 유가 급등이 한국의 에너지 수입비 증가 및 석유화학 기업 수익성 악화 초래",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdC1DbUtnYVo3NzVqcVBVR3FXcm1WQXBOWHI2b1d0SG5NOG1wS25jdjJJeUx3NFc0Ym13OTlZTzl5Q1hnR3dVWFpuTkF6cVlic0NNdXJDWHBIcGZlRVRLWUtJclYybUxvNTJ5RWFDZjJOaGR2aGFrS21Ibzg3b1FudnZjVkZTQV9ra2ZmMnNZNGZWWGdDZXpxUmpoMXEybC1oMjd2T3RYVjJwZ3NacE9XcERRWEZhcHZtbVE1VmhsaDNiWkhlV2hyei1QZ3c?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-18 15:07:28"
     },
     {
       "id": 21824,
@@ -12977,33 +13004,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNkgyZFlrU2hqY2tJUEdEc0JxWkpWVC1aSkl0aTg2UFlqV1VHUWkwUW51QjZXRkMzY1VEN211ZkpDRUZaS3ZGLXZZLVctU3lLWGp2UXlKb1lnblNQVV9sQkcxNEJBenJpYUY2cGt4NGdUeVZ0Q0JVN0NqUUM1cl85OVlEbGRmWjNId19KRVQ3Y2VmTl9yMW9tcFJVekt5NXhYakpxdXdaTTFZbnNubDBNUkdfWEVqYUpoblNISURBcG9yUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-07-21 00:07:05"
-    },
-    {
-      "id": 16054,
-      "title": "글로벌 반도체 기업들이 큰 수익 증가를 앞두고 있으나, 이것이 충분할지에 대한 의문 제기. SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 한국 반도체 업체들의 실적 개선 전망과 시장 기대치 충돌 가능성이 주요 관심사.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-20",
-      "summary": "<p>글로벌 반도체 기업들이 큰 수익 증가를 앞두고 있으나, 이것이 충분할지에 대한 의문 제기. SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등 한국 반도체 업체들의 실적 개선 전망과 시장 기대치 충돌 가능성이 주요 관심사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Chipmakers head for big profit gains, but will it be enough? Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI/메모리 수요 호황 속 한국 반도체 업체들의 수익성 개선이 예상되지만, 시장의 높아진 기대치 충족 여부가 주가 방향을 결정할 중요한 변수",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQakNVc2RiQmJuU1hqbk1LbUdzc3VhVU9iUkZoYmw3Rjc1TzJVZnNZcHFfM1dHOXBvQWg0VEtnc0hRMHV0ZWs5Q2xIR0JiZGVBVEV5NTNYektxRHpnQ3U0WkFOb0k4VmtYdElpQUlBQVNfbXkzWUI2bFZjRFdYQzRPRzY4QldXNThDekE3OWdXRF80WU45Ym9kcjZNN3lTLVlmV2g0?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-07-20 21:07:10"
     }
   ],
   "events": [
