@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:05:02",
+  "generated_at": "2026-08-19T06:08:07",
   "count": 500,
   "posts": [
     {
@@ -6210,6 +6210,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 21985,
+      "title": "미국 금리가 이란 정정 우려와 광범위한 매도세 속에 상승했다. 미 달러 강세로 USD/KRW 환율 상승이 예상되며, 글로벌 수익성 악화로 KOSPI 외국인 수급 악화 가능성이 있다.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-18",
+      "summary": "<p>미국 금리가 이란 정정 우려와 광범위한 매도세 속에 상승했다. 미 달러 강세로 USD/KRW 환율 상승이 예상되며, 글로벌 수익성 악화로 KOSPI 외국인 수급 악화 가능성이 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US yields rise amid Iran worries, broader selloff Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미 금리 상승은 달러 강세→원화 약세, 외국인 자금 이탈 압력, 한국 수출기업 수익성 개선but 평가액 하락 등 혼합적 영향을 미치는 의미있는 매크로 변수",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG화학",
+        "현대차",
+        "포스코"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaERYcG1nTmtNcy1ia2hGekZQaVp4X1Y5RHlab3QydTVDV2tfSVZmQnctVC1iaWFmZ2xJRmN6U3pzNk1wdUx1VlpQWmF6WTZsdmtfdmF3SmpGUWYzMzluM3JEVVBVTmZXU2NfMG9lcjRzUktxWEZNZDZxbTE1Q2FkVmd4Mmd3ekpxeHY3RWtpRC14QmV0SktSNA?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-19 06:07:30"
     },
     {
       "id": 21974,
@@ -12978,33 +13005,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRTYzT0tHTGRMbHJTWEhMbzMwT3VFZlBWanNOem02SHBBV1VJLTZTVEVFdjB5MnM1TktvRXFnUDZ5UV9CMzE5cGhtOWVxejE4amlGRWkzTDkwWmw3ZnRYNDFSZlZFZmtma2ZHSk1CSFZSNk5ibHR4Z0tDajFaTFBBYVlvZkVVcDdxTnFaQ0N2U1RqbEd3N1NWRUx0NUtJdVVJLWkwQUswRDdpa2c1Q25Ub0ZpOW1VXzJIcEpDb1NDQ0ZacFJRTS0xSzd1NGFNcHo0LVMzT3lzVmhOVGpJNmM5ZUxmeEM?oc=5",
       "direction": "down",
       "updated_at": "2026-07-22 21:07:26"
-    },
-    {
-      "id": 16363,
-      "title": "슈퍼마이크로 컴퓨터가 600억 달러 규모 주문을 확보하고 강한 마진율을 시현하며 주가 급등. AI 서버 시장의 수요 강세로 한국 메모리·파운드리 공급업체들의 성장성 재평가 계기.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-21",
-      "summary": "<p>슈퍼마이크로 컴퓨터가 600억 달러 규모 주문을 확보하고 강한 마진율을 시현하며 주가 급등. AI 서버 시장의 수요 강세로 한국 메모리·파운드리 공급업체들의 성장성 재평가 계기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Super Micro sees strong margins, books $60 billion in orders; shares jump Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 서버 시장의 실질적 수요 확대 신호로 SK하이닉스 HBM·삼성전자 메모리/파운드리의 공급 긍정성 강화",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWjJqS2h4N3J4Q0FHRUxCYURuby00QUtJY3Z6RkdKSDY4Ump2U0xjWDJ4enN0VWt5VU11VkcycDk2QXdHRjhOSlpmV3NmMkFONDYyNlZHWnRSVTFrTi1kLWNKTVZ5cHFxRTdwMDhyUW5Od0pUS2xvVEJVNExpWmtDeE9aZzBWU0tkYVlXekg4bTgwUk1zejYzVkRsV1g4STFKbHU4RU5n?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-22 09:07:09"
     }
   ],
   "events": [
