@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T00:05:02",
+  "generated_at": "2026-08-19T00:08:24",
   "count": 500,
   "posts": [
     {
@@ -548,6 +548,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 21951,
+      "title": "이란이 호르무즈 해협 폐쇄를 지속하겠다고 선언했으며, 미국이 중간 합의안 조건을 충족할 때까지 유지하겠다고 발표. 한국의 중동 원유 수입 경로 차단 위험으로 유가 급등 압력이 커짐에 따라 에너지·화학 관련주에 악영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-18",
+      "summary": "<p>이란이 호르무즈 해협 폐쇄를 지속하겠다고 선언했으며, 미국이 중간 합의안 조건을 충족할 때까지 유지하겠다고 발표. 한국의 중동 원유 수입 경로 차단 위험으로 유가 급등 압력이 커짐에 따라 에너지·화학 관련주에 악영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
+      "feedback": "호르무즈 해협은 전 세계 석유 수송량의 21% 통과지점이며, 한국은 중동 원유 의존도 70% 이상으로 공급망 차단 시 유가 폭등 및 에너지·화학 업종 수익성 악화 확실",
+      "stocks": [
+        "S-Oil",
+        "GS",
+        "SK이노베이션",
+        "LG화학",
+        "롯데케미칼"
+      ],
+      "tags": [
+        "유가",
+        "원자재"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSENtbzRKbGs1djM0OE56Z0w0ODhCSVBFdHBXeTFqUGo2dzVPZ25GQkhGUTNXQTFtY0tNNDFrTnlSN2ZtQ282M2pSbWZrMncwUGFOcEtyaTB6TXNLNDR4Y0gtMEloYUU2S185bVBjeEpnYTBEUF9peWhzeEV0NVR5TVU3d3psNnc2VHdzYTJ5ZlhUM3dVbXh0SlFQZmhUQl9wbzQ4WG5ETXp4UjZyeWRmV2FyekpaYTFiZ0djY1E5LTY0aXI4WjZn?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-19 00:08:01"
     },
     {
       "id": 20787,
@@ -6183,6 +6210,34 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 21956,
+      "title": "채권 수익률 상승으로 주식에 대한 채권의 상대적 매력도가 증가하면서 주식시장을 지탱하던 채권 약세의 호재가 소멸. 이는 글로벌 주가 상승을 견인했던 저금리 환경의 종료를 의미하며, 한국의 수출 의존 기업들과 고금리 차입 기업들에 부정적 영향 예상.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-18",
+      "summary": "<p>채권 수익률 상승으로 주식에 대한 채권의 상대적 매력도가 증가하면서 주식시장을 지탱하던 채권 약세의 호재가 소멸. 이는 글로벌 주가 상승을 견인했던 저금리 환경의 종료를 의미하며, 한국의 수출 의존 기업들과 고금리 차입 기업들에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - The great bond tailwind for stocks is over Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
+      "feedback": "글로벌 금리 환경 변화는 한국 자동차·화학·철강 등 수출 기업들의 수익성과 주가 밸류에이션에 직접 영향을 미치는 매크로 악재",
+      "stocks": [
+        "현대자동차",
+        "기아",
+        "LG생활건강",
+        "아모레퍼시픽",
+        "POSCO",
+        "카카오게임즈"
+      ],
+      "tags": [
+        "중국",
+        "위안화"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcThUVHpJM2pmZmtlOUlKVVF2VHhjTDZ5VVhNSUlZZ2Rqd1pZTU5mOHAzWVQ3TERQSGVtMFlJOG9kUjM3UDJ5RmlKaHFhbmVzbmtfZzZHSFdETmFOeEdsSDhKT0tMS1UwUGRzM01pUnpGd2lhR1EwWVJTY1VYZHdfQTZlY25nTFJ1ZFJDSUd3cXdDTlBZNEtramUwWQ?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-19 00:08:23"
     },
     {
       "id": 21927,
@@ -12951,59 +13006,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd1lYdUI0b3RBNFpYbHNkS1ppNEJSMkp6MTlnQWkwZk5wN0JZX1hJa2tnMWF0ZUJIQ0tnei1URG1tWmRWdVFKRnN3UUtUWXBaWXF4ZXloTXNzZldhd0xVM3JjRlJuUFZUNjh2ZEl6MHNJRzJ0NWdYbnIwUXVYdWM5QkxZUVJudThkaDFkeU4xc1JQZlA0akFYQVlIbUp1S0JPNEd6TFNwQQ?oc=5",
       "direction": "down",
       "updated_at": "2026-07-22 00:08:34"
-    },
-    {
-      "id": 16318,
-      "title": "미국의 관세 정책 재개(Tariff reprise) 우려로 유가와 원자재 가격 변동성 확대 예상. 한국의 에너지·화학 관련 기업들의 원가 구조와 수출 경쟁력에 부정적 영향 가능.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-21",
-      "summary": "<p>미국의 관세 정책 재개(Tariff reprise) 우려로 유가와 원자재 가격 변동성 확대 예상. 한국의 에너지·화학 관련 기업들의 원가 구조와 수출 경쟁력에 부정적 영향 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Tariff reprise Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "관세 재개는 글로벌 공급망 교란과 원자재 가격 변동성을 야기하여 S-Oil, SK이노베이션 등 에너지사와 화학사의 수익성 악화 우려",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVo5N1RkRThnUWlRcUdpOUwzMElhbThkX2lHRHJmby1YOWRNd0Q5SVVabXB2bzRNTU5SeWhkSURCaDJjV25qWjJMQTcwNWt0dFJvUXgzTm1CRFhPX1gwclhua1FrbGs0Sy0wSjZwa0dEbVdDaDZuRk84VXpYd2V6ZUhReVp5aUg3RkNCRjNNeUU2RXpIWGRn?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-22 00:08:25"
-    },
-    {
-      "id": 16300,
-      "title": "BlackRock이 지원하는 그룹이 Aligned Data Centers 인수 완료 후 50억 달러를 추가 투자하기로 약정. AI 데이터센터 인프라 확대로 반도체·HBM 수요 증가 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-21",
-      "summary": "<p>BlackRock이 지원하는 그룹이 Aligned Data Centers 인수 완료 후 50억 달러를 추가 투자하기로 약정. AI 데이터센터 인프라 확대로 반도체·HBM 수요 증가 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): BlackRock-backed group commits $5 billion for Aligned Data Centers after completing acquisition Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 AI 인프라 투자 확대는 HBM, 메모리, 파운드리 수요 증가로 이어져 한국 반도체 업체에 중기 호재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOEt1VW9sa2RiVGlraEg0cWpCMEdiZXQtYk0xRDdyMlVSX0l2TVJ3OUVDaWc4R2lEajRVVW5wNFRqSERweFU2dVpFaEdlMVRWSDZlY2JyV0NRQ0ZCTXFCUGcwZUdrNHZEbUlaNmlJejZwdDRjbmdGajJnYnpzUjd6N1AtYmxlU012enBtTDgwd1k4TDdOZUhoS1dKeGEzai12OFVSS3RvOWtEZw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-22 00:07:10"
     }
   ],
   "events": [
