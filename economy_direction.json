@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T00:05:02",
+  "generated_at": "2026-08-20T00:08:18",
   "count": 500,
   "posts": [
     {
@@ -548,6 +548,33 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900862",
       "direction": "up",
       "updated_at": "2026-05-13 17:35:42"
+    },
+    {
+      "id": 22107,
+      "title": "미국 데이터센터 붐으로 인한 수요가 글로벌 팩토리 공급망으로 확산되고 있으며, 이는 HBM·메모리·파운드리 수요 증가로 이어져 SK하이닉스, 삼성전자 등 한국 반도체 기업들에 직접적 호재 요인으로 작용할 전망.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-19",
+      "summary": "<p>미국 데이터센터 붐으로 인한 수요가 글로벌 팩토리 공급망으로 확산되고 있으며, 이는 HBM·메모리·파운드리 수요 증가로 이어져 SK하이닉스, 삼성전자 등 한국 반도체 기업들에 직접적 호재 요인으로 작용할 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Demand from US data-center boom radiates out through factory supply chains Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "미국 AI/데이터센터 호황이 한국 메모리·파운드리 수요 증가로 직결되는 명확한 공급망 호재로, SK하이닉스 HBM·삼성전자 메모리/D램 실적 개선 기대감 상승",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 8,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUWF2UHNGVmlnWmFBVlBPc1hVNERmWnh4TFhKSUVKWHlqZWNEVjVvOTYteFJuV1BOcmtUNnpqRXVILWhWSTNINWZrN3ptMkd0NExiNjJHdnlzQ0NaRkZGeTJDMmVRei1LX2U0UFVudU8tTE9IcFYxMnFrUVpxVnBrSHY1UUJ3M3lfRHBXTElyRmhZbU1Kdml3OFVwSm9EamZsWE5NV1dNdk9MOU1PMF9vRUtZOUVXdkE?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-20 00:07:05"
     },
     {
       "id": 22068,
@@ -12975,33 +13002,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUjFndXZmUjhhRkxoWGJlcXJYcENrcjFoQWlxTE1oQ1JycWlMSkM0YWh5TERMVW5HaXFoWk85R212SDNTeWRERGpaOEFCMnFMdlFpbUdUX3VISmYwdUdud3JJQ2Q3RHBqaEw2VzF2WkFIbU9kN0R6SEtkRmRaM2Iwd05nRVhubEFUbmRJeHNlSmNRLVBsa01PeHZZOHVVLU01bW50RlU4VkROTld5?oc=5",
       "direction": "up",
       "updated_at": "2026-07-23 12:07:19"
-    },
-    {
-      "id": 16643,
-      "title": "미국-이란 전쟁으로 인한 미국의 인명 손실과 재정 부담 증가. 중동 지정학적 긴장 심화로 유가 상승 가능성이 높아져 에너지·화학 관련 한국 기업에 긍정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-22",
-      "summary": "<p>미국-이란 전쟁으로 인한 미국의 인명 손실과 재정 부담 증가. 중동 지정학적 긴장 심화로 유가 상승 가능성이 높아져 에너지·화학 관련 한국 기업에 긍정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran war drains U.S. blood and treasure Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 갈등 심화는 유가 급등 유발 가능성 높고, 에너지·화학주(정유, 정유화학)에 실적 호재로 작용하는 의미있는 거시 리스크 요인",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUWFQRmRTdXBpWjUySjA2ZFJKQnAzOHdwcE0yMjMwcDJvY3V6RXE3UHBPRWtRZ1k5ZWxhQUd6ckQ2NS03Ukk2dzFuY3NxcTRHM1NRNE5RMDVBWHFPMHBncFZrQXRSaExHOHRtR09aQWxlMjliVzNTbWlQcjlGQl93WXlpRjh4NldZYlhLZ0hUalM?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-23 09:08:19"
     }
   ],
   "events": [
