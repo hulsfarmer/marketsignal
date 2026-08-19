@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T12:05:02",
+  "generated_at": "2026-08-19T12:08:09",
   "count": 500,
   "posts": [
     {
@@ -6210,6 +6210,38 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 22026,
+      "title": "미국 재정부채 금리(Treasury yield)가 상승하고 있으며, 이는 글로벌 금리 환경 강화를 의미함. 한국 시장에는 USD/KRW 환율 상승(원화 약세), 외국인 주식 자금 유출, 국내 채권 금리 상승 압박 등의 영향을 미칠 수 있음.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-18",
+      "summary": "<p>미국 재정부채 금리(Treasury yield)가 상승하고 있으며, 이는 글로벌 금리 환경 강화를 의미함. 한국 시장에는 USD/KRW 환율 상승(원화 약세), 외국인 주식 자금 유출, 국내 채권 금리 상승 압박 등의 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Explainer: Treasury yields are rising - why does it matter? Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "미국 금리 상승은 한국 원화 약세, 외국인 자금 이탈, 고금리 지속으로 이어져 성장주와 차입금 의존 기업들에 구조적 악재이나, 금융주·고배당주는 수혜",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "NAVER",
+        "카카오",
+        "LG화학",
+        "현대차",
+        "기아",
+        "신한금융",
+        "KB금융",
+        "NH투자증권"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN2hqY3NCTUdIbGJoZUR6aXVTVXlZUFZPVFNmc3dFcTUwRGkwcG1DRW1rZHlLTGV4WWdaV2xielR5WTZhcUdnNEYyX2pmcTcyRmFZYzQtVThYeDBKb3JHUEJkc1VuamNUbV80ckhHcURLVEMwcmpUSE4yRHJmLUtYMEprWEZhQ1d3cFdyMElEbTdxLVAtMVQ2YjZSVzIxUlU?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-19 12:07:30"
     },
     {
       "id": 21985,
@@ -12978,33 +13010,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15bndqdmhfTjlVQXVscXkwMHFjU3hXNFR5RTdLSnY3a0trdmEzYlNGbm5LeUhxbVJSd21PR1FmQnJpeWxSdHN1aTEwalByRGZFcGtiRUhXeUZSeVdFMHFBekU3bzRvblRKMms0OW5vZkJPekhNSThGOERjRQ?oc=5",
       "direction": "up",
       "updated_at": "2026-07-22 12:07:05"
-    },
-    {
-      "id": 16522,
-      "title": "트럼프 대통령이 제네릭 의약품에 2년간 관세 면제 후 100~200% 관세를 부과하겠다고 발표. 한국 제약·CDMO 기업의 미국 수출 경쟁력 악화 우려.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-21",
-      "summary": "<p>트럼프 대통령이 제네릭 의약품에 2년간 관세 면제 후 100~200% 관세를 부과하겠다고 발표. 한국 제약·CDMO 기업의 미국 수출 경쟁력 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump says generic drugs to face no US tariffs for 2 years, then 100% and 200% tariffs later Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 바이오/CDMO</p>",
-      "feedback": "한국 제약·CDMO 기업의 미국 시장 수출성 악화 및 글로벌 경쟁력 약화로 중기적 실적 부담 예상",
-      "stocks": [
-        "삼성바이오로직스",
-        "셀트리온",
-        "유한양행",
-        "SK바이오사이언스",
-        "한미약품"
-      ],
-      "tags": [
-        "바이오",
-        "CDMO"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRTYzT0tHTGRMbHJTWEhMbzMwT3VFZlBWanNOem02SHBBV1VJLTZTVEVFdjB5MnM1TktvRXFnUDZ5UV9CMzE5cGhtOWVxejE4amlGRWkzTDkwWmw3ZnRYNDFSZlZFZmtma2ZHSk1CSFZSNk5ibHR4Z0tDajFaTFBBYVlvZkVVcDdxTnFaQ0N2U1RqbEd3N1NWRUx0NUtJdVVJLWkwQUswRDdpa2c1Q25Ub0ZpOW1VXzJIcEpDb1NDQ0ZacFJRTS0xSzd1NGFNcHo0LVMzT3lzVmhOVGpJNmM5ZUxmeEM?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-22 21:07:26"
     }
   ],
   "events": [
