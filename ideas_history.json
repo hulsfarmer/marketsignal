@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:05:05",
+  "generated_at": "2026-08-19T16:10:29",
   "dates": [
     "2026-08-19",
     "2026-08-18",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 163,
+      "total": 164,
       "correct": 82,
-      "hit_rate": 50.3,
-      "avg_return": 0.26,
-      "avg_return_open": 0.44
+      "hit_rate": 50.0,
+      "avg_return": 0.24,
+      "avg_return_open": 0.42
     },
     "hybrid": {
-      "total": 257,
-      "correct": 119,
-      "hit_rate": 46.3,
-      "avg_return": -0.1,
-      "avg_return_open": -0.14
+      "total": 262,
+      "correct": 122,
+      "hit_rate": 46.6,
+      "avg_return": -0.12,
+      "avg_return_open": -0.16
     }
   },
   "by_date": {
@@ -168,10 +168,10 @@
             "confidence": "MEDIUM",
             "reason": "10개 분기 만의 흑자전환이라는 강력한 펀더멘탈 모멘텀이 있음에도 주가는 5일 -2.2%, 20일 -0.7%로 약세로, 호재 미반영 상태입니다. RSI 50 중립 구간에서 실적 서프라이즈 재평가 수요가 유입될 가능성이 있으며, 실패 패턴인 RSI 과열·호재 선반영과 무관한 종목입니다.",
             "entry_price": 57200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 55700.0,
+            "return_pct": -2.62,
+            "return_pct_open": -2.62,
+            "correct": 0
           }
         ]
       },
@@ -186,10 +186,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 94 (RSI 68, 5일 -0.6%)",
             "entry_price": 334000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 324500.0,
+            "return_pct": -2.84,
+            "return_pct_open": -2.84,
+            "correct": 0
           },
           {
             "stock_code": "024110",
@@ -199,10 +199,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 12 / earn 93 (RSI 50, 5일 +0.7%)",
             "entry_price": 20400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20450.0,
+            "return_pct": 0.25,
+            "return_pct_open": 0.25,
+            "correct": 1
           },
           {
             "stock_code": "033780",
@@ -212,10 +212,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 78 / earn 0 (RSI 44, 5일 -5.2%)",
             "entry_price": 176000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 176600.0,
+            "return_pct": 0.34,
+            "return_pct_open": 0.34,
+            "correct": 1
           },
           {
             "stock_code": "138040",
@@ -225,10 +225,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 68 / earn 0 (RSI 48, 5일 -5.5%)",
             "entry_price": 116700.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 117200.0,
+            "return_pct": 0.43,
+            "return_pct_open": 0.43,
+            "correct": 1
           },
           {
             "stock_code": "259960",
@@ -238,10 +238,10 @@
             "confidence": "LOW",
             "reason": "[T] tech 38 / earn 0 (RSI 46, 5일 -1.6%)",
             "entry_price": 238000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 226500.0,
+            "return_pct": -4.83,
+            "return_pct_open": -4.83,
+            "correct": 0
           }
         ]
       },
