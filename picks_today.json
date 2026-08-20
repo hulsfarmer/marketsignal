@@ -1,35 +1,53 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "strategy": "hybrid",
-  "generated_at": "2026-08-19T15:05:04",
-  "count": 3,
+  "generated_at": "2026-08-20T15:05:14",
+  "count": 5,
   "picks": [
     {
-      "stock_code": "005490",
-      "name_kr": "POSCO홀딩스",
-      "ms_score": 67,
-      "ai_score": 93,
+      "stock_code": "086790",
+      "name_kr": "하나금융지주",
+      "ms_score": 73,
+      "ai_score": 96,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 94 (RSI 69, 5일 -0.6%)",
-      "entry_price": 324500.0
+      "reason": "[E] tech 0 / earn 97 (RSI 55, 5일 -0.3%)",
+      "entry_price": 127500.0
     },
     {
-      "stock_code": "105560",
-      "name_kr": "KB금융",
-      "ms_score": 63,
-      "ai_score": 88,
+      "stock_code": "207940",
+      "name_kr": "삼성바이오로직스",
+      "ms_score": 60,
+      "ai_score": 96,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 89 (RSI 64, 5일 +1.1%)",
-      "entry_price": 168500.0
+      "reason": "[E] tech 0 / earn 97 (RSI 52, 5일 -0.3%)",
+      "entry_price": 1544000.0
+    },
+    {
+      "stock_code": "259960",
+      "name_kr": "크래프톤",
+      "ms_score": 63,
+      "ai_score": 79,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -5.7%)",
+      "entry_price": 221500.0
     },
     {
       "stock_code": "138040",
       "name_kr": "메리츠금융지주",
       "ms_score": 58,
-      "ai_score": 64,
+      "ai_score": 73,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 64 / earn 0 (RSI 49, 5일 -5.3%)",
-      "entry_price": 117200.0
+      "reason": "[T] tech 73 / earn 68 (RSI 32, 5일 -3.2%)",
+      "entry_price": 115200.0
+    },
+    {
+      "stock_code": "047050",
+      "name_kr": "포스코인터내셔널",
+      "ms_score": 60,
+      "ai_score": 65,
+      "confidence": "MEDIUM",
+      "reason": "[T] tech 66 / earn 0 (RSI 49, 5일 -9.1%)",
+      "entry_price": 50700.0
     }
   ]
 }
