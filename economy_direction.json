@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:05:03",
+  "generated_at": "2026-08-20T15:08:33",
   "count": 500,
   "posts": [
     {
@@ -6330,6 +6330,60 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429000514",
       "direction": "neutral",
       "updated_at": "2026-05-03 21:51:57"
+    },
+    {
+      "id": 22230,
+      "title": "미국 재무부가 급등하는 채권 수익률을 억제하려는 가운데 달러화가 3개월 최저치로 하락. 이는 USD/KRW 환율 약세로 이어져 한국 수출주와 외국인 자금 수급에 영향을 미칠 것으로 예상됨.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-20",
+      "summary": "<p>미국 재무부가 급등하는 채권 수익률을 억제하려는 가운데 달러화가 3개월 최저치로 하락. 이는 USD/KRW 환율 약세로 이어져 한국 수출주와 외국인 자금 수급에 영향을 미칠 것으로 예상됨.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar at three-month lows as Treasury seeks to rein in surging bond yields reuters.com</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "환율 급변(달러 약세)은 한국 수출 경쟁력·외국인 투자심리·채권 금리에 직접 영향을 미치는 중요 매크로 변수",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "POSCO",
+        "현대자동차",
+        "LG전자"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPamFxZlBhRm1DcmRBZF9VSDd4aXllSmNTWEttZ2dLUkprSnJ5c2xBNXRKT1lQTDdrbXlUUjBnTXdWdVRrWENPYkRkal9pbm9UVDNueFd0am56Z3JCakxsZ2ZHclBRMHpyUUMzeVJHV1FPcVp1dXBYNUtMNk81Z3k1QkRmV1RnRHdPVjhDU3hNYS1xaWxYOU4wMUQwWk5nTDJPWG9kblZIQV9xOG11QTJR?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-20 15:07:47"
+    },
+    {
+      "id": 22222,
+      "title": "일본의 반도체 수요 증가로 수출이 급증했으나, 유가 상승으로 수입비용이 기록적 수준까지 상승. 한국 반도체 수출 경쟁력과 유가 연동 비용 부담에 이중 영향.",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-20",
+      "summary": "<p>일본의 반도체 수요 증가로 수출이 급증했으나, 유가 상승으로 수입비용이 기록적 수준까지 상승. 한국 반도체 수출 경쟁력과 유가 연동 비용 부담에 이중 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Japan&#x27;s exports surge on chips demand, imports hit record on oil costs reuters.com</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
+      "feedback": "글로벌 반도체 수요 신호는 한국 메모리/파운드리 수출에 호재이나, 동시에 유가 상승으로 인한 수입 비용 증가는 원자재 수입국인 한국에 악영향",
+      "stocks": [
+        "SK하이닉스",
+        "삼성전자",
+        "한미반도체",
+        "이수페타시스"
+      ],
+      "tags": [
+        "AI",
+        "반도체",
+        "데이터센터"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVphUlpCMXl6dTdXYWJRMUhndXRlZkNfSEwxTEZRU3J3WGQ1Q201Ul93Y2d1d2pRVEU0NGRhdGh0eTR4M3Y0R3Z2N2dpTzZ2RzczYmdlbkR4eEN3Z0xUZXFGclpfYlBYbnE0aTNYaVpsemRZbjNUcUtkWWRiWmltMjFLSzBRRzdDRTZMaXNvZEk4VU0ydzd5X1JmS1hTZw?oc=5",
+      "direction": "up",
+      "updated_at": "2026-08-20 15:07:10"
     },
     {
       "id": 22182,
@@ -12946,61 +13000,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQclM4V2JONWFuTXYzY1IyV29PSWlsVjRFMnF4SzhxNl83UHduNTZWVTRSLThVYkZJUFZCc1FLQTRoY3RJUHE0MFdUN0ZwelhkWFlGdFRBOUxRdkNtVkpJTGNkZTE5NmZfOUJkSWtSQnFKb2Q3ZjNvZ0NGYXY3MG96LVpCS1FvVXFmMDc3aU5tZFgwaDZTRW5XdGw1QkVnOTNvSUg2aHVVRFJNRHpDbHI3c1cybmpsTlp4NEh5b0tn?oc=5",
       "direction": "up",
       "updated_at": "2026-07-24 03:07:06"
-    },
-    {
-      "id": 16856,
-      "title": "미국 주간 신규 실업급여 청구건수가 1969년 이후 최저 수준으로 급락했으며, 이는 미국 노동시장 강세를 반영. 강한 고용 지표는 Fed의 금리 인하 가능성을 낮춰 장기간 고금리 기조 유지 가능성을 시사하고, USD/KRW 강세와 한국 수출 기업들의 수익성 악화로 작용",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-23",
-      "summary": "<p>미국 주간 신규 실업급여 청구건수가 1969년 이후 최저 수준으로 급락했으며, 이는 미국 노동시장 강세를 반영. 강한 고용 지표는 Fed의 금리 인하 가능성을 낮춰 장기간 고금리 기조 유지 가능성을 시사하고, USD/KRW 강세와 한국 수출 기업들의 수익성 악화로 작용할 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US weekly jobless claims plunge to lowest since 1969 Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 정책 방향성을 좌우하는 핵심 고용 지표로서 미국 고금리 장기화 가능성 → 원화 약세, 수출사 수익성 악화, 외국인 자금 유입 감소 등 한국 증시에 의미있는 부정적 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대자동차",
-        "포스코",
-        "삼성SDI"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaDVZUF9PZTBpQ1NWcl9oY3hCNTVKTmMzLWoyNnE3VzlXQUZRa1NfX1Rpc2Y5dDU3Z0FDbjlPRVBYdTJwRHFKSFBEUjVETDZmdXhqQ2QxZVFadXJaRkpCNkxSTmF0bkRkNzUxS2xjYmZkdU5NdTFkaGtJVkR2a3BOQV84dE5TTkxxTXR2d1JIa0YyMGpIZXE1Y3lR?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-24 00:08:14"
-    },
-    {
-      "id": 16843,
-      "title": "중국 국가 자금 지원 반도체 기업 CXMT의 상장은 중국의 반도체 자립화 가속을 의미하며, SK하이닉스와 삼성전자의 중국 시장 경쟁 심화 및 메모리·파운드리 부문 수요 감소 압력으로 작용할 수 있다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-23",
-      "summary": "<p>중국 국가 자금 지원 반도체 기업 CXMT의 상장은 중국의 반도체 자립화 가속을 의미하며, SK하이닉스와 삼성전자의 중국 시장 경쟁 심화 및 메모리·파운드리 부문 수요 감소 압력으로 작용할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Chipmaker CXMT debut spotlights China&#x27;s state-funded path to tech power Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "중국의 국가 자금 지원 반도체 기업 부상은 한국 메모리·파운드리 산업의 중국 시장 점유율 침식 위험을 높이는 의미있는 산업 구조 변화",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTmRfamZqNmJHVjljbjlQUkQ2YnctaVVLMkRyOXJMU2ctLU1hX3JjT2tuNW5mQXhmNGVFaV9pWFhybUhBRXRaSkRsVEdFMjBVNmpXY0pPYTRzVFVZaTB3TEh0bXJkcXFGZmlDQ0lqWkdUNEc4QzBra3Jtd1VzNFZfM0dyNTFfRURvcEFXRDdlT0xBeFVyek9EZ1ViVlFEa3MxMlk4RTUzMWRSNWlkbUJBSGJUNGNyZw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-24 00:07:16"
     }
   ],
   "events": [
