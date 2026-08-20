@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:05:16",
+  "generated_at": "2026-08-20T16:10:39",
   "dates": [
     "2026-08-20",
     "2026-08-19",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 164,
+      "total": 168,
       "correct": 82,
-      "hit_rate": 50.0,
-      "avg_return": 0.24,
-      "avg_return_open": 0.42
+      "hit_rate": 48.8,
+      "avg_return": 0.18,
+      "avg_return_open": 0.34
     },
     "hybrid": {
-      "total": 262,
+      "total": 265,
       "correct": 122,
-      "hit_rate": 46.6,
-      "avg_return": -0.12,
-      "avg_return_open": -0.16
+      "hit_rate": 46.0,
+      "avg_return": -0.14,
+      "avg_return_open": -0.17
     }
   },
   "by_date": {
@@ -168,10 +168,10 @@
             "confidence": "HIGH",
             "reason": "5일 -10% 급락 후 RSI 54로 기술적 반등 구간 진입, 아이온2 글로벌 출시 기대감과 미국 투자운용사 5.1% 지분 인수라는 호재가 아직 주가에 충분히 반영되지 않은 상태입니다. 과거 성공 패턴인 '기술적_반등(100% 성공률)'에 부합하며, RSI 30~60 구간으로 종가매수 최적 조건을 충족합니다.",
             "entry_price": 230000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 219500.0,
+            "return_pct": -4.57,
+            "return_pct_open": -4.57,
+            "correct": 0
           },
           {
             "stock_code": "047050",
@@ -181,10 +181,10 @@
             "confidence": "MEDIUM",
             "reason": "2Q 매출액 18% 증가 호실적에도 5일 -8.4% 급락으로 RSI 58, 매도 과잉 반응 구간으로 판단됩니다. 키움증권의 4,727억 기관 매수라는 수급 개선 신호가 확인되며, 과거 '수급_개선(100% 성공률)' 패턴에 부합하나 밸류에이션 우려가 리스크 요인입니다.",
             "entry_price": 51400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 50700.0,
+            "return_pct": -1.36,
+            "return_pct_open": -1.36,
+            "correct": 0
           },
           {
             "stock_code": "024110",
@@ -194,10 +194,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 54로 종가매수 최적 구간에 위치하며, 배당 확대와 한국투자금융 지분 매각 재개라는 수급 개선 재료가 아직 완전히 반영되지 않은 상태입니다. 차익실현 매물 소화 후 저점 안정화 구간으로 과거 '수급_개선' 성공 패턴에 부합합니다.",
             "entry_price": 20450.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20300.0,
+            "return_pct": -0.73,
+            "return_pct_open": -0.73,
+            "correct": 0
           },
           {
             "stock_code": "010140",
@@ -207,10 +207,10 @@
             "confidence": "MEDIUM",
             "reason": "2분기 실적 부진으로 주가 4% 급락하며 RSI 64 수준이나, 임원진 자사주 매입(7억원대)과 14조 수주 기대감이 중기 반등 근거로 작용합니다. 과거 2026-08-13에 동일 패턴으로 +1.15% 성공 사례가 있으며, '수급_개선' 패턴에 부합하나 RSI가 다소 높아 신중한 접근이 필요합니다.",
             "entry_price": 21250.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 20600.0,
+            "return_pct": -3.06,
+            "return_pct_open": -3.06,
+            "correct": 0
           }
         ]
       },
@@ -225,10 +225,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 94 (RSI 69, 5일 -0.6%)",
             "entry_price": 324500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 320000.0,
+            "return_pct": -1.39,
+            "return_pct_open": -1.39,
+            "correct": 0
           },
           {
             "stock_code": "105560",
@@ -238,10 +238,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 89 (RSI 64, 5일 +1.1%)",
             "entry_price": 168500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 166400.0,
+            "return_pct": -1.25,
+            "return_pct_open": -1.25,
+            "correct": 0
           },
           {
             "stock_code": "138040",
@@ -251,10 +251,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 64 / earn 0 (RSI 49, 5일 -5.3%)",
             "entry_price": 117200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 115200.0,
+            "return_pct": -1.71,
+            "return_pct_open": -1.71,
+            "correct": 0
           }
         ]
       },

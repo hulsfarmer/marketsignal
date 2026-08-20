@@ -1,65 +1,74 @@
 {
-  "date": "2026-08-19",
-  "generated_at": "2026-08-19T16:10:28",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T16:10:38",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-08-19T16:10:28",
-      "pick_date": "2026-08-19",
-      "count": 4,
+      "updated_at": "2026-08-20T16:10:38",
+      "pick_date": "2026-08-20",
+      "count": 2,
       "picks": [
-        {
-          "stock_code": "036570",
-          "name_kr": "엔씨소프트",
-          "ms_score": 55,
-          "ai_score": 72,
-          "confidence": "HIGH",
-          "reason": "5일 -10% 급락 후 RSI 54로 기술적 반등 구간 진입, 아이온2 글로벌 출시 기대감과 미국 투자운용사 5.1% 지분 인수라는 호재가 아직 주가에 충분히 반영되지 않은 상태입니다. 과거 성공 패턴인 '기술적_반등(100% 성공률)'에 부합하며, RSI 30~60 구간으로 종가매수 최적 조건을 충족합니다.",
-          "entry_price": 230000.0
-        },
-        {
-          "stock_code": "047050",
-          "name_kr": "포스코인터내셔널",
-          "ms_score": 57,
-          "ai_score": 65,
-          "confidence": "MEDIUM",
-          "reason": "2Q 매출액 18% 증가 호실적에도 5일 -8.4% 급락으로 RSI 58, 매도 과잉 반응 구간으로 판단됩니다. 키움증권의 4,727억 기관 매수라는 수급 개선 신호가 확인되며, 과거 '수급_개선(100% 성공률)' 패턴에 부합하나 밸류에이션 우려가 리스크 요인입니다.",
-          "entry_price": 51400.0
-        },
-        {
-          "stock_code": "024110",
-          "name_kr": "기업은행",
-          "ms_score": 62,
-          "ai_score": 63,
-          "confidence": "MEDIUM",
-          "reason": "RSI 54로 종가매수 최적 구간에 위치하며, 배당 확대와 한국투자금융 지분 매각 재개라는 수급 개선 재료가 아직 완전히 반영되지 않은 상태입니다. 차익실현 매물 소화 후 저점 안정화 구간으로 과거 '수급_개선' 성공 패턴에 부합합니다.",
-          "entry_price": 20450.0
-        },
         {
           "stock_code": "010140",
           "name_kr": "삼성중공업",
           "ms_score": 67,
-          "ai_score": 61,
+          "ai_score": 68,
           "confidence": "MEDIUM",
-          "reason": "2분기 실적 부진으로 주가 4% 급락하며 RSI 64 수준이나, 임원진 자사주 매입(7억원대)과 14조 수주 기대감이 중기 반등 근거로 작용합니다. 과거 2026-08-13에 동일 패턴으로 +1.15% 성공 사례가 있으며, '수급_개선' 패턴에 부합하나 RSI가 다소 높아 신중한 접근이 필요합니다.",
-          "entry_price": 21250.0
+          "reason": "RSI 50 중립 구간에서 5일 -5.3% 과도한 낙폭을 기록 중이며, 임원진 7억원대 자사주 매입(수급 개선 시그널)과 14조 수주 기대감이 아직 주가에 충분히 반영되지 않았습니다. 과거 삼성중공업 8월 13일 동일 패턴(14조 수주 기대감+RSI 43)에서 +1.15% 수익을 기록한 성공 선례가 있습니다.",
+          "entry_price": 20600.0
+        },
+        {
+          "stock_code": "000810",
+          "name_kr": "삼성화재",
+          "ms_score": 58,
+          "ai_score": 65,
+          "confidence": "MEDIUM",
+          "reason": "RSI 48로 종가매수 최적 구간(30~60)에 위치하며, 5일 -2.4%·20일 -2.7%의 완만한 조정으로 호재(실적 개선·주주환원 확대)가 아직 주가에 덜 반영된 상태입니다. 20일 누적 하락권에서 견조한 펀더멘탈을 보유한 금융주는 기술적 반등과 수급 개선 패턴이 동시에 적용되어 안정적 반등 가능성이 높습니다.",
+          "entry_price": 613000.0
         }
       ],
       "accuracy": {
-        "total": 164,
+        "total": 168,
         "correct": 82,
-        "hit_rate": 50.0,
-        "avg_return": 0.24,
-        "avg_return_open": 0.42,
-        "yesterday_date": "2026-08-18",
+        "hit_rate": 48.8,
+        "avg_return": 0.18,
+        "avg_return_open": 0.34,
+        "yesterday_date": "2026-08-19",
         "yesterday": [
           {
-            "stock_code": "011170",
-            "name_kr": "롯데케미칼",
-            "entry_price": 57200.0,
-            "exit_price": 55700.0,
-            "return_pct": -2.62,
-            "return_pct_open": -2.62,
+            "stock_code": "024110",
+            "name_kr": "기업은행",
+            "entry_price": 20450.0,
+            "exit_price": 20300.0,
+            "return_pct": -0.73,
+            "return_pct_open": -0.73,
+            "correct": 0
+          },
+          {
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "entry_price": 51400.0,
+            "exit_price": 50700.0,
+            "return_pct": -1.36,
+            "return_pct_open": -1.36,
+            "correct": 0
+          },
+          {
+            "stock_code": "010140",
+            "name_kr": "삼성중공업",
+            "entry_price": 21250.0,
+            "exit_price": 20600.0,
+            "return_pct": -3.06,
+            "return_pct_open": -3.06,
+            "correct": 0
+          },
+          {
+            "stock_code": "036570",
+            "name_kr": "엔씨소프트",
+            "entry_price": 230000.0,
+            "exit_price": 219500.0,
+            "return_pct": -4.57,
+            "return_pct_open": -4.57,
             "correct": 0
           }
         ]
@@ -67,89 +76,89 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-08-19T16:10:28",
-      "pick_date": "2026-08-19",
-      "count": 3,
+      "updated_at": "2026-08-20T16:10:38",
+      "pick_date": "2026-08-20",
+      "count": 5,
       "picks": [
         {
-          "stock_code": "005490",
-          "name_kr": "POSCO홀딩스",
-          "ms_score": 67,
-          "ai_score": 93,
+          "stock_code": "086790",
+          "name_kr": "하나금융지주",
+          "ms_score": 73,
+          "ai_score": 96,
           "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 94 (RSI 69, 5일 -0.6%)",
-          "entry_price": 324500.0
+          "reason": "[E] tech 0 / earn 97 (RSI 55, 5일 -0.3%)",
+          "entry_price": 127500.0
         },
         {
-          "stock_code": "105560",
-          "name_kr": "KB금융",
-          "ms_score": 63,
-          "ai_score": 88,
+          "stock_code": "207940",
+          "name_kr": "삼성바이오로직스",
+          "ms_score": 60,
+          "ai_score": 96,
           "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 89 (RSI 64, 5일 +1.1%)",
-          "entry_price": 168500.0
+          "reason": "[E] tech 0 / earn 97 (RSI 52, 5일 -0.3%)",
+          "entry_price": 1544000.0
+        },
+        {
+          "stock_code": "259960",
+          "name_kr": "크래프톤",
+          "ms_score": 63,
+          "ai_score": 79,
+          "confidence": "MEDIUM",
+          "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -5.7%)",
+          "entry_price": 221500.0
         },
         {
           "stock_code": "138040",
           "name_kr": "메리츠금융지주",
           "ms_score": 58,
-          "ai_score": 64,
+          "ai_score": 73,
           "confidence": "MEDIUM",
-          "reason": "[T] tech 64 / earn 0 (RSI 49, 5일 -5.3%)",
-          "entry_price": 117200.0
+          "reason": "[T] tech 73 / earn 68 (RSI 32, 5일 -3.2%)",
+          "entry_price": 115200.0
+        },
+        {
+          "stock_code": "047050",
+          "name_kr": "포스코인터내셔널",
+          "ms_score": 60,
+          "ai_score": 65,
+          "confidence": "MEDIUM",
+          "reason": "[T] tech 66 / earn 0 (RSI 49, 5일 -9.1%)",
+          "entry_price": 50700.0
         }
       ],
       "accuracy": {
-        "total": 262,
+        "total": 265,
         "correct": 122,
-        "hit_rate": 46.6,
-        "avg_return": -0.12,
-        "avg_return_open": -0.16,
-        "yesterday_date": "2026-08-18",
+        "hit_rate": 46.0,
+        "avg_return": -0.14,
+        "avg_return_open": -0.17,
+        "yesterday_date": "2026-08-19",
         "yesterday": [
           {
-            "stock_code": "138040",
-            "name_kr": "메리츠금융지주",
-            "entry_price": 116700.0,
-            "exit_price": 117200.0,
-            "return_pct": 0.43,
-            "return_pct_open": 0.43,
-            "correct": 1
-          },
-          {
-            "stock_code": "033780",
-            "name_kr": "KT&G",
-            "entry_price": 176000.0,
-            "exit_price": 176600.0,
-            "return_pct": 0.34,
-            "return_pct_open": 0.34,
-            "correct": 1
-          },
-          {
-            "stock_code": "024110",
-            "name_kr": "기업은행",
-            "entry_price": 20400.0,
-            "exit_price": 20450.0,
-            "return_pct": 0.25,
-            "return_pct_open": 0.25,
-            "correct": 1
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "entry_price": 168500.0,
+            "exit_price": 166400.0,
+            "return_pct": -1.25,
+            "return_pct_open": -1.25,
+            "correct": 0
           },
           {
             "stock_code": "005490",
             "name_kr": "POSCO홀딩스",
-            "entry_price": 334000.0,
-            "exit_price": 324500.0,
-            "return_pct": -2.84,
-            "return_pct_open": -2.84,
+            "entry_price": 324500.0,
+            "exit_price": 320000.0,
+            "return_pct": -1.39,
+            "return_pct_open": -1.39,
             "correct": 0
           },
           {
-            "stock_code": "259960",
-            "name_kr": "크래프톤",
-            "entry_price": 238000.0,
-            "exit_price": 226500.0,
-            "return_pct": -4.83,
-            "return_pct_open": -4.83,
+            "stock_code": "138040",
+            "name_kr": "메리츠금융지주",
+            "entry_price": 117200.0,
+            "exit_price": 115200.0,
+            "return_pct": -1.71,
+            "return_pct_open": -1.71,
             "correct": 0
           }
         ]
@@ -157,8 +166,8 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-08-19T16:10:28",
-      "pick_date": "2026-08-19",
+      "updated_at": "2026-08-20T16:10:38",
+      "pick_date": "2026-08-20",
       "count": 0,
       "picks": [],
       "watching": [],
