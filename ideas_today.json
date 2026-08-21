@@ -1,164 +1,164 @@
 {
-  "date": "2026-08-20",
-  "generated_at": "2026-08-20T16:10:38",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T16:10:34",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-08-20T16:10:38",
-      "pick_date": "2026-08-20",
+      "updated_at": "2026-08-21T16:10:34",
+      "pick_date": "2026-08-21",
       "count": 2,
       "picks": [
         {
-          "stock_code": "010140",
-          "name_kr": "삼성중공업",
-          "ms_score": 67,
-          "ai_score": 68,
-          "confidence": "MEDIUM",
-          "reason": "RSI 50 중립 구간에서 5일 -5.3% 과도한 낙폭을 기록 중이며, 임원진 7억원대 자사주 매입(수급 개선 시그널)과 14조 수주 기대감이 아직 주가에 충분히 반영되지 않았습니다. 과거 삼성중공업 8월 13일 동일 패턴(14조 수주 기대감+RSI 43)에서 +1.15% 수익을 기록한 성공 선례가 있습니다.",
-          "entry_price": 20600.0
-        },
-        {
-          "stock_code": "000810",
-          "name_kr": "삼성화재",
-          "ms_score": 58,
+          "stock_code": "086790",
+          "name_kr": "하나금융지주",
+          "ms_score": 60,
           "ai_score": 65,
           "confidence": "MEDIUM",
-          "reason": "RSI 48로 종가매수 최적 구간(30~60)에 위치하며, 5일 -2.4%·20일 -2.7%의 완만한 조정으로 호재(실적 개선·주주환원 확대)가 아직 주가에 덜 반영된 상태입니다. 20일 누적 하락권에서 견조한 펀더멘탈을 보유한 금융주는 기술적 반등과 수급 개선 패턴이 동시에 적용되어 안정적 반등 가능성이 높습니다.",
-          "entry_price": 613000.0
+          "reason": "RSI 47(중립~저점)에서 5일 -5.8% 급락한 상태로 과거 성공 사례(2026-08-13 +2.42%)와 유사한 기술적 반등 구간입니다. 호실적·배당 확대 재료가 완전히 소화되지 않은 상황이며, 성공 패턴인 '수급_개선 + 기술적_반등'이 동시에 충족됩니다.",
+          "entry_price": 123400.0
+        },
+        {
+          "stock_code": "009540",
+          "name_kr": "HD한국조선해양",
+          "ms_score": 67,
+          "ai_score": 63,
+          "confidence": "MEDIUM",
+          "reason": "RSI 41로 종가매수 최적 구간(30~60)에 위치하며 5일 -3.0% 조정 후 EB 발행 성공(2.4조원 조달)이라는 구체적 호재가 아직 주가에 충분히 반영되지 않았습니다. RSI_과열 및 호재_선반영 실패 패턴에서 벗어나 있으며, 조선업 수주 모멘텀이 기술적 반등을 지지합니다.",
+          "entry_price": 360500.0
         }
       ],
       "accuracy": {
-        "total": 168,
-        "correct": 82,
-        "hit_rate": 48.8,
-        "avg_return": 0.18,
-        "avg_return_open": 0.34,
-        "yesterday_date": "2026-08-19",
+        "total": 170,
+        "correct": 84,
+        "hit_rate": 49.4,
+        "avg_return": 0.19,
+        "avg_return_open": 0.35,
+        "yesterday_date": "2026-08-20",
         "yesterday": [
           {
-            "stock_code": "024110",
-            "name_kr": "기업은행",
-            "entry_price": 20450.0,
-            "exit_price": 20300.0,
-            "return_pct": -0.73,
-            "return_pct_open": -0.73,
-            "correct": 0
-          },
-          {
-            "stock_code": "047050",
-            "name_kr": "포스코인터내셔널",
-            "entry_price": 51400.0,
-            "exit_price": 50700.0,
-            "return_pct": -1.36,
-            "return_pct_open": -1.36,
-            "correct": 0
+            "stock_code": "000810",
+            "name_kr": "삼성화재",
+            "entry_price": 613000.0,
+            "exit_price": 622000.0,
+            "return_pct": 1.47,
+            "return_pct_open": 1.47,
+            "correct": 1
           },
           {
             "stock_code": "010140",
             "name_kr": "삼성중공업",
-            "entry_price": 21250.0,
-            "exit_price": 20600.0,
-            "return_pct": -3.06,
-            "return_pct_open": -3.06,
-            "correct": 0
-          },
-          {
-            "stock_code": "036570",
-            "name_kr": "엔씨소프트",
-            "entry_price": 230000.0,
-            "exit_price": 219500.0,
-            "return_pct": -4.57,
-            "return_pct_open": -4.57,
-            "correct": 0
+            "entry_price": 20600.0,
+            "exit_price": 20800.0,
+            "return_pct": 0.97,
+            "return_pct_open": 0.97,
+            "correct": 1
           }
         ]
       }
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-08-20T16:10:38",
-      "pick_date": "2026-08-20",
+      "updated_at": "2026-08-21T16:10:34",
+      "pick_date": "2026-08-21",
       "count": 5,
       "picks": [
         {
-          "stock_code": "086790",
-          "name_kr": "하나금융지주",
-          "ms_score": 73,
+          "stock_code": "259960",
+          "name_kr": "크래프톤",
+          "ms_score": 67,
+          "ai_score": 98,
+          "confidence": "HIGH",
+          "reason": "[T] tech 98 / earn 0 (RSI 34, 5일 -5.1%)",
+          "entry_price": 222500.0
+        },
+        {
+          "stock_code": "105560",
+          "name_kr": "KB금융",
+          "ms_score": 70,
           "ai_score": 96,
           "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 97 (RSI 55, 5일 -0.3%)",
-          "entry_price": 127500.0
+          "reason": "[T] tech 97 / earn 0 (RSI 36, 5일 -4.8%)",
+          "entry_price": 160000.0
+        },
+        {
+          "stock_code": "010130",
+          "name_kr": "고려아연",
+          "ms_score": 57,
+          "ai_score": 95,
+          "confidence": "HIGH",
+          "reason": "[E] tech 0 / earn 96 (RSI 66, 5일 +0.4%)",
+          "entry_price": 1238000.0
         },
         {
           "stock_code": "207940",
           "name_kr": "삼성바이오로직스",
           "ms_score": 60,
-          "ai_score": 96,
+          "ai_score": 93,
           "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 97 (RSI 52, 5일 -0.3%)",
-          "entry_price": 1544000.0
-        },
-        {
-          "stock_code": "259960",
-          "name_kr": "크래프톤",
-          "ms_score": 63,
-          "ai_score": 79,
-          "confidence": "MEDIUM",
-          "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -5.7%)",
-          "entry_price": 221500.0
+          "reason": "[E] tech 0 / earn 94 (RSI 61, 5일 +0.6%)",
+          "entry_price": 1574000.0
         },
         {
           "stock_code": "138040",
           "name_kr": "메리츠금융지주",
-          "ms_score": 58,
-          "ai_score": 73,
+          "ms_score": 68,
+          "ai_score": 71,
           "confidence": "MEDIUM",
-          "reason": "[T] tech 73 / earn 68 (RSI 32, 5일 -3.2%)",
+          "reason": "[T] tech 70 / earn 71 (RSI 32, 5일 -2.9%)",
           "entry_price": 115200.0
-        },
-        {
-          "stock_code": "047050",
-          "name_kr": "포스코인터내셔널",
-          "ms_score": 60,
-          "ai_score": 65,
-          "confidence": "MEDIUM",
-          "reason": "[T] tech 66 / earn 0 (RSI 49, 5일 -9.1%)",
-          "entry_price": 50700.0
         }
       ],
       "accuracy": {
-        "total": 265,
-        "correct": 122,
-        "hit_rate": 46.0,
-        "avg_return": -0.14,
-        "avg_return_open": -0.17,
-        "yesterday_date": "2026-08-19",
+        "total": 270,
+        "correct": 125,
+        "hit_rate": 46.3,
+        "avg_return": -0.13,
+        "avg_return_open": -0.16,
+        "yesterday_date": "2026-08-20",
         "yesterday": [
           {
-            "stock_code": "105560",
-            "name_kr": "KB금융",
-            "entry_price": 168500.0,
-            "exit_price": 166400.0,
-            "return_pct": -1.25,
-            "return_pct_open": -1.25,
-            "correct": 0
+            "stock_code": "047050",
+            "name_kr": "포스코인터내셔널",
+            "entry_price": 50700.0,
+            "exit_price": 52300.0,
+            "return_pct": 3.16,
+            "return_pct_open": 3.16,
+            "correct": 1
           },
           {
-            "stock_code": "005490",
-            "name_kr": "POSCO홀딩스",
-            "entry_price": 324500.0,
-            "exit_price": 320000.0,
-            "return_pct": -1.39,
-            "return_pct_open": -1.39,
-            "correct": 0
+            "stock_code": "207940",
+            "name_kr": "삼성바이오로직스",
+            "entry_price": 1544000.0,
+            "exit_price": 1574000.0,
+            "return_pct": 1.94,
+            "return_pct_open": 1.94,
+            "correct": 1
+          },
+          {
+            "stock_code": "259960",
+            "name_kr": "크래프톤",
+            "entry_price": 221500.0,
+            "exit_price": 222500.0,
+            "return_pct": 0.45,
+            "return_pct_open": 0.45,
+            "correct": 1
           },
           {
             "stock_code": "138040",
             "name_kr": "메리츠금융지주",
-            "entry_price": 117200.0,
+            "entry_price": 115200.0,
             "exit_price": 115200.0,
-            "return_pct": -1.71,
-            "return_pct_open": -1.71,
+            "return_pct": 0,
+            "return_pct_open": 0,
+            "correct": 0
+          },
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "entry_price": 127500.0,
+            "exit_price": 123400.0,
+            "return_pct": -3.22,
+            "return_pct_open": -3.22,
             "correct": 0
           }
         ]
@@ -166,8 +166,8 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-08-20T16:10:38",
-      "pick_date": "2026-08-20",
+      "updated_at": "2026-08-21T16:10:34",
+      "pick_date": "2026-08-21",
       "count": 0,
       "picks": [],
       "watching": [],
