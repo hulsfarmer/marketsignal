@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-08-20T16:10:39",
+  "generated_at": "2026-08-21T15:04:47",
   "dates": [
+    "2026-08-21",
     "2026-08-20",
     "2026-08-19",
     "2026-08-18",
@@ -29,8 +30,7 @@
     "2026-07-15",
     "2026-07-14",
     "2026-07-13",
-    "2026-07-10",
-    "2026-07-09"
+    "2026-07-10"
   ],
   "accuracy": {
     "ai": {
@@ -49,6 +49,113 @@
     }
   },
   "by_date": {
+    "2026-08-21": {
+      "ai": {
+        "count": 2,
+        "picks": [
+          {
+            "stock_code": "086790",
+            "name_kr": "하나금융지주",
+            "ms_score": 60,
+            "ai_score": 65,
+            "confidence": "MEDIUM",
+            "reason": "RSI 47(중립~저점)에서 5일 -5.8% 급락한 상태로 과거 성공 사례(2026-08-13 +2.42%)와 유사한 기술적 반등 구간입니다. 호실적·배당 확대 재료가 완전히 소화되지 않은 상황이며, 성공 패턴인 '수급_개선 + 기술적_반등'이 동시에 충족됩니다.",
+            "entry_price": 123400.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "009540",
+            "name_kr": "HD한국조선해양",
+            "ms_score": 67,
+            "ai_score": 63,
+            "confidence": "MEDIUM",
+            "reason": "RSI 41로 종가매수 최적 구간(30~60)에 위치하며 5일 -3.0% 조정 후 EB 발행 성공(2.4조원 조달)이라는 구체적 호재가 아직 주가에 충분히 반영되지 않았습니다. RSI_과열 및 호재_선반영 실패 패턴에서 벗어나 있으며, 조선업 수주 모멘텀이 기술적 반등을 지지합니다.",
+            "entry_price": 360500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "hybrid": {
+        "count": 5,
+        "picks": [
+          {
+            "stock_code": "259960",
+            "name_kr": "크래프톤",
+            "ms_score": 67,
+            "ai_score": 98,
+            "confidence": "HIGH",
+            "reason": "[T] tech 98 / earn 0 (RSI 34, 5일 -5.1%)",
+            "entry_price": 222500.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "105560",
+            "name_kr": "KB금융",
+            "ms_score": 70,
+            "ai_score": 96,
+            "confidence": "HIGH",
+            "reason": "[T] tech 97 / earn 0 (RSI 36, 5일 -4.8%)",
+            "entry_price": 160000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "010130",
+            "name_kr": "고려아연",
+            "ms_score": 57,
+            "ai_score": 95,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 96 (RSI 66, 5일 +0.4%)",
+            "entry_price": 1238000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "207940",
+            "name_kr": "삼성바이오로직스",
+            "ms_score": 60,
+            "ai_score": 93,
+            "confidence": "HIGH",
+            "reason": "[E] tech 0 / earn 94 (RSI 61, 5일 +0.6%)",
+            "entry_price": 1574000.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          },
+          {
+            "stock_code": "138040",
+            "name_kr": "메리츠금융지주",
+            "ms_score": 68,
+            "ai_score": 71,
+            "confidence": "MEDIUM",
+            "reason": "[T] tech 70 / earn 71 (RSI 32, 5일 -2.9%)",
+            "entry_price": 115200.0,
+            "exit_price": null,
+            "return_pct": null,
+            "return_pct_open": null,
+            "correct": null
+          }
+        ]
+      },
+      "vol": {
+        "count": 0,
+        "picks": []
+      }
+    },
     "2026-08-20": {
       "ai": {
         "count": 2,
@@ -3039,100 +3146,6 @@
             "return_pct": 4.0,
             "return_pct_open": 0.95,
             "correct": 1
-          }
-        ]
-      },
-      "vol": {
-        "count": 0,
-        "picks": []
-      }
-    },
-    "2026-07-09": {
-      "ai": {
-        "count": 1,
-        "picks": [
-          {
-            "stock_code": "010140",
-            "name_kr": "삼성중공업",
-            "ms_score": 77,
-            "ai_score": 78,
-            "confidence": "HIGH",
-            "reason": "RSI 24의 극단적 과매도 구간으로 과거 성공 패턴인 '기술적_반등(성공률 100%)'에 정확히 부합합니다. 경영진의 연쇄적 자사주 매입은 '수급_개선(성공률 100%)' 신호로 이중 호재이나, 지난주 동일 패턴에서 실패(-5.27%)한 이력이 있어 포지션 규모 조절이 필요합니다. 5일 -7.8%, 20일 -16.4%의 누적 낙폭이 반등 에너지를 축적하고 있습니다.",
-            "entry_price": 21150.0,
-            "exit_price": 20950.0,
-            "return_pct": -0.95,
-            "return_pct_open": -0.95,
-            "correct": 0
-          }
-        ]
-      },
-      "hybrid": {
-        "count": 5,
-        "picks": [
-          {
-            "stock_code": "068270",
-            "name_kr": "셀트리온",
-            "ms_score": 59,
-            "ai_score": 98,
-            "confidence": "HIGH",
-            "reason": "[E] tech 0 / earn 99 (RSI 55, 5일 +0.1%)",
-            "entry_price": 176800.0,
-            "exit_price": 173100.0,
-            "return_pct": -2.09,
-            "return_pct_open": -2.09,
-            "correct": 0
-          },
-          {
-            "stock_code": "047050",
-            "name_kr": "포스코인터내셔널",
-            "ms_score": 57,
-            "ai_score": 94,
-            "confidence": "HIGH",
-            "reason": "[T] tech 94 / earn 0 (RSI 37, 5일 -5.9%)",
-            "entry_price": 48750.0,
-            "exit_price": 48700.0,
-            "return_pct": -0.1,
-            "return_pct_open": -0.1,
-            "correct": 0
-          },
-          {
-            "stock_code": "086790",
-            "name_kr": "하나금융지주",
-            "ms_score": 58,
-            "ai_score": 87,
-            "confidence": "HIGH",
-            "reason": "[E] tech 16 / earn 88 (RSI 48, 5일 +1.2%)",
-            "entry_price": 122300.0,
-            "exit_price": 122600.0,
-            "return_pct": 0.25,
-            "return_pct_open": 0.25,
-            "correct": 1
-          },
-          {
-            "stock_code": "006400",
-            "name_kr": "삼성SDI",
-            "ms_score": 62,
-            "ai_score": 79,
-            "confidence": "MEDIUM",
-            "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -12.4%)",
-            "entry_price": 412000.0,
-            "exit_price": 401500.0,
-            "return_pct": -2.55,
-            "return_pct_open": -2.55,
-            "correct": 0
-          },
-          {
-            "stock_code": "003550",
-            "name_kr": "LG",
-            "ms_score": 62,
-            "ai_score": 43,
-            "confidence": "LOW",
-            "reason": "[T] tech 43 / earn 0 (RSI 38, 5일 +3.5%)",
-            "entry_price": 102500.0,
-            "exit_price": 101300.0,
-            "return_pct": -1.17,
-            "return_pct_open": -1.17,
-            "correct": 0
           }
         ]
       },

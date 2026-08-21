@@ -1,53 +1,53 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "strategy": "hybrid",
-  "generated_at": "2026-08-20T15:05:14",
+  "generated_at": "2026-08-21T15:04:46",
   "count": 5,
   "picks": [
     {
-      "stock_code": "086790",
-      "name_kr": "하나금융지주",
-      "ms_score": 73,
+      "stock_code": "259960",
+      "name_kr": "크래프톤",
+      "ms_score": 67,
+      "ai_score": 98,
+      "confidence": "HIGH",
+      "reason": "[T] tech 98 / earn 0 (RSI 34, 5일 -5.1%)",
+      "entry_price": 222500.0
+    },
+    {
+      "stock_code": "105560",
+      "name_kr": "KB금융",
+      "ms_score": 70,
       "ai_score": 96,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 97 (RSI 55, 5일 -0.3%)",
-      "entry_price": 127500.0
+      "reason": "[T] tech 97 / earn 0 (RSI 36, 5일 -4.8%)",
+      "entry_price": 160000.0
+    },
+    {
+      "stock_code": "010130",
+      "name_kr": "고려아연",
+      "ms_score": 57,
+      "ai_score": 95,
+      "confidence": "HIGH",
+      "reason": "[E] tech 0 / earn 96 (RSI 66, 5일 +0.4%)",
+      "entry_price": 1238000.0
     },
     {
       "stock_code": "207940",
       "name_kr": "삼성바이오로직스",
       "ms_score": 60,
-      "ai_score": 96,
+      "ai_score": 93,
       "confidence": "HIGH",
-      "reason": "[E] tech 0 / earn 97 (RSI 52, 5일 -0.3%)",
-      "entry_price": 1544000.0
-    },
-    {
-      "stock_code": "259960",
-      "name_kr": "크래프톤",
-      "ms_score": 63,
-      "ai_score": 79,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 79 / earn 0 (RSI 27, 5일 -5.7%)",
-      "entry_price": 221500.0
+      "reason": "[E] tech 0 / earn 94 (RSI 61, 5일 +0.6%)",
+      "entry_price": 1574000.0
     },
     {
       "stock_code": "138040",
       "name_kr": "메리츠금융지주",
-      "ms_score": 58,
-      "ai_score": 73,
+      "ms_score": 68,
+      "ai_score": 71,
       "confidence": "MEDIUM",
-      "reason": "[T] tech 73 / earn 68 (RSI 32, 5일 -3.2%)",
+      "reason": "[T] tech 70 / earn 71 (RSI 32, 5일 -2.9%)",
       "entry_price": 115200.0
-    },
-    {
-      "stock_code": "047050",
-      "name_kr": "포스코인터내셔널",
-      "ms_score": 60,
-      "ai_score": 65,
-      "confidence": "MEDIUM",
-      "reason": "[T] tech 66 / earn 0 (RSI 49, 5일 -9.1%)",
-      "entry_price": 50700.0
     }
   ]
 }
