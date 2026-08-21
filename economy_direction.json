@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:40:05",
+  "generated_at": "2026-08-22T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -12983,110 +12983,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "코미코",
-      "event_date": "2026-08-21",
-      "event_type": "신주권 상장",
-      "title": "코미코 — 주식분할결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512900988"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "KX",
-      "event_date": "2026-08-21",
-      "event_type": "합병기일",
-      "title": "KX — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000362"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "전진건설로봇",
-      "event_date": "2026-08-21",
-      "event_type": "배당지급예정일",
-      "title": "전진건설로봇 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721800856"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "그린케미칼",
-      "event_date": "2026-08-21",
-      "event_type": "배당금지급예정일",
-      "title": "그린케미칼 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800218"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "하나금융지주",
-      "event_date": "2026-08-21",
-      "event_type": "배당금지급예정일",
-      "title": "하나금융지주 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800419"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "SK디스커버리",
-      "event_date": "2026-08-21",
-      "event_type": "배당금지급예정일",
-      "title": "SK디스커버리 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800658"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "티엘비",
-      "event_date": "2026-08-21",
-      "event_type": "배당기준일",
-      "title": "티엘비 — 현금ㆍ현물배당결정              (중간배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900207"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "웹젠",
-      "event_date": "2026-08-21",
-      "event_type": "배당기준일",
-      "title": "웹젠 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900246"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "케이티앤지",
-      "event_date": "2026-08-21",
-      "event_type": "배당기준일",
-      "title": "케이티앤지 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800319"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "코오롱인더",
-      "event_date": "2026-08-21",
-      "event_type": "배당기준일",
-      "title": "코오롱인더 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800577"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "코오롱",
-      "event_date": "2026-08-21",
-      "event_type": "배당기준일",
-      "title": "코오롱 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800578"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "한국앤컴퍼니",
-      "event_date": "2026-08-21",
-      "event_type": "배당기준일",
-      "title": "한국앤컴퍼니 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800421"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "씨젠",
-      "event_date": "2026-08-21",
-      "event_type": "배당금지급예정일",
-      "title": "씨젠 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900644"
-    },
-    {
-      "stock_code": "",
       "stock_name": "KX",
       "event_date": "2026-08-24",
       "event_type": "합병등기예정일",
@@ -14436,6 +14332,54 @@
       "event_type": "배당금지급예정일",
       "title": "롯데지주 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800656"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "S&K폴리텍",
+      "event_date": "2026-09-21",
+      "event_type": "채권자이의제출 종료",
+      "title": "S&K폴리텍 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000368"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "케이프",
+      "event_date": "2026-09-21",
+      "event_type": "채권자이의제출 종료",
+      "title": "케이프 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000343"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "삼영무역",
+      "event_date": "2026-09-21",
+      "event_type": "합병기일",
+      "title": "삼영무역 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000790"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "우정바이오",
+      "event_date": "2026-09-21",
+      "event_type": "채권자이의제출 종료",
+      "title": "우정바이오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000143"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "금호석유화학",
+      "event_date": "2026-09-21",
+      "event_type": "채권자이의제출 시작",
+      "title": "금호석유화학 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000482"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "카카오",
+      "event_date": "2026-09-21",
+      "event_type": "합병반대의사통지 종료",
+      "title": "카카오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000052"
     }
   ]
 }
