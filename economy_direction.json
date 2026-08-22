@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T23:40:06",
+  "generated_at": "2026-08-23T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -14378,6 +14378,22 @@
       "event_type": "합병반대의사통지 종료",
       "title": "카카오 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000052"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "우정바이오",
+      "event_date": "2026-09-22",
+      "event_type": "합병기일",
+      "title": "우정바이오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000143"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "대림제지",
+      "event_date": "2026-09-22",
+      "event_type": "신주 효력발생",
+      "title": "대림제지 — 주식분할결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813900805"
     }
   ]
 }
