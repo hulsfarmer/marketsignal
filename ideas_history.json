@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T15:01:59",
+  "generated_at": "2026-08-24T16:10:13",
   "dates": [
     "2026-08-24",
     "2026-08-21",
@@ -34,18 +34,18 @@
   ],
   "accuracy": {
     "ai": {
-      "total": 170,
-      "correct": 84,
+      "total": 172,
+      "correct": 85,
       "hit_rate": 49.4,
-      "avg_return": 0.19,
+      "avg_return": 0.2,
       "avg_return_open": 0.35
     },
     "hybrid": {
-      "total": 270,
-      "correct": 125,
-      "hit_rate": 46.3,
-      "avg_return": -0.13,
-      "avg_return_open": -0.16
+      "total": 275,
+      "correct": 127,
+      "hit_rate": 46.2,
+      "avg_return": -0.12,
+      "avg_return_open": -0.17
     }
   },
   "by_date": {
@@ -141,10 +141,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 47(중립~저점)에서 5일 -5.8% 급락한 상태로 과거 성공 사례(2026-08-13 +2.42%)와 유사한 기술적 반등 구간입니다. 호실적·배당 확대 재료가 완전히 소화되지 않은 상황이며, 성공 패턴인 '수급_개선 + 기술적_반등'이 동시에 충족됩니다.",
             "entry_price": 123400.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 128800.0,
+            "return_pct": 4.38,
+            "return_pct_open": 0.89,
+            "correct": 1
           },
           {
             "stock_code": "009540",
@@ -154,10 +154,10 @@
             "confidence": "MEDIUM",
             "reason": "RSI 41로 종가매수 최적 구간(30~60)에 위치하며 5일 -3.0% 조정 후 EB 발행 성공(2.4조원 조달)이라는 구체적 호재가 아직 주가에 충분히 반영되지 않았습니다. RSI_과열 및 호재_선반영 실패 패턴에서 벗어나 있으며, 조선업 수주 모멘텀이 기술적 반등을 지지합니다.",
             "entry_price": 360500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 348500.0,
+            "return_pct": -3.33,
+            "return_pct_open": -1.53,
+            "correct": 0
           }
         ]
       },
@@ -172,10 +172,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 98 / earn 0 (RSI 34, 5일 -5.1%)",
             "entry_price": 222500.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 222000.0,
+            "return_pct": -0.22,
+            "return_pct_open": -0.9,
+            "correct": 0
           },
           {
             "stock_code": "105560",
@@ -185,10 +185,10 @@
             "confidence": "HIGH",
             "reason": "[T] tech 97 / earn 0 (RSI 36, 5일 -4.8%)",
             "entry_price": 160000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 164300.0,
+            "return_pct": 2.69,
+            "return_pct_open": 0.62,
+            "correct": 1
           },
           {
             "stock_code": "010130",
@@ -198,10 +198,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 96 (RSI 66, 5일 +0.4%)",
             "entry_price": 1238000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1237000.0,
+            "return_pct": -0.08,
+            "return_pct_open": -0.65,
+            "correct": 0
           },
           {
             "stock_code": "207940",
@@ -211,10 +211,10 @@
             "confidence": "HIGH",
             "reason": "[E] tech 0 / earn 94 (RSI 61, 5일 +0.6%)",
             "entry_price": 1574000.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 1551000.0,
+            "return_pct": -1.46,
+            "return_pct_open": -2.22,
+            "correct": 0
           },
           {
             "stock_code": "138040",
@@ -224,10 +224,10 @@
             "confidence": "MEDIUM",
             "reason": "[T] tech 70 / earn 71 (RSI 32, 5일 -2.9%)",
             "entry_price": 115200.0,
-            "exit_price": null,
-            "return_pct": null,
-            "return_pct_open": null,
-            "correct": null
+            "exit_price": 115400.0,
+            "return_pct": 0.17,
+            "return_pct_open": 0.0,
+            "correct": 1
           }
         ]
       },
