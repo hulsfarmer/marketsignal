@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T12:05:26",
+  "generated_at": "2026-08-24T12:08:10",
   "count": 500,
   "posts": [
     {
@@ -6528,6 +6528,33 @@
       "updated_at": "2026-08-23 06:07:06"
     },
     {
+      "id": 22744,
+      "title": "연준의 자산 축소(QT) 가속화와 빌리어네어들의 AI 산업 쏠림 현상이 글로벌 금리·환율·기술주 밸류에이션에 영향을 미칠 것으로 예상됨. 한국 입장에서는 USD/KRW 환율 상승 압력과 KOSPI 외국인 자금 이탈 위험 증가를 의미.",
+      "category": "거시",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "Reuters",
+      "uploaded_on": "2026-08-21",
+      "summary": "<p>연준의 자산 축소(QT) 가속화와 빌리어네어들의 AI 산업 쏠림 현상이 글로벌 금리·환율·기술주 밸류에이션에 영향을 미칠 것으로 예상됨. 한국 입장에서는 USD/KRW 환율 상승 압력과 KOSPI 외국인 자금 이탈 위험 증가를 의미.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Weekend Reads: Billionaire bets, AI power grab, Fed&#x27;s big shrink Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
+      "feedback": "연준 QT 심화는 글로벌 유동성 축소 신호로 작용하며, AI 패권 집중 현상은 한국 반도체·AI 산업의 경쟁 구도 재편을 시사해 원화약세와 외국인 수급에 직접 영향",
+      "stocks": [
+        "삼성전자",
+        "SK하이닉스",
+        "네이버",
+        "카카오",
+        "현대차"
+      ],
+      "tags": [
+        "금리",
+        "매크로"
+      ],
+      "impact_score": 7,
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNG5nU09IMld1c21JeEx1eGo1Snhocy1WbWZOQ0otZEd4ZF9fTFR1NWhBazBMelZJWHFYRURGaXVscnA3Wk5kTDhBdnBmTnNTX0ZIZGJEQk53OWdXb1psYWVRdlBRTlZQMVUzeU5nejRuZUpodncwUEVGaWNsLTd1UUZpb3pVYUNwTkpBeEFfLU9WaVBmTVg2UU1RQkRMemRQQ2hyMzJTS2g2RG1CVFhBdW9YWWJleWQ3VHoxUDJVbFkwT2lxcmY2Zg?oc=5",
+      "direction": "down",
+      "updated_at": "2026-08-24 12:07:36"
+    },
+    {
       "id": 22493,
       "title": "채권시장 악화로 인한 금융 시장 불안정. 미국 금리 상승 압력이 높아지면서 기술주와 반도체 섹터에 부정적 영향 예상.",
       "category": "주식",
@@ -12940,33 +12967,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa1VuQzdOeGxfQ1pnN09BTURpVUtqalhFNmNiaGtBOXJENWhzMjFZYzJxdC1zNGVFMjNKUmdneFA5Qkx2NU1PVWxLdHhSS1kzRGN0Q1VxUW1JaTNFalMyZWhMY2ZWSlBlY01EakRDY1lPaFlQZ3BzdXhoUVUteDRWNGhxeUUyNFBfMlpLSnI1NlVvNjE0ajVRMWVTX2ViUDBVMkxHaUVDVno?oc=5",
       "direction": "neutral",
       "updated_at": "2026-07-28 00:07:34"
-    },
-    {
-      "id": 17528,
-      "title": "중국이 자체 DUV(자외선) 반도체 제조 장비 생산을 시작했다고 보도됨. 이는 한국 반도체 장비 수출 시장 축소와 중국 반도체 자립화 가속을 의미하며, 특히 메모리·파운드리 경쟁 심화 우려를 야기.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-27",
-      "summary": "<p>중국이 자체 DUV(자외선) 반도체 제조 장비 생산을 시작했다고 보도됨. 이는 한국 반도체 장비 수출 시장 축소와 중국 반도체 자립화 가속을 의미하며, 특히 메모리·파운드리 경쟁 심화 우려를 야기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China begins making homegrown DUV chipmaking tools, The Information reports Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "중국의 반도체 자력화 진전은 삼성·SK하이닉스 등 한국 메모리 업체의 중국 시장 경쟁 심화와 장비업체 수출 축소로 이어져 한국 반도체 산업의 구조적 위협 요인이 되기 때문.",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNczNKaVBKQlBhakFSU2NWSktCWHViODV0YmUzSnU5VWVVQkg2OWd2QUZteVB6RmZGLWdwV092R29aVElFX09naHB5TzQ3c2xhUXNBZllCcm9aWnhGRGhhRVc3UEt4NWxhYTRTZW1hdFVEM1RIajQxWl82b3JNMTF1eEo4X25BSGRoVFFuWElhSk9QSzJxZC1lZTlnc196YW9UY2NCaG9DaTExUUo5RnVjUDB1NVBVZzFvZlE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-28 00:07:11"
     }
   ],
   "events": [
