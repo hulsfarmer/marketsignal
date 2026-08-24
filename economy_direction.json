@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T16:05:03",
+  "generated_at": "2026-08-24T16:35:11",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 22773,
+      "title": "휴비츠 — 주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260824",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(회사합병결정) · 휴비츠</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "휴비츠"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000197",
+      "direction": "neutral",
+      "updated_at": "2026-08-24 16:35:09"
+    },
+    {
+      "id": 22770,
+      "title": "카카오 — [첨부정정]주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260824",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(회사합병결정) · 카카오</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "카카오"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000219",
+      "direction": "neutral",
+      "updated_at": "2026-08-24 16:35:07"
     },
     {
       "id": 21887,
@@ -3743,6 +3787,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 22768,
+      "title": "이건산업 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260824",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · 이건산업</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "이건산업"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800474",
+      "direction": "neutral",
+      "updated_at": "2026-08-24 16:35:06"
+    },
+    {
+      "id": 22764,
+      "title": "이건홀딩스 — 투자판단관련주요경영사항(자회사의 주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260824",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항(자회사의 주요경영사항)               · 이건홀딩스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "이건홀딩스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824900482",
+      "direction": "neutral",
+      "updated_at": "2026-08-24 16:35:04"
     },
     {
       "id": 22761,
@@ -12843,119 +12931,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeGgtaGpMYTdoS2Vxa1IzZHB2bnNFUy1RSlB0bEJDRUxhNkRReUhoTVlYdWs2WkpqeVlEZkpNQ0lwZjFuZVNGbVV6RUpZTFVJZmFpZHozVEU4aWlISVlLSVBZakhlejRWT2tyNTZ3YkZROUhFeF9IQlJRYVVwS1N5RmhITDZlclRUN3pPaENpc252dldyVWFZeWhQRW5Na1RnLUJMZVhLM0RmWHJ2aUUwZ3lNZGxxa044OWFFYmh2UkljN0NMNkhVOV96dDE?oc=5",
       "direction": "down",
       "updated_at": "2026-07-28 09:07:38"
-    },
-    {
-      "id": 17606,
-      "title": "Cadence가 AI 칩 설계 수요 호황으로 연간 실적 전망을 상향 조정했으며, 이는 HBM·메모리·파운드리 등 한국 반도체 기업들의 AI 칩 수요 확대를 시사하는 긍정 신호",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-27",
-      "summary": "<p>Cadence가 AI 칩 설계 수요 호황으로 연간 실적 전망을 상향 조정했으며, 이는 HBM·메모리·파운드리 등 한국 반도체 기업들의 AI 칩 수요 확대를 시사하는 긍정 신호</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Cadence raises annual forecasts as demand booms for AI chip design Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 칩 설계 도구 수요 확대는 한국 메모리·파운드리 기업들의 고객사(NVIDIA 등) 매출 증가로 이어져 HBM/메모리 납기 확대 및 파운드리 수주 증대 기대",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도transparency",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZEw5TFphTEV5OHVidlJkNzRwS1c3WDgzMmU2Ql93X3plWmc4dVl6ZEJwSy1kMnBqc1NuRm5Ib0RqcFp5OVctX2VHcV8xWjdvWU5YVnB6THJlRnRMS3l5TnhUUzFRLVVpT2JUUGdHa2dhWDVlelhkSVpjdTh4ck1TUXBXeGxwN3RMd19pZVV1YWNTZm9CamMyUFRwaEdFcjNIRXZkWnVRUTNacU0zcUp3THducUpTWk1vZmNrdQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-28 09:07:05"
-    },
-    {
-      "id": 17575,
-      "title": "트럼프 전 대통령이 미 연준의 금리 인하를 촉구. 금리 인하 시 USD/KRW 약세, 외국인 주식 수급 개선, 채권 금리 하락으로 한국 시장에 긍정적.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-27",
-      "summary": "<p>트럼프 전 대통령이 미 연준의 금리 인하를 촉구. 금리 인하 시 USD/KRW 약세, 외국인 주식 수급 개선, 채권 금리 하락으로 한국 시장에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump says Fed should lower interest rates Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 정책 방향성은 원달러 환율, 외국인 자금 흐름, 국채 금리에 직결되는 한국 증시 주요 변수",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "Kakao",
-        "현대차",
-        "기아",
-        "LG전자",
-        "금융주 (NH투자증권",
-        "삼성증권)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVlpWNk9HMDBFMndqTlZjSnJiZFNRNGdELUFkNC1tX0NiV1ZubmYwenRmOGRLdzdTYmtGcV8tNXU0YlNMby1MNnc2WmNlWS1fN1RIN3NMeVcwRUZXd1pxMFBLSUNhd0wyTGxTajRiRXpCLUJBRDMxU05TeU1HREZtY3g4MUpNTGtMOWtKWTJNYjE?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-28 06:07:51"
-    },
-    {
-      "id": 17567,
-      "title": "엔비디아가 클라우드 최적화(Cloudmaxxing) 경쟁에 빨려들면서 위험한 게임에 직면. 이는 메모리·칩 공급망 경쟁 심화와 마진율 압박으로 이어질 수 있어 한국 반도체사들의 수급·가격 협상력에 영향.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-27",
-      "summary": "<p>엔비디아가 클라우드 최적화(Cloudmaxxing) 경쟁에 빨려들면서 위험한 게임에 직면. 이는 메모리·칩 공급망 경쟁 심화와 마진율 압박으로 이어질 수 있어 한국 반도체사들의 수급·가격 협상력에 영향.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - Cloudmaxxing sucks Nvidia into dangerous game Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 반도체 초강자 엔비디아의 전략 변화가 글로벌 칩 공급망 재편을 의미하며, SK하이닉스·삼성의 HBM·메모리 수급 및 가격 경쟁에 직접 영향을 줄 수 있음.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa2kycWVFZFJINVV4UmxoZDRhQVpXLVpzelRmUWw1aG9DSS1rdmdPRUV3cDJJZEtOdFBvcVdFOUJva0lqUjhkaHNtUVBRc2d2bGUySDJ1NUdQLUVPOGg1ZnFVV2RZcHh5ak4xd3VrLXphSTlxVnBEeEJnV2toS0VwbW1sZXY5Q3l3cDFGaklaLWF3LU5qeEJmdU81Rkhhc0NEY1B0WGgya18zQQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-28 06:07:10"
-    },
-    {
-      "id": 17551,
-      "title": "Fed의 금리 인상 연기가 중앙은행의 신뢰성을 훼손할 위험이 있다는 지적. 인플레이션 대응 의지 약화 우려로 USD 약세 및 글로벌 금리 구조 변화 초래 가능.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-27",
-      "summary": "<p>Fed의 금리 인상 연기가 중앙은행의 신뢰성을 훼손할 위험이 있다는 지적. 인플레이션 대응 의지 약화 우려로 USD 약세 및 글로벌 금리 구조 변화 초래 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed patience risks shredding credibility Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 신용도 하락 시 USD/KRW 약세→한국 수출 기업 이익, 외국인 주식 자금 유입 긍정, 하지만 글로벌 금리 불확실성 증대로 한국 채권·기업 차입비용 변동성 확대",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "포스코",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU2xCM1U5RlBYYVFhWFdmeWxxZ3BYendOMTZIRXBIRVlhckdSUGVycjlNVXZ5UERsZzMycVJwaWVmaHBzMVZZQUV3c0ZGYWt4RWVfZEo2eFNVRTNvWlVPUmo2R29kX2dnZ09FZzFrOEhRbloxSXNUX1haZzJfUld0RFlGOUFWTml4dG9udFZfN1NxNXJEWjQ5c0ZJQUQwUFFhSWJ4cHdTQXFiUDA1M0E?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-28 03:07:22"
     }
   ],
   "events": [
