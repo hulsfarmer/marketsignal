@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-24",
-  "generated_at": "2026-08-24T16:10:12",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T16:10:21",
   "sections": {
     "ai": {
       "label": "AI 뉴스 점수 픽",
-      "updated_at": "2026-08-24T16:10:12",
-      "pick_date": "2026-08-24",
+      "updated_at": "2026-08-25T16:10:21",
+      "pick_date": "2026-08-25",
       "count": 0,
       "picks": [],
       "accuracy": {
@@ -39,56 +39,10 @@
     },
     "hybrid": {
       "label": "실적·기술 하이브리드",
-      "updated_at": "2026-08-24T16:10:12",
-      "pick_date": "2026-08-24",
-      "count": 5,
-      "picks": [
-        {
-          "stock_code": "207940",
-          "name_kr": "삼성바이오로직스",
-          "ms_score": 62,
-          "ai_score": 98,
-          "confidence": "HIGH",
-          "reason": "[E] tech 0 / earn 98 (RSI 68, 5일 +0.2%)",
-          "entry_price": 1551000.0
-        },
-        {
-          "stock_code": "259960",
-          "name_kr": "크래프톤",
-          "ms_score": 65,
-          "ai_score": 90,
-          "confidence": "HIGH",
-          "reason": "[T] tech 90 / earn 0 (RSI 39, 5일 -6.7%)",
-          "entry_price": 222000.0
-        },
-        {
-          "stock_code": "138040",
-          "name_kr": "메리츠금융지주",
-          "ms_score": 60,
-          "ai_score": 88,
-          "confidence": "HIGH",
-          "reason": "[E] tech 54 / earn 89 (RSI 38, 5일 -1.1%)",
-          "entry_price": 115400.0
-        },
-        {
-          "stock_code": "316140",
-          "name_kr": "우리금융지주",
-          "ms_score": 65,
-          "ai_score": 88,
-          "confidence": "HIGH",
-          "reason": "[T] tech 89 / earn 0 (RSI 40, 5일 -5.8%)",
-          "entry_price": 31750.0
-        },
-        {
-          "stock_code": "009540",
-          "name_kr": "HD한국조선해양",
-          "ms_score": 65,
-          "ai_score": 82,
-          "confidence": "HIGH",
-          "reason": "[T] tech 83 / earn 0 (RSI 42, 5일 -9.7%)",
-          "entry_price": 348500.0
-        }
-      ],
+      "updated_at": "2026-08-25T16:10:21",
+      "pick_date": "2026-08-25",
+      "count": 0,
+      "picks": [],
       "accuracy": {
         "total": 275,
         "correct": 127,
@@ -147,8 +101,8 @@
     },
     "vol": {
       "label": "거래대금 2000억 돌파",
-      "updated_at": "2026-08-24T16:10:12",
-      "pick_date": "2026-08-24",
+      "updated_at": "2026-08-25T16:10:21",
+      "pick_date": "2026-08-25",
       "count": 0,
       "picks": [],
       "watching": [],
