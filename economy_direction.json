@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T17:05:02",
+  "generated_at": "2026-08-26T17:35:15",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,116 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 22899,
+      "title": "SK디스커버리 — 주요사항보고서(회사합병결정)(자회사의 주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260826",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(회사합병결정)(자회사의 주요경영사항)               · SK디스커버리</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "SK디스커버리"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826800605",
+      "direction": "neutral",
+      "updated_at": "2026-08-26 17:35:15"
+    },
+    {
+      "id": 22893,
+      "title": "SK가스 — 회사합병결정(종속회사의주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260826",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 회사합병결정(종속회사의주요경영사항)               · SK가스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "SK가스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826800684",
+      "direction": "neutral",
+      "updated_at": "2026-08-26 17:35:12"
+    },
+    {
+      "id": 22885,
+      "title": "휴온스 — 기타주요경영사항              (회사합병 결정 및 임시주주총회 소집결의 철회)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260826",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 기타주요경영사항              (회사합병 결정 및 임시주주총회 소집결의 철회) · 휴온스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "휴온스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826900701",
+      "direction": "neutral",
+      "updated_at": "2026-08-26 17:35:08"
+    },
+    {
+      "id": 22884,
+      "title": "휴온스글로벌 — 기타주요경영사항(자회사의 주요경영사항)              (회사합병 결정 및 임시주주총회 소집결의 철회)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260826",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 기타주요경영사항(자회사의 주요경영사항)              (회사합병 결정 및 임시주주총회 소집결의 철회) · 휴온스글로벌</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "휴온스글로벌"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826900708",
+      "direction": "neutral",
+      "updated_at": "2026-08-26 17:35:07"
+    },
+    {
+      "id": 22882,
+      "title": "SK아이이테크놀로지 — [첨부정정]주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260826",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(회사합병결정) · SK아이이테크놀로지</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "SK아이이테크놀로지"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000752",
+      "direction": "neutral",
+      "updated_at": "2026-08-26 17:35:06"
     },
     {
       "id": 22872,
@@ -12728,142 +12838,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMWE0UWlwemdYNE5CaEZPSVBqZVNuSmlVSmIxWHV6R1hXa3lua1RReGpYaTEtZGttNzZoTU1XT3VGbjZWUmxFSWxnN21mMGlHVW1fazREOXdRZVk1ek9ya1JVMVNWM0NoVEVzRHY2bWJSYy1JRUtrNElLb3BPSjJzNm9wWmpmYTU3OXRIQ0E1dG82TkU2emF4QVoxTEJJU01ydzF5cHZHRVlnbGp6T3JESUtzV0ZZYjZUc2c?oc=5",
       "direction": "neutral",
       "updated_at": "2026-07-29 21:07:28"
-    },
-    {
-      "id": 18001,
-      "title": "매그니피센트7의 실적 발표가 미국 주식시장의 광범위한 상승 지속 여부를 시험하는 상황. AI/반도체 초대형주 실적이 시장 전반 확산력을 결정짓는 핵심 변수로 작용할 전망.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-29",
-      "summary": "<p>매그니피센트7의 실적 발표가 미국 주식시장의 광범위한 상승 지속 여부를 시험하는 상황. AI/반도체 초대형주 실적이 시장 전반 확산력을 결정짓는 핵심 변수로 작용할 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Magnificent 7 results set to test broadening US stock market Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "Mag7 실적은 글로벌 AI/반도체 수요 전망을 보여주는 지표로, SK하이닉스·삼성전자 등 한국 메모리·파운드리 수급과 밸류에이션에 직접 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPemNkZTJ3bTBNZXJZTXoyUm0yai0xOXA2dTh3VG9MemI4V0hzeHN0UU8wY205SHR1LUVnaGdoU1hDRmZFZWhpZ00xeFJRUWljR004bVcxVnJCR09fYUdxZFU3RU9BQ3I0T1FjXy1xTGZscmRTWlZBUEI2RkZDeEVsY3ZZQnYwZ2hBQ1VDTklXZVV2OHBhT0VvRFVwbk5zWXI2OUFrWA?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-07-29 21:07:13"
-    },
-    {
-      "id": 18000,
-      "title": "일본 규슈 지역 지진으로 자동차·반도체 제조 공급망 차질 우려. SK하이닉스·삼성전자 등 한국 반도체 기업의 공급망 다변화 기회 및 수급 타이트닝으로 인한 가격 상승 가능성 존재.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-29",
-      "summary": "<p>일본 규슈 지역 지진으로 자동차·반도체 제조 공급망 차질 우려. SK하이닉스·삼성전자 등 한국 반도체 기업의 공급망 다변화 기회 및 수급 타이트닝으로 인한 가격 상승 가능성 존재.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Japan earthquake rocks auto and chip manufacturing supply chain in Kyushu Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "일본 주요 반도체·자동차 생산지 피해로 글로벌 공급망 차질 시 한국 메모리·파운드리 기업의 수요 증가 및 가격 협상력 강화 예상",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbjJJbjA0ZzJwUXNobTlsLU43TDRMY1dVMWs0em9weWwtTml0WlpoU3kxVEM4eEhHdktNeGdjeDRQNDBLdzc4TnpuUlVCSXVCdjhoSzRadkNST2hqWlI5RWg4eU9PaS0zWnNEVE54UHotUFJzV2w4V3dyd2VjNUpsMHNIQmpLVnBJelE0eVVvQS1ueHRiMVdJWXhNZmp3djNPMDB1S0lGa3ZkeFRtM0YzY3V5bml1RU5KRzJMZFVPWXA3aDZEMWhKUWpiaHhUZw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-29 21:07:07"
-    },
-    {
-      "id": 17972,
-      "title": "AI 경쟁으로 아시아 항공화물이 재편되며 전자상거래를 대체하는 새로운 성장 엔진으로 부상. 반도체/AI 칩 수요 증가로 고부가가치 화물 운송 수요 확대 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-29",
-      "summary": "<p>AI 경쟁으로 아시아 항공화물이 재편되며 전자상거래를 대체하는 새로운 성장 엔진으로 부상. 반도체/AI 칩 수요 증가로 고부가가치 화물 운송 수요 확대 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI race redraws Asian air cargo, replacing e-commerce as growth engine Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 칩 수요 급증에 따른 한국 반도체(HBM, 메모리) 수출 증가 신호이며 글로벌 공급망에서 한국 소재의 중요도 상승",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSUVVM3BPb2RISTRRVGJjakJvcFJJQjlsSVFuanRpRjd1OEYtcXVVTmducmo2ejd6ejh6TnR1VkVHTHBSVV8zRDhUeEtLd0ZzQThyRmNaVnBaQmtkdGxMV2ZZVzkzajN3S1NHZFFuRWhPbzdRaFV6MUFRMURSdmVCazBKeWs1VXVPUmNmMFpEZHRMMFhsR0pUTkhCTHdIVF9INzA3UVE1QnNQWWlGZWw5ZmRmMlZ0RnJwNEFwdDVTbDNqdzZUaG9nZg?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-29 18:07:10"
-    },
-    {
-      "id": 17921,
-      "title": "연준(Fed) 금리 결정을 앞두고 달러화가 안정적이며, 호주 인플레이션 데이터 발표 후 호주달러가 하락. 미국 금리 결정이 임박하면서 USD/KRW 환율 방향성이 결정될 예정.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-29",
-      "summary": "<p>연준(Fed) 금리 결정을 앞두고 달러화가 안정적이며, 호주 인플레이션 데이터 발표 후 호주달러가 하락. 미국 금리 결정이 임박하면서 USD/KRW 환율 방향성이 결정될 예정.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar steady ahead of Fed decision; Aussie falls after inflation data Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 결정 직전 신호로 달러 강세 또는 약세가 결정되면 원화 약세/강세, 외국인 수급, 채권 금리에 직접 영향을 미치는 주요 매크로 이벤트",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "LG화학",
-        "현대차",
-        "KB금융"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnFXZFd5UzNzZ1RRdnZ3aFRNT2N6YU1hdVB6UHNzcU9RdUVMRk5MSkEyUGoxY3FnSnM4OHlpdWoyalJwWEl4bWh3YkcteTNieGF1cm8zVzJHenF4ZERNbGVfSURTaFF4bUVhUC1paUFwMk5XZVFNZzRLOFp2aWQ1aktad1d2WVg0QkNhY215bHpRYlBxVldycg?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-07-29 15:07:28"
-    },
-    {
-      "id": 17884,
-      "title": "Fed 금리 결정 앞두고 금값이 하락세를 보이고 있습니다. 금리 인상 시사 시 USD/KRW 환율 상승과 KOSPI 외국인 매도 압력이 우려됩니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-29",
-      "summary": "<p>Fed 금리 결정 앞두고 금값이 하락세를 보이고 있습니다. 금리 인상 시사 시 USD/KRW 환율 상승과 KOSPI 외국인 매도 압력이 우려됩니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Gold edges lower ahead of Fed decision on interest rates Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 결정은 달러 강세→원화 약세, 외국인 주식 자금 유출, 채권 금리 상승으로 이어져 한국 증시 전반에 의미있는 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "금융주 (KB금융",
-        "신한금융)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYmpPZkdUdEJHY2hvRUZxbzItX3lCN3IxR0o0V3dXQnJoYi1xakZBT2xzVFVIZjdnVGZya2pFWDRUb0k1NUpWTjZyYnoyUWJNNzJLekRZcDNNeXhZcXpOeGdnenVPZGtVMlY4Wll5YUVSQklMYktHb0FYckJ5ZkNRajZOT0V6M2hjeUJTMVhZbHoyZlRJcnZxZ1ZyeFlCNzVKU29ETFFFc3o?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-29 12:07:40"
     }
   ],
   "events": [
