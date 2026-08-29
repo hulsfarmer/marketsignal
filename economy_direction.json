@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:40:02",
+  "generated_at": "2026-08-30T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -13795,6 +13795,54 @@
       "event_type": "주주확정기준일",
       "title": "IBKS제25호스팩 — 주요사항보고서(회사합병결정)",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000618"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "IBKS제24호스팩",
+      "event_date": "2026-09-29",
+      "event_type": "주주명부폐쇄 시작",
+      "title": "IBKS제24호스팩 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000664"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "휴맥스",
+      "event_date": "2026-09-29",
+      "event_type": "채권자이의 제출 종료",
+      "title": "휴맥스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001112"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "휴맥스홀딩스",
+      "event_date": "2026-09-29",
+      "event_type": "매매거래 정지 시작",
+      "title": "휴맥스홀딩스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001117"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "NHN",
+      "event_date": "2026-09-29",
+      "event_type": "채권자이의제출 종료",
+      "title": "NHN — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000501"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-09-29",
+      "event_type": "채권자이의제출 종료",
+      "title": "KR모터스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000259"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "효성오앤비",
+      "event_date": "2026-09-29",
+      "event_type": "주주총회",
+      "title": "효성오앤비 — 현금ㆍ현물배당결정              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814903024"
     }
   ]
 }
