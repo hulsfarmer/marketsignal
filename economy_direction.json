@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:05:02",
+  "generated_at": "2026-08-31T11:35:07",
   "count": 500,
   "posts": [
     {
@@ -4051,6 +4051,94 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23041,
+      "title": "동진쎄미켐 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 동진쎄미켐</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "동진쎄미켐"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000339",
+      "direction": "up",
+      "updated_at": "2026-08-31 11:35:06"
+    },
+    {
+      "id": 23040,
+      "title": "세진티에스 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 세진티에스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "세진티에스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000462",
+      "direction": "up",
+      "updated_at": "2026-08-31 11:35:05"
+    },
+    {
+      "id": 23039,
+      "title": "셀트리온 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 셀트리온</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "셀트리온"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000538",
+      "direction": "up",
+      "updated_at": "2026-08-31 11:35:05"
+    },
+    {
+      "id": 23038,
+      "title": "알테오젠 — 투자판단관련주요경영사항              (ALT-B4 라이선스 계약 파트너사 MSD로부터 판매 마일스톤 수령 예정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (ALT-B4 라이선스 계약 파트너사 MSD로부터 판매 마일스톤 수령 예정) · 알테오젠</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "알테오젠"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831900176",
+      "direction": "neutral",
+      "updated_at": "2026-08-31 11:35:04"
     },
     {
       "id": 23007,
@@ -12659,116 +12747,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa1p2OVhIcEZCRHRLTU1sZFJjV1JLTUs1VXVQRElaZHEyWnltRlc5UnhGWFNDSkRqdlltUXAyMl9CMENVaTBseVlVbzJBa2RLcU0wVnJWUDZGMlA1bDJObU03UTE0aE1NQmlwYkhySjNJMUtZYVNmNVZDb1lzN2JOZndjZ2dVWXk1NXBTcFlRaTg0dw?oc=5",
       "direction": "down",
       "updated_at": "2026-07-30 18:07:22"
-    },
-    {
-      "id": 18207,
-      "title": "로이터 설문에 따르면 한국의 수출 성장률은 둔화될 전망이나, 반도체 호황은 지속될 것으로 예상됨. 특히 메모리·파운드리 수요 강세가 SK하이닉스, 삼성전자 등 한국 반도체 주요 기업들을 지탱할 것으로 평가됨.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>로이터 설문에 따르면 한국의 수출 성장률은 둔화될 전망이나, 반도체 호황은 지속될 것으로 예상됨. 특히 메모리·파운드리 수요 강세가 SK하이닉스, 삼성전자 등 한국 반도체 주요 기업들을 지탱할 것으로 평가됨.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea export growth seen easing but chip boom to hold: Reuters poll Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "반도체 초호황 지속 전망은 한국 주요 반도체 기업들에 긍정적이나, 전반적 수출 둔화는 한국 경제 성장 전망을 제한하는 이중 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU1o0WDdjN0o5ZDg4cmt0M2pFWVlrSDM3bTRUUHlCeVN3ODF2Q1RjczJaVGlHaWNfbEZsdy1fdlFQUElIZGg0WjZBbUlvbXpQU1h3bC1TZ1Q1Rk9XWVUxdDdNNFVRNDk1bnVzRWhoSTFWakxwY1E5bTEtdWo4QjRrRGl2VllsYkt1RWFXaE9SYk9ZWDBkNjVMb19ma2NFRm5tNEh4eTY2V2dTaUE?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-30 18:07:10"
-    },
-    {
-      "id": 18166,
-      "title": "미국 채권시장이 연방준비제도(Fed)의 금리 인하 압박 역할을 수행 중이며, 이는 글로벌 금리 하향 추세로 이어질 수 있다. 미국 금리 인하 가능성은 USD/KRW 약세와 한국 채권 금리 하락을 초래하며, 외국인의 한국 주식 순매수 유입에 긍정적 영향을 줄 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>미국 채권시장이 연방준비제도(Fed)의 금리 인하 압박 역할을 수행 중이며, 이는 글로벌 금리 하향 추세로 이어질 수 있다. 미국 금리 인하 가능성은 USD/KRW 약세와 한국 채권 금리 하락을 초래하며, 외국인의 한국 주식 순매수 유입에 긍정적 영향을 줄 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Bond markets doing the Fed&#x27;s work Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미국 금리 경로 변화는 환율, 해외 자금 수급, 채권 금리에 직접 영향을 미치는 의미있는 매크로 시그널로 작용",
-      "stocks": [
-        "대형주(삼성전자",
-        "SK하이닉스",
-        "LG화학)",
-        "수출주",
-        "금융주(KB금융",
-        "신한금융",
-        "NH투자증권)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MSnR0SXh5RHBnNUFreDNWclVETTZ4aDE5ZEo5S3V6WnJ4ODk0NE9LYUMyRVhhTUFLSEVtNEhNQ0FQUVF0Z1ozUUNtMGMtdkR2SDNDaVlxWHoyUFlVcTU2OHc1b0l1dmY1VXhOemdWb2tCR0g1X0JQMXBEeF94Smc?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-30 15:07:32"
-    },
-    {
-      "id": 18164,
-      "title": "연방준비제도가 기준금리를 동결하면서 달러화가 회복세를 보였고, 미국의 이란 공습으로 지정학적 긴장이 고조됨. USD/KRW 환율 상승과 위험자산 회피로 한국 증시 외국인 수급에 부정적 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>연방준비제도가 기준금리를 동결하면서 달러화가 회복세를 보였고, 미국의 이란 공습으로 지정학적 긴장이 고조됨. USD/KRW 환율 상승과 위험자산 회피로 한국 증시 외국인 수급에 부정적 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar recovers as Fed holds rates, US strikes Iran Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 동결은 의미있는 매크로 이벤트이며, 달러 강세와 지정학적 리스크는 원화 약세, 외국인 자금 이탈, 채권 금리 변동 등을 통해 한국 증시에 직접 영향.",
-      "stocks": [
-        "수출주(반도체·자동차)",
-        "저가치주",
-        "에너지·방위산업 관련"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUFkZlJYUUNoTkxoekFZRWtKQXR4WGFheDhRNjRwdTFTQzQza185ZHRUaFZmTi1Ka0dQSkpjbDVMZS1SZDJaUVhzMW5nQ3gwdkpLcFdtUjJ0NTM3dnpONFdlbmh2bUJkQWhocXp2N3VhRWdxVUhOSWpjbVg0elZyR2JDQ1lCU3FIeVJ5cXUzOTFsNktCZWNKQTFPdFNibmt5aDlBUg?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-30 15:07:23"
-    },
-    {
-      "id": 18121,
-      "title": "아시아 주식이 낙폭 이후 변동성을 보이며, 연방준비제도(Fed)가 금리 결정을 남겨두어 시장 불확실성이 고조되고 있다. 이는 USD/KRW 환율 변동과 KOSPI 외국인 수급에 직접 영향을 미칠 전망이다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>아시아 주식이 낙폭 이후 변동성을 보이며, 연방준비제도(Fed)가 금리 결정을 남겨두어 시장 불확실성이 고조되고 있다. 이는 USD/KRW 환율 변동과 KOSPI 외국인 수급에 직접 영향을 미칠 전망이다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asian stocks choppy after rout, Fed leaves markets uncertain on rates Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 전망 불확실성은 달러 강세와 글로벌 자금흐름 변화를 야기하며, 한국의 수출주도 기업과 외국인 자금 이동에 직접적 영향을 미치는 주요 매크로 변수",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차",
-        "두산중공업",
-        "한국금융지주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tZUpRQXhBTWNiQUpVakxxTnVOaEhBMEFFRHF5Q241a2dseHJ0NHpZQ1NNWnc1V3hrU3dVeThuUEp0RjFCaDlraTB1YldrUUloc3hOMHJKd2h5WlJla2JBQVJEbThYTDV4NEhPX2d6YmRibnoxQ1NaZWFhOA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-30 12:07:35"
     }
   ],
   "events": [
