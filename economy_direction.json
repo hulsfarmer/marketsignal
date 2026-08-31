@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:05:02",
+  "generated_at": "2026-08-31T16:35:16",
   "count": 500,
   "posts": [
     {
@@ -4051,6 +4051,116 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23072,
+      "title": "HS화성 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · HS화성</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "HS화성"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800400",
+      "direction": "neutral",
+      "updated_at": "2026-08-31 16:35:15"
+    },
+    {
+      "id": 23070,
+      "title": "IPARK현대산업개발 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · IPARK현대산업개발</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "IPARK현대산업개발"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800401",
+      "direction": "neutral",
+      "updated_at": "2026-08-31 16:35:14"
+    },
+    {
+      "id": 23069,
+      "title": "HDC — 투자판단관련주요경영사항(자회사의 주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항(자회사의 주요경영사항)               · HDC</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "HDC"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800444",
+      "direction": "neutral",
+      "updated_at": "2026-08-31 16:35:13"
+    },
+    {
+      "id": 23067,
+      "title": "제이피아이헬스케어 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 제이피아이헬스케어</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "제이피아이헬스케어"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001156",
+      "direction": "up",
+      "updated_at": "2026-08-31 16:35:12"
+    },
+    {
+      "id": 23065,
+      "title": "이지스 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 이지스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "이지스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000901",
+      "direction": "up",
+      "updated_at": "2026-08-31 16:35:11"
     },
     {
       "id": 23052,
@@ -12591,147 +12701,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLU9ob1o4VENpUVhkRzJQaDBnMERzSE9yTFZSU1ZiWlBCMEh1RHFiZHJpeHlpRmdwQ3dQQlpjR2cxUlJNWUYzRjhNaURkejRUMV91dFJJeGVhVHM4anhWNTE2Yjh0MnVJUjJmWG9JcDE0bkh2R3k2UVZ0WGhtWTZ1aDdTblBPZUNGWGZaWHNaX19sV3pZYzk0elhPN3hENC1CdklPemhZVGpGdUhRQlRLb256WkxfWUh1MWV1UWt1Nkp4bTZxOUpfc2pyYw?oc=5",
       "direction": "up",
       "updated_at": "2026-07-31 06:07:06"
-    },
-    {
-      "id": 18261,
-      "title": "6월 미국 인플레이션이 둔화되었으나, 중동 분쟁으로 인한 유가 상승으로 인플레이션 반등 가능성 지적. 이는 Fed 금리 인하 기대감과 상충되어 USD/KRW 환율 변동성 확대 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>6월 미국 인플레이션이 둔화되었으나, 중동 분쟁으로 인한 유가 상승으로 인플레이션 반등 가능성 지적. 이는 Fed 금리 인하 기대감과 상충되어 USD/KRW 환율 변동성 확대 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US inflation slows in June, but reversal likely amid Middle East conflict Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 정책 방향 불확실성 증가로 USD/KRW 환율과 외국인 자금 흐름에 직접 영향, 한국 수출 경쟁력과 채권 금리에 즉각적 파급",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "현대중공업",
-        "포스코",
-        "한국조선해양"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYVptdEFhQmZRMW9rZFg3MWpGMml5R0ZTYlVoNktaMnRXcldHSE9qWEQ4VzNOZVhzOGlSN0xYR095ekpET20zaVVHYWJaSnY5TFY3N1JILThyS1ZSY1JRSU9GUWFtY09pY05PYzF6clRLSWlScUZkVklsandWaGwxY1RaZDcySjhRamZtbElBRVR4dHRyUWtTa0VoNnVWbkxsUGhCWHYzOEhYZzlnUlFJcEVB?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-07-31 00:08:09"
-    },
-    {
-      "id": 18260,
-      "title": "장기채(Long Bond) 수익률 급등으로 글로벌 금리 상승 우려 확대. 미국 금리 상승은 USD/KRW 환율 상승 압력과 외국인의 한국 주식 매도를 초래할 수 있으며, 한국 기업의 달러 차입 비용 증가로 이어짐.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>장기채(Long Bond) 수익률 급등으로 글로벌 금리 상승 우려 확대. 미국 금리 상승은 USD/KRW 환율 상승 압력과 외국인의 한국 주식 매도를 초래할 수 있으며, 한국 기업의 달러 차입 비용 증가로 이어짐.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Long bond takes fright Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "글로벌 금리 상승은 환율, 외국인 수급, 기업 금리비용에 직접 영향을 미치는 의미있는 매크로 악재로 작용",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차",
-        "기아",
-        "금융주(KB금융",
-        "신한금융)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORmpyNTRUaXFqUnhETkpRWkpFaTE4bWVQQ0ZLcWx3emVkTnBLZGo4Rkxpa2JjMjY1cjlsakY4M0kwWFhSaGFKSWw0ZHp2Nldlbmd5ZkdscW8wOFlMZC1jdmZDeS1iU2ZDR1JPVmxyNlBFYlFYZGlvZEk0U1lnN012Sm9WTFlOMG9KTm85cW9HOTM4a2hXaTVv?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-31 00:08:05"
-    },
-    {
-      "id": 18246,
-      "title": "퀄컴이 높아진 비용과 애플 관련 약세로 이익 전망을 하향 조정하며 주가 하락. 글로벌 반도체 수요 부진 신호로, 한국 반도체 수출 전망에도 부정적 영향 우려.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>퀄컴이 높아진 비용과 애플 관련 약세로 이익 전망을 하향 조정하며 주가 하락. 글로벌 반도체 수요 부진 신호로, 한국 반도체 수출 전망에도 부정적 영향 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Qualcomm shares slide as higher costs, Apple-related weakness cloud profit forecast Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "주요 반도체 설계사의 실적 부진과 애플 약세는 한국 메모리/파운드리 공급망 수요 감소 신호로, SK하이닉스·삼성전자 등 주요 수출업체에 직결된 악재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYnRHNG9DeDlPbmR1U2FoUmdKQ01PbjdVUWl2d1RFMHFrU1hxdVFTVTVBZ1lRQTRQejB3b1p2Um5jRGZZRlhvUVBGanQ4dXUzT2loUURIcXk2ZE11Tm1yX3BQSE10M0FLWG5lVEw4YkZIVlQ3eng2dTI0WWJ0SEI0LTZ2SnlHQi1xak1WVVdJbzFuMlpfN3RtWlg2UlpYUEZyaG54a0lINTZwV2VseTJOdVBMNVo0d19tc0x4TmIxbFJuOF9YQy1kZkd3U0ZCaXczbzZSeExqNA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-31 00:07:07"
-    },
-    {
-      "id": 18225,
-      "title": "중국 배터리업체 CATL의 글로벌 확장이 가속화되면서 한국 자동차·배터리 업계의 국제 경쟁 심화 예상. 현대·기아 등 한국 자동차업체의 전기차 배터리 공급망 재편 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>중국 배터리업체 CATL의 글로벌 확장이 가속화되면서 한국 자동차·배터리 업계의 국제 경쟁 심화 예상. 현대·기아 등 한국 자동차업체의 전기차 배터리 공급망 재편 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - China Inc’s global push will sap CATL’s batteries Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "CATL의 글로벌 공략 강화는 한국 자동차·배터리 산업의 핵심 경쟁사 위협 심화로 EV 시장 점유율 및 부품 공급 구도 변화 초래",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "SK이노베이션",
-        "LG에너지솔루션",
-        "POSCO",
-        "삼성SDI"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYUl5UHFDdW9HUkNHNjdNRGNrMHNvUVg5bkFqU281TVJ5b2llc0ZnRFVBbk80OWRiQmxRN0lZdzRPdjBlWkNfODVNOTlHMzh2dkVYZXZqS0ZsVXVQNmJEMmczNWlVSFFnRDhZNVJTVThoRUU2RkRpV2JOcnFmSjlWa2xaZTluc1NScVJ2ZUFlQzl4WktITHdJaFpaOFFjSkJVSzdxY3VPMlhzSTJt?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-30 18:08:27"
-    },
-    {
-      "id": 18224,
-      "title": "미군이 이란을 2시간에 걸쳐 수십 개 목표를 타격하며 중동 긴장 고조. 유가 급등 가능성으로 에너지·화학주에 긍정 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>미군이 이란을 2시간에 걸쳐 수십 개 목표를 타격하며 중동 긴장 고조. 유가 급등 가능성으로 에너지·화학주에 긍정 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US military says latest strikes on Iran last two hours, hitting dozens of targets Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 지정학적 위험 증대로 유가 급등 시 정유·에너지·화학 업종에 직접적 호재",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYl9qUHF2eEJlVmxqM2ROX0NFVDE3SHVIeExWXzltdnl5dG1HSmprdzFha3lhWUt4dGRLeWFBSlE0ZlYySkhHdmpLcE51S3c3TV90azg5LTVhWWNNd3IydlAwT1djUmV4Ui1BR3pOUl9PcHBPWllxM1NDSmlnZUQ3RnZSeVd2X3BqSFVBR0U3cE1xaGwxVXpYWmtXanlZVHBNUGc?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-30 18:08:22"
     }
   ],
   "events": [
