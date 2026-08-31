@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:05:02",
+  "generated_at": "2026-08-31T13:35:05",
   "count": 500,
   "posts": [
     {
@@ -4051,6 +4051,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23045,
+      "title": "티이엠씨씨엔에스 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260831",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 티이엠씨씨엔에스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "티이엠씨씨엔에스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000712",
+      "direction": "up",
+      "updated_at": "2026-08-31 13:35:04"
     },
     {
       "id": 23041,
@@ -12718,35 +12740,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb1huNkdMWklnOTRWdU5kZjZiOFZpQ1lENXh4RHk0WTBZUnU3UUc4aDB2TmN1b0lCdGJ2aVlPQ3JoeFdUd2IzQzRmVlJGTm5zRlpkc1FZMC1CU2Z1OHNBUzJyQXN0ek5VN0trM3FrWUM1NkdINmc4VEMzcmN1M2dUNzZFdWIzZkRUQWthYnp3eTZ3Q0UtVmhsZjRrOXltN21ncnZMLTdKd1Jkc1JDNFdPdzV3?oc=5",
       "direction": "neutral",
       "updated_at": "2026-07-30 18:07:41"
-    },
-    {
-      "id": 18209,
-      "title": "미국 연방준비제도가 금리를 동결하면서도 강경한 입장을 유지('매파적 동결')하고 있어 글로벌 금리 경로가 불확실해지고 있다. 이는 USD/KRW 환율 상승, 한국 외국인 자금 유출, 채권 금리 상승 압박 등으로 이어질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>미국 연방준비제도가 금리를 동결하면서도 강경한 입장을 유지('매파적 동결')하고 있어 글로벌 금리 경로가 불확실해지고 있다. 이는 USD/KRW 환율 상승, 한국 외국인 자금 유출, 채권 금리 상승 압박 등으로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s &#x27;hawkish hold&#x27; muddies path for stocks and bonds Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed의 매파적 기조는 달러 강세와 외국인 자금 회피를 초래해 KOSPI와 원화 약세 압박 요인으로 작용하며, 특히 수출 기업과 외국인 수급이 민감한 대형주에 악영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대자동차",
-        "셀트리온",
-        "카카오",
-        "네이버"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa1p2OVhIcEZCRHRLTU1sZFJjV1JLTUs1VXVQRElaZHEyWnltRlc5UnhGWFNDSkRqdlltUXAyMl9CMENVaTBseVlVbzJBa2RLcU0wVnJWUDZGMlA1bDJObU03UTE0aE1NQmlwYkhySjNJMUtZYVNmNVZDb1lzN2JOZndjZ2dVWXk1NXBTcFlRaTg0dw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-30 18:07:22"
     }
   ],
   "events": [
