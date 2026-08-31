@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T00:08:52",
+  "generated_at": "2026-09-01T00:35:08",
   "count": 500,
   "posts": [
     {
@@ -4051,6 +4051,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23097,
+      "title": "인스피언 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260901",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 인스피언</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "인스피언"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001544",
+      "direction": "up",
+      "updated_at": "2026-09-01 00:35:07"
     },
     {
       "id": 23094,
@@ -12670,32 +12692,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ0tiaDVEME85dnVMQU1EMzhiSlpJd1dMOXBzZGpSVGREZmpaSTdyT0RKTmZSbzJ1NjhHTFFhVl9UdGFHNHEtSFVlX2dpaEZtVTgyZHhERGptd0RzLUp0NkNiNThtYkNUWlh2NHBhOTNpcEx4Vklua1l1RTUxR1dpM0I3UjJSeHJXV0FlZFVwMGxJOHpLN2NyajhXdmpkODN5ZmRSU3hsT3BmS05jRUx4M0RMNWNucG9N?oc=5",
       "direction": "up",
       "updated_at": "2026-07-31 12:07:07"
-    },
-    {
-      "id": 18300,
-      "title": "대만 ASE Tech가 2026년 자본지출을 20억 달러 증액하며 강한 수요에 대응. AI·반도체 수요 확대로 패키징 업체의 투자 확대, 한국 반도체 공급망 전반에 긍정적 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>대만 ASE Tech가 2026년 자본지출을 20억 달러 증액하며 강한 수요에 대응. AI·반도체 수요 확대로 패키징 업체의 투자 확대, 한국 반도체 공급망 전반에 긍정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Taiwan&#x27;s ASE Tech raises 2026 capex by $2 billion on strong demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 AI 반도체 수요 증가 추세 확인으로 SK하이닉스·삼성전자 등 한국 메모리·파운드리 호재, 다만 ASE의 경쟁사 위치 강화로 한국 패키징업체는 경쟁 심화",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcDBjTXFZZlVXaVZOYXp1RDBLZXNFc1lIX1ZMZlJRVmxvZHNSS2hDel9DY3JkVTl2WFR6SU9JaGhYcDlVQjdFMzVjYWdoc21ja3M0VDJ6eF9EUWtpeHduNXBaMGtlY3NuVXFNOGxmbl9QTE42aUEyNVdrcXhISkU3V1o4RFBpbUxPaTR4OGU2b0lsNG5IZldpVTJVN2dfQm1uV1BDZkVmaVpsNjZwblRYVzhtRFlSdVU?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-31 06:07:18"
     }
   ],
   "events": [
