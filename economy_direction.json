@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:40:02",
+  "generated_at": "2026-09-01T00:05:02",
   "count": 500,
   "posts": [
     {
@@ -12701,294 +12701,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "네오위즈",
-      "event_date": "2026-08-31",
-      "event_type": "합병등기예정일",
-      "title": "네오위즈 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611000607"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "네오위즈홀딩스",
-      "event_date": "2026-08-31",
-      "event_type": "합병등기예정일",
-      "title": "네오위즈홀딩스 — 주요사항보고서(회사합병결정)(자회사의 주요경영사항)              (소규모합병)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611900782"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "포스코DX",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "포스코DX — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617800279"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "씨앤투스",
-      "event_date": "2026-08-31",
-      "event_type": "채권자이의제출 종료",
-      "title": "씨앤투스 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000282"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "에이피알",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "에이피알 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800385"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "케이씨씨",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "케이씨씨 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800550"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "동서",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "동서 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721801066"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "듀켐바이오",
-      "event_date": "2026-08-31",
-      "event_type": "합병승인 이사회결의",
-      "title": "듀켐바이오 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000193"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "현대자동차",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "현대자동차 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "SK텔레콤",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "SK텔레콤 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800522"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "SK",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "SK — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800523"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "현대모비스",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "현대모비스 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800076"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "우리금융지주",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "우리금융지주 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800545"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "HD한국조선해양",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "HD한국조선해양 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800628"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "HD현대",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "HD현대 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800632"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "명인제약",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "명인제약 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800791"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "HD현대중공업",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "HD현대중공업 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800512"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "티쓰리",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "티쓰리 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731900541"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "덕양에너젠",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "덕양에너젠 — 현금ㆍ현물배당결정              (중간배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731901237"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "SK",
-      "event_date": "2026-08-31",
-      "event_type": "배당금지급예정일",
-      "title": "SK — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800012"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "SK하이닉스",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "SK하이닉스 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800589"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "코웨이",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "코웨이 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800594"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "SK스퀘어",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "SK스퀘어 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800590"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "CJ제일제당",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "CJ제일제당 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800750"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "CJ",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "CJ — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800751"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "휴메딕스",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "휴메딕스 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811900188"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "휴온스",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "휴온스 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811900208"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "휴온스글로벌",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "휴온스글로벌 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811900210"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "신세계",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "신세계 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800237"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "한국단자공업",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "한국단자공업 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800353"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "동원산업",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "동원산업 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800750"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "까뮤이앤씨",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "까뮤이앤씨 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813800435"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "현대엘리베이터",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "현대엘리베이터 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813800947"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "SK네트웍스",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "SK네트웍스 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814800983"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "광주신세계",
-      "event_date": "2026-08-31",
-      "event_type": "배당기준일",
-      "title": "광주신세계 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814801070"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "한국카본",
-      "event_date": "2026-08-31",
-      "event_type": "주주확정기준일",
-      "title": "한국카본 — 주요사항보고서(회사합병결정)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002642"
-    },
-    {
-      "stock_code": "",
       "stock_name": "젠큐릭스",
       "event_date": "2026-09-01",
       "event_type": "합병기일",
@@ -13858,6 +13570,126 @@
       "event_type": "배당지급예정일",
       "title": "CJ제일제당 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800750"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "휴맥스",
+      "event_date": "2026-10-01",
+      "event_type": "합병기일",
+      "title": "휴맥스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001112"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "휴맥스홀딩스",
+      "event_date": "2026-10-01",
+      "event_type": "합병기일",
+      "title": "휴맥스홀딩스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001117"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "NHN",
+      "event_date": "2026-10-01",
+      "event_type": "합병등기 및 종료보고",
+      "title": "NHN — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000501"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "S&K폴리텍",
+      "event_date": "2026-10-01",
+      "event_type": "합병기일",
+      "title": "S&K폴리텍 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000368"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "우정바이오",
+      "event_date": "2026-10-01",
+      "event_type": "합병등기예정",
+      "title": "우정바이오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000143"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "듀켐바이오",
+      "event_date": "2026-10-01",
+      "event_type": "채권자이의제출 종료",
+      "title": "듀켐바이오 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000193"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "동아쏘시오홀딩스",
+      "event_date": "2026-10-01",
+      "event_type": "합병기일",
+      "title": "동아쏘시오홀딩스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000549"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-10-01",
+      "event_type": "합병등기 예정일",
+      "title": "KR모터스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000259"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-10-01",
+      "event_type": "합병등기예정일",
+      "title": "KR모터스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000262"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "KR모터스",
+      "event_date": "2026-10-01",
+      "event_type": "합병등기",
+      "title": "KR모터스 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727800530"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "메타케어",
+      "event_date": "2026-10-01",
+      "event_type": "합병기일",
+      "title": "메타케어 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000377"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "메타랩스",
+      "event_date": "2026-10-01",
+      "event_type": "합병기일",
+      "title": "메타랩스 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800210"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "메타랩스",
+      "event_date": "2026-10-01",
+      "event_type": "합병등기예정일자",
+      "title": "메타랩스 — 회사합병결정(종속회사의주요경영사항)              ",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800210"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "싸이토젠",
+      "event_date": "2026-10-01",
+      "event_type": "합병기일",
+      "title": "싸이토젠 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000259"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "한중엔시에스",
+      "event_date": "2026-10-01",
+      "event_type": "합병등기예정일",
+      "title": "한중엔시에스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000331"
     }
   ]
 }
