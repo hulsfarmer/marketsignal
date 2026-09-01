@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T14:05:02",
+  "generated_at": "2026-09-01T14:35:10",
   "count": 500,
   "posts": [
     {
@@ -4095,6 +4095,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23123,
+      "title": "카스 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260901",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 카스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "카스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000117",
+      "direction": "up",
+      "updated_at": "2026-09-01 14:35:09"
+    },
+    {
+      "id": 23122,
+      "title": "온코크로스 — 투자판단관련주요경영사항              (앱티스와 ADC 또는 BsADC 후보물질 공동연구 및 개발 계약 체결)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260901",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (앱티스와 ADC 또는 BsADC 후보물질 공동연구 및 개발 계약 체결) · 온코크로스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "온코크로스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901900211",
+      "direction": "neutral",
+      "updated_at": "2026-09-01 14:35:09"
     },
     {
       "id": 23119,
@@ -12612,61 +12656,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdE9IVkk5MllySTRmTlAxS2JOajd0X0tTNmF0MW9IeDdwMGhzN0NjS2RBdTNkd09VZXBIZmNzdDVFS2F4aXAyZHFVd25GQzBFNjhlZG44cjdnQ0F5TWFNYjhMTDBiUFNGbTVNSUlEaklHN0Q1VjRPVDhuXzB6dDdXd2huQ0E4ZGdIZzR4ZTdUd1N4dnJ0RlFBV0FTRXd6YjNSQ0FTVk1MZ1pDTGdLNWlzdi1CR1pDQQ?oc=5",
       "direction": "down",
       "updated_at": "2026-08-04 12:07:08"
-    },
-    {
-      "id": 18999,
-      "title": "중국 7월 제조업 활동이 정체된 것으로 예상됨. 중국 경기 약세는 한국의 자동차, 철강, 화장품 등 주요 수출 산업에 수요 감소 압력 가중.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>중국 7월 제조업 활동이 정체된 것으로 예상됨. 중국 경기 약세는 한국의 자동차, 철강, 화장품 등 주요 수출 산업에 수요 감소 압력 가중.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s factory activity expected to have stalled in July: Reuters poll Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경기 둔화는 한국의 주요 수출처 수요 감소를 의미하며, 자동차·철강·화장품 등 핵심 산업 실적 부진으로 이어질 수 있는 의미있는 악재",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "POSCO",
-        "포스코인터내셔널",
-        "아모레퍼시픽",
-        "LG생활건강",
-        "한국면세점"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObklWSm1LcHpFOC1NcWMtYnJHd2phZk1PdmcyNkV1a0MtV2JHSnBmbjRxREY4TG9TdE0zTzBvaVpIYVJFdTQxaGcxenBpSUJBZE9HemxVTFU3ME9PWmlSYk5wZ3QzT2VQTklFVVV0Smoza1E2ek1wSGxsZWhlaVRvSHdVMnRTNnlpSHZoLXF6VG85OElBbFpTZXMtTWI1MnM?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-03 18:08:28"
-    },
-    {
-      "id": 18714,
-      "title": "아마존이 클라우드(AWS) 매출 강세에 힘입어 투자 계획을 상향 조정하며 주가가 급등했다. 글로벌 AI·클라우드 인프라 수요 증가는 한국 반도체 기업들의 HBM·메모리칩 수요 확대 신호로 작용할 수 있다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>아마존이 클라우드(AWS) 매출 강세에 힘입어 투자 계획을 상향 조정하며 주가가 급등했다. 글로벌 AI·클라우드 인프라 수요 증가는 한국 반도체 기업들의 HBM·메모리칩 수요 확대 신호로 작용할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Amazon lifts investment plans after strong cloud sales; shares jump Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AWS 클라우드 강세와 투자 확대는 AI 인프라 수요 증가를 의미하며, 한국의 HBM·고대역폭메모리 공급업체들에 중기적 호재로 작용 가능",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY0xqQmlIUXJydk1wNzhibDVjTzVaekhCb3A1NWs2cm1aQUVtWU5tVEswRkhpdjE4Z3hzVk5MbmtBWUYtdnlPT3Q5a3lDRUdYd0prRnJhWXBqN1dpTVB3N0dFQW1oUGZYWHgyX19maWlvQkNKWnpBXzNCSUdKcThxdWxGTkhoTVZsOHdGZENlMXZHb1NnYzY2Y2ZBRVVkVURPd0pKeHZVb2ZjNzNGMnpTLUNWeE8?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-01 18:07:09"
     }
   ],
   "events": [
