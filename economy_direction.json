@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T11:05:03",
+  "generated_at": "2026-09-01T11:35:12",
   "count": 500,
   "posts": [
     {
@@ -4095,6 +4095,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23108,
+      "title": "진도 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260901",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 진도</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "진도"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000067",
+      "direction": "up",
+      "updated_at": "2026-09-01 11:35:07"
     },
     {
       "id": 23103,
@@ -12650,32 +12672,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVlEVkZ5c0ZFc3F3cjhHdllWWFNMNlAzR3VKVGR3cTFGQU11UUFJbWNzemJBLTIwX0lwWHBydVBySkUzS2dQQXJlZGpFRTNEdGljNENnaXNZQmQ0blUzejRLU3dsRlpLeExXZkJHdUlBcGlqZ3EyeFRIS2toSUdsbmpmTzh1eHJyODF4M2VtZi02ZHR3N2F5Sjd6Rk9nbXl1TmVrZWk1UXkwUHAxZjVZ?oc=5",
       "direction": "up",
       "updated_at": "2026-08-01 03:08:34"
-    },
-    {
-      "id": 18542,
-      "title": "애플이 공급망 애로로 인한 약한 전망을 제시하며 실적 부진. 반도체·부품 공급 차질이 주요 원인으로 지목되어 한국 메모리·파운드리 업체들의 수급 긴장 완화에 긍정적.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>애플이 공급망 애로로 인한 약한 전망을 제시하며 실적 부진. 반도체·부품 공급 차질이 주요 원인으로 지목되어 한국 메모리·파운드리 업체들의 수급 긴장 완화에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Apple disappoints with forecast dogged by supply chain struggles Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 스마트폰 수요 둔화 신호이지만, 공급망 정상화 기대감으로 HBM·메모리 수급 개선 가능성 상승",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPanFaaGdUMnRidmVSWXhQVXVDeG9fazRla240ZEFBdmhIcGJINkVvUVRhb1d0NGx2cEluMnlxYWdjVWpSWmJLbDdiWXE1LVVxVGR0Zm9yeVVfS1Z5RFN1cDB2M0ZRelQ2MnFhZHlfdm9ySHREOFhJVFFRc2xOMUowdzVISlY4aHpoQWRKYzcwN3ZQNV9mSFV6T3FPYjdobDFOdmF3WVRzODk5Z0Z0WF9mSW5xZS1IVXlM?oc=5",
-      "direction": "up",
-      "updated_at": "2026-07-31 21:07:13"
     }
   ],
   "events": [
