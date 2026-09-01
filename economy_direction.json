@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T18:08:58",
+  "generated_at": "2026-09-01T18:35:11",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 23149,
+      "title": "BGF — 주요사항보고서(회사합병결정)(자회사의 주요경영사항)              (소규모합병)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260901",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(회사합병결정)(자회사의 주요경영사항)              (소규모합병) · BGF</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "BGF"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901800725",
+      "direction": "neutral",
+      "updated_at": "2026-09-01 18:35:11"
     },
     {
       "id": 23138,
@@ -12619,33 +12641,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5",
       "direction": "down",
       "updated_at": "2026-07-31 21:08:15"
-    },
-    {
-      "id": 18541,
-      "title": "AI 거품이 빠지면서 그동안 소외됐던 인도 주식들이 반등하고 있으며, 이는 AI 관련 과도한 매수 포지션이 해소되는 신호로 보임. 한국 반도체 업계는 AI 칩 수요 둔화 가능성에 노출.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-31",
-      "summary": "<p>AI 거품이 빠지면서 그동안 소외됐던 인도 주식들이 반등하고 있으며, 이는 AI 관련 과도한 매수 포지션이 해소되는 신호로 보임. 한국 반도체 업계는 AI 칩 수요 둔화 가능성에 노출.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Out-of-favour India stocks get a boost as crowded AI trade reverses Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 트레이드 역전은 메모리·파운드리 수요 전망을 약화시킬 수 있으며, SK하이닉스의 HBM과 삼성전자의 고부가 칩 판매에 직접적 부정영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ2FBTEptUGJ5X2hlYWdNQjRFWFVNak01dHpKMEw1dmFOaDF3R3gxNEQxbXR3eW1qX2MyUHVoMmhxbnhfTmlubFNKMjRmYTdJdEk1Q1VrVXctREVBNTQ5OHl4VnFPaWUtNC1NbWVVcHgxa1ZHRWk4NjFQX19CZFhDbGJhT2Z0cnIzSXdsTjRucGRKYWFiZlp1ZnRVTDViZmFFOUljaFp5cGNZdWg2SG0w?oc=5",
-      "direction": "down",
-      "updated_at": "2026-07-31 21:07:10"
     }
   ],
   "events": [
