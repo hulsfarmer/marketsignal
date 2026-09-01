@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T15:08:48",
+  "generated_at": "2026-09-01T15:35:10",
   "count": 500,
   "posts": [
     {
@@ -4095,6 +4095,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23127,
+      "title": "태원물산 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260901",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 태원물산</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "태원물산"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000130",
+      "direction": "up",
+      "updated_at": "2026-09-01 15:35:09"
     },
     {
       "id": 23123,
@@ -12629,33 +12651,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQWpqV214OXV5ekxGT2NOR0hPTXljM2dVWUd3SGVVeG9Id2RqT0lIY2laLVFKZ3BqeTJncm1wcUZmRGdIZlBoM2tjMlc5NEZkNnRYZXYxenNqVlY4cEt3WWhGYmEtUUwxbVhKTmNQcU9GZHMzNEZiY0dDMXJ6bjg2bkgxcFFvRzNRQy1CZDdkNFlGVTNHek9rbU9kc2pwZHFoWkF0R085UQ?oc=5",
       "direction": "down",
       "updated_at": "2026-07-31 15:08:09"
-    },
-    {
-      "id": 19131,
-      "title": "골드만삭스가 아시아 개별주식 선택 헤지펀드들이 기록적인 월간 손실을 기록할 것으로 예측. AI/반도체 관련 변동성 확대로 한국의 SK하이닉스, 삼성전자 등 주요 반도체주의 변동성 위험 증가.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-30",
-      "summary": "<p>골드만삭스가 아시아 개별주식 선택 헤지펀드들이 기록적인 월간 손실을 기록할 것으로 예측. AI/반도체 관련 변동성 확대로 한국의 SK하이닉스, 삼성전자 등 주요 반도체주의 변동성 위험 증가.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Asia stock-picking hedge funds set for record monthly loss, Goldman says Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "아시아 주식시장의 구조적 약세 신호는 한국 반도체주(HBM, 메모리, 파운드리)의 기술주 약세 심화를 시사하며 단기 심리 악화 요인",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdE9IVkk5MllySTRmTlAxS2JOajd0X0tTNmF0MW9IeDdwMGhzN0NjS2RBdTNkd09VZXBIZmNzdDVFS2F4aXAyZHFVd25GQzBFNjhlZG44cjdnQ0F5TWFNYjhMTDBiUFNGbTVNSUlEaklHN0Q1VjRPVDhuXzB6dDdXd2huQ0E4ZGdIZzR4ZTdUd1N4dnJ0RlFBV0FTRXd6YjNSQ0FTVk1MZ1pDTGdLNWlzdi1CR1pDQQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-04 12:07:08"
     }
   ],
   "events": [
