@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T11:05:03",
+  "generated_at": "2026-09-02T11:35:07",
   "count": 500,
   "posts": [
     {
@@ -4139,6 +4139,94 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23163,
+      "title": "에스트래픽 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260902",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 에스트래픽</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "에스트래픽"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000044",
+      "direction": "up",
+      "updated_at": "2026-09-02 11:35:07"
+    },
+    {
+      "id": 23161,
+      "title": "미트박스 — 주권매매거래정지              (무상증자)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260902",
+      "summary": "<p>무상증자 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주권매매거래정지              (무상증자) · 코스닥시장본부</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "미트박스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902900128",
+      "direction": "up",
+      "updated_at": "2026-09-02 11:35:06"
+    },
+    {
+      "id": 23160,
+      "title": "미트박스 — 주요사항보고서(무상증자결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260902",
+      "summary": "<p>무상증자 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(무상증자결정) · 미트박스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "미트박스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000056",
+      "direction": "up",
+      "updated_at": "2026-09-02 11:35:05"
+    },
+    {
+      "id": 23159,
+      "title": "케이엔제이 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260902",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 케이엔제이</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "케이엔제이"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000070",
+      "direction": "up",
+      "updated_at": "2026-09-02 11:35:04"
     },
     {
       "id": 23152,
@@ -12517,121 +12605,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeU13OFo1TkgwWll2aVdISjdjUVpSYl9zZ1lHVDZxZElxWWw0SXRNYnFOd3Y3ZnA4Vm1NUDg3N1ZZVUtkQVFQTUZsakdseDk1RjQtOWhmLUtMN3pHbmh6YzdSX01yYUM5dGFTM0FBRFE1a0tSNmdxRlFPd0o5VkkzVzRJSnJ1SnJ3WFBBUDhRTHNkZm5jY0lOYURCTEJmZmxQWkduT2JoU3E1amQ1dVcwWlc2OUxQcWV0cjUzREFDdw?oc=5",
       "direction": "up",
       "updated_at": "2026-08-01 09:07:26"
-    },
-    {
-      "id": 18601,
-      "title": "미 연방준비제도 내 3명의 위원이 인플레이션 억제를 위한 금리 인상이 필요하다고 주장. 이는 Fed의 향후 긴축 기조 강화 가능성을 시사하며, USD/KRW 환율 상승과 한국 수출 경쟁력 악화, 외국인의 한국 증시 이탈 위험으로 이어질 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-31",
-      "summary": "<p>미 연방준비제도 내 3명의 위원이 인플레이션 억제를 위한 금리 인상이 필요하다고 주장. 이는 Fed의 향후 긴축 기조 강화 가능성을 시사하며, USD/KRW 환율 상승과 한국 수출 경쟁력 악화, 외국인의 한국 증시 이탈 위험으로 이어질 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Three Fed dissenters say rate hike is needed to curb inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 인상 논의는 달러 강세→원화 약세, 외국인 자금 이탈, 한국 수출주 수익성 악화 등 거시적 영향이 명확함",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대자동차",
-        "포스코",
-        "삼성물산"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY25VV3BZYTRTR0tleWcwS2xYd09XMTFncG5tdWF4T1lWRHg3dWxISXByaHJtWlpFeVlrdFBNNk16TTJzT2IxOEkxRFBrYlI2a1lSZ2h3R29VY1RwRnJtODJFWWsybjVmMnFGSFFVMElaZVVlOHk0cTBLYnhtZWljNThiWmotS0JIYVVIc0YzTXRsWDd5NjY4SzJveFY0M3JyRDFnRzU3ZGhjZ3Fq?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-01 03:07:52"
-    },
-    {
-      "id": 18578,
-      "title": "미국 재무부 수익률곡선의 '트위스트' 현상이 연준의 추가 금리 인상 가능성이 낮다는 시장 평가를 반영. 이는 USD/KRW 약세 및 한국 수출주·외국인 수급 개선으로 이어질 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-31",
-      "summary": "<p>미국 재무부 수익률곡선의 '트위스트' 현상이 연준의 추가 금리 인상 가능성이 낮다는 시장 평가를 반영. 이는 USD/KRW 약세 및 한국 수출주·외국인 수급 개선으로 이어질 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US Treasury yield curve &#x27;twist&#x27; reflects view Fed may not hike again Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "연준 금리 정책 방향 전환은 달러 약세·글로벌 유동성 확대로 이어져 원화 강세 및 KOSPI 외국인 수급에 직접 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대차",
-        "기아",
-        "삼성SDI",
-        "포스코",
-        "네이버",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYV9RSEpUbFlMdVRmTnBZamJ5d3I2MlNGYkNUVTlKRFhPVGxjZHp1NElVdFdFdXNDVEc4N3F1bF9MRzBpeER2cTk1a01pdWUxUUVnVlVfcllveE03UHNKaDM3N3dZeGVHYVJjLWtGUXh2dzhReUhZUmxsdUg3VGpScFpuQWcyMEphSG9mRkJnMjQ0Ry1oanktYWlSOUxwOHp3Y1NtZXhrTzhnQ2YyMXh6aA?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-01 00:08:11"
-    },
-    {
-      "id": 18577,
-      "title": "Fed 의장 Warsh가 채권시장의 '경고신호' 이후 인플레이션 대응에서 어려운 선택을 직면. 미 금리 정책의 향방 불확실성이 높아지면서 USD/KRW 환율 변동성 확대 예상, 한국 수출기업과 외국인 투자 심리에 영향",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-31",
-      "summary": "<p>Fed 의장 Warsh가 채권시장의 '경고신호' 이후 인플레이션 대응에서 어려운 선택을 직면. 미 금리 정책의 향방 불확실성이 높아지면서 USD/KRW 환율 변동성 확대 예상, 한국 수출기업과 외국인 투자 심리에 영향</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed chief Warsh faces hard choice on inflation after bond market&#x27;s &#x27;red flag&#x27; Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed의 금리 정책 방향 불확실성은 달러화 강도와 한국 외국인 수급, 환율에 직결되는 주요 매크로 요인으로 수출기업 수익성에 의미있는 영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "POSCO",
-        "현대자동차",
-        "LG전자",
-        "기아",
-        "삼성SDI"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMERpMHRBTzlIVWdUcV9memhfa19FRnM0UGY3YnpwdjRLYjJyQ1A1UXRrZU5FTDZSejhiV3VmeC00TEg2RUFhZ1VlQ0pieEJicEw2MTBIaWFBSEtBVUJfbVA1MnBfc0F5bTl6bFNTRno3RHItN1MwTWpnQ21JLUZGZmFONXZyY1pfMHVJXzFnM3ZzZk1rSW1MblBzSlcxSk15dkJMRDYtRW1adDMxNE94anZDelY1NWM?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-01 00:08:07"
-    },
-    {
-      "id": 18566,
-      "title": "애플의 공급망 차질로 매출 전망 부진, 팀 쿡 CEO 마지막 실적 발표. 반도체·메모리 수요 감소 우려로 한국 반도체주 약세 유발 가능.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-07-31",
-      "summary": "<p>애플의 공급망 차질로 매출 전망 부진, 팀 쿡 CEO 마지막 실적 발표. 반도체·메모리 수요 감소 우려로 한국 반도체주 약세 유발 가능.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Apple tumbles as supply chain snarls mar forecast in Cook&#x27;s last earnings as CEO Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 대형 IT기업의 수요 부진 신호는 한국 반도체 공급사(메모리, HBM)의 수요 전망 악화로 직결되어 삼성전자·SK하이닉스에 악영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZi0ya0lkQWtBRjNSR0o0YkFvMnVrZUx6N3EzRHBnTEtva0gtc2RwajIxM0ZXY2hLN2h1eUl3THBILVBrbTNrNHRDVmpLUmxBWWtQeUNuTURRa2xMZXktdG55Ymd3YzZmR296U3lTLVFSZjQ3eS01QzFwZExkVDN5Mk9PWjROR3hDZlRja0YxNGM2Tm5MUE9CRjNYWUtuR19RQUxPc0FoZEdaVGsyQUtiQmdqQmFGUmhqV0l0SXZqUzRoRHhzckpv?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-01 00:07:12"
     }
   ],
   "events": [
