@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T13:05:02",
+  "generated_at": "2026-09-03T13:35:06",
   "count": 500,
   "posts": [
     {
@@ -4139,6 +4139,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23206,
+      "title": "아바텍 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260903",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 아바텍</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "아바텍"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000072",
+      "direction": "up",
+      "updated_at": "2026-09-03 13:35:05"
     },
     {
       "id": 23205,
@@ -12546,32 +12568,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS1pRYktWWVFTT181ekNrN3VSNXR5WGJBTG1PVlRkNl9HZlk0TUxvaXhpRVp6bXZwQUc5MzdPWXEzTGN2U1lUY3BPdEtLOEtvQlhCUDVpekMzVlpMZy1ra010ZW1pYkdSdTMwUHRCa1VNckNaUnVsRWRJdGNxZlMwSnREWWk1eVpyUUo0NWdIZzU5VlpSeWtNa25LUTFXcnFGd1lFYkV2elpEQQ?oc=5",
       "direction": "down",
       "updated_at": "2026-08-04 03:07:46"
-    },
-    {
-      "id": 19057,
-      "title": "아마존이 AI와 클라우드 성장에 힘입어 3조 달러 클럽에 진입했으며, 이는 글로벌 AI 인프라 수요 급증을 시사함. 메모리/파운드리 의존도가 높은 한국 반도체 기업들의 수요 증대 기대감을 반영.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-03",
-      "summary": "<p>아마존이 AI와 클라우드 성장에 힘입어 3조 달러 클럽에 진입했으며, 이는 글로벌 AI 인프라 수요 급증을 시사함. 메모리/파운드리 의존도가 높은 한국 반도체 기업들의 수요 증대 기대감을 반영.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Amazon enters $3 trillion club as AI, cloud growth power rally Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 AI/클라우드 수요 확대는 HBM, 메모리, 파운드리 니즈 증가로 이어져 SK하이닉스·삼성전자 같은 한국 반도체 공급업체에 호재.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT2h5X3dkMzhkV3ZxZ3UtZ2ZlMEh4bVVzeUF6RDlYS3R6SEFrSXlRRlJ6SDBCVFZITUV1eUYwX21VcFlIQkhrV05NM3Rudnp4LVNxNEN5WnlFM0FrSDZFNC1nX2dISGx5Z0xqQndiWHRqdkxDaHJ3ek5hcjNnZERtWTRnYThyd3MwRkVHdmg3djFLeFdFMFBLeW91NXVaVjUxQUpwSDhkUUpBa2hHNGxlcHVEbUc2NUlrUjdIYWhwcWFsZw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-04 03:07:09"
     }
   ],
   "events": [
