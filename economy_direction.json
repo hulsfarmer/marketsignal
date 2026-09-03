@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:05:04",
+  "generated_at": "2026-09-03T10:35:04",
   "count": 500,
   "posts": [
     {
@@ -4139,6 +4139,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23201,
+      "title": "데이원컴퍼니 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260903",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 데이원컴퍼니</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "데이원컴퍼니"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000027",
+      "direction": "up",
+      "updated_at": "2026-09-03 10:35:03"
     },
     {
       "id": 23194,
@@ -12562,33 +12584,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSW5GWU1oN1VmZjRKVjJXb2p0NENaV2VXcEU5a094OWJwTy1HbGk5UHZRNl9hT2UwVU01bnhJMDg1RS1YWTM0Z1F6SFp0RmttanY3dVprbENuMGlnQndRNWh0VmEzTEp4Tm9pOHJNQlMxbktWN1dLeThZWEhVSVpTRkdTRFozaDJ1Zmx0R2dxTnhaaXdmaHJ0WHR3cHpmcHVoeTN2QjBzYjhtemVocWFvQmln?oc=5",
       "direction": "neutral",
       "updated_at": "2026-08-03 21:07:28"
-    },
-    {
-      "id": 19011,
-      "title": "일본중앙은행(BOJ)이 글로벌 AI 수요가 지속적인 인플레이션 효과를 야기할 수 있다고 경고. AI 반도체 수요 증가로 메모리·파운드리 공급 수급이 더욱 강해질 전망으로, SK하이닉스·삼성전자 등 한국 반도체 기업의 수급 우위와 가격 안정성에 긍정적.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-03",
-      "summary": "<p>일본중앙은행(BOJ)이 글로벌 AI 수요가 지속적인 인플레이션 효과를 야기할 수 있다고 경고. AI 반도체 수요 증가로 메모리·파운드리 공급 수급이 더욱 강해질 전망으로, SK하이닉스·삼성전자 등 한국 반도체 기업의 수급 우위와 가격 안정성에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): BOJ says global AI demand could have sticky inflationary effect reuters.com</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 수요 증가 확인으로 HBM, 메모리, 파운드리 장기 수요 견인 신호 → 한국 반도체 기업의 가격 상승 및 이익률 개선 기대감 상승",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRW51MWl2UjJKTHpxU04zdUM2amxLN1d6aUVLSVRGSVdYVHRWQll3YlZTUHQzQVRkSEViYjNlalQwdUg2LTc0TEM5SDVZb281c0k3VlpVSFlJeENhc3FVNHBIVlJkdG1IN0x3eFVSRUdYdkNKWm9WR1kwQ1kzWHNiN05UampoZlY2V3g5bGxkeFdKdVRiaFVuT1dqQThyZ1B5X3BIZzN0YmdPWE1WdXN3Z0J2alhRVUJUNmc?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-03 21:07:11"
     }
   ],
   "events": [
