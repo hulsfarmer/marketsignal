@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:08:58",
+  "generated_at": "2026-09-04T15:35:10",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 23249,
+      "title": "SNT모티브 — [첨부정정]주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260904",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(회사합병결정) · SNT모티브</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "SNT모티브"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000222",
+      "direction": "neutral",
+      "updated_at": "2026-09-04 15:35:08"
+    },
+    {
+      "id": 23247,
+      "title": "SNT홀딩스 — [첨부정정]주요사항보고서(회사합병결정)(자회사의 주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260904",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(회사합병결정)(자회사의 주요경영사항)               · SNT홀딩스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "SNT홀딩스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904800327",
+      "direction": "neutral",
+      "updated_at": "2026-09-04 15:35:07"
     },
     {
       "id": 23149,
@@ -12493,60 +12537,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkx6Tk1FMlZlOUVsdGp6Vlo3SmxOSnVXU05BdFVDNUZ2QXZDREpBYy1HSVdPTWtLMmpicnVCNE5Od2gzR2tvbEtneXAyM3o0U1FKREpnNDJHNFp1MDc4bURkMEg5aEhqV0I0ZzF6UGJUNkFPR0RhUGJWeEdwM2UtS3pxcktqQnhZazRvMXVBSXhSemk4ZDltRENIUmdNX0pTVV96VGpBQ0REVzQ?oc=5",
       "direction": "up",
       "updated_at": "2026-08-04 21:07:13"
-    },
-    {
-      "id": 19166,
-      "title": "온세미(Onsemi)가 AI 데이터센터 칩 수요 급증으로 인한 강한 매출 전망을 제시했으며, 이는 HBM·메모리 수요 확대 신호로 SK하이닉스, 삼성전자 등 한국 반도체 기업들에 긍정적 영향을 미칠 것으로 예상됨.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-03",
-      "summary": "<p>온세미(Onsemi)가 AI 데이터센터 칩 수요 급증으로 인한 강한 매출 전망을 제시했으며, 이는 HBM·메모리 수요 확대 신호로 SK하이닉스, 삼성전자 등 한국 반도체 기업들에 긍정적 영향을 미칠 것으로 예상됨.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Onsemi forecasts upbeat revenue on surging AI data center chip demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 AI 데이터센터 칩 수요 증가 확인으로 SK하이닉스 HBM, 삼성전자 메모리 부문의 호황 시그널 제공 및 공급망 전반에 긍정적 파급 효과",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeUg1S21uaHJHM2VBalEtT0FwVm1HYVpCTDl2TEpCVzJiNmFiZDVLWkNSSGlVMlN5WnZGQnlXc184c3l0eUxEVTNvWjdESmlHdGd1VVU2c0s3UlBDWjFFeGpBcmE2UFdpLUotVkxKTTB0a2hlT0s4b3hOQ19tSElXbFI4a0FhenNJSHhqek5qaXNrUmNqa0s5bXcwazhtdzR1TmtNX0RrRVRuUjZSbEFzbA?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-04 15:07:05"
-    },
-    {
-      "id": 19130,
-      "title": "한국 8월 제조업 PMI가 수출 수요 급증으로 회복세를 보임. 반도체·메모리 산업의 글로벌 수요 증가가 한국 주요 반도체 기업들의 실적 개선을 견인할 것으로 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-03",
-      "summary": "<p>한국 8월 제조업 PMI가 수출 수요 급증으로 회복세를 보임. 반도체·메모리 산업의 글로벌 수요 증가가 한국 주요 반도체 기업들의 실적 개선을 견인할 것으로 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea factory activity quickens on surge in export demand, PMI shows Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "한국 수출 주력인 반도체 산업의 수요 회복 신호로, SK하이닉스·삼성전자 등 메모리/파운드리 부문에 호재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdlc4ZFQ2Q2Y5aG13VGlDdEtVOWpBZndiME9uSGk3d2VjcFhQU2xJVzk5M0dGTGJpeEx1S21aWVNRNk50am1ZcVc5dHVSNHYtUFJUb0tESUluZzAxVTl6SmVwbUlVSm1RYTBzcnI1Ym1na2NTcGtMWHBieW5TQzBDVkdkS0xsTnd2QmtaZ1YzRDVqd3lzWHFHRl8tNzZhX2VnR3oyRkM1c0pUNkJ3bllDSzBhY1JMTXhDQ1ZGTzItRQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-04 12:07:05"
     }
   ],
   "events": [
