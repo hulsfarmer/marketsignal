@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:05:02",
+  "generated_at": "2026-09-04T20:35:07",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 23285,
+      "title": "SK아이이테크놀로지 — 정정명령부과( 2026.08.26. 제출 주요사항보고서(회사합병 결정) )",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260904",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 정정명령부과( 2026.08.26. 제출 주요사항보고서(회사합병 결정) ) · 금융감독원</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "SK아이이테크놀로지"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904100017",
+      "direction": "neutral",
+      "updated_at": "2026-09-04 20:35:06"
     },
     {
       "id": 23255,
@@ -12484,33 +12506,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeGI4X3dUSWVObWhiUkk4OEhsV2FmS2dDRjZYWmk1eXRYTXNENGRQQXlCN01JcVdXcG92V25HaHVsOWpDZGtqdkNaQ05ZckFjazZxd2FwWlNqRFlmZnpmSWNlRE40NnVmelB6WmVJZHIzcnRpMTUyRXNUcUtMYUM4LUNCSkZMTFJ0cWI2U2o3dmZSMmRfN3RvZGdEUTIyWklScXZlaFdkQXJxR1lMbFBXaElnYXozMlMyS0lxeA?oc=5",
       "direction": "up",
       "updated_at": "2026-08-05 00:07:13"
-    },
-    {
-      "id": 19246,
-      "title": "AI 강세 전망이 나스닥 선물을 지탱하고 있으며, 기업실적과 경제지표에 주목. 한국 AI·반도체 관련 종목(SK하이닉스 HBM, 삼성전자 메모리)에 우호적 수요 환경 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-04",
-      "summary": "<p>AI 강세 전망이 나스닥 선물을 지탱하고 있으며, 기업실적과 경제지표에 주목. 한국 AI·반도체 관련 종목(SK하이닉스 HBM, 삼성전자 메모리)에 우호적 수요 환경 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Nasdaq futures underpinned by strong AI forecasts; focus on earnings, data Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 AI 성장 전망 강화는 HBM·메모리 수요 증가로 직결되어 한국 반도체 주요 종목에 명확한 호재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMHk5N1NJZXlfQ196NTA1SjFaUUtUaDd0UXNDY2FsLWM2aE1VTElKc1oxaXFMbmd1M2kwcXVmaFBKbEo3TmFmY2lfRVFraDFVcTZpTTNfbGU2VU9iZnQ0Q2xBR0ZCVHFmRUktbVk0VTR1RVVYNzVxNEVUa3dJbmFQXzQ0SldqNzVoSXAtRnF3SDJ0M0UwNEhRLVhsUTd3Yk9jdnhTQUJ0WGdOUEdRTHJfeUpKZUw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-04 21:07:10"
     }
   ],
   "events": [
