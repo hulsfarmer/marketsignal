@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:05:02",
+  "generated_at": "2026-09-04T13:35:04",
   "count": 500,
   "posts": [
     {
@@ -4139,6 +4139,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23240,
+      "title": "SUN&L — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260904",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · SUN&L</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "SUN&L"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904800179",
+      "direction": "neutral",
+      "updated_at": "2026-09-04 13:35:04"
     },
     {
       "id": 23239,
@@ -12525,33 +12547,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdlc4ZFQ2Q2Y5aG13VGlDdEtVOWpBZndiME9uSGk3d2VjcFhQU2xJVzk5M0dGTGJpeEx1S21aWVNRNk50am1ZcVc5dHVSNHYtUFJUb0tESUluZzAxVTl6SmVwbUlVSm1RYTBzcnI1Ym1na2NTcGtMWHBieW5TQzBDVkdkS0xsTnd2QmtaZ1YzRDVqd3lzWHFHRl8tNzZhX2VnR3oyRkM1c0pUNkJ3bllDSzBhY1JMTXhDQ1ZGTzItRQ?oc=5",
       "direction": "up",
       "updated_at": "2026-08-04 12:07:05"
-    },
-    {
-      "id": 19103,
-      "title": "한국 반도체 생산 거점인 한반도 전역에 기록적 폭염이 확산되면서 긴급 대응에 돌입. SK하이닉스·삼성전자 등 주요 반도체 공장의 냉각수 수급 및 운영 차질 가능성 증가.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-03",
-      "summary": "<p>한국 반도체 생산 거점인 한반도 전역에 기록적 폭염이 확산되면서 긴급 대응에 돌입. SK하이닉스·삼성전자 등 주요 반도체 공장의 냉각수 수급 및 운영 차질 가능성 증가.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Record heatwave spreads across Korean Peninsula, prompting emergency response Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "반도체 공정의 온도 민감성으로 인한 생산 차질 우려와 냉각 비용 증가가 한국 메모리·파운드리 업체 실적 및 공급망에 직접 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUGpHLUloMElFRm1wTXlsNEVDQWRiVjhzRW0zZExDallxaWxkWkN3RWdCMU1waVhpMng3TWh0enZSY1IwR1FpdVlzU2dOcVd5RVRkYTJyLUpnempjSkc4NVNiVG9JNWhaWXVUQ0YyeVh2MUozb2tuOWY3SHdfbEF4WEpnczFXdHItY2F2Q0lxc2p1TzVqdTlTMmFOVm1pOWZuV2ZpcjJiMGtmcElidmU0MnZnZFpRZ1Rqa2trQXNzUjR1YmRLUjlEaV9BQnQ0dw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-04 09:07:14"
     }
   ],
   "events": [
