@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:05:02",
+  "generated_at": "2026-09-04T16:35:11",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 23255,
+      "title": "우성 — 주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260904",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(회사합병결정) · 우성</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "우성"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000355",
+      "direction": "neutral",
+      "updated_at": "2026-09-04 16:35:05"
     },
     {
       "id": 23249,
@@ -4183,6 +4205,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23256,
+      "title": "NICE — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260904",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · NICE</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "NICE"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000367",
+      "direction": "up",
+      "updated_at": "2026-09-04 16:35:06"
     },
     {
       "id": 23240,
@@ -12483,60 +12527,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXFsci0ySk53THJaUktvbFlJd0ZjTzhFNmJSU0gtY1B5RElscWFhWHJLWTcxdlJ1SDhhV1dJcmQteVdaT0NLekZaMU05V2tockhvaGFtYlgzbk5OdWpDVEM4TmFoX2FpZFMyQWdxTzJ2SkdzYVExYVdRWHBKVlNPcTBzX1hub05WWk45TE1HVDM?oc=5",
       "direction": "up",
       "updated_at": "2026-08-04 18:08:00"
-    },
-    {
-      "id": 19175,
-      "title": "호르무즈 해협에서 선박 피격 사건으로 미-이란 협상 상황이 불확실해지면서 중동 지정학적 긴장 고조. 유가 변동성 확대 가능성으로 한국의 에너지·화학 관련 종목에 영향 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-04",
-      "summary": "<p>호르무즈 해협에서 선박 피격 사건으로 미-이란 협상 상황이 불확실해지면서 중동 지정학적 긴장 고조. 유가 변동성 확대 가능성으로 한국의 에너지·화학 관련 종목에 영향 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Status of US-Iran talks uncertain as ship struck in Hormuz Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "호르무즈 해협은 한국의 주요 원유 수입로이며, 지정학적 긴장은 유가 불안정으로 이어져 정유·화학 업종에 직접적 영향",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-04 15:07:46"
-    },
-    {
-      "id": 19247,
-      "title": "글로벌 대형 투자자들이 한국 주식시장의 매수 시점으로 판단하고 있으며, 특히 AI/반도체 부문의 SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등이 투자 관심의 주요 대상으로 주목받고 있다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-03",
-      "summary": "<p>글로벌 대형 투자자들이 한국 주식시장의 매수 시점으로 판단하고 있으며, 특히 AI/반도체 부문의 SK하이닉스(HBM), 삼성전자(메모리/파운드리) 등이 투자 관심의 주요 대상으로 주목받고 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Big investors think it might be time to buy in South Korea Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "글로벌 대형 투자자의 한국 매수 시그널은 한국 증시 자금 유입과 반도체 관련 주요 종목에 직접적인 수급 호재로 작용 가능",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkx6Tk1FMlZlOUVsdGp6Vlo3SmxOSnVXU05BdFVDNUZ2QXZDREpBYy1HSVdPTWtLMmpicnVCNE5Od2gzR2tvbEtneXAyM3o0U1FKREpnNDJHNFp1MDc4bURkMEg5aEhqV0I0ZzF6UGJUNkFPR0RhUGJWeEdwM2UtS3pxcktqQnhZazRvMXVBSXhSemk4ZDltRENIUmdNX0pTVV96VGpBQ0REVzQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-04 21:07:13"
     }
   ],
   "events": [
