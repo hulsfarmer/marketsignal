@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T14:05:03",
+  "generated_at": "2026-09-07T14:35:04",
   "count": 500,
   "posts": [
     {
@@ -4271,6 +4271,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23304,
+      "title": "크린앤사이언스 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260907",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 크린앤사이언스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "크린앤사이언스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000134",
+      "direction": "up",
+      "updated_at": "2026-09-07 14:35:03"
     },
     {
       "id": 23302,
@@ -12458,34 +12480,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOVhFamJnNjNYd1piUGFvMUR6WV9tSWVOdkdaa1lsYmd2UEp3blppbXVKYnZma2E5YjBHQWV1MlJoQjNSZFlQMW04RWRMSEQ3Ykl6Um9DNzJOTFBvSkxuMTVNSC1xWlpzbmtJZFpRMm5NWkxSUFZZRGlpcmpXYjBrNmJHR19UendSQUJzRElnZEtBal94dUUtVlhjN1pacWZNZE10Vlp3Qjk3ZTZzd3ZlZG5FWDROSkUybHNUZE1LamlkYm1heFFFNEhTVEF4UQ?oc=5",
       "direction": "down",
       "updated_at": "2026-08-05 03:08:11"
-    },
-    {
-      "id": 19305,
-      "title": "Fed 폴슨 의장이 고인플레이션 상황에서 금리 정책에 '열린 마음'을 유지하겠다고 발언. 향후 금리 인상 가능성을 시사하며 USD/KRW 환율 상승과 한국 채권 금리 상승 압력, 외국인 주식 순매도 우려 야기.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-04",
-      "summary": "<p>Fed 폴슨 의장이 고인플레이션 상황에서 금리 정책에 '열린 마음'을 유지하겠다고 발언. 향후 금리 인상 가능성을 시사하며 USD/KRW 환율 상승과 한국 채권 금리 상승 압력, 외국인 주식 순매도 우려 야기.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Paulson keeps &#x27;open mind&#x27; on rate policy outlook amid high inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed의 강경 기조 지속 신호는 달러 강세→환율 상승→한국 수출 경쟁력 약화 및 외국인 자금 유출 우려로 KOSPI에 직접적 악영향",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG화학",
-        "현대자동차",
-        "NAVER",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUHhRaTdoVFozWW02NDBFSkllcmh2MVNTdzVqQ0x5YW1VMUtCTFBZS214c0FrZkhWNVI1UURhRDA5aTZaMjdYS0FFeURnYURSdDNlUnIwU0dhYUFnSlpsZjJXeFZnODZjLVlTbGRRb0VjUWltWmpBT0hJLW0zYlhNSU83NXRlZDdTanA5QTdGb2RPeDI4SHRsdWxDaVhRTnNqQjJHR3JUdHRNZVFySTlIWG1iQQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-05 03:07:52"
     }
   ],
   "events": [
