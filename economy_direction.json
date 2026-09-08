@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:05:02",
+  "generated_at": "2026-09-08T17:35:08",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 23357,
+      "title": "BGF에코머티리얼즈 — [첨부정정]주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260908",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(회사합병결정) · BGF에코머티리얼즈</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "BGF에코머티리얼즈"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000361",
+      "direction": "neutral",
+      "updated_at": "2026-09-08 17:35:05"
+    },
+    {
+      "id": 23356,
+      "title": "BGF — [첨부정정]주요사항보고서(회사합병결정)(자회사의 주요경영사항)              (소규모합병)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260908",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(회사합병결정)(자회사의 주요경영사항)              (소규모합병) · BGF</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "BGF"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908800584",
+      "direction": "neutral",
+      "updated_at": "2026-09-08 17:35:05"
     },
     {
       "id": 23288,
@@ -4271,6 +4315,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23361,
+      "title": "AP시스템 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260908",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · AP시스템</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "AP시스템"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000299",
+      "direction": "up",
+      "updated_at": "2026-09-08 17:35:07"
     },
     {
       "id": 23354,
@@ -12369,86 +12435,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSU9ueU9aZ0ZYRkd0N3pZZEtjVXFnM0QxVWJ6MUhZUmhTUjZPdUpQc19KZlpZLWhna1lRRnV1bmhvdnJSZzYxckFQdkZXZkF6dlI4X0U0WlRNUzhTUnhIeWpJYUIyYmlvelBYUlQ2RkFQRng2T25WV3dXYzYtaWhCUjlHQTJoTHhGOTNYRmUtV0FLTFJ2VWZrXzEza2JQcXN2ZDloZEtjWGUtbnFmcjFubXRWS3d0WEYyZ3Q1VXFKWUZtRHN6MUNUSg?oc=5",
       "direction": "up",
       "updated_at": "2026-08-05 18:07:21"
-    },
-    {
-      "id": 19475,
-      "title": "폭스콘의 7월 월간 매출이 AI 수요 증가로 역대 최고를 기록했다. 이는 AI 칩 생산 수요 급증을 반영하며, HBM/메모리 공급업체인 한국 반도체 기업들의 수요 전망을 긍정적으로 시사한다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-05",
-      "summary": "<p>폭스콘의 7월 월간 매출이 AI 수요 증가로 역대 최고를 기록했다. 이는 AI 칩 생산 수요 급증을 반영하며, HBM/메모리 공급업체인 한국 반도체 기업들의 수요 전망을 긍정적으로 시사한다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Foxconn&#x27;s monthly revenue hits record in July on AI demand Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 수요 확산으로 글로벌 반도체 공급망 강화 신호이며, 한국의 HBM·메모리 수출 수요 증가로 직결되는 명확한 호재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOHBXRjF4cDljZWZ6Y3Y4SWI1SXVEOHhfeV9Fd3U3ald6d0d4MFFucG1HODRCdHZkNE5xbkdELVJhV2VLd3dYV2dxY2FIUXpoelZkdXFSYlRyTjAtdHRjSzE5bTJfaTJveHpuWm8tUWNTV1pacGduRDBPak56dW1vYXAzZDBsTzVGeEktdjltb0xwNDg0bFd4cGxsaklQNVdycnRNNjJTVkdWY3RlcnJLbTFn?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-05 18:07:14"
-    },
-    {
-      "id": 19430,
-      "title": "Fed의 슈미드 위원이 '지나치게 높은' 인플레이션을 억제하기 위해 금리 인상이 필요하다고 주장. 이는 미국의 매파적 기조를 강화하여 USD 강세, 한국 수출 경쟁력 약화, 외국인 자금 유출 압력으로 작용할 것으로 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-05",
-      "summary": "<p>Fed의 슈미드 위원이 '지나치게 높은' 인플레이션을 억제하기 위해 금리 인상이 필요하다고 주장. 이는 미국의 매파적 기조를 강화하여 USD 강세, 한국 수출 경쟁력 약화, 외국인 자금 유출 압력으로 작용할 것으로 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Schmid calls for tighter monetary policy to tamp down on &#x27;too high&#x27; inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 매파 발언은 USD/KRW 강달러 유도, 외국인 주식 매도 압박, 채권 금리 상승으로 이어져 KOSPI 하락과 한국 수출주 부담 증대",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대자동차",
-        "LG전자",
-        "반도체·화학·자동차 수출주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTlcwQjJOOFUxZkF5MGdiaHZmeldYOEF6VVZ5UGlBTU9va0pET0E2bUdSOFdxV1hiemlUZTZTZlpoVGtlV1FtZDNqeExGMXlWU0NMSUxvTi1zNWVnemdPeUd1ZHJlN1J6cUhlY292Wl93NU1HMnQ0dVN5UVRhUlhQZ3dRcTlYeDlLUE11ZEdZVi1LWG5icDNEWmFiUVhDVy1ucUduTnBOMXJQNjhtTjhGQUJB?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-05 15:07:28"
-    },
-    {
-      "id": 19403,
-      "title": "미국이 중국산 반도체 부품 수입 금지 계획을 발표하면서 중국 AI 하드웨어 관련 주가가 급락했다. 이는 미중 반도체 공급망 갈등 심화로, 한국 반도체·AI 관련 기업의 수출 기회 확대 및 달러화 강세로 연결될 가능성이 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-05",
-      "summary": "<p>미국이 중국산 반도체 부품 수입 금지 계획을 발표하면서 중국 AI 하드웨어 관련 주가가 급락했다. 이는 미중 반도체 공급망 갈등 심화로, 한국 반도체·AI 관련 기업의 수출 기회 확대 및 달러화 강세로 연결될 가능성이 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China AI hardware stocks slump after news US plans to ban imports of Chinese components Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "미중 반도체 공급망 단절은 한국 SK하이닉스·삼성전자 등의 시장 점유율 상승 기회이지만, 글로벌 AI 수요 감소 리스크와 달러 강세에 따른 환율 영향을 동반하므로 의미있는 변동성 예상",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "삼성SDI",
-        "LG화학",
-        "한미반도체"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU1dRTlJ3dWthcTVkQnd1NFVJTFZSeHV4TXNiZlZOaVlNa1lSNFVnQWZxZkxEQkV2NGZ3YV8wZ21mbjhRYUg3Z05nci1Ua3o1M0FyTGxIT0VLXzhYUlFpajhQVEEwYmFuZnhZNjZPdjdPcFh2elVnNlFvdVZjYlVTNWU5M21VempmYUVMSzNNMURjeEtwcFFUa2NvY2MwYVE1M0k2RDVpTFR1V0VGUVBBNHNaRkQ3UzlhX2FMUDJFNXpOX1RVU2ZZRQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-05 12:07:27"
     }
   ],
   "events": [
