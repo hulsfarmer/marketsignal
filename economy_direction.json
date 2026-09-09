@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:05:02",
+  "generated_at": "2026-09-09T16:35:09",
   "count": 500,
   "posts": [
     {
@@ -4381,6 +4381,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23408,
+      "title": "금양 — 주요사항보고서(회사분할결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260909",
+      "summary": "<p>분할 결정</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(회사분할결정) · 금양</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "금양"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000291",
+      "direction": "neutral",
+      "updated_at": "2026-09-09 16:35:08"
+    },
+    {
+      "id": 23405,
+      "title": "케이티 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260909",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 케이티</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "케이티"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000349",
+      "direction": "up",
+      "updated_at": "2026-09-09 16:35:07"
     },
     {
       "id": 23393,
@@ -12325,60 +12369,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTElxYUFULUk1M0M2d29aa3BiZGJHZ3BPMEpDaG9vUlRkUDUzTU5MMUYtbTlDVkt6VGpMc2g0VnpsWmRpSWhZMmxjVVIzc2NGb3psRjdCUGNUYXdFRzdHd1N1Ni1oM3BySjNWTUZiQzVSVEJWTEticG9SQUF6OHIzN0NTeWtBUlpNS2FWVWo4OEppcmVxSzlvMXBkWmVKWllteFI2QmlKVUIxUQ?oc=5",
       "direction": "down",
       "updated_at": "2026-08-07 06:08:04"
-    },
-    {
-      "id": 19838,
-      "title": "미국 통신규제 당국이 중국산 기술 수입 제한 조치를 통해 국내 생산 촉진 및 보안 위험 대응을 목표로 하고 있음. 이는 반도체·통신장비 공급망 재편으로 이어질 가능성.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-06",
-      "summary": "<p>미국 통신규제 당국이 중국산 기술 수입 제한 조치를 통해 국내 생산 촉진 및 보안 위험 대응을 목표로 하고 있음. 이는 반도체·통신장비 공급망 재편으로 이어질 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US telecoms regulator chief says curbs on Chinese tech imports aim to spur production, counter security risks Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "한국 반도체 기업의 중국 시장 의존도 감소와 미국 대체 수요 증가로 SK하이닉스·삼성전자 등 메모리/파운드리 사업에 긍정적 전환 신호",
-      "stocks": [
-        "SK하이nickx",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONTlRYmdoeTUxMG1LOVYzNFFoYXR5SFcxUzh3emtVbE5kWk1NdkY0SzExRFMwci1uSGdYMDFndkpKNVg1Y3hwWHF6eHNjdFRDOVZ0MGZ0dVdpRHZhT0VQUW9FYVdOQWRoY3ZVYmM3WS1JQ1VwbGZ5cE5KdWxEWjdpRG1paEphTDZOcmtBcTlWeE1icVZ5dmNRVkhSdW12T2R3dFJ4eEUzaHNhQQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-07 03:07:11"
-    },
-    {
-      "id": 19837,
-      "title": "SpaceX와 Tesla가 텍사스에 반도체 칩 제조 공장(Terafab)에 초기 168억 달러 투자. 미국의 자체 반도체 생산 능력 강화로 한국 메모리·파운드리 업체의 글로벌 경쟁 심화 우려.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-06",
-      "summary": "<p>SpaceX와 Tesla가 텍사스에 반도체 칩 제조 공장(Terafab)에 초기 168억 달러 투자. 미국의 자체 반도체 생산 능력 강화로 한국 메모리·파운드리 업체의 글로벌 경쟁 심화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): SpaceX, Tesla to initially spend $16.8 billion on Terafab chip plant in Texas Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미국의 반도체 자급화 추진으로 삼성·SK하이닉스 등 한국 반도체 업체의 수출 경쟁력 약화 및 마진율 압박 가능성 증대",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb2UySGFrYmtuX0Q2QkFMUl96LXB1YnhSd3l3TzdLaXZRZ1JwdFl2MjdNUjk4bFlEN1piVUV5dG9nWW5QT2Vra091T2gtbnc2RHVnekdNa0JNTy1WV1pGS3B6RzdJM0t5a0RTcXdpdDVKRHp3NHdpSkw0VnVLRVA3Y3BBdHZVTGV4dEkzSmppQnVsZ3ZlaFlBYVVOMlJfNTJfZlVDajVxaHpZVV80WjdkQ1lsQk5sVlVlZW1fNnBVWkl2amVMcmY5UA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-07 03:07:07"
     }
   ],
   "events": [
