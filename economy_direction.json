@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T17:05:02",
+  "generated_at": "2026-09-09T17:35:11",
   "count": 500,
   "posts": [
     {
@@ -4381,6 +4381,94 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23417,
+      "title": "보로노이 — 투자판단관련주요경영사항(임상시험계획자진취하등)              (VRN110755의 제 1/2상 임상시험)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260909",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항(임상시험계획자진취하등)              (VRN110755의 제 1/2상 임상시험) · 보로노이</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "보로노이"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909900586",
+      "direction": "neutral",
+      "updated_at": "2026-09-09 17:35:10"
+    },
+    {
+      "id": 23413,
+      "title": "한국철강 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260909",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 한국철강</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "한국철강"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000484",
+      "direction": "up",
+      "updated_at": "2026-09-09 17:35:08"
+    },
+    {
+      "id": 23411,
+      "title": "KISCO홀딩스 — 주요사항보고서(자기주식취득신탁계약해지결정)(자회사의 주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260909",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정)(자회사의 주요경영사항)               · KISCO홀딩스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "KISCO홀딩스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909800659",
+      "direction": "up",
+      "updated_at": "2026-09-09 17:35:07"
+    },
+    {
+      "id": 23410,
+      "title": "KISCO홀딩스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260909",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · KISCO홀딩스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "KISCO홀딩스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000492",
+      "direction": "up",
+      "updated_at": "2026-09-09 17:35:07"
     },
     {
       "id": 23408,
@@ -12261,114 +12349,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQclZOSG1LVjNJS3d6NTFkdURobkxyV2tEZl9rNm8xNllOTVU4RDFYNGVtZmRzbFZncGM3WUJTN2UyWjBjbGc3c3FMQXk3emZkTzU4d0o0UHptN09ueVZ0amtLMHZJSDFWbGllR2hiNVBhcnplZUNVVzlWQzN4Q2t3bUJGSG5UNllLUGo3SEtQWENxS1k3dU4wY3FTbC1wT0JwV0p6aDVUaTA?oc=5",
       "direction": "down",
       "updated_at": "2026-08-07 21:07:42"
-    },
-    {
-      "id": 19944,
-      "title": "미 연방준비제도 뮤살렘 위원이 지난 회의에서 금리 인상을 단행했어야 한다고 주장. 이는 Fed의 매파적 입장 강화를 시사하며, 향후 금리 인상 압력 지속 가능성을 높임.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-06",
-      "summary": "<p>미 연방준비제도 뮤살렘 위원이 지난 회의에서 금리 인상을 단행했어야 한다고 주장. 이는 Fed의 매파적 입장 강화를 시사하며, 향후 금리 인상 압력 지속 가능성을 높임.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Fed&#x27;s Musalem says central bank should have hiked rates at last meeting Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 내 매파적 목소리 강화로 장기 금리 상승 및 USD/KRW 상승 압력 심화 예상, 외국인 주식 자금 유출 우려",
-      "stocks": [
-        "수출주(반도체",
-        "자동차",
-        "화학)",
-        "금융주(은행)",
-        "고배당주"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM25LVVF2OU5rQ2FjWG9iUjVuUzE5Mzd3RnI1V1F2dU9TaVNUTDVVb2RUblFYX3A5QTdzQ1JPOWxvLXRGcHhoQTc2R1N2Mm14X09MS1B0UGVqVTJGaWV2RU84b0JXODFFOXZMREItQjJGcXNlUW50TkV0U1FZQWk5eVZSOVo1dGJYWndfZHppVWR1TWd1R29QMWpXOVpsRjVWTVA1UWdDOE5hbDg?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-07 12:07:26"
-    },
-    {
-      "id": 19897,
-      "title": "미국 2분기 생산성이 예상보다 빠르게 증가했으며, 이는 금리 인하 가능성을 낮추고 USD/KRW 강세로 이어질 전망. 한국 수출주 경쟁력 약화 및 외국인 자금 유출 압력 증가 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-06",
-      "summary": "<p>미국 2분기 생산성이 예상보다 빠르게 증가했으며, 이는 금리 인하 가능성을 낮추고 USD/KRW 강세로 이어질 전망. 한국 수출주 경쟁력 약화 및 외국인 자금 유출 압력 증가 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): US productivity rises faster than expected in second quarter Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "생산성 상승 → Fed 금리 인상 유지 가능성 → 달러 강세 → 원화 약세 + 외국인 수급 악화로 한국 증시 부담",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "POSCO",
-        "현대자동차",
-        "LG화학"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRm5xRFNlYmtQTWFsdnU3QUVyWUF1OUhIUkRfSk96Sk5QQ3FFRUpvY2pnRC1pa0hxdVVKb20zWDJXVlBXRU91RTJnQXk3V2NUOUhiRGltVUVVRElqeS1rNzZXM0lEbnBNdVZlQ0VnVXpwVnJ4TFVCX183NHRiX2dFTXo2bzgzWkNJcEd6bi1oM1B6bDEwX3ZyQ0s2NU1makVrVEwybA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-07 09:07:33"
-    },
-    {
-      "id": 19890,
-      "title": "트럼프 행정부가 태양광·반도체 소재에 대한 무역 보호 조치를 발표했으며, 이는 한국의 반도체 소재·부품 수출 및 글로벌 공급망에 영향을 미칠 수 있다.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-06",
-      "summary": "<p>트럼프 행정부가 태양광·반도체 소재에 대한 무역 보호 조치를 발표했으며, 이는 한국의 반도체 소재·부품 수출 및 글로벌 공급망에 영향을 미칠 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump unveils trade actions to protect key solar and semiconductor material Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "미국의 반도체·소재 산업 보호주의는 한국 반도체 업체의 미국 수출 경쟁력을 약화시키고 글로벌 공급망 재편을 초래할 수 있어 SK하이닉스, 삼성전자 등에 직접 영향",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVHo3TzdXT2NRVmFWeEd0Y1JjaFJPbjBZWnZ2b2hKcGxDNHZjb3ZoWS1ZZElGMGplSVhIUEZ3WEQ0cTd6R1haV2NseVVLWGpfMF9ZbDIySkg3Vm1KUlBKejRibkFYZWFzMzYyRVZiWHZuVHdSZndpVHVYbEVJNEtTdEZwZkNsZzBxWi1JTlVkQ2Z3ME5Td1EwUUZaQlM3M2VqS2xkV1Q4RjR4aXppTTVReUl3UnI?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-07 09:07:05"
-    },
-    {
-      "id": 19874,
-      "title": "트럼프 행정부의 이란과의 분쟁이 장기화되면서 중동 지정학적 긴장이 고조되고 있습니다. 이는 글로벌 유가 상승 압력으로 작용하여 에너지·화학 관련 한국 기업들의 원료비 부담을 증가시킬 전망입니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-06",
-      "summary": "<p>트럼프 행정부의 이란과의 분쟁이 장기화되면서 중동 지정학적 긴장이 고조되고 있습니다. 이는 글로벌 유가 상승 압력으로 작용하여 에너지·화학 관련 한국 기업들의 원료비 부담을 증가시킬 전망입니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Trump&#x27;s Iran dilemma: He&#x27;s stuck in war with no exit in sight Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 분쟁 장기화 → 유가 상승 → 국내 정유·석유화학 기업의 원재료비 상승 및 마진 압박, 에너지 수입비 증대로 거시경제 부담 증가",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTElxYUFULUk1M0M2d29aa3BiZGJHZ3BPMEpDaG9vUlRkUDUzTU5MMUYtbTlDVkt6VGpMc2g0VnpsWmRpSWhZMmxjVVIzc2NGb3psRjdCUGNUYXdFRzdHd1N1Ni1oM3BySjNWTUZiQzVSVEJWTEticG9SQUF6OHIzN0NTeWtBUlpNS2FWVWo4OEppcmVxSzlvMXBkWmVKWllteFI2QmlKVUIxUQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-07 06:08:04"
     }
   ],
   "events": [
