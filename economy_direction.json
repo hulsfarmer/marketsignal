@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:08:46",
+  "generated_at": "2026-09-09T12:35:05",
   "count": 500,
   "posts": [
     {
@@ -4381,6 +4381,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23393,
+      "title": "쎄노텍 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260909",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 쎄노텍</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "쎄노텍"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000132",
+      "direction": "up",
+      "updated_at": "2026-09-09 12:35:04"
     },
     {
       "id": 23392,
@@ -12357,33 +12379,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb2UySGFrYmtuX0Q2QkFMUl96LXB1YnhSd3l3TzdLaXZRZ1JwdFl2MjdNUjk4bFlEN1piVUV5dG9nWW5QT2Vra091T2gtbnc2RHVnekdNa0JNTy1WV1pGS3B6RzdJM0t5a0RTcXdpdDVKRHp3NHdpSkw0VnVLRVA3Y3BBdHZVTGV4dEkzSmppQnVsZ3ZlaFlBYVVOMlJfNTJfZlVDajVxaHpZVV80WjdkQ1lsQk5sVlVlZW1fNnBVWkl2amVMcmY5UA?oc=5",
       "direction": "down",
       "updated_at": "2026-08-07 03:07:07"
-    },
-    {
-      "id": 19832,
-      "title": "이란이 걸프만 국가들에게 트럼프 행정부의 압박을 중단하도록 촉구하며 강경한 경고를 발표. 중동 지정학적 긴장 고조로 유가 상승 압력 발생 가능성.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-06",
-      "summary": "<p>이란이 걸프만 국가들에게 트럼프 행정부의 압박을 중단하도록 촉구하며 강경한 경고를 발표. 중동 지정학적 긴장 고조로 유가 상승 압력 발생 가능성.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): EXCLUSIVE: Iran warns Gulf states: tell Trump to desist or we hit you hard Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 분쟁 위험 심화 → 유가 변동성 확대 → 에너지·화학 관련 한국 기업의 원가 및 수익성에 직접 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0dwSU95VFRkYTBfdlZyQVRjek1GbUp0d285UjJ5SUFlV2RvNm00S0dWZ0JBbXFUbGx5OG5pV2drM0l6UGVCTFdNeGxIRU00REVTYkZZa2VZVjlEZzhtcmdBejgtclFqd3VrOUVWSVNQUi14a2s1VEI1TTgxa0U1RmdscUFlVGJqTW9yNFVhQlZDZ1RYMG4wazBwSjlZVG1SMEhpbDNqQm4xNDNVeHN6NQ?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-07 00:08:40"
     }
   ],
   "events": [
