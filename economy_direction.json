@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T18:08:42",
+  "generated_at": "2026-09-09T18:35:09",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 23423,
+      "title": "우성 — [첨부정정]주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260909",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(회사합병결정) · 우성</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "우성"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000530",
+      "direction": "neutral",
+      "updated_at": "2026-09-09 18:35:08"
     },
     {
       "id": 23387,
@@ -12322,33 +12344,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVDdLQjduWTlkYVlwaUdCYzMxODBIRVZKTkszM2xWTWxkVVBVajVGVjlDT3BtWC1JUnhpYWFMUVdqZ1NCZUV1OXR2NHlMYmpxR1VoTEFpZkwyY1p0aWJTQnhiek5wNjBWRkVmUTZiRGs1S0p0dUtxckZELTAzZ0VtY2xRSktBcEdhNjZPbjZ3Q2JhN3A2N1E2UTJDMlk0NkxpVk1KS1NPYUkyZ2UyaVkxVjlwQzY?oc=5",
       "direction": "down",
       "updated_at": "2026-08-10 15:08:14"
-    },
-    {
-      "id": 20056,
-      "title": "호르무즈 해협과 흑해의 지정학적 긴장이 글로벌 해운과 에너지 공급망을 교란하고 있으며, 이는 한국의 석유·화학 수입 의존도가 높아 유가 변동성 확대와 수입비용 증가로 이어질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-06",
-      "summary": "<p>호르무즈 해협과 흑해의 지정학적 긴장이 글로벌 해운과 에너지 공급망을 교란하고 있으며, 이는 한국의 석유·화학 수입 의존도가 높아 유가 변동성 확대와 수입비용 증가로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): NEWSLETTER: High seas drama: Hormuz and Black Sea roil global trade Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "호르무즈·흑해 긴장은 한국의 주요 에너지 수입로 차단 위험과 유가 변동성을 높여 정유·화학사의 원가 및 수익성에 직접 영향을 미치는 공급망 이슈",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQclZOSG1LVjNJS3d6NTFkdURobkxyV2tEZl9rNm8xNllOTVU4RDFYNGVtZmRzbFZncGM3WUJTN2UyWjBjbGc3c3FMQXk3emZkTzU4d0o0UHptN09ueVZ0amtLMHZJSDFWbGllR2hiNVBhcnplZUNVVzlWQzN4Q2t3bUJGSG5UNllLUGo3SEtQWENxS1k3dU4wY3FTbC1wT0JwV0p6aDVUaTA?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-07 21:07:42"
     }
   ],
   "events": [
