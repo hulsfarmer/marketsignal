@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:09:07",
+  "generated_at": "2026-09-14T15:35:05",
   "count": 500,
   "posts": [
     {
@@ -4447,6 +4447,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23561,
+      "title": "쿼드메디슨 — 투자판단관련주요경영사항(임상시험계획승인신청)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260914",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항(임상시험계획승인신청)               · 쿼드메디슨</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "쿼드메디슨"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914900299",
+      "direction": "neutral",
+      "updated_at": "2026-09-14 15:35:03"
     },
     {
       "id": 23550,
@@ -12249,33 +12271,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTXR3RXlZNHd2NTJJX0xtb0lvSE9wU1lLOVZmbmJqZXhJSjE2aG9CcjVOVlFLUlVmZHk4RVdjbm5PNk1WSGJGLUN6V2N3cVZWWUtnS1J1ak5pN3U0b3A0SXJ3U1lvQnFtRlJEcnRzcGJCYlNQeFNmX0x6ZzlnXzE1MGcxTDJUbF9VZlBJNHhNNllPdmFJM1BvRlRieVRFZE1mVUNNLXZlcGt4YWlXMVdfd0MyT21PeDRVMnA1UG00N1BwaUphcVhPZHdR?oc=5",
       "direction": "down",
       "updated_at": "2026-08-10 15:07:18"
-    },
-    {
-      "id": 20246,
-      "title": "이란이 오만을 통한 핵 협상이 최종 단계라고 발표했으며, 호르무즈 해협 개방을 위해 미국의 조치가 필요하다고 주장. 호르무즈 해협은 전 세계 석유 수송의 약 21%가 지나가는 전략적 거점으로, 한국의 에너지 수입 및 유가에 직접 영향을 미칠 수 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-09",
-      "summary": "<p>이란이 오만을 통한 핵 협상이 최종 단계라고 발표했으며, 호르무즈 해협 개방을 위해 미국의 조치가 필요하다고 주장. 호르무즈 해협은 전 세계 석유 수송의 약 21%가 지나가는 전략적 거점으로, 한국의 에너지 수입 및 유가에 직접 영향을 미칠 수 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran says Oman deal is in &#x27;final stages&#x27; but US must act to open Hormuz Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "호르무즈 해협 개방 가능성은 국제 유가 안정화 신호로 작용하며, 한국의 주요 에너지 수입로 확보는 유가 하락 시 에너지·화학 기업의 원가 개선으로 이어질 수 있음",
-      "stocks": [
-        "S-Oil",
-        "GS",
-        "SK이노베이션",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-10 00:07:15"
     }
   ],
   "events": [
