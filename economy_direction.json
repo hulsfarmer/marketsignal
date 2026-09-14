@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:05:03",
+  "generated_at": "2026-09-14T16:35:09",
   "count": 500,
   "posts": [
     {
@@ -4447,6 +4447,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23576,
+      "title": "계룡건설산업 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260914",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · 계룡건설산업</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "계룡건설산업"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914800364",
+      "direction": "neutral",
+      "updated_at": "2026-09-14 16:35:08"
+    },
+    {
+      "id": 23575,
+      "title": "한신공영 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260914",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · 한신공영</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "한신공영"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914800376",
+      "direction": "neutral",
+      "updated_at": "2026-09-14 16:35:08"
     },
     {
       "id": 23561,
@@ -12217,60 +12261,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcVRHZVRKcW90cHJRVDZLcEU4NTlTSVZhSy0yOTU2ZVI2SFdBQ0tNNUFSQXZ1LWRvWkRjT1pkdndpbkxFVFJZbDlaOFBDdVNIRDlCR2RkRC11VFV3UElNLWZBYVlTNTFXZWtIQ1RYZnV0UXp4YXNqbHRGSXpGYWloVjktTzBWM0owd2VQZUkzSmJ2SlY3bmVlZnVvN1BUQlZaVTUxRzJmblVRV0NuRlZZRUNrY1VQeklJV0JFUUdiYjBIYWozekFnRDNBOGFhVTUy?oc=5",
       "direction": "up",
       "updated_at": "2026-08-10 21:07:04"
-    },
-    {
-      "id": 20383,
-      "title": "이준석 한국 대통령이 반도체 클러스터 조성을 위해 군 비행기지를 2028년 중반까지 이전할 계획을 추진 중이며, 이는 국내 반도체 산업의 확장 기반 마련을 의미",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-10",
-      "summary": "<p>이준석 한국 대통령이 반도체 클러스터 조성을 위해 군 비행기지를 2028년 중반까지 이전할 계획을 추진 중이며, 이는 국내 반도체 산업의 확장 기반 마련을 의미</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): South Korea&#x27;s Lee wants military airbase relocated by mid-2028 for chip cluster Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "국내 반도체 산업 인프라 확충 추진으로 SK하이닉스, 삼성전자 등 메모리/파운드리 기업들의 확장성과 경쟁력 강화에 긍정적 영향 예상",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdnZjclJ4ZTNzOU1TQllqMUJkMTRUWDVXakRfV21XQWpXWGg1OVlzYUhDV2RPSTlwQnhrVVhCZm5ZMWVVZmNPMUlPN2FVZ0RtOVBOTHNWRzZmRXRJYUh5bU00UW0yYjY2SC1jcEE2ekIxbHpyNTM1YzQ3TTdOaExTN3o0cnM2WTRsNExXVFVSN0wtclpxVDctZWl6Uk9FM2RMREIwbGV0Z3NhRW9Xa0VENUhFdGo4SV9sdHV2QXctSTJnVERCM2I1LQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-10 18:07:06"
-    },
-    {
-      "id": 20330,
-      "title": "중국의 AI·반도체 자립화 추진으로 글로벌 공급망 재편이 진행 중. SK하이닉스·삼성전자 등 한국 반도체 기업의 중국 시장 점유율 축소 압력 심화 예상.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-09",
-      "summary": "<p>중국의 AI·반도체 자립화 추진으로 글로벌 공급망 재편이 진행 중. SK하이닉스·삼성전자 등 한국 반도체 기업의 중국 시장 점유율 축소 압력 심화 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China Shock 2.0 reshuffles winners and losers Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "중국의 반도체 자급화 정책은 한국 메모리·파운드리 업체의 중국 수출 감소와 경쟁 심화로 이어져 한국 반도체 산업의 주요 악재",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTXR3RXlZNHd2NTJJX0xtb0lvSE9wU1lLOVZmbmJqZXhJSjE2aG9CcjVOVlFLUlVmZHk4RVdjbm5PNk1WSGJGLUN6V2N3cVZWWUtnS1J1ak5pN3U0b3A0SXJ3U1lvQnFtRlJEcnRzcGJCYlNQeFNmX0x6ZzlnXzE1MGcxTDJUbF9VZlBJNHhNNllPdmFJM1BvRlRieVRFZE1mVUNNLXZlcGt4YWlXMVdfd0MyT21PeDRVMnA1UG00N1BwaUphcVhPZHdR?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-10 15:07:18"
     }
   ],
   "events": [
