@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:05:02",
+  "generated_at": "2026-09-15T17:35:13",
   "count": 500,
   "posts": [
     {
@@ -4491,6 +4491,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23651,
+      "title": "화일약품 — 투자판단관련주요경영사항              (경영지배인 선임의 건)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260915",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (경영지배인 선임의 건) · 화일약품</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "화일약품"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915900661",
+      "direction": "neutral",
+      "updated_at": "2026-09-15 17:35:11"
+    },
+    {
+      "id": 23648,
+      "title": "미트박스 — 권리락              (무상증자)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260915",
+      "summary": "<p>무상증자 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 권리락              (무상증자) · 코스닥시장본부</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "미트박스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915900714",
+      "direction": "up",
+      "updated_at": "2026-09-15 17:35:09"
     },
     {
       "id": 23619,
@@ -12156,60 +12200,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRUJXd2VJdGhjMlJJNXNyNTUxWnB6OWI3UzlLRVNvLVRuenozbm54ZGNZdHVNNWJSS2dPd2lwVXBJU3lqLUdsaVV2Z0V3RVhrUmgyN0U0TjduT2FwVlAxV0R4S3U5YUc5LWtfMlhCVG9ZbVYzbmxTUDJKZkk4QmNZT3g0LUlyWkNDenpoWTFKVXpEU1hNa0tRbDFGaVVzVnh1andVaVVOWGprYlJWT1hua19ad0VvSHdSUDAw?oc=5",
       "direction": "up",
       "updated_at": "2026-08-12 15:07:05"
-    },
-    {
-      "id": 20786,
-      "title": "Jensen Huang(NVIDIA CEO)이 주도하는 5000억 달러 규모의 AI 산업 호황 속에서, 한국의 HBM·메모리 반도체 기업들이 AI칩 수요 급증의 직접 수혜자로 포지셔닝되고 있음을 시사하는 기사.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-11",
-      "summary": "<p>Jensen Huang(NVIDIA CEO)이 주도하는 5000억 달러 규모의 AI 산업 호황 속에서, 한국의 HBM·메모리 반도체 기업들이 AI칩 수요 급증의 직접 수혜자로 포지셔닝되고 있음을 시사하는 기사.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Breakingviews - Jensen Huang takes wheel of $500 bln AI bandwagon Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 반도체 수요 호황이 HBM·고대역폭메모리 등 한국 기업의 핵심 수익원 창출 확대를 의미하며, 삼성·SK하이닉스의 반도체 수익성 개선과 직결된 의미있는 산업 기조 확인.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOFJyWkdEX3llRDhxWWVfZmNhNlR6UzlZNjNzSjZ4MEZpMGNnTWZMaDMzU2lFeS1GT2lMendlODc4STV0MDJZQ2JHa1FQb3VPaENKQ24yQ0ZwdlpJczJqVU52cHFOUU1HWjlZUW9UNWhWdW5BTFpDSGp4M0ltaWo3N2tBZGlYSlQ5ZHNCbjVkb3hsUVQ4M2h3d195X21PZ2gwZDhYSThVWnh6UQ?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-12 12:07:05"
-    },
-    {
-      "id": 20765,
-      "title": "홍해에서 선박 공격으로 선원 4명과 구조대원 2명이 사망했으며, 걸프만에서 미사일 공격도 보고됨. 중동 해상 운송 위험 증대로 유가 변동성 확대 예상.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-11",
-      "summary": "<p>홍해에서 선박 공격으로 선원 4명과 구조대원 2명이 사망했으며, 걸프만에서 미사일 공격도 보고됨. 중동 해상 운송 위험 증대로 유가 변동성 확대 예상.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Four crew, two rescuers killed in Red Sea attack; missile strike reported in Gulf Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "중동 해상 운송로 안정성 악화는 유가 변동성 증대 및 에너지·화학 기업 운영비 상승 우려로 석유·석화 관련 한국 기업에 의미있는 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-12 09:08:10"
     }
   ],
   "events": [
