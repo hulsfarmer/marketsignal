@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:08:41",
+  "generated_at": "2026-09-17T15:35:06",
   "count": 500,
   "posts": [
     {
@@ -4513,6 +4513,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23749,
+      "title": "신송홀딩스 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260917",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 신송홀딩스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "신송홀딩스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000211",
+      "direction": "up",
+      "updated_at": "2026-09-17 15:35:05"
     },
     {
       "id": 23747,
@@ -12111,33 +12133,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGFZQ2Vnb3RrVVF5MGpzQzlrckRvMHM2bmtQRFFEdUdra2QxdEcwMEVTQk1GUDFBS25MS2Rmb05uZkd4Znp4aElvSEtFVzNXY1dtYUNHNmpWODhUSTFVRDc1a0VMR3NTVTlmNndDRlBnVWlfOFpZSXFRY01EUDh6WGJQb2xHY0daZGIwbzI3VWpfallqckphSVpIcHl0VkdqM3VyaUJUS1B4QVM5MXJZY0Rn?oc=5",
       "direction": "down",
       "updated_at": "2026-08-13 00:08:12"
-    },
-    {
-      "id": 20936,
-      "title": "인플레이션이 글로벌 시장의 주요 변수로 작용 중이며, 이는 각국 중앙은행의 금리 정책 결정에 영향을 미치고 있습니다. 한국의 USD/KRW 환율, 채권 금리, 외국인 주식 수급에 직접적인 영향을 줄 것으로 예상됩니다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-12",
-      "summary": "<p>인플레이션이 글로벌 시장의 주요 변수로 작용 중이며, 이는 각국 중앙은행의 금리 정책 결정에 영향을 미치고 있습니다. 한국의 USD/KRW 환율, 채권 금리, 외국인 주식 수급에 직접적인 영향을 줄 것으로 예상됩니다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Inflation obscures all Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "글로벌 인플레이션 동향은 Fed 금리 경로를 결정하는 핵심 변수로서 원화 환율과 국내 채권·주식시장 외국인 자금흐름에 직결되는 매크로 뉴스",
-      "stocks": [
-        "금융주(KB금융",
-        "신한금융)",
-        "수출기업(삼성전자",
-        "SK하이닉스",
-        "LG화학)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNU53ZGZ0LUNyaVFVVmUyRkt0R2h3b0ZYUjNIbFhaclRkaHpfcnh4Wi1UbWpXWUFUMlpxZmFWbWJWWVhRMXdtbTNHaUl1b3BCSGJCaDBFUE9jTms0YlkxQXN4TGJMUHNJTVFBb3o3LTR0cklOQlBKMjEzWEctS3FzRWlld0x4cGRLNVhOaXlPZXdkVy13dGJn?oc=5",
-      "direction": "neutral",
-      "updated_at": "2026-08-13 00:07:46"
     }
   ],
   "events": [
