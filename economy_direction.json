@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:08:45",
+  "generated_at": "2026-09-18T15:35:07",
   "count": 500,
   "posts": [
     {
@@ -4513,6 +4513,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23787,
+      "title": "한국가스공사 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260918",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · 한국가스공사</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "한국가스공사"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800290",
+      "direction": "neutral",
+      "updated_at": "2026-09-18 15:35:04"
     },
     {
       "id": 23781,
@@ -12064,34 +12086,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaW5SbklFWFdseXViUWtFTU5ybS1EX1NDUzRHM3lIaGZJcUFVMC1TLXQtbXRBem02TlRoX1U5QnRjTUwxMXRuZWxMS1NNVUUwREVXbXdLRlZFVF94eHF1dWxoWThRWWV2WG9RMHYxQWZwbElNeWtMM0k5bnV5a3loV1lBd3p5UDFtZ0xRbmcxcFpDWHhUbmhCWklGRWcxNG82?oc=5",
       "direction": "down",
       "updated_at": "2026-08-13 21:07:06"
-    },
-    {
-      "id": 21072,
-      "title": "미국 인플레이션이 양호해지면서 Fed 금리 인상 베팅이 축소되고 있으며, 달러화는 약세를 보이고 있다. 이는 USD/KRW 환율 하락으로 이어져 수출주 수익성 개선과 외국인 주식 매수 유입 가능성을 높인다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-13",
-      "summary": "<p>미국 인플레이션이 양호해지면서 Fed 금리 인상 베팅이 축소되고 있으며, 달러화는 약세를 보이고 있다. 이는 USD/KRW 환율 하락으로 이어져 수출주 수익성 개선과 외국인 주식 매수 유입 가능성을 높인다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Dollar treads water as Fed hike bets pared on benign US inflation Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 인상 시나리오 축소는 원화 강세, 수출주 경쟁력 강화, 외국인 자금 유입 증대로 이어져 한국 증시의 구조적 호재",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "현대차",
-        "LG전자",
-        "한국조선해양",
-        "포스코"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVDIyRHVUbzNzMFctT0VkQXpIZWt2V09QNEtwc2VhYVlmZWRyM1NCd0NWSUZEUEFQb2VzWVFqOEdtZmpYNEc3dDFna1dQSktGZU1ONGQySmNlYVcyVHN5c05iT2V5REVnMFA0cnFKNVI3enRtTXpGaUsxdGlSZ2xFbFo5VEVwWkV5eXNvMVA2Rmx5YzhxeVd1TkQ2YkpISXc3OUV5cHpaR2dxNHNOVXltdjBfSVo?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-13 15:07:23"
     }
   ],
   "events": [
