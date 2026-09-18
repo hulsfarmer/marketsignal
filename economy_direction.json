@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T13:05:02",
+  "generated_at": "2026-09-18T13:35:05",
   "count": 500,
   "posts": [
     {
@@ -4513,6 +4513,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23781,
+      "title": "주성코퍼레이션 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260918",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · 주성코퍼레이션</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "주성코퍼레이션"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800181",
+      "direction": "neutral",
+      "updated_at": "2026-09-18 13:35:05"
     },
     {
       "id": 23780,
@@ -12070,34 +12092,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVDIyRHVUbzNzMFctT0VkQXpIZWt2V09QNEtwc2VhYVlmZWRyM1NCd0NWSUZEUEFQb2VzWVFqOEdtZmpYNEc3dDFna1dQSktGZU1ONGQySmNlYVcyVHN5c05iT2V5REVnMFA0cnFKNVI3enRtTXpGaUsxdGlSZ2xFbFo5VEVwWkV5eXNvMVA2Rmx5YzhxeVd1TkQ2YkpISXc3OUV5cHpaR2dxNHNOVXltdjBfSVo?oc=5",
       "direction": "up",
       "updated_at": "2026-08-13 15:07:23"
-    },
-    {
-      "id": 21069,
-      "title": "Fed의 금리 인하 베팅이 약화되고 있는 반면, BOJ(일본중앙은행)의 금리 인상 가능성이 높아지고 있다. 이는 USD/JPY 환율 변동과 엔저 심화로 이어져 한국의 수출경쟁력 약화와 외국인 자금 이탈 압력을 초래할 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-13",
-      "summary": "<p>Fed의 금리 인하 베팅이 약화되고 있는 반면, BOJ(일본중앙은행)의 금리 인상 가능성이 높아지고 있다. 이는 USD/JPY 환율 변동과 엔저 심화로 이어져 한국의 수출경쟁력 약화와 외국인 자금 이탈 압력을 초래할 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Morning Bid: Fed bets cool, BOJ wagers heat up Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 경로 변화와 엔화 약세는 USD/KRW 환율, 외국인 수급, 수출 경쟁력에 직접적 영향을 미치는 의미있는 매크로 변수",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대자동차",
-        "한국조선해양",
-        "석유화학 업종"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oM0FFVzBuNGtQVW9IOG1zaU44UGdVei1MVEx3MUY0RVhjOE5zYndQM0tMMDNfZW9lU0wyM1o4eUlnU2RFZGJIdlA1SmREYUtBZk4xdS1RYUhOeFA2T1U4ZV9pZ0ZlaXpqTTEtVFFDSlNUYWhmaFRHclBCMWlkTVE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-13 15:07:12"
     }
   ],
   "events": [
