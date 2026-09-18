@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T23:40:03",
+  "generated_at": "2026-09-19T00:05:03",
   "count": 500,
   "posts": [
     {
@@ -12061,94 +12061,6 @@
   "events": [
     {
       "stock_code": "",
-      "stock_name": "동서",
-      "event_date": "2026-09-18",
-      "event_type": "배당지급예정일",
-      "title": "동서 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721801066"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "티쓰리",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "티쓰리 — 현금ㆍ현물배당결정              (분기배당)",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731900541"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "신세계",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "신세계 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800237"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "영원무역",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "영원무역 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800745"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "코오롱글로벌",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "코오롱글로벌 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800821"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "코오롱",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "코오롱 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800822"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "대림제지",
-      "event_date": "2026-09-18",
-      "event_type": "매매거래정지 시작",
-      "title": "대림제지 — 주식분할결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813900805"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "현대엘리베이터",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "현대엘리베이터 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813800947"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "광주신세계",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "광주신세계 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814801070"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "롯데케미칼",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "롯데케미칼 — 현금ㆍ현물배당결정              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800655"
-    },
-    {
-      "stock_code": "",
-      "stock_name": "롯데지주",
-      "event_date": "2026-09-18",
-      "event_type": "배당금지급예정일",
-      "title": "롯데지주 — 현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800656"
-    },
-    {
-      "stock_code": "",
       "stock_name": "S&K폴리텍",
       "event_date": "2026-09-21",
       "event_type": "채권자이의제출 종료",
@@ -12666,6 +12578,30 @@
       "event_type": "배당금지급예정일",
       "title": "양지사 — 현금ㆍ현물배당결정              ",
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819900581"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "IBKS제24호스팩",
+      "event_date": "2026-10-19",
+      "event_type": "합병반대의사통지 시작",
+      "title": "IBKS제24호스팩 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000664"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "휴맥스",
+      "event_date": "2026-10-19",
+      "event_type": "신주 상장",
+      "title": "휴맥스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001112"
+    },
+    {
+      "stock_code": "",
+      "stock_name": "휴맥스홀딩스",
+      "event_date": "2026-10-19",
+      "event_type": "신주 상장",
+      "title": "휴맥스홀딩스 — 주요사항보고서(회사합병결정)",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001117"
     }
   ]
 }
