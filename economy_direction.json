@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:09:02",
+  "generated_at": "2026-09-22T15:35:08",
   "count": 500,
   "posts": [
     {
@@ -4623,6 +4623,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23929,
+      "title": "바디텍메드 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260922",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 바디텍메드</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "바디텍메드"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000251",
+      "direction": "up",
+      "updated_at": "2026-09-22 15:35:08"
+    },
+    {
+      "id": 23928,
+      "title": "케이티앤지 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260922",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 케이티앤지</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "케이티앤지"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000256",
+      "direction": "up",
+      "updated_at": "2026-09-22 15:35:07"
     },
     {
       "id": 23914,
@@ -11925,65 +11969,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQm05M3ZscW8yb1Jfdkw2QUl4Y2RzOWVXWlQ5ZzNIX0JhcnJlb1VIaHlmeFhJM082VUpua05SY3lQcVotUi1xVFVKSURVRVNBX3djVzE5M3Z6RmxDTHo5WWNsSEs2MU5RS0JaVnNfdWZwZDAtaURZUW1rNTJoYlZJWUdXZ2lSelRMV2RTdVpIQVRnMW0zTWlNU3NKbGtLU3R6cjNUTkZmUQ?oc=5",
       "direction": "down",
       "updated_at": "2026-08-16 03:07:30"
-    },
-    {
-      "id": 21543,
-      "title": "글로벌 주식펀드가 실적 낙관론과 금리인상 베팅 축소로 순유입 기조를 지속 중이며, 이는 한국 증시의 외국인 자금 유입 확대와 USD/KRW 약세를 뒷받침할 가능성이 있음.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-14",
-      "summary": "<p>글로벌 주식펀드가 실적 낙관론과 금리인상 베팅 축소로 순유입 기조를 지속 중이며, 이는 한국 증시의 외국인 자금 유입 확대와 USD/KRW 약세를 뒷받침할 가능성이 있음.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Global equity funds extend inflow streak as earnings optimism and reduced rate-hike bets lift sentiment Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "금리인상 우려 완화는 한국 채권 금리 하락·원화 약세 제한·외국인 주식 매수 확대로 이어져 KOSPI 수급 개선에 유리하게 작용",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "NAVER",
-        "카카오",
-        "현대차",
-        "삼성물산"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHdwdGdTdWxKVTJleUJfTEpnS0dNcEMzMENrX1RMRWx2Y1FvaTd5NzFrMW8tNXlvVDdEaVhmd0Q3dHBVSlZYNE5OZm8wcHBkSVduMWRLNHM1R1YtRWNDdkJGWWtTMkVOTWZZc1RZdzRIRlJVeW9HaTM1ejVsQ3NwcnFn?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-15 15:07:28"
-    },
-    {
-      "id": 21542,
-      "title": "미국의 금리 인상 우려가 완화되면서 미국 주식펀드로 자금이 유입되고 있다. 이는 달러 강세 약화 및 글로벌 위험자산 선호 증가로 이어져 한국 수출주와 외국인 매수에 긍정적.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-14",
-      "summary": "<p>미국의 금리 인상 우려가 완화되면서 미국 주식펀드로 자금이 유입되고 있다. 이는 달러 강세 약화 및 글로벌 위험자산 선호 증가로 이어져 한국 수출주와 외국인 매수에 긍정적.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): U.S. equity funds draw inflows as rate-hike concerns ease Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "Fed 금리 정책 방향 전환은 USD/KRW 환율, 외국인 수급, 그리고 수출기업 실적 전망에 직접 영향을 미치는 주요 매크로 신호",
-      "stocks": [
-        "삼성전자",
-        "SK하이닉스",
-        "LG전자",
-        "현대자동차",
-        "기아",
-        "삼성화학",
-        "SK이노베이션",
-        "네이버",
-        "카카오"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYk44UV8waXREazR0VU43WU9XN1VRT2F0enpJMlB5VFBOaFpHN2JldTBDWWZ5WHNYZUVOcnJiVE95ZU95WlRNcTMtZFhaRll5dXRSRVJVaktnVHU3R2pFN3hfdTd6YkZkVUZtYlV0eldXcTA5dEFjbUpWUDE1YWdaLWx4TG9TRVR6MnJuMFZlU3BTSGFrU181djloRUNrZw?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-15 15:07:25"
     }
   ],
   "events": [
