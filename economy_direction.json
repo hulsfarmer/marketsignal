@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:05:03",
+  "generated_at": "2026-09-22T13:35:05",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 23915,
+      "title": "국일제지 — [첨부정정]주요사항보고서(회사합병결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260922",
+      "summary": "<p>합병 — 자본구조 변화</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(회사합병결정) · 국일제지</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "국일제지"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000164",
+      "direction": "neutral",
+      "updated_at": "2026-09-22 13:35:04"
     },
     {
       "id": 23883,
@@ -11962,36 +11984,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYk44UV8waXREazR0VU43WU9XN1VRT2F0enpJMlB5VFBOaFpHN2JldTBDWWZ5WHNYZUVOcnJiVE95ZU95WlRNcTMtZFhaRll5dXRSRVJVaktnVHU3R2pFN3hfdTd6YkZkVUZtYlV0eldXcTA5dEFjbUpWUDE1YWdaLWx4TG9TRVR6MnJuMFZlU3BTSGFrU181djloRUNrZw?oc=5",
       "direction": "up",
       "updated_at": "2026-08-15 15:07:25"
-    },
-    {
-      "id": 21532,
-      "title": "이란의 호르무즈 해협 위협과 트럼프의 고유가 수용 발언으로 유가 상승 압력이 증대되고 있다. 이는 에너지 수입 의존도가 높은 한국의 수입가격 상승, USD/KRW 약세, 그리고 경기 둔화 우려로 이어질 수 있다.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-14",
-      "summary": "<p>이란의 호르무즈 해협 위협과 트럼프의 고유가 수용 발언으로 유가 상승 압력이 증대되고 있다. 이는 에너지 수입 의존도가 높은 한국의 수입가격 상승, USD/KRW 약세, 그리고 경기 둔화 우려로 이어질 수 있다.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Iran defiant on strait as Trump tells Americans to accept high gas prices Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 금리/매크로</p>",
-      "feedback": "유가 급등 시나리오는 한국의 교역조건 악화, 원화약세 압력, 수출기업 수익성 악화로 이어져 거시경제와 주식시장에 의미있는 악영향을 미칠 수 있음",
-      "stocks": [
-        "SK에너지",
-        "GS에너지",
-        "S-Oil",
-        "현대제철",
-        "포스코",
-        "한국조선해양",
-        "저가항공사(에어부산",
-        "진에어)"
-      ],
-      "tags": [
-        "금리",
-        "매크로"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-15 12:07:47"
     }
   ],
   "events": [
