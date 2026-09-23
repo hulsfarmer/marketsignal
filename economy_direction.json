@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:08:57",
+  "generated_at": "2026-09-23T15:35:09",
   "count": 500,
   "posts": [
     {
@@ -4689,6 +4689,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23983,
+      "title": "SIMPAC — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260923",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · SIMPAC</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "SIMPAC"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923800382",
+      "direction": "neutral",
+      "updated_at": "2026-09-23 15:35:07"
     },
     {
       "id": 23981,
@@ -11899,33 +11921,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZkxQZ0FIUUQ0X2p6bVF1NWw1eF9PQnBtRVJVbUk4eV83UkU5X0JjdmE0RnFDdkZOLVJNWWlCejVmOTdmdTFoT3FGWmhGOGVYdFdwcXNwWlAtaEVNRnFPYkZFVzhmY3ZBQ0xERGUtWFF6QWdxcVFqR2k4dkdDTkJHNURIdUJ0Rk05NE94ekVPMjYtaWNodnItODdIdGU4Qmw5bndYZ095UF9nRFc5RnRheGxtNXFCM2VWbXd5M2pCTGw?oc=5",
       "direction": "up",
       "updated_at": "2026-08-18 00:07:05"
-    },
-    {
-      "id": 21693,
-      "title": "ECB 블로그가 AI 시장 조정(correction)이 임박했다고 예측. 메모리반도체와 파운드리 수요 감소 우려로 SK하이닉스, 삼성전자 등 한국 반도체주에 부정적 신호.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-17",
-      "summary": "<p>ECB 블로그가 AI 시장 조정(correction)이 임박했다고 예측. 메모리반도체와 파운드리 수요 감소 우려로 SK하이닉스, 삼성전자 등 한국 반도체주에 부정적 신호.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): AI market correction is coming, ECB blog predicts Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 버블 우려는 HBM·고대역폭메모리 수요 전망을 직결적으로 흔들어 SK하이닉스와 삼성전자 실적 모멘텀에 의미있는 악영향 가능",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반도체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOejNkZVFTSjVNZEVpMms5aWtNbzdCcWMyZFQwT2xHRnQzanhqbHoxZzZKSGdTblptSHhUT0Jjamk3ZWI1VnJHOFZPWnk0VERidlZsNFItMzE2T2UyOEhfYWVGOUt1MkRLLVlNTWlNYnViUGhnalAtS3RDSS0tX3ZSckR1MjM4UmF4YzNDZ3hyN1AxYVhEaE1fMWpOQlFhVlZBbXdJVF9sVTNhNjJGMEQ0THlBVHc?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-17 21:07:07"
     }
   ],
   "events": [
