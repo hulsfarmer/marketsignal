@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:05:02",
+  "generated_at": "2026-09-23T14:35:09",
   "count": 500,
   "posts": [
     {
@@ -328,6 +328,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWZMNzN0TUlGVE45VksxbnoxV2lPWl9RVjY5U21BMU5uUEpMUnRtMTd5R3JZU2lRdVlrOEktRmxWcHJ5LUxydWYyNWVGX19oUEgzcTFtQ29IN1lXSTdaTmVweFdnaUt1V3dnb3VXLTVlcEJSa09JWXl4OGtuQmhjbmhvUkZKYkNLRkIxYVdkTVM2cUVZb3IzcHNOVFNacXJiNVNNOGZTWkpDUQ?oc=5",
       "direction": "up",
       "updated_at": "2026-05-06 18:07:05"
+    },
+    {
+      "id": 23976,
+      "title": "셀트리온 — 투자판단관련주요경영사항              (CTP13 SC(짐펜트라) 미국 임상 3상 시험계획 승인)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260923",
+      "summary": "<p>임상 3상 결과</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (CTP13 SC(짐펜트라) 미국 임상 3상 시험계획 승인) · 셀트리온</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "셀트리온"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 8,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923800359",
+      "direction": "neutral",
+      "updated_at": "2026-09-23 14:35:05"
     },
     {
       "id": 23944,
@@ -4667,6 +4689,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 23981,
+      "title": "에스에스알 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260923",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 에스에스알</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "에스에스알"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000281",
+      "direction": "up",
+      "updated_at": "2026-09-23 14:35:08"
+    },
+    {
+      "id": 23978,
+      "title": "마음AI — 투자판단관련주요경영사항              (국책과제 선정 (완전자율운항선박 전선(Ship-wide) 자율안전관리 통합 대응플랫폼 개발,  산업통상부))",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260923",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (국책과제 선정 (완전자율운항선박 전선(Ship-wide) 자율안전관리 통합 대응플랫폼 개발,  산업통상부)) · 마음AI</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "마음AI"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923900332",
+      "direction": "neutral",
+      "updated_at": "2026-09-23 14:35:07"
     },
     {
       "id": 23953,
@@ -11860,89 +11926,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOejNkZVFTSjVNZEVpMms5aWtNbzdCcWMyZFQwT2xHRnQzanhqbHoxZzZKSGdTblptSHhUT0Jjamk3ZWI1VnJHOFZPWnk0VERidlZsNFItMzE2T2UyOEhfYWVGOUt1MkRLLVlNTWlNYnViUGhnalAtS3RDSS0tX3ZSckR1MjM4UmF4YzNDZ3hyN1AxYVhEaE1fMWpOQlFhVlZBbXdJVF9sVTNhNjJGMEQ0THlBVHc?oc=5",
       "direction": "down",
       "updated_at": "2026-08-17 21:07:07"
-    },
-    {
-      "id": 21688,
-      "title": "중국 경제가 예상을 하회하며 소비·생산 둔화. 한국의 중국 수출 의존 업종(자동차, 화장품, 철강, 게임)과 면세점 수요 악화 우려.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-17",
-      "summary": "<p>중국 경제가 예상을 하회하며 소비·생산 둔화. 한국의 중국 수출 의존 업종(자동차, 화장품, 철강, 게임)과 면세점 수요 악화 우려.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): China&#x27;s economy loses steam as consumption, output miss forecasts Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 중국 경제</p>",
-      "feedback": "중국 경제 둔화는 한국의 주요 수출처 수요 감소로 이어져 관련 산업에 의미있는 부정적 영향 예상",
-      "stocks": [
-        "현대자동차",
-        "기아",
-        "아모레퍼시픽",
-        "LG생활건강",
-        "POSCO",
-        "넥슨",
-        "엔씨소프트"
-      ],
-      "tags": [
-        "중국",
-        "위안화"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQU1zd0xiWmtwQ3dnX2tSQlRPUjJYMWM2aHpFRkR6UC1uWlVHUWJ6V3FzN0E0TThVSFJtYjlyREVPUDlidHBWbWd6YnBZbnExU0FlTElqMFNKRmRVLXlMeHZobkI0NGl5Y0dTSWlxZ2RpZ1R2N0NDM19aZEI2Y1pob2JlQmNhTGxNX1Zwb2Z6TjhOdUJEdjVHS1VuTUN3WmEtY3BGc0NnMGc1R0tTaDZZVw?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-17 18:08:26"
-    },
-    {
-      "id": 21668,
-      "title": "글로벌 대형 투자자들이 AI 관련 자본지출(capex) 우려 완화 속에서 차세대 AI 수혜 기업 발굴에 나섰으며, 이는 메모리반도체 및 파운드리 수요 증가로 이어질 전망.",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-17",
-      "summary": "<p>글로벌 대형 투자자들이 AI 관련 자본지출(capex) 우려 완화 속에서 차세대 AI 수혜 기업 발굴에 나섰으며, 이는 메모리반도체 및 파운드리 수요 증가로 이어질 전망.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Big investors hunt for tomorrow&#x27;s AI winners as capex angst fades Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · AI/반도체</p>",
-      "feedback": "AI 투자 심화는 HBM·메모리 수요 증가 신호로, SK하이닉스·삼성전자 등 한국 반도체 업체의 수혜 가능성이 의미있으나, 헤드라인만으로는 구체적 수익 임팩트 확실하지 않음.",
-      "stocks": [
-        "SK하이닉스",
-        "삼성전자",
-        "한미반olecu체",
-        "이수페타시스"
-      ],
-      "tags": [
-        "AI",
-        "반도체",
-        "데이터센터"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3JiYWhkcERDWi1MTllqMVduaUtTMjdkRU1GWkRKQldPbnlGR2lSenNfTmM1dmMxX1djUmQ1RFpLcHZnbFVvc3hjelp1SVROaWxReFFSREIxd0UxTGx3dDF3MUpZeGN3bWFydFZxXzNFdldtUWo5MnhEN0phclg5U0JUbk1uVlYyZDhQYzJHMEdmb0cyODBwY1BycHdGMm9WdmN0bg?oc=5",
-      "direction": "up",
-      "updated_at": "2026-08-17 18:07:06"
-    },
-    {
-      "id": 21641,
-      "title": "호르무즈 해협 유조선 공격으로 해운 활동 둔화. 중동 유가 불확실성 증대로 한국의 에너지·화학 기업들의 원유 수급 및 유가 변동성 리스크 확대.",
-      "category": "거시",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "Reuters",
-      "uploaded_on": "2026-08-16",
-      "summary": "<p>호르무즈 해협 유조선 공격으로 해운 활동 둔화. 중동 유가 불확실성 증대로 한국의 에너지·화학 기업들의 원유 수급 및 유가 변동성 리스크 확대.</p>\n<p style='color:#718096;font-size:.9em'><em>원문(영문): Shipping slows through Strait of Hormuz after tanker attacks, data shows Reuters</em></p>\n<p style='color:#718096;font-size:.9em'>📰 Reuters · 유가/원자재</p>",
-      "feedback": "주요 석유 공급로 차질은 유가 급등 요인이며, S-Oil·SK이노베이션 등 에너지·화학 기업의 수익성과 원가 구조에 의미있는 영향",
-      "stocks": [
-        "S-Oil",
-        "SK이노베이션",
-        "GS",
-        "LG화학",
-        "롯데케미칼"
-      ],
-      "tags": [
-        "유가",
-        "원자재"
-      ],
-      "impact_score": 7,
-      "source_type": "news",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS011b1NvcmEzQUNzX2dVdzFyUmg1UnpkLXZqNW5nUFFxNGZpaE51amZaZWJDZnNTQi1yZDE2cGxwU09PdzhMWWJiV1lpMk0xSmJmb0dQNVdGN1F3RHBTaVQtRzlsU2Nwa2RER0ZlbngzOWc3aDV2MmMwRmNfZ2xXclpHRzE0RkFzeDZ3MjY2QTAwMlFPSEVTeTRQM0JDQ2VtQjVPQTFPZWxRaXB4YzBTbjBVSXlxQTBoMUE?oc=5",
-      "direction": "down",
-      "updated_at": "2026-08-17 12:07:24"
     }
   ],
   "events": [
