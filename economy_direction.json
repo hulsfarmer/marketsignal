@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:05:02",
+  "generated_at": "2026-09-30T16:35:19",
   "count": 500,
   "posts": [
     {
@@ -4843,6 +4843,94 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 24220,
+      "title": "LF — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260930",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · LF</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "LF"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000515",
+      "direction": "up",
+      "updated_at": "2026-09-30 16:35:18"
+    },
+    {
+      "id": 24218,
+      "title": "에이비온 — 투자판단관련주요경영사항              (iADC 플랫폼 공동연구 및 기술이전 계약 체결)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260930",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (iADC 플랫폼 공동연구 및 기술이전 계약 체결) · 에이비온</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "에이비온"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900696",
+      "direction": "neutral",
+      "updated_at": "2026-09-30 16:35:17"
+    },
+    {
+      "id": 24217,
+      "title": "리가켐바이오 — 투자판단관련주요경영사항              (iADC 플랫폼 공동연구 및 기술도입 계약 체결)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260930",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (iADC 플랫폼 공동연구 및 기술도입 계약 체결) · 리가켐바이오</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "리가켐바이오"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900659",
+      "direction": "neutral",
+      "updated_at": "2026-09-30 16:35:16"
+    },
+    {
+      "id": 24206,
+      "title": "넥써쓰 — [첨부정정]주요사항보고서(주식교환ㆍ이전결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20260930",
+      "summary": "<p>주식교환</p>\n<p style='color:#718096;font-size:.9em'>📋 [첨부정정]주요사항보고서(주식교환ㆍ이전결정) · 넥써쓰</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "넥써쓰"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000616",
+      "direction": "neutral",
+      "updated_at": "2026-09-30 16:35:11"
     },
     {
       "id": 24204,
@@ -11597,94 +11685,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508901116",
       "direction": "down",
       "updated_at": "2026-05-08 17:35:09"
-    },
-    {
-      "id": 1677,
-      "title": "에코프로 — 투자판단관련주요경영사항              (지주회사 적용예외)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>공시 제목은 '투자판단관련주요경영사항'이나 본문 내용이 제공되지 않아 구체적인 계약 규모, 매출 비중, 임상 단계, 지분 비율 등 수치를 확인할 수 없습니다.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (지주회사 적용예외) · 에코프로</p>",
-      "feedback": "공시 본문 없이 제목과 메타정보만 제공되어 실질적 경영사항 평가 불가",
-      "stocks": [
-        "에코프로"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507900960",
-      "direction": "neutral",
-      "updated_at": "2026-05-07 17:35:12"
-    },
-    {
-      "id": 1623,
-      "title": "제일엠앤에스 — 투자판단관련주요경영사항              (M&A 관련 최종인수예정자 확정 허가 결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260507",
-      "summary": "<p>회생절차 중인 제일엠앤에스가 공개매각 입찰 불응으로 우선협상대상자 푸른인베스트먼트를 최종인수예정자로 확정. 구체적 계약규모·조건 미공시로 인수가 절하 우려 및 기존주주 지분 희석 가능성 존재.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (M&A 관련 최종인수예정자 확정 허가 결정) · 제일엠앤에스</p>",
-      "feedback": "회생법원 절차 하 M&A 최종확정은 상장폐지 가능성 높은 구조적 악재이며, 공개매각 불응으로 우호적 조건 협상 불가능 신호로 작용",
-      "stocks": [
-        "제일엠앤에스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507900396",
-      "direction": "down",
-      "updated_at": "2026-05-07 14:35:08"
-    },
-    {
-      "id": 805,
-      "title": "퓨쳐켐 — 투자판단관련주요경영사항              (프로스타뷰주사액([18F]플로라스타민) 식품의약품안전처 신약 허가)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260504",
-      "summary": "<p>퓨쳐켐의 전립선암 PET 진단제 '프로스타뷰주사액([18F]플로라스타민)'이 2026년 4월 30일 식품의약품안전처로부터 신약 허가를 획득했으며, 재발/전이성 전립선암 환자의 진단에 사용될 예정. 구체적인 매출 규모, 시장 규모, 회사 매출 대비 비중은 공시에 명시되지 않았으나, 신약 허가 자체는 의료기기/진단약 사업의 본격화 신호.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (프로스타뷰주사액([18F]플로라스타민) 식품의약품안전처 신약 허가) · 퓨쳐켐</p>",
-      "feedback": "신약 허가는 기술주의 핵심 이정표이며 향후 보험등재 및 상용화 성공 가능성을 시장이 재평가할 수 있는 촉매, 다만 재발/전이암 한정 적응증과 매출 규모 미확정이 상향 평가 제약.",
-      "stocks": [
-        "퓨쳐켐"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260504900007",
-      "direction": "up",
-      "updated_at": "2026-05-04 08:35:05"
-    },
-    {
-      "id": 532,
-      "title": "큐로셀 — 투자판단관련주요경영사항              (림카토주(안발셀) 식품의약품안전처 품목허가 승인)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260429",
-      "summary": "<p>림카토주(안발셀) 식품의약품안전처 품목허가 승인으로 신약 상용화 진입 단계 돌입, 향후 매출 창출 가능성 열림</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (림카토주(안발셀) 식품의약품안전처 품목허가 승인) · 큐로셀</p>",
-      "feedback": "신약 허가는 회사의 파이프라인 실현으로 중장기 성장성을 크게 높이는 긍정 신호이며, 단기 주가 재평가 요인으로 작용할 수 있음",
-      "stocks": [
-        "큐로셀"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429901252",
-      "direction": "up",
-      "updated_at": "2026-05-03 21:51:59"
     }
   ],
   "events": [
