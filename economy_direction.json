@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:05:02",
+  "generated_at": "2026-10-02T14:35:09",
   "count": 500,
   "posts": [
     {
@@ -4887,6 +4887,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 24335,
+      "title": "자화전자 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20261002",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 자화전자</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "자화전자"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000288",
+      "direction": "up",
+      "updated_at": "2026-10-02 14:35:07"
+    },
+    {
+      "id": 24332,
+      "title": "원풍 — 주요사항보고서(자기주식취득결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20261002",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 원풍</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "원풍"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000326",
+      "direction": "up",
+      "updated_at": "2026-10-02 14:35:06"
     },
     {
       "id": 24331,
@@ -11641,50 +11685,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601800011",
       "direction": "up",
       "updated_at": "2026-06-01 08:35:11"
-    },
-    {
-      "id": 6454,
-      "title": "한미사이언스 — 투자판단관련주요경영사항(자회사의 주요경영사항)              (소네페글루타이드 (Sonefpeglutide; LAPS GLP2 agonist; HM15912) 기술이전 계약 체결)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260601",
-      "summary": "<p>한미사이언스가 Eli Lilly에 GLP2 치료제 소네페글루타이드 기술을 전 세계(한국 제외) 권역에 1조 8,973억원(총 계약금)에 이전하는 계약 체결. 계약금 1,129억원은 즉시 인식 가능하며, 임상·허가·판매 단계별 마일스톤 1조 7,844억원과 경상기술료(로열티) 추가 수익 가능.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항(자회사의 주요경영사항)              (소네페글루타이드 (Sonefpeglutide; LAPS GLP2 agonist; HM15912) 기술이전 계약 체결) · 한미사이언스</p>",
-      "feedback": "글로벌 제약사 대형 계약(1조 8천억원대)으로 우량한 수익화 경로 확보되었으나, 마일스톤 대부분(94%)이 임상·허가 성공 조건부이고 실현 불확실성이 크며, 자회사 계약으로 단기 매출 인식 규모가 제한적임.",
-      "stocks": [
-        "한미사이언스"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601800024",
-      "direction": "up",
-      "updated_at": "2026-06-01 08:35:06"
-    },
-    {
-      "id": 6045,
-      "title": "고스트스튜디오 — 주요사항보고서(자기주식취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260529",
-      "summary": "<p>고스트스튜디오가 약 126.4억 원 규모(7,200원 기준)로 KDR 175만6천 주를 매입해 전량 소각하는 주주환원 결정. 현재 자기주식 미보유 상태에서의 첫 매입이며, 배당가능이익 605억 원 중 약 20.8%를 소각에 할당하는 규모.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · 고스트스튜디오</p>",
-      "feedback": "자사주 매입·소각은 기본적 호재(주당순이익 개선, 주주가치 환원)이며, 초기 자기주식 미보유에서의 신규 매입 결정으로 경영진의 긍정적 신호, 다만 규모가 배당가능이익의 20% 수준으로 대규모는 아님.",
-      "stocks": [
-        "고스트스튜디오"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529000175",
-      "direction": "up",
-      "updated_at": "2026-05-30 07:35:35"
     }
   ],
   "events": [
