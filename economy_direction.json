@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:05:02",
+  "generated_at": "2026-10-02T13:35:08",
   "count": 500,
   "posts": [
     {
@@ -4887,6 +4887,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 24331,
+      "title": "가온칩스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20261002",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약해지결정) · 가온칩스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "가온칩스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000161",
+      "direction": "up",
+      "updated_at": "2026-10-02 13:35:07"
     },
     {
       "id": 24328,
@@ -11663,28 +11685,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529000175",
       "direction": "up",
       "updated_at": "2026-05-30 07:35:35"
-    },
-    {
-      "id": 6031,
-      "title": "제테마 — 투자판단관련주요경영사항(임상시험결과)              (제테마더톡신주100단위(JTM201) 중국 임상 3상 1단계 결과 )",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260529",
-      "summary": "<p>JTM201 중국 임상 3상 1단계에서 보톡스® 대비 비열등성 입증 및 안전성 확인. 506명 대상 시험에서 4주 후 미간주름 개선율이 기존약과 유사하며 중대 이상반응 없음. 향후 중국 품목허가 신청 및 글로벌 진출 예정.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항(임상시험결과)              (제테마더톡신주100단위(JTM201) 중국 임상 3상 1단계 결과 ) · 제테마</p>",
-      "feedback": "신약 임상 3상 1단계 긍정 결과로 상용화 경로 확보했으나, 최종 허가까지 약 10% 성공률 리스크 존재하고 아직 허가 단계 아님 - 중기적 기대감 반영 시 호재",
-      "stocks": [
-        "제테마"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529900749",
-      "direction": "up",
-      "updated_at": "2026-05-30 07:35:14"
     }
   ],
   "events": [
