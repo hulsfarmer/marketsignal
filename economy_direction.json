@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:05:02",
+  "generated_at": "2026-10-02T17:35:15",
   "count": 500,
   "posts": [
     {
@@ -4909,6 +4909,94 @@
       "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVF2b3FCcFkxVkdGTEI5V2RJVXFSNGE1Mm9CLTI3dE9ySVhQaG1jS05RV2xtTXVfU0dlV3ZsT2hITU9LZmo4ei05R3UwT1NwRGl5NTNLSXdHVEtOZlBYemo1NDV3V295WW9uNHhadGNJaXQ2aU5yU0thd0t0eUs1R3dERlFhZ1hmNUhxTW9rd0hsWkhEckwwMWw0SURKbEVYMlRZeW40Y2RWVy05R0Z3WTY0dnJoSlJhU3B5cXdJTTNnN0JPakwwWmFpX1UzQTQ1SWUwSEVEZElTOWkyckdWbTFnSnF0RUw5RWVHcC1RRU0wY3hD?oc=5",
       "direction": "down",
       "updated_at": "2026-06-09 15:08:18"
+    },
+    {
+      "id": 24365,
+      "title": "마녀공장 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20261002",
+      "summary": "<p>자사주 매입 — 호재</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 마녀공장</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "마녀공장"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000600",
+      "direction": "up",
+      "updated_at": "2026-10-02 17:35:13"
+    },
+    {
+      "id": 24364,
+      "title": "씨씨에스 — 투자판단관련주요경영사항              (소액주주에 의한 [일시 이사의 직무를 행할자의 선임에 관한 재판요청서] 즉시항고 기각결정에 대한 재항고장 접수)",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20261002",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항              (소액주주에 의한 [일시 이사의 직무를 행할자의 선임에 관한 재판요청서] 즉시항고 기각결정에 대한 재항고장 접수) · 씨씨에스</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "씨씨에스"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002900953",
+      "direction": "neutral",
+      "updated_at": "2026-10-02 17:35:13"
+    },
+    {
+      "id": 24362,
+      "title": "CJ제일제당 — 투자판단관련주요경영사항              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20261002",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · CJ제일제당</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "CJ제일제당"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002800947",
+      "direction": "neutral",
+      "updated_at": "2026-10-02 17:35:11"
+    },
+    {
+      "id": 24359,
+      "title": "CJ — 투자판단관련주요경영사항(자회사의 주요경영사항)              ",
+      "category": "주식",
+      "youtube_url": "",
+      "youtube_id": "",
+      "channel": "DART",
+      "uploaded_on": "20261002",
+      "summary": "<p>투자판단 관련 — 중요 사안</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항(자회사의 주요경영사항)               · CJ</p>",
+      "feedback": "Claude 실패 — 룰 점수 사용",
+      "stocks": [
+        "CJ"
+      ],
+      "tags": [
+        "DART공시"
+      ],
+      "impact_score": 7,
+      "source_type": "disclosure",
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002800987",
+      "direction": "neutral",
+      "updated_at": "2026-10-02 17:35:10"
     },
     {
       "id": 24356,
@@ -11597,94 +11685,6 @@
       "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000537",
       "direction": "neutral",
       "updated_at": "2026-06-02 18:35:25"
-    },
-    {
-      "id": 6630,
-      "title": "GS건설 — 투자판단관련주요경영사항              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260601",
-      "summary": "<p>공시 제목은 '투자판단관련주요경영사항'이나 본문 내용이 제공되지 않아 구체적인 계약 규모, 매출 비중, 사업 내용 등을 확인할 수 없습니다.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · GS건설</p>",
-      "feedback": "공시 본문 정보 부재로 영향도 평가 불가능",
-      "stocks": [
-        "GS건설"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601801867",
-      "direction": "neutral",
-      "updated_at": "2026-06-01 18:35:13"
-    },
-    {
-      "id": 6540,
-      "title": "티피씨글로벌 — 주요사항보고서(자기주식취득신탁계약체결결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260601",
-      "summary": "<p>티피씨글로벌이 200억 원 규모로 1,170,960주(주가 1,708원 기준)의 자기주식 취득 신탁계약을 체결 결정. 배당가능이익 449억 원 중 약 44.5%를 자사주 매입에 할당하며, 계약 종료 후 소각 예정으로 주당가치 제고를 목표.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득신탁계약체결결정) · 티피씨글로벌</p>",
-      "feedback": "200억 규모 자사주 매입 + 소각 계획은 EPS 개선 및 주주가치 제고 신호로 긍정적이나, 현재 자사주 보유가 없고 순자산 612억 원 대비 규모가 중간 수준인 점에서 7점.",
-      "stocks": [
-        "티피씨글로벌"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000628",
-      "direction": "up",
-      "updated_at": "2026-06-01 14:35:16"
-    },
-    {
-      "id": 6539,
-      "title": "GS건설 — 투자판단관련주요경영사항              ",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260601",
-      "summary": "<p>공시 제목은 '투자판단관련주요경영사항'이나 구체적인 본문 내용(계약 규모, 매출 비중, 구체 수치)이 제공되지 않아 평가 불가능합니다.</p>\n<p style='color:#718096;font-size:.9em'>📋 투자판단관련주요경영사항               · GS건설</p>",
-      "feedback": "본문 세부 내용 부재로 판단 근거 불충분",
-      "stocks": [
-        "GS건설"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601800575",
-      "direction": "neutral",
-      "updated_at": "2026-06-01 14:35:12"
-    },
-    {
-      "id": 6537,
-      "title": "MH에탄올 — 주요사항보고서(자기주식취득결정)",
-      "category": "주식",
-      "youtube_url": "",
-      "youtube_id": "",
-      "channel": "DART",
-      "uploaded_on": "20260601",
-      "summary": "<p>공시 제목은 '자기주식취득결정'이나 구체적인 취득 규모, 회사 시가총액 대비 비중, 취득 목적 등 본문의 수치 정보가 제공되지 않아 평가 불가.</p>\n<p style='color:#718096;font-size:.9em'>📋 주요사항보고서(자기주식취득결정) · MH에탄올</p>",
-      "feedback": "공시 제목만으로는 취득 규모·목적·재무적 중요도를 판단할 구체 수치가 없음.",
-      "stocks": [
-        "MH에탄올"
-      ],
-      "tags": [
-        "DART공시"
-      ],
-      "impact_score": 7,
-      "source_type": "disclosure",
-      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000804",
-      "direction": "neutral",
-      "updated_at": "2026-06-01 14:35:09"
     }
   ],
   "events": [
