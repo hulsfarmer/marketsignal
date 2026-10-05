@@ -200,7 +200,7 @@ main .panel{padding:22px 24px 24px;scroll-margin-top:76px}
   </section>
 </main>
 <footer class="site-footer"><div class="wrap"><div><b>MarketSignal</b> — 시장 데이터를 해석 없이, 있는 그대로<br>데이터: 네이버 금융 (장중 약 5분 지연) · 금감원 DART · 종목 목록 하루 4회 갱신<br>
-    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.</div><nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="screen.html">조건 검색</a><a href="economy.html">공시·일정</a></nav></div></footer>
+    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.</div><nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="screen.html">조건 검색</a><a href="economy.html">공시·일정</a><a href="https://stock.marketsignal.kr/">전체 종목</a><a href="https://stock.marketsignal.kr/market/">일일 시장 요약</a></nav></div></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <script>
@@ -595,6 +595,7 @@ function renderTitle(){
   $("#title").innerHTML = `<h2>${esc(raw.name)}</h2><span class="code">${raw.code} · ${raw.market}${raw.type ? " " + raw.type : ""}</span>
     <span class="px">${nf(last, pxd(last))}</span><span class="chg ${cls}">${ch > 0 ? "▲" : ch < 0 ? "▼" : ""} ${nf(Math.abs(ch), pxd(last))} (${pct > 0 ? "+" : ""}${nf(pct, 2)}%)</span>
     ${raw.partial ? '<span class="badge">장중</span>' : ""}<span class="asof">${raw.d[n]} 기준${info && info.mv ? ` · 시가총액 ${fmtCap(info.mv)}` : ""}</span>
+    <a class="star" href="https://stock.marketsignal.kr/${raw.code}" title="이 종목의 수치 요약 페이지">요약 페이지</a>
     <button class="star${inWatch(raw.code) ? " on" : ""}" id="star">${inWatch(raw.code) ? "★ 관심종목" : "☆ 관심종목 추가"}</button>`;
   $("#star").onclick = () => { toggleWatch(raw.code, raw.name); renderTitle(); };
 }

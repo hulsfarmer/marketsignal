@@ -128,7 +128,7 @@ td small{color:var(--muted)}
   </section>
 </main>
 <footer class="site-footer"><div class="wrap"><div><b>MarketSignal</b> — 시장 데이터를 해석 없이, 있는 그대로<br>데이터: 네이버 금융 · Yahoo Finance · FRED(미국 세인트루이스 연준) · OECD<span id="ecosSrc"></span> · 하루 2회 자동 갱신<br>
-    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.</div><nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="screen.html">조건 검색</a><a href="economy.html">공시·일정</a></nav></div></footer>
+    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.</div><nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="screen.html">조건 검색</a><a href="economy.html">공시·일정</a><a href="https://stock.marketsignal.kr/">전체 종목</a><a href="https://stock.marketsignal.kr/market/">일일 시장 요약</a></nav></div></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <script>
@@ -461,7 +461,7 @@ async function loadMarket(){
   if (!MKT || !MKT.breadth) return;
   $("#mkt").hidden = false;
   const d = new Date(MKT.day + "T00:00:00");
-  $("#mktDay").textContent = `${d.getMonth() + 1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]}) 기준 · 코스피·코스닥 보통주·우선주 전체`;
+  $("#mktDay").innerHTML = `${d.getMonth() + 1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]}) 기준 · 코스피·코스닥 보통주·우선주 전체 · <a href="https://stock.marketsignal.kr/market/${MKT.day}">이날 시장 요약 글 →</a>`;
   renderBreadth(); renderList(); renderHeat();
 }
 function renderBreadth(){
