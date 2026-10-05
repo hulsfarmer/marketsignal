@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>조건 검색 · MarketSignal</title>
+<meta name="description" content="이평선·RSI·볼린저·박스권·거래대금·PER·PBR·수급·공시 조건을 골라 코스피·코스닥 전 종목에서 오늘 조건에 맞는 종목을 찾는 무료 조건 검색">
+<link rel="canonical" href="https://marketsignal.kr/screen.html">
+<script>try{var t=localStorage.getItem("ms_theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f2f4f6">
+<meta property="og:image" content="https://marketsignal.kr/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/ms.css?v=3">
+<script src="assets/ms.js?v=3" defer></script>
+<style>
+.cond{background:var(--card);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:18px 22px 20px;margin-bottom:16px}
+.cond h3{font-size:1em;font-weight:800;margin:0 0 10px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.presets{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.chip.preset{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.base{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:12px;font-size:.88em;color:var(--sub)}
+.base label{display:inline-flex;align-items:center;gap:6px}
+.base select,.base input{font-size:.95em;padding:5px 8px}
+.groups{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.grp{background:var(--chip);border-radius:var(--r-md);padding:12px 14px}
+.grp h4{font-size:.82em;color:var(--muted);font-weight:700;margin-bottom:6px;letter-spacing:.02em}
+.ci{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:.9em;color:var(--sub);flex-wrap:wrap}
+.ci input[type=checkbox]{width:16px;height:16px;accent-color:var(--accent);flex:none}
+.ci.on{color:var(--ink);font-weight:600}
+.ci input[type=number]{width:62px;padding:3px 6px;font-size:.92em}
+.ci select{padding:3px 4px;font-size:.92em}
+.active{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:12px 0 0;font-size:.85em}
+.active .chip{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.res{background:var(--card);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:16px 22px 22px}
+.res-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.res-head b{font-size:1.15em}
+.res-head span{color:var(--muted);font-size:.82em}
+.tw{overflow-x:auto}
+#tbl{min-width:760px;font-size:.86em}
+#tbl th,#tbl td{padding:9px 8px;text-align:right;white-space:nowrap}
+#tbl th:first-child,#tbl td:first-child{text-align:left}
+#tbl th{cursor:pointer;user-select:none}
+#tbl th.on{color:var(--accent)}
+#tbl td a{color:var(--ink);font-weight:700}
+#tbl td small{display:block;color:var(--muted);font-weight:500;font-size:.85em}
+#tbl tr:hover td{background:var(--chip)}
+.more{display:block;margin:14px auto 0}
+.empty{color:var(--muted);text-align:center;padding:36px 0}
+@media (max-width:640px){ .cond,.res{padding:14px 16px} .groups{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap"><a class="logo" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#3182f6"/><path d="M7 21.5l6-6 4 4 8.5-9" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25.5" cy="10.5" r="2.3" fill="#fff"/></svg><span>MarketSignal</span></a><nav class="navlinks" aria-label="메뉴"><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="screen.html" class="on">조건 검색</a><a href="economy.html">공시·일정</a></nav><button class="themebtn" id="themebtn" type="button" aria-label="화면 테마 바꾸기"></button></div></header>
+<main class="wrap">
+  <div class="page-head"><h1>조건 검색</h1><p>조건을 고르면 코스피·코스닥 전 종목 중 오늘 그 조건에 맞는 종목을 보여줘요</p></div>
+  <div class="updated" id="updated">불러오는 중…</div>
+
+  <section class="cond">
+    <h3><span>추천 조합</span><span style="display:flex;gap:6px"><button class="chip" id="share">링크로 공유</button><button class="chip" id="reset">조건 모두 끄기</button></span></h3>
+    <div class="presets" id="presets"></div>
+    <div class="base">
+      <label>시장 <select id="fMkt"><option value="">전체</option><option>코스피</option><option>코스닥</option></select></label>
+      <label>업종 <select id="fSec"><option value="">전체</option></select></label>
+      <label>시가총액 ≥ <input type="number" id="fMv" min="0" step="100" value="0" style="width:90px"> 억</label>
+      <label>거래대금 ≥ <input type="number" id="fVal" min="0" step="1" value="0" style="width:70px"> 억</label>
+      <label><input type="checkbox" id="fWatch"> ★ 관심종목만</label>
+    </div>
+    <div class="groups" id="groups"></div>
+    <div class="active" id="active"></div>
+  </section>
+
+  <section class="res">
+    <div class="res-head"><b id="cnt">–</b><span id="cntSub"></span></div>
+    <div class="tw"><table id="tbl"></table></div>
+    <button class="chip more" id="more" hidden>더 보기</button>
+    <ul class="notes">
+      <li>장 마감 뒤(평일 16:40·19:40) 계산한 값이에요. 장중에는 직전 거래일 기준이에요.</li>
+      <li>지표 정의는 종목 차트와 같아요 (이평 = 단순이동평균, RSI 14일, 볼린저 20일·2σ, MACD 12·26·9, 박스권 = 종가 20봉·폭 15%·위아래 번갈아 2회 이상).</li>
+      <li>PER·PBR·ROE는 네이버 금융 기준, 영업이익은 금감원 DART(공시 기한이 지난 분기만), 수급은 최근 60일, 공시는 최근 30일이에요. 거래대금은 종가 × 거래량 근사예요.</li>
+      <li><b>조건에 맞는 종목 목록일 뿐, 매수·매도 추천이 아닙니다.</b> 이 사이트의 과거 검증에서 볼린저 돌파·박스권 돌파 같은 단순 조건은 10년 동안 시장 평균보다 나은 결과를 보이지 않았어요.</li>
+    </ul>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap"><div><b>MarketSignal</b> — 시장 데이터를 해석 없이, 있는 그대로<br>데이터: 네이버 금융 · 금융감독원 DART<br>
+    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.</div><nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="screen.html">조건 검색</a><a href="economy.html">공시·일정</a></nav></div></footer>
+
+<script>
+(() => {
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nf = (v, d = 0) => v == null || isNaN(v) ? "–" : Number(v).toLocaleString("ko-KR", {minimumFractionDigits: d, maximumFractionDigits: d});
+const pctTxt = v => v == null ? "–" : `<span class="${v > 0 ? "up" : v < 0 ? "down" : "flat"}">${v > 0 ? "+" : ""}${nf(v, 2)}%</span>`;
+const eok = v => v == null ? "–" : v >= 10000 ? `${nf(v / 10000, v >= 100000 ? 0 : 1)}조` : `${nf(v)}억`;
+const API = "https://api.marketsignal.kr/v1/screen";
+
+// ───────── 조건 정의 ─────────
+// p: 숫자 입력 [이름, 기본값] · s: 선택 [이름, 옵션들, 기본] · t: 판정 · col: 결과표에 보여줄 값 [머리, 꺼내기, 형식]
+const G = [
+  ["추세", [
+    {id: "ma_up", L: "종가가 {s}일선 위", s: ["n", ["5", "20", "60", "120", "200"], "20"], t: (r, p) => r["ma" + p.n] === 1},
+    {id: "ma_dn", L: "종가가 {s}일선 아래", s: ["n", ["5", "20", "60", "120", "200"], "60"], t: (r, p) => r["ma" + p.n] === 0},
+    {id: "gx", L: "오늘 골든크로스 {s}", s: ["n", ["5/20", "20/60"], "5/20"], t: (r, p) => r[p.n === "5/20" ? "x5_20" : "x20_60"] === 1},
+    {id: "dx", L: "오늘 데드크로스 {s}", s: ["n", ["5/20", "20/60"], "5/20"], t: (r, p) => r[p.n === "5/20" ? "x5_20" : "x20_60"] === -1},
+    {id: "nh", L: "오늘 52주 신고가", t: r => r.nh === 1, col: ["52주 고점 대비", r => r.dh, pctTxt]},
+    {id: "nl", L: "오늘 52주 신저가", t: r => r.nl === 1},
+    {id: "dh", L: "52주 최고가보다 {p}% 이상 낮음", p: ["v", 30], t: (r, p) => r.dh != null && r.dh <= -p.v, col: ["52주 고점 대비", r => r.dh, pctTxt]},
+    {id: "ret", L: "최근 {s}일 수익률 ≥ {p}%", s: ["n", ["5", "20", "60", "250"], "20"], p: ["v", 10], t: (r, p) => (r["r" + p.n] ?? -1e9) >= p.v, col: ["기간 수익률", (r, p) => r["r" + p.n], pctTxt]},
+    {id: "retd", L: "최근 {s}일 수익률 ≤ -{p}%", s: ["n", ["5", "20", "60", "250"], "20"], p: ["v", 10], t: (r, p) => (r["r" + p.n] ?? 1e9) <= -p.v, col: ["기간 수익률", (r, p) => r["r" + p.n], pctTxt]},
+  ]],
+  ["오실레이터·패턴", [
+    {id: "rsi_lo", L: "RSI(14) ≤ {p}", p: ["v", 30], t: (r, p) => r.rsi != null && r.rsi <= p.v, col: ["RSI", r => r.rsi, v => nf(v, 1)]},
+    {id: "rsi_hi", L: "RSI(14) ≥ {p}", p: ["v", 70], t: (r, p) => r.rsi != null && r.rsi >= p.v, col: ["RSI", r => r.rsi, v => nf(v, 1)]},
+    {id: "bb_up", L: "볼린저 상단 위에서 마감", t: r => r.bb === 1},
+    {id: "bb1", L: "오늘 볼린저 상단 첫 돌파", t: r => r.bb1 === 1},
+    {id: "bb_dn", L: "볼린저 하단 아래에서 마감", t: r => r.bb === -1},
+    {id: "macd_up", L: "오늘 MACD가 시그널 위로 교차", t: r => r.macd === 1},
+    {id: "macd_pos", L: "MACD 오실레이터 0 위", t: r => r.osc === 1},
+    {id: "box_in", L: "박스권 안 (자동)", t: r => r.box === 1, col: ["박스권", r => r.boxr, v => v ? `${nf(v[0])}~${nf(v[1])}` : "–"]},
+    {id: "box_up", L: "최근 5일 안 박스권 위로 돌파", t: r => r.box === 2, col: ["박스권", r => r.boxr, v => v ? `${nf(v[0])}~${nf(v[1])}` : "–"]},
+    {id: "box_dn", L: "최근 5일 안 박스권 아래로 이탈", t: r => r.box === -2, col: ["박스권", r => r.boxr, v => v ? `${nf(v[0])}~${nf(v[1])}` : "–"]},
+  ]],
+  ["거래", [
+    {id: "vr", L: "거래대금이 20일 평균의 {p}배 이상", p: ["v", 3], t: (r, p) => (r.vr ?? 0) >= p.v, col: ["거래대금 배수", r => r.vr, v => v == null ? "–" : nf(v, 1) + "배"]},
+    {id: "chg_up", L: "오늘 {p}% 이상 상승", p: ["v", 5], t: (r, p) => (r.chg ?? -1e9) >= p.v},
+    {id: "chg_dn", L: "오늘 {p}% 이상 하락", p: ["v", 5], t: (r, p) => (r.chg ?? 1e9) <= -p.v},
+  ]],
+  ["펀더멘털", [
+    {id: "per", L: "PER {p}~{p2}배 (흑자만)", p: ["lo", 0], p2: ["hi", 15], t: (r, p) => r.per != null && r.per > 0 && r.per >= p.lo && r.per <= p.hi, col: ["PER", r => r.per, v => nf(v, 2)]},
+    {id: "pbr", L: "PBR ≤ {p}배", p: ["v", 1], t: (r, p) => r.pbr != null && r.pbr > 0 && r.pbr <= p.v, col: ["PBR", r => r.pbr, v => nf(v, 2)]},
+    {id: "roe", L: "ROE ≥ {p}% (EPS÷BPS 근사)", p: ["v", 10], t: (r, p) => (r.roe ?? -1e9) >= p.v, col: ["ROE", r => r.roe, v => v == null ? "–" : nf(v, 1) + "%"]},
+    {id: "pr", L: "업종 안에서 PER 낮은 쪽 {p}% 이내", p: ["v", 30], t: (r, p) => r.pr != null && r.pr <= p.v, col: ["PER", r => r.per, v => nf(v, 2)]},
+    {id: "br", L: "업종 안에서 PBR 낮은 쪽 {p}% 이내", p: ["v", 30], t: (r, p) => r.br != null && r.br <= p.v, col: ["PBR", r => r.pbr, v => nf(v, 2)]},
+    {id: "div", L: "배당수익률 ≥ {p}%", p: ["v", 3], t: (r, p) => (r.div ?? 0) >= p.v, col: ["배당", r => r.div, v => v == null ? "–" : nf(v, 2) + "%"]},
+    {id: "qq", L: "영업이익 직전 분기보다 증가", t: r => r.qq === 1, col: ["최근 분기", r => r.q, v => v || "–"]},
+    {id: "yy", L: "영업이익 전년 같은 분기보다 증가", t: r => r.yy === 1, col: ["최근 분기", r => r.q, v => v || "–"]},
+    {id: "tt", L: "영업이익 적자 → 흑자 전환", t: r => r.tt === 1, col: ["최근 분기", r => r.q, v => v || "–"]},
+  ]],
+  ["수급", [
+    {id: "fs", L: "외국인 {p}일 이상 연속 순매수", p: ["v", 3], t: (r, p) => (r.fs ?? 0) >= p.v, col: ["외국인 연속", r => r.fs, v => (v ?? 0) + "일"]},
+    {id: "os", L: "기관 {p}일 이상 연속 순매수", p: ["v", 3], t: (r, p) => (r.os ?? 0) >= p.v, col: ["기관 연속", r => r.os, v => (v ?? 0) + "일"]},
+    {id: "both", L: "외국인·기관 함께 {p}일 이상 연속 순매수", p: ["v", 2], t: (r, p) => Math.min(r.fs ?? 0, r.os ?? 0) >= p.v, col: ["외국인 연속", r => r.fs, v => (v ?? 0) + "일"]},
+    {id: "f20", L: "외국인 20일 순매수 ≥ {p}억", p: ["v", 100], t: (r, p) => (r.f20 ?? -1e9) >= p.v, col: ["외국인 20일", r => r.f20, v => v == null ? "–" : (v > 0 ? "+" : "") + nf(v) + "억"]},
+    {id: "o20", L: "기관 20일 순매수 ≥ {p}억", p: ["v", 100], t: (r, p) => (r.o20 ?? -1e9) >= p.v, col: ["기관 20일", r => r.o20, v => v == null ? "–" : (v > 0 ? "+" : "") + nf(v) + "억"]},
+  ]],
+  ["공시 (최근 30일)", [
+    {id: "bk", L: "최근 {p}일 안 자사주 매입·소각 공시", p: ["v", 30], t: (r, p) => r.bk != null && r.bk <= p.v, col: ["자사주 공시", r => r.bk, v => v == null ? "–" : v + "일 전"]},
+    {id: "ct", L: "매출액 대비 {p}% 이상 공급계약", p: ["v", 10], t: (r, p) => (r.ct ?? 0) >= p.v, col: ["공급계약", r => r.ct, v => v == null ? "–" : nf(v, 1) + "%"]},
+    {id: "nowarn", L: "주의 공시(거래정지·불성실 등) 없음", t: r => r.warn == null},
+  ]],
+];
+const C = Object.fromEntries(G.flatMap(([, L]) => L).map(c => [c.id, c]));
+const PRESETS = [
+  ["52주 신고가 + 거래 급증", {nh: {}, vr: {v: 2}}],
+  ["RSI 과매도 + PBR 1 미만", {rsi_lo: {v: 30}, pbr: {v: 1}}],
+  ["외국인·기관 동반 순매수", {both: {v: 3}}],
+  ["실적 개선 + 업종 PER 하위", {qq: {}, yy: {}, pr: {v: 30}}],
+  ["골든크로스 + 60일선 위", {gx: {n: "5/20"}, ma_up: {n: "60"}}],
+  ["박스권 상단 돌파", {box_up: {}, vr: {v: 1.5}}],
+  ["자사주 매입 공시", {bk: {v: 30}}],
+  ["고배당 + 저PBR", {div: {v: 4}, pbr: {v: 1}}],
+];
+
+// ───────── 상태 ─────────
+let DATA = null, on = {}, sortK = "mv", sortD = -1, shown = 100, watch = new Set();
+try { (JSON.parse(localStorage.getItem("ms_watchlist_v1") || "[]") || []).forEach(w => w && w.c && watch.add(w.c)); } catch(e){}
+const defaults = c => Object.fromEntries([c.p, c.p2, c.s].filter(Boolean).map(x => [x[0], x.length === 3 ? x[2] : x[1]]));
+const base = () => ({mkt: $("#fMkt").value, sec: $("#fSec").value, mv: +$("#fMv").value || 0, val: +$("#fVal").value || 0, w: $("#fWatch").checked});
+
+function toHash(){
+  const parts = Object.entries(on).map(([id, p]) => id + (Object.keys(p).length ? ":" + Object.entries(p).map(([k, v]) => `${k}=${v}`).join(",") : ""));
+  const b = base(), q = new URLSearchParams();
+  if (parts.length) q.set("c", parts.join(";"));
+  if (b.mkt) q.set("mkt", b.mkt); if (b.sec) q.set("sec", b.sec); if (b.mv) q.set("mv", b.mv); if (b.val) q.set("val", b.val);
+  const h = q.toString();
+  history.replaceState(null, "", h ? "#" + h : location.pathname);
+  try { localStorage.setItem("ms_screen_v1", h); } catch(e){}
+}
+function fromHash(str){
+  const q = new URLSearchParams(str.replace(/^#/, ""));
+  on = {};
+  (q.get("c") || "").split(";").filter(Boolean).forEach(part => {
+    const [id, ps] = part.split(":"); if (!C[id]) return;
+    const p = defaults(C[id]);
+    (ps || "").split(",").filter(Boolean).forEach(kv => { const [k, v] = kv.split("="); if (k in p) p[k] = isNaN(+v) ? v : +v; });
+    on[id] = p;
+  });
+  $("#fMkt").value = q.get("mkt") || ""; $("#fMv").value = q.get("mv") || 0; $("#fVal").value = q.get("val") || 0;
+  return q.get("sec") || "";
+}
+
+// ───────── 조건 화면 ─────────
+function renderGroups(){
+  $("#groups").innerHTML = G.map(([g, L]) => `<div class="grp"><h4>${g}</h4>` + L.map(c => {
+    const p = on[c.id] || defaults(c);
+    let txt = esc(c.L)
+      .replace("{s}", c.s ? `<select data-k="${c.s[0]}">${c.s[1].map(o => `<option${String(p[c.s[0]]) === o ? " selected" : ""}>${o}</option>`).join("")}</select>` : "")
+      .replace("{p}", c.p ? `<input type="number" step="any" data-k="${c.p[0]}" value="${p[c.p[0]]}">` : "")
+      .replace("{p2}", c.p2 ? `<input type="number" step="any" data-k="${c.p2[0]}" value="${p[c.p2[0]]}">` : "");
+    return `<label class="ci${on[c.id] ? " on" : ""}" data-id="${c.id}"><input type="checkbox"${on[c.id] ? " checked" : ""}> <span>${txt}</span></label>`;
+  }).join("") + "</div>").join("");
+}
+function readParams(el, c){
+  const p = defaults(c);
+  el.querySelectorAll("[data-k]").forEach(i => { p[i.dataset.k] = i.tagName === "SELECT" ? i.value : (+i.value || 0); });
+  return p;
+}
+function bindGroups(){
+  $("#groups").addEventListener("change", e => {
+    const el = e.target.closest(".ci"); if (!el) return;
+    const c = C[el.dataset.id], cb = el.querySelector("input[type=checkbox]");
+    if (e.target.matches("[data-k]")) cb.checked = true;          // 숫자·선택을 바꾸면 그 조건을 켬
+    if (cb.checked) on[c.id] = readParams(el, c); else delete on[c.id];
+    el.classList.toggle("on", cb.checked);
+    shown = 100; run();
+  });
+}
+
+// ───────── 결과 ─────────
+function run(){
+  if (!DATA) return;
+  toHash();
+  const b = base(), ids = Object.keys(on);
+  const L = DATA.rows.filter(r => (!b.mkt || r.m === b.mkt) && (!b.sec || r.s === b.sec) && (r.mv || 0) >= b.mv && (r.val || 0) >= b.val
+    && (!b.w || watch.has(r.c)) && ids.every(id => C[id].t(r, on[id])));
+  // 켜진 조건의 값 열 (중복 머리 제거)
+  const extra = [], seen = new Set();
+  ids.forEach(id => { const c = C[id]; if (c.col && !seen.has(c.col[0])){ seen.add(c.col[0]); extra.push({h: c.col[0], get: r => c.col[1](r, on[id]), fmt: c.col[2]}); } });
+  const cols = [
+    {k: "n", h: "종목"}, {k: "px", h: "종가", f: r => nf(r.px)}, {k: "chg", h: "등락률", f: r => pctTxt(r.chg)},
+    {k: "mv", h: "시가총액", f: r => eok(r.mv)}, {k: "val", h: "거래대금", f: r => eok(Math.round(r.val))},
+    ...extra.map((x, i) => ({k: "x" + i, h: x.h, get: x.get, f: r => x.fmt(x.get(r))})),
+  ];
+  const keyv = (r, k) => { const c = cols.find(c => c.k === k); return c && c.get ? c.get(r) : r[k]; };
+  L.sort((a, b2) => {
+    if (sortK === "n") return sortD * String(a.n).localeCompare(String(b2.n), "ko");
+    let x = keyv(a, sortK), y = keyv(b2, sortK); if (Array.isArray(x)) x = x[0]; if (Array.isArray(y)) y = y[0];
+    return ((x ?? -Infinity) > (y ?? -Infinity) ? 1 : (x ?? -Infinity) < (y ?? -Infinity) ? -1 : 0) * sortD;
+  });
+  $("#cnt").textContent = ids.length ? `${nf(L.length)}종목` : `전체 ${nf(L.length)}종목`;
+  $("#cntSub").textContent = ids.length ? `켜진 조건 ${ids.length}개를 모두 만족 · 전체 ${nf(DATA.n)}종목 중` : "위에서 조건을 켜거나 추천 조합을 눌러 보세요";
+  $("#active").innerHTML = ids.length ? '<span style="color:var(--muted)">켜진 조건</span>' + ids.map(id => {
+    const c = C[id], p = on[id];
+    const t = c.L.replace("{s}", p[c.s?.[0]] ?? "").replace("{p}", p[c.p?.[0]] ?? "").replace("{p2}", p[c.p2?.[0]] ?? "");
+    return `<button class="chip" data-off="${id}">${esc(t)} ✕</button>`;
+  }).join("") : "";
+  if (!L.length){ $("#tbl").innerHTML = '<tr><td class="empty">조건에 맞는 종목이 없어요. 조건을 줄이거나 숫자를 바꿔 보세요.</td></tr>'; $("#more").hidden = true; return; }
+  $("#tbl").innerHTML = `<thead><tr>${cols.map(c => `<th data-k="${c.k}" class="${sortK === c.k ? "on" : ""}">${c.h}${sortK === c.k ? (sortD < 0 ? " ▼" : " ▲") : ""}</th>`).join("")}</tr></thead><tbody>` +
+    L.slice(0, shown).map(r => `<tr><td><a href="stock.html#code=${r.c}">${esc(r.n)}</a><small>${r.m} · ${esc(r.s || "")}</small></td>` +
+      cols.slice(1).map(c => `<td>${c.f(r)}</td>`).join("") + "</tr>").join("") + "</tbody>";
+  $("#more").hidden = L.length <= shown;
+  $("#more").textContent = `더 보기 (${nf(L.length - shown)}종목 남음)`;
+}
+
+// ───────── 시작 ─────────
+(async () => {
+  $("#presets").innerHTML = PRESETS.map((p, i) => `<button class="chip preset" data-i="${i}">${p[0]}</button>`).join("");
+  let wantSec = fromHash(location.hash || (() => { try { return localStorage.getItem("ms_screen_v1") || ""; } catch(e){ return ""; } })());
+  renderGroups(); bindGroups();
+  if (watch.size) $("#fWatch").parentElement.hidden = false; else $("#fWatch").parentElement.hidden = true;
+  try { DATA = await (await fetch(API)).json(); }
+  catch(e){ $("#updated").textContent = "데이터를 불러오지 못했어요. 잠시 후 새로고침해 주세요."; return; }
+  const d = new Date(DATA.day + "T00:00:00");
+  $("#updated").textContent = `${d.getMonth() + 1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]}) 종가 기준 · ${nf(DATA.n)}종목 (보통주, ETF·우선주·스팩 제외) · 계산 ${DATA.updated}`;
+  const secs = [...new Set(DATA.rows.map(r => r.s).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
+  $("#fSec").innerHTML = '<option value="">전체</option>' + secs.map(s => `<option${s === wantSec ? " selected" : ""}>${esc(s)}</option>`).join("");
+  run();
+
+  $("#presets").onclick = e => {
+    const b = e.target.closest("[data-i]"); if (!b) return;
+    const P = PRESETS[+b.dataset.i][1];
+    on = Object.fromEntries(Object.entries(P).map(([id, p]) => [id, {...defaults(C[id]), ...p}]));
+    renderGroups(); shown = 100; run();
+  };
+  $("#active").onclick = e => { const b = e.target.closest("[data-off]"); if (b){ delete on[b.dataset.off]; renderGroups(); run(); } };
+  $("#reset").onclick = () => { on = {}; renderGroups(); run(); };
+  ["#fMkt", "#fSec", "#fMv", "#fVal", "#fWatch"].forEach(s => $(s).addEventListener("change", () => { shown = 100; run(); }));
+  $("#tbl").addEventListener("click", e => { const th = e.target.closest("th"); if (!th) return; const k = th.dataset.k;
+    sortD = sortK === k ? -sortD : (k === "n" ? 1 : -1); sortK = k; run(); });
+  $("#more").onclick = () => { shown += 100; run(); };
+  $("#share").onclick = async () => {
+    toHash(); let ok = false;
+    try { await navigator.clipboard.writeText(location.href); ok = true; } catch(e){}
+    $("#share").textContent = ok ? "링크를 복사했어요" : "주소창의 링크를 복사하세요";
+    setTimeout(() => $("#share").textContent = "링크로 공유", 2500);
+  };
+})();
+})();
+</script>
+</body>
+</html>
