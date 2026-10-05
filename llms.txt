@@ -1,0 +1,22 @@
+# MarketSignal
+
+> 한국(코스피·코스닥) 상장 종목과 한국·미국 경제지표를 공개 데이터 그대로 정리하는 무료 정보 사이트. 해석·추천 없이 날짜와 출처가 붙은 사실만 제공한다. 투자 권유가 아니다.
+
+이 사이트(marketsignal.kr)의 페이지는 브라우저에서 데이터를 불러와 그리는 도구다. 날짜별 사실 문장으로 정리된 글은 stock.marketsignal.kr 에 있다 — [stock.marketsignal.kr/llms.txt](https://stock.marketsignal.kr/llms.txt) 참고.
+
+데이터 출처: 네이버 금융(시세·업종·수급·공모주), 금융감독원 DART(공시·재무), Yahoo Finance·FRED(해외 지수·금리·원자재), ForexFactory(경제지표 일정). 평일 장 마감 후 자동 갱신.
+
+## 도구
+- [경제지표 대시보드](https://marketsignal.kr/index.html): 코스피·코스닥·S&P500·나스닥, 환율, 미국·한국 금리, 유가 등을 1주~10년 기간으로 겹쳐 비교. 매일 아침·저녁 요약 문장 포함
+- [종목 차트](https://marketsignal.kr/stock.html): 이동평균·볼린저·일목·RSI·MACD·박스권, PER·PBR 밴드, 10년 재무, 업종 비교
+- [조건 검색](https://marketsignal.kr/screen.html): 가격·거래·재무·수급·공시 조건으로 코스피·코스닥 전 종목 검색
+- [공시·일정](https://marketsignal.kr/economy.html): 주요 공시(공급계약·자사주·배당·증자·M&A)와 주총·IR·배당·신규상장·경제지표 일정, 공모주
+
+## 날짜별 정리 글 (stock.marketsignal.kr)
+- [종목별 요약 (약 2,500개)](https://stock.marketsignal.kr/): 주가, PER·PBR 업종 비교, 실적, 수급, 공시, 자주 묻는 질문
+- [일일 증시 요약](https://stock.marketsignal.kr/market/)
+- [주간 증시 일정](https://stock.marketsignal.kr/week/)
+
+## 기타
+- [서비스 소개·개인정보 처리방침](https://marketsignal.kr/about.html)
+- 문의: marketsignal.kr@gmail.com
