@@ -50,6 +50,10 @@ nav a.on{color:var(--ink)}
 .tab.on{color:var(--ink);border-bottom-color:var(--accent)}
 .desc{color:var(--sub);font-size:.88em;margin:12px 0 10px}
 .row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}
+#series.grouped{display:block}
+#series.grouped .row{margin:4px 0}
+#series.grouped .lbl{min-width:92px}
+.tab.free{color:var(--accent)}
 .lbl{font-size:.78em;color:var(--muted);font-weight:600;min-width:58px}
 .chip{border:1px solid var(--line);background:var(--chip);color:var(--sub);font:inherit;font-size:.84em;
   padding:5px 11px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:all .12s}
@@ -162,7 +166,36 @@ function writeHash(){
 
 // ───────── data ─────────
 async function getJSON(u){ const r = await fetch(u + "?v=" + (manifest ? encodeURIComponent(manifest.updated) : Date.now())); if (!r.ok) throw new Error(u); return r.json(); }
+// 자유 비교: 모든 분야 지표를 한 곳에서 섞어 고르기
+const FREE = "all";
+const FREE_SKIP = new Set(["us_10y2y_r", "gold_r"]);   // 다른 탭과 중복
+const FREE_PRESETS = [
+  {name:"미 10년 금리 vs 유가", ids:["us_10y","wti"]},
+  {name:"미 10년 금리 vs 나스닥", ids:["us_10y","nasdaq"]},
+  {name:"원/달러 vs 코스피", ids:["usdkrw","kospi"]},
+  {name:"달러인덱스 vs 코스피", ids:["dxy","kospi"]},
+  {name:"유가 vs 미국 CPI", ids:["wti","us_cpi"]},
+  {name:"VIX vs S&P 500", ids:["vix","sp500"]},
+  {name:"구리 vs 코스피", ids:["copper","kospi"]},
+  {name:"반도체 vs 코스피 vs 원/달러", ids:["sox","kospi","usdkrw"]},
+];
+async function loadAll(){
+  if (cats[FREE]) return cats[FREE];
+  const real = manifest.categories.filter(c => c.id !== FREE);
+  const docs = await Promise.all(real.map(c => loadCat(c.id)));
+  const groups = docs.map(d => ({name: d.name, ids: d.series.map(s => s.id).filter(i => !FREE_SKIP.has(i))}));
+  const have = new Set(groups.flatMap(g => g.ids));
+  cats[FREE] = {
+    id: FREE, name: "자유 비교", groups,
+    desc: "분야에 상관없이 지표를 골라 한 그래프에 겹쳐 보세요 (최대 6개). 단위가 다르면 좌우 축을 나눠 그립니다.",
+    presets: FREE_PRESETS.filter(p => p.ids.every(i => have.has(i))),
+    default: ["us_10y", "wti"],
+    series: groups.flatMap(g => g.ids.map(i => byId[i])),
+  };
+  return cats[FREE];
+}
 async function loadCat(id){
+  if (id === FREE) return loadAll();
   if (cats[id]) return cats[id];
   const doc = await getJSON(`data/${id}.json`);
   doc.series.forEach(s => { byId[s.id] = s; });
@@ -228,7 +261,7 @@ function renderTiles(){
 // ───────── controls ─────────
 function renderTabs(){
   $("#tabs").innerHTML = manifest.categories.map(c =>
-    `<button class="tab${c.id === state.tab ? " on" : ""}" data-id="${c.id}" role="tab">${c.name}</button>`).join("");
+    `<button class="tab${c.id === FREE ? " free" : ""}${c.id === state.tab ? " on" : ""}" data-id="${c.id}" role="tab">${c.id === FREE ? "＋ " : ""}${c.name}</button>`).join("");
   $("#tabs").onclick = e => { const b = e.target.closest(".tab"); if (b) switchTab(b.dataset.id); };
 }
 
@@ -236,10 +269,10 @@ async function switchTab(id, sel){
   if (!manifest.categories.some(c => c.id === id)) id = manifest.categories[0].id;
   state.tab = id;
   const doc = await loadCat(id);
-  const valid = new Set(doc.series.map(s => s.id).concat(id !== "index" ? manifest.compare : []));
+  const valid = new Set(doc.series.map(s => s.id).concat(id !== "index" && id !== FREE ? manifest.compare : []));
   if (sel) state.sel = sel.filter(x => valid.has(x));
   else if (!state.sel.length || !state.sel.every(x => valid.has(x))) state.sel = doc.default.slice();
-  if (state.sel.some(x => manifest.compare.includes(x)) && id !== "index") await loadCat("index");
+  if (state.sel.some(x => manifest.compare.includes(x)) && id !== "index" && id !== FREE) await loadCat("index");
   renderControls();
   draw();
 }
@@ -265,9 +298,13 @@ function renderControls(){
   $("#desc").textContent = doc.desc;
   $("#presets").innerHTML = '<span class="lbl">추천 조합</span>' + doc.presets.map((p, i) =>
     `<button class="chip preset" data-i="${i}">${p.name}</button>`).join("");
-  $("#series").innerHTML = '<span class="lbl">지표 선택</span>' + doc.series.map(s => chipHTML(s)).join("");
+  const ser = $("#series");
+  ser.classList.toggle("grouped", !!doc.groups);
+  ser.innerHTML = doc.groups
+    ? doc.groups.map(g => `<div class="row"><span class="lbl">${g.name}</span>${g.ids.map(i => chipHTML(byId[i])).join("")}</div>`).join("")
+    : '<span class="lbl">지표 선택</span>' + doc.series.map(s => chipHTML(s)).join("");
   const cmp = $("#compare");
-  if (state.tab !== "index"){
+  if (state.tab !== "index" && state.tab !== FREE){
     cmp.hidden = false;
     cmp.innerHTML = '<span class="lbl">지수 겹치기</span>' + manifest.compare.map(id =>
       chipHTML(byId[id] || {id, name: {kospi:"코스피",kosdaq:"코스닥",sp500:"S&P 500",nasdaq:"나스닥"}[id], freq:"D"})).join("");
@@ -387,7 +424,8 @@ function draw(){
   if (monthly.length) msg.push(`${monthly.join(", ")}: 월·분기 발표 지표라 짧은 기간에서는 변화가 거의 보이지 않아요.`);
   hints.filter(h => h.includes("데이터가")).forEach(h => msg.push(h + "."));
   if (state.mode === "raw" && axisUnits.length > 1) msg.push("단위가 다른 지표는 좌우 축을 따로 씁니다.");
-  if (state.mode === "chg" && axisUnits.includes("%") && axisUnits.includes("%p")) msg.push("가격 지표는 왼쪽 축(%), 금리·물가 지표는 오른쪽 축(%p)입니다.");
+  const side = u => axisUnits.indexOf(u) % 2 === 0 ? "왼쪽" : "오른쪽";
+  if (state.mode === "chg" && axisUnits.includes("%") && axisUnits.includes("%p")) msg.push(`가격 지표는 ${side("%")} 축(%), 금리·물가 지표는 ${side("%p")} 축(%p)입니다.`);
   $("#hint").textContent = msg.join(" ");
 
   renderTable(sel);
@@ -431,6 +469,7 @@ async function boot(){
   }
   $("#updated").textContent = `데이터 갱신: ${manifest.updated} (한국시간)`;
   if (manifest.ecos) $("#ecosSrc").textContent = " · 한국은행 ECOS";
+  manifest.categories.push({id: FREE, name: "자유 비교"});
   readHash();
   renderTiles();
   renderTabs();
