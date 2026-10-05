@@ -171,7 +171,6 @@ const G = [
 const C = Object.fromEntries(G.flatMap(([, L]) => L).map(c => [c.id, c]));
 const PRESETS = [
   ["★ 모멘텀 V3 (과거 검증 규칙)", {v3: {v: 5}, v3x: {}}, {k: "x0", d: 1}],
-  ["거래대금 2000억 첫 돌파 (이전 실험)", {valx: {n: "2000"}, rare: {n: "2000", v: 3}, bull: {}, mvmax: {v: 10}}],
   ["52주 신고가 + 거래 급증", {nh: {}, vr: {v: 2}}],
   ["RSI 과매도 + PBR 1 미만", {rsi_lo: {v: 30}, pbr: {v: 1}}],
   ["외국인·기관 동반 순매수", {both: {v: 3}}],
