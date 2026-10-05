@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>종목 차트 · MarketSignal</title>
+<meta name="description" content="코스피·코스닥 전 종목 10년 차트에 이동평균선, 볼린저 밴드, 일목균형표, RSI, MACD, 스토캐스틱을 겹쳐 보는 무료 차트">
+<link rel="canonical" href="https://marketsignal.kr/stock.html">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --ink:#1a202c; --sub:#4a5568; --muted:#8a94a6; --line:#e5e8ee;
+  --accent:#1d4ed8; --accent-soft:#e8eefc; --up:#d92d20; --down:#1d5fd6; --chip:#f1f3f7;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1218; --card:#171b23; --ink:#e7eaf0; --sub:#b4bccb; --muted:#7c8597; --line:#2a303c;
+    --accent:#7aa2ff; --accent-soft:#1d2840; --up:#ff6b5e; --down:#6aa0ff; --chip:#212733; color-scheme:dark;}
+}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+body{font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Noto Sans KR","Apple SD Gothic Neo",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px 40px}
+header{padding:28px 0 14px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px}
+.brand h1{font-size:1.6em;letter-spacing:-.5px}
+.brand p{color:var(--sub);font-size:.93em}
+nav a{margin-left:16px;font-weight:600;font-size:.93em;color:var(--sub)}
+nav a.on{color:var(--ink)}
+
+.search{position:relative;max-width:520px}
+.search input{width:100%;font:inherit;font-size:1em;padding:11px 14px;border:1px solid var(--line);border-radius:10px;
+  background:var(--card);color:var(--ink);outline:none}
+.search input:focus{border-color:var(--accent)}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--card);border:1px solid var(--line);border-radius:10px;
+  box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:10;max-height:330px;overflow-y:auto}
+.sugg div{padding:8px 14px;cursor:pointer;display:flex;justify-content:space-between;gap:10px;font-size:.92em}
+.sugg div.on,.sugg div:hover{background:var(--accent-soft)}
+.sugg small{color:var(--muted)}
+.popular{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 18px}
+
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px 18px}
+.title{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.title h2{font-size:1.35em;letter-spacing:-.3px}
+.title .code{color:var(--muted);font-size:.85em}
+.title .px{font-size:1.35em;font-weight:700;font-variant-numeric:tabular-nums}
+.title .chg{font-weight:600;font-variant-numeric:tabular-nums}
+.title .asof{color:var(--muted);font-size:.8em}
+.badge{display:inline-block;font-size:.72em;font-weight:700;padding:1px 7px;border-radius:5px;background:var(--accent-soft);color:var(--accent)}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
+
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}
+.lbl{font-size:.78em;color:var(--muted);font-weight:600;min-width:58px}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--sub);font:inherit;font-size:.84em;
+  padding:5px 11px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:all .12s}
+.chip:hover{border-color:var(--accent)}
+.chip.on{background:var(--card);color:var(--ink);border-color:currentColor;font-weight:600}
+.chip .dot{width:9px;height:9px;border-radius:50%;background:var(--muted)}
+.ctrl{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin:14px 0 4px}
+.seg{display:inline-flex;background:var(--chip);border-radius:8px;padding:2px;flex-wrap:wrap}
+.seg button{border:none;background:none;color:var(--sub);font:inherit;font-size:.82em;font-weight:600;padding:5px 10px;border-radius:6px;cursor:pointer}
+.seg button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+details.params{margin:6px 0 2px;font-size:.84em;color:var(--sub)}
+details.params summary{cursor:pointer;color:var(--muted);font-weight:600;font-size:.95em}
+.pgrid{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:8px}
+.pgrid label{display:flex;align-items:center;gap:6px}
+.pgrid input{width:56px;font:inherit;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}
+#chart{width:100%;height:520px;margin-top:6px}
+.msg{display:flex;align-items:center;justify-content:center;height:360px;color:var(--muted);font-size:.92em;text-align:center}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-top:14px}
+.stats div{background:var(--chip);border-radius:8px;padding:8px 10px;font-size:.8em;color:var(--muted)}
+.stats b{display:block;color:var(--ink);font-size:1.12em;font-variant-numeric:tabular-nums}
+.notes{margin-top:14px;font-size:.8em;color:var(--sub)}
+.notes li{margin:3px 0 3px 16px}
+footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-align:center}
+@media (max-width:600px){ .panel{padding:12px} nav a{margin:0 14px 0 0} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <h1>MarketSignal</h1>
+      <p>코스피·코스닥 전 종목 차트와 보조지표</p>
+    </div>
+    <nav><a href="index.html">지표 대시보드</a><a href="stock.html" class="on">종목 차트</a><a href="economy.html">경제 방향</a></nav>
+  </header>
+
+  <div class="search">
+    <input id="q" type="search" placeholder="종목명 또는 종목코드 검색 (예: 삼성전자, 005930)" autocomplete="off" spellcheck="false">
+    <div class="sugg" id="sugg" hidden></div>
+  </div>
+  <div class="popular" id="popular"></div>
+
+  <section class="panel">
+    <div class="title" id="title"><h2>종목을 선택해 주세요</h2></div>
+
+    <div class="ctrl">
+      <div class="seg" id="periods"></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <div class="seg" id="intervals"></div>
+        <div class="seg" id="ctype"><button data-t="candle">캔들</button><button data-t="line">선</button></div>
+      </div>
+    </div>
+    <div class="row" id="overlays"><span class="lbl">차트 위</span></div>
+    <div class="row" id="panes"><span class="lbl">아래 패널</span></div>
+    <details class="params"><summary>지표 설정 바꾸기</summary><div class="pgrid" id="pgrid"></div></details>
+
+    <div id="chart"><div class="msg">위에서 종목을 검색하거나 인기 종목을 눌러 주세요</div></div>
+    <div class="stats" id="stats"></div>
+    <ul class="notes">
+      <li>가격은 액면분할·무상증자 등을 반영한 <b>수정주가</b>, 거래량은 <b>원래 값</b>이라 분할 시점 전후로 거래량이 크게 달라 보일 수 있어요.</li>
+      <li>보조지표는 선택한 봉(일·주·월) 기준으로 계산합니다. 같은 지표라도 일봉과 주봉 값은 다릅니다.</li>
+      <li>이 차트는 지표를 보여줄 뿐 매수·매도 신호를 주지 않습니다.</li>
+    </ul>
+  </section>
+
+  <footer>
+    데이터: 네이버 금융 (장중 약 5분 지연) · 종목 목록 하루 4회 갱신<br>
+    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<script>
+(() => {
+const API = "https://api.marketsignal.kr/v1";
+const $ = s => document.querySelector(s);
+const PERIODS = [["3m","3개월",92],["6m","6개월",183],["1y","1년",366],["3y","3년",1096],["5y","5년",1827],["10y","10년",3660]];
+const INTERVALS = [["d","일봉"],["w","주봉"],["m","월봉"]];
+const MA_COLORS = ["#e11d48","#d97706","#059669","#7c3aed","#0891b2"];
+
+// 차트 위 지표
+const OVERLAYS = [
+  {id:"ma0", name:p => `이평 ${p.ma0}`, color:MA_COLORS[0]},
+  {id:"ma1", name:p => `이평 ${p.ma1}`, color:MA_COLORS[1]},
+  {id:"ma2", name:p => `이평 ${p.ma2}`, color:MA_COLORS[2]},
+  {id:"ma3", name:p => `이평 ${p.ma3}`, color:MA_COLORS[3]},
+  {id:"bb",  name:p => `볼린저 밴드(${p.bbN}, ${p.bbK})`, color:"#64748b"},
+  {id:"ichi",name:() => "일목균형표", color:"#0d9488"},
+  {id:"kospi",name:() => "코스피 비교", color:"#94a3b8"},
+  {id:"kosdaq",name:() => "코스닥 비교", color:"#a78bfa"},
+];
+const PANES = [
+  {id:"vol",  name:"거래량"},
+  {id:"rsi",  name:"RSI"},
+  {id:"macd", name:"MACD"},
+  {id:"stoch",name:"스토캐스틱"},
+];
+const PARAMS = [
+  ["ma0","이평 1",5],["ma1","이평 2",20],["ma2","이평 3",60],["ma3","이평 4",120],
+  ["bbN","볼린저 기간",20],["bbK","볼린저 배수",2],["rsiN","RSI 기간",14],
+  ["macdF","MACD 단기",12],["macdS","MACD 장기",26],["macdG","MACD 시그널",9],
+  ["stK","스토캐스틱 K",14],["stD","스토캐스틱 D",3],
+];
+
+const state = {code:null, period:"1y", iv:"d", ctype:"candle",
+  ov:["ma1","ma2","bb"], pn:["vol","rsi"], p:Object.fromEntries(PARAMS.map(x => [x[0], x[2]]))};
+let stocks = [], byCode = {}, raw = null, idxRaw = {}, chart = null, view = null;
+
+// ───────── utils ─────────
+const nf = (v, d=0) => v == null || isNaN(v) ? "–" : v.toLocaleString("ko-KR", {minimumFractionDigits:d, maximumFractionDigits:d});
+const pxd = v => Math.abs(v) < 100 ? 2 : 0;    // ETF/지수 소수점
+function cssVar(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+function shiftDate(iso, days){ const t = new Date(iso + "T00:00:00Z"); t.setUTCDate(t.getUTCDate() - days); return t.toISOString().slice(0,10); }
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+// ───────── hash ─────────
+function readHash(){
+  const h = new URLSearchParams(location.hash.slice(1));
+  if (/^[0-9A-Z]{6}$/.test(h.get("code") || "")) state.code = h.get("code");
+  if (PERIODS.some(p => p[0] === h.get("p"))) state.period = h.get("p");
+  if (INTERVALS.some(p => p[0] === h.get("i"))) state.iv = h.get("i");
+  if (h.get("t") === "line") state.ctype = "line";
+  if (h.has("ov")) state.ov = h.get("ov").split(",").filter(x => OVERLAYS.some(o => o.id === x));
+  if (h.has("pn")) state.pn = h.get("pn").split(",").filter(x => PANES.some(o => o.id === x));
+  PARAMS.forEach(([k]) => { const v = parseFloat(h.get(k)); if (v > 0 && v <= 300) state.p[k] = v; });
+}
+function writeHash(){
+  const h = new URLSearchParams({code: state.code || "", p: state.period, i: state.iv, t: state.ctype, ov: state.ov.join(","), pn: state.pn.join(",")});
+  PARAMS.forEach(([k, , d]) => { if (state.p[k] !== d) h.set(k, state.p[k]); });
+  history.replaceState(null, "", "#" + h.toString());
+}
+
+// ───────── indicators ─────────
+function sma(a, n){ const o = Array(a.length).fill(null); let s = 0, c = 0;
+  for (let i = 0; i < a.length; i++){ s += a[i]; c++; if (c > n){ s -= a[i-n]; c--; } if (c === n) o[i] = s / n; } return o; }
+function ema(a, n){ const o = Array(a.length).fill(null); const k = 2 / (n + 1); let e = null, s = 0;
+  for (let i = 0; i < a.length; i++){ if (a[i] == null) continue;
+    if (e == null){ s += a[i]; if (i - a.findIndex(x => x != null) + 1 === n){ e = s / n; o[i] = e; } }
+    else { e = a[i] * k + e * (1 - k); o[i] = e; } } return o; }
+function stdev(a, n, m){ const o = Array(a.length).fill(null);
+  for (let i = n - 1; i < a.length; i++){ let s = 0; for (let j = i - n + 1; j <= i; j++) s += (a[j] - m[i]) ** 2; o[i] = Math.sqrt(s / n); } return o; }
+function rsi(c, n){ const o = Array(c.length).fill(null); let g = 0, l = 0;
+  for (let i = 1; i < c.length; i++){ const d = c[i] - c[i-1], up = Math.max(d, 0), dn = Math.max(-d, 0);
+    if (i <= n){ g += up; l += dn; if (i === n){ g /= n; l /= n; o[i] = l === 0 ? 100 : 100 - 100 / (1 + g / l); } }
+    else { g = (g * (n - 1) + up) / n; l = (l * (n - 1) + dn) / n; o[i] = l === 0 ? 100 : 100 - 100 / (1 + g / l); } } return o; }
+function hlMid(h, l, n){ const o = Array(h.length).fill(null);
+  for (let i = n - 1; i < h.length; i++){ let hh = -Infinity, ll = Infinity; for (let j = i - n + 1; j <= i; j++){ if (h[j] > hh) hh = h[j]; if (l[j] < ll) ll = l[j]; } o[i] = (hh + ll) / 2; } return o; }
+function stoch(h, l, c, n, d){ const k = Array(c.length).fill(null);
+  for (let i = n - 1; i < c.length; i++){ let hh = -Infinity, ll = Infinity; for (let j = i - n + 1; j <= i; j++){ if (h[j] > hh) hh = h[j]; if (l[j] < ll) ll = l[j]; }
+    k[i] = hh === ll ? 50 : (c[i] - ll) / (hh - ll) * 100; }
+  const slowK = smaN(k, d), slowD = smaN(slowK, d); return [slowK, slowD]; }
+function smaN(a, n){ const o = Array(a.length).fill(null); const st = a.findIndex(x => x != null); if (st < 0) return o;
+  const s = sma(a.slice(st), n); s.forEach((v, i) => o[st + i] = v); return o; }
+
+// 일봉 → 주봉/월봉
+function resample(r, iv){
+  if (iv === "d") return r;
+  const out = {d:[], o:[], h:[], l:[], c:[], v:[]}; let key = null;
+  for (let i = 0; i < r.d.length; i++){
+    const dt = new Date(r.d[i] + "T00:00:00Z");
+    let k;
+    if (iv === "w"){ const m = new Date(dt); m.setUTCDate(m.getUTCDate() - ((dt.getUTCDay() + 6) % 7)); k = m.toISOString().slice(0,10); }
+    else k = r.d[i].slice(0,7);
+    if (k !== key){ key = k; out.d.push(r.d[i]); out.o.push(r.o[i]); out.h.push(r.h[i]); out.l.push(r.l[i]); out.c.push(r.c[i]); out.v.push(r.v[i]); }
+    else { const n = out.d.length - 1; out.d[n] = r.d[i]; out.h[n] = Math.max(out.h[n], r.h[i]); out.l[n] = Math.min(out.l[n], r.l[i]); out.c[n] = r.c[i]; out.v[n] += r.v[i]; }
+  }
+  return out;
+}
+
+// ───────── data ─────────
+async function getJSON(u){
+  const r = await fetch(u);
+  if (!r.ok){ let m = "데이터를 불러오지 못했어요"; try { m = (await r.json()).error || m; } catch(e){} throw new Error(m); }
+  return r.json();
+}
+async function loadList(){
+  try {
+    const j = await getJSON(`${API}/stocks`);
+    stocks = j.stocks; stocks.forEach(s => byCode[s.c] = s);
+  } catch(e){ $("#q").placeholder = "종목 목록을 불러오지 못했어요. 새로고침해 주세요."; }
+  $("#popular").innerHTML = stocks.filter(s => !s.t && !/우[A-C]?$|\(전환\)$/.test(s.n)).slice(0, 10).map(s =>
+    `<button class="chip" data-code="${s.c}">${esc(s.n)}</button>`).join("");
+}
+async function loadIndex(id){
+  const code = id.toUpperCase();
+  if (!idxRaw[code]) idxRaw[code] = await getJSON(`${API}/ohlcv/${code}`);
+  return idxRaw[code];
+}
+
+async function selectStock(code){
+  state.code = code; $("#sugg").hidden = true; $("#q").value = "";
+  if (chart){ chart.dispose(); chart = null; }
+  $("#chart").innerHTML = '<div class="msg">불러오는 중…</div>';
+  try {
+    raw = await getJSON(`${API}/ohlcv/${code}`);
+    for (const id of ["kospi","kosdaq"]) if (state.ov.includes(id)) await loadIndex(id);
+  } catch(e){
+    raw = null; $("#chart").innerHTML = `<div class="msg">${esc(e.message)}</div>`; $("#stats").innerHTML = ""; renderTitle(); writeHash(); return;
+  }
+  document.title = `${raw.name} 차트 · MarketSignal`;
+  draw();
+}
+
+// ───────── search ─────────
+let sIdx = -1, sList = [];
+function search(q){
+  q = q.trim().toLowerCase().replace(/\s+/g, "");
+  if (!q) return [];
+  const exact = [], starts = [], has = [];
+  for (const s of stocks){
+    const n = s.n.toLowerCase().replace(/\s+/g, "");
+    if (s.c === q.toUpperCase() || n === q) exact.push(s);
+    else if (n.startsWith(q) || s.c.startsWith(q.toUpperCase())) starts.push(s);
+    else if (n.includes(q)) has.push(s);
+    if (exact.length + starts.length > 30) break;
+  }
+  return exact.concat(starts, has).slice(0, 12);
+}
+function renderSugg(){
+  const box = $("#sugg");
+  if (!sList.length){ box.hidden = true; return; }
+  box.innerHTML = sList.map((s, i) => `<div data-code="${s.c}" class="${i === sIdx ? "on" : ""}"><span>${esc(s.n)}</span><small>${s.c} · ${s.m}${s.t ? " " + s.t : ""}</small></div>`).join("");
+  box.hidden = false;
+}
+
+// ───────── controls ─────────
+function renderControls(){
+  $("#periods").innerHTML = PERIODS.map(p => `<button data-p="${p[0]}" class="${p[0] === state.period ? "on" : ""}">${p[1]}</button>`).join("");
+  $("#intervals").innerHTML = INTERVALS.map(p => `<button data-i="${p[0]}" class="${p[0] === state.iv ? "on" : ""}">${p[1]}</button>`).join("");
+  document.querySelectorAll("#ctype button").forEach(b => b.classList.toggle("on", b.dataset.t === state.ctype));
+  $("#overlays").innerHTML = '<span class="lbl">차트 위</span>' + OVERLAYS.map(o => {
+    const on = state.ov.includes(o.id);
+    return `<button class="chip${on ? " on" : ""}" data-ov="${o.id}" style="${on ? `color:${o.color}` : ""}"><span class="dot" style="${on ? `background:${o.color}` : ""}"></span><span style="color:var(--ink)">${o.name(state.p)}</span></button>`;
+  }).join("");
+  $("#panes").innerHTML = '<span class="lbl">아래 패널</span>' + PANES.map(o =>
+    `<button class="chip${state.pn.includes(o.id) ? " on" : ""}" data-pn="${o.id}" style="${state.pn.includes(o.id) ? "color:var(--accent)" : ""}"><span style="color:var(--ink)">${o.name}</span></button>`).join("");
+}
+function renderParams(){
+  $("#pgrid").innerHTML = PARAMS.map(([k, label]) =>
+    `<label>${label}<input type="number" min="1" max="300" step="${k === "bbK" ? 0.5 : 1}" data-k="${k}" value="${state.p[k]}"></label>`).join("") +
+    '<button class="chip" id="preset">기본값으로</button>';
+}
+function bind(){
+  const q = $("#q");
+  q.addEventListener("input", () => { sList = search(q.value); sIdx = sList.length ? 0 : -1; renderSugg(); });
+  q.addEventListener("keydown", e => {
+    if (e.key === "ArrowDown"){ sIdx = Math.min(sIdx + 1, sList.length - 1); renderSugg(); e.preventDefault(); }
+    else if (e.key === "ArrowUp"){ sIdx = Math.max(sIdx - 1, 0); renderSugg(); e.preventDefault(); }
+    else if (e.key === "Enter" && sList[sIdx]) selectStock(sList[sIdx].c);
+    else if (e.key === "Escape") $("#sugg").hidden = true;
+  });
+  document.addEventListener("click", e => { if (!e.target.closest(".search")) $("#sugg").hidden = true; });
+  $("#sugg").onclick = e => { const d = e.target.closest("[data-code]"); if (d) selectStock(d.dataset.code); };
+  $("#popular").onclick = e => { const d = e.target.closest("[data-code]"); if (d) selectStock(d.dataset.code); };
+  $("#periods").onclick = e => { const b = e.target.closest("button"); if (!b) return; state.period = b.dataset.p;
+    if (state.period === "3m" && state.iv === "m") state.iv = "d"; renderControls(); draw(); };
+  $("#intervals").onclick = e => { const b = e.target.closest("button"); if (!b) return; state.iv = b.dataset.i;
+    if (state.iv === "m" && ["3m","6m"].includes(state.period)) state.period = "3y";
+    if (state.iv === "w" && state.period === "3m") state.period = "1y"; renderControls(); draw(); };
+  $("#ctype").onclick = e => { const b = e.target.closest("button"); if (!b) return; state.ctype = b.dataset.t; renderControls(); draw(); };
+  $("#overlays").onclick = async e => { const b = e.target.closest("[data-ov]"); if (!b) return; const id = b.dataset.ov;
+    state.ov = state.ov.includes(id) ? state.ov.filter(x => x !== id) : state.ov.concat(id);
+    if ((id === "kospi" || id === "kosdaq") && state.ov.includes(id)){ try { await loadIndex(id); } catch(err){ state.ov = state.ov.filter(x => x !== id); } }
+    renderControls(); draw(); };
+  $("#panes").onclick = e => { const b = e.target.closest("[data-pn]"); if (!b) return; const id = b.dataset.pn;
+    state.pn = state.pn.includes(id) ? state.pn.filter(x => x !== id) : state.pn.concat(id); renderControls(); draw(); };
+  $("#pgrid").addEventListener("change", e => { const k = e.target.dataset.k; if (!k) return;
+    const v = parseFloat(e.target.value); if (v > 0 && v <= 300){ state.p[k] = k === "bbK" ? v : Math.round(v); } e.target.value = state.p[k];
+    renderControls(); draw(); });
+  $("#pgrid").addEventListener("click", e => { if (e.target.id !== "preset") return;
+    PARAMS.forEach(([k, , d]) => state.p[k] = d); renderParams(); renderControls(); draw(); });
+  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => chart && chart.resize(), 120); });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { if (chart){ chart.dispose(); chart = null; } draw(); });
+}
+
+// ───────── title / stats ─────────
+function renderTitle(){
+  if (!raw){ $("#title").innerHTML = "<h2>종목을 선택해 주세요</h2>"; return; }
+  const n = raw.c.length - 1, last = raw.c[n], prev = raw.c[n - 1] ?? last, ch = last - prev, pct = prev ? ch / prev * 100 : 0;
+  const cls = ch > 0 ? "up" : ch < 0 ? "down" : "flat";
+  const info = byCode[raw.code];
+  $("#title").innerHTML = `<h2>${esc(raw.name)}</h2><span class="code">${raw.code} · ${raw.market}${raw.type ? " " + raw.type : ""}</span>
+    <span class="px">${nf(last, pxd(last))}</span><span class="chg ${cls}">${ch > 0 ? "▲" : ch < 0 ? "▼" : ""} ${nf(Math.abs(ch), pxd(last))} (${pct > 0 ? "+" : ""}${nf(pct, 2)}%)</span>
+    ${raw.partial ? '<span class="badge">장중</span>' : ""}<span class="asof">${raw.d[n]} 기준${info && info.mv ? ` · 시가총액 ${fmtCap(info.mv)}` : ""}</span>`;
+}
+function fmtCap(eok){ return eok >= 10000 ? `${nf(Math.floor(eok / 10000))}조 ${nf(eok % 10000)}억` : `${nf(eok)}억`; }
+function renderStats(s, i0){
+  const c = s.c, n = c.length - 1;
+  const ret = days => { const t = shiftDate(s.d[n], days); let i = s.d.findIndex(d => d > t) - 1; if (i < 0) return null; return (c[n] / c[i] - 1) * 100; };
+  const hi52 = Math.max(...raw.h.slice(-250)), lo52 = Math.min(...raw.l.slice(-250));
+  const vh = Math.max(...s.h.slice(i0)), vl = Math.min(...s.l.slice(i0));
+  const fmtR = v => v == null ? "–" : `<span class="${v > 0 ? "up" : v < 0 ? "down" : "flat"}">${v > 0 ? "+" : ""}${nf(v, 2)}%</span>`;
+  const items = [["1개월", fmtR(ret(31))], ["3개월", fmtR(ret(92))], ["1년", fmtR(ret(366))], ["3년", fmtR(ret(1096))],
+    ["52주 최고", nf(hi52, pxd(hi52))], ["52주 최저", nf(lo52, pxd(lo52))], ["기간 최고", nf(vh, pxd(vh))], ["기간 최저", nf(vl, pxd(vl))]];
+  $("#stats").innerHTML = items.map(([k, v]) => `<div>${k}<b>${v}</b></div>`).join("");
+}
+
+// ───────── chart ─────────
+function draw(){
+  writeHash();
+  renderTitle();
+  if (!raw) return;
+  const s = resample(raw, state.iv), P = state.p;
+  const N = s.d.length, last = s.d[N - 1];
+  const start = shiftDate(last, PERIODS.find(p => p[0] === state.period)[2]);
+  let i0 = s.d.findIndex(d => d >= start); if (i0 < 0) i0 = 0;
+
+  const up = cssVar("--up"), down = cssVar("--down"), ink = cssVar("--ink"), sub = cssVar("--muted"), line = cssVar("--line"), card = cssVar("--card");
+  const ichi = state.ov.includes("ichi"), shift = 26;
+  const cats = s.d.slice();
+  if (ichi) for (let k = 1; k <= shift; k++) cats.push(`+${k}`);
+  const pad = a => ichi ? a.concat(Array(shift).fill(null)) : a;
+  // 막대 시리즈는 객체와 null을 섞으면 ECharts가 죽으므로 빈 값은 "-"로
+  const padB = a => pad(a).map(x => x == null ? "-" : x);
+
+  const panes = state.pn.slice();
+  const mainH = 300, paneH = 92, gap = 26, top = 34;
+  const narrow = $("#chart").clientWidth < 600;
+  const totalH = top + mainH + panes.length * (paneH + gap) + 54;
+  $("#chart").style.height = totalH + "px";
+  if (!chart){ $("#chart").innerHTML = ""; chart = echarts.init($("#chart")); } else chart.resize();
+
+  const grids = [{left: narrow ? 46 : 64, right: 14, top, height: mainH}];
+  panes.forEach((p, k) => grids.push({left: grids[0].left, right: 14, top: top + mainH + gap + k * (paneH + gap), height: paneH}));
+  const xAxes = grids.map((g, k) => ({type: "category", data: cats, gridIndex: k, boundaryGap: true,
+    axisLine: {lineStyle: {color: line}}, axisTick: {show: false},
+    axisLabel: {show: k === grids.length - 1, color: sub, fontSize: 10, hideOverlap: true, formatter: v => v.startsWith("+") ? "" : (state.iv === "m" ? v.slice(0,7) : v.slice(2))},
+    axisPointer: {label: {show: k === grids.length - 1, formatter: p => p.value}}}));
+  const yAxes = grids.map((g, k) => ({type: "value", gridIndex: k, scale: true, position: "left", splitNumber: k ? 2 : 5,
+    axisLabel: {color: sub, fontSize: 10, formatter: v => Math.abs(v) >= 1e8 ? nf(v / 1e8, 1) + "억" : Math.abs(v) >= 1e4 ? nf(v / 1e4, 0) + "만" : (v === 0 ? "0" : nf(v, Math.abs(v) < 10 ? 2 : 0))},
+    splitLine: {lineStyle: {color: line}}}));
+
+  const series = [];
+  const L = (name, data, color, extra = {}) => series.push({name, type: "line", data, xAxisIndex: 0, yAxisIndex: 0, showSymbol: false,
+    lineStyle: {width: 1.2, color}, itemStyle: {color}, connectNulls: false, z: 3, ...extra});
+
+  if (state.ctype === "candle"){
+    series.push({name: raw.name, type: "candlestick", xAxisIndex: 0, yAxisIndex: 0,
+      data: padB(s.d.map((_, i) => [s.o[i], s.c[i], s.l[i], s.h[i]])),
+      itemStyle: {color: up, color0: down, borderColor: up, borderColor0: down}, barMaxWidth: 12});
+  } else L(raw.name, pad(s.c), ink, {lineStyle: {width: 1.6, color: ink}, z: 4});
+
+  ["ma0","ma1","ma2","ma3"].forEach((id, k) => { if (state.ov.includes(id)) L(`이평${P[id]}`, pad(sma(s.c, P[id])), MA_COLORS[k]); });
+  if (state.ov.includes("bb")){
+    const m = sma(s.c, P.bbN), sd = stdev(s.c, P.bbN, m);
+    const upB = m.map((v, i) => v == null ? null : v + P.bbK * sd[i]), loB = m.map((v, i) => v == null ? null : v - P.bbK * sd[i]);
+    const col = "#64748b";
+    L("BB 하단", pad(loB), col, {lineStyle: {width: 1, color: col, type: "dashed"}, stack: "bb", areaStyle: {opacity: 0}});
+    L("BB 상단", pad(upB.map((v, i) => v == null ? null : v - loB[i])), col, {lineStyle: {width: 1, color: col, type: "dashed"}, stack: "bb",
+      areaStyle: {color: col, opacity: .08}, tooltip: {show: false}, _bbUpper: upB});
+    L("BB 중심", pad(m), col, {lineStyle: {width: 1, color: col, opacity: .7}});
+  }
+  if (ichi){
+    const ten = hlMid(s.h, s.l, 9), kij = hlMid(s.h, s.l, 26), sb = hlMid(s.h, s.l, 52);
+    const sa = ten.map((v, i) => v == null || kij[i] == null ? null : (v + kij[i]) / 2);
+    const fwd = a => Array(shift).fill(null).concat(a);
+    const chik = s.c.slice(shift).concat(Array(shift * 2).fill(null));
+    L("전환선", pad(ten), "#2563eb", {lineStyle: {width: 1, color: "#2563eb"}});
+    L("기준선", pad(kij), "#dc2626", {lineStyle: {width: 1, color: "#dc2626"}});
+    L("선행스팬1", fwd(sa), "#16a34a", {lineStyle: {width: 1, color: "#16a34a", opacity: .8}});
+    L("선행스팬2", fwd(sb), "#ea580c", {lineStyle: {width: 1, color: "#ea580c", opacity: .8}});
+    L("후행스팬", chik, "#a855f7", {lineStyle: {width: 1, color: "#a855f7", opacity: .7}});
+  }
+  // 지수 비교: 보이는 구간 첫 봉 종가에 맞춰 환산 (확대/이동하면 다시 맞춤)
+  const cmp = [];
+  for (const id of ["kospi","kosdaq"]){
+    if (!state.ov.includes(id) || !idxRaw[id.toUpperCase()]) continue;
+    const ir = resample(idxRaw[id.toUpperCase()], state.iv), map = {};
+    ir.d.forEach((d, i) => map[d] = ir.c[i]);
+    let lastV = null; const aligned = s.d.map(d => { if (map[d] != null) lastV = map[d]; return lastV; });
+    cmp.push({id, aligned});
+    L(id === "kospi" ? "코스피(환산)" : "코스닥(환산)", [], OVERLAYS.find(o => o.id === id).color,
+      {id: "cmp_" + id, lineStyle: {width: 1.4, type: "dotted", color: OVERLAYS.find(o => o.id === id).color}});
+  }
+
+  // 아래 패널
+  panes.forEach((p, k) => {
+    const gi = k + 1, base = {xAxisIndex: gi, yAxisIndex: gi, showSymbol: false};
+    if (p === "vol"){
+      series.push({name: "거래량", type: "bar", ...base, data: padB(s.v.map((v, i) => ({value: v, itemStyle: {color: s.c[i] >= s.o[i] ? up : down, opacity: .55}}))), barMaxWidth: 10});
+      series.push({name: "거래량 20", type: "line", ...base, data: pad(sma(s.v, 20)), lineStyle: {width: 1, color: sub}, itemStyle: {color: sub}});
+    } else if (p === "rsi"){
+      series.push({name: `RSI(${P.rsiN})`, type: "line", ...base, data: pad(rsi(s.c, P.rsiN)), lineStyle: {width: 1.2, color: "#7c3aed"}, itemStyle: {color: "#7c3aed"},
+        markLine: {silent: true, symbol: "none", label: {show: false}, lineStyle: {color: sub, type: "dashed", width: 1}, data: [{yAxis: 70}, {yAxis: 30}]}});
+      yAxes[gi].min = 0; yAxes[gi].max = 100; yAxes[gi].scale = false; yAxes[gi].interval = 50;
+    } else if (p === "macd"){
+      const f = ema(s.c, P.macdF), sl = ema(s.c, P.macdS);
+      const mc = f.map((v, i) => v == null || sl[i] == null ? null : v - sl[i]);
+      const sg = ema(mc, P.macdG);
+      series.push({name: "MACD 히스토그램", type: "bar", ...base, data: padB(mc.map((v, i) => v == null || sg[i] == null ? null : {value: v - sg[i], itemStyle: {color: v - sg[i] >= 0 ? up : down, opacity: .5}})), barMaxWidth: 8});
+      series.push({name: "MACD", type: "line", ...base, data: pad(mc), lineStyle: {width: 1.2, color: "#2563eb"}, itemStyle: {color: "#2563eb"}});
+      series.push({name: "시그널", type: "line", ...base, data: pad(sg), lineStyle: {width: 1.2, color: "#d97706"}, itemStyle: {color: "#d97706"}});
+    } else if (p === "stoch"){
+      const [k2, d2] = stoch(s.h, s.l, s.c, P.stK, P.stD);
+      series.push({name: `%K(${P.stK},${P.stD})`, type: "line", ...base, data: pad(k2), lineStyle: {width: 1.2, color: "#0891b2"}, itemStyle: {color: "#0891b2"},
+        markLine: {silent: true, symbol: "none", label: {show: false}, lineStyle: {color: sub, type: "dashed", width: 1}, data: [{yAxis: 80}, {yAxis: 20}]}});
+      series.push({name: "%D", type: "line", ...base, data: pad(d2), lineStyle: {width: 1.2, color: "#e11d48"}, itemStyle: {color: "#e11d48"}});
+      yAxes[gi].min = 0; yAxes[gi].max = 100; yAxes[gi].scale = false; yAxes[gi].interval = 50;
+    }
+  });
+
+  const xIdx = grids.map((_, k) => k);
+  chart.setOption({
+    animation: false, backgroundColor: "transparent",
+    axisPointer: {link: [{xAxisIndex: "all"}], lineStyle: {color: sub}},
+    legend: {top: 0, left: 0, textStyle: {color: ink, fontSize: 11}, itemWidth: 12, itemHeight: 4, icon: "roundRect",
+      data: series.filter(x => x.xAxisIndex === 0 && x.name !== "BB 상단" && x.name !== "BB 하단").map(x => x.name)},
+    tooltip: {trigger: "axis", axisPointer: {type: "cross", label: {backgroundColor: sub}}, backgroundColor: card, borderColor: line,
+      textStyle: {color: ink, fontSize: 12}, confine: true, formatter: ps => tip(ps, s)},
+    grid: grids, xAxis: xAxes, yAxis: yAxes,
+    dataZoom: [{type: "inside", xAxisIndex: xIdx, startValue: i0, endValue: cats.length - 1},
+      {type: "slider", xAxisIndex: xIdx, startValue: i0, endValue: cats.length - 1, bottom: 8, height: 18, borderColor: line,
+        fillerColor: "rgba(100,130,200,.15)", textStyle: {color: sub, fontSize: 10}, labelFormatter: i => cats[i] || ""}],
+    series: series.map(x => { const {_bbUpper, ...rest} = x; return rest; }),
+  }, true);
+  view = {s, cmp, bbUpper: (series.find(x => x._bbUpper) || {})._bbUpper};
+
+  const rebase = () => {
+    if (!cmp.length) return;
+    const dz = chart.getOption().dataZoom[0];
+    const a = Math.max(0, Math.min(N - 1, Math.round(dz.startValue ?? i0)));
+    chart.setOption({series: cmp.map(({id, aligned}) => {
+      const b = aligned[a] ?? aligned.find(x => x != null);
+      return {id: "cmp_" + id, data: pad(aligned.map((v, i) => i < a || v == null || !b ? null : v / b * s.c[a]))};
+    })});
+  };
+  chart.off("datazoom"); chart.on("datazoom", rebase); rebase();
+  renderStats(s, i0);
+}
+
+function tip(ps, s){
+  const i = ps[0].dataIndex; const d = ps[0].axisValue;
+  if (i >= s.d.length) return `<b>${d}</b> (일목 선행)` + ps.filter(p => p.value != null && p.value !== "-").map(p => `<div>${p.marker}${p.seriesName} <b>${nf(+p.value, pxd(+p.value))}</b></div>`).join("");
+  const c = s.c[i], pc = i ? s.c[i - 1] : c, ch = (c / pc - 1) * 100;
+  let h = `<div style="font-weight:600;margin-bottom:3px">${d}</div>`;
+  h += `<div>시 ${nf(s.o[i], pxd(c))} · 고 ${nf(s.h[i], pxd(c))} · 저 ${nf(s.l[i], pxd(c))}</div>`;
+  h += `<div>종가 <b>${nf(c, pxd(c))}</b> <span style="color:${ch > 0 ? cssVar("--up") : ch < 0 ? cssVar("--down") : "inherit"}">${ch > 0 ? "+" : ""}${nf(ch, 2)}%</span> · 거래량 ${nf(s.v[i])}</div>`;
+  ps.forEach(p => {
+    if (["candlestick"].includes(p.seriesType) || p.seriesName === raw.name || p.seriesName === "거래량" || p.seriesName === "BB 하단") return;
+    let v = Array.isArray(p.value) ? p.value[1] : (p.value && typeof p.value === "object" ? p.value.value : p.value);
+    if (p.seriesName === "BB 상단") return;
+    if (v == null || v === "-" || isNaN(v)) return;
+    v = +v;
+    h += `<div>${p.marker}${p.seriesName} <b>${nf(v, Math.abs(v) < 100 ? 2 : 0)}</b></div>`;
+  });
+  if (view && view.bbUpper && state.ov.includes("bb") && view.bbUpper[i] != null){
+    const m = sma(s.c, state.p.bbN)[i];
+    h += `<div style="color:${cssVar("--muted")}">볼린저 상단 ${nf(view.bbUpper[i], pxd(c))} · 하단 ${nf(2 * m - view.bbUpper[i], pxd(c))}</div>`;
+  }
+  return h;
+}
+
+// ───────── boot ─────────
+(async () => {
+  readHash(); renderControls(); renderParams(); bind();
+  await loadList();
+  if (state.code) selectStock(state.code);
+})();
+})();
+</script>
+</body>
+</html>
