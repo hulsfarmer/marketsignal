@@ -294,7 +294,6 @@ function run(){
   $("#more").textContent = `더 보기 (${nf(L.length - shown)}종목 남음)`;
 }
 
-let lastDel = null;
 function renderPresets(note){
   const ex = EXAMPLES.filter(x => !hidden.includes(x.id));
   const item = (ap, del, name, cls, tip) => `<span class="pchip"><button class="chip preset${cls}" data-ap="${ap}">${esc(name)}</button><button class="pdel" data-del="${del}" title="${tip}" aria-label="${esc(name)} 지우기">×</button></span>`;
@@ -387,13 +386,12 @@ function renderV3(show){
   });
 
   $("#presets").onclick = e => {
-    const del = e.target.closest("[data-del]"), back = e.target.closest("#exBack"), undo = e.target.closest("#undo");
+    const del = e.target.closest("[data-del]"), back = e.target.closest("#exBack");
     if (back){ hidden = []; lsSet(HKEY, hidden); renderPresets(); return; }
-    if (undo){ if (lastDel){ saved.splice(lastDel.i, 0, lastDel.x); lsSet(SKEY, saved); lastDel = null; } renderPresets(); return; }
     if (del){
       const [kind, key] = del.dataset.del.split(":");
       if (kind === "e"){ hidden.push(key); lsSet(HKEY, hidden); renderPresets(); }
-      else { const i = +key; lastDel = {i, x: saved[i]}; saved.splice(i, 1); lsSet(SKEY, saved); renderPresets(`‘${esc(lastDel.x.n)}’을(를) 지웠어요 <button class="linkbtn" id="undo">되돌리기</button>`); }
+      else { saved.splice(+key, 1); lsSet(SKEY, saved); renderPresets(); }
       return;
     }
     const b = e.target.closest("[data-ap]"); if (!b) return;
