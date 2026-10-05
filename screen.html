@@ -48,6 +48,17 @@
 #tbl tr:hover td{background:var(--chip)}
 .more{display:block;margin:14px auto 0}
 .chip.preset.star{background:var(--accent);color:#fff}
+.chip.preset.ex{background:var(--chip);color:var(--sub)}
+.pchip{display:inline-flex;align-items:center}
+.pchip .chip{border-top-right-radius:0;border-bottom-right-radius:0;padding-right:8px}
+.pdel{border:none;background:var(--chip);color:var(--muted);cursor:pointer;font-size:1em;line-height:1;padding:0 9px;align-self:stretch;border-top-right-radius:999px;border-bottom-right-radius:999px;margin-left:1px}
+.pdel:hover{color:var(--up)}
+.pempty{color:var(--muted);font-size:.86em}
+.linkbtn{border:none;background:none;color:var(--accent);cursor:pointer;font:inherit;font-size:.84em;padding:4px 6px;text-decoration:underline}
+.savebar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:-4px 0 14px}
+.saveform{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center}
+.saveform input{font:inherit;font-size:.86em;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);width:200px}
+.savemsg{font-size:.84em;color:var(--sub)}
 .v3box{background:var(--chip);border-radius:var(--r-md);padding:14px 16px;margin-bottom:14px;font-size:.88em;color:var(--sub);line-height:1.7}
 .v3box b{color:var(--ink)}
 .v3box .on{color:var(--up);font-weight:800} .v3box .off{color:var(--down);font-weight:800}
@@ -66,8 +77,13 @@
   <div class="updated" id="updated">불러오는 중…</div>
 
   <section class="cond">
-    <h3><span>추천 조합</span><span style="display:flex;gap:6px"><button class="chip" id="share">링크로 공유</button><button class="chip" id="reset">조건 모두 끄기</button></span></h3>
+    <h3><span>내 조건</span><span style="display:flex;gap:6px"><button class="chip" id="share">링크로 공유</button><button class="chip" id="reset">조건 모두 끄기</button></span></h3>
     <div class="presets" id="presets"></div>
+    <div class="savebar">
+      <button class="chip" id="saveOpen">＋ 지금 조건 저장</button>
+      <span class="saveform" id="saveForm" hidden><input id="saveName" maxlength="30" placeholder="이름 (예: 신고가 돌파)"><button class="chip preset" id="saveOk">저장</button><button class="chip" id="saveCancel">취소</button></span>
+      <span class="savemsg" id="saveMsg"></span>
+    </div>
     <div class="base">
       <label>시장 <select id="fMkt"><option value="">전체</option><option>코스피</option><option>코스닥</option></select></label>
       <label>업종 <select id="fSec"><option value="">전체</option></select></label>
@@ -169,17 +185,16 @@ const G = [
   ]],
 ];
 const C = Object.fromEntries(G.flatMap(([, L]) => L).map(c => [c.id, c]));
-const PRESETS = [
-  ["★ 모멘텀 V3 (과거 검증 규칙)", {v3: {v: 5}, v3x: {}}, {k: "x0", d: 1}],
-  ["52주 신고가 + 거래 급증", {nh: {}, vr: {v: 2}}],
-  ["RSI 과매도 + PBR 1 미만", {rsi_lo: {v: 30}, pbr: {v: 1}}],
-  ["외국인·기관 동반 순매수", {both: {v: 3}}],
-  ["실적 개선 + 업종 PER 하위", {qq: {}, yy: {}, pr: {v: 30}}],
-  ["골든크로스 + 60일선 위", {gx: {n: "5/20"}, ma_up: {n: "60"}}],
-  ["박스권 상단 돌파", {box_up: {}, vr: {v: 1.5}}],
-  ["자사주 매입 공시", {bk: {v: 30}}],
-  ["고배당 + 저PBR", {div: {v: 4}, pbr: {v: 1}}],
+// 예시 조건 (지울 수 있음 — 지운 예시는 ms_screen_hidden_v1 에 기록)
+const EXAMPLES = [
+  {id: "v3", n: "★ 모멘텀 V3 (과거 검증 규칙)", c: {v3: {v: 5}, v3x: {}}, s: ["x0", 1]},
+  {id: "nh", n: "52주 신고가 + 거래 급증", c: {nh: {}, vr: {v: 2}}},
 ];
+// 내가 저장한 조건: [{n: 이름, h: 주소 해시(조건·시장·업종·시총·거래대금), s: [정렬열, 방향]}]
+const SKEY = "ms_screen_saved_v1", HKEY = "ms_screen_hidden_v1";
+const lsGet = (k, d) => { try { return JSON.parse(localStorage.getItem(k) || "null") ?? d; } catch(e){ return d; } };
+const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch(e){ return false; } };
+let saved = lsGet(SKEY, []).filter(x => x && x.n && typeof x.h === "string"), hidden = lsGet(HKEY, []);
 
 // ───────── 상태 ─────────
 let DATA = null, on = {}, sortK = "mv", sortD = -1, shown = 100, watch = new Set();
@@ -274,6 +289,17 @@ function run(){
   $("#more").textContent = `더 보기 (${nf(L.length - shown)}종목 남음)`;
 }
 
+let lastDel = null;
+function renderPresets(note){
+  const ex = EXAMPLES.filter(x => !hidden.includes(x.id));
+  const item = (ap, del, name, cls, tip) => `<span class="pchip"><button class="chip preset${cls}" data-ap="${ap}">${esc(name)}</button><button class="pdel" data-del="${del}" title="${tip}" aria-label="${esc(name)} 지우기">×</button></span>`;
+  const H = saved.map((x, i) => item(`u:${i}`, `u:${i}`, x.n, "", "지우기")).join("") +
+    ex.map(x => item(`e:${x.id}`, `e:${x.id}`, x.n, x.id === "v3" ? " star" : " ex", "예시 지우기")).join("");
+  $("#presets").innerHTML = (H || '<span class="pempty">저장한 조건이 없어요. 아래에서 조건을 고른 뒤 ‘지금 조건 저장’을 눌러 보세요.</span>') +
+    (hidden.length ? '<button class="linkbtn" id="exBack">예시 다시 보기</button>' : "") +
+    (note ? `<span class="savemsg">${note}</span>` : "");
+}
+
 function renderV3(show){
   const box = $("#v3box"); box.hidden = !show; if (!show) return;
   const g = DATA.regime;
@@ -288,7 +314,7 @@ function renderV3(show){
 
 // ───────── 시작 ─────────
 (async () => {
-  $("#presets").innerHTML = PRESETS.map((p, i) => `<button class="chip preset${i === 0 ? " star" : ""}" data-i="${i}">${p[0]}</button>`).join("");
+  renderPresets();
   let wantSec = fromHash(location.hash || (() => { try { return localStorage.getItem("ms_screen_v1") || ""; } catch(e){ return ""; } })());
   renderGroups(); bindGroups();
   if (watch.size) $("#fWatch").parentElement.hidden = false; else $("#fWatch").parentElement.hidden = true;
@@ -301,12 +327,47 @@ function renderV3(show){
   run();
 
   $("#presets").onclick = e => {
-    const b = e.target.closest("[data-i]"); if (!b) return;
-    const P = PRESETS[+b.dataset.i][1], srt = PRESETS[+b.dataset.i][2];
-    on = Object.fromEntries(Object.entries(P).map(([id, p]) => [id, {...defaults(C[id]), ...p}]));
-    if (srt){ sortK = srt.k; sortD = srt.d; } else { sortK = "mv"; sortD = -1; }
+    const del = e.target.closest("[data-del]"), back = e.target.closest("#exBack"), undo = e.target.closest("#undo");
+    if (back){ hidden = []; lsSet(HKEY, hidden); renderPresets(); return; }
+    if (undo){ if (lastDel){ saved.splice(lastDel.i, 0, lastDel.x); lsSet(SKEY, saved); lastDel = null; } renderPresets(); return; }
+    if (del){
+      const [kind, key] = del.dataset.del.split(":");
+      if (kind === "e"){ hidden.push(key); lsSet(HKEY, hidden); renderPresets(); }
+      else { const i = +key; lastDel = {i, x: saved[i]}; saved.splice(i, 1); lsSet(SKEY, saved); renderPresets(`‘${esc(lastDel.x.n)}’을(를) 지웠어요 <button class="linkbtn" id="undo">되돌리기</button>`); }
+      return;
+    }
+    const b = e.target.closest("[data-ap]"); if (!b) return;
+    const [kind, key] = b.dataset.ap.split(":");
+    if (kind === "e"){
+      const X = EXAMPLES.find(x => x.id === key);
+      on = Object.fromEntries(Object.entries(X.c).map(([id, p]) => [id, {...defaults(C[id]), ...p}]));
+      [sortK, sortD] = X.s || ["mv", -1];
+    } else {
+      const X = saved[+key];
+      const sec = fromHash(X.h); $("#fSec").value = sec;
+      [sortK, sortD] = X.s || ["mv", -1];
+    }
     renderGroups(); shown = 100; run();
   };
+  const msg = t => { $("#saveMsg").innerHTML = t; clearTimeout(msg.t); msg.t = setTimeout(() => $("#saveMsg").innerHTML = "", 4000); };
+  $("#saveOpen").onclick = () => {
+    if (!Object.keys(on).length){ msg("먼저 아래에서 조건을 하나 이상 켜 주세요."); return; }
+    $("#saveOpen").hidden = true; $("#saveForm").hidden = false; $("#saveName").value = ""; $("#saveName").focus();
+  };
+  const closeForm = () => { $("#saveForm").hidden = true; $("#saveOpen").hidden = false; };
+  $("#saveCancel").onclick = closeForm;
+  const doSave = () => {
+    const n = $("#saveName").value.trim(); if (!n){ $("#saveName").focus(); return; }
+    toHash();
+    const item = {n, h: location.hash.slice(1), s: [sortK, sortD]};
+    const i = saved.findIndex(x => x.n === n);
+    if (i >= 0) saved[i] = item; else saved.push(item);
+    const ok = lsSet(SKEY, saved);
+    closeForm(); renderPresets();
+    msg(ok ? `‘${esc(n)}’ 저장했어요${i >= 0 ? " (같은 이름을 바꿨어요)" : ""}. 이 브라우저에만 저장돼요.` : "이 브라우저에서는 저장할 수 없어요(사생활 보호 모드 등).");
+  };
+  $("#saveOk").onclick = doSave;
+  $("#saveName").addEventListener("keydown", e => { if (e.key === "Enter") doSave(); if (e.key === "Escape") closeForm(); });
   $("#active").onclick = e => { const b = e.target.closest("[data-off]"); if (b){ delete on[b.dataset.off]; renderGroups(); run(); } };
   $("#reset").onclick = () => { on = {}; renderGroups(); run(); };
   ["#fMkt", "#fSec", "#fMv", "#fVal", "#fWatch"].forEach(s => $(s).addEventListener("change", () => { shown = 100; run(); }));
