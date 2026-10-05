@@ -224,7 +224,7 @@ function renderD(){
   $("#dlist").innerHTML = L.slice(0, st.shown).map(x => `
     <div class="item"><div class="d">${md(x.d)}</div><div>
       <div class="h">${stockLink(x.code, x.name)}<span class="tag">${x.mkt}</span><span class="tag ${x.cat === "주의" ? "warn" : "cat"}">${x.cat}</span>${x.corr ? '<span class="tag corr">정정</span>' : ""}
-        <a class="t" href="${dart(x.rc)}" target="_blank" rel="noopener">${esc(x.title)} ↗</a></div>
+        <a class="t" href="${dart(x.rc)}">${esc(x.title)} ↗</a></div>
       ${x.facts && x.facts.length ? `<div class="facts">${x.facts.map(([k, v]) => `<span>${esc(k)} <b>${esc(v)}</b></span>`).join("")}</div>` : ""}
     </div></div>`).join("");
   $("#dmore").hidden = L.length <= st.shown;
@@ -268,7 +268,7 @@ function renderS(){
         ? `<div class="ev${x.impact === "높음" ? " hi" : ""}"><div class="tm">${x.time}</div><div class="r"><b>${esc(x.title)}</b><span class="tag">${esc(x.country)}</span>${x.impact === "높음" ? '<span class="tag warn">중요</span>' : ""}
             <span class="x">${x.forecast ? `예상 ${esc(x.forecast)}` : ""}${x.forecast && x.previous ? " · " : ""}${x.previous ? `이전 ${esc(x.previous)}` : ""}</span></div></div>`
         : `<div class="ev"><div class="tm">${esc(sgroup(x.type))}</div><div class="r">${stockLink(x.code, x.name)}<span class="tag">${x.mkt || ""}</span><span>${esc(x.type)}</span>
-            ${x.detail ? `<span class="x">${esc(x.detail)}</span>` : ""}<a class="x" href="${dart(x.rc)}" target="_blank" rel="noopener">공시 ↗</a></div></div>`).join("") + "</div>";
+            ${x.detail ? `<span class="x">${esc(x.detail)}</span>` : ""}<a class="x" href="${dart(x.rc)}">공시 ↗</a></div></div>`).join("") + "</div>";
   }).join("");
 }
 

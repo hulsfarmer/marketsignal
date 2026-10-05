@@ -493,7 +493,7 @@ async function renderDiscl(code){
   box.hidden = !L.length;
   $("#dlist").innerHTML = L.map(x => `<div class="di"><div class="h"><span class="dd">${x.d.slice(5).replace("-", "/")}</span>
     <span class="tg${x.cat === "주의" ? " w" : ""}">${x.cat}</span>${x.corr ? '<span class="dd">정정</span>' : ""}
-    <a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${x.rc}" target="_blank" rel="noopener">${esc(x.title)} ↗</a></div>
+    <a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${x.rc}">${esc(x.title)} ↗</a></div>
     ${x.facts && x.facts.length ? `<div class="fx">${x.facts.map(([k, v]) => `<span>${esc(k)} <b>${esc(v)}</b></span>`).join("")}</div>` : ""}</div>`).join("");
 }
 
