@@ -85,6 +85,12 @@ details.params summary{cursor:pointer;color:var(--muted);font-weight:600;font-si
 .di .fx b{color:var(--ink);font-weight:600}
 .ftbl th.est{color:var(--accent)}
 main .panel{padding:22px 24px 24px}
+.boxbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:8px}
+.boxbar .chip.on{background:#fff4e6;color:#e8590c;border-color:#e8590c}
+.boxmsg{font-size:.82em;color:#e8590c;font-weight:600}
+.boxitem{display:inline-flex;align-items:center;gap:4px;font-size:.8em;background:#fff4e6;color:#c2410c;border-radius:999px;padding:4px 6px 4px 10px;font-variant-numeric:tabular-nums}
+.boxitem button{border:none;background:none;color:inherit;cursor:pointer;font-size:1.05em;padding:0 3px}
+#chart.drawing{cursor:crosshair}
 .popular .chip{background:var(--card);box-shadow:var(--shadow)}
 .popular .chip:hover{border-color:var(--accent)}
 @media (max-width:640px){ .title .px{font-size:1.5em} main .panel{padding:16px} }
@@ -124,6 +130,11 @@ main .panel{padding:22px 24px 24px}
     <details class="params"><summary>지표 설정 바꾸기</summary><div class="pgrid" id="pgrid"></div></details>
 
     <div id="chart"><div class="msg">위에서 종목을 검색하거나 인기 종목을 눌러 주세요</div></div>
+    <div class="boxbar" id="boxbar">
+      <button class="chip" id="boxDraw">✏️ 박스 직접 긋기</button>
+      <span id="boxList"></span>
+      <span class="boxmsg" id="boxMsg"></span>
+    </div>
     <div class="hint" id="shint"></div>
     <div class="stats" id="stats"></div>
 
@@ -170,6 +181,7 @@ const OVERLAYS = [
   {id:"kosdaq",name:() => "코스닥 비교", color:"#a78bfa"},
   {id:"perband",name:() => "PER 밴드", color:"#0ea5e9"},
   {id:"pbrband",name:() => "PBR 밴드", color:"#f59e0b"},
+  {id:"box",  name:p => `박스권 자동(${p.boxN}봉·${p.boxW}%)`, color:"#3182f6"},
 ];
 const PANES = [
   {id:"vol",  name:"거래량"},
@@ -182,6 +194,7 @@ const PARAMS = [
   ["bbN","볼린저 기간",20],["bbK","볼린저 배수",2],["rsiN","RSI 기간",14],
   ["macdF","MACD 단기",12],["macdS","MACD 장기",26],["macdG","MACD 시그널",9],
   ["stK","스토캐스틱 K",14],["stD","스토캐스틱 D",3],
+  ["boxN","박스 최소 기간(봉)",20],["boxW","박스 최대 폭(%)",15],["boxT","박스 위·아래 터치(회)",2],
 ];
 
 const state = {code:null, period:"1y", iv:"d", ctype:"candle",
@@ -229,6 +242,77 @@ function addMA(){
   state.ma.push({n, t, on: true, c});
   saveMA(); renderMA(); draw();
   const inp = $("#maN"); if (inp) inp.focus();
+}
+
+// ───────── 박스권 ─────────
+// 자동: 종가가 L봉 이상 (최고/최저−1) ≤ W% 범위에 머물고, 위·아래 20% 구간에 각각 T번 이상 들어간 구간
+function findBoxes(C, L, W, T){
+  const out = [], n = C.length;
+  let i = 0;
+  while (i < n - L){
+    let hi = -Infinity, lo = Infinity, j = i;
+    while (j < n){
+      const h2 = Math.max(hi, C[j]), l2 = Math.min(lo, C[j]);
+      if (h2 / l2 - 1 > W / 100) break;
+      hi = h2; lo = l2; j++;
+    }
+    if (j - i >= L && touches(C, i, j, hi, lo, T)){ out.push({a: i, b: j - 1, top: hi, bot: lo}); i = j; }
+    else i++;
+  }
+  return out;
+}
+function touches(C, a, b, hi, lo, T){
+  // 위·아래 20% 구간 방문을 순서대로 적고(연속 중복 제거) 번갈아 닿은 횟수를 셈: 위·아래 각각 T번 이상, 왕복 2T−1번 이상
+  const band = (hi - lo) * 0.2, seq = [];
+  for (let k = a; k < b; k++){
+    const z = C[k] >= hi - band ? "U" : C[k] <= lo + band ? "D" : null;
+    if (z && seq[seq.length - 1] !== z) seq.push(z);
+  }
+  const up = seq.filter(z => z === "U").length, dn = seq.length - up;
+  if (up < T || dn < T || seq.length < 2 * T - 1) return false;
+  // 추세 구간 제외: 회귀 기울기로 본 구간 전체 이동폭이 박스 높이의 40%를 넘으면 박스가 아니라 추세
+  const n = b - a; let sx = 0, sy = 0, sxy = 0, sxx = 0;
+  for (let k = 0; k < n; k++){ const y = C[a + k]; sx += k; sy += y; sxy += k * y; sxx += k * k; }
+  const slope = (n * sxy - sx * sy) / (n * sxx - sx * sx);
+  return Math.abs(slope * n) <= (hi - lo) * 0.4;
+}
+// 직접 그린 박스: 종목별로 이 브라우저에 저장 {코드: [{a:날짜, b:날짜, top, bot}]}
+const BOX_KEY = "ms_boxes_v1";
+function loadBoxes(){ try { return JSON.parse(localStorage.getItem(BOX_KEY) || "{}") || {}; } catch(e){ return {}; } }
+function myBoxes(){ return (loadBoxes()[state.code] || []); }
+function saveBoxes(list){
+  const all = loadBoxes();
+  if (list.length) all[state.code] = list; else delete all[state.code];
+  try { localStorage.setItem(BOX_KEY, JSON.stringify(all)); } catch(e){ $("#boxMsg").textContent = "이 브라우저에서는 저장이 막혀 있어요"; }
+}
+let drawMode = null;   // null | {step:1} | {step:2, i, price}
+function renderBoxList(){
+  const L = raw ? myBoxes() : [];
+  $("#boxList").innerHTML = L.map((b, k) => `<span class="boxitem">${nf(b.bot, pxd(b.bot))}~${nf(b.top, pxd(b.top))} · ${b.a.slice(2).replace(/-/g, ".")}~${b.b.slice(2).replace(/-/g, ".")}<button data-bdel="${k}" title="지우기">×</button></span>`).join("") +
+    (L.length > 1 ? '<button class="chip" id="boxClear">모두 지우기</button>' : "");
+  $("#boxDraw").classList.toggle("on", !!drawMode);
+  $("#boxDraw").textContent = drawMode ? "그리기 취소" : "✏️ 박스 직접 긋기";
+  $("#boxMsg").textContent = !drawMode ? "" : drawMode.step === 1 ? "차트에서 박스의 한쪽 모서리를 클릭하세요" : "반대쪽 모서리를 클릭하세요 (Esc 취소)";
+  $("#chart").classList.toggle("drawing", !!drawMode);
+}
+function idxOfDate(d, dates){ let i = dates.findIndex(x => x >= d); return i < 0 ? dates.length - 1 : i; }
+function onChartClick(e){
+  if (!drawMode || !chart || !view) return;
+  const pt = [e.offsetX, e.offsetY];
+  if (!chart.containPixel({gridIndex: 0}, pt)) return;
+  const [ci, price] = chart.convertFromPixel({xAxisIndex: 0, yAxisIndex: 0}, pt);
+  const dates = view.s.d, i = Math.max(0, Math.min(dates.length - 1, Math.round(ci)));
+  if (drawMode.step === 1){ drawMode = {step: 2, i, price}; renderBoxList(); return; }
+  const a = Math.min(drawMode.i, i), b = Math.max(drawMode.i, i);
+  const top = Math.max(drawMode.price, price), bot = Math.min(drawMode.price, price);
+  drawMode = null;
+  if (top / bot - 1 < 0.002 || a === b){ renderBoxList(); $("#boxMsg").textContent = "너무 작아서 그리지 않았어요"; return; }
+  const L = myBoxes();
+  if (L.length >= 8){ renderBoxList(); $("#boxMsg").textContent = "종목당 8개까지 저장할 수 있어요"; return; }
+  L.push({a: dates[a], b: dates[b], top: +top.toPrecision(6), bot: +bot.toPrecision(6)});
+  saveBoxes(L); renderBoxList();
+  try { chart.dispatchAction({type: "hideTip"}); } catch(err){}
+  setTimeout(() => draw({keepZoom: true}), 0);   // 클릭 처리 중 차트를 갈아끼우면 툴팁 DOM 오류가 나서 다음 틱에
 }
 
 // ───────── hash ─────────
@@ -329,6 +413,7 @@ async function selectStock(code){
     raw = null; $("#chart").innerHTML = `<div class="msg">${esc(e.message)}</div>`; $("#stats").innerHTML = ""; renderTitle(); writeHash(); return;
   }
   document.title = `${raw.name} 차트 · MarketSignal`;
+  drawMode = null; renderBoxList();
   renderWatch();
   draw();
 }
@@ -374,6 +459,13 @@ function renderParams(){
     '<button class="chip" id="preset">기본값으로</button>';
 }
 function bind(){
+  $("#boxDraw").onclick = () => { drawMode = drawMode ? null : {step: 1}; renderBoxList(); };
+  $("#boxList").onclick = e => {
+    const d = e.target.closest("[data-bdel]");
+    if (d){ const L = myBoxes(); L.splice(+d.dataset.bdel, 1); saveBoxes(L); renderBoxList(); draw({keepZoom: true}); }
+    if (e.target.id === "boxClear"){ saveBoxes([]); renderBoxList(); draw({keepZoom: true}); }
+  };
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && drawMode){ drawMode = null; renderBoxList(); } });
   const q = $("#q");
   q.addEventListener("input", () => { sList = search(q.value); sIdx = sList.length ? 0 : -1; renderSugg(); });
   q.addEventListener("keydown", e => {
@@ -674,7 +766,7 @@ function renderStats(s, i0){
 }
 
 // ───────── chart ─────────
-function draw(){
+function draw(opt = {}){
   writeHash();
   renderTitle();
   if (!raw) return;
@@ -696,7 +788,9 @@ function draw(){
   const narrow = $("#chart").clientWidth < 600;
   const totalH = top + mainH + panes.length * (paneH + gap) + 54;
   $("#chart").style.height = totalH + "px";
-  if (!chart){ $("#chart").innerHTML = ""; chart = echarts.init($("#chart")); } else chart.resize();
+  let keep = null;
+  if (opt.keepZoom && chart){ try { const z = chart.getOption().dataZoom[0]; keep = [z.startValue, z.endValue]; } catch(e){} }
+  if (!chart){ $("#chart").innerHTML = ""; chart = echarts.init($("#chart")); chart.getZr().on("click", onChartClick); } else chart.resize();
 
   const grids = [{left: narrow ? 46 : 64, right: 14, top, height: mainH}];
   panes.forEach((p, k) => grids.push({left: grids[0].left, right: 14, top: top + mainH + gap + k * (paneH + gap), height: paneH}));
@@ -751,8 +845,30 @@ function draw(){
       {id: "cmp_" + id, lineStyle: {width: 1.4, type: "dotted", color: OVERLAYS.find(o => o.id === id).color}});
   }
 
-  // PER·PBR 밴드: 최근 4분기 순이익(또는 분기말 자본) ÷ 현재 주식수 × 배수
   const hints = [];
+  // 박스권: 자동(파랑) + 직접 그린 것(주황). 빈 선 시리즈에 markArea 로 사각형, 가격 라벨
+  const boxSeries = (name, boxes, col, fill, extend) => series.push({name, type: "line", data: [], xAxisIndex: 0, yAxisIndex: 0, z: 1,
+    lineStyle: {color: col}, itemStyle: {color: col},
+    markArea: {silent: true, itemStyle: {color: fill, borderColor: col, borderWidth: 1, borderType: "dashed"},
+      label: {show: true, position: "insideTopLeft", color: col, fontSize: 10, fontWeight: 600},
+      data: boxes.map(b => [{xAxis: cats[b.a], yAxis: b.bot, name: `${nf(b.bot, pxd(b.bot))}~${nf(b.top, pxd(b.top))}`}, {xAxis: cats[b.b], yAxis: b.top}])},
+    markLine: extend ? {silent: true, symbol: "none", lineStyle: {color: col, type: "dashed", width: 1, opacity: .7},
+      label: {show: true, position: "end", color: col, fontSize: 10, formatter: p => nf(p.value, pxd(p.value))},
+      data: boxes.flatMap(b => [[{coord: [cats[b.b], b.top]}, {coord: [cats[N - 1], b.top]}], [{coord: [cats[b.b], b.bot]}, {coord: [cats[N - 1], b.bot]}]])} : undefined});
+  if (state.ov.includes("box")){
+    const B = findBoxes(s.c, P.boxN, P.boxW, P.boxT);
+    boxSeries("박스권(자동)", B, "#3182f6", "rgba(49,130,246,.07)", false);
+    const last = B[B.length - 1];
+    if (!last) hints.push(`자동 박스권: 이 기간에 조건(${P.boxN}봉 이상, 폭 ${P.boxW}% 이내, 위·아래 ${P.boxT}회 이상)에 맞는 구간이 없어요.`);
+    else {
+      const range = `${nf(last.bot, pxd(last.bot))}~${nf(last.top, pxd(last.top))}`, cnow = s.c[N - 1];
+      if (last.b === N - 1) hints.push(`자동 박스권: 지금 박스 안 (${range}, ${N - last.a}봉째).`);
+      else hints.push(`자동 박스권: 가장 최근 박스(${range})를 ${N - 1 - last.b}봉 전에 ${cnow > last.top ? "위로 벗어남" : cnow < last.bot ? "아래로 벗어남" : "벗어났다가 다시 범위 안"}.`);
+    }
+  }
+  const mine = myBoxes().map(b => ({a: idxOfDate(b.a, s.d), b: idxOfDate(b.b, s.d), top: b.top, bot: b.bot}));
+  if (mine.length) boxSeries("내 박스", mine, "#e8590c", "rgba(232,89,12,.08)", true);
+  // PER·PBR 밴드: 최근 4분기 순이익(또는 분기말 자본) ÷ 현재 주식수 × 배수
   const pts = finPoints(), shares = raw ? sharesNow() : null;
   for (const [id, key, label] of [["perband", "ni", "PER"], ["pbrband", "eq", "PBR"]]){
     if (!state.ov.includes(id)) continue;
@@ -819,8 +935,8 @@ function draw(){
     tooltip: {trigger: "axis", axisPointer: {type: "cross", label: {backgroundColor: sub}}, backgroundColor: card, borderColor: line,
       textStyle: {color: ink, fontSize: 12}, confine: true, formatter: ps => tip(ps, s)},
     grid: grids, xAxis: xAxes, yAxis: yAxes,
-    dataZoom: [{type: "inside", xAxisIndex: xIdx, startValue: i0, endValue: cats.length - 1},
-      {type: "slider", xAxisIndex: xIdx, startValue: i0, endValue: cats.length - 1, bottom: 8, height: 18, borderColor: line,
+    dataZoom: [{type: "inside", xAxisIndex: xIdx, startValue: keep ? keep[0] : i0, endValue: keep ? keep[1] : cats.length - 1},
+      {type: "slider", xAxisIndex: xIdx, startValue: keep ? keep[0] : i0, endValue: keep ? keep[1] : cats.length - 1, bottom: 8, height: 18, borderColor: line,
         fillerColor: "rgba(100,130,200,.15)", textStyle: {color: sub, fontSize: 10}, labelFormatter: i => cats[i] || ""}],
     series: series.map(x => { const {_bbUpper, ...rest} = x; return rest; }),
   }, true);
