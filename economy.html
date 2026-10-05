@@ -52,6 +52,18 @@ input.q{font-size:.88em;padding:7px 12px;border:1px solid var(--line);border-rad
 .ev .r{display:flex;flex-wrap:wrap;align-items:baseline;gap:3px 8px}
 .ev .x{color:var(--muted);font-size:.86em}
 .ev.hi .r b{color:var(--up)}
+.ftbl{overflow-x:auto}
+#ipoTbl{min-width:760px;font-size:.86em}
+#ipoTbl th,#ipoTbl td{padding:9px 8px;text-align:right;white-space:nowrap}
+#ipoTbl th:first-child,#ipoTbl td:first-child{text-align:left}
+#ipoTbl td small{display:block;color:var(--muted);font-size:.85em;max-width:220px;overflow:hidden;text-overflow:ellipsis}
+#ipoTbl tr.soon td{background:var(--accent-soft)}
+.st{display:inline-block;font-size:.78em;font-weight:700;padding:2px 8px;border-radius:6px;background:var(--chip);color:var(--sub)}
+.st.go{background:#fff0f0;color:var(--up)} .st.dm{background:var(--accent-soft);color:var(--accent)}
+.ipo-pre{margin-top:14px;font-size:.88em;color:var(--sub)}
+.ipo-pre summary{cursor:pointer;font-weight:600}
+#ipoPre{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;font-size:.92em}
+#ipoPre span small{color:var(--muted);margin-left:4px}
 @media (max-width:640px){ input.q{width:100%} .bar .grp{width:100%} }
 </style>
 </head>
@@ -64,7 +76,7 @@ input.q{font-size:.88em;padding:7px 12px;border:1px solid var(--line);border-rad
   <section class="summary" id="summary"></section>
 
   <section class="panel">
-    <div class="tabs"><button class="tab on" data-t="d">공시</button><button class="tab" data-t="s">일정</button></div>
+    <div class="tabs"><button class="tab on" data-t="d">공시</button><button class="tab" data-t="s">일정</button><button class="tab" data-t="i">공모주</button></div>
 
     <!-- 공시 -->
     <div id="vd">
@@ -99,6 +111,13 @@ input.q{font-size:.88em;padding:7px 12px;border:1px solid var(--line);border-rad
       <div id="slist"></div>
     </div>
 
+    <!-- 공모주 -->
+    <div id="vi" hidden>
+      <p class="desc">청약 일정이 잡힌 공모주예요. 파란 줄은 지금 청약 중이거나 7일 안에 청약이 시작되는 종목이에요. 기관 경쟁률은 수요예측 결과가 나온 뒤 채워져요. 출처: 네이버 증권 IPO 일정.</p>
+      <div class="ftbl"><table id="ipoTbl"></table></div>
+      <details class="ipo-pre"><summary id="ipoPreSum"></summary><div id="ipoPre"></div></details>
+    </div>
+
     <ul class="notes">
       <li>금액·비율·날짜는 DART 공시 원문의 표에서 자동으로 읽은 값이에요. 정정공시가 나오면 바뀔 수 있으니 중요한 판단 전에는 <b>원문(공시명 링크)</b>을 꼭 확인하세요.</li>
       <li>"규모(추정)"은 신주 수 × 발행가로 계산한 값이에요. 공시에 확정 금액이 따로 적혀 있으면 그쪽이 정확합니다.</li>
@@ -114,6 +133,7 @@ input.q{font-size:.88em;padding:7px 12px;border:1px solid var(--line);border-rad
 (() => {
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nf = (v, d = 0) => v == null || isNaN(v) ? "–" : Number(v).toLocaleString("ko-KR", {minimumFractionDigits: d, maximumFractionDigits: d});
 const CATS = ["공급계약","자사주","배당","자금조달","M&A·지배구조","주식 수 변동","투자·사업","실적","주총·IR","주의"];
 const PAGE = 80;
 const dart = rc => `https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${rc}`;
@@ -201,9 +221,10 @@ function sgroup(t){
   if (/합병기일|분할기일/.test(t)) return "합병·분할";
   if (/기준일/.test(t)) return "권리 기준일";
   if (/전환청구/.test(t)) return "전환청구";
+  if (/공모주|신규 상장/.test(t)) return "공모주";
   return "기타";
 }
-const SGROUPS = ["경제지표","주총","IR","배당","자사주","신주 상장","합병·분할","권리 기준일","전환청구","기타"];
+const SGROUPS = ["경제지표","공모주","주총","IR","배당","자사주","신주 상장","합병·분할","권리 기준일","전환청구","기타"];
 function filterS(ignoreType){
   const t = S.today, q = st.sq.trim().toLowerCase();
   const [lo, hi] = {past: [shift(t, -7), shift(t, -1)], week: [t, shift(t, 6)], month: [t, shift(t, 29)], all: ["0", "9"]}[st.sper];
@@ -231,13 +252,32 @@ function renderS(){
   }).join("");
 }
 
+// ───────── 공모주 ─────────
+let IPO = null;
+function renderI(){
+  if (!IPO){ $("#ipoTbl").innerHTML = '<tr><td class="empty">공모주 데이터를 불러오지 못했어요.</td></tr>'; return; }
+  const won = v => v == null ? "–" : nf(v) + "원";
+  const md2 = d => d ? md(d) : "–";
+  const soonTo = shift(S.today, 7);
+  const L = IPO.items.filter(x => x.start).sort((a, b) => a.start < b.start ? -1 : 1);
+  const stCls = st => /청약/.test(st) ? "go" : /수요예측/.test(st) ? "dm" : "";
+  $("#ipoTbl").innerHTML = `<thead><tr><th>종목</th><th>상태</th><th>희망 공모가</th><th>확정 공모가</th><th>기관 경쟁률</th><th>청약</th><th>상장 예정</th><th>주관사</th></tr></thead><tbody>` +
+    L.map(x => `<tr class="${(x.end || x.start) >= S.today && x.start <= soonTo ? "soon" : ""}"><td><b>${esc(x.name)}</b> <span class="tag">${x.mkt}</span>${/기업인수목적/.test(x.name) ? ' <span class="tag">스팩</span>' : ""}<small>${esc(x.biz)}</small></td>
+      <td><span class="st ${stCls(x.status)}">${esc(x.status)}</span></td>
+      <td>${x.band && x.band[0] ? `${nf(x.band[0])}~${nf(x.band[1])}원` : "–"}</td><td>${won(x.price)}</td>
+      <td>${x.inst ? nf(x.inst, 0) + " : 1" : "–"}</td><td>${md2(x.start)}~${md2(x.end)}</td><td>${md2(x.listed)}</td><td>${esc(x.lead)}${x.co ? `<small>${esc(x.co)}</small>` : ""}</td></tr>`).join("") + "</tbody>";
+  const pre = IPO.items.filter(x => !x.start);
+  $("#ipoPreSum").textContent = `상장 준비 중 (청약 일정 미정) ${pre.length}개 보기`;
+  $("#ipoPre").innerHTML = pre.map(x => `<span>${esc(x.name)}<small>${esc(x.status)} · ${esc(x.lead || "-")}</small></span>`).join("");
+}
+
 // ───────── 공통 ─────────
 function switchTab(t){
   st.tab = t;
   document.querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.t === t));
-  $("#vd").hidden = t !== "d"; $("#vs").hidden = t !== "s";
-  t === "d" ? renderD() : renderS();
-  try { history.replaceState(null, "", t === "s" ? "#schedule" : location.pathname); } catch(e){}
+  $("#vd").hidden = t !== "d"; $("#vs").hidden = t !== "s"; $("#vi").hidden = t !== "i";
+  t === "d" ? renderD() : t === "s" ? renderS() : renderI();
+  try { history.replaceState(null, "", t === "s" ? "#schedule" : t === "i" ? "#ipo" : location.pathname); } catch(e){}
 }
 function syncSeg(){
   const set = (id, v) => document.querySelectorAll(`#${id} button`).forEach(b => b.classList.toggle("on", b.dataset.v === String(v)));
@@ -265,9 +305,10 @@ function bind(){
     [D, S] = await Promise.all([fetch(`data/disclosures.json?t=${t}`).then(r => r.json()), fetch(`data/schedule.json?t=${t}`).then(r => r.json())]);
   } catch(e){ $("#updated").textContent = "데이터를 불러오지 못했어요. 잠시 후 새로고침해 주세요."; return; }
   D.today = S.today;
+  try { IPO = await (await fetch(`data/ipo.json?t=${Date.now()}`)).json(); } catch(e){ IPO = null; }
   $("#updated").textContent = `갱신: ${D.updated} (한국시간) · 최근 ${D.days}일 공시 ${D.items.length.toLocaleString()}건`;
   bind(); renderSummary();
-  switchTab(location.hash === "#schedule" ? "s" : "d");
+  switchTab(location.hash === "#schedule" ? "s" : location.hash === "#ipo" ? "i" : "d");
 })();
 })();
 </script>
