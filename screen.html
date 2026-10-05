@@ -61,6 +61,8 @@
 .saveform{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center}
 .saveform input{font:inherit;font-size:.86em;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);width:200px}
 .savemsg{font-size:.84em;color:var(--sub)}
+.pre .linkbtn.mine{padding:0;font-size:1em;font-weight:700;text-decoration:none;color:var(--ink)}
+.pre .linkbtn.mine:hover{color:var(--accent);text-decoration:underline}
 .v3box{background:var(--chip);border-radius:var(--r-md);padding:14px 16px;margin-bottom:14px;font-size:.88em;color:var(--sub);line-height:1.7}
 .v3box b{color:var(--ink)}
 .v3box .on{color:var(--up);font-weight:800} .v3box .off{color:var(--down);font-weight:800}
@@ -97,7 +99,7 @@
     <div class="active" id="active"></div>
   </section>
 
-  <section class="res">
+  <section class="res" id="res">
     <div class="v3box" id="v3box" hidden></div>
     <div class="res-head"><b id="cnt">–</b><span id="cntSub"></span></div>
     <div class="tw"><table id="tbl"></table></div>
@@ -302,7 +304,42 @@ function renderPresets(note){
     (hidden.length ? '<button class="linkbtn" id="exBack">예시 다시 보기</button>' : "") +
     (note ? `<span class="savemsg">${note}</span>` : "");
   markActive();
+  renderMine();
 }
+// ───────── 맨 위 '내 조건 결과' (검색로봇용 서버 요약을 이 브라우저의 내 조건 목록으로 바꿔 보여줌) ─────────
+function parseH(h){
+  const q = new URLSearchParams(h), o = {};
+  (q.get("c") || "").split(";").filter(Boolean).forEach(part => {
+    const [id, ps] = part.split(":"); if (!C[id]) return;
+    const p = defaults(C[id]);
+    (ps || "").split(",").filter(Boolean).forEach(kv => { const [k, v] = kv.split("="); if (k in p) p[k] = isNaN(+v) ? v : +v; });
+    o[id] = p;
+  });
+  return {on: o, b: {mkt: q.get("mkt") || "", sec: q.get("sec") || "", mv: +q.get("mv") || 0, val: +q.get("val") || 0}};
+}
+function matchRows(o, b){
+  const ids = Object.keys(o);
+  if (!ids.length) return [];
+  return DATA.rows.filter(r => (!b.mkt || r.m === b.mkt) && (!b.sec || r.s === b.sec) && (r.mv || 0) >= b.mv && (r.val || 0) >= b.val && ids.every(id => C[id].t(r, o[id])))
+    .sort(o.v3 ? (x, y) => x.v3 - y.v3 : (x, y) => (y.mv || 0) - (x.mv || 0));
+}
+function renderMine(){
+  const box = document.querySelector("section.pre"); if (!box || !DATA) return;
+  const list = [
+    ...saved.map((x, i) => ({ap: `u:${i}`, n: x.n, ...parseH(x.h)})),
+    ...EXAMPLES.filter(x => !hidden.includes(x.id)).map(x => ({ap: `e:${x.id}`, n: x.n, on: Object.fromEntries(Object.entries(x.c).map(([id, p]) => [id, {...defaults(C[id]), ...p}])), b: {mkt: "", sec: "", mv: 0, val: 0}})),
+  ];
+  const d = new Date(DATA.day + "T00:00:00"), day = `${d.getMonth() + 1}월 ${d.getDate()}일(${"일월화수목금토"[d.getDay()]})`;
+  if (!list.length){ box.innerHTML = `<p><b>${day} 종가 기준 내 조건 결과</b> — 저장한 조건이 없어요. 아래에서 조건을 고르고 ‘지금 조건 저장’을 누르면 여기에 그 조건에 맞는 종목이 매일 나와요.</p>`; return; }
+  const li = list.map(x => {
+    const L = matchRows(x.on, x.b), N = 8;
+    const names = L.slice(0, N).map(r => `<a href="stock.html#code=${r.c}">${esc(r.n)}</a>`).join(" · ") + (L.length > N ? ` 외 ${nf(L.length - N)}종목` : "");
+    return `<li><button class="linkbtn mine" data-ap="${x.ap}">${esc(x.n)}</button> — ${L.length ? `<b>${nf(L.length)}종목</b>: ${names}` : '<span class="pre-d">오늘은 맞는 종목이 없어요</span>'}</li>`;
+  }).join("");
+  const g = DATA.regime, rg = list.some(x => x.on.v3) && g ? ` 모멘텀 V3 시장 조건은 지금 <b>${g.on ? "투자 가능(ON)" : "현금 대기(OFF)"}</b>이에요.` : "";
+  box.innerHTML = `<p><b>${day} 종가 기준 내 조건 결과</b> — 이 브라우저에 저장한 조건(예시 포함)에 오늘 맞는 종목이에요. 조건 이름을 누르면 아래에 전체 결과가 나와요.${rg}</p><ul class="pre-l">${li}</ul>`;
+}
+
 // 지금 켜진 조건과 똑같은 저장 조건·예시 버튼만 파랗게
 const normH = h => { const q = new URLSearchParams(h); q.set("c", (q.get("c") || "").split(";").filter(Boolean).map(p => { const [id, ps] = p.split(":"); return id + ":" + (ps || "").split(",").filter(Boolean).sort().join(","); }).sort().join(";")); q.sort(); return q.toString(); };
 const sameOn = (a, b) => JSON.stringify(Object.keys(a).sort().map(k => [k, Object.entries(a[k]).sort()])) === JSON.stringify(Object.keys(b).sort().map(k => [k, Object.entries(b[k]).sort()]));
@@ -343,7 +380,11 @@ function renderV3(show){
   $("#updated").textContent = `${d.getMonth() + 1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]}) 종가 기준 · ${nf(DATA.n)}종목 (보통주, ETF·우선주·스팩 제외) · 계산 ${DATA.updated}`;
   const secs = [...new Set(DATA.rows.map(r => r.s).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
   $("#fSec").innerHTML = '<option value="">전체</option>' + secs.map(s => `<option${s === wantSec ? " selected" : ""}>${esc(s)}</option>`).join("");
-  run();
+  run(); renderMine();
+  document.querySelector("section.pre").addEventListener("click", e => {
+    const b = e.target.closest("[data-ap]"); if (!b) return;
+    const t = $(`#presets [data-ap="${b.dataset.ap}"]`); if (t){ t.click(); $("#res")?.scrollIntoView({behavior: "smooth", block: "start"}); }
+  });
 
   $("#presets").onclick = e => {
     const del = e.target.closest("[data-del]"), back = e.target.closest("#exBack"), undo = e.target.closest("#undo");
