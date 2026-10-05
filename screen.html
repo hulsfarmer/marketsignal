@@ -48,7 +48,9 @@
 #tbl tr:hover td{background:var(--chip)}
 .more{display:block;margin:14px auto 0}
 .chip.preset.star{background:var(--accent);color:#fff}
-.chip.preset.ex{background:var(--chip);color:var(--sub)}
+.chip.preset.ex{background:var(--accent-soft);color:var(--accent)}
+.chip.preset.act{background:var(--accent);color:#fff}
+.chip.preset.act+.pdel{background:var(--accent);color:#fff;opacity:.85}
 .pchip{display:inline-flex;align-items:center}
 .pchip .chip{border-top-right-radius:0;border-bottom-right-radius:0;padding-right:8px}
 .pdel{border:none;background:var(--chip);color:var(--muted);cursor:pointer;font-size:1em;line-height:1;padding:0 9px;align-self:stretch;border-top-right-radius:999px;border-bottom-right-radius:999px;margin-left:1px}
@@ -274,6 +276,7 @@ function run(){
     return ((x ?? -Infinity) > (y ?? -Infinity) ? 1 : (x ?? -Infinity) < (y ?? -Infinity) ? -1 : 0) * sortD;
   });
   renderV3(ids.includes("v3"));
+  markActive();
   $("#cnt").textContent = ids.length ? `${nf(L.length)}종목` : `전체 ${nf(L.length)}종목`;
   $("#cntSub").textContent = ids.length ? `켜진 조건 ${ids.length}개를 모두 만족 · 전체 ${nf(DATA.n)}종목 중` : "위에서 조건을 켜거나 추천 조합을 눌러 보세요";
   $("#active").innerHTML = ids.length ? '<span style="color:var(--muted)">켜진 조건</span>' + ids.map(id => {
@@ -294,10 +297,26 @@ function renderPresets(note){
   const ex = EXAMPLES.filter(x => !hidden.includes(x.id));
   const item = (ap, del, name, cls, tip) => `<span class="pchip"><button class="chip preset${cls}" data-ap="${ap}">${esc(name)}</button><button class="pdel" data-del="${del}" title="${tip}" aria-label="${esc(name)} 지우기">×</button></span>`;
   const H = saved.map((x, i) => item(`u:${i}`, `u:${i}`, x.n, "", "지우기")).join("") +
-    ex.map(x => item(`e:${x.id}`, `e:${x.id}`, x.n, x.id === "v3" ? " star" : " ex", "예시 지우기")).join("");
+    ex.map(x => item(`e:${x.id}`, `e:${x.id}`, x.n, " ex", "예시 지우기")).join("");
   $("#presets").innerHTML = (H || '<span class="pempty">저장한 조건이 없어요. 아래에서 조건을 고른 뒤 ‘지금 조건 저장’을 눌러 보세요.</span>') +
     (hidden.length ? '<button class="linkbtn" id="exBack">예시 다시 보기</button>' : "") +
     (note ? `<span class="savemsg">${note}</span>` : "");
+  markActive();
+}
+// 지금 켜진 조건과 똑같은 저장 조건·예시 버튼만 파랗게
+const normH = h => { const q = new URLSearchParams(h); q.set("c", (q.get("c") || "").split(";").filter(Boolean).map(p => { const [id, ps] = p.split(":"); return id + ":" + (ps || "").split(",").filter(Boolean).sort().join(","); }).sort().join(";")); q.sort(); return q.toString(); };
+const sameOn = (a, b) => JSON.stringify(Object.keys(a).sort().map(k => [k, Object.entries(a[k]).sort()])) === JSON.stringify(Object.keys(b).sort().map(k => [k, Object.entries(b[k]).sort()]));
+function markActive(){
+  const cur = Object.keys(on).length ? normH(location.hash.slice(1)) : null;
+  document.querySelectorAll("#presets [data-ap]").forEach(b => {
+    const [kind, key] = b.dataset.ap.split(":");
+    let act = false;
+    if (cur){
+      if (kind === "u") act = saved[+key] && normH(saved[+key].h) === cur;
+      else { const X = EXAMPLES.find(x => x.id === key); act = X && sameOn(on, Object.fromEntries(Object.entries(X.c).map(([id, p]) => [id, {...defaults(C[id]), ...p}]))); }
+    }
+    b.classList.toggle("act", !!act);
+  });
 }
 
 function renderV3(show){
