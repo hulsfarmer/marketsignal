@@ -9,13 +9,7 @@
   --r-lg:20px; --r-md:14px; --r-sm:10px;
   color-scheme:light;
 }
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --bg:#0e0f12; --card:#1a1c21; --ink:#eceef1; --sub:#b4bcc6; --muted:#8a939f; --line:#2a2e35;
-    --accent:#4c9aff; --accent-soft:#18283f; --up:#ff5a65; --down:#4c9aff; --chip:#24272e; --chip-hover:#2e323a;
-    --warn:#ff8a3d; --warn-soft:#33220f; --bar:rgba(14,15,18,.82); --shadow:none; color-scheme:dark;
-  }
-}
+/* 기본은 밝은 화면. 어두운 화면은 사용자가 버튼으로 고른 경우(data-theme="dark")에만 */
 :root[data-theme="dark"]{
   --bg:#0e0f12; --card:#1a1c21; --ink:#eceef1; --sub:#b4bcc6; --muted:#8a939f; --line:#2a2e35;
   --accent:#4c9aff; --accent-soft:#18283f; --up:#ff5a65; --down:#4c9aff; --chip:#24272e; --chip-hover:#2e323a;
