@@ -48,6 +48,16 @@
 #tbl tr:hover td{background:var(--chip)}
 .more{display:block;margin:14px auto 0}
 .chip.preset.star{background:var(--accent);color:#fff}
+.pstat{background:var(--chip);border-radius:var(--r-md);padding:14px 16px;margin-top:12px;font-size:.88em;line-height:1.6}
+.pstat .ps-sub{color:var(--muted);font-size:.92em}
+.pstat .ps-v{margin:6px 0 4px;font-weight:600}
+.pstat .ps-t{overflow-x:auto}
+.pstat table{border-collapse:collapse;width:100%;min-width:440px;font-variant-numeric:tabular-nums;margin:4px 0 6px}
+.pstat th,.pstat td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+.pstat th:first-child,.pstat td:first-child{text-align:left}
+.pstat th{color:var(--muted);font-weight:600;font-size:.92em}
+.pstat .up{color:var(--up)} .pstat .dn{color:var(--down)}
+.pstat .ps-y{font-size:.9em;margin-bottom:4px;font-variant-numeric:tabular-nums}
 .v3box{background:var(--chip);border-radius:var(--r-md);padding:14px 16px;margin-bottom:14px;font-size:.88em;color:var(--sub);line-height:1.7}
 .v3box b{color:var(--ink)}
 .v3box .on{color:var(--up);font-weight:800} .v3box .off{color:var(--down);font-weight:800}
@@ -77,6 +87,7 @@
     </div>
     <div class="groups" id="groups"></div>
     <div class="active" id="active"></div>
+    <div class="pstat" id="pstat" hidden></div>
   </section>
 
   <section class="res">
@@ -170,17 +181,20 @@ const G = [
 ];
 const C = Object.fromEntries(G.flatMap(([, L]) => L).map(c => [c.id, c]));
 const PRESETS = [
-  ["★ 모멘텀 V3 (과거 검증 규칙)", {v3: {v: 5}, v3x: {}}, {k: "x0", d: 1}],
-  ["거래대금 2000억 첫 돌파 (이전 실험)", {valx: {n: "2000"}, rare: {n: "2000", v: 3}, bull: {}, mvmax: {v: 10}}],
-  ["52주 신고가 + 거래 급증", {nh: {}, vr: {v: 2}}],
+  ["★ 모멘텀 V3 (과거 검증 규칙)", {v3: {v: 5}, v3x: {}}, {k: "x0", d: 1}, "v3"],
+  ["거래대금 2000억 첫 돌파 (이전 실험)", {valx: {n: "2000"}, rare: {n: "2000", v: 3}, bull: {}, mvmax: {v: 10}}, null, "vol2000"],
+  ["52주 신고가 + 거래 급증", {nh: {}, vr: {v: 2}}, null, "nh_vr"],
   ["RSI 과매도 + PBR 1 미만", {rsi_lo: {v: 30}, pbr: {v: 1}}],
   ["외국인·기관 동반 순매수", {both: {v: 3}}],
   ["실적 개선 + 업종 PER 하위", {qq: {}, yy: {}, pr: {v: 30}}],
-  ["골든크로스 + 60일선 위", {gx: {n: "5/20"}, ma_up: {n: "60"}}],
-  ["박스권 상단 돌파", {box_up: {}, vr: {v: 1.5}}],
+  ["골든크로스 + 60일선 위", {gx: {n: "5/20"}, ma_up: {n: "60"}}, null, "gx_ma60"],
+  ["박스권 상단 돌파", {box_up: {}, vr: {v: 1.5}}, null, "box_vr"],
   ["자사주 매입 공시", {bk: {v: 30}}],
   ["고배당 + 저PBR", {div: {v: 4}, pbr: {v: 1}}],
 ];
+// 과거 통계: ~/backtest_alpha/bb_breakout_2026/preset_stats.py 결과 (시점별 전 종목·상장폐지 포함, 다음 날 시가 매수, 비용 제외)
+const PSTAT = {"period":["2016-01-04","2026-08-13"],"p":{"v3":{"n":13008,"h5":{"mean":0.54,"med":-0.65,"win":46.5,"mkt":0.06,"ex":0.47,"beat":46.0},"h20":{"mean":2.57,"med":-1.68,"win":45.5,"mkt":0.58,"ex":1.99,"beat":44.0},"h60":{"mean":5.55,"med":-2.62,"win":45.8,"mkt":1.65,"ex":3.9,"beat":43.3},"y":{"2016":-4.06,"2017":6.3,"2018":-0.54,"2019":0.14,"2020":1.14,"2021":0.9,"2022":-2.82,"2023":2.47,"2024":5.9,"2025":4.5,"2026":11.97}},"vol2000":{"n":3793,"h5":{"mean":-2.6,"med":-4.96,"win":35.0,"mkt":0.1,"ex":-2.7,"beat":34.5},"h20":{"mean":-3.69,"med":-9.58,"win":32.5,"mkt":0.71,"ex":-4.4,"beat":31.6},"h60":{"mean":-5.4,"med":-14.5,"win":31.0,"mkt":2.52,"ex":-7.92,"beat":27.5},"y":{"2016":-9.53,"2017":-4.14,"2018":-3.84,"2019":-11.05,"2020":-1.33,"2021":-4.36,"2022":-2.0,"2023":-5.23,"2024":-7.12,"2025":-3.91,"2026":-4.63}},"nh_vr":{"n":49965,"h5":{"mean":-0.15,"med":-1.38,"win":43.1,"mkt":0.07,"ex":-0.22,"beat":42.1},"h20":{"mean":0.49,"med":-3.44,"win":41.3,"mkt":0.5,"ex":-0.01,"beat":39.6},"h60":{"mean":0.69,"med":-6.23,"win":39.7,"mkt":1.7,"ex":-1.01,"beat":36.4},"y":{"2016":-0.91,"2017":-0.09,"2018":-1.17,"2019":0.22,"2020":-0.56,"2021":-0.09,"2022":2.39,"2023":0.5,"2024":-1.16,"2025":1.17,"2026":0.4}},"gx_ma60":{"n":89753,"h5":{"mean":-0.16,"med":-0.68,"win":43.4,"mkt":-0.05,"ex":-0.11,"beat":42.2},"h20":{"mean":0.36,"med":-1.35,"win":43.6,"mkt":0.46,"ex":-0.1,"beat":40.1},"h60":{"mean":1.32,"med":-3.11,"win":42.2,"mkt":1.64,"ex":-0.32,"beat":38.2},"y":{"2016":0.29,"2017":0.26,"2018":-0.08,"2019":-0.18,"2020":0.06,"2021":0.54,"2022":-0.59,"2023":-0.89,"2024":-0.31,"2025":-0.21,"2026":0.05}},"box_vr":{"n":31902,"h5":{"mean":-0.52,"med":-1.53,"win":40.5,"mkt":0.01,"ex":-0.53,"beat":39.1},"h20":{"mean":-0.46,"med":-3.3,"win":39.5,"mkt":0.33,"ex":-0.79,"beat":37.0},"h60":{"mean":-0.03,"med":-5.95,"win":38.8,"mkt":1.24,"ex":-1.27,"beat":35.5},"y":{"2016":-1.86,"2017":-1.21,"2018":-1.15,"2019":-0.96,"2020":0.36,"2021":0.39,"2022":-2.13,"2023":-0.7,"2024":-1.07,"2025":-0.11,"2026":-1.47}}}};
+const NOSTAT = "이 조합은 과거 시점별 데이터(PBR·배당·수급·실적 발표 시점·공시 이력)를 구할 수 없어 과거 통계를 내지 않았어요.";
 
 // ───────── 상태 ─────────
 let DATA = null, on = {}, sortK = "mv", sortD = -1, shown = 100, watch = new Set();
@@ -260,6 +274,7 @@ function run(){
     return ((x ?? -Infinity) > (y ?? -Infinity) ? 1 : (x ?? -Infinity) < (y ?? -Infinity) ? -1 : 0) * sortD;
   });
   renderV3(ids.includes("v3"));
+  renderStat();
   $("#cnt").textContent = ids.length ? `${nf(L.length)}종목` : `전체 ${nf(L.length)}종목`;
   $("#cntSub").textContent = ids.length ? `켜진 조건 ${ids.length}개를 모두 만족 · 전체 ${nf(DATA.n)}종목 중` : "위에서 조건을 켜거나 추천 조합을 눌러 보세요";
   $("#active").innerHTML = ids.length ? '<span style="color:var(--muted)">켜진 조건</span>' + ids.map(id => {
@@ -273,6 +288,28 @@ function run(){
       cols.slice(1).map(c => `<td>${c.f(r)}</td>`).join("") + "</tr>").join("") + "</tbody>";
   $("#more").hidden = L.length <= shown;
   $("#more").textContent = `더 보기 (${nf(L.length - shown)}종목 남음)`;
+}
+
+function activePreset(){
+  const same = (a, b) => JSON.stringify(Object.keys(a).sort().map(k => [k, Object.entries(a[k]).sort()])) === JSON.stringify(Object.keys(b).sort().map(k => [k, Object.entries(b[k]).sort()]));
+  return PRESETS.findIndex(P => same(on, Object.fromEntries(Object.entries(P[1]).map(([id, p]) => [id, {...defaults(C[id]), ...p}]))));
+}
+function renderStat(){
+  const box = $("#pstat"), i = activePreset();
+  if (i < 0){ box.hidden = true; return; }
+  box.hidden = false;
+  const key = PRESETS[i][3], S = key && PSTAT.p[key];
+  if (!S){ box.innerHTML = `<b>과거 통계</b> <span class="ps-sub">${NOSTAT}</span>`; return; }
+  const sg = v => (v > 0 ? "+" : "") + nf(v, 2) + "%", sgp = v => (v > 0 ? "+" : "") + nf(v, 2) + "%p";
+  const cls = v => v > 0 ? "up" : v < 0 ? "dn" : "";
+  const row = (h, L) => `<tr><td>${L}</td><td class="${cls(S[h].mean)}">${sg(S[h].mean)}</td><td class="${cls(S[h].med)}">${sg(S[h].med)}</td><td>${nf(S[h].win, 0)}%</td><td>${sg(S[h].mkt)}</td><td class="${cls(S[h].ex)}"><b>${sgp(S[h].ex)}</b></td></tr>`;
+  const ex = S.h20.ex, verdict = Math.abs(ex) < 0.5 ? "전 종목 평균과 거의 차이가 없었어요" : ex > 0 ? `전 종목 평균보다 ${nf(ex, 1)}%p 높았어요` : `전 종목 평균보다 ${nf(-ex, 1)}%p 낮았어요`;
+  const yrs = Object.entries(S.y).map(([y, v]) => `<span class="${cls(v)}">${y.slice(2)}년 ${sgp(v)}</span>`).join(" · ");
+  box.innerHTML = `<b>과거에는 어땠나</b> <span class="ps-sub">${PSTAT.period[0].slice(0, 7).replace("-", ".")} ~ ${PSTAT.period[1].slice(0, 7).replace("-", ".")} 매 거래일, 이 조합에 걸린 종목을 다음 날 시가에 샀다고 보고 잰 결과 · 신호 ${nf(S.n)}회</span>
+    <p class="ps-v">20거래일 뒤 평균 수익률은 ${verdict}. 오른 경우는 ${nf(S.h20.win, 0)}%였어요.</p>
+    <div class="ps-t"><table><thead><tr><th>보유 기간</th><th>평균</th><th>중앙값</th><th>오른 비율</th><th>전 종목 평균</th><th>차이</th></tr></thead><tbody>${row("h5", "5거래일")}${row("h20", "20거래일")}${row("h60", "60거래일")}</tbody></table></div>
+    <div class="ps-y">연도별 20거래일 차이: ${yrs}</div>
+    <div class="ps-sub">시점별 전 종목(상장폐지 포함)·수정주가 기준, 수수료·세금·슬리피지 빼기 전. 평균은 소수의 급등 종목에 끌려 올라가니 중앙값을 함께 보세요.${key === "v3" ? " 여기 숫자는 '그날 5위 안' 종목을 매일 샀다고 본 것이고, 시장 조건·월 1회 교체를 포함한 규칙 그대로의 성과는 아래 V3 상자에 있어요." : ""}${key === "box_vr" ? " 박스권은 화면과 조금 다른 방식(전체 이력에서 찾은 박스)으로 근사했어요." : ""} 과거 결과가 앞으로도 같다는 뜻은 아니에요.</div>`;
 }
 
 function renderV3(show){
