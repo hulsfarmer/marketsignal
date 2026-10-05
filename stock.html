@@ -969,12 +969,17 @@ function draw(opt = {}){
   if (opt.keepZoom && chart){ try { const z = chart.getOption().dataZoom[0]; keep = [z.startValue, z.endValue]; } catch(e){} }
   if (!chart){ $("#chart").innerHTML = ""; chart = echarts.init($("#chart")); chart.getZr().on("click", onChartClick); } else chart.resize();
 
-  const grids = [{left: narrow ? 46 : 64, right: 14, top, height: mainH}];
-  panes.forEach((p, k) => grids.push({left: grids[0].left, right: 14, top: top + mainH + gap + k * (paneH + gap), height: paneH}));
+  // RSI 는 가격 차트 위에, 나머지 패널은 아래에 (아래로 길어지는 것 줄이기)
+  const above = panes.filter(p => p === "rsi"), below = panes.filter(p => p !== "rsi");
+  const mainTop = top + above.length * (paneH + gap);
+  const grids = [{left: narrow ? 46 : 64, right: 14, top: mainTop, height: mainH}];
+  panes.forEach(p => grids.push({left: grids[0].left, right: 14, height: paneH,
+    top: p === "rsi" ? top + above.indexOf(p) * (paneH + gap) : mainTop + mainH + gap + below.indexOf(p) * (paneH + gap)}));
+  const bottomGrid = below.length ? 1 + panes.indexOf(below[below.length - 1]) : 0;
   const xAxes = grids.map((g, k) => ({type: "category", data: cats, gridIndex: k, boundaryGap: true,
     axisLine: {lineStyle: {color: line}}, axisTick: {show: false},
-    axisLabel: {show: k === grids.length - 1, color: sub, fontSize: 10, hideOverlap: true, formatter: v => v.startsWith("+") ? "" : (state.iv === "m" ? v.slice(0,7) : v.slice(2))},
-    axisPointer: {label: {show: k === grids.length - 1, formatter: p => p.value}}}));
+    axisLabel: {show: k === bottomGrid, color: sub, fontSize: 10, hideOverlap: true, formatter: v => v.startsWith("+") ? "" : (state.iv === "m" ? v.slice(0,7) : v.slice(2))},
+    axisPointer: {label: {show: k === bottomGrid, formatter: p => p.value}}}));
   const yAxes = grids.map((g, k) => ({type: "value", gridIndex: k, scale: true, position: "left", splitNumber: k ? 2 : 5,
     axisLabel: {color: sub, fontSize: 10, formatter: v => Math.abs(v) >= 1e8 ? nf(v / 1e8, 1) + "억" : Math.abs(v) >= 1e4 ? nf(v / 1e4, 0) + "만" : (v === 0 ? "0" : nf(v, Math.abs(v) < 10 ? 2 : 0))},
     splitLine: {lineStyle: {color: line}}}));
