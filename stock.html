@@ -164,6 +164,12 @@ main .panel{padding:22px 24px 24px;scroll-margin-top:76px}
     <div class="hint" id="shint"></div>
     <div class="stats" id="stats"></div>
 
+    <div class="fund" id="flowbox" hidden>
+      <h3>수급 <span style="font-size:.7em;color:var(--muted);font-weight:500">투자자별 순매수 · 억원</span></h3>
+      <p class="sub" id="flowSub"></p>
+      <div class="ftbl"><table id="flowTbl"></table></div>
+    </div>
+
     <div class="fund" id="sector" hidden>
       <h3><span>업종 비교 <span class="secname" id="secName"></span></span></h3>
       <p class="sub" id="secSub"></p>
@@ -223,6 +229,7 @@ const PANES = [
   {id:"macd", name:"MACD"},
   {id:"stoch",name:"스토캐스틱"},
   {id:"earn", name:"이익 추이"},
+  {id:"flow", name:"수급(누적)"},
 ];
 const PARAMS = [
   ["bbN","볼린저 기간",20],["bbK","볼린저 배수",2],["rsiN","RSI 기간",14],
@@ -236,7 +243,8 @@ const state = {code:null, period:"1y", iv:"d", ctype:"candle",
 let stocks = [], byCode = {}, raw = null, idxRaw = {}, chart = null, view = null;
 let fund = null, fchart = null, fper = "annual";
 let fin = null;   // DART 10년 분기 재무
-let lastOsc = null;  // MACD 오실레이터 (툴팁에서 전봉 비교용)
+let lastOsc = null;
+let flow = null;     // 투자자별 순매수  // MACD 오실레이터 (툴팁에서 전봉 비교용)
 
 // ───────── utils ─────────
 const nf = (v, d=0) => v == null || isNaN(v) ? "–" : v.toLocaleString("ko-KR", {minimumFractionDigits:d, maximumFractionDigits:d});
@@ -465,6 +473,7 @@ async function selectStock(code){
   loadFund(code);
   fin = null; loadFin(code);
   sector = null; renderSector(); loadSector(code);
+  flow = null; renderFlow(); loadFlow(code);
   try {
     raw = await getJSON(`${API}/ohlcv/${code}`);
     for (const id of ["kospi","kosdaq"]) if (state.ov.includes(id)) await loadIndex(id);
@@ -658,6 +667,28 @@ function offerImport(codes){
   $("#wign").onclick = () => wmsg("");
 }
 function fmtCap(eok){ return eok >= 10000 ? `${nf(Math.floor(eok / 10000))}조 ${nf(eok % 10000)}억` : `${nf(eok)}억`; }
+// ───────── 수급 ─────────
+async function loadFlow(code){
+  try { const d = await getJSON(`${API}/flow/${code}`); if (state.code !== code) return; flow = d; }
+  catch(e){ flow = null; }
+  renderFlow();
+  if (raw && state.pn.includes("flow")) draw({keepZoom: true});
+}
+function renderFlow(){
+  const box = $("#flowbox");
+  if (!flow || !flow.rows.length){ box.hidden = true; return; }
+  box.hidden = false;
+  const R = flow.rows, n = R.length, last = R[n - 1];
+  const sum = (k, d) => R.slice(-d).reduce((a, x) => a + x[k], 0);
+  const cell = v => `<span class="${v > 0 ? "up" : v < 0 ? "down" : "flat"}">${v > 0 ? "+" : ""}${nf(v, Math.abs(v) < 10 ? 1 : 0)}</span>`;
+  const P = [[1, "1일"], [5, "5일"], [20, "20일"], [60, "60일"]];
+  const fr0 = (R[Math.max(0, n - 21)] || {}).fr, frN = last.fr;
+  $("#flowSub").textContent = `${last.d} 기준 · 금액은 순매수 수량 × 그날 종가 근사 · 세 주체 합이 0이 아닌 만큼은 기타법인(자사주 매입 포함) 등 · 네이버 금융`;
+  $("#flowTbl").innerHTML = `<thead><tr><th>투자자</th>${P.map(p => `<th>${p[1]}</th>`).join("")}</tr></thead><tbody>` +
+    [["f", "외국인"], ["o", "기관"], ["i", "개인"]].map(([k, l]) => `<tr><td>${l}</td>${P.map(([d]) => `<td>${cell(sum(k, d))}</td>`).join("")}</tr>`).join("") +
+    `<tr><td>외국인 보유율</td><td colspan="4">${frN == null ? "–" : nf(frN, 2) + "%"}${fr0 != null && frN != null ? ` <span class="${frN > fr0 ? "up" : frN < fr0 ? "down" : "flat"}">(20일 전 대비 ${frN - fr0 > 0 ? "+" : ""}${nf(frN - fr0, 2)}%p)</span>` : ""}</td></tr></tbody>`;
+}
+
 // ───────── 업종 비교 ─────────
 let sector = null, secSort = {k: "mv", d: -1}, secAll = false;
 async function loadSector(code){
@@ -1053,6 +1084,20 @@ function draw(opt = {}){
       series.push({name: "시그널", type: "line", ...base, data: pad(sg), lineStyle: {width: 1.2, color: "#d97706"}, itemStyle: {color: "#d97706"}, z: 3});
       series.push({name: "_macdCross", type: "scatter", ...base, data: pad(cross), symbolSize: 6, z: 4, tooltip: {show: false},
         itemStyle: {color: card, borderColor: ink, borderWidth: 1.2}});
+    } else if (p === "flow"){
+      if (!flow){ hints.push("수급: 불러오는 중이거나 데이터가 없는 종목이에요."); $("#shint").textContent = hints.join(" "); }
+      else {
+        // 일별 순매수를 누적 → 봉(일·주·월) 날짜에 맞춰 그 날까지의 누적값
+        const R = flow.rows, cum = {f: [], o: [], i: []}, acc = {f: 0, o: 0, i: 0};
+        R.forEach(x => ["f", "o", "i"].forEach(k => { acc[k] += x[k]; cum[k].push(acc[k]); }));
+        const dates = R.map(x => x.d);
+        const align = k => s.d.map(d => { if (d < dates[0]) return null; let j = dates.length - 1; while (j > 0 && dates[j] > d) j--; return +cum[k][j].toFixed(1); });
+        [["f", "외국인 누적", "#2563eb"], ["o", "기관 누적", "#059669"], ["i", "개인 누적", "#d97706"]].forEach(([k, nm, col]) =>
+          series.push({name: nm, type: "line", ...base, data: pad(align(k)), lineStyle: {width: 1.4, color: col}, itemStyle: {color: col}}));
+        yAxes[gi].axisLabel.formatter = v => Math.abs(v) >= 10000 ? nf(v / 10000, 1) + "조" : nf(v) + "억";
+        hints.push(`수급 패널: ${dates[0]}부터 누적한 순매수(억원) — 파랑 외국인 · 초록 기관 · 주황 개인.`);
+        $("#shint").textContent = hints.join(" ");
+      }
     } else if (p === "earn"){
       const op = alignPts(s.d, pts, "op").map(v => v == null ? null : v / 1e8), ni = alignPts(s.d, pts, "ni").map(v => v == null ? null : v / 1e8);
       series.push({name: "영업이익(4분기 합)", type: "line", step: "end", ...base, data: pad(op), lineStyle: {width: 1.4, color: "#2563eb"}, itemStyle: {color: "#2563eb"},
@@ -1121,7 +1166,7 @@ function tip(ps, s){
       if (view && view.osc && view.osc[i - 1] != null && Math.sign(view.osc[i - 1]) !== Math.sign(v) && v !== 0)
         zone += ` · <b>${v > 0 ? "MACD가 시그널을 위로 교차" : "MACD가 시그널을 아래로 교차"}</b>`;
     }
-    h += `<div>${p.marker}${p.seriesName} <b>${p.seriesName.includes("4분기 합") ? fmtEok(v) : nf(v, Math.abs(v) < 100 ? 2 : 0)}</b>${zone}</div>`;
+    h += `<div>${p.marker}${p.seriesName} <b>${p.seriesName.includes("4분기 합") ? fmtEok(v) : p.seriesName.endsWith(" 누적") ? (v > 0 ? "+" : "") + nf(v) + "억" : nf(v, Math.abs(v) < 100 ? 2 : 0)}</b>${zone}</div>`;
   });
   if (view && view.bbUpper && state.ov.includes("bb") && view.bbUpper[i] != null){
     const m = sma(s.c, state.p.bbN)[i];
