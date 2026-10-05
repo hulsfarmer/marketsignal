@@ -13,8 +13,8 @@
 <meta name="theme-color" content="#f2f4f6">
 <meta property="og:image" content="https://marketsignal.kr/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="assets/ms.css?v=3">
-<script src="assets/ms.js?v=3" defer></script>
+<link rel="stylesheet" href="assets/ms.css?v=4">
+<script src="assets/ms.js?v=4" defer></script>
 <style>
 .cond{background:var(--card);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:18px 22px 20px;margin-bottom:16px}
 .cond h3{font-size:1em;font-weight:800;margin:0 0 10px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
@@ -54,11 +54,13 @@
 .empty{color:var(--muted);text-align:center;padding:36px 0}
 @media (max-width:640px){ .cond,.res{padding:14px 16px} .groups{grid-template-columns:1fr} }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "조건 검색", "url": "https://marketsignal.kr/screen.html", "inLanguage": "ko", "isPartOf": {"@type": "WebSite", "name": "MarketSignal", "url": "https://marketsignal.kr/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "MarketSignal", "item": "https://marketsignal.kr/"}, {"@type": "ListItem", "position": 2, "name": "조건 검색", "item": "https://marketsignal.kr/screen.html"}]}]}</script>
 </head>
 <body>
 <header class="topbar"><div class="wrap"><a class="logo" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#3182f6"/><path d="M7 21.5l6-6 4 4 8.5-9" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25.5" cy="10.5" r="2.3" fill="#fff"/></svg><span>MarketSignal</span></a><nav class="navlinks" aria-label="메뉴"><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="screen.html" class="on">조건 검색</a><a href="economy.html">공시·일정</a></nav><button class="themebtn" id="themebtn" type="button" aria-label="화면 테마 바꾸기"></button></div></header>
 <main class="wrap">
   <div class="page-head"><h1>조건 검색</h1><p>조건을 고르면 코스피·코스닥 전 종목 중 오늘 그 조건에 맞는 종목을 보여줘요</p></div>
+  <section class="pre" aria-label="오늘 요약"><!--PRE:START--><!--PRE:END--></section>
   <div class="updated" id="updated">불러오는 중…</div>
 
   <section class="cond">
