@@ -103,6 +103,13 @@ details.params summary{cursor:pointer;color:var(--muted);font-weight:600;font-si
 .ftbl th:first-child,.ftbl td:first-child{text-align:left;color:var(--sub)}
 .ftbl th{color:var(--muted);font-weight:600}
 .ftbl .est{background:var(--accent-soft)}
+.di{padding:8px 0;border-bottom:1px solid var(--line);font-size:.88em}
+.di .h{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}
+.di .dd{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.9em}
+.di .tg{font-size:.75em;font-weight:600;padding:1px 7px;border-radius:5px;background:var(--accent-soft);color:var(--accent)}
+.di .tg.w{background:#fff1e8;color:#c2410c}
+.di .fx{display:flex;flex-wrap:wrap;gap:2px 12px;margin-top:2px;color:var(--muted);font-size:.92em}
+.di .fx b{color:var(--ink);font-weight:600}
 .ftbl th.est{color:var(--accent)}
 .notes li{margin:3px 0 3px 16px}
 footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-align:center}
@@ -116,7 +123,7 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
       <h1>MarketSignal</h1>
       <p>코스피·코스닥 전 종목 차트와 보조지표</p>
     </div>
-    <nav><a href="index.html">지표 대시보드</a><a href="stock.html" class="on">종목 차트</a><a href="economy.html">경제 방향</a></nav>
+    <nav><a href="index.html">지표 대시보드</a><a href="stock.html" class="on">종목 차트</a><a href="economy.html">공시·일정</a></nav>
   </header>
 
   <div class="search">
@@ -149,6 +156,12 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
     <div id="chart"><div class="msg">위에서 종목을 검색하거나 인기 종목을 눌러 주세요</div></div>
     <div class="hint" id="shint"></div>
     <div class="stats" id="stats"></div>
+
+    <div class="fund" id="discl" hidden>
+      <h3>최근 공시 <a href="economy.html" style="font-size:.75em;font-weight:500">공시·일정 전체 보기 →</a></h3>
+      <p class="sub">최근 30일 · 금액·날짜는 DART 원문 표에서 자동으로 읽은 값이에요</p>
+      <div id="dlist"></div>
+    </div>
 
     <div class="fund" id="fund" hidden>
       <h3>실적 <span class="seg" id="fper"><button data-f="annual">연간</button><button data-f="quarter">분기</button><button data-f="dart10">10년</button></span></h3>
@@ -298,7 +311,7 @@ async function selectStock(code){
   state.code = code; $("#sugg").hidden = true; $("#q").value = "";
   if (chart){ chart.dispose(); chart = null; }
   $("#chart").innerHTML = '<div class="msg">불러오는 중…</div>';
-  fund = null; renderFund();
+  fund = null; renderFund(); renderDiscl(code);
   loadFund(code);
   fin = null; loadFin(code);
   try {
@@ -467,6 +480,23 @@ function offerImport(codes){
   $("#wign").onclick = () => wmsg("");
 }
 function fmtCap(eok){ return eok >= 10000 ? `${nf(Math.floor(eok / 10000))}조 ${nf(eok % 10000)}억` : `${nf(eok)}억`; }
+// ───────── 최근 공시 (공시·일정 페이지와 같은 데이터) ─────────
+let disclAll = null;
+async function renderDiscl(code){
+  const box = $("#discl");
+  if (!disclAll){
+    try { disclAll = (await (await fetch("data/disclosures.json?t=" + Math.floor(Date.now() / 6e5))).json()).items; }
+    catch(e){ disclAll = []; }
+  }
+  if (state.code !== code) return;
+  const L = disclAll.filter(x => x.code === code).slice(0, 10);
+  box.hidden = !L.length;
+  $("#dlist").innerHTML = L.map(x => `<div class="di"><div class="h"><span class="dd">${x.d.slice(5).replace("-", "/")}</span>
+    <span class="tg${x.cat === "주의" ? " w" : ""}">${x.cat}</span>${x.corr ? '<span class="dd">정정</span>' : ""}
+    <a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${x.rc}" target="_blank" rel="noopener">${esc(x.title)} ↗</a></div>
+    ${x.facts && x.facts.length ? `<div class="fx">${x.facts.map(([k, v]) => `<span>${esc(k)} <b>${esc(v)}</b></span>`).join("")}</div>` : ""}</div>`).join("");
+}
+
 // ───────── fundamentals ─────────
 async function loadFund(code){
   try {
