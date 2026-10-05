@@ -85,6 +85,23 @@ details.params summary{cursor:pointer;color:var(--muted);font-weight:600;font-si
 .di .fx b{color:var(--ink);font-weight:600}
 .ftbl th.est{color:var(--accent)}
 main .panel{padding:22px 24px 24px}
+.secname{color:var(--accent);font-weight:700;margin-left:4px}
+.secgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin:10px 0 6px}
+.secm{background:var(--chip);border-radius:var(--r-sm);padding:12px 14px}
+.secm .k{font-size:.8em;color:var(--muted);font-weight:600}
+.secm .v{font-size:1.25em;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.secm .v small{font-size:.62em;color:var(--muted);font-weight:600;margin-left:6px}
+.secm .t{font-size:.8em;color:var(--sub);margin-top:2px}
+.rng{position:relative;height:22px;margin:8px 0 2px}
+.rng .ln{position:absolute;left:0;right:0;top:10px;height:2px;background:var(--line);border-radius:2px}
+.rng .iq{position:absolute;top:7px;height:8px;background:var(--accent-soft);border-radius:4px}
+.rng .md{position:absolute;top:4px;width:2px;height:14px;background:var(--muted)}
+.rng .me{position:absolute;top:4px;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--accent);border:2px solid var(--card);box-shadow:0 0 0 1px var(--accent)}
+.rng .lb{position:absolute;top:22px;font-size:.68em;color:var(--muted);transform:translateX(-50%);white-space:nowrap}
+#secTbl tr.me td{background:var(--accent-soft);font-weight:700}
+#secTbl th{cursor:pointer;user-select:none}
+#secTbl th.on{color:var(--accent)}
+#secTbl td a{color:var(--ink)}
 .boxbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:8px}
 .boxbar .chip.on{background:#fff4e6;color:#e8590c;border-color:#e8590c}
 .boxmsg{font-size:.82em;color:#e8590c;font-weight:600}
@@ -137,6 +154,14 @@ main .panel{padding:22px 24px 24px}
     </div>
     <div class="hint" id="shint"></div>
     <div class="stats" id="stats"></div>
+
+    <div class="fund" id="sector" hidden>
+      <h3><span>업종 비교 <span class="secname" id="secName"></span></span></h3>
+      <p class="sub" id="secSub"></p>
+      <div class="secgrid" id="secGrid"></div>
+      <div class="ftbl"><table id="secTbl"></table></div>
+      <button class="chip" id="secMore" hidden style="margin-top:10px">업종 전체 보기</button>
+    </div>
 
     <div class="fund" id="discl" hidden>
       <h3>최근 공시 <a href="economy.html" style="font-size:.75em;font-weight:500">공시·일정 전체 보기 →</a></h3>
@@ -407,6 +432,7 @@ async function selectStock(code){
   fund = null; renderFund(); renderDiscl(code);
   loadFund(code);
   fin = null; loadFin(code);
+  sector = null; renderSector(); loadSector(code);
   try {
     raw = await getJSON(`${API}/ohlcv/${code}`);
     for (const id of ["kospi","kosdaq"]) if (state.ov.includes(id)) await loadIndex(id);
@@ -460,6 +486,15 @@ function renderParams(){
     '<button class="chip" id="preset">기본값으로</button>';
 }
 function bind(){
+  $("#secTbl").addEventListener("click", e => {
+    const th = e.target.closest("th"); if (!th) return;
+    const k = th.dataset.k; secSort = {k, d: secSort.k === k ? -secSort.d : (k === "n" ? 1 : -1)}; renderSector();
+  });
+  $("#secMore").onclick = () => { secAll = !secAll; renderSector(); };
+  window.addEventListener("hashchange", () => {
+    const c = new URLSearchParams(location.hash.slice(1)).get("code");
+    if (c && c !== state.code && /^[0-9A-Z]{6}$/.test(c)){ selectStock(c); window.scrollTo({top: 0, behavior: "smooth"}); }
+  });
   $("#boxDraw").onclick = () => { drawMode = drawMode ? null : {step: 1}; renderBoxList(); };
   $("#boxList").onclick = e => {
     const d = e.target.closest("[data-bdel]");
@@ -590,6 +625,56 @@ function offerImport(codes){
   $("#wign").onclick = () => wmsg("");
 }
 function fmtCap(eok){ return eok >= 10000 ? `${nf(Math.floor(eok / 10000))}조 ${nf(eok % 10000)}억` : `${nf(eok)}억`; }
+// ───────── 업종 비교 ─────────
+let sector = null, secSort = {k: "mv", d: -1}, secAll = false;
+async function loadSector(code){
+  try { const d = await getJSON(`${API}/sector/${code}`); if (state.code === code){ sector = d; secAll = false; renderSector(); } }
+  catch(e){ sector = null; renderSector(); }
+}
+function rangeBar(st, fmt){
+  // 업종 분포를 25~75% 구간(옅은 띠) · 중앙값(세로선) · 이 종목(점)으로 표시. 축은 하위 5%~상위 95% 근처로 자름
+  if (!st || !st.n || st.median == null) return "";
+  const lo = Math.min(st.p25 * 0.5, st.me ?? Infinity), hi = Math.max(st.p75 * 1.6, st.me ?? -Infinity);
+  const pos = v => Math.max(0, Math.min(100, (v - lo) / (hi - lo) * 100));
+  return `<div class="rng"><div class="ln"></div><div class="iq" style="left:${pos(st.p25)}%;width:${pos(st.p75) - pos(st.p25)}%"></div>
+    <div class="md" style="left:${pos(st.median)}%"></div>${st.me != null && st.rank != null ? `<div class="me" style="left:${pos(st.me)}%"></div>` : ""}
+</div>`;
+}
+function renderSector(){
+  const box = $("#sector");
+  if (!sector){ box.hidden = true; return; }
+  box.hidden = false;
+  const S = sector, f2 = v => v == null ? "–" : nf(v, 2);
+  $("#secName").textContent = S.sector.name;
+  $("#secSub").textContent = `네이버 업종 분류 · ${S.sector.count}종목 · 막대: 옅은 띠 = 업종 가운데 50%, 세로선 = 중앙값, 파란 점 = 이 종목 · 적자(PER 음수)·1,000배 초과는 분포에서 제외 · ROE는 EPS÷BPS 근사 · ${S.updated} 기준`;
+  const card = (k, st, unit, lowWord, highWord) => {
+    let t = "업종 비교 불가 (적자 등)";
+    if (st.me != null && st.rank != null){
+      const diff = st.me / st.median - 1;
+      t = `업종 ${st.n}개 중 낮은 쪽부터 ${st.rank}% 위치 · 중앙값보다 ${Math.abs(diff * 100).toFixed(0)}% ${diff < 0 ? lowWord : highWord}`;
+    }
+    return `<div class="secm"><div class="k">${k}</div><div class="v">${st.me == null ? "–" : f2(st.me) + unit}<small>업종 중앙 ${f2(st.median)}${unit}</small></div>
+      ${rangeBar(st, v => f2(v) + unit)}<div class="t">${t}</div></div>`;
+  };
+  $("#secGrid").innerHTML = card("PER", S.per, "배", "낮음", "높음") + card("PBR", S.pbr, "배", "낮음", "높음") + card("ROE (근사)", S.roe, "%", "낮음", "높음");
+  const cols = [["n", "종목"], ["mv", "시가총액"], ["per", "PER"], ["pbr", "PBR"], ["roe", "ROE"], ["div", "배당"]];
+  let rows = S.peers.slice();
+  rows.sort((a, b) => {
+    const x = a[secSort.k], y = b[secSort.k];
+    if (secSort.k === "n") return secSort.d * String(x).localeCompare(String(y), "ko");
+    return ((x ?? -Infinity) > (y ?? -Infinity) ? 1 : (x ?? -Infinity) < (y ?? -Infinity) ? -1 : 0) * secSort.d;
+  });
+  const LIMIT = 12;
+  let shown = secAll ? rows : rows.slice(0, LIMIT);
+  if (!secAll && !shown.some(r => r.c === S.code)){ const me = rows.find(r => r.c === S.code); if (me) shown = shown.concat(me); }
+  const cap = v => !v ? "–" : v >= 10000 ? `${nf(v / 10000, v >= 100000 ? 0 : 1)}조` : `${nf(v)}억`;
+  $("#secTbl").innerHTML = `<thead><tr>${cols.map(([k, l]) => `<th data-k="${k}" class="${secSort.k === k ? "on" : ""}">${l}${secSort.k === k ? (secSort.d < 0 ? " ▼" : " ▲") : ""}</th>`).join("")}</tr></thead><tbody>` +
+    shown.map(r => `<tr class="${r.c === S.code ? "me" : ""}"><td><a href="stock.html#code=${r.c}">${esc(r.n)}</a></td><td>${cap(r.mv)}</td>
+      <td>${r.per == null ? "–" : r.per <= 0 ? "적자" : f2(r.per)}</td><td>${f2(r.pbr)}</td><td>${r.roe == null ? "–" : f2(r.roe) + "%"}</td><td>${r.div == null ? "–" : f2(r.div) + "%"}</td></tr>`).join("") + "</tbody>";
+  $("#secMore").hidden = rows.length <= LIMIT;
+  $("#secMore").textContent = secAll ? "접기" : `업종 전체 보기 (${rows.length}종목)`;
+}
+
 // ───────── 최근 공시 (공시·일정 페이지와 같은 데이터) ─────────
 let disclAll = null;
 async function renderDiscl(code){
