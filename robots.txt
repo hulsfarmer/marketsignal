@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://hulsfarmer.github.io/marketsignal/sitemap.xml
+Disallow: /admin
+Sitemap: https://marketsignal.kr/sitemap.xml
