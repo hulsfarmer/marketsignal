@@ -37,7 +37,23 @@ nav a.on{color:var(--ink)}
 .sugg div{padding:8px 14px;cursor:pointer;display:flex;justify-content:space-between;gap:10px;font-size:.92em}
 .sugg div.on,.sugg div:hover{background:var(--accent-soft)}
 .sugg small{color:var(--muted)}
-.popular{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 18px}
+.popular{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:10px 0 18px}
+.popular .lbl{min-width:auto;margin-right:2px}
+.watch{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:12px 0 4px}
+.watch-head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.86em;font-weight:700}
+.watch-head .tools{display:flex;gap:6px;font-weight:500}
+.watch-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(196px,1fr));gap:6px;margin-top:8px}
+.wi{display:flex;align-items:center;justify-content:space-between;gap:6px;border:1px solid var(--line);border-radius:9px;padding:6px 6px 6px 10px;cursor:pointer;font-size:.86em}
+.wi:hover,.wi.on{border-color:var(--accent)}
+.wi .nm{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wi .q{font-variant-numeric:tabular-nums;font-size:.92em;white-space:nowrap}
+.wi .x{border:none;background:none;color:var(--muted);cursor:pointer;font-size:1.05em;padding:0 4px;line-height:1}
+.wi .x:hover{color:var(--up)}
+.watch-empty{color:var(--muted);font-size:.84em;margin-top:6px}
+.watch-msg{font-size:.8em;color:var(--sub);margin-top:6px}
+.watch-msg input{width:100%;font:inherit;font-size:.95em;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--chip);color:var(--ink);margin-top:4px}
+.star{border:1px solid var(--line);background:var(--chip);color:var(--sub);font:inherit;font-size:.82em;font-weight:600;padding:4px 10px;border-radius:999px;cursor:pointer}
+.star.on{color:#d97706;border-color:#d97706;background:var(--card)}
 
 .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px 18px}
 .title{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
@@ -106,6 +122,12 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
   <div class="search">
     <input id="q" type="search" placeholder="종목명 또는 종목코드 검색 (예: 삼성전자, 005930)" autocomplete="off" spellcheck="false">
     <div class="sugg" id="sugg" hidden></div>
+  </div>
+  <div class="watch" id="watch">
+    <div class="watch-head"><span>★ 내 관심종목 <span id="wcount" style="color:var(--muted);font-weight:500"></span></span>
+      <span class="tools"><button class="chip" id="wshare">링크로 옮기기</button></span></div>
+    <div class="watch-list" id="wlist"></div>
+    <div class="watch-msg" id="wmsg" hidden></div>
   </div>
   <div class="popular" id="popular"></div>
 
@@ -263,7 +285,7 @@ async function loadList(){
     const j = await getJSON(`${API}/stocks`);
     stocks = j.stocks; stocks.forEach(s => byCode[s.c] = s);
   } catch(e){ $("#q").placeholder = "종목 목록을 불러오지 못했어요. 새로고침해 주세요."; }
-  $("#popular").innerHTML = stocks.filter(s => !s.t && !/우[A-C]?$|\(전환\)$/.test(s.n)).slice(0, 10).map(s =>
+  $("#popular").innerHTML = '<span class="lbl">시가총액 상위</span>' + stocks.filter(s => !s.t && !/우[A-C]?$|\(전환\)$/.test(s.n)).slice(0, 10).map(s =>
     `<button class="chip" data-code="${s.c}">${esc(s.n)}</button>`).join("");
 }
 async function loadIndex(id){
@@ -286,6 +308,7 @@ async function selectStock(code){
     raw = null; $("#chart").innerHTML = `<div class="msg">${esc(e.message)}</div>`; $("#stats").innerHTML = ""; renderTitle(); writeHash(); return;
   }
   document.title = `${raw.name} 차트 · MarketSignal`;
+  renderWatch();
   draw();
 }
 
@@ -371,7 +394,77 @@ function renderTitle(){
   const info = byCode[raw.code];
   $("#title").innerHTML = `<h2>${esc(raw.name)}</h2><span class="code">${raw.code} · ${raw.market}${raw.type ? " " + raw.type : ""}</span>
     <span class="px">${nf(last, pxd(last))}</span><span class="chg ${cls}">${ch > 0 ? "▲" : ch < 0 ? "▼" : ""} ${nf(Math.abs(ch), pxd(last))} (${pct > 0 ? "+" : ""}${nf(pct, 2)}%)</span>
-    ${raw.partial ? '<span class="badge">장중</span>' : ""}<span class="asof">${raw.d[n]} 기준${info && info.mv ? ` · 시가총액 ${fmtCap(info.mv)}` : ""}</span>`;
+    ${raw.partial ? '<span class="badge">장중</span>' : ""}<span class="asof">${raw.d[n]} 기준${info && info.mv ? ` · 시가총액 ${fmtCap(info.mv)}` : ""}</span>
+    <button class="star${inWatch(raw.code) ? " on" : ""}" id="star">${inWatch(raw.code) ? "★ 관심종목" : "☆ 관심종목 추가"}</button>`;
+  $("#star").onclick = () => { toggleWatch(raw.code, raw.name); renderTitle(); };
+}
+
+// ───────── 관심종목 (이 브라우저에만 저장) ─────────
+const WKEY = "ms_watchlist_v1", WMAX = 50;
+let watch = [], quotes = {};
+function loadWatch(){ try { const v = JSON.parse(localStorage.getItem(WKEY) || "[]"); watch = Array.isArray(v) ? v.filter(w => /^[0-9A-Z]{6}$/.test(w.c)) : []; } catch(e){ watch = []; } }
+function saveWatch(){ try { localStorage.setItem(WKEY, JSON.stringify(watch)); return true; } catch(e){ return false; } }
+function inWatch(c){ return watch.some(w => w.c === c); }
+function toggleWatch(c, n){
+  if (inWatch(c)) watch = watch.filter(w => w.c !== c);
+  else {
+    if (watch.length >= WMAX){ wmsg(`관심종목은 최대 ${WMAX}개까지 저장할 수 있어요.`); return; }
+    watch.push({c, n});
+  }
+  if (!saveWatch()) wmsg("이 브라우저에서는 저장이 막혀 있어요 (시크릿 모드 등). 새로고침하면 목록이 사라질 수 있어요.");
+  renderWatch(); refreshQuotes();
+}
+function wmsg(html){ const m = $("#wmsg"); m.innerHTML = html; m.hidden = !html; }
+function renderWatch(){
+  $("#wcount").textContent = watch.length ? `${watch.length}` : "";
+  $("#wshare").hidden = !watch.length;
+  if (!watch.length){ $("#wlist").innerHTML = '<div class="watch-empty">종목을 연 뒤 ☆ 버튼을 누르면 여기에 저장돼요. 이 브라우저에만 저장되고 서버로 보내지지 않아요.</div>'; return; }
+  $("#wlist").innerHTML = watch.map(w => {
+    const q = quotes[w.c];
+    let qs = '<span class="flat">…</span>';
+    if (q && !q.error){
+      const pct = q.pc ? (q.c / q.pc - 1) * 100 : 0, cls = pct > 0 ? "up" : pct < 0 ? "down" : "flat";
+      qs = `${nf(q.c, pxd(q.c))} <span class="${cls}">${pct > 0 ? "+" : ""}${nf(pct, 2)}%</span>`;
+    }
+    return `<div class="wi${state.code === w.c ? " on" : ""}" data-code="${w.c}" title="${esc(w.n)} (${w.c})"><span class="nm">${esc(w.n)}</span><span class="q">${qs}</span><button class="x" data-del="${w.c}" title="관심종목에서 빼기">×</button></div>`;
+  }).join("");
+}
+let qTimer = null;
+async function refreshQuotes(){
+  clearTimeout(qTimer);
+  const need = watch.map(w => w.c);
+  if (need.length){
+    try {
+      const j = await getJSON(`${API}/quotes?codes=${need.join(",")}`);
+      j.quotes.forEach(q => quotes[q.code] = q);
+    } catch(e){}
+    renderWatch();
+  }
+  qTimer = setTimeout(refreshQuotes, 5 * 60 * 1000);   // 5분마다 (서버 캐시 주기와 같음)
+}
+function bindWatch(){
+  $("#wlist").onclick = e => {
+    const del = e.target.closest("[data-del]");
+    if (del){ const w = watch.find(x => x.c === del.dataset.del); if (w) toggleWatch(w.c, w.n); if (raw) renderTitle(); return; }
+    const it = e.target.closest("[data-code]"); if (it) selectStock(it.dataset.code);
+  };
+  $("#wshare").onclick = async () => {
+    const url = `${location.origin}${location.pathname}#watch=${watch.map(w => w.c).join(",")}`;
+    let copied = false;
+    try { await navigator.clipboard.writeText(url); copied = true; } catch(e){}
+    wmsg(`${copied ? "링크를 복사했어요." : "아래 링크를 복사하세요."} 다른 기기·브라우저에서 이 링크를 열면 관심종목을 가져올 수 있어요.<input readonly value="${esc(url)}" onclick="this.select()">`);
+  };
+}
+// 링크로 받은 관심종목 가져오기
+function offerImport(codes){
+  const valid = codes.filter(c => byCode[c] && !inWatch(c));
+  if (!valid.length) return;
+  wmsg(`이 링크에 관심종목 ${valid.length}개가 들어 있어요: ${valid.slice(0, 5).map(c => esc(byCode[c].n)).join(", ")}${valid.length > 5 ? " 외" : ""} &nbsp;<button class="chip" id="wimp">내 목록에 추가</button> <button class="chip" id="wign">무시</button>`);
+  $("#wimp").onclick = () => {
+    valid.slice(0, WMAX - watch.length).forEach(c => watch.push({c, n: byCode[c].n}));
+    saveWatch(); wmsg(""); renderWatch(); refreshQuotes();
+  };
+  $("#wign").onclick = () => wmsg("");
 }
 function fmtCap(eok){ return eok >= 10000 ? `${nf(Math.floor(eok / 10000))}조 ${nf(eok % 10000)}억` : `${nf(eok)}억`; }
 // ───────── fundamentals ─────────
@@ -723,8 +816,11 @@ function tip(ps, s){
 
 // ───────── boot ─────────
 (async () => {
+  const importCodes = (new URLSearchParams(location.hash.slice(1)).get("watch") || "").toUpperCase().split(",").filter(c => /^[0-9A-Z]{6}$/.test(c));
   readHash(); renderControls(); renderParams(); bind();
+  loadWatch(); bindWatch(); renderWatch(); refreshQuotes();
   await loadList();
+  if (importCodes.length) offerImport(importCodes);
   if (state.code) selectStock(state.code);
 })();
 })();
