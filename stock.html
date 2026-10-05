@@ -202,6 +202,7 @@ const state = {code:null, period:"1y", iv:"d", ctype:"candle",
 let stocks = [], byCode = {}, raw = null, idxRaw = {}, chart = null, view = null;
 let fund = null, fchart = null, fper = "annual";
 let fin = null;   // DART 10년 분기 재무
+let lastOsc = null;  // MACD 오실레이터 (툴팁에서 전봉 비교용)
 
 // ───────── utils ─────────
 const nf = (v, d=0) => v == null || isNaN(v) ? "–" : v.toLocaleString("ko-KR", {minimumFractionDigits:d, maximumFractionDigits:d});
@@ -784,7 +785,7 @@ function draw(opt = {}){
   const padB = a => pad(a).map(x => x == null ? "-" : x);
 
   const panes = state.pn.slice();
-  const mainH = 300, paneH = 92, gap = 26, top = 34;
+  const mainH = 300, paneH = 112, gap = 26, top = 34;
   const narrow = $("#chart").clientWidth < 600;
   const totalH = top + mainH + panes.length * (paneH + gap) + 54;
   $("#chart").style.height = totalH + "px";
@@ -916,9 +917,24 @@ function draw(opt = {}){
       const f = ema(s.c, P.macdF), sl = ema(s.c, P.macdS);
       const mc = f.map((v, i) => v == null || sl[i] == null ? null : v - sl[i]);
       const sg = ema(mc, P.macdG);
-      series.push({name: "MACD 히스토그램", type: "bar", ...base, data: padB(mc.map((v, i) => v == null || sg[i] == null ? null : {value: v - sg[i], itemStyle: {color: v - sg[i] >= 0 ? up : down, opacity: .5}})), barMaxWidth: 8});
-      series.push({name: "MACD", type: "line", ...base, data: pad(mc), lineStyle: {width: 1.2, color: "#2563eb"}, itemStyle: {color: "#2563eb"}});
-      series.push({name: "시그널", type: "line", ...base, data: pad(sg), lineStyle: {width: 1.2, color: "#d97706"}, itemStyle: {color: "#d97706"}});
+      // 오실레이터 = MACD − 시그널. 0 위/아래 × 커지는 중/줄어드는 중 4색 (진한 색 = 힘이 커지는 중)
+      const osc = mc.map((v, i) => v == null || sg[i] == null ? null : v - sg[i]);
+      lastOsc = osc;
+      series.push({name: "오실레이터", type: "bar", ...base, barMaxWidth: 8, data: padB(osc.map((v, i) => {
+        if (v == null) return null;
+        const prev = osc[i - 1], grow = prev == null || Math.abs(v) >= Math.abs(prev);
+        return {value: v, itemStyle: {color: v >= 0 ? up : down, opacity: grow ? .85 : .35}};
+      })), markLine: {silent: true, symbol: "none", lineStyle: {color: sub, width: 1}, label: {show: true, position: "insideEndTop", formatter: "0", color: sub, fontSize: 10},
+        data: [{yAxis: 0}]}});
+      // MACD선이 시그널선을 위·아래로 뚫은 날: 작은 점 (매매 신호가 아니라 교차 위치 표시)
+      const cross = mc.map((v, i) => {
+        if (i === 0 || osc[i] == null || osc[i - 1] == null) return null;
+        return (osc[i - 1] <= 0 && osc[i] > 0) || (osc[i - 1] >= 0 && osc[i] < 0) ? v : null;
+      });
+      series.push({name: "MACD", type: "line", ...base, data: pad(mc), lineStyle: {width: 1.3, color: "#2563eb"}, itemStyle: {color: "#2563eb"}, z: 3});
+      series.push({name: "시그널", type: "line", ...base, data: pad(sg), lineStyle: {width: 1.2, color: "#d97706"}, itemStyle: {color: "#d97706"}, z: 3});
+      series.push({name: "_macdCross", type: "scatter", ...base, data: pad(cross), symbolSize: 6, z: 4, tooltip: {show: false},
+        itemStyle: {color: card, borderColor: ink, borderWidth: 1.2}});
     } else if (p === "earn"){
       const op = alignPts(s.d, pts, "op").map(v => v == null ? null : v / 1e8), ni = alignPts(s.d, pts, "ni").map(v => v == null ? null : v / 1e8);
       series.push({name: "영업이익(4분기 합)", type: "line", step: "end", ...base, data: pad(op), lineStyle: {width: 1.4, color: "#2563eb"}, itemStyle: {color: "#2563eb"},
@@ -950,7 +966,7 @@ function draw(opt = {}){
         fillerColor: "rgba(100,130,200,.15)", textStyle: {color: sub, fontSize: 10}, labelFormatter: i => cats[i] || ""}],
     series: series.map(x => { const {_bbUpper, ...rest} = x; return rest; }),
   }, true);
-  view = {s, cmp, bbUpper: (series.find(x => x._bbUpper) || {})._bbUpper};
+  view = {s, cmp, bbUpper: (series.find(x => x._bbUpper) || {})._bbUpper, osc: state.pn.includes("macd") ? lastOsc : null};
 
   const rebase = () => {
     if (!cmp.length) return;
@@ -978,7 +994,15 @@ function tip(ps, s){
     if (p.seriesName === "BB 상단") return;
     if (v == null || v === "-" || isNaN(v)) return;
     v = +v;
-    const zone = p.seriesName.startsWith("RSI") ? (v >= 70 ? ` <span style="color:${cssVar("--up")}">과매수 구간</span>` : v <= 30 ? ` <span style="color:${cssVar("--down")}">과매도 구간</span>` : "") : "";
+    let zone = p.seriesName.startsWith("RSI") ? (v >= 70 ? ` <span style="color:${cssVar("--up")}">과매수 구간</span>` : v <= 30 ? ` <span style="color:${cssVar("--down")}">과매도 구간</span>` : "") : "";
+    if (p.seriesName === "오실레이터"){
+      const prevBar = ps.find(x => x.seriesName === "오실레이터");
+      const pv = prevBar && view && view.osc ? view.osc[i - 1] : null;
+      const grow = pv == null || Math.abs(v) >= Math.abs(pv);
+      zone = ` <span style="color:${cssVar("--muted")}">${v >= 0 ? (grow ? "상승 쪽 힘 커지는 중" : "상승 쪽 힘 줄어드는 중") : (grow ? "하락 쪽 힘 커지는 중" : "하락 쪽 힘 줄어드는 중")}</span>`;
+      if (view && view.osc && view.osc[i - 1] != null && Math.sign(view.osc[i - 1]) !== Math.sign(v) && v !== 0)
+        zone += ` · <b>${v > 0 ? "MACD가 시그널을 위로 교차" : "MACD가 시그널을 아래로 교차"}</b>`;
+    }
     h += `<div>${p.marker}${p.seriesName} <b>${p.seriesName.includes("4분기 합") ? fmtEok(v) : nf(v, Math.abs(v) < 100 ? 2 : 0)}</b>${zone}</div>`;
   });
   if (view && view.bbUpper && state.ov.includes("bb") && view.bbUpper[i] != null){
