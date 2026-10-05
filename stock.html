@@ -72,6 +72,12 @@ nav a.on{color:var(--ink)}
 .chip:hover{border-color:var(--accent)}
 .chip.on{background:var(--card);color:var(--ink);border-color:currentColor;font-weight:600}
 .chip .dot{width:9px;height:9px;border-radius:50%;background:var(--muted)}
+.madel{color:var(--muted);font-weight:500;margin-left:2px;padding:0 2px;border-radius:4px}
+.madel:hover{color:var(--up);background:var(--chip)}
+.maadd{display:inline-flex;gap:4px;align-items:center}
+.maadd input{width:76px;font:inherit;font-size:.84em;padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink)}
+.maadd select{font:inherit;font-size:.82em;padding:4px 6px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink)}
+.mamsg{font-size:.78em;color:var(--up)}
 .ctrl{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin:14px 0 4px}
 .seg{display:inline-flex;background:var(--chip);border-radius:8px;padding:2px;flex-wrap:wrap}
 .seg button{border:none;background:none;color:var(--sub);font:inherit;font-size:.82em;font-weight:600;padding:5px 10px;border-radius:6px;cursor:pointer}
@@ -149,6 +155,7 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
         <div class="seg" id="ctype"><button data-t="candle">캔들</button><button data-t="line">선</button></div>
       </div>
     </div>
+    <div class="row" id="mas"><span class="lbl">이동평균</span></div>
     <div class="row" id="overlays"><span class="lbl">차트 위</span></div>
     <div class="row" id="panes"><span class="lbl">아래 패널</span></div>
     <details class="params"><summary>지표 설정 바꾸기</summary><div class="pgrid" id="pgrid"></div></details>
@@ -191,14 +198,12 @@ const API = "https://api.marketsignal.kr/v1";
 const $ = s => document.querySelector(s);
 const PERIODS = [["3m","3개월",92],["6m","6개월",183],["1y","1년",366],["3y","3년",1096],["5y","5년",1827],["10y","10년",3660]];
 const INTERVALS = [["d","일봉"],["w","주봉"],["m","월봉"]];
-const MA_COLORS = ["#e11d48","#d97706","#059669","#7c3aed","#0891b2"];
+const MA_COLORS = ["#e11d48","#d97706","#059669","#7c3aed","#0891b2","#db2777","#65a30d","#2563eb","#a16207","#64748b"];
+const MA_MAX = 10, MA_KEY = "ms_ma_v1";
+const MA_DEFAULT = [{n:5,t:"s",on:false,c:0},{n:20,t:"s",on:true,c:1},{n:60,t:"s",on:true,c:2},{n:120,t:"s",on:false,c:3}];
 
 // 차트 위 지표
 const OVERLAYS = [
-  {id:"ma0", name:p => `이평 ${p.ma0}`, color:MA_COLORS[0]},
-  {id:"ma1", name:p => `이평 ${p.ma1}`, color:MA_COLORS[1]},
-  {id:"ma2", name:p => `이평 ${p.ma2}`, color:MA_COLORS[2]},
-  {id:"ma3", name:p => `이평 ${p.ma3}`, color:MA_COLORS[3]},
   {id:"bb",  name:p => `볼린저 밴드(${p.bbN}, ${p.bbK})`, color:"#64748b"},
   {id:"ichi",name:() => "일목균형표", color:"#0d9488"},
   {id:"kospi",name:() => "코스피 비교", color:"#94a3b8"},
@@ -214,14 +219,13 @@ const PANES = [
   {id:"earn", name:"이익 추이"},
 ];
 const PARAMS = [
-  ["ma0","이평 1",5],["ma1","이평 2",20],["ma2","이평 3",60],["ma3","이평 4",120],
   ["bbN","볼린저 기간",20],["bbK","볼린저 배수",2],["rsiN","RSI 기간",14],
   ["macdF","MACD 단기",12],["macdS","MACD 장기",26],["macdG","MACD 시그널",9],
   ["stK","스토캐스틱 K",14],["stD","스토캐스틱 D",3],
 ];
 
 const state = {code:null, period:"1y", iv:"d", ctype:"candle",
-  ov:["ma1","ma2","bb"], pn:["vol","rsi"], p:Object.fromEntries(PARAMS.map(x => [x[0], x[2]]))};
+  ma: MA_DEFAULT.map(m => ({...m})), ov:["bb"], pn:["vol","rsi"], p:Object.fromEntries(PARAMS.map(x => [x[0], x[2]]))};
 let stocks = [], byCode = {}, raw = null, idxRaw = {}, chart = null, view = null;
 let fund = null, fchart = null, fper = "annual";
 let fin = null;   // DART 10년 분기 재무
@@ -233,6 +237,40 @@ function cssVar(n){ return getComputedStyle(document.documentElement).getPropert
 function shiftDate(iso, days){ const t = new Date(iso + "T00:00:00Z"); t.setUTCDate(t.getUTCDate() - days); return t.toISOString().slice(0,10); }
 function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
+// ───────── 이동평균 목록 ─────────
+// 주소·저장 형식: "5,20,e60,-120"  (e = 지수이동평균, - = 숨김)
+function maStr(){ return state.ma.map(m => `${m.on ? "" : "-"}${m.t === "e" ? "e" : ""}${m.n}`).join(","); }
+function parseMA(str){
+  const out = [];
+  for (const tok of String(str).split(",")){
+    const m = tok.trim().match(/^(-?)(e?)(\d{1,3})$/);
+    if (!m) continue;
+    const n = +m[3], t = m[2] ? "e" : "s";
+    if (n < 2 || n > 250 || out.some(x => x.n === n && x.t === t) || out.length >= MA_MAX) continue;
+    out.push({n, t, on: !m[1], c: out.length % MA_COLORS.length});
+  }
+  return out;
+}
+function saveMA(){ try { localStorage.setItem(MA_KEY, JSON.stringify(maStr().split(","))); } catch(e){} }
+function maName(m){ return `${m.t === "e" ? "지수이평" : "이평"} ${m.n}`; }
+function renderMA(){
+  $("#mas").innerHTML = '<span class="lbl">이동평균</span>' + state.ma.map((m, i) => {
+    const col = MA_COLORS[m.c];
+    return `<button class="chip${m.on ? " on" : ""}" data-mi="${i}" style="${m.on ? `color:${col}` : ""}"><span class="dot" style="${m.on ? `background:${col}` : ""}"></span><span style="color:var(--ink)">${maName(m)}</span><span class="madel" data-mdel="${i}" title="이 이평선 지우기">×</span></button>`;
+  }).join("") + (state.ma.length < MA_MAX ? `<span class="maadd"><input type="number" id="maN" min="2" max="250" placeholder="기간(일)" inputmode="numeric"><select id="maT"><option value="s">단순</option><option value="e">지수</option></select><button class="chip" id="maAdd">+ 추가</button></span>` : "") +
+    '<span class="mamsg" id="maMsg"></span>';
+}
+function addMA(){
+  const n = Math.round(+$("#maN").value), t = $("#maT").value;
+  if (!(n >= 2 && n <= 250)){ $("#maMsg").textContent = "2~250 사이 숫자를 넣어 주세요"; return; }
+  if (state.ma.some(m => m.n === n && m.t === t)){ $("#maMsg").textContent = "이미 있는 이평선이에요"; return; }
+  const used = new Set(state.ma.map(m => m.c));
+  const c = [...MA_COLORS.keys()].find(i => !used.has(i)) ?? state.ma.length % MA_COLORS.length;
+  state.ma.push({n, t, on: true, c});
+  saveMA(); renderMA(); draw();
+  const inp = $("#maN"); if (inp) inp.focus();
+}
+
 // ───────── hash ─────────
 function readHash(){
   const h = new URLSearchParams(location.hash.slice(1));
@@ -240,12 +278,22 @@ function readHash(){
   if (PERIODS.some(p => p[0] === h.get("p"))) state.period = h.get("p");
   if (INTERVALS.some(p => p[0] === h.get("i"))) state.iv = h.get("i");
   if (h.get("t") === "line") state.ctype = "line";
+  if (h.has("ma")) state.ma = parseMA(h.get("ma"));
+  else {
+    let saved = null; try { saved = JSON.parse(localStorage.getItem(MA_KEY) || "null"); } catch(e){}
+    if (Array.isArray(saved) && saved.length) state.ma = parseMA(saved.join(","));
+    // 예전 링크(ov=ma0..ma3, ma0=5 …) 호환
+    if (h.has("ov") && /ma\d/.test(h.get("ov"))){
+      const ov = h.get("ov").split(",");
+      state.ma = [5, 20, 60, 120].map((d, i) => ({n: Math.round(parseFloat(h.get("ma" + i)) || d), t: "s", on: ov.includes("ma" + i), c: i}));
+    }
+  }
   if (h.has("ov")) state.ov = h.get("ov").split(",").filter(x => OVERLAYS.some(o => o.id === x));
   if (h.has("pn")) state.pn = h.get("pn").split(",").filter(x => PANES.some(o => o.id === x));
   PARAMS.forEach(([k]) => { const v = parseFloat(h.get(k)); if (v > 0 && v <= 300) state.p[k] = v; });
 }
 function writeHash(){
-  const h = new URLSearchParams({code: state.code || "", p: state.period, i: state.iv, t: state.ctype, ov: state.ov.join(","), pn: state.pn.join(",")});
+  const h = new URLSearchParams({code: state.code || "", p: state.period, i: state.iv, t: state.ctype, ma: maStr(), ov: state.ov.join(","), pn: state.pn.join(",")});
   PARAMS.forEach(([k, , d]) => { if (state.p[k] !== d) h.set(k, state.p[k]); });
   history.replaceState(null, "", "#" + h.toString());
 }
@@ -349,6 +397,7 @@ function renderSugg(){
 
 // ───────── controls ─────────
 function renderControls(){
+  renderMA();
   $("#periods").innerHTML = PERIODS.map(p => `<button data-p="${p[0]}" class="${p[0] === state.period ? "on" : ""}">${p[1]}</button>`).join("");
   $("#intervals").innerHTML = INTERVALS.map(p => `<button data-i="${p[0]}" class="${p[0] === state.iv ? "on" : ""}">${p[1]}</button>`).join("");
   document.querySelectorAll("#ctype button").forEach(b => b.classList.toggle("on", b.dataset.t === state.ctype));
@@ -382,6 +431,14 @@ function bind(){
     if (state.iv === "m" && ["3m","6m"].includes(state.period)) state.period = "3y";
     if (state.iv === "w" && state.period === "3m") state.period = "1y"; renderControls(); draw(); };
   $("#ctype").onclick = e => { const b = e.target.closest("button"); if (!b) return; state.ctype = b.dataset.t; renderControls(); draw(); };
+  $("#mas").addEventListener("click", e => {
+    const del = e.target.closest("[data-mdel]");
+    if (del){ state.ma.splice(+del.dataset.mdel, 1); saveMA(); renderMA(); draw(); return; }
+    if (e.target.id === "maAdd"){ addMA(); return; }
+    const b = e.target.closest("[data-mi]");
+    if (b){ const m = state.ma[+b.dataset.mi]; m.on = !m.on; saveMA(); renderMA(); draw(); }
+  });
+  $("#mas").addEventListener("keydown", e => { if (e.target.id === "maN" && e.key === "Enter") addMA(); });
   $("#overlays").onclick = async e => { const b = e.target.closest("[data-ov]"); if (!b) return; const id = b.dataset.ov;
     state.ov = state.ov.includes(id) ? state.ov.filter(x => x !== id) : state.ov.concat(id);
     if ((id === "kospi" || id === "kosdaq") && state.ov.includes(id)){ try { await loadIndex(id); } catch(err){ state.ov = state.ov.filter(x => x !== id); } }
@@ -701,7 +758,7 @@ function draw(){
       itemStyle: {color: up, color0: down, borderColor: up, borderColor0: down}, barMaxWidth: 12});
   } else L(raw.name, pad(s.c), ink, {lineStyle: {width: 1.6, color: ink}, z: 4});
 
-  ["ma0","ma1","ma2","ma3"].forEach((id, k) => { if (state.ov.includes(id)) L(`이평${P[id]}`, pad(sma(s.c, P[id])), MA_COLORS[k]); });
+  state.ma.forEach(m => { if (m.on) L(`${m.t === "e" ? "지수이평" : "이평"}${m.n}`, pad(m.t === "e" ? ema(s.c, m.n) : sma(s.c, m.n)), MA_COLORS[m.c]); });
   if (state.ov.includes("bb")){
     const m = sma(s.c, P.bbN), sd = stdev(s.c, P.bbN, m);
     const upB = m.map((v, i) => v == null ? null : v + P.bbK * sd[i]), loB = m.map((v, i) => v == null ? null : v - P.bbK * sd[i]);
