@@ -45,6 +45,10 @@
 #tbl td small{display:block;color:var(--muted);font-weight:500;font-size:.85em}
 #tbl tr:hover td{background:var(--chip)}
 .more{display:block;margin:14px auto 0}
+.chip.preset.star{background:var(--accent);color:#fff}
+.v3box{background:var(--chip);border-radius:var(--r-md);padding:14px 16px;margin-bottom:14px;font-size:.88em;color:var(--sub);line-height:1.7}
+.v3box b{color:var(--ink)}
+.v3box .on{color:var(--up);font-weight:800} .v3box .off{color:var(--down);font-weight:800}
 .empty{color:var(--muted);text-align:center;padding:36px 0}
 @media (max-width:640px){ .cond,.res{padding:14px 16px} .groups{grid-template-columns:1fr} }
 </style>
@@ -70,6 +74,7 @@
   </section>
 
   <section class="res">
+    <div class="v3box" id="v3box" hidden></div>
     <div class="res-head"><b id="cnt">–</b><span id="cntSub"></span></div>
     <div class="tw"><table id="tbl"></table></div>
     <button class="chip more" id="more" hidden>더 보기</button>
@@ -96,6 +101,10 @@ const API = "https://api.marketsignal.kr/v1/screen";
 // ───────── 조건 정의 ─────────
 // p: 숫자 입력 [이름, 기본값] · s: 선택 [이름, 옵션들, 기본] · t: 판정 · col: 결과표에 보여줄 값 [머리, 꺼내기, 형식]
 const G = [
+  ["모멘텀 V3 (과거 검증 규칙)", [
+    {id: "v3", L: "모멘텀 V3 순위 {p}위 이내", p: ["v", 5], t: (r, p) => r.v3 != null && r.v3 <= p.v, col: ["V3 순위", r => r.v3, v => v == null ? "–" : v + "위"]},
+    {id: "v3x", L: "V3 상세 보기 (3개월·1.5개월 수익률·변동성)", t: r => true, col: ["3개월 수익률", r => r.r63, v => pctTxt(v)]},
+  ]],
   ["추세", [
     {id: "ma_up", L: "종가가 {s}일선 위", s: ["n", ["5", "20", "60", "120", "200"], "20"], t: (r, p) => r["ma" + p.n] === 1},
     {id: "ma_dn", L: "종가가 {s}일선 아래", s: ["n", ["5", "20", "60", "120", "200"], "60"], t: (r, p) => r["ma" + p.n] === 0},
@@ -121,6 +130,11 @@ const G = [
   ]],
   ["거래", [
     {id: "vr", L: "거래대금이 20일 평균의 {p}배 이상", p: ["v", 3], t: (r, p) => (r.vr ?? 0) >= p.v, col: ["거래대금 배수", r => r.vr, v => v == null ? "–" : nf(v, 1) + "배"]},
+    {id: "valx", L: "오늘 거래대금 {s}억 이상", s: ["n", ["500", "1000", "2000", "3000"], "2000"], t: (r, p) => (r.val ?? 0) >= +p.n, col: ["거래대금", r => r.val, v => eok(Math.round(v))]},
+    {id: "rare", L: "최근 10개월 거래대금 {s}억 넘은 날 {p}일 이하 (첫 돌파)", s: ["n", ["1000", "2000", "3000"], "2000"], p: ["v", 3],
+      t: (r, p) => (r[{"1000": "k1", "2000": "k2", "3000": "k3"}[p.n]] ?? 1e9) <= p.v, col: ["10개월 돌파일", (r, p) => r[{"1000": "k1", "2000": "k2", "3000": "k3"}[p.n]], v => v == null ? "–" : v + "일"]},
+    {id: "bull", L: "오늘 양봉 (종가 > 시가)", t: r => r.up === 1},
+    {id: "mvmax", L: "시가총액 {p}조 이하", p: ["v", 10], t: (r, p) => (r.mv ?? 0) <= p.v * 10000},
     {id: "chg_up", L: "오늘 {p}% 이상 상승", p: ["v", 5], t: (r, p) => (r.chg ?? -1e9) >= p.v},
     {id: "chg_dn", L: "오늘 {p}% 이상 하락", p: ["v", 5], t: (r, p) => (r.chg ?? 1e9) <= -p.v},
   ]],
@@ -150,6 +164,8 @@ const G = [
 ];
 const C = Object.fromEntries(G.flatMap(([, L]) => L).map(c => [c.id, c]));
 const PRESETS = [
+  ["★ 모멘텀 V3 (과거 검증 규칙)", {v3: {v: 5}, v3x: {}}, {k: "x0", d: 1}],
+  ["거래대금 2000억 첫 돌파 (이전 실험)", {valx: {n: "2000"}, rare: {n: "2000", v: 3}, bull: {}, mvmax: {v: 10}}],
   ["52주 신고가 + 거래 급증", {nh: {}, vr: {v: 2}}],
   ["RSI 과매도 + PBR 1 미만", {rsi_lo: {v: 30}, pbr: {v: 1}}],
   ["외국인·기관 동반 순매수", {both: {v: 3}}],
@@ -225,6 +241,7 @@ function run(){
   // 켜진 조건의 값 열 (중복 머리 제거)
   const extra = [], seen = new Set();
   ids.forEach(id => { const c = C[id]; if (c.col && !seen.has(c.col[0])){ seen.add(c.col[0]); extra.push({h: c.col[0], get: r => c.col[1](r, on[id]), fmt: c.col[2]}); } });
+  if (on.v3x) extra.push({h: "1.5개월", get: r => r.r31, fmt: pctTxt}, {h: "연 변동성", get: r => r.vol, fmt: v => v == null ? "–" : nf(v, 0) + "%"});
   const cols = [
     {k: "n", h: "종목"}, {k: "px", h: "종가", f: r => nf(r.px)}, {k: "chg", h: "등락률", f: r => pctTxt(r.chg)},
     {k: "mv", h: "시가총액", f: r => eok(r.mv)}, {k: "val", h: "거래대금", f: r => eok(Math.round(r.val))},
@@ -236,6 +253,7 @@ function run(){
     let x = keyv(a, sortK), y = keyv(b2, sortK); if (Array.isArray(x)) x = x[0]; if (Array.isArray(y)) y = y[0];
     return ((x ?? -Infinity) > (y ?? -Infinity) ? 1 : (x ?? -Infinity) < (y ?? -Infinity) ? -1 : 0) * sortD;
   });
+  renderV3(ids.includes("v3"));
   $("#cnt").textContent = ids.length ? `${nf(L.length)}종목` : `전체 ${nf(L.length)}종목`;
   $("#cntSub").textContent = ids.length ? `켜진 조건 ${ids.length}개를 모두 만족 · 전체 ${nf(DATA.n)}종목 중` : "위에서 조건을 켜거나 추천 조합을 눌러 보세요";
   $("#active").innerHTML = ids.length ? '<span style="color:var(--muted)">켜진 조건</span>' + ids.map(id => {
@@ -251,9 +269,21 @@ function run(){
   $("#more").textContent = `더 보기 (${nf(L.length - shown)}종목 남음)`;
 }
 
+function renderV3(show){
+  const box = $("#v3box"); box.hidden = !show; if (!show) return;
+  const g = DATA.regime;
+  const idx = (nm, x) => x ? `${nm} ${nf(x.c, 0)} / 100일선 ${nf(x.ma, 0)} <span class="${x.up ? "on" : "off"}">${x.up ? "위" : "아래"}</span> (${x.c >= x.ma ? "+" : ""}${nf((x.c / x.ma - 1) * 100, 1)}%)` : "";
+  box.innerHTML = `<b>모멘텀 V3 규칙</b> (과거 시점별 데이터로 검증해 본 규칙 — 미래 수익을 보장하지 않아요) — 매월 첫 거래일에 코스피·코스닥 각 시총 상위 100종목 중
+    3개월(63거래일) 수익률이 플러스이고, 최근 1.5개월 수익률이 3개월 수익률의 40% 이상이며, 연 변동성 100% 미만인 종목을 3개월 수익률 순으로 줄 세워 <b>상위 3개를 같은 금액으로 매수</b>.
+    다음 달에도 5위 안이면 계속 보유. 손절 없음.<br>
+    <b>시장 조건</b>: 코스피와 코스닥이 <b>둘 다</b> 100일 이평 위일 때만 투자, 하나라도 아래면 전량 현금.<br>
+    지금: ${g ? idx("코스피", g.kospi) + " · " + idx("코스닥", g.kosdaq) + ` → <span class="${g.on ? "on" : "off"}">${g.on ? "투자 가능(ON)" : "현금 대기(OFF)"}</span>` : "확인 불가"}<br>
+    <span style="color:var(--muted)">과거 성과(비용 반영, 시점별 데이터): 2020~2026 연 +62~67%·최대낙폭 −48~53%, 20년(2006~) 연 +26%·최대낙폭 −68%, 단 2006~2020년은 사실상 무수익이고 2021년 이후 테마 장세에서 대부분을 벌었어요. 실제 봇과 시가총액 기준일·체결 시점이 달라 순위가 조금 다를 수 있어요.</span>`;
+}
+
 // ───────── 시작 ─────────
 (async () => {
-  $("#presets").innerHTML = PRESETS.map((p, i) => `<button class="chip preset" data-i="${i}">${p[0]}</button>`).join("");
+  $("#presets").innerHTML = PRESETS.map((p, i) => `<button class="chip preset${i === 0 ? " star" : ""}" data-i="${i}">${p[0]}</button>`).join("");
   let wantSec = fromHash(location.hash || (() => { try { return localStorage.getItem("ms_screen_v1") || ""; } catch(e){ return ""; } })());
   renderGroups(); bindGroups();
   if (watch.size) $("#fWatch").parentElement.hidden = false; else $("#fWatch").parentElement.hidden = true;
@@ -267,8 +297,9 @@ function run(){
 
   $("#presets").onclick = e => {
     const b = e.target.closest("[data-i]"); if (!b) return;
-    const P = PRESETS[+b.dataset.i][1];
+    const P = PRESETS[+b.dataset.i][1], srt = PRESETS[+b.dataset.i][2];
     on = Object.fromEntries(Object.entries(P).map(([id, p]) => [id, {...defaults(C[id]), ...p}]));
+    if (srt){ sortK = srt.k; sortD = srt.d; } else { sortK = "mv"; sortD = -1; }
     renderGroups(); shown = 100; run();
   };
   $("#active").onclick = e => { const b = e.target.closest("[data-off]"); if (b){ delete on[b.dataset.off]; renderGroups(); run(); } };
