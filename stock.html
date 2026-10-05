@@ -6,44 +6,29 @@
 <title>종목 차트 · MarketSignal</title>
 <meta name="description" content="코스피·코스닥 전 종목 10년 차트에 이동평균선, 볼린저 밴드, 일목균형표, RSI, MACD, 스토캐스틱을 겹쳐 보는 무료 차트">
 <link rel="canonical" href="https://marketsignal.kr/stock.html">
+<script>try{var t=localStorage.getItem("ms_theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f2f4f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)">
+<meta property="og:image" content="https://marketsignal.kr/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/ms.css?v=1">
+<script src="assets/ms.js?v=1" defer></script>
 <style>
-:root{
-  --bg:#f6f7f9; --card:#fff; --ink:#1a202c; --sub:#4a5568; --muted:#8a94a6; --line:#e5e8ee;
-  --accent:#1d4ed8; --accent-soft:#e8eefc; --up:#d92d20; --down:#1d5fd6; --chip:#f1f3f7;
-  color-scheme:light;
-}
-@media (prefers-color-scheme:dark){
-  :root{--bg:#0f1218; --card:#171b23; --ink:#e7eaf0; --sub:#b4bccb; --muted:#7c8597; --line:#2a303c;
-    --accent:#7aa2ff; --accent-soft:#1d2840; --up:#ff6b5e; --down:#6aa0ff; --chip:#212733; color-scheme:dark;}
-}
-*{box-sizing:border-box;margin:0;padding:0}
-[hidden]{display:none!important}
-body{font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Noto Sans KR","Apple SD Gothic Neo",sans-serif;
-  background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:var(--accent);text-decoration:none}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px 40px}
-header{padding:28px 0 14px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px}
-.brand h1{font-size:1.6em;letter-spacing:-.5px}
-.brand p{color:var(--sub);font-size:.93em}
-nav a{margin-left:16px;font-weight:600;font-size:.93em;color:var(--sub)}
-nav a.on{color:var(--ink)}
-
-.search{position:relative;max-width:520px}
-.search input{width:100%;font:inherit;font-size:1em;padding:11px 14px;border:1px solid var(--line);border-radius:10px;
-  background:var(--card);color:var(--ink);outline:none}
+.search{position:relative;max-width:560px}
+.search input{width:100%;font-size:1.02em;padding:13px 16px 13px 44px;border:1px solid var(--line);border-radius:var(--r-md);background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238b95a1' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") no-repeat 15px center/18px;color:var(--ink);outline:none;box-shadow:var(--shadow)}
 .search input:focus{border-color:var(--accent)}
-.sugg{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--card);border:1px solid var(--line);border-radius:10px;
-  box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:10;max-height:330px;overflow-y:auto}
-.sugg div{padding:8px 14px;cursor:pointer;display:flex;justify-content:space-between;gap:10px;font-size:.92em}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);box-shadow:0 12px 32px rgba(0,0,0,.14);z-index:20;max-height:340px;overflow-y:auto;padding:6px}
+.sugg div{padding:9px 12px;cursor:pointer;display:flex;justify-content:space-between;gap:10px;font-size:.93em;border-radius:var(--r-sm)}
 .sugg div.on,.sugg div:hover{background:var(--accent-soft)}
 .sugg small{color:var(--muted)}
 .popular{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:10px 0 18px}
 .popular .lbl{min-width:auto;margin-right:2px}
-.watch{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:12px 0 4px}
-.watch-head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.86em;font-weight:700}
+.watch{background:var(--card);border:1px solid transparent;border-radius:var(--r-md);box-shadow:var(--shadow);padding:14px 16px;margin:14px 0 6px}
+.watch-head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.92em;font-weight:700}
 .watch-head .tools{display:flex;gap:6px;font-weight:500}
 .watch-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(196px,1fr));gap:6px;margin-top:8px}
-.wi{display:flex;align-items:center;justify-content:space-between;gap:6px;border:1px solid var(--line);border-radius:9px;padding:6px 6px 6px 10px;cursor:pointer;font-size:.86em}
+.wi{display:flex;align-items:center;justify-content:space-between;gap:6px;background:var(--chip);border:1px solid transparent;border-radius:var(--r-sm);padding:8px 6px 8px 12px;cursor:pointer;font-size:.88em}
 .wi:hover,.wi.on{border-color:var(--accent)}
 .wi .nm{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .wi .q{font-variant-numeric:tabular-nums;font-size:.92em;white-space:nowrap}
@@ -52,55 +37,38 @@ nav a.on{color:var(--ink)}
 .watch-empty{color:var(--muted);font-size:.84em;margin-top:6px}
 .watch-msg{font-size:.8em;color:var(--sub);margin-top:6px}
 .watch-msg input{width:100%;font:inherit;font-size:.95em;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--chip);color:var(--ink);margin-top:4px}
-.star{border:1px solid var(--line);background:var(--chip);color:var(--sub);font:inherit;font-size:.82em;font-weight:600;padding:4px 10px;border-radius:999px;cursor:pointer}
-.star.on{color:#d97706;border-color:#d97706;background:var(--card)}
-
-.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px 18px}
+.star{border:1px solid var(--line);background:var(--card);color:var(--sub);font-size:.84em;font-weight:600;padding:6px 12px;border-radius:999px;cursor:pointer}
+.star.on{color:#f59f00;border-color:#f59f00;background:var(--card)}
 .title{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
-.title h2{font-size:1.35em;letter-spacing:-.3px}
+.title h2{font-size:1.45em;font-weight:800;letter-spacing:-.03em}
 .title .code{color:var(--muted);font-size:.85em}
-.title .px{font-size:1.35em;font-weight:700;font-variant-numeric:tabular-nums}
+.title .px{font-size:1.7em;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.03em}
 .title .chg{font-weight:600;font-variant-numeric:tabular-nums}
 .title .asof{color:var(--muted);font-size:.8em}
 .badge{display:inline-block;font-size:.72em;font-weight:700;padding:1px 7px;border-radius:5px;background:var(--accent-soft);color:var(--accent)}
-.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
-
-.row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}
-.lbl{font-size:.78em;color:var(--muted);font-weight:600;min-width:58px}
-.chip{border:1px solid var(--line);background:var(--chip);color:var(--sub);font:inherit;font-size:.84em;
-  padding:5px 11px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:all .12s}
-.chip:hover{border-color:var(--accent)}
-.chip.on{background:var(--card);color:var(--ink);border-color:currentColor;font-weight:600}
-.chip .dot{width:9px;height:9px;border-radius:50%;background:var(--muted)}
 .madel{color:var(--muted);font-weight:500;margin-left:2px;padding:0 2px;border-radius:4px}
 .madel:hover{color:var(--up);background:var(--chip)}
 .maadd{display:inline-flex;gap:4px;align-items:center}
 .maadd input{width:76px;font:inherit;font-size:.84em;padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink)}
 .maadd select{font:inherit;font-size:.82em;padding:4px 6px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink)}
 .mamsg{font-size:.78em;color:var(--up)}
-.ctrl{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin:14px 0 4px}
-.seg{display:inline-flex;background:var(--chip);border-radius:8px;padding:2px;flex-wrap:wrap}
-.seg button{border:none;background:none;color:var(--sub);font:inherit;font-size:.82em;font-weight:600;padding:5px 10px;border-radius:6px;cursor:pointer}
-.seg button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
 details.params{margin:6px 0 2px;font-size:.84em;color:var(--sub)}
 details.params summary{cursor:pointer;color:var(--muted);font-weight:600;font-size:.95em}
 .pgrid{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:8px}
 .pgrid label{display:flex;align-items:center;gap:6px}
 .pgrid input{width:56px;font:inherit;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}
 #chart{width:100%;height:520px;margin-top:6px}
-.hint{font-size:.8em;color:var(--muted);margin-top:6px;min-height:1em}
 .msg{display:flex;align-items:center;justify-content:center;height:360px;color:var(--muted);font-size:.92em;text-align:center}
 .stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-top:14px}
-.stats div{background:var(--chip);border-radius:8px;padding:8px 10px;font-size:.8em;color:var(--muted)}
+.stats div{background:var(--chip);border-radius:var(--r-sm);padding:10px 12px;font-size:.8em;color:var(--muted)}
 .stats b{display:block;color:var(--ink);font-size:1.12em;font-variant-numeric:tabular-nums}
-.notes{margin-top:14px;font-size:.8em;color:var(--sub)}
-.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;margin:12px 0 2px}
-.kpi{border:1px solid var(--line);border-radius:9px;padding:7px 10px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:8px;margin:16px 0 6px}
+.kpi{background:var(--chip);border-radius:var(--r-sm);padding:10px 12px}
 .kpi .k{font-size:.74em;color:var(--muted);font-weight:600}
-.kpi .v{font-size:1.02em;font-weight:700;font-variant-numeric:tabular-nums}
+.kpi .v{font-size:1.08em;font-weight:700;font-variant-numeric:tabular-nums;margin-top:1px}
 .kpi .s{font-size:.7em;color:var(--muted)}
-.fund{margin-top:26px;border-top:1px solid var(--line);padding-top:16px}
-.fund h3{font-size:1.08em;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.fund{margin-top:30px;border-top:1px solid var(--line);padding-top:20px}
+.fund h3{font-size:1.15em;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
 .fund .sub{color:var(--muted);font-size:.8em;margin:4px 0 6px}
 #fchart{width:100%;height:300px}
 .ftbl{overflow-x:auto;margin-top:8px}
@@ -117,20 +85,16 @@ details.params summary{cursor:pointer;color:var(--muted);font-weight:600;font-si
 .di .fx{display:flex;flex-wrap:wrap;gap:2px 12px;margin-top:2px;color:var(--muted);font-size:.92em}
 .di .fx b{color:var(--ink);font-weight:600}
 .ftbl th.est{color:var(--accent)}
-.notes li{margin:3px 0 3px 16px}
-footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-align:center}
-@media (max-width:600px){ .panel{padding:12px} nav a{margin:0 14px 0 0} }
+main .panel{padding:22px 24px 24px}
+.popular .chip{background:var(--card);box-shadow:var(--shadow)}
+.popular .chip:hover{border-color:var(--accent)}
+@media (max-width:640px){ .title .px{font-size:1.5em} main .panel{padding:16px} }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="brand">
-      <h1>MarketSignal</h1>
-      <p>코스피·코스닥 전 종목 차트와 보조지표</p>
-    </div>
-    <nav><a href="index.html">지표 대시보드</a><a href="stock.html" class="on">종목 차트</a><a href="economy.html">공시·일정</a></nav>
-  </header>
+<header class="topbar"><div class="wrap"><a class="logo" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#3182f6"/><path d="M7 21.5l6-6 4 4 8.5-9" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25.5" cy="10.5" r="2.3" fill="#fff"/></svg><span>MarketSignal</span></a><nav class="navlinks" aria-label="메뉴"><a href="index.html">지표 대시보드</a><a href="stock.html" class="on">종목 차트</a><a href="economy.html">공시·일정</a></nav><button class="themebtn" id="themebtn" type="button" aria-label="화면 테마 바꾸기"></button></div></header>
+<main class="wrap">
+  <div class="page-head"><h1>종목 차트</h1><p>코스피·코스닥 전 종목 · 이동평균·볼린저·일목·RSI·MACD · 실적과 공시까지</p></div>
 
   <div class="search">
     <input id="q" type="search" placeholder="종목명 또는 종목코드 검색 (예: 삼성전자, 005930)" autocomplete="off" spellcheck="false">
@@ -184,12 +148,9 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
       <li>이 차트는 지표를 보여줄 뿐 매수·매도 신호를 주지 않습니다.</li>
     </ul>
   </section>
-
-  <footer>
-    데이터: 네이버 금융 (장중 약 5분 지연) · 금감원 DART · 종목 목록 하루 4회 갱신<br>
-    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.
-  </footer>
-</div>
+</main>
+<footer class="site-footer"><div class="wrap"><div><b>MarketSignal</b> — 시장 데이터를 해석 없이, 있는 그대로<br>데이터: 네이버 금융 (장중 약 5분 지연) · 금감원 DART · 종목 목록 하루 4회 갱신<br>
+    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.</div><nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="economy.html">공시·일정</a></nav></div></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <script>
@@ -452,7 +413,7 @@ function bind(){
     PARAMS.forEach(([k, , d]) => state.p[k] = d); renderParams(); renderControls(); draw(); });
   $("#fper").onclick = e => { const b = e.target.closest("button"); if (!b || b.disabled) return; fper = b.dataset.f; renderFund(); };
   let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { chart && chart.resize(); fchart && fchart.resize(); }, 120); });
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+  window.addEventListener("ms-theme", () => {
     if (chart){ chart.dispose(); chart = null; } if (fchart){ fchart.dispose(); fchart = null; } draw(); renderFund(); });
 }
 

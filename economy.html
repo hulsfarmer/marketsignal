@@ -6,58 +6,31 @@
 <title>공시·일정 · MarketSignal</title>
 <meta name="description" content="코스피·코스닥 주요 공시(공급계약, 자사주, 배당, 증자, M&A)와 주총·IR·배당·신주상장·경제지표 일정을 한 곳에서. 금액·매출액 대비 등 핵심 숫자를 공시 원문에서 바로 보여줍니다.">
 <link rel="canonical" href="https://marketsignal.kr/economy.html">
+<script>try{var t=localStorage.getItem("ms_theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f2f4f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)">
+<meta property="og:image" content="https://marketsignal.kr/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/ms.css?v=1">
+<script src="assets/ms.js?v=1" defer></script>
 <style>
-:root{
-  --bg:#f6f7f9; --card:#fff; --ink:#1a202c; --sub:#4a5568; --muted:#8a94a6; --line:#e5e8ee;
-  --accent:#1d4ed8; --accent-soft:#e8eefc; --up:#d92d20; --down:#1d5fd6; --chip:#f1f3f7; --warn:#c2410c; --warn-soft:#fff1e8;
-  color-scheme:light;
-}
-@media (prefers-color-scheme:dark){
-  :root{--bg:#0f1218; --card:#171b23; --ink:#e7eaf0; --sub:#b4bccb; --muted:#7c8597; --line:#2a303c;
-    --accent:#7aa2ff; --accent-soft:#1d2840; --up:#ff6b5e; --down:#6aa0ff; --chip:#212733; --warn:#fb923c; --warn-soft:#2a1d14; color-scheme:dark;}
-}
-*{box-sizing:border-box;margin:0;padding:0}
-[hidden]{display:none!important}
-body{font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Noto Sans KR","Apple SD Gothic Neo",sans-serif;
-  background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px 40px}
-header{padding:28px 0 6px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px}
-.brand h1{font-size:1.6em;letter-spacing:-.5px}
-.brand p{color:var(--sub);font-size:.93em}
-nav a{margin-left:16px;font-weight:600;font-size:.93em;color:var(--sub)}
-nav a.on{color:var(--ink)}
-.updated{color:var(--muted);font-size:.8em;margin:4px 0 14px}
-
-.summary{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:18px}
-.sum{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer}
-.sum:hover{border-color:var(--accent)}
+.summary{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:22px}
+.sum{background:var(--card);border:1px solid transparent;border-radius:var(--r-md);box-shadow:var(--shadow);padding:14px 16px;cursor:pointer;transition:border-color .15s,transform .15s}
+.sum:hover{border-color:var(--accent);transform:translateY(-1px)}
 .sum .k{font-size:.78em;color:var(--sub)}
-.sum .v{font-size:1.2em;font-weight:700;font-variant-numeric:tabular-nums}
+.sum .v{font-size:1.35em;font-weight:700;font-variant-numeric:tabular-nums;margin-top:3px;letter-spacing:-.02em}
 .sum .s{font-size:.72em;color:var(--muted)}
 .sum.warn .v{color:var(--warn)}
-
-.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 18px 18px}
-.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line)}
-.tab{background:none;border:none;color:var(--sub);font:inherit;font-weight:600;font-size:.97em;padding:12px 14px 10px;cursor:pointer;border-bottom:2px solid transparent}
-.tab.on{color:var(--ink);border-bottom-color:var(--accent)}
 .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:14px 0 6px}
 .bar .grp{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.seg{display:inline-flex;background:var(--chip);border-radius:8px;padding:2px;flex-wrap:wrap}
-.seg button{border:none;background:none;color:var(--sub);font:inherit;font-size:.82em;font-weight:600;padding:5px 10px;border-radius:6px;cursor:pointer}
-.seg button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
-input.q{font:inherit;font-size:.86em;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);width:180px}
+input.q{font-size:.88em;padding:7px 12px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--card);color:var(--ink);width:190px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
-.chip{border:1px solid var(--line);background:var(--chip);color:var(--sub);font:inherit;font-size:.82em;padding:4px 10px;border-radius:999px;cursor:pointer;white-space:nowrap}
-.chip:hover{border-color:var(--accent)}
-.chip.on{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);font-weight:600}
 .chip .n{color:var(--muted);font-weight:500;margin-left:3px}
 .chip.warn.on{background:var(--warn-soft);color:var(--warn);border-color:var(--warn)}
 .toggle{font-size:.82em;color:var(--sub);display:inline-flex;align-items:center;gap:5px;cursor:pointer;user-select:none}
-
 .list{margin-top:6px}
-.item{display:grid;grid-template-columns:54px 1fr;gap:4px 12px;padding:11px 2px;border-bottom:1px solid var(--line)}
+.item{display:grid;grid-template-columns:54px 1fr;gap:4px 12px;padding:14px 4px;border-bottom:1px solid var(--line)}
 .item .d{color:var(--muted);font-size:.8em;font-variant-numeric:tabular-nums;padding-top:2px}
 .item .h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px}
 .item .nm{font-weight:700}
@@ -71,7 +44,6 @@ input.q{font:inherit;font-size:.86em;padding:6px 10px;border:1px solid var(--lin
 .facts b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
 .more{display:block;margin:14px auto 0}
 .empty{color:var(--muted);text-align:center;padding:40px 0;font-size:.92em}
-
 .day{margin-top:14px}
 .day h3{font-size:.92em;display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);z-index:1}
 .day h3 .today{font-size:.75em;color:#fff;background:var(--accent);padding:1px 7px;border-radius:5px}
@@ -81,22 +53,13 @@ input.q{font:inherit;font-size:.86em;padding:6px 10px;border:1px solid var(--lin
 .ev .r{display:flex;flex-wrap:wrap;align-items:baseline;gap:3px 8px}
 .ev .x{color:var(--muted);font-size:.86em}
 .ev.hi .r b{color:var(--up)}
-
-.notes{margin-top:16px;font-size:.8em;color:var(--sub)}
-.notes li{margin:3px 0 3px 16px}
-footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-align:center}
-@media (max-width:600px){ .panel{padding:4px 12px 14px} nav a{margin:0 14px 0 0} input.q{width:100%} .bar .grp{width:100%} }
+@media (max-width:640px){ input.q{width:100%} .bar .grp{width:100%} }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="brand">
-      <h1>MarketSignal</h1>
-      <p>코스피·코스닥 주요 공시와 일정을 숫자 그대로</p>
-    </div>
-    <nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="economy.html" class="on">공시·일정</a></nav>
-  </header>
+<header class="topbar"><div class="wrap"><a class="logo" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#3182f6"/><path d="M7 21.5l6-6 4 4 8.5-9" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25.5" cy="10.5" r="2.3" fill="#fff"/></svg><span>MarketSignal</span></a><nav class="navlinks" aria-label="메뉴"><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="economy.html" class="on">공시·일정</a></nav><button class="themebtn" id="themebtn" type="button" aria-label="화면 테마 바꾸기"></button></div></header>
+<main class="wrap">
+  <div class="page-head"><h1>공시·일정</h1><p>주요 공시의 금액·비율·날짜를 원문 그대로, 다가오는 기업·경제 일정까지</p></div>
   <div class="updated" id="updated">불러오는 중…</div>
 
   <section class="summary" id="summary"></section>
@@ -144,12 +107,9 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
       <li>공시를 좋다·나쁘다로 평가하지 않습니다. 같은 공시도 회사 상황에 따라 의미가 다릅니다.</li>
     </ul>
   </section>
-
-  <footer>
-    데이터: 금융감독원 DART 전자공시 · ForexFactory 경제 캘린더 · 30분마다 갱신<br>
-    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.
-  </footer>
-</div>
+</main>
+<footer class="site-footer"><div class="wrap"><div><b>MarketSignal</b> — 시장 데이터를 해석 없이, 있는 그대로<br>데이터: 금융감독원 DART 전자공시 · ForexFactory 경제 캘린더 · 30분마다 갱신<br>
+    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.</div><nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="economy.html">공시·일정</a></nav></div></footer>
 
 <script>
 (() => {

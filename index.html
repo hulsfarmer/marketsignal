@@ -8,69 +8,34 @@
 <meta property="og:title" content="MarketSignal — 한국·미국 경제지표 대시보드">
 <meta property="og:description" content="지수·금리·환율·원자재·물가 지표를 기간별로 겹쳐 비교해 보세요">
 <link rel="canonical" href="https://marketsignal.kr/">
+<script>try{var t=localStorage.getItem("ms_theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f2f4f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)">
+<meta property="og:image" content="https://marketsignal.kr/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/ms.css?v=1">
+<script src="assets/ms.js?v=1" defer></script>
 <style>
-:root{
-  --bg:#f6f7f9; --card:#fff; --ink:#1a202c; --sub:#4a5568; --muted:#8a94a6; --line:#e5e8ee;
-  --accent:#1d4ed8; --accent-soft:#e8eefc; --up:#d92d20; --down:#1d5fd6; --chip:#f1f3f7;
-  color-scheme:light;
-}
-@media (prefers-color-scheme:dark){
-  :root{--bg:#0f1218; --card:#171b23; --ink:#e7eaf0; --sub:#b4bccb; --muted:#7c8597; --line:#2a303c;
-    --accent:#7aa2ff; --accent-soft:#1d2840; --up:#ff6b5e; --down:#6aa0ff; --chip:#212733; color-scheme:dark;}
-}
-*{box-sizing:border-box;margin:0;padding:0}
-[hidden]{display:none!important}
-body{font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Noto Sans KR","Apple SD Gothic Neo",sans-serif;
-  background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:var(--accent);text-decoration:none}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px 40px}
-header{padding:28px 0 6px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px}
-.brand h1{font-size:1.6em;letter-spacing:-.5px}
-.brand p{color:var(--sub);font-size:.93em}
-nav a{margin-left:16px;font-weight:600;font-size:.93em;color:var(--sub)}
-nav a.on{color:var(--ink)}
-.updated{color:var(--muted);font-size:.8em;margin:4px 0 16px}
-
 /* snapshot */
-.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:22px}
-.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;transition:border-color .15s}
-.tile:hover{border-color:var(--accent)}
-.tile .n{font-size:.8em;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.tile .v{font-size:1.15em;font-weight:700;font-variant-numeric:tabular-nums;margin-top:2px}
-.tile .c{font-size:.8em;font-weight:600;font-variant-numeric:tabular-nums}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:24px}
+.tile{background:var(--card);border:1px solid transparent;border-radius:var(--r-md);box-shadow:var(--shadow);padding:14px 16px;cursor:pointer;transition:border-color .15s,transform .15s}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile .n{font-size:.82em;color:var(--sub);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .v{font-size:1.3em;font-weight:700;font-variant-numeric:tabular-nums;margin-top:4px;letter-spacing:-.02em}
+.tile .c{font-size:.86em;font-weight:600;font-variant-numeric:tabular-nums}
 .tile .d{font-size:.7em;color:var(--muted)}
-.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
-
 /* panel */
 .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 18px 18px}
-.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
-.tabs::-webkit-scrollbar{display:none}
-.tab{background:none;border:none;color:var(--sub);font:inherit;font-weight:600;font-size:.97em;
-  padding:12px 14px 10px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
-.tab.on{color:var(--ink);border-bottom-color:var(--accent)}
-.desc{color:var(--sub);font-size:.88em;margin:12px 0 10px}
-.row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}
 #series.grouped{display:block}
 #series.grouped .row{margin:4px 0}
 #series.grouped .lbl{min-width:92px}
 .tab.free{color:var(--accent)}
-.lbl{font-size:.78em;color:var(--muted);font-weight:600;min-width:58px}
-.chip{border:1px solid var(--line);background:var(--chip);color:var(--sub);font:inherit;font-size:.84em;
-  padding:5px 11px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:all .12s}
-.chip:hover{border-color:var(--accent)}
-.chip.on{background:var(--card);color:var(--ink);border-color:currentColor;font-weight:600}
-.chip .dot{width:9px;height:9px;border-radius:50%;background:var(--muted)}
-.chip.preset{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.chip.preset{background:var(--accent-soft);color:var(--accent);border-color:transparent;font-weight:600}
 .chip.preset:hover{border-color:var(--accent)}
 .chip .fq{font-size:.78em;color:var(--muted);font-weight:500}
-.ctrl{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin:14px 0 4px}
-.seg{display:inline-flex;background:var(--chip);border-radius:8px;padding:2px;flex-wrap:wrap}
-.seg button{border:none;background:none;color:var(--sub);font:inherit;font-size:.82em;font-weight:600;padding:5px 10px;border-radius:6px;cursor:pointer}
-.seg button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
 #chart{width:100%;height:440px;margin-top:6px}
-.hint{font-size:.8em;color:var(--muted);margin-top:4px;min-height:1.2em}
 .empty{display:flex;align-items:center;justify-content:center;height:440px;color:var(--muted);font-size:.92em}
-
 /* table */
 .tbl-wrap{overflow-x:auto;margin-top:16px}
 table{border-collapse:collapse;width:100%;font-size:.85em;font-variant-numeric:tabular-nums;min-width:640px}
@@ -79,30 +44,16 @@ th{color:var(--muted);font-weight:600;font-size:.9em}
 th:first-child,td:first-child{text-align:left}
 td .sw{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
 td small{color:var(--muted)}
-.notes{margin-top:14px;font-size:.8em;color:var(--sub)}
-.notes li{margin:3px 0 3px 16px}
-.notes b{color:var(--ink);font-weight:600}
-
-.guide{margin-top:22px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
-.guide div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:.85em;color:var(--sub)}
+.guide{margin-top:24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.guide div{background:var(--card);border:1px solid transparent;border-radius:var(--r-md);box-shadow:var(--shadow);padding:16px 18px;font-size:.87em;color:var(--sub)}
 .guide b{display:block;color:var(--ink);margin-bottom:3px}
-footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-align:center}
-@media (max-width:600px){
-  #chart,.empty{height:340px}
-  .panel{padding:4px 12px 14px}
-  nav a{margin:0 14px 0 0}
-}
+@media (max-width:640px){ #chart,.empty{height:340px} .tiles{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px 20px;padding:2px 16px 8px;scrollbar-width:none} .tiles::-webkit-scrollbar{display:none} .tile{flex:0 0 42%;scroll-snap-align:start} }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="brand">
-      <h1>MarketSignal</h1>
-      <p>한국·미국 경제지표를 기간별로 겹쳐 보는 대시보드</p>
-    </div>
-    <nav><a href="index.html" class="on">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="economy.html">공시·일정</a></nav>
-  </header>
+<header class="topbar"><div class="wrap"><a class="logo" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#3182f6"/><path d="M7 21.5l6-6 4 4 8.5-9" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25.5" cy="10.5" r="2.3" fill="#fff"/></svg><span>MarketSignal</span></a><nav class="navlinks" aria-label="메뉴"><a href="index.html" class="on">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="economy.html">공시·일정</a></nav><button class="themebtn" id="themebtn" type="button" aria-label="화면 테마 바꾸기"></button></div></header>
+<main class="wrap">
+  <div class="page-head"><h1>경제지표 대시보드</h1><p>한국·미국 지표를 1주부터 10년까지, 원하는 조합으로 겹쳐 보세요</p></div>
   <div class="updated" id="updated">데이터 불러오는 중…</div>
 
   <section class="tiles" id="tiles" aria-label="주요 지표 요약"></section>
@@ -131,12 +82,9 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
     <div><b>왜 어떤 선은 계단 모양인가요?</b>물가·고용·GDP는 한 달 또는 분기에 한 번 발표됩니다. 다음 발표 전까지 값이 그대로라 매일 나오는 지수와 겹치면 계단처럼 보여요.</div>
     <div><b>같이 움직이면 원인과 결과인가요?</b>아니요. 두 선이 함께 움직여도 다른 공통 원인이 있을 수 있어요. 이 페이지는 사실 확인용이며 매매 신호를 주지 않습니다.</div>
   </section>
-
-  <footer>
-    데이터: 네이버 금융 · Yahoo Finance · FRED(미국 세인트루이스 연준) · OECD<span id="ecosSrc"></span> · 하루 2회 자동 갱신<br>
-    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.
-  </footer>
-</div>
+</main>
+<footer class="site-footer"><div class="wrap"><div><b>MarketSignal</b> — 시장 데이터를 해석 없이, 있는 그대로<br>데이터: 네이버 금융 · Yahoo Finance · FRED(미국 세인트루이스 연준) · OECD<span id="ecosSrc"></span> · 하루 2회 자동 갱신<br>
+    본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.</div><nav><a href="index.html">지표 대시보드</a><a href="stock.html">종목 차트</a><a href="economy.html">공시·일정</a></nav></div></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <script>
@@ -476,7 +424,7 @@ async function boot(){
   bindControls();
   await switchTab(state.tab, state.sel.length ? state.sel : null);
   let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => chart && chart.resize(), 120); });
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { if (chart){ chart.dispose(); chart = null; } draw(); });
+  window.addEventListener("ms-theme", () => { if (chart){ chart.dispose(); chart = null; } draw(); });
 }
 boot();
 })();
