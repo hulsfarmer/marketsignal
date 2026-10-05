@@ -66,6 +66,7 @@ details.params summary{cursor:pointer;color:var(--muted);font-weight:600;font-si
 .pgrid label{display:flex;align-items:center;gap:6px}
 .pgrid input{width:56px;font:inherit;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}
 #chart{width:100%;height:520px;margin-top:6px}
+.hint{font-size:.8em;color:var(--muted);margin-top:6px;min-height:1em}
 .msg{display:flex;align-items:center;justify-content:center;height:360px;color:var(--muted);font-size:.92em;text-align:center}
 .stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-top:14px}
 .stats div{background:var(--chip);border-radius:8px;padding:8px 10px;font-size:.8em;color:var(--muted)}
@@ -124,10 +125,11 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
     <details class="params"><summary>지표 설정 바꾸기</summary><div class="pgrid" id="pgrid"></div></details>
 
     <div id="chart"><div class="msg">위에서 종목을 검색하거나 인기 종목을 눌러 주세요</div></div>
+    <div class="hint" id="shint"></div>
     <div class="stats" id="stats"></div>
 
     <div class="fund" id="fund" hidden>
-      <h3>실적 <span class="seg" id="fper"><button data-f="annual">연간</button><button data-f="quarter">분기</button></span></h3>
+      <h3>실적 <span class="seg" id="fper"><button data-f="annual">연간</button><button data-f="quarter">분기</button><button data-f="dart10">10년</button></span></h3>
       <p class="sub">단위: 억원 · 연결 기준 · 옅은 막대와 파란 배경 칸은 <b>증권사 추정치(컨센서스)</b>로 실제 실적이 아닙니다</p>
       <div id="fchart"></div>
       <div class="ftbl"><table id="ftbl"></table></div>
@@ -135,13 +137,14 @@ footer{margin-top:28px;color:var(--muted);font-size:.78em;line-height:1.7;text-a
     <ul class="notes">
       <li>가격은 액면분할·무상증자 등을 반영한 <b>수정주가</b>, 거래량은 <b>원래 값</b>이라 분할 시점 전후로 거래량이 크게 달라 보일 수 있어요.</li>
       <li>보조지표는 선택한 봉(일·주·월) 기준으로 계산합니다. 같은 지표라도 일봉과 주봉 값은 다릅니다.</li>
-      <li>PER·PBR 등 투자지표와 실적은 네이버 금융(FnGuide 집계) 기준이며, 추정치는 증권사 전망 평균이라 실제와 다를 수 있어요.</li>
+      <li>PER·PBR 등 투자지표와 연간·분기 실적은 네이버 금융(FnGuide 집계) 기준이며, 추정치는 증권사 전망 평균이라 실제와 다를 수 있어요.</li>
+      <li>PER·PBR 밴드, 이익 추이, 실적 10년 탭은 금감원 DART 공시(2015년~) 기준이에요. 일부 회사·분기는 공시 형식 차이로 비어 있을 수 있어요.</li>
       <li>이 차트는 지표를 보여줄 뿐 매수·매도 신호를 주지 않습니다.</li>
     </ul>
   </section>
 
   <footer>
-    데이터: 네이버 금융 (장중 약 5분 지연) · 종목 목록 하루 4회 갱신<br>
+    데이터: 네이버 금융 (장중 약 5분 지연) · 금감원 DART · 종목 목록 하루 4회 갱신<br>
     본 페이지는 공개 데이터를 보여주는 정보 제공용이며, 투자 권유나 종목 추천이 아닙니다.
   </footer>
 </div>
@@ -165,12 +168,15 @@ const OVERLAYS = [
   {id:"ichi",name:() => "일목균형표", color:"#0d9488"},
   {id:"kospi",name:() => "코스피 비교", color:"#94a3b8"},
   {id:"kosdaq",name:() => "코스닥 비교", color:"#a78bfa"},
+  {id:"perband",name:() => "PER 밴드", color:"#0ea5e9"},
+  {id:"pbrband",name:() => "PBR 밴드", color:"#f59e0b"},
 ];
 const PANES = [
   {id:"vol",  name:"거래량"},
   {id:"rsi",  name:"RSI"},
   {id:"macd", name:"MACD"},
   {id:"stoch",name:"스토캐스틱"},
+  {id:"earn", name:"이익 추이"},
 ];
 const PARAMS = [
   ["ma0","이평 1",5],["ma1","이평 2",20],["ma2","이평 3",60],["ma3","이평 4",120],
@@ -183,6 +189,7 @@ const state = {code:null, period:"1y", iv:"d", ctype:"candle",
   ov:["ma1","ma2","bb"], pn:["vol","rsi"], p:Object.fromEntries(PARAMS.map(x => [x[0], x[2]]))};
 let stocks = [], byCode = {}, raw = null, idxRaw = {}, chart = null, view = null;
 let fund = null, fchart = null, fper = "annual";
+let fin = null;   // DART 10년 분기 재무
 
 // ───────── utils ─────────
 const nf = (v, d=0) => v == null || isNaN(v) ? "–" : v.toLocaleString("ko-KR", {minimumFractionDigits:d, maximumFractionDigits:d});
@@ -271,6 +278,7 @@ async function selectStock(code){
   $("#chart").innerHTML = '<div class="msg">불러오는 중…</div>';
   fund = null; renderFund();
   loadFund(code);
+  fin = null; loadFin(code);
   try {
     raw = await getJSON(`${API}/ohlcv/${code}`);
     for (const id of ["kospi","kosdaq"]) if (state.ov.includes(id)) await loadIndex(id);
@@ -374,13 +382,79 @@ async function loadFund(code){
     fund = f;
   } catch(e){ fund = null; }
   renderFund();
+  if (raw && fin && (state.ov.includes("perband") || state.ov.includes("pbrband"))) draw();
 }
 const fmtEok = v => v == null ? "–" : Math.abs(v) >= 10000 ? `${nf(v / 10000, Math.abs(v) >= 100000 ? 1 : 2)}조` : `${nf(v)}억`;
+function dart10(){
+  if (!fin || !fin.annual || fin.annual.length < 2) return null;
+  const A = fin.annual.filter(a => a.end).slice(-11), e = v => v == null ? null : v / 1e8;
+  const pct = (a, b) => a == null || !b ? null : a / b * 100;
+  return {
+    periods: A.map(a => ({title: a.end.slice(0, 7).replace("-", "."), est: false})),
+    rows: {
+      "매출액": A.map(a => e(a.rev)), "영업이익": A.map(a => e(a.op)), "당기순이익": A.map(a => e(a.ni)),
+      "영업이익률": A.map(a => pct(a.op, a.rev)), "순이익률": A.map(a => pct(a.ni, a.rev)),
+      "ROE": A.map(a => a.eq > 0 ? pct(a.ni, a.eq) : null), "부채비율": A.map(a => a.eq > 0 ? pct(a.liab, a.eq) : null),
+    },
+  };
+}
 function lastActual(f, row){
   if (!f || !f.rows[row]) return [null, null];
   for (let i = f.periods.length - 1; i >= 0; i--) if (!f.periods[i].est && f.rows[row][i] != null) return [f.rows[row][i], f.periods[i].title];
   return [null, null];
 }
+async function loadFin(code){
+  try {
+    const f = await getJSON(`${API}/financials/${code}`);
+    if (state.code !== code) return;
+    fin = f;
+  } catch(e){ fin = null; }
+  if (raw && (state.ov.includes("perband") || state.ov.includes("pbrband") || state.pn.includes("earn"))) draw();
+  renderFund();
+}
+
+// DART 분기 → 분기말 기준 최근 4분기 합(TTM) 포인트
+function finPoints(){
+  if (!fin) return [];
+  const Q = fin.quarters, pts = [];
+  const days = (a, b) => (new Date(b) - new Date(a)) / 864e5;
+  for (let i = 0; i < Q.length; i++){
+    const p = {end: Q[i].end, eq: Q[i].eq, ni: null, op: null};
+    if (i >= 3 && days(Q[i-3].end, Q[i].end) < 300){
+      const w = Q.slice(i - 3, i + 1);
+      if (w.every(q => q.ni != null)) p.ni = w.reduce((a, q) => a + q.ni, 0);
+      if (w.every(q => q.op != null)) p.op = w.reduce((a, q) => a + q.op, 0);
+    }
+    pts.push(p);
+  }
+  // 결산월에는 연간 합계 = 최근 4분기 합 → 분기 자료가 모자라 못 구한 칸(2015년 등)을 연간 값으로 보충
+  (fin.annual || []).forEach(a => {
+    if (!a.end) return;
+    const p = pts.find(x => x.end === a.end);
+    if (!p) pts.push({end: a.end, eq: a.eq, ni: a.ni, op: a.op});
+    else { if (p.ni == null) p.ni = a.ni; if (p.op == null) p.op = a.op; if (p.eq == null) p.eq = a.eq; }
+  });
+  return pts.sort((a, b) => a.end < b.end ? -1 : 1);
+}
+// 날짜 배열 각각에 대해 그 날 이전 가장 최근 분기말 값
+function alignPts(dates, pts, key){
+  const out = []; let j = -1;
+  for (const d of dates){ while (j + 1 < pts.length && pts[j + 1].end <= d) j++; out.push(j >= 0 ? pts[j][key] : null); }
+  return out;
+}
+function sharesNow(){
+  const info = byCode[raw.code];
+  if (!info || !info.mv) return null;
+  return info.mv * 1e8 / raw.c[raw.c.length - 1];
+}
+function niceMult(v){ return v < 1 ? Math.round(v * 20) / 20 : v < 3 ? Math.round(v * 10) / 10 : v < 10 ? Math.round(v * 2) / 2 : Math.round(v); }
+function bandMults(prices, per){
+  const xs = prices.map((p, i) => per[i] > 0 ? p / per[i] : null).filter(v => v != null && isFinite(v)).sort((a, b) => a - b);
+  if (xs.length < 60) return [];
+  const q = f => xs[Math.min(xs.length - 1, Math.floor(f * xs.length))];
+  return [...new Set([.1, .3, .5, .7, .9].map(f => niceMult(q(f))))].filter(v => v > 0);
+}
+
 function renderFund(){
   const k = $("#kpis"), box = $("#fund");
   const sm = fund && fund.summary || {};
@@ -401,11 +475,15 @@ function renderFund(){
   k.hidden = false;
 
   if (!hasFin){ box.hidden = true; return; }
+  fund.dart10 = dart10();
   if (!fund[fper]) fper = fund.annual ? "annual" : "quarter";
   document.querySelectorAll("#fper button").forEach(b => { b.classList.toggle("on", b.dataset.f === fper); b.disabled = !fund[b.dataset.f]; });
   box.hidden = false;
+  $("#fund .sub").innerHTML = fper === "dart10"
+    ? "단위: 억원 · 금감원 DART 사업보고서 기준 · 순이익·ROE는 비지배지분 포함 전체 기준이라 위 연간 탭(지배주주 기준)과 조금 다를 수 있어요"
+    : "단위: 억원 · 연결 기준 · 옅은 막대와 파란 배경 칸은 <b>증권사 추정치(컨센서스)</b>로 실제 실적이 아닙니다";
   const f = fund[fper], P = f.periods, R = f.rows;
-  const labels = P.map(p => (fper === "annual" ? p.title.slice(0, 4) : p.title.slice(2).replace(".", "/")) + (p.est ? "(E)" : ""));
+  const labels = P.map(p => (fper !== "quarter" ? p.title.slice(0, 4) : p.title.slice(2).replace(".", "/")) + (p.est ? "(E)" : ""));
 
   // 표
   const ROWS = [["매출액","eok"],["영업이익","eok"],["당기순이익","eok"],["영업이익률","pct"],["순이익률","pct"],["ROE","pct"],
@@ -533,6 +611,31 @@ function draw(){
       {id: "cmp_" + id, lineStyle: {width: 1.4, type: "dotted", color: OVERLAYS.find(o => o.id === id).color}});
   }
 
+  // PER·PBR 밴드: 최근 4분기 순이익(또는 분기말 자본) ÷ 현재 주식수 × 배수
+  const hints = [];
+  const pts = finPoints(), shares = raw ? sharesNow() : null;
+  for (const [id, key, label] of [["perband", "ni", "PER"], ["pbrband", "eq", "PBR"]]){
+    if (!state.ov.includes(id)) continue;
+    if (!fin || !shares || !pts.length){ hints.push(`${label} 밴드: 이 종목은 DART 재무 데이터가 없어 그릴 수 없어요.`); continue; }
+    let per = alignPts(s.d, pts, key).map(v => v == null ? null : v / shares);
+    // 네이버 현재 EPS·BPS(지배주주 기준)에 비례 보정: DART 주요계정은 비지배지분 포함이라 그대로 쓰면 배수 숫자가 어긋남.
+    // 밴드 배수를 같은 시계열의 분포에서 고르므로 선 위치는 보정과 무관하고, 라벨 숫자만 네이버 PER·PBR과 맞춰짐.
+    const lastV = per.filter(v => v != null).pop(), nv = fund && fund.summary && fund.summary[key === "ni" ? "eps" : "bps"];
+    const cal = lastV > 0 && nv > 0 && nv / lastV > .25 && nv / lastV < 4 ? nv / lastV : null;
+    if (cal) per = per.map(v => v == null ? null : v * cal);
+    else hints.push(`${label} 밴드는 네이버 기준값으로 보정하지 못해 배수 숫자가 네이버 ${label}와 다를 수 있어요.`);
+    const mults = bandMults(s.c, per);
+    if (!mults.length){ hints.push(`${label} 밴드: 흑자(또는 자본 양수) 기간이 짧아 그릴 수 없어요.`); continue; }
+    const base = id === "perband" ? [14, 165, 233] : [245, 158, 11];
+    mults.forEach((m, k) => {
+      const col = `rgba(${base.join(",")},${.35 + k * .15})`;
+      L(`${label} ${m}배`, pad(per.map(v => v == null || v <= 0 ? null : v * m)), col, {lineStyle: {width: 1, color: col, type: "solid"}, step: "end"});
+    });
+  }
+  if (state.ov.includes("perband") || state.ov.includes("pbrband"))
+    hints.push("밴드 배수는 이 종목의 지난 10년 PER·PBR 분포(10·30·50·70·90%)에서 골랐어요. 과거 주당 값은 DART 분기 순이익(최근 4분기 합)·자본총계를 현재 주식수로 나눈 뒤 네이버 현재 EPS·BPS에 비례로 맞춘 근사치예요. 자회사 지분 구조나 주식수가 크게 바뀐 회사는 과거 구간이 실제와 다를 수 있어요.");
+  $("#shint").textContent = hints.join(" ");
+
   // 아래 패널
   panes.forEach((p, k) => {
     const gi = k + 1, base = {xAxisIndex: gi, yAxisIndex: gi, showSymbol: false};
@@ -550,6 +653,14 @@ function draw(){
       series.push({name: "MACD 히스토그램", type: "bar", ...base, data: padB(mc.map((v, i) => v == null || sg[i] == null ? null : {value: v - sg[i], itemStyle: {color: v - sg[i] >= 0 ? up : down, opacity: .5}})), barMaxWidth: 8});
       series.push({name: "MACD", type: "line", ...base, data: pad(mc), lineStyle: {width: 1.2, color: "#2563eb"}, itemStyle: {color: "#2563eb"}});
       series.push({name: "시그널", type: "line", ...base, data: pad(sg), lineStyle: {width: 1.2, color: "#d97706"}, itemStyle: {color: "#d97706"}});
+    } else if (p === "earn"){
+      const op = alignPts(s.d, pts, "op").map(v => v == null ? null : v / 1e8), ni = alignPts(s.d, pts, "ni").map(v => v == null ? null : v / 1e8);
+      series.push({name: "영업이익(4분기 합)", type: "line", step: "end", ...base, data: pad(op), lineStyle: {width: 1.4, color: "#2563eb"}, itemStyle: {color: "#2563eb"},
+        areaStyle: {color: "#2563eb", opacity: .08}});
+      series.push({name: "순이익(4분기 합)", type: "line", step: "end", ...base, data: pad(ni), lineStyle: {width: 1.4, color: "#059669"}, itemStyle: {color: "#059669"}});
+      yAxes[gi].axisLabel.formatter = v => fmtEok(v);
+      if (!fin) hints.push("이익 추이: 이 종목은 DART 재무 데이터가 없어요.");
+      $("#shint").textContent = hints.join(" ");
     } else if (p === "stoch"){
       const [k2, d2] = stoch(s.h, s.l, s.c, P.stK, P.stD);
       series.push({name: `%K(${P.stK},${P.stD})`, type: "line", ...base, data: pad(k2), lineStyle: {width: 1.2, color: "#0891b2"}, itemStyle: {color: "#0891b2"},
@@ -601,7 +712,7 @@ function tip(ps, s){
     if (p.seriesName === "BB 상단") return;
     if (v == null || v === "-" || isNaN(v)) return;
     v = +v;
-    h += `<div>${p.marker}${p.seriesName} <b>${nf(v, Math.abs(v) < 100 ? 2 : 0)}</b></div>`;
+    h += `<div>${p.marker}${p.seriesName} <b>${p.seriesName.includes("4분기 합") ? fmtEok(v) : nf(v, Math.abs(v) < 100 ? 2 : 0)}</b></div>`;
   });
   if (view && view.bbUpper && state.ov.includes("bb") && view.bbUpper[i] != null){
     const m = sma(s.c, state.p.bbN)[i];
