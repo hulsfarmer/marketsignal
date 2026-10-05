@@ -12,7 +12,25 @@
     btn.title = btn.getAttribute("aria-label");
   }
   function fire(){ try { window.dispatchEvent(new Event("ms-theme")); } catch(e){} }
+  // 방문자 수: api.marketsignal.kr 에 방문 1회 기록(하루 1회 순방문, 쿠키 없음) 후 푸터에 표시. 로컬 개발 화면은 세지 않음
+  function visits(){
+    var foot = document.querySelector(".site-footer .wrap > div");
+    if (!foot || !window.fetch) return;
+    var local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+    fetch("https://api.marketsignal.kr/v1/hit?" + (local ? "nocount=1&" : "") + "t=" + Date.now(), {cache: "no-store"})
+      .then(function(r){ return r.json(); })
+      .then(function(v){
+        if (v == null || v.total == null) return;
+        var f = function(n){ return Number(n).toLocaleString("ko-KR"); };
+        var d = new Date(v.since + "T00:00:00");
+        var el = document.createElement("div");
+        el.className = "visits";
+        el.textContent = "오늘 방문 " + f(v.today) + " · 누적 방문 " + f(v.total) + " (" + (d.getMonth() + 1) + "/" + d.getDate() + "부터)";
+        foot.appendChild(el);
+      })["catch"](function(){});
+  }
   document.addEventListener("DOMContentLoaded", function(){
+    visits();
     var btn = document.getElementById("themebtn");
     if (!btn) return;
     paint(btn);

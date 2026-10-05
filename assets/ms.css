@@ -96,6 +96,7 @@ th,td{border-bottom:1px solid var(--line)}
 .site-footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px}
 .site-footer nav a{color:var(--sub);margin-right:14px}
 .site-footer b{color:var(--sub)}
+.site-footer .visits{margin-top:6px;font-variant-numeric:tabular-nums;color:var(--sub)}
 main{padding-bottom:12px}
 
 @media (max-width:640px){
