@@ -514,7 +514,6 @@ function search(q){
     if (s.c === q.toUpperCase() || n === q) exact.push(s);
     else if (n.startsWith(q) || s.c.startsWith(q.toUpperCase())) starts.push(s);
     else if (n.includes(q)) has.push(s);
-    if (exact.length + starts.length > 30) break;
   }
   return exact.concat(starts, has).slice(0, 12);
 }
@@ -561,11 +560,25 @@ function bind(){
   };
   document.addEventListener("keydown", e => { if (e.key === "Escape" && drawMode){ drawMode = null; renderBoxList(); } });
   const q = $("#q");
-  q.addEventListener("input", () => { sList = search(q.value); sIdx = sList.length ? 0 : -1; renderSugg(); });
+  let moved = false;   // 화살표로 직접 고른 경우만 그 항목, 아니면 Enter 순간의 입력값으로 다시 찾음
+  q.addEventListener("input", () => { sList = search(q.value); sIdx = sList.length ? 0 : -1; moved = false; renderSugg(); });
+  const pick = () => {
+    if (!moved){ sList = search(q.value); sIdx = sList.length ? 0 : -1; }
+    if (sList[sIdx]) selectStock(sList[sIdx].c);
+  };
   q.addEventListener("keydown", e => {
-    if (e.key === "ArrowDown"){ sIdx = Math.min(sIdx + 1, sList.length - 1); renderSugg(); e.preventDefault(); }
-    else if (e.key === "ArrowUp"){ sIdx = Math.max(sIdx - 1, 0); renderSugg(); e.preventDefault(); }
-    else if (e.key === "Enter" && sList[sIdx]) selectStock(sList[sIdx].c);
+    if (e.key === "ArrowDown"){ sIdx = Math.min(sIdx + 1, sList.length - 1); moved = true; renderSugg(); e.preventDefault(); }
+    else if (e.key === "ArrowUp"){ sIdx = Math.max(sIdx - 1, 0); moved = true; renderSugg(); e.preventDefault(); }
+    // 한글 조합 중 Enter: 마지막 글자가 아직 확정 전이라 조합이 끝난 뒤 찾기
+    else if (e.key === "Enter" && (e.isComposing || e.keyCode === 229)){
+      e.preventDefault();
+      let done = false;
+      const go = () => { if (done) return; done = true; q.removeEventListener("compositionend", onEnd); pick(); };
+      const onEnd = () => setTimeout(go, 0);
+      q.addEventListener("compositionend", onEnd);
+      setTimeout(go, 150);   // Safari 처럼 조합이 이미 끝난 뒤 Enter 가 오는 경우
+    }
+    else if (e.key === "Enter"){ e.preventDefault(); pick(); }
     else if (e.key === "Escape") $("#sugg").hidden = true;
   });
   document.addEventListener("click", e => { if (!e.target.closest(".search")) $("#sugg").hidden = true; });
