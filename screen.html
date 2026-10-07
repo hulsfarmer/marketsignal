@@ -107,7 +107,7 @@
     <div class="tw"><table id="tbl"></table></div>
     <button class="chip more" id="more" hidden>더 보기</button>
     <ul class="notes">
-      <li>장 마감 뒤(평일 16:40·19:40) 계산한 값이에요. 장중에는 직전 거래일 기준이에요.</li>
+      <li>장 마감 뒤(평일 16:40·19:40) 계산한 값이에요. 장중에는 현재가·등락률·시가총액만 10분마다 새로 받고, 거래대금·이평·RSI 같은 나머지 지표는 직전 거래일 종가 기준이에요.</li>
       <li>지표 정의는 종목 차트와 같아요 (이평 = 단순이동평균, RSI 14일, 볼린저 20일·2σ, MACD 12·26·9, 박스권 = 종가 20봉·폭 15%·위아래 번갈아 2회 이상).</li>
       <li>PER·PBR·ROE는 네이버 금융 기준, 영업이익은 금감원 DART(공시 기한이 지난 분기만), 수급은 최근 60일, 공시는 최근 30일이에요. 거래대금은 종가 × 거래량 근사예요.</li>
       <li><b>조건에 맞는 종목 목록일 뿐, 매수·매도 추천이 아닙니다.</b> 이 사이트의 과거 검증에서 볼린저 돌파·박스권 돌파 같은 단순 조건은 10년 동안 시장 평균보다 나은 결과를 보이지 않았어요.</li>
@@ -269,7 +269,7 @@ function run(){
   ids.forEach(id => { const c = C[id]; if (c.col && !seen.has(c.col[0])){ seen.add(c.col[0]); extra.push({h: c.col[0], get: r => c.col[1](r, on[id]), fmt: c.col[2]}); } });
   if (on.v3x) extra.push({h: "1.5개월", get: r => r.r31, fmt: pctTxt}, {h: "연 변동성", get: r => r.vol, fmt: v => v == null ? "–" : nf(v, 0) + "%"});
   const cols = [
-    {k: "n", h: "종목"}, {k: "px", h: "종가", f: r => nf(r.px)}, {k: "chg", h: "등락률", f: r => pctTxt(r.chg)},
+    {k: "n", h: "종목"}, {k: "px", h: DATA && DATA.live ? "현재가" : "종가", f: r => nf(r.px)}, {k: "chg", h: "등락률", f: r => pctTxt(r.chg)},
     {k: "mv", h: "시가총액", f: r => eok(r.mv)}, {k: "val", h: "거래대금", f: r => eok(Math.round(r.val))},
     ...extra.map((x, i) => ({k: "x" + i, h: x.h, get: x.get, f: r => x.fmt(x.get(r))})),
   ];
@@ -330,15 +330,15 @@ function renderMine(){
     ...saved.map((x, i) => ({ap: `u:${i}`, n: x.n, ...parseH(x.h)})),
     ...EXAMPLES.filter(x => !hidden.includes(x.id)).map(x => ({ap: `e:${x.id}`, n: x.n, on: Object.fromEntries(Object.entries(x.c).map(([id, p]) => [id, {...defaults(C[id]), ...p}])), b: {mkt: "", sec: "", mv: 0, val: 0}})),
   ];
-  const d = new Date(DATA.day + "T00:00:00"), day = `${d.getMonth() + 1}월 ${d.getDate()}일(${"일월화수목금토"[d.getDay()]})`;
-  if (!list.length){ box.innerHTML = `<p><b>${day} 종가 기준 내 조건 결과</b> — 저장한 조건이 없어요. 아래에서 조건을 고르고 ‘지금 조건 저장’을 누르면 여기에 그 조건에 맞는 종목이 매일 나와요.</p>`; return; }
+  const d = new Date(DATA.day + "T00:00:00"), day = DATA.live ? `오늘 장중 ${DATA.live.at}` : `${d.getMonth() + 1}월 ${d.getDate()}일(${"일월화수목금토"[d.getDay()]}) 종가`;
+  if (!list.length){ box.innerHTML = `<p><b>${day} 기준 내 조건 결과</b> — 저장한 조건이 없어요. 아래에서 조건을 고르고 ‘지금 조건 저장’을 누르면 여기에 그 조건에 맞는 종목이 매일 나와요.</p>`; return; }
   const li = list.map(x => {
     const L = matchRows(x.on, x.b), N = 8;
     const names = L.slice(0, N).map(r => `<a href="stock.html#code=${r.c}">${esc(r.n)}</a>`).join(" · ") + (L.length > N ? ` 외 ${nf(L.length - N)}종목` : "");
     return `<li><button class="linkbtn mine" data-ap="${x.ap}">${esc(x.n)}</button> — ${L.length ? `<b>${nf(L.length)}종목</b>: ${names}` : '<span class="pre-d">오늘은 맞는 종목이 없어요</span>'}</li>`;
   }).join("");
   const g = DATA.regime, rg = list.some(x => x.on.v3) && g ? ` 모멘텀 V3 시장 조건은 지금 <b>${g.on ? "투자 가능(ON)" : "현금 대기(OFF)"}</b>이에요.` : "";
-  box.innerHTML = `<p><b>${day} 종가 기준 내 조건 결과</b> — 이 브라우저에 저장한 조건(예시 포함)에 오늘 맞는 종목이에요. 조건 이름을 누르면 아래에 전체 결과가 나와요.${rg}</p><ul class="pre-l">${li}</ul>`;
+  box.innerHTML = `<p><b>${day} 기준 내 조건 결과</b> — 이 브라우저에 저장한 조건(예시 포함)에 오늘 맞는 종목이에요. 조건 이름을 누르면 아래에 전체 결과가 나와요.${rg}</p><ul class="pre-l">${li}</ul>`;
 }
 
 // 지금 켜진 조건과 똑같은 저장 조건·예시 버튼만 파랗게
@@ -378,7 +378,8 @@ function renderV3(show){
   try { DATA = await (await fetch(API)).json(); }
   catch(e){ $("#updated").textContent = "데이터를 불러오지 못했어요. 잠시 후 새로고침해 주세요."; return; }
   const d = new Date(DATA.day + "T00:00:00");
-  $("#updated").textContent = `${d.getMonth() + 1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]}) 종가 기준 · ${nf(DATA.n)}종목 (보통주, ETF·우선주·스팩 제외) · 계산 ${DATA.updated}`;
+  const lv = DATA.live ? `현재가·등락률 오늘 ${DATA.live.at} 기준(장중) · 나머지 지표 ` : "";
+  $("#updated").textContent = `${lv}${d.getMonth() + 1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]}) 종가 기준 · ${nf(DATA.n)}종목 (보통주, ETF·우선주·스팩 제외) · 계산 ${DATA.updated}`;
   const secs = [...new Set(DATA.rows.map(r => r.s).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
   $("#fSec").innerHTML = '<option value="">전체</option>' + secs.map(s => `<option${s === wantSec ? " selected" : ""}>${esc(s)}</option>`).join("");
   run(); renderMine();
