@@ -50,6 +50,25 @@
 .watch-empty{color:var(--muted);font-size:.84em;margin-top:6px}
 .watch-msg{font-size:.8em;color:var(--sub);margin-top:6px}
 .watch-msg input{width:100%;font:inherit;font-size:.95em;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--chip);color:var(--ink);margin-top:4px}
+.watch-list .watch-empty{grid-column:1/-1}
+.wtabs{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.wtab{border:1px solid var(--line);background:var(--card);color:var(--sub);font:inherit;font-size:.9em;font-weight:600;padding:5px 12px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.wtab:hover{border-color:var(--accent)}
+.wtab.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.wtab .n{font-weight:500;opacity:.75;margin-left:4px}
+.wtab.plus{font-weight:800;padding:5px 11px;color:var(--accent)}
+.wform{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.wform input{font:inherit;font-size:.9em;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--chip);color:var(--ink);min-width:180px}
+.wform input:focus{outline:none;border-color:var(--accent)}
+.starwrap{position:relative;display:inline-block}
+.wmenu{position:absolute;left:0;top:calc(100% + 6px);z-index:30;background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);box-shadow:0 12px 32px rgba(0,0,0,.14);padding:8px;min-width:220px;font-size:.88em;font-weight:500}
+.wmenu .h{font-size:.82em;color:var(--muted);padding:2px 6px 6px}
+.wmenu label{display:flex;align-items:center;gap:8px;padding:7px 6px;border-radius:var(--r-sm);cursor:pointer;color:var(--ink)}
+.wmenu label:hover{background:var(--accent-soft)}
+.wmenu label small{margin-left:auto;color:var(--muted)}
+.wmenu .new{border-top:1px solid var(--line);margin-top:4px;padding-top:6px}
+.wmenu .new button.lnk{border:none;background:none;color:var(--accent);font:inherit;font-weight:600;cursor:pointer;padding:6px}
+.wmenu .new input{width:100%;font:inherit;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--chip);color:var(--ink);margin:4px 0}
 .star{border:1px solid var(--line);background:var(--card);color:var(--sub);font-size:.84em;font-weight:600;padding:6px 12px;border-radius:999px;cursor:pointer}
 .star.on{color:#f59f00;border-color:#f59f00;background:var(--card)}
 .title{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
@@ -145,8 +164,9 @@ details.indset>summary::-webkit-details-marker{display:none}
     <div class="sugg" id="sugg" hidden></div>
   </div>
   <div class="watch" id="watch">
-    <div class="watch-head"><span>★ 내 관심종목 <span id="wcount" style="color:var(--muted);font-weight:500"></span></span>
-      <span class="tools"><button class="chip" id="wshare">링크로 옮기기</button></span></div>
+    <div class="watch-head"><div class="wtabs" id="wtabs"></div>
+      <span class="tools"><button class="chip" id="wren">이름 바꾸기</button><button class="chip" id="wdel">목록 삭제</button><button class="chip" id="wshare">링크로 옮기기</button></span></div>
+    <div class="wform" id="wform" hidden></div>
     <div class="watch-list" id="wlist"></div>
     <div class="watch-msg" id="wmsg" hidden></div>
   </div>
@@ -637,74 +657,176 @@ function renderTitle(){
     <span class="px">${nf(last, pxd(last))}</span><span class="chg ${cls}">${ch > 0 ? "▲" : ch < 0 ? "▼" : ""} ${nf(Math.abs(ch), pxd(last))} (${pct > 0 ? "+" : ""}${nf(pct, 2)}%)</span>
     ${raw.partial ? '<span class="badge">장중</span>' : ""}<span class="asof">${raw.d[n]} 기준${info && info.mv ? ` · 시가총액 ${fmtCap(info.mv)}` : ""}</span>
     <a class="star" href="https://stock.marketsignal.kr/${raw.code}" title="이 종목의 수치 요약 페이지">요약 페이지</a>
-    <button class="star${inWatch(raw.code) ? " on" : ""}" id="star">${inWatch(raw.code) ? "★ 관심종목" : "☆ 관심종목 추가"}</button>`;
-  $("#star").onclick = () => { toggleWatch(raw.code, raw.name); renderTitle(); };
+    <span class="starwrap"><button class="star${inWatch(raw.code) ? " on" : ""}" id="star" aria-haspopup="true">${starLabel(raw.code)}</button></span>`;
+  $("#star").onclick = e => { e.stopPropagation(); toggleStarMenu(); };
 }
 
-// ───────── 관심종목 (이 브라우저에만 저장) ─────────
-const WKEY = "ms_watchlist_v1", WMAX = 50;
-let watch = [], quotes = {};
-function loadWatch(){ try { const v = JSON.parse(localStorage.getItem(WKEY) || "[]"); watch = Array.isArray(v) ? v.filter(w => /^[0-9A-Z]{6}$/.test(w.c)) : []; } catch(e){ watch = []; } }
-function saveWatch(){ try { localStorage.setItem(WKEY, JSON.stringify(watch)); return true; } catch(e){ return false; } }
-function inWatch(c){ return watch.some(w => w.c === c); }
-function toggleWatch(c, n){
-  if (inWatch(c)) watch = watch.filter(w => w.c !== c);
-  else {
-    if (watch.length >= WMAX){ wmsg(`관심종목은 최대 ${WMAX}개까지 저장할 수 있어요.`); return; }
-    watch.push({c, n});
+// ───────── 관심종목 (이 브라우저에만 저장, 이름 붙인 여러 목록) ─────────
+const WKEY = "ms_watchlists_v2", WKEY_OLD = "ms_watchlist_v1", WMAX = 50, LMAX = 20, NMAX = 20;
+let wl = {cur: "", lists: []}, quotes = {}, wform = null;
+const okCode = c => /^[0-9A-Z]{6}$/.test(c);
+const newId = () => "l" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+const cleanName = v => String(v || "").replace(/\s+/g, " ").trim().slice(0, NMAX);
+function curList(){ return wl.lists.find(l => l.id === wl.cur) || wl.lists[0]; }
+function listsWith(c){ return wl.lists.filter(l => l.items.some(w => w.c === c)); }
+function inWatch(c){ return listsWith(c).length > 0; }
+function loadWatch(){
+  let v = null; try { v = JSON.parse(localStorage.getItem(WKEY) || "null"); } catch(e){}
+  if (v && Array.isArray(v.lists) && v.lists.length){
+    wl.lists = v.lists.filter(l => l && l.id).slice(0, LMAX).map(l => ({id: String(l.id), name: cleanName(l.name) || "목록",
+      items: (Array.isArray(l.items) ? l.items : []).filter(w => w && okCode(w.c)).slice(0, WMAX)}));
+    wl.cur = wl.lists.some(l => l.id === v.cur) ? v.cur : wl.lists[0].id;
+    return;
   }
-  if (!saveWatch()) wmsg("이 브라우저에서는 저장이 막혀 있어요 (시크릿 모드 등). 새로고침하면 목록이 사라질 수 있어요.");
-  renderWatch(); refreshQuotes();
+  let old = []; try { const o = JSON.parse(localStorage.getItem(WKEY_OLD) || "[]"); old = Array.isArray(o) ? o.filter(w => w && okCode(w.c)) : []; } catch(e){}
+  wl = {cur: "main", lists: [{id: "main", name: "내 관심종목", items: old.slice(0, WMAX)}]};
+  saveWatch();
 }
+function saveWatch(){ try { localStorage.setItem(WKEY, JSON.stringify(wl)); return true; } catch(e){ return false; } }
+function saveOrWarn(){ if (!saveWatch()) wmsg("이 브라우저에서는 저장이 막혀 있어요 (시크릿 모드 등). 새로고침하면 목록이 사라질 수 있어요."); }
+function addTo(l, c, n){
+  if (l.items.some(w => w.c === c)) return true;
+  if (l.items.length >= WMAX){ wmsg(`‘${esc(l.name)}’ 목록에는 최대 ${WMAX}개까지 담을 수 있어요.`); return false; }
+  l.items.push({c, n}); return true;
+}
+function toggleIn(l, c, n){
+  if (l.items.some(w => w.c === c)) l.items = l.items.filter(w => w.c !== c); else if (!addTo(l, c, n)) return;
+  saveOrWarn(); renderWatch(); refreshQuotes();
+}
+function makeList(name){
+  name = cleanName(name);
+  if (!name) return null;
+  if (wl.lists.length >= LMAX){ wmsg(`목록은 최대 ${LMAX}개까지 만들 수 있어요.`); return null; }
+  const same = wl.lists.find(l => l.name === name); if (same) return same;
+  const l = {id: newId(), name, items: []}; wl.lists.push(l); return l;
+}
+function starLabel(c){ const k = listsWith(c).length; return k ? `★ 관심종목${wl.lists.length > 1 ? ` ${k}` : ""}` : "☆ 관심종목 추가"; }
 function wmsg(html){ const m = $("#wmsg"); m.innerHTML = html; m.hidden = !html; }
+function renderTabs(){
+  $("#wtabs").innerHTML = '<span>★</span>' + wl.lists.map(l => `<button class="wtab${l.id === wl.cur ? " on" : ""}" data-tab="${l.id}" title="${esc(l.name)}">${esc(l.name)}<span class="n">${l.items.length || ""}</span></button>`).join("")
+    + (wl.lists.length < LMAX ? '<button class="wtab plus" id="wnew" title="새 목록 만들기">+</button>' : "");
+}
 function renderWatch(){
-  $("#wcount").textContent = watch.length ? `${watch.length}` : "";
-  $("#wshare").hidden = !watch.length;
-  if (!watch.length){ $("#wlist").innerHTML = '<div class="watch-empty">종목을 연 뒤 ☆ 버튼을 누르면 여기에 저장돼요. 이 브라우저에만 저장되고 서버로 보내지지 않아요.</div>'; return; }
-  $("#wlist").innerHTML = watch.map(w => {
+  renderTabs();
+  const l = curList(), items = l ? l.items : [];
+  $("#wshare").hidden = !items.length;
+  $("#wdel").hidden = wl.lists.length < 2 && !items.length;
+  if (!items.length){ $("#wlist").innerHTML = `<div class="watch-empty">‘${esc(l ? l.name : "")}’ 목록이 비어 있어요. 종목을 연 뒤 ☆ 관심종목 버튼에서 이 목록을 고르면 담겨요. 이 브라우저에만 저장되고 서버로 보내지지 않아요.</div>`; return; }
+  $("#wlist").innerHTML = items.map(w => {
     const q = quotes[w.c];
     let qs = '<span class="flat">…</span>';
     if (q && !q.error){
       const pct = q.pc ? (q.c / q.pc - 1) * 100 : 0, cls = pct > 0 ? "up" : pct < 0 ? "down" : "flat";
       qs = `${nf(q.c, pxd(q.c))} <span class="${cls}">${pct > 0 ? "+" : ""}${nf(pct, 2)}%</span>`;
     }
-    return `<div class="wi${state.code === w.c ? " on" : ""}" data-code="${w.c}" title="${esc(w.n)} (${w.c})"><span class="nm">${esc(w.n)}</span><span class="q">${qs}</span><button class="x" data-del="${w.c}" title="관심종목에서 빼기">×</button></div>`;
+    return `<div class="wi${state.code === w.c ? " on" : ""}" data-code="${w.c}" title="${esc(w.n)} (${w.c})"><span class="nm">${esc(w.n)}</span><span class="q">${qs}</span><button class="x" data-del="${w.c}" title="이 목록에서 빼기">×</button></div>`;
   }).join("");
 }
 let qTimer = null;
 async function refreshQuotes(){
   clearTimeout(qTimer);
-  const need = watch.map(w => w.c);
+  const l = curList(), need = l ? l.items.map(w => w.c).filter(c => !quotes[c] || quotes[c].error) : [];
   if (need.length){
     try {
-      const j = await getJSON(`${API}/quotes?codes=${need.join(",")}`);
-      j.quotes.forEach(q => quotes[q.code] = q);
+      for (let i = 0; i < need.length; i += 50){
+        const j = await getJSON(`${API}/quotes?codes=${need.slice(i, i + 50).join(",")}`);
+        j.quotes.forEach(q => quotes[q.code] = q);
+      }
     } catch(e){}
-    renderWatch();
   }
-  qTimer = setTimeout(refreshQuotes, 5 * 60 * 1000);   // 5분마다 (서버 캐시 주기와 같음)
+  renderWatch();
+  qTimer = setTimeout(() => { quotes = {}; refreshQuotes(); }, 5 * 60 * 1000);   // 5분마다 (서버 캐시 주기와 같음)
 }
+function showForm(kind){
+  const f = $("#wform"), l = curList();
+  if (!kind){ f.hidden = true; f.innerHTML = ""; wform = null; return; }
+  wform = kind; f.hidden = false; wmsg("");
+  if (kind === "del"){
+    f.innerHTML = `<span>‘${esc(l.name)}’ 목록${l.items.length ? `(종목 ${l.items.length}개)` : ""}을 지울까요?</span><button class="chip" id="wok">지우기</button><button class="chip" id="wno">취소</button>`;
+  } else {
+    f.innerHTML = `<input id="wname" maxlength="${NMAX}" placeholder="${kind === "new" ? "새 목록 이름 (예: 3분기 스크리닝)" : "목록 이름"}" value="${kind === "ren" ? esc(l.name) : ""}"><button class="chip" id="wok">${kind === "new" ? "만들기" : "바꾸기"}</button><button class="chip" id="wno">취소</button>`;
+    const inp = $("#wname"); inp.focus(); inp.select();
+    inp.onkeydown = e => { if (e.key === "Enter") $("#wok").click(); else if (e.key === "Escape") showForm(null); };
+  }
+  $("#wno").onclick = () => showForm(null);
+  $("#wok").onclick = () => {
+    if (kind === "new"){
+      const nl = makeList($("#wname").value); if (!nl) { $("#wname").focus(); return; }
+      wl.cur = nl.id;
+    } else if (kind === "ren"){
+      const nm = cleanName($("#wname").value); if (!nm) { $("#wname").focus(); return; }
+      if (wl.lists.some(x => x.name === nm && x.id !== l.id)){ wmsg(`‘${esc(nm)}’ 목록이 이미 있어요.`); return; }
+      l.name = nm;
+    } else {
+      wl.lists = wl.lists.filter(x => x.id !== l.id);
+      if (!wl.lists.length) wl.lists = [{id: newId(), name: "내 관심종목", items: []}];
+      wl.cur = wl.lists[0].id;
+    }
+    saveOrWarn(); showForm(null); renderWatch(); refreshQuotes(); if (raw) renderTitle();
+  };
+}
+function toggleStarMenu(){
+  const old = $("#wmenu"); if (old){ old.remove(); return; }
+  const c = raw.code, n = raw.name, m = document.createElement("div");
+  m.className = "wmenu"; m.id = "wmenu";
+  const draw = () => {
+    m.innerHTML = `<div class="h">담을 목록 고르기</div>` + wl.lists.map(l => `<label><input type="checkbox" data-l="${l.id}"${l.items.some(w => w.c === c) ? " checked" : ""}>${esc(l.name)}<small>${l.items.length}</small></label>`).join("")
+      + (wl.lists.length < LMAX ? `<div class="new" id="wmnew"><button class="lnk" id="wmadd">+ 새 목록</button></div>` : "");
+    m.querySelectorAll("[data-l]").forEach(cb => cb.onchange = () => {
+      const l = wl.lists.find(x => x.id === cb.dataset.l); toggleIn(l, c, n); refreshStar(); draw();
+    });
+    const add = m.querySelector("#wmadd");
+    if (add) add.onclick = e => {
+      e.stopPropagation();
+      $("#wmnew").innerHTML = `<input id="wmname" maxlength="${NMAX}" placeholder="새 목록 이름"><button class="chip" id="wmok">만들고 담기</button>`;
+      const inp = $("#wmname"); inp.focus();
+      inp.onkeydown = ev => { if (ev.key === "Enter") $("#wmok").click(); };
+      $("#wmok").onclick = () => {
+        const nl = makeList(inp.value); if (!nl){ inp.focus(); return; }
+        addTo(nl, c, n); wl.cur = nl.id; saveOrWarn(); renderWatch(); refreshQuotes(); refreshStar(); draw();
+      };
+    };
+  };
+  draw();
+  m.onclick = e => e.stopPropagation();
+  $(".starwrap").appendChild(m);
+  const r = m.getBoundingClientRect();
+  if (r.right > document.documentElement.clientWidth - 8){ m.style.left = "auto"; m.style.right = "0"; }
+}
+function refreshStar(){ const b = $("#star"); if (!b || !raw) return; b.className = "star" + (inWatch(raw.code) ? " on" : ""); b.textContent = starLabel(raw.code); }
 function bindWatch(){
+  document.addEventListener("click", () => { const m = $("#wmenu"); if (m) m.remove(); });
+  $("#wtabs").onclick = e => {
+    if (e.target.closest("#wnew")){ showForm(wform === "new" ? null : "new"); return; }
+    const t = e.target.closest("[data-tab]"); if (!t) return;
+    wl.cur = t.dataset.tab; saveWatch(); showForm(null); renderWatch(); refreshQuotes();
+  };
+  $("#wren").onclick = () => showForm(wform === "ren" ? null : "ren");
+  $("#wdel").onclick = () => showForm(wform === "del" ? null : "del");
   $("#wlist").onclick = e => {
     const del = e.target.closest("[data-del]");
-    if (del){ const w = watch.find(x => x.c === del.dataset.del); if (w) toggleWatch(w.c, w.n); if (raw) renderTitle(); return; }
+    if (del){ const l = curList(), w = l.items.find(x => x.c === del.dataset.del); if (w) toggleIn(l, w.c, w.n); if (raw) renderTitle(); return; }
     const it = e.target.closest("[data-code]"); if (it) selectStock(it.dataset.code);
   };
   $("#wshare").onclick = async () => {
-    const url = `${location.origin}${location.pathname}#watch=${watch.map(w => w.c).join(",")}`;
+    const l = curList();
+    const url = `${location.origin}${location.pathname}#watch=${l.items.map(w => w.c).join(",")}&wname=${encodeURIComponent(l.name)}`;
     let copied = false;
     try { await navigator.clipboard.writeText(url); copied = true; } catch(e){}
-    wmsg(`${copied ? "링크를 복사했어요." : "아래 링크를 복사하세요."} 다른 기기·브라우저에서 이 링크를 열면 관심종목을 가져올 수 있어요.<input readonly value="${esc(url)}" onclick="this.select()">`);
+    wmsg(`${copied ? "링크를 복사했어요." : "아래 링크를 복사하세요."} 다른 기기·브라우저에서 이 링크를 열면 ‘${esc(l.name)}’ 목록을 가져올 수 있어요.<input readonly value="${esc(url)}" onclick="this.select()">`);
   };
 }
 // 링크로 받은 관심종목 가져오기
-function offerImport(codes){
-  const valid = codes.filter(c => byCode[c] && !inWatch(c));
+function offerImport(codes, name){
+  name = cleanName(name) || "내 관심종목";
+  const target = wl.lists.find(l => l.name === name);
+  const valid = codes.filter(c => byCode[c] && !(target && target.items.some(w => w.c === c)));
   if (!valid.length) return;
-  wmsg(`이 링크에 관심종목 ${valid.length}개가 들어 있어요: ${valid.slice(0, 5).map(c => esc(byCode[c].n)).join(", ")}${valid.length > 5 ? " 외" : ""} &nbsp;<button class="chip" id="wimp">내 목록에 추가</button> <button class="chip" id="wign">무시</button>`);
+  wmsg(`이 링크에 ‘${esc(name)}’ 목록 종목 ${valid.length}개가 들어 있어요: ${valid.slice(0, 5).map(c => esc(byCode[c].n)).join(", ")}${valid.length > 5 ? " 외" : ""} &nbsp;<button class="chip" id="wimp">${target ? `‘${esc(name)}’ 목록에 추가` : `‘${esc(name)}’ 목록으로 가져오기`}</button> <button class="chip" id="wign">무시</button>`);
   $("#wimp").onclick = () => {
-    valid.slice(0, WMAX - watch.length).forEach(c => watch.push({c, n: byCode[c].n}));
-    saveWatch(); wmsg(""); renderWatch(); refreshQuotes();
+    const l = target || makeList(name); if (!l) return;
+    valid.forEach(c => addTo(l, c, byCode[c].n));
+    wl.cur = l.id; saveOrWarn(); wmsg(""); renderWatch(); refreshQuotes(); if (raw) renderTitle();
   };
   $("#wign").onclick = () => wmsg("");
 }
@@ -1228,7 +1350,7 @@ function tip(ps, s){
   readHash(); renderControls(); renderParams(); bind();
   loadWatch(); bindWatch(); renderWatch(); refreshQuotes();
   await loadList();
-  if (importCodes.length) offerImport(importCodes);
+  if (importCodes.length) offerImport(importCodes, new URLSearchParams(location.hash.slice(1)).get("wname"));
   if (state.code) selectStock(state.code);
 })();
 })();
